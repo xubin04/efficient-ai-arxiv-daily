@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily arXiv research on efficient LLMs and visual generation: quantization, pruning, distillation, KV cache, speculative decoding, and diffusion acceleration.">
+  <meta name="color-scheme" content="light">
+  <title>Efficient AI · arXiv Daily</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23172033'/%3E%3Cpath d='M36 7 14 36h16l-3 21 23-31H34z' fill='%23c6ed8c'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/atom+xml" title="Efficient AI papers" href="feed.xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results">Skip to papers</a>
+  <header class="hero">
+    <div class="topline"><a class="brand" href="./"><span class="bolt">ϟ</span> EFFICIENT AI <span class="divider">/</span> RESEARCH RADAR</a><nav aria-label="Project"><a href="feed.xml">Atom feed ↗</a><a id="github" href="https://github.com/xubin04/efficient-ai-arxiv-daily">GitHub ↗</a></nav></div>
+    <div class="hero-body"><div><div class="eyebrow"><span class="dot"></span> DAILY RESEARCH · LLMs & VISUAL GENERATION</div><h1>Efficient AI<span>arXiv Daily.</span></h1><p class="intro">Less compute. More possibilities.<br>追踪大语言模型与视觉生成的加速、压缩和高效训练。</p></div><div class="hero-note"><span class="note-label">THE FOCUS</span><p>From low-bit models<br>to faster generation.</p><span class="schedule">Updated daily · 09:17 UTC+8</span></div></div>
+    <div class="metrics" aria-live="polite"><div><strong id="total">—</strong><span>UNIQUE PAPERS</span></div><div><strong id="new-count">—</strong><span>NEWLY INDEXED TODAY</span></div><div><strong>09</strong><span>RESEARCH TOPICS</span></div><div class="freshness"><span>LAST SUCCESSFUL SCAN</span><strong id="updated">Loading…</strong><small id="newest"></small></div></div>
+  </header>
+  <main class="layout">
+    <aside><div class="section-label">EXPLORE BY TOPIC</div><div id="topics" class="topics" aria-label="Research topics"></div><div class="aside-note"><strong>About this feed</strong><p>Official arXiv metadata, matched by configurable keywords. Papers may appear in multiple topics.</p><p>Abstracts are provided by the authors. Inclusion is automatic, not a quality ranking.</p><a href="https://github.com/xubin04/efficient-ai-arxiv-daily/blob/main/config.json">View search scope ↗</a></div></aside>
+    <section id="results" aria-label="Paper results">
+      <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search titles, authors, abstracts, or arXiv IDs…" aria-label="Search papers"></div>
+      <div class="filters"><label class="check"><input id="only-new" type="checkbox"> Newly indexed today</label><div class="selects"><select id="period" aria-label="Publication period"><option value="all">All indexed papers</option><option value="7">Published in last 7 days</option><option value="30">Published in last 30 days</option></select><select id="sort" aria-label="Sort papers"><option value="published">Newest submission</option><option value="updated">Recently revised</option></select></div></div>
+      <div class="result-heading"><h2 id="topic-title">All research</h2><span id="result-count" role="status">Loading papers…</span></div>
+      <div id="papers" class="papers"></div>
+      <div id="empty" class="empty" hidden><h3>No matching papers</h3><p>Try another keyword, topic, or date range.</p><button id="reset" type="button">Clear filters</button></div>
+      <div id="error" class="empty" hidden><h3>Could not load the feed</h3><p>Please refresh the page, or read the <a href="https://github.com/xubin04/efficient-ai-arxiv-daily">GitHub archive</a>.</p></div>
+      <button id="more" class="more" type="button" hidden>Show more papers</button>
+    </section>
+  </main>
+  <footer><span>Efficient AI · arXiv Daily</span><span>Built for a lighter research routine. <a href="https://github.com/xubin04/efficient-ai-arxiv-daily/issues">Report a missed paper ↗</a></span></footer>
+  <noscript><p>Enable JavaScript to search the feed, or browse the <a href="https://github.com/xubin04/efficient-ai-arxiv-daily">README and topic archives</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "title": "Efficient AI · arXiv Daily",
+  "repository": "xubin04/efficient-ai-arxiv-daily",
+  "timezone": "Asia/Shanghai",
+  "bootstrap_days": 30,
+  "overlap_days": 7,
+  "page_size": 100,
+  "max_results_per_topic": 2000,
+  "readme_per_topic": 12,
+  "focus_terms": ["efficient", "efficiency", "acceleration", "accelerating", "accelerated", "fast", "faster", "lightweight", "compact", "compression", "compressed", "compressing", "memory", "low-cost", "low-latency", "real-time", "throughput", "latency", "low-rank", "sparse", "sparsity", "cache", "caching", "scalable", "scaling", "speed", "speedup", "budget", "resource", "hardware"],
+  "exclude_title_terms": ["molecular", "molecule", "molecules", "protein", "proteins", "drug discovery", "MRI", "tomography"],
+  "arxiv_categories": ["cs.AI", "cs.CL", "cs.CV", "cs.LG", "cs.DC", "cs.AR", "cs.PF", "stat.ML"],
+  "scope_terms": ["language model", "language models", "LLM", "LLMs", "diffusion", "flow matching", "image generation", "video generation", "text-to-image", "text-to-video", "visual autoregressive", "DiT", "generative model", "generative models"],
+  "topics": [
+    {
+      "id": "quantization",
+      "name": "Quantization & Low Precision",
+      "description": "量化、低比特推理与低精度训练",
+      "groups": [["quantization", "quantized", "low-bit", "low-precision", "mixed-precision", "FP8", "FP4", "INT4", "1-bit", "2-bit", "4-bit"]]
+    },
+    {
+      "id": "pruning",
+      "name": "Pruning & Sparsity",
+      "description": "模型剪枝、结构化稀疏与 Token 压缩",
+      "groups": [["pruning", "sparsity", "sparse activation", "token merging", "token compression", "token reduction", "layer skipping", "early exit"]]
+    },
+    {
+      "id": "distillation",
+      "name": "Distillation & Few-Step Generation",
+      "description": "知识蒸馏、分布匹配与少步/单步生成",
+      "groups": [["distillation", "distilling", "consistency model", "consistency models", "few-step", "one-step", "single-step", "distribution matching"]]
+    },
+    {
+      "id": "efficient-training",
+      "name": "Efficient Training & Fine-Tuning",
+      "description": "LoRA/PEFT、显存优化与高效训练",
+      "groups": [["parameter-efficient", "LoRA", "QLoRA", "low-rank adaptation", "memory-efficient training", "efficient training", "activation checkpointing", "gradient checkpointing", "optimizer state", "training efficiency"]]
+    },
+    {
+      "id": "attention-kv-cache",
+      "name": "Efficient Attention & KV Cache",
+      "description": "高效 Attention、长上下文与 KV Cache 压缩",
+      "groups": [["KV cache", "KV-cache", "key-value cache", "sparse attention", "linear attention", "FlashAttention", "efficient attention", "attention acceleration", "context compression"]]
+    },
+    {
+      "id": "decoding-reasoning",
+      "name": "Speculative Decoding & Efficient Reasoning",
+      "description": "推测解码、并行解码与推理预算优化",
+      "groups": [["speculative decoding", "speculative sampling", "parallel decoding", "efficient reasoning", "reasoning efficiency", "overthinking", "reasoning compression", "adaptive reasoning", "test-time compute", "test-time scaling"]]
+    },
+    {
+      "id": "llm-systems",
+      "name": "LLM Serving & Systems",
+      "description": "LLM 推理服务、调度、卸载与分布式系统",
+      "groups": [["language model", "language models", "LLM", "LLMs"], ["serving", "inference system", "inference systems", "inference acceleration", "inference optimization", "inference efficiency", "disaggregated", "disaggregation", "offloading", "continuous batching", "PagedAttention", "vLLM", "SGLang", "tensor parallelism", "expert parallelism"]]
+    },
+    {
+      "id": "diffusion-acceleration",
+      "name": "Diffusion Caching & Acceleration",
+      "description": "扩散模型/DiT 的特征缓存、复用与采样加速",
+      "groups": [["diffusion", "DiT", "flow matching"], ["cache", "caching", "reuse", "reusing", "acceleration", "accelerating", "accelerated", "efficient sampling", "fast sampling", "step reduction", "step skipping"]]
+    },
+    {
+      "id": "visual-generation",
+      "name": "Efficient Image & Video Generation",
+      "description": "图像/视频生成的计算、显存与延迟优化",
+      "groups": [["image generation", "video generation", "text-to-image", "text-to-video", "image-to-video", "video diffusion", "diffusion transformer", "visual autoregressive"], ["efficient", "efficiency", "fast", "acceleration", "accelerating", "accelerated", "cache", "caching", "distillation", "quantization", "quantized", "pruning", "sparse", "compression", "few-step", "one-step", "low-bit", "real-time", "low-latency"]]
+    }
+  ]
+}
