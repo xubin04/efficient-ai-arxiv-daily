@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-13 21:17 CST** · **859 unique papers** · Newest submission: **2026-10-09**
+Last successful scan: **2026-10-14 02:09 CST** · **859 unique papers** · Newest submission: **2026-10-09**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-10-13 21:17 CST** · **859 unique papers** · Newes
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 68 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 101 |
 
-## Newly indexed · 2026-10-13
+## Newly indexed · 2026-10-14
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-10-09 | **LapMerge: Differentiable Exact-Budget Token Merging in Linear Time**<br><sub>Magdalena Trędowicz, Aleksandra Nowak, Tomasz Steifer et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13858) · [PDF](https://arxiv.org/pdf/2610.13858) |
-| 2026-10-09 | **DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs**<br><sub>Mahsa Salmani, Sayeh Sharify, Hesham Mostafa</sub> | [arXiv](https://arxiv.org/abs/2610.13767) · [PDF](https://arxiv.org/pdf/2610.13767) |
-| 2026-10-09 | **zip2zip++: Towards Inference-Time Token Compression with Minimal Quality Loss**<br><sub>Saibo Geng, Andrea Gentilini, Xinxian Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13605) · [PDF](https://arxiv.org/pdf/2610.13605) · [Code](https://github.com/epfl-dlab/zip2zip-plus-plus) |
-| 2026-10-09 | **AudioTETRIS: Token Elimination via Transitional Importance Signals for Efficient Audio LLMs**<br><sub>Shreya Sajid, Anna Vettoruzzo, Joaquin Vanschoren</sub> | [arXiv](https://arxiv.org/abs/2610.13600) · [PDF](https://arxiv.org/pdf/2610.13600) |
-| 2026-10-09 | **Defence against the dark arts of distillation: Unsupervised discovery of subliminal learning**<br><sub>Joseph Egan, Ciarán M. Gilligan-Lee, Michael O&#x27;Riordan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13536) · [PDF](https://arxiv.org/pdf/2610.13536) |
-| 2026-10-09 | **VideoAWR: Reinforcing Video Flow Models with Decoupled-Timestep Advantage-Weighted Rectification**<br><sub>Zheming Fu, Wenbin Ning, Ruizhe He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13338) · [PDF](https://arxiv.org/pdf/2610.13338) · [Code](https://github.com/Fuzm7/FlowAWR) |
-| 2026-10-09 | **Taking Tokenization off the Host for Agentic LLM Serving**<br><sub>Mohammad Siavashi, Pascal Schwinte, Ali Banaei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13325) · [PDF](https://arxiv.org/pdf/2610.13325) |
-| 2026-10-09 | **BoundaryEvo: Data-Model Co-Evolution at the Capability Boundary for Long-Chain Reasoning Distillation**<br><sub>Jiaming Su, Suorong Yang, Xudong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13285) · [PDF](https://arxiv.org/pdf/2610.13285) |
-| 2026-10-09 | **SheafPrune: Sheaf-Guided Graph Propagation for Visual Token Pruning**<br><sub>Xiaoyang Ma, Chi Wang, Hong Sun</sub> | [arXiv](https://arxiv.org/abs/2610.13263) · [PDF](https://arxiv.org/pdf/2610.13263) · [Code](https://github.com/Bob0817912/SheafPrune_ICLR_2027) |
-| 2026-10-09 | **High-Throughput Generative Video Super-Resolution on a Single Consumer GPU**<br><sub>Georgios Panaretou, Sotirios Chatzis</sub> | [arXiv](https://arxiv.org/abs/2610.13179) · [PDF](https://arxiv.org/pdf/2610.13179) |
-| 2026-10-09 | **PreCoG: Preview-Edit for Efficient Video Correction in Generation-Time**<br><sub>Yilai Liu, Wenqi Pei, Zhifeng Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13174) · [PDF](https://arxiv.org/pdf/2610.13174) |
-| 2026-10-09 | **PreSTO: Predictive Subtree Prefetching for Fast LLM Power Sampling**<br><sub>Nan Jiang, Panagiotis Theodoropoulos, Wei Deng</sub> | [arXiv](https://arxiv.org/abs/2610.13171) · [PDF](https://arxiv.org/pdf/2610.13171) |
-| 2026-10-09 | **When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows**<br><sub>Yuchen Ling, Shengcheng Yu, Zhenyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13092) · [PDF](https://arxiv.org/pdf/2610.13092) |
-| 2026-10-09 | **SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty**<br><sub>Yixuan Li, Minghao Lv, Xuenan Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13081) · [PDF](https://arxiv.org/pdf/2610.13081) |
-| 2026-10-09 | **KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse**<br><sub>Taiga Ikeda, Daisuke Miyashita, Jun Deguchi</sub> | [arXiv](https://arxiv.org/abs/2610.13060) · [PDF](https://arxiv.org/pdf/2610.13060) · [Code](https://github.com/taiga333/eval-kv-repurpose) |
-| 2026-10-09 | **Redirecting Teacher Supervision: Temporal-Response-Guided Latent Distillation for Video-Language Models**<br><sub>Xinkai Lu, Junli Zha, Haolan Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13045) · [PDF](https://arxiv.org/pdf/2610.13045) |
-| 2026-10-09 | **RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models**<br><sub>Ke Wan, Chen Chen</sub> | [arXiv](https://arxiv.org/abs/2610.13041) · [PDF](https://arxiv.org/pdf/2610.13041) |
-| 2026-10-09 | **GeoGR: Spatial-Semantic Token Compression and Group Routing for Efficient 3D VLMs**<br><sub>Yongxin Zheng, Hao Wu, Fang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13035) · [PDF](https://arxiv.org/pdf/2610.13035) · [Code](https://github.com/EIT-NLP/GeoGR) |
-| 2026-10-09 | **Unified Generative Video Compression with Autoregressive and Bidirectional Video Diffusion**<br><sub>Tianyu Zhang, Shuai Huo, Dengchao Jin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13023) · [PDF](https://arxiv.org/pdf/2610.13023) |
-| 2026-10-09 | **Hindsight Structured Advice Distillation: Steering Executor Agents with Advisors Trained on Their Failures and Task Characteristics**<br><sub>O. Ozan Koyluoglu</sub> | [arXiv](https://arxiv.org/abs/2610.13000) · [PDF](https://arxiv.org/pdf/2610.13000) |
-
-[View all 859 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
