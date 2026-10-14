@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-14 14:11 CST** · **985 unique papers** · Newest submission: **2026-10-13**
+Last successful scan: **2026-10-14 18:02 CST** · **985 unique papers** · Newest submission: **2026-10-13**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
