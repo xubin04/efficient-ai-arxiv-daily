@@ -4,10 +4,25 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-82 papers · newest submission first
+97 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **Unlocking Token Rewards via Training-Free Reward Attribution**<br><sub>Sitong Wu, Haoru Tan, Bin Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18704) · [PDF](https://arxiv.org/pdf/2610.18704) · [Code](https://github.com/stonewst/P2T) |
+| 2026-10-13 | **LLM2R: From Large Language Models to 3D Reassemblers**<br><sub>Zhouhan Zhong, Qiuhong Shen, Xingyi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18604) · [PDF](https://arxiv.org/pdf/2610.18604) |
+| 2026-10-12 | **Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining**<br><sub>Alexander Miasnikov, Ruslan Kabirov, Gleb Molodtsov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17429) · [PDF](https://arxiv.org/pdf/2610.17429) |
+| 2026-10-12 | **HASTE: Hierarchical and Attribute-aware Supervision for Generative Recommendation**<br><sub>Tripti Shukla, Shwetha Somasundaram, Akshat Gupta et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17368) · [PDF](https://arxiv.org/pdf/2610.17368) |
+| 2026-10-12 | **MLAfication: Efficiently Enabling High-Fidelity MLA for Modern LLMs**<br><sub>Zile Wang, Zhide Xie, Tao Ji</sub> | [arXiv](https://arxiv.org/abs/2610.17202) · [PDF](https://arxiv.org/pdf/2610.17202) · [Code](https://github.com/JT-Ushio/MLAfication) |
+| 2026-10-12 | **Growing to See: Efficient Pretraining of Self-Supervised Vision Transformers**<br><sub>Amir Mohammad Karimi Mamaghan, Ferdinand Kapl, Andrea Dittadi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16817) · [PDF](https://arxiv.org/pdf/2610.16817) |
+| 2026-10-12 | **StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning**<br><sub>Xuanlin Yang, Jia Li, Zhouchen Lin</sub> | [arXiv](https://arxiv.org/abs/2610.16451) · [PDF](https://arxiv.org/pdf/2610.16451) |
+| 2026-10-11 | **Fast and Accurate: Improving Personalized LLM Performance by Semantic Concentration Inspired Workload Split between RAG and Fine-Tuning**<br><sub>Xingke Yang, Sicong Li, Lingfeng Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15921) · [PDF](https://arxiv.org/pdf/2610.15921) |
+| 2026-10-11 | **Engram Injection: A Study of Temporal Validity in Parametric Language-Model Memory**<br><sub>Sam Siavoshian, Omar Ramadan, Amir K. Saeed et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15882) · [PDF](https://arxiv.org/pdf/2610.15882) |
+| 2026-10-11 | **When Skills Remain But Access Fails: Factorized Skill Memory for Continual Skill Internalization**<br><sub>Haomiao Qiu, Yining Tang, Hongyi Wan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15492) · [PDF](https://arxiv.org/pdf/2610.15492) |
+| 2026-10-10 | **Beyond Adjacent Layers: Graph-Guided Layer Fusion for Compressing Large Language Models**<br><sub>Muhammad Usama, Yeoreum Jung</sub> | [arXiv](https://arxiv.org/abs/2610.15159) · [PDF](https://arxiv.org/pdf/2610.15159) · [Code](https://github.com/Usama1002/fcm-layer-fusion) |
+| 2026-10-10 | **Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models**<br><sub>S. M. Mahbub Uddin Ahmed</sub> | [arXiv](https://arxiv.org/abs/2610.15029) · [PDF](https://arxiv.org/pdf/2610.15029) |
+| 2026-10-10 | **Representation Drift in Continual Learning: LoRA versus N-gram Memory**<br><sub>Hao Wu</sub> | [arXiv](https://arxiv.org/abs/2610.14921) · [PDF](https://arxiv.org/pdf/2610.14921) |
+| 2026-10-10 | **AcrossVAM2.0: Conflict-Aware Point Supervision for Parameter-Efficient Video Diffusion Adaptation**<br><sub>Nan Wu, Yee Hung Hong</sub> | [arXiv](https://arxiv.org/abs/2610.14693) · [PDF](https://arxiv.org/pdf/2610.14693) |
+| 2026-10-10 | **FreeCHROMA: Generative Chroma Keying from Unaligned Background References**<br><sub>Jiayi Wu, Tianfu Wang, Rui Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14445) · [PDF](https://arxiv.org/pdf/2610.14445) |
 | 2026-10-09 | **Personalized Federated Direct Preference Optimization via LoRA Adapters**<br><sub>Zhanhong Jiang, Soumik Sarkar</sub> | [arXiv](https://arxiv.org/abs/2610.12885) · [PDF](https://arxiv.org/pdf/2610.12885) |
 | 2026-10-08 | **DPPM: Dual-Path Parametric Memory for Personalized Language Models**<br><sub>Yuhao Chen, Shuochen Liu, Jiayao Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.11776) · [PDF](https://arxiv.org/pdf/2610.11776) |
 | 2026-10-08 | **V-CoLA: Vision Token Compression with Linear Attention**<br><sub>Hao Jiang, Yiru Mao, Tianpeng Bu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.11251) · [PDF](https://arxiv.org/pdf/2610.11251) |

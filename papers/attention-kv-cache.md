@@ -4,10 +4,28 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-118 papers · newest submission first
+136 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs**<br><sub>Aimon Rahman, Joymallya Chakraborty, Vidit Bansal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18858) · [PDF](https://arxiv.org/pdf/2610.18858) |
+| 2026-10-13 | **MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization**<br><sub>Yangchengyu Zhou, Zhiping Wu, Runchang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18642) · [PDF](https://arxiv.org/pdf/2610.18642) · [Code](https://github.com/RL-MIND/MultiAlloc) |
+| 2026-10-13 | **SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware**<br><sub>Jieyun Deng, Keming Hu, Yanghe Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18140) · [PDF](https://arxiv.org/pdf/2610.18140) |
+| 2026-10-13 | **H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression**<br><sub>Or Ronai, Vladimir Kulikov, Tomer Michaeli</sub> | [arXiv](https://arxiv.org/abs/2610.18125) · [PDF](https://arxiv.org/pdf/2610.18125) |
+| 2026-10-13 | **BELT : BEhavior-Aligned Low-Rank KV Cache Compression with Learned Top-k Rank Allocation**<br><sub>Yaoyang Liu, Shuwei Shen, Jincheng Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17966) · [PDF](https://arxiv.org/pdf/2610.17966) |
+| 2026-10-13 | **CineMem: Attention-Aligned Fine-grained Memory Retrieval for Multi-Shot Long Video Generation**<br><sub>Xiaoxue Wu, Xinyu Gao, Fang Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17926) · [PDF](https://arxiv.org/pdf/2610.17926) |
+| 2026-10-12 | **Budgeted KV-Cache Repair for Evolving Contexts**<br><sub>Han Yu, Wenhui Zhu, Jincheng Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17338) · [PDF](https://arxiv.org/pdf/2610.17338) |
+| 2026-10-12 | **Think Before You Speak: Enabling Training-Free Latent Communication Between Language Models**<br><sub>Rishi Khare</sub> | [arXiv](https://arxiv.org/abs/2610.16165) · [PDF](https://arxiv.org/pdf/2610.16165) |
+| 2026-10-11 | **E8 Lattice Key Quantization for Low-Bit KV-Cache Compression**<br><sub>Sasho Nedelkoski, Alexander Acker, Soeren Becker et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15384) · [PDF](https://arxiv.org/pdf/2610.15384) |
+| 2026-10-11 | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation**<br><sub>Jiahui Hu, Weile Mo, Peiliang Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15324) · [PDF](https://arxiv.org/pdf/2610.15324) |
+| 2026-10-10 | **DeltaNet-PC: Test-Time Memory Without Backpropagation Through Time**<br><sub>Todd Morrill, Richard Zemel</sub> | [arXiv](https://arxiv.org/abs/2610.15185) · [PDF](https://arxiv.org/pdf/2610.15185) |
+| 2026-10-10 | **When Dynamic Scaling Fails: A Scale-State Feedback Governs Recurrent-State Quantization in Linear-Attention and SSM LLMs**<br><sub>Yuhang Jiang</sub> | [arXiv](https://arxiv.org/abs/2610.15139) · [PDF](https://arxiv.org/pdf/2610.15139) |
+| 2026-10-10 | **Swarm Telepathy: Prefill-Free KV-Cache Transfer Across Families**<br><sub>Abdulrahman Alabdulkareem, Irene Tenison, Yang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15095) · [PDF](https://arxiv.org/pdf/2610.15095) |
+| 2026-10-10 | **GateSight: Recurrent Memory Anticipates Attention Memory for Query-Agnostic KV Eviction in Hybrid LLMs**<br><sub>Junjie Li, Jiong Lou, Jie Li</sub> | [arXiv](https://arxiv.org/abs/2610.14754) · [PDF](https://arxiv.org/pdf/2610.14754) |
+| 2026-10-10 | **Competition Domains Matter: Selective Head Globalization for Training-Free Sparse Attention in Video Diffusion Transformers**<br><sub>Tiantian Liu, Meng Wan, Zhiqiang Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14672) · [PDF](https://arxiv.org/pdf/2610.14672) |
+| 2026-10-10 | **FrameFold: Response-Guided KV Cache Consolidation for Autoregressive Long Video Generation**<br><sub>Muyu Liu, Mingming Liu, Hong Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14568) · [PDF](https://arxiv.org/pdf/2610.14568) |
+| 2026-10-10 | **EdgeLLM-Nano: Auditing Polar-Guided Key-Cache Compression and Consistency-Anchored Pruning on a 33.6 MB On-Device Language Model**<br><sub>S M Mahbub Murshed, Hayden Bright, Rezaul Karim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14475) · [PDF](https://arxiv.org/pdf/2610.14475) |
+| 2026-10-09 | **Simulate Before You Scale: High-Fidelity LLM Inference Planning Without GPUs**<br><sub>Dipanwita Guhathakurta, Mert Toslali, Srinivasan Parthasarathy et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14255) · [PDF](https://arxiv.org/pdf/2610.14255) |
 | 2026-10-09 | **KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse**<br><sub>Taiga Ikeda, Daisuke Miyashita, Jun Deguchi</sub> | [arXiv](https://arxiv.org/abs/2610.13060) · [PDF](https://arxiv.org/pdf/2610.13060) · [Code](https://github.com/taiga333/eval-kv-repurpose) |
 | 2026-10-08 | **Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation**<br><sub>Jiaming Zhang, Xinyu Wang, Huafeng Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.11756) · [PDF](https://arxiv.org/pdf/2610.11756) |
 | 2026-10-08 | **BioBigBird: A Sparse Attention Model for Long-Range Dependency Processing in Biomedical Text**<br><sub>Roshan Balaji, Pavan Kumar S, Vasudev Gupta et al.</sub> | [arXiv](https://arxiv.org/abs/2610.11430) · [PDF](https://arxiv.org/pdf/2610.11430) · [Code](https://huggingface.co/collections/bisectgroup/biobigbird) |

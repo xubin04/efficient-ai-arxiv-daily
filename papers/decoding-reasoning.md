@@ -4,14 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-90 papers · newest submission first
+97 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models**<br><sub>Yuqi Huang, Xingyao Li, Yunlong Hou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18735) · [PDF](https://arxiv.org/pdf/2610.18735) |
+| 2026-10-13 | **Compare to Correct: Pairwise-Guided Logit Adjustment for LLM Test-Time Scaling**<br><sub>Cong Hua, Qianqian Xu, Zitai Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18583) · [PDF](https://arxiv.org/pdf/2610.18583) |
+| 2026-10-13 | **RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions**<br><sub>Rishabh Ranjan, Vignesh Kothapalli, Harshvardhan Agarwal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17867) · [PDF](https://arxiv.org/pdf/2610.17867) |
+| 2026-10-13 | **Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing**<br><sub>Xiaolong Xu, Hao Jiang, Bo Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17831) · [PDF](https://arxiv.org/pdf/2610.17831) |
+| 2026-10-12 | **SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding**<br><sub>Boyuan Yang, Wei Gao</sub> | [arXiv](https://arxiv.org/abs/2610.17436) · [PDF](https://arxiv.org/pdf/2610.17436) |
+| 2026-10-12 | **PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models**<br><sub>Quentin Fruytier, Anton Xue, Sanjay Shakkottai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17375) · [PDF](https://arxiv.org/pdf/2610.17375) · [Code](https://github.com/Quentin-Fruytier/PIG-DLM-release) |
+| 2026-10-12 | **Intent-Triggered Anchoring for Multi-Token Format Units in Parallel Decoding of Diffusion Language Models**<br><sub>Junhyeok Lee, Kyu Sung Choi</sub> | [arXiv](https://arxiv.org/abs/2610.16516) · [PDF](https://arxiv.org/pdf/2610.16516) |
 | 2026-10-09 | **SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty**<br><sub>Yixuan Li, Minghao Lv, Xuenan Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13081) · [PDF](https://arxiv.org/pdf/2610.13081) |
 | 2026-10-09 | **Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding**<br><sub>Raghavv Goel, Sudhanshu Agrawal, Mukul Gagrani et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12939) · [PDF](https://arxiv.org/pdf/2610.12939) |
 | 2026-10-09 | **Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training**<br><sub>Suorong Yang, Jiaxin Wang, Jiaming Su et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12933) · [PDF](https://arxiv.org/pdf/2610.12933) |
-| 2026-10-08 | **Contextual Correction of Parallel Draftsfor Speculative Decoding**<br><sub>Roy Eisenstadt, Harel Lidar, Tal Gonen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12570) · [PDF](https://arxiv.org/pdf/2610.12570) |
+| 2026-10-08 | **Contextual Correction of Parallel Drafts for Speculative Decoding**<br><sub>Roy Eisenstadt, Harel Lidar, Tal Gonen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12570) · [PDF](https://arxiv.org/pdf/2610.12570) |
 | 2026-10-08 | **When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation**<br><sub>Yiruo Cheng, Shen Huang, Xiaoshuai Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12061) · [PDF](https://arxiv.org/pdf/2610.12061) |
 | 2026-10-07 | **Speedbumps: Rejection Attacks on Speculative Decoding**<br><sub>Adam Y. J. Jones, Yu Yuan, Sergio Maffeis</sub> | [arXiv](https://arxiv.org/abs/2610.10929) · [PDF](https://arxiv.org/pdf/2610.10929) |
 | 2026-10-07 | **From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery**<br><sub>Xinglin Wang, Zishen Liu, Tong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.09684) · [PDF](https://arxiv.org/pdf/2610.09684) |

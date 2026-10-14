@@ -4,10 +4,32 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-140 papers · newest submission first
+162 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection**<br><sub>Yichi Zhang, Zhenxiang Huang, Yuyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18566) · [PDF](https://arxiv.org/pdf/2610.18566) |
+| 2026-10-13 | **FastEEP: Fast Intra-Instance Elastic Scaling for Expert-Parallel MoE Serving**<br><sub>Yunfei Feng, Jingkai He, Shiqi Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18451) · [PDF](https://arxiv.org/pdf/2610.18451) |
+| 2026-10-13 | **RadixFlow: Filling Execution Bubbles in Prefix-Cached Hybrid LLM Serving**<br><sub>Huihao Jing, Wenbin Hu, Shaojin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18143) · [PDF](https://arxiv.org/pdf/2610.18143) |
+| 2026-10-13 | **HaloBlock: Faster and Better Decoding for Diffusion Large Language Models**<br><sub>Zhaohui Zheng, Chenhang He, Jinrui Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17948) · [PDF](https://arxiv.org/pdf/2610.17948) · [Code](https://github.com/PolyU-VCLab/HaloBlock) |
+| 2026-10-13 | **Batch-Paced: Fixed-Budget Batch Decoding in Discrete Diffusion Language Models**<br><sub>Shuai Zhang, Zhanchao Zhou, Huachuan Qiu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17917) · [PDF](https://arxiv.org/pdf/2610.17917) |
+| 2026-10-13 | **Quota-Based Aging for Prediction-Guided Scheduling in LLM Serving**<br><sub>Hanzhi Zhang, Anxuan Che, Hang Qi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17795) · [PDF](https://arxiv.org/pdf/2610.17795) |
+| 2026-10-13 | **MemAct: Streaming Spatial Understanding with Memory and Active Exploration**<br><sub>Yuxi Wei, Wei Huang, Qirui Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17640) · [PDF](https://arxiv.org/pdf/2610.17640) |
+| 2026-10-12 | **Efficient Resource-Shiftable RL Post-training with Generative Rewards**<br><sub>Yanfeng Zhao, Haoyang Li, Sheng Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16866) · [PDF](https://arxiv.org/pdf/2610.16866) |
+| 2026-10-12 | **Prorsa: Unleashing the Potential of Prefill-Decode Disaggregation in Agentic Reinforcement Learning**<br><sub>Chiheng Lou, Xiangwei Deng, Bangjun Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16592) · [PDF](https://arxiv.org/pdf/2610.16592) |
+| 2026-10-12 | **LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers**<br><sub>Zhixiong Zhao, Zukang Xu, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16368) · [PDF](https://arxiv.org/pdf/2610.16368) · [Code](https://github.com/Kishon-zzx/LoopQuant%5D) |
+| 2026-10-12 | **A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoonSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
+| 2026-10-11 | **Lightweight Scheduling Policies for Continuously Batched LLLM Serving Across GPU Architectures**<br><sub>Ashman Mehra, Akshan Agarwal, Aryeh Carmi</sub> | [arXiv](https://arxiv.org/abs/2610.15899) · [PDF](https://arxiv.org/pdf/2610.15899) |
+| 2026-10-11 | **Native Dual Pools or Shared Paging? Memory Organization for Concurrent Hybrid LLM Serving**<br><sub>Dongwook Kang</sub> | [arXiv](https://arxiv.org/abs/2610.15755) · [PDF](https://arxiv.org/pdf/2610.15755) |
+| 2026-10-11 | **The Price of Precision: A Calibrated Cost Model for Mixed-Precision LLM Serving**<br><sub>Mukund Athmaram, Manoj Rao, Liang Ma</sub> | [arXiv](https://arxiv.org/abs/2610.15629) · [PDF](https://arxiv.org/pdf/2610.15629) |
+| 2026-10-11 | **E8 Lattice Key Quantization for Low-Bit KV-Cache Compression**<br><sub>Sasho Nedelkoski, Alexander Acker, Soeren Becker et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15384) · [PDF](https://arxiv.org/pdf/2610.15384) |
+| 2026-10-11 | **Compositional Performance Modeling of LLM Inference Clusters with Hierarchical KV Caching**<br><sub>Ruiyang Ma, Sheng Qi, DaiKang Kuang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15366) · [PDF](https://arxiv.org/pdf/2610.15366) |
+| 2026-10-10 | **AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition**<br><sub>Kaibin Guo, Pengtu Li, Zicong Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14804) · [PDF](https://arxiv.org/pdf/2610.14804) |
+| 2026-10-10 | **GateSight: Recurrent Memory Anticipates Attention Memory for Query-Agnostic KV Eviction in Hybrid LLMs**<br><sub>Junjie Li, Jiong Lou, Jie Li</sub> | [arXiv](https://arxiv.org/abs/2610.14754) · [PDF](https://arxiv.org/pdf/2610.14754) |
+| 2026-10-10 | **Accelerating Cross-Model LLM Inference via Attention Map Reuse**<br><sub>Zhan Jin, Yuze Luo, Bin Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14688) · [PDF](https://arxiv.org/pdf/2610.14688) · [Code](https://github.com/PKU-DAIR/MapFlow) |
+| 2026-10-10 | **Dissecting the Carbon-SLO Tension in Geo-Distributed LLM Serving**<br><sub>Burak Topcu, Musa Cim, Zuhal Ozturk et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14571) · [PDF](https://arxiv.org/pdf/2610.14571) · [Code](https://github.com/topcuburak/carbon-slo-at-geoscale) |
+| 2026-10-09 | **Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware**<br><sub>Zeyu Yang, Wes Armour</sub> | [arXiv](https://arxiv.org/abs/2610.14389) · [PDF](https://arxiv.org/pdf/2610.14389) |
+| 2026-10-09 | **Simulate Before You Scale: High-Fidelity LLM Inference Planning Without GPUs**<br><sub>Dipanwita Guhathakurta, Mert Toslali, Srinivasan Parthasarathy et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14255) · [PDF](https://arxiv.org/pdf/2610.14255) |
 | 2026-10-09 | **Taking Tokenization off the Host for Agentic LLM Serving**<br><sub>Mohammad Siavashi, Pascal Schwinte, Ali Banaei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13325) · [PDF](https://arxiv.org/pdf/2610.13325) |
 | 2026-10-09 | **When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows**<br><sub>Yuchen Ling, Shengcheng Yu, Zhenyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13092) · [PDF](https://arxiv.org/pdf/2610.13092) |
 | 2026-10-09 | **KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse**<br><sub>Taiga Ikeda, Daisuke Miyashita, Jun Deguchi</sub> | [arXiv](https://arxiv.org/abs/2610.13060) · [PDF](https://arxiv.org/pdf/2610.13060) · [Code](https://github.com/taiga333/eval-kv-repurpose) |

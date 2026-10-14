@@ -4,10 +4,29 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-137 papers · newest submission first
+156 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization**<br><sub>Yangchengyu Zhou, Zhiping Wu, Runchang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18642) · [PDF](https://arxiv.org/pdf/2610.18642) · [Code](https://github.com/RL-MIND/MultiAlloc) |
+| 2026-10-13 | **Lightweight but Linguistically Fair? Quantisation Robustness across Bavarian, German, and English**<br><sub>Jophin John, Michael Hoffmann, Piroska Lendvai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18343) · [PDF](https://arxiv.org/pdf/2610.18343) |
+| 2026-10-13 | **Revisiting Error Feedback for Model Quantization**<br><sub>Wai-Yiu Keung, Chi Cui, Wing-Kin Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18139) · [PDF](https://arxiv.org/pdf/2610.18139) |
+| 2026-10-13 | **BELT : BEhavior-Aligned Low-Rank KV Cache Compression with Learned Top-k Rank Allocation**<br><sub>Yaoyang Liu, Shuwei Shen, Jincheng Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17966) · [PDF](https://arxiv.org/pdf/2610.17966) |
+| 2026-10-13 | **Mixed Precision Scaling Laws for Quantized Pretraining**<br><sub>Jinuk Kim, Rajarshi Saha, Muhammed Fatih Balin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17637) · [PDF](https://arxiv.org/pdf/2610.17637) |
+| 2026-10-13 | **Capacity over TFLOPS: Memory-Centric Deployment of Large Clinical Language Models on Consumer CPUs**<br><sub>Eli Yune, Umer Majeed, Mahesh Balan</sub> | [arXiv](https://arxiv.org/abs/2610.17551) · [PDF](https://arxiv.org/pdf/2610.17551) · [Code](https://github.com/balkeumlabs/LLM-on-CPU) |
+| 2026-10-13 | **Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference**<br><sub>Petar Basta</sub> | [arXiv](https://arxiv.org/abs/2610.17531) · [PDF](https://arxiv.org/pdf/2610.17531) |
+| 2026-10-12 | **LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers**<br><sub>Zhixiong Zhao, Zukang Xu, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16368) · [PDF](https://arxiv.org/pdf/2610.16368) · [Code](https://github.com/Kishon-zzx/LoopQuant%5D) |
+| 2026-10-12 | **Fast Quantized Johnson$-$Lindenstrauss Transforms**<br><sub>Angelos Korakitis, Vasileios Nakos</sub> | [arXiv](https://arxiv.org/abs/2610.16289) · [PDF](https://arxiv.org/pdf/2610.16289) |
+| 2026-10-11 | **The Price of Precision: A Calibrated Cost Model for Mixed-Precision LLM Serving**<br><sub>Mukund Athmaram, Manoj Rao, Liang Ma</sub> | [arXiv](https://arxiv.org/abs/2610.15629) · [PDF](https://arxiv.org/pdf/2610.15629) |
+| 2026-10-11 | **E8 Lattice Key Quantization for Low-Bit KV-Cache Compression**<br><sub>Sasho Nedelkoski, Alexander Acker, Soeren Becker et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15384) · [PDF](https://arxiv.org/pdf/2610.15384) |
+| 2026-10-11 | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation**<br><sub>Jiahui Hu, Weile Mo, Peiliang Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15324) · [PDF](https://arxiv.org/pdf/2610.15324) |
+| 2026-10-11 | **HGA-Quant: Heterogeneity-Aware Quantization for AutoRegressive Visual Generation Models**<br><sub>Xinmeng Liu, Xianglong Yan, Kaicheng Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15297) · [PDF](https://arxiv.org/pdf/2610.15297) · [Code](https://github.com/lxm-lc/HGA-Quant) |
+| 2026-10-10 | **When Dynamic Scaling Fails: A Scale-State Feedback Governs Recurrent-State Quantization in Linear-Attention and SSM LLMs**<br><sub>Yuhang Jiang</sub> | [arXiv](https://arxiv.org/abs/2610.15139) · [PDF](https://arxiv.org/pdf/2610.15139) |
+| 2026-10-10 | **Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models**<br><sub>S. M. Mahbub Uddin Ahmed</sub> | [arXiv](https://arxiv.org/abs/2610.15029) · [PDF](https://arxiv.org/pdf/2610.15029) |
+| 2026-10-10 | **FidelityQ: Preserving Predictive Fidelity in Ultra-Low-Bit Language Model Quantization**<br><sub>Yujie Chen, Weiyan Zheng, Yiwu Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14934) · [PDF](https://arxiv.org/pdf/2610.14934) |
+| 2026-10-10 | **SAGE: Pushing 2-Bit Vector-Quantized LLMs toward Real-World Usability**<br><sub>Xianglong Yan, Zenan Wu, Kewei Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14745) · [PDF](https://arxiv.org/pdf/2610.14745) · [Code](https://github.com/Zincwolf/sage) |
+| 2026-10-09 | **Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, and Hardware**<br><sub>Zeyu Yang, Wes Armour</sub> | [arXiv](https://arxiv.org/abs/2610.14389) · [PDF](https://arxiv.org/pdf/2610.14389) |
+| 2026-10-09 | **Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference**<br><sub>Xingyu Xie, Xiaoyong Xie, Zhouchen Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14277) · [PDF](https://arxiv.org/pdf/2610.14277) |
 | 2026-10-09 | **DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs**<br><sub>Mahsa Salmani, Sayeh Sharify, Hesham Mostafa</sub> | [arXiv](https://arxiv.org/abs/2610.13767) · [PDF](https://arxiv.org/pdf/2610.13767) |
 | 2026-10-09 | **RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models**<br><sub>Ke Wan, Chen Chen</sub> | [arXiv](https://arxiv.org/abs/2610.13041) · [PDF](https://arxiv.org/pdf/2610.13041) |
 | 2026-10-08 | **VFold: Symmetry-Aware Cross-Layer Value Cache Compression**<br><sub>Neha Verma, Sungwon Kim, Kenton Murray et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12338) · [PDF](https://arxiv.org/pdf/2610.12338) |

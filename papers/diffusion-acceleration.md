@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-68 papers · newest submission first
+80 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression**<br><sub>Or Ronai, Vladimir Kulikov, Tomer Michaeli</sub> | [arXiv](https://arxiv.org/abs/2610.18125) · [PDF](https://arxiv.org/pdf/2610.18125) |
+| 2026-10-13 | **LinMorph: Learning to Morph Weights for Efficient Video DiT Linearization**<br><sub>Lingyi Long, Congyue Zhao, Xiaoou Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17914) · [PDF](https://arxiv.org/pdf/2610.17914) |
+| 2026-10-12 | **PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models**<br><sub>Quentin Fruytier, Anton Xue, Sanjay Shakkottai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17375) · [PDF](https://arxiv.org/pdf/2610.17375) · [Code](https://github.com/Quentin-Fruytier/PIG-DLM-release) |
+| 2026-10-12 | **MARS: Systematic Multi-Level Acceleration for World Action Models**<br><sub>Zengyuan Zuo, Yongchang Zhang, Guangyu Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17141) · [PDF](https://arxiv.org/pdf/2610.17141) · [Code](https://github.com/PKU-VaLuE-Lab/MARS) |
+| 2026-10-12 | **Heuristics are Not Enough: Calibrated and Corrected Caching for Video Diffusion Acceleration**<br><sub>Jiyue Jiang, Zhiyu Huo, Yuhan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16545) · [PDF](https://arxiv.org/pdf/2610.16545) · [Code](https://github.com/jiangjyjy/AlignCache) |
+| 2026-10-12 | **Tikhonov-Stabilized Bezier Representation Forecasting for Training-free Diffusion Acceleration**<br><sub>Lei Zhu, Mujie Lin, Ruochong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16448) · [PDF](https://arxiv.org/pdf/2610.16448) |
+| 2026-10-11 | **Frequency-Step Cache: Separating Synchronization and Repair for Efficient Autoregressive Video Diffusion**<br><sub>Kerry Xu, Param Misra, Zachary Stenglein et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15922) · [PDF](https://arxiv.org/pdf/2610.15922) |
+| 2026-10-11 | **TempoKV: Predictive KV Cache Quantization for Autoregressive Video Generation**<br><sub>Jiahui Hu, Weile Mo, Peiliang Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15324) · [PDF](https://arxiv.org/pdf/2610.15324) |
+| 2026-10-10 | **LightVAE: Towards Compact and Efficient Video Autoencoders**<br><sub>Shiqiao Gu, Yang Yong, Fengjun Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14726) · [PDF](https://arxiv.org/pdf/2610.14726) · [Code](https://github.com/ModelTC/LightVAE) |
+| 2026-10-10 | **PixARG: Pixel-Asynchronous Retrieval-Augmented Diffusion for Fast and Realistic Image Generation**<br><sub>Zewei Xin, Qinya Li, Chaoyue Niu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14713) · [PDF](https://arxiv.org/pdf/2610.14713) |
+| 2026-10-10 | **Demiurge: Forging Navigable 4D Worlds via Autoregressive Video Rerendering**<br><sub>Hanxin Zhu, Jianqi Ma, Cong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14685) · [PDF](https://arxiv.org/pdf/2610.14685) |
+| 2026-10-10 | **TGuide: Faster Autoregressive Video Diffusion via Historical Trajectory Guidance**<br><sub>Zhuo Chen, Bin Zou, Fanyue Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14657) · [PDF](https://arxiv.org/pdf/2610.14657) |
 | 2026-10-08 | **DiffuPlex: Accelerating Full-Duplex Spoken Dialog Models via Rolling Masked Diffusion**<br><sub>Heeseung Kim</sub> | [arXiv](https://arxiv.org/abs/2610.12214) · [PDF](https://arxiv.org/pdf/2610.12214) |
 | 2026-10-08 | **Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation**<br><sub>Jiaming Zhang, Xinyu Wang, Huafeng Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.11756) · [PDF](https://arxiv.org/pdf/2610.11756) |
 | 2026-10-08 | **CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration**<br><sub>Qinhan Lyu, Jusheng Zhang, Zhixing Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.12530) · [PDF](https://arxiv.org/pdf/2610.12530) |

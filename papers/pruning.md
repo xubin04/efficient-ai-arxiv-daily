@@ -4,10 +4,28 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-125 papers · newest submission first
+143 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-13 | **Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs**<br><sub>Aimon Rahman, Joymallya Chakraborty, Vidit Bansal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18858) · [PDF](https://arxiv.org/pdf/2610.18858) |
+| 2026-10-13 | **Just Respect the Semantics: Image-Token Compression via Pre-LLM Semantic Variable-Resolution Tokenization and In-LLM Relevance Pruning**<br><sub>Tianhao Fu, Austin Wang, Charles Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18690) · [PDF](https://arxiv.org/pdf/2610.18690) |
+| 2026-10-13 | **Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too**<br><sub>Mehdi Makni, Natalia Ponomareva, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2610.18516) · [PDF](https://arxiv.org/pdf/2610.18516) |
+| 2026-10-13 | **Readout Scaling Shapes Sparse Feature Recovery**<br><sub>Brain Xiao, Sarah Wilson</sub> | [arXiv](https://arxiv.org/abs/2610.18462) · [PDF](https://arxiv.org/pdf/2610.18462) |
+| 2026-10-13 | **Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs**<br><sub>Peiran Yin, Hao Wu, Zihao Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18399) · [PDF](https://arxiv.org/pdf/2610.18399) · [Code](https://github.com/EIT-NLP/Bifocal) |
+| 2026-10-13 | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models**<br><sub>Kai Liu, Anqi Li, Junxian Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17530) · [PDF](https://arxiv.org/pdf/2610.17530) · [Code](https://github.com/Kai-Liu001/TwinPrune) |
+| 2026-10-12 | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models**<br><sub>Zihan Meng, Weidong Chen, Dexiang Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16744) · [PDF](https://arxiv.org/pdf/2610.16744) |
+| 2026-10-12 | **When 1+1 Backfires: Rethinking Relevance-Diversity Balancing for Sample-Aware Visual Token Reduction**<br><sub>Yihang Huang, Peisong Wen, Chenhao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16615) · [PDF](https://arxiv.org/pdf/2610.16615) |
+| 2026-10-12 | **Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding**<br><sub>Shuo Gao, Chenhao Zheng, Zhongzheng Ren</sub> | [arXiv](https://arxiv.org/abs/2610.16118) · [PDF](https://arxiv.org/pdf/2610.16118) |
+| 2026-10-11 | **Heterogeneous Structured Pruning Under Resource Constraints for Hardware-Efficient Large Language Models**<br><sub>Cameron Barker, Andreas Paraskeva, Jan N. van Rijn et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15781) · [PDF](https://arxiv.org/pdf/2610.15781) |
+| 2026-10-11 | **The Fragility and Dynamics of LLM Pruning-Recovery Steps**<br><sub>Luis Frentzen Salim, Komang Rinartha, Chia-Chun Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15574) · [PDF](https://arxiv.org/pdf/2610.15574) |
+| 2026-10-11 | **SARATHI: Decoupled Data-Free Probing and Adaptive Reconstruction for Structured LLM Pruning**<br><sub>Sankar Behera, Dhruv Singh, Satyadev Ahlawat et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15514) · [PDF](https://arxiv.org/pdf/2610.15514) |
+| 2026-10-11 | **WUSPruner: Second-Moment-Optimal Transforms for Structured Pruning**<br><sub>Shengkun Tang, Dan Alistarh, Zhiqiang Shen</sub> | [arXiv](https://arxiv.org/abs/2610.15394) · [PDF](https://arxiv.org/pdf/2610.15394) |
+| 2026-10-11 | **CHEAR: Confusion-Hierarchy Evidence-Aware Reasoning for Cost-Efficient Human Activity Recognition**<br><sub>Xiangqing Lu, Tao Zhu, Mingxing Nie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15298) · [PDF](https://arxiv.org/pdf/2610.15298) |
+| 2026-10-10 | **Compute-Optimal Scaling Laws for Spiking Language Models**<br><sub>Dan Saunders, Benjamin Ren, Catherine He</sub> | [arXiv](https://arxiv.org/abs/2610.15146) · [PDF](https://arxiv.org/pdf/2610.15146) |
+| 2026-10-10 | **Retraining-Free Depth Pruning of Vision Transformers: A Cross Domain Study of Layer Redundancy**<br><sub>Alessandro Viespoli, Loris Nanni</sub> | [arXiv](https://arxiv.org/abs/2610.15005) · [PDF](https://arxiv.org/pdf/2610.15005) |
+| 2026-10-10 | **LightVAE: Towards Compact and Efficient Video Autoencoders**<br><sub>Shiqiao Gu, Yang Yong, Fengjun Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14726) · [PDF](https://arxiv.org/pdf/2610.14726) · [Code](https://github.com/ModelTC/LightVAE) |
+| 2026-10-10 | **EdgeLLM-Nano: Auditing Polar-Guided Key-Cache Compression and Consistency-Anchored Pruning on a 33.6 MB On-Device Language Model**<br><sub>S M Mahbub Murshed, Hayden Bright, Rezaul Karim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.14475) · [PDF](https://arxiv.org/pdf/2610.14475) |
 | 2026-10-09 | **LapMerge: Differentiable Exact-Budget Token Merging in Linear Time**<br><sub>Magdalena Trędowicz, Aleksandra Nowak, Tomasz Steifer et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13858) · [PDF](https://arxiv.org/pdf/2610.13858) |
 | 2026-10-09 | **zip2zip++: Towards Inference-Time Token Compression with Minimal Quality Loss**<br><sub>Saibo Geng, Andrea Gentilini, Xinxian Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.13605) · [PDF](https://arxiv.org/pdf/2610.13605) · [Code](https://github.com/epfl-dlab/zip2zip-plus-plus) |
 | 2026-10-09 | **AudioTETRIS: Token Elimination via Transitional Importance Signals for Efficient Audio LLMs**<br><sub>Shreya Sajid, Anna Vettoruzzo, Joaquin Vanschoren</sub> | [arXiv](https://arxiv.org/abs/2610.13600) · [PDF](https://arxiv.org/pdf/2610.13600) |
