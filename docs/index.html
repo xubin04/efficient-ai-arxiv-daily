@@ -8,8 +8,8 @@
   <title>Efficient AI · arXiv Daily</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23382c24'/%3E%3Cpath d='M36 7 14 36h16l-3 21 23-31H34z' fill='%23f6e9d7'/%3E%3C/svg%3E">
   <link rel="alternate" type="application/atom+xml" title="Efficient AI papers" href="feed.xml">
-  <link rel="stylesheet" href="style.css?v=20261014">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261014-dates">
+  <script src="app.js?v=20261014-dates" defer></script>
 </head>
 <body>
   <a class="skip" href="#results">Skip to papers</a>
@@ -22,7 +22,23 @@
     <aside><div class="section-label">EXPLORE BY TOPIC</div><div id="topics" class="topics" aria-label="Research topics"></div><div class="aside-note"><strong>About this feed</strong><p>Official arXiv metadata, matched by configurable keywords. Papers may appear in multiple topics.</p><p>Abstracts are provided by the authors. Inclusion is automatic, not a quality ranking.</p><a href="https://github.com/xubin04/efficient-ai-arxiv-daily/blob/main/config.json">View search scope ↗</a></div></aside>
     <section id="results" aria-label="Paper results">
       <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search titles, authors, abstracts, or arXiv IDs…" aria-label="Search papers"></div>
-      <div class="filters"><label class="check"><input id="only-new" type="checkbox"> Newly indexed today</label><div class="selects"><select id="period" aria-label="Publication period"><option value="all">All indexed papers</option><option value="7">Published in last 7 days</option><option value="30">Published in last 30 days</option></select><select id="sort" aria-label="Sort papers"><option value="published">Newest submission</option><option value="updated">Recently revised</option></select></div></div>
+      <div class="filters"><label class="check"><input id="only-new" type="checkbox"> Newly indexed today</label><div class="selects"><select id="period" aria-label="Publication period"><option value="all">All indexed papers</option><option value="7">Published in last 7 days</option><option value="30">Published in last 30 days</option><option value="custom">自定义发表日期</option></select><select id="sort" aria-label="Sort papers"><option value="published">Newest submission</option><option value="updated">Recently revised</option></select></div></div>
+      <section class="date-filter" aria-label="按发表日期查找">
+        <div class="date-heading">
+          <h3>按发表日期查找</h3>
+          <div class="date-modes" role="group" aria-label="日期查询方式">
+            <button id="date-day" type="button" aria-pressed="true">指定一天</button>
+            <button id="date-range" type="button" aria-pressed="false">日期范围</button>
+          </div>
+        </div>
+        <div class="date-fields">
+          <label><span id="date-from-label">发表日期</span><input id="date-from" type="date" aria-describedby="date-info date-error"></label>
+          <label id="date-to-field" hidden><span>结束日期</span><input id="date-to" type="date" aria-describedby="date-info date-error"></label>
+          <div class="date-actions"><button id="latest-date" type="button" disabled>最新发表日</button><button id="clear-date" type="button" hidden>清除日期</button></div>
+        </div>
+        <p id="date-info" class="date-info">按论文卡片上的发表日期筛选。</p>
+        <p id="date-error" class="date-error" role="alert" hidden>结束日期不能早于起始日期，请重新选择。</p>
+      </section>
       <div class="result-heading"><h2 id="topic-title">All research</h2><span id="result-count" role="status">Loading papers…</span></div>
       <div id="papers" class="papers"></div>
       <div id="empty" class="empty" hidden><h3>No matching papers</h3><p>Try another keyword, topic, or date range.</p><button id="reset" type="button">Clear filters</button></div>

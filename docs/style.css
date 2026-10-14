@@ -175,6 +175,37 @@ aside {
 .check { display: flex; align-items: center; gap: 6px; cursor: pointer; }
 .check input { width: 14px; height: 14px; accent-color: var(--accent); }
 .selects { display: flex; flex-wrap: wrap; gap: 8px; }
+.date-filter {
+  padding: 17px 20px 13px; margin: -9px 0 22px;
+  border: 1px solid var(--line); border-radius: 20px;
+  background: #fffaf2d9;
+}
+.date-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 13px; }
+.date-heading h3 { margin: 0; font-size: 12px; font-weight: 500; color: #79553c; }
+.date-modes { display: flex; gap: 3px; padding: 3px; border-radius: 99px; background: #f0e8dc; }
+.date-modes button {
+  padding: 5px 12px; border: 0; border-radius: 99px; background: transparent;
+  color: var(--muted); font-size: 11px;
+}
+.date-modes button[aria-pressed="true"] { background: #fffcf6; color: var(--accent); box-shadow: 0 1px 4px #5b40220d; }
+.date-fields { display: flex; align-items: end; flex-wrap: wrap; gap: 12px; }
+.date-fields label { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.date-fields label > span { color: var(--muted); font-size: 10px; }
+.date-fields input {
+  width: 176px; min-width: 0; max-width: 100%; min-height: 38px; padding: 7px 10px;
+  border: 1px solid #dfd2bf; border-radius: 11px; color: var(--ink);
+  background: #fffdf8; font-size: 13px; font-variant-numeric: tabular-nums;
+}
+.date-fields input[aria-invalid="true"] { border-color: #ad4936; }
+.date-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.date-actions button {
+  min-height: 38px; padding: 7px 12px; border: 1px solid #dfd2bf; border-radius: 99px;
+  background: #fffdf8; color: var(--accent); font-size: 11px;
+}
+.date-actions button:hover:not(:disabled) { background: #f4e7d6; }
+.date-actions button:disabled { opacity: .5; cursor: default; }
+.date-info { margin: 11px 0 0; color: #8c7b67; font-size: 10px; }
+.date-error { margin: 8px 0 0; color: #a14230; font-size: 12px; }
 select {
   max-width: 100%; padding: 8px 11px; border: 1px solid var(--line);
   border-radius: 99px; background: #fffbf4; color: #6b6155; font-size: 11px;
@@ -303,6 +334,15 @@ noscript p { padding: 16px; text-align: center; }
   .filters { margin: 12px 0 24px; gap: 12px; font-size: 11px; }
   .selects { width: 100%; gap: 8px; }
   .selects select { flex: 1; min-width: 0; padding: 9px 7px; font-size: 10px; }
+  .date-filter { padding: 15px; margin-top: -9px; }
+  .date-heading { gap: 8px; flex-wrap: wrap; }
+  .date-heading h3 { font-size: 11px; }
+  .date-modes button { padding: 6px 10px; font-size: 10px; }
+  .date-fields { gap: 10px; }
+  .date-fields label { flex: 1 1 125px; }
+  .date-fields input { width: 100%; font-size: 16px; padding: 8px; }
+  .date-actions { margin-left: 0; flex-basis: 100%; }
+  .date-info { font-size: 10px; line-height: 1.7; }
   .result-heading { margin-bottom: 13px; gap: 9px; }
   .result-heading h2 { font-size: 25px; }
   .result-heading > span { font-size: 10px; }
