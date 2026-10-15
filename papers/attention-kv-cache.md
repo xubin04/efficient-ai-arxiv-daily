@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-136 papers · newest submission first
+141 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models**<br><sub>Bohan Sun, Zunhai Su, Xialie Zhuang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20503) · [PDF](https://arxiv.org/pdf/2610.20503) · [Code](https://github.com/StartLuxLabs/ReaDy) |
+| 2026-10-14 | **FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding**<br><sub>Shuxuan Li, Jialiang Kang, Yanghao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20392) · [PDF](https://arxiv.org/pdf/2610.20392) |
+| 2026-10-14 | **StreamErase: Towards Ultra-Fast Streaming Video Erasing**<br><sub>Zhuobai Dong, Xiaobing Tu, Xiantao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20137) · [PDF](https://arxiv.org/pdf/2610.20137) |
+| 2026-10-14 | **PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference**<br><sub>Gil Jae Song, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2610.19605) · [PDF](https://arxiv.org/pdf/2610.19605) |
+| 2026-10-13 | **Joint Subspace Sparse Attention for Efficient Long-Context Decoding**<br><sub>Jiwon Song, Yoongon Kim, Jae-Joon Kim</sub> | [arXiv](https://arxiv.org/abs/2610.19026) · [PDF](https://arxiv.org/pdf/2610.19026) |
 | 2026-10-13 | **Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs**<br><sub>Aimon Rahman, Joymallya Chakraborty, Vidit Bansal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18858) · [PDF](https://arxiv.org/pdf/2610.18858) |
 | 2026-10-13 | **MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization**<br><sub>Yangchengyu Zhou, Zhiping Wu, Runchang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18642) · [PDF](https://arxiv.org/pdf/2610.18642) · [Code](https://github.com/RL-MIND/MultiAlloc) |
 | 2026-10-13 | **SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware**<br><sub>Jieyun Deng, Keming Hu, Yanghe Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18140) · [PDF](https://arxiv.org/pdf/2610.18140) |

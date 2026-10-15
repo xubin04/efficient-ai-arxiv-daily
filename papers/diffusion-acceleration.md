@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-80 papers · newest submission first
+82 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **ForkGRPO: Efficient Exploration and Fine-Grained Credit Assignment for Diffusion Language Models**<br><sub>Zhaoyan Jia, Chengwei Zhou, Gourav Datta et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19408) · [PDF](https://arxiv.org/pdf/2610.19408) |
+| 2026-10-13 | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens**<br><sub>Eren Cetin, Julius Erbach, Vukasin Bozic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19257) · [PDF](https://arxiv.org/pdf/2610.19257) |
 | 2026-10-13 | **H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression**<br><sub>Or Ronai, Vladimir Kulikov, Tomer Michaeli</sub> | [arXiv](https://arxiv.org/abs/2610.18125) · [PDF](https://arxiv.org/pdf/2610.18125) |
 | 2026-10-13 | **LinMorph: Learning to Morph Weights for Efficient Video DiT Linearization**<br><sub>Lingyi Long, Congyue Zhao, Xiaoou Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17914) · [PDF](https://arxiv.org/pdf/2610.17914) |
 | 2026-10-12 | **PIG: Parallel Inconsistency Guidance for Accelerating Diffusion Language Models**<br><sub>Quentin Fruytier, Anton Xue, Sanjay Shakkottai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17375) · [PDF](https://arxiv.org/pdf/2610.17375) · [Code](https://github.com/Quentin-Fruytier/PIG-DLM-release) |

@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-97 papers · newest submission first
+100 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **Speculative Sampling in Interactive Video Generation**<br><sub>Yubo Huang, Yuxuan Zhang, Jiaming Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20556) · [PDF](https://arxiv.org/pdf/2610.20556) |
+| 2026-10-14 | **FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding**<br><sub>Shuxuan Li, Jialiang Kang, Yanghao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20392) · [PDF](https://arxiv.org/pdf/2610.20392) |
+| 2026-10-14 | **Are We Overthinking One-Step Generation?**<br><sub>Woobin Park, Jaeyeon Kim, Yilun Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20331) · [PDF](https://arxiv.org/pdf/2610.20331) · [Code](https://github.com/JaeyeonKim01/priming) |
 | 2026-10-13 | **SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models**<br><sub>Yuqi Huang, Xingyao Li, Yunlong Hou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18735) · [PDF](https://arxiv.org/pdf/2610.18735) |
 | 2026-10-13 | **Compare to Correct: Pairwise-Guided Logit Adjustment for LLM Test-Time Scaling**<br><sub>Cong Hua, Qianqian Xu, Zitai Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18583) · [PDF](https://arxiv.org/pdf/2610.18583) |
 | 2026-10-13 | **RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions**<br><sub>Rishabh Ranjan, Vignesh Kothapalli, Harshvardhan Agarwal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17867) · [PDF](https://arxiv.org/pdf/2610.17867) |

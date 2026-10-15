@@ -4,10 +4,13 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-162 papers · newest submission first
+165 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **MemDuet: Learning Dual-Process Memory for Long-Context Reasoning**<br><sub>Jiangcheng Song, Haodong Jing, Yulin Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19928) · [PDF](https://arxiv.org/pdf/2610.19928) |
+| 2026-10-14 | **JointServe: Serving Multi-Model Agents on Memory-Constrained GPUs**<br><sub>Daijin Hu</sub> | [arXiv](https://arxiv.org/abs/2610.19822) · [PDF](https://arxiv.org/pdf/2610.19822) |
+| 2026-10-14 | **Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off**<br><sub>Javad Mirzaei, Jeebak Mitra</sub> | [arXiv](https://arxiv.org/abs/2610.19405) · [PDF](https://arxiv.org/pdf/2610.19405) |
 | 2026-10-13 | **Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection**<br><sub>Yichi Zhang, Zhenxiang Huang, Yuyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18566) · [PDF](https://arxiv.org/pdf/2610.18566) |
 | 2026-10-13 | **FastEEP: Fast Intra-Instance Elastic Scaling for Expert-Parallel MoE Serving**<br><sub>Yunfei Feng, Jingkai He, Shiqi Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18451) · [PDF](https://arxiv.org/pdf/2610.18451) |
 | 2026-10-13 | **RadixFlow: Filling Execution Bubbles in Prefix-Cached Hybrid LLM Serving**<br><sub>Huihao Jing, Wenbin Hu, Shaojin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18143) · [PDF](https://arxiv.org/pdf/2610.18143) |
@@ -19,7 +22,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-10-12 | **Prorsa: Unleashing the Potential of Prefill-Decode Disaggregation in Agentic Reinforcement Learning**<br><sub>Chiheng Lou, Xiangwei Deng, Bangjun Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16592) · [PDF](https://arxiv.org/pdf/2610.16592) |
 | 2026-10-12 | **LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers**<br><sub>Zhixiong Zhao, Zukang Xu, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16368) · [PDF](https://arxiv.org/pdf/2610.16368) · [Code](https://github.com/Kishon-zzx/LoopQuant%5D) |
 | 2026-10-12 | **A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoonSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
-| 2026-10-11 | **Lightweight Scheduling Policies for Continuously Batched LLLM Serving Across GPU Architectures**<br><sub>Ashman Mehra, Akshan Agarwal, Aryeh Carmi</sub> | [arXiv](https://arxiv.org/abs/2610.15899) · [PDF](https://arxiv.org/pdf/2610.15899) |
+| 2026-10-11 | **Lightweight Scheduling Policies for Continuously Batched LLM Serving Across GPU Architectures**<br><sub>Ashman Mehra, Akshan Agarwal, Aryeh Carmi</sub> | [arXiv](https://arxiv.org/abs/2610.15899) · [PDF](https://arxiv.org/pdf/2610.15899) |
 | 2026-10-11 | **Native Dual Pools or Shared Paging? Memory Organization for Concurrent Hybrid LLM Serving**<br><sub>Dongwook Kang</sub> | [arXiv](https://arxiv.org/abs/2610.15755) · [PDF](https://arxiv.org/pdf/2610.15755) |
 | 2026-10-11 | **The Price of Precision: A Calibrated Cost Model for Mixed-Precision LLM Serving**<br><sub>Mukund Athmaram, Manoj Rao, Liang Ma</sub> | [arXiv](https://arxiv.org/abs/2610.15629) · [PDF](https://arxiv.org/pdf/2610.15629) |
 | 2026-10-11 | **E8 Lattice Key Quantization for Low-Bit KV-Cache Compression**<br><sub>Sasho Nedelkoski, Alexander Acker, Soeren Becker et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15384) · [PDF](https://arxiv.org/pdf/2610.15384) |

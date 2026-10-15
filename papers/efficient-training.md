@@ -4,10 +4,13 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-97 papers · newest submission first
+100 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **Multimodal Medical Image Parsing with Task-Specific Low-Rank Adapters**<br><sub>Taha Sabir, Alberto Montero Molina, Thinh Quang Ly et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19901) · [PDF](https://arxiv.org/pdf/2610.19901) · [Code](https://github.com/TahaSabir0/FLARE26-Hexapus) |
+| 2026-10-13 | **DUALVIEW: Leveraging Broad and Output-Specific Evidence for LLM-based Multi-Output Text Regression**<br><sub>Yiheng Su, Junyi Jessy Li, Matthew Lease</sub> | [arXiv](https://arxiv.org/abs/2610.19206) · [PDF](https://arxiv.org/pdf/2610.19206) |
+| 2026-10-13 | **Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models**<br><sub>Yupeng Qiu, Han Fang, Dhananjai Sharma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18990) · [PDF](https://arxiv.org/pdf/2610.18990) |
 | 2026-10-13 | **Unlocking Token Rewards via Training-Free Reward Attribution**<br><sub>Sitong Wu, Haoru Tan, Bin Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18704) · [PDF](https://arxiv.org/pdf/2610.18704) · [Code](https://github.com/stonewst/P2T) |
 | 2026-10-13 | **LLM2R: From Large Language Models to 3D Reassemblers**<br><sub>Zhouhan Zhong, Qiuhong Shen, Xingyi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18604) · [PDF](https://arxiv.org/pdf/2610.18604) |
 | 2026-10-12 | **Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining**<br><sub>Alexander Miasnikov, Ruslan Kabirov, Gleb Molodtsov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17429) · [PDF](https://arxiv.org/pdf/2610.17429) |

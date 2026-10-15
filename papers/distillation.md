@@ -4,10 +4,27 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-331 papers · newest submission first
+348 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **Are We Overthinking One-Step Generation?**<br><sub>Woobin Park, Jaeyeon Kim, Yilun Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20331) · [PDF](https://arxiv.org/pdf/2610.20331) · [Code](https://github.com/JaeyeonKim01/priming) |
+| 2026-10-14 | **Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance**<br><sub>Zhuobai Dong, Junchao Yi, Hu Jian Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20220) · [PDF](https://arxiv.org/pdf/2610.20220) |
+| 2026-10-14 | **RepForcing: Representation-Space Initialization for Autoregressive Video Distillation**<br><sub>Siming Fu, Zheming Fu, Lianrui Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20111) · [PDF](https://arxiv.org/pdf/2610.20111) |
+| 2026-10-14 | **Sparse Transformer: a Controlled Testbed for Mechanistic Interpretability**<br><sub>Anton Korznikov, Alexey Dontsov, Elena Tutubalina</sub> | [arXiv](https://arxiv.org/abs/2610.19907) · [PDF](https://arxiv.org/pdf/2610.19907) |
+| 2026-10-14 | **Occupancy Modeling via Drifting: One-Step Generation Enables Direct Policy Extraction**<br><sub>Robin Uhrich, Marco Bagatella, Núria Armengol Urpí et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19883) · [PDF](https://arxiv.org/pdf/2610.19883) |
+| 2026-10-14 | **Rationale Distribution Distillation via Flow Matching for Distributional Continuous Latent Reasoning**<br><sub>Mingyeong Kim, Gyusang Cho, Juho Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19871) · [PDF](https://arxiv.org/pdf/2610.19871) |
+| 2026-10-14 | **ActionOPD: Distilling Decisions, Not Tokens**<br><sub>Huining Yuan, Xiangmin Yi, Zelai Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19820) · [PDF](https://arxiv.org/pdf/2610.19820) |
+| 2026-10-14 | **Qwen-MT-Lumen at WMT2026: Instruction-Specialized Translation via Quality-Aware Training and On-Policy Distillation**<br><sub>Hao Wang, Yangyang Liu, Xiaohu Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19758) · [PDF](https://arxiv.org/pdf/2610.19758) |
+| 2026-10-14 | **Function-Space Temporal Self-Distillation for Policy Optimization**<br><sub>Aryan Das, Arnab Bhattacharya, Vinay Kumar Verma</sub> | [arXiv](https://arxiv.org/abs/2610.19687) · [PDF](https://arxiv.org/pdf/2610.19687) |
+| 2026-10-14 | **PA1-OPD: One-Step Prefix-Augmented On-Policy Distillation for Language Model Pretraining**<br><sub>Zhenhe Wu, Jian Yang, Yaping Jin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19601) · [PDF](https://arxiv.org/pdf/2610.19601) |
+| 2026-10-14 | **Divergence-Routed On-Policy Distillation for Language Models**<br><sub>Tiantian Peng, Guannan Lv, Hongyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19572) · [PDF](https://arxiv.org/pdf/2610.19572) |
+| 2026-10-14 | **Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling**<br><sub>Jing-Xuan Zhang, Genshun Wan, Jianqing Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19559) · [PDF](https://arxiv.org/pdf/2610.19559) · [Code](https://github.com/jxzhanggg/FLARE) |
+| 2026-10-14 | **Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents**<br><sub>Yuanpu Cao, Saket Sathe, Hanyu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19439) · [PDF](https://arxiv.org/pdf/2610.19439) |
+| 2026-10-13 | **Data-free Multistep Diffusion Distillation**<br><sub>Ngoc Duy Tran, Kien Do, Duc Thanh Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19305) · [PDF](https://arxiv.org/pdf/2610.19305) |
+| 2026-10-13 | **Outcome-Routed Distillation and Reinforcement Learning for Diffusion Language Models**<br><sub>Wentao Lu, Tianyu Zhu, Jesse Clark</sub> | [arXiv](https://arxiv.org/abs/2610.19271) · [PDF](https://arxiv.org/pdf/2610.19271) |
+| 2026-10-13 | **Learning from Self-Generated Responses: Reliability--Uncertainty Self-Distillation for Reasoning**<br><sub>Jinhao Pan, Bowen Wei, Yuqing Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19176) · [PDF](https://arxiv.org/pdf/2610.19176) · [Code](https://github.com/JP-25/RUSD) |
+| 2026-10-13 | **Tracing Knowledge Lineage for Federated Unlearning under Mutual Distillation**<br><sub>Zihao Ding, Jun Huang, Guodong Wang</sub> | [arXiv](https://arxiv.org/abs/2610.19072) · [PDF](https://arxiv.org/pdf/2610.19072) |
 | 2026-10-13 | **GAD: Geometry Attention Distillation for Consistent Video Generation**<br><sub>Junfeng Ni, Ziyu Zhu, Fan Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18779) · [PDF](https://arxiv.org/pdf/2610.18779) |
 | 2026-10-13 | **Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors**<br><sub>Yunuo Chen, Jingnan Gao, Bing He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18607) · [PDF](https://arxiv.org/pdf/2610.18607) |
 | 2026-10-13 | **Simplifying and Improving On-Policy Distillation for Few-Step Diffusion**<br><sub>Jiawei Zhang, Ziyu Wan, Nanye Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18472) · [PDF](https://arxiv.org/pdf/2610.18472) |

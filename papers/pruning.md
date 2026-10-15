@@ -4,14 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-143 papers · newest submission first
+149 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents**<br><sub>Shuo Wang, Sifan Zhou, Xiaobo Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20390) · [PDF](https://arxiv.org/pdf/2610.20390) |
+| 2026-10-14 | **Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility**<br><sub>Salima Lamsiyah, Adelaide Danilov, Oleksandr Marchenko Breneur et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20139) · [PDF](https://arxiv.org/pdf/2610.20139) |
+| 2026-10-14 | **MemDuet: Learning Dual-Process Memory for Long-Context Reasoning**<br><sub>Jiangcheng Song, Haodong Jing, Yulin Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19928) · [PDF](https://arxiv.org/pdf/2610.19928) |
+| 2026-10-13 | **Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming**<br><sub>Woosang Lim, Haneul Yoo, Vincent-Daniel Yun et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19121) · [PDF](https://arxiv.org/pdf/2610.19121) |
+| 2026-10-13 | **Focus, Align, and Diffuse: Time-Series-Aware Keyframe Diffusion for Cardiac Dynamic Synthesis from Sparse Observations**<br><sub>Junkai Liu, Haofan Wu, Nay Aung et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19050) · [PDF](https://arxiv.org/pdf/2610.19050) |
+| 2026-10-13 | **Discrete Diffusion Models are Minimax Optimal Under Sparsity**<br><sub>Luca Blunda, Tyler Farghly, Umut Simsekli et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19020) · [PDF](https://arxiv.org/pdf/2610.19020) |
 | 2026-10-13 | **Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs**<br><sub>Aimon Rahman, Joymallya Chakraborty, Vidit Bansal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18858) · [PDF](https://arxiv.org/pdf/2610.18858) |
 | 2026-10-13 | **Just Respect the Semantics: Image-Token Compression via Pre-LLM Semantic Variable-Resolution Tokenization and In-LLM Relevance Pruning**<br><sub>Tianhao Fu, Austin Wang, Charles Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18690) · [PDF](https://arxiv.org/pdf/2610.18690) |
 | 2026-10-13 | **Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too**<br><sub>Mehdi Makni, Natalia Ponomareva, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2610.18516) · [PDF](https://arxiv.org/pdf/2610.18516) |
-| 2026-10-13 | **Readout Scaling Shapes Sparse Feature Recovery**<br><sub>Brain Xiao, Sarah Wilson</sub> | [arXiv](https://arxiv.org/abs/2610.18462) · [PDF](https://arxiv.org/pdf/2610.18462) |
+| 2026-10-13 | **Readout Scaling Shapes Sparse Feature Recovery**<br><sub>Brian Xiao, Sarah Wilson</sub> | [arXiv](https://arxiv.org/abs/2610.18462) · [PDF](https://arxiv.org/pdf/2610.18462) |
 | 2026-10-13 | **Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs**<br><sub>Peiran Yin, Hao Wu, Zihao Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18399) · [PDF](https://arxiv.org/pdf/2610.18399) · [Code](https://github.com/EIT-NLP/Bifocal) |
 | 2026-10-13 | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models**<br><sub>Kai Liu, Anqi Li, Junxian Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17530) · [PDF](https://arxiv.org/pdf/2610.17530) · [Code](https://github.com/Kai-Liu001/TwinPrune) |
 | 2026-10-12 | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models**<br><sub>Zihan Meng, Weidong Chen, Dexiang Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16744) · [PDF](https://arxiv.org/pdf/2610.16744) |

@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-129 papers · newest submission first
+137 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **Speculative Sampling in Interactive Video Generation**<br><sub>Yubo Huang, Yuxuan Zhang, Jiaming Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20556) · [PDF](https://arxiv.org/pdf/2610.20556) |
+| 2026-10-14 | **Generative Representation Learning for Scalable Latent Tokenization**<br><sub>Alan Baade, Kyle Sargent, Vincent Sitzmann et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20533) · [PDF](https://arxiv.org/pdf/2610.20533) |
+| 2026-10-14 | **Are We Overthinking One-Step Generation?**<br><sub>Woobin Park, Jaeyeon Kim, Yilun Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20331) · [PDF](https://arxiv.org/pdf/2610.20331) · [Code](https://github.com/JaeyeonKim01/priming) |
+| 2026-10-14 | **StreamErase: Towards Ultra-Fast Streaming Video Erasing**<br><sub>Zhuobai Dong, Xiaobing Tu, Xiantao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20137) · [PDF](https://arxiv.org/pdf/2610.20137) |
+| 2026-10-14 | **RepForcing: Representation-Space Initialization for Autoregressive Video Distillation**<br><sub>Siming Fu, Zheming Fu, Lianrui Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20111) · [PDF](https://arxiv.org/pdf/2610.20111) |
+| 2026-10-14 | **DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images**<br><sub>Yifei Sun, Fenglei Fan, Junhao Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19466) · [PDF](https://arxiv.org/pdf/2610.19466) |
+| 2026-10-13 | **Data-free Multistep Diffusion Distillation**<br><sub>Ngoc Duy Tran, Kien Do, Duc Thanh Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19305) · [PDF](https://arxiv.org/pdf/2610.19305) |
+| 2026-10-13 | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens**<br><sub>Eren Cetin, Julius Erbach, Vukasin Bozic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19257) · [PDF](https://arxiv.org/pdf/2610.19257) |
 | 2026-10-13 | **GAD: Geometry Attention Distillation for Consistent Video Generation**<br><sub>Junfeng Ni, Ziyu Zhu, Fan Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18779) · [PDF](https://arxiv.org/pdf/2610.18779) |
 | 2026-10-13 | **Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors**<br><sub>Yunuo Chen, Jingnan Gao, Bing He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18607) · [PDF](https://arxiv.org/pdf/2610.18607) |
 | 2026-10-13 | **Simplifying and Improving On-Policy Distillation for Few-Step Diffusion**<br><sub>Jiawei Zhang, Ziyu Wan, Nanye Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18472) · [PDF](https://arxiv.org/pdf/2610.18472) |

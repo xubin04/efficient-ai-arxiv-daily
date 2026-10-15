@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-156 papers · newest submission first
+163 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-14 | **Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization**<br><sub>Renjie Xie, Juncheng Yang, Aoting Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20353) · [PDF](https://arxiv.org/pdf/2610.20353) |
+| 2026-10-14 | **SpectrumQuant: Spectrum Alignment for LLM Quantization**<br><sub>Dwaipayan Haldar, Indranil Patra, Azhar Yousuf et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20303) · [PDF](https://arxiv.org/pdf/2610.20303) |
+| 2026-10-14 | **Multimodal Medical Image Parsing with Task-Specific Low-Rank Adapters**<br><sub>Taha Sabir, Alberto Montero Molina, Thinh Quang Ly et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19901) · [PDF](https://arxiv.org/pdf/2610.19901) · [Code](https://github.com/TahaSabir0/FLARE26-Hexapus) |
+| 2026-10-14 | **MFSA: A Multi-Format Systolic Array with Native Micro Scaling Support**<br><sub>Jiayi Wang, Kearnan Bishop, Ang Li</sub> | [arXiv](https://arxiv.org/abs/2610.19645) · [PDF](https://arxiv.org/pdf/2610.19645) |
+| 2026-10-14 | **PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference**<br><sub>Gil Jae Song, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2610.19605) · [PDF](https://arxiv.org/pdf/2610.19605) |
+| 2026-10-14 | **What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains**<br><sub>Wei-Liang Liu, Cheng-Yen Tsai</sub> | [arXiv](https://arxiv.org/abs/2610.19498) · [PDF](https://arxiv.org/pdf/2610.19498) · [Code](https://github.com/Rlonglong/gguf-verifiability-artifact) |
+| 2026-10-14 | **MemCode: Discrete Semantic Representations for Long-Term Agent Memory**<br><sub>Xin Li, Liang Hu, Duoqian Miao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19472) · [PDF](https://arxiv.org/pdf/2610.19472) |
 | 2026-10-13 | **MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization**<br><sub>Yangchengyu Zhou, Zhiping Wu, Runchang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18642) · [PDF](https://arxiv.org/pdf/2610.18642) · [Code](https://github.com/RL-MIND/MultiAlloc) |
 | 2026-10-13 | **Lightweight but Linguistically Fair? Quantisation Robustness across Bavarian, German, and English**<br><sub>Jophin John, Michael Hoffmann, Piroska Lendvai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18343) · [PDF](https://arxiv.org/pdf/2610.18343) |
 | 2026-10-13 | **Revisiting Error Feedback for Model Quantization**<br><sub>Wai-Yiu Keung, Chi Cui, Wing-Kin Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18139) · [PDF](https://arxiv.org/pdf/2610.18139) |
