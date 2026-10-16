@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-82 papers · newest submission first
+88 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
+| 2026-10-15 | **SoftCache: Adaptive Step Size Caching for Diffusion Transformers**<br><sub>Shimon Malnick, Nadav Orenstein, Ohad Fried et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22369) · [PDF](https://arxiv.org/pdf/2610.22369) |
+| 2026-10-15 | **PathFM: Fast Generative Forecasting of Multivariate Trajectories**<br><sub>Jiachen Yao, Xiyuan Zhang, Annan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22358) · [PDF](https://arxiv.org/pdf/2610.22358) |
+| 2026-10-15 | **ManiFusion: Unlocking the High-Throughput Generation via Superposition in Manifold Space**<br><sub>Minkyu Kim, Baekseung Kim, Junhoo Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21433) · [PDF](https://arxiv.org/pdf/2610.21433) |
+| 2026-10-15 | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search**<br><sub>Yun Dai, Yuyun Chen, Jiarui Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21129) · [PDF](https://arxiv.org/pdf/2610.21129) |
+| 2026-10-14 | **Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion**<br><sub>Jaehyeon Kim, Ziseok Lee, Siyoung Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20669) · [PDF](https://arxiv.org/pdf/2610.20669) |
 | 2026-10-14 | **ForkGRPO: Efficient Exploration and Fine-Grained Credit Assignment for Diffusion Language Models**<br><sub>Zhaoyan Jia, Chengwei Zhou, Gourav Datta et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19408) · [PDF](https://arxiv.org/pdf/2610.19408) |
 | 2026-10-13 | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens**<br><sub>Eren Cetin, Julius Erbach, Vukasin Bozic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19257) · [PDF](https://arxiv.org/pdf/2610.19257) |
 | 2026-10-13 | **H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression**<br><sub>Or Ronai, Vladimir Kulikov, Tomer Michaeli</sub> | [arXiv](https://arxiv.org/abs/2610.18125) · [PDF](https://arxiv.org/pdf/2610.18125) |

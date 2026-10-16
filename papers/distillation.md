@@ -4,10 +4,26 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-348 papers · newest submission first
+364 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **Speculative Forcing for Efficient Autoregressive Video Generation**<br><sub>Hyunwook Choi, Seungryong Kim, Dongyoon Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22347) · [PDF](https://arxiv.org/pdf/2610.22347) |
+| 2026-10-15 | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models**<br><sub>Yuqi Xiong, Chunyi Peng, Zhipeng Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22217) · [PDF](https://arxiv.org/pdf/2610.22217) · [Code](https://github.com/NEUIR/SCOPED) |
+| 2026-10-15 | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing**<br><sub>Tianxiang Fei, Jiazheng Kang, Mao Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22196) · [PDF](https://arxiv.org/pdf/2610.22196) |
+| 2026-10-15 | **Learning from Unverified Peers via Shared Residual Distillation**<br><sub>Feiyang Chen, Runze Ma, Zichen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22080) · [PDF](https://arxiv.org/pdf/2610.22080) |
+| 2026-10-15 | **Bias Mitigation in Audio-Enabled LLMs through Adversarial Training and Distillation Methods**<br><sub>Adnan Al Ali, Jindřich Libovický, Anne Lauscher</sub> | [arXiv](https://arxiv.org/abs/2610.21763) · [PDF](https://arxiv.org/pdf/2610.21763) |
+| 2026-10-15 | **Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference**<br><sub>Jonas Arruda, Jan Hasenauer, Stefan T. Radev</sub> | [arXiv](https://arxiv.org/abs/2610.21657) · [PDF](https://arxiv.org/pdf/2610.21657) |
+| 2026-10-15 | **Learning from Interaction Experience via Localized Context Distillation**<br><sub>Zhezheng Hao, Yongkang Yang, Xilin Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21427) · [PDF](https://arxiv.org/pdf/2610.21427) |
+| 2026-10-15 | **ReState: Noise-Level-Aware State Correction for Training-Free Object Removal in Few-Step Diffusion Models**<br><sub>Donghwan Lee, Sanghyun Jo, Sihyun Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21287) · [PDF](https://arxiv.org/pdf/2610.21287) |
+| 2026-10-15 | **FocusOPD: Structure-Guided On-Policy Distillation for Diffusion Models**<br><sub>Xinrui Lin, Shumin Wang, Suqi Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21250) · [PDF](https://arxiv.org/pdf/2610.21250) |
+| 2026-10-15 | **UltraDiff: Transferring High-Fidelity Priors to Compressed Latent Spaces for High-Resolution Image Generation**<br><sub>Jingjing Ren, Haitian Zheng, Haoyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21202) · [PDF](https://arxiv.org/pdf/2610.21202) |
+| 2026-10-15 | **Condition-Contrastive Extrapolation for On-Policy Distillation of Language Models**<br><sub>Wenxuan Luo, Chenxi Li, Haoyue Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21195) · [PDF](https://arxiv.org/pdf/2610.21195) |
+| 2026-10-15 | **ControlFlow3D: Distilling Multi-View Knowledge into Latent Flow Matching for Point Cloud Upsampling**<br><sub>Yuang Liu, Zhi Zuo, Zhengkai Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21190) · [PDF](https://arxiv.org/pdf/2610.21190) |
+| 2026-10-15 | **From Observation to Intervention: Distilling Self-Generated In-Context Demonstrations via Executable Causal Intervention**<br><sub>Minming Ye, Min Liu, Haoang Chi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21149) · [PDF](https://arxiv.org/pdf/2610.21149) |
+| 2026-10-15 | **Noise-Space Reward Alignment for Few-Step Generative Models**<br><sub>Woocheol Shin, Taeyoung Yun, Jiwon Sung et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21125) · [PDF](https://arxiv.org/pdf/2610.21125) |
+| 2026-10-14 | **Do As I Do, Not As I Say: On-Policy Distillation Inherits the Teacher in Vision-Language Models**<br><sub>Frank F. Yang, Kefei Yan, Yiren Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20989) · [PDF](https://arxiv.org/pdf/2610.20989) · [Code](https://github.com/ffy208/opd-inherits-teacher-vlm) |
+| 2026-10-14 | **Recursive Offline Distillation via Entropy Gain Sampling and Answer Mixing**<br><sub>Andrey Goncharov, Daniil Vyazhev, Simon Epanov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20914) · [PDF](https://arxiv.org/pdf/2610.20914) |
 | 2026-10-14 | **Are We Overthinking One-Step Generation?**<br><sub>Woobin Park, Jaeyeon Kim, Yilun Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20331) · [PDF](https://arxiv.org/pdf/2610.20331) · [Code](https://github.com/JaeyeonKim01/priming) |
 | 2026-10-14 | **Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance**<br><sub>Zhuobai Dong, Junchao Yi, Hu Jian Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20220) · [PDF](https://arxiv.org/pdf/2610.20220) |
 | 2026-10-14 | **RepForcing: Representation-Space Initialization for Autoregressive Video Distillation**<br><sub>Siming Fu, Zheming Fu, Lianrui Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20111) · [PDF](https://arxiv.org/pdf/2610.20111) |

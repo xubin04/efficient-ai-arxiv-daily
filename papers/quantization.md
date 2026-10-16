@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-163 papers · newest submission first
+168 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks**<br><sub>Max Zhu, Bohang Sun, Pietro Lio et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22256) · [PDF](https://arxiv.org/pdf/2610.22256) |
+| 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
+| 2026-10-15 | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding**<br><sub>Hanbin Bae, Heejin Choi, Joohyung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21436) · [PDF](https://arxiv.org/pdf/2610.21436) |
+| 2026-10-15 | **Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference**<br><sub>Sunghyun Wee, Geunjae Choi, Hyeonjin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21257) · [PDF](https://arxiv.org/pdf/2610.21257) |
+| 2026-10-14 | **Task-Phase-Conditioned Expert Routing Is Not a Reliable Proxy for Quantization Sensitivity in MoE FFN Tensors**<br><sub>Yifan Liu</sub> | [arXiv](https://arxiv.org/abs/2610.20826) · [PDF](https://arxiv.org/pdf/2610.20826) |
 | 2026-10-14 | **Beyond Expert Rankings: Contrast Calibration for Mixed-Precision MoE Quantization**<br><sub>Renjie Xie, Juncheng Yang, Aoting Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20353) · [PDF](https://arxiv.org/pdf/2610.20353) |
 | 2026-10-14 | **SpectrumQuant: Spectrum Alignment for LLM Quantization**<br><sub>Dwaipayan Haldar, Indranil Patra, Azhar Yousuf et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20303) · [PDF](https://arxiv.org/pdf/2610.20303) |
 | 2026-10-14 | **Multimodal Medical Image Parsing with Task-Specific Low-Rank Adapters**<br><sub>Taha Sabir, Alberto Montero Molina, Thinh Quang Ly et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19901) · [PDF](https://arxiv.org/pdf/2610.19901) · [Code](https://github.com/TahaSabir0/FLARE26-Hexapus) |

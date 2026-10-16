@@ -4,10 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-141 papers · newest submission first
+150 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **Velox: Spatial Memory Makes World Models Efficient**<br><sub>Qiuhong Shen, Shizun Wang, Xinchao Wang</sub> | [arXiv](https://arxiv.org/abs/2610.22311) · [PDF](https://arxiv.org/pdf/2610.22311) |
+| 2026-10-15 | **Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing**<br><sub>Mingjin Zhang, Jiannong Cao, Tao Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22172) · [PDF](https://arxiv.org/pdf/2610.22172) |
+| 2026-10-15 | **DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction**<br><sub>Aozhong Zhang, Selcuk Gurses, Yanxia Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22130) · [PDF](https://arxiv.org/pdf/2610.22130) |
+| 2026-10-15 | **Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing**<br><sub>Adam Deng, Shicheng Liu, Yada Zhu</sub> | [arXiv](https://arxiv.org/abs/2610.22026) · [PDF](https://arxiv.org/pdf/2610.22026) |
+| 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
+| 2026-10-15 | **FlashAttention with Statistics: Low-Overhead Attention Features for Compact Hallucination Detectors**<br><sub>Andrei Volodichev, Maksim Savichev, Nikita Sviridov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21483) · [PDF](https://arxiv.org/pdf/2610.21483) |
+| 2026-10-15 | **PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems**<br><sub>Han Shen, Qifu Tyler Sun, Fanyang Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21390) · [PDF](https://arxiv.org/pdf/2610.21390) |
+| 2026-10-15 | **From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models**<br><sub>Chaogui Gou</sub> | [arXiv](https://arxiv.org/abs/2610.21165) · [PDF](https://arxiv.org/pdf/2610.21165) |
+| 2026-10-15 | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search**<br><sub>Yun Dai, Yuyun Chen, Jiarui Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21129) · [PDF](https://arxiv.org/pdf/2610.21129) |
 | 2026-10-14 | **ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models**<br><sub>Bohan Sun, Zunhai Su, Xialie Zhuang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20503) · [PDF](https://arxiv.org/pdf/2610.20503) · [Code](https://github.com/StartLuxLabs/ReaDy) |
 | 2026-10-14 | **FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding**<br><sub>Shuxuan Li, Jialiang Kang, Yanghao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20392) · [PDF](https://arxiv.org/pdf/2610.20392) |
 | 2026-10-14 | **StreamErase: Towards Ultra-Fast Streaming Video Erasing**<br><sub>Zhuobai Dong, Xiaobing Tu, Xiantao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20137) · [PDF](https://arxiv.org/pdf/2610.20137) |

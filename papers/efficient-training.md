@@ -4,10 +4,15 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-100 papers · newest submission first
+105 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks**<br><sub>Max Zhu, Bohang Sun, Pietro Lio et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22256) · [PDF](https://arxiv.org/pdf/2610.22256) |
+| 2026-10-15 | **WaveLLM: Wavelet-Domain LLM Entropy Modeling for Lossless Image Compression**<br><sub>Yue Yu, Bowei Kang, Changsheng Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22232) · [PDF](https://arxiv.org/pdf/2610.22232) |
+| 2026-10-15 | **Memory as Weights: Internalizing Long-Term History for Streaming Videos**<br><sub>Zhuoming Liu, Jinhong Lin, Lin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22070) · [PDF](https://arxiv.org/pdf/2610.22070) |
+| 2026-10-15 | **ReFlow: Replay-Driven Decoupling for Efficient RL Post-Training**<br><sub>Yukun Tian, Junwei Su, Haofeng Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21640) · [PDF](https://arxiv.org/pdf/2610.21640) |
+| 2026-10-15 | **Translation Circuit Discovery and Targeted Optimization for Low-Resource Multilingual Translation**<br><sub>Atai Waris Khan, Abdullah Mazhar, Raghu Kumar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21456) · [PDF](https://arxiv.org/pdf/2610.21456) |
 | 2026-10-14 | **Multimodal Medical Image Parsing with Task-Specific Low-Rank Adapters**<br><sub>Taha Sabir, Alberto Montero Molina, Thinh Quang Ly et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19901) · [PDF](https://arxiv.org/pdf/2610.19901) · [Code](https://github.com/TahaSabir0/FLARE26-Hexapus) |
 | 2026-10-13 | **DUALVIEW: Leveraging Broad and Output-Specific Evidence for LLM-based Multi-Output Text Regression**<br><sub>Yiheng Su, Junyi Jessy Li, Matthew Lease</sub> | [arXiv](https://arxiv.org/abs/2610.19206) · [PDF](https://arxiv.org/pdf/2610.19206) |
 | 2026-10-13 | **Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models**<br><sub>Yupeng Qiu, Han Fang, Dhananjai Sharma et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18990) · [PDF](https://arxiv.org/pdf/2610.18990) |

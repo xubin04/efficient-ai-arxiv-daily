@@ -4,10 +4,15 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-165 papers · newest submission first
+170 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing**<br><sub>Tianxiang Fei, Jiazheng Kang, Mao Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22196) · [PDF](https://arxiv.org/pdf/2610.22196) |
+| 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
+| 2026-10-15 | **PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems**<br><sub>Han Shen, Qifu Tyler Sun, Fanyang Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21390) · [PDF](https://arxiv.org/pdf/2610.21390) |
+| 2026-10-15 | **From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models**<br><sub>Chaogui Gou</sub> | [arXiv](https://arxiv.org/abs/2610.21165) · [PDF](https://arxiv.org/pdf/2610.21165) |
+| 2026-10-14 | **CascadeLedger: Counterfactual Auditing of Information and Resource Integrity in LLM Cascades**<br><sub>Miaobo Hu, Shuhao Hu, Xiaobo Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20668) · [PDF](https://arxiv.org/pdf/2610.20668) |
 | 2026-10-14 | **MemDuet: Learning Dual-Process Memory for Long-Context Reasoning**<br><sub>Jiangcheng Song, Haodong Jing, Yulin Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19928) · [PDF](https://arxiv.org/pdf/2610.19928) |
 | 2026-10-14 | **JointServe: Serving Multi-Model Agents on Memory-Constrained GPUs**<br><sub>Daijin Hu</sub> | [arXiv](https://arxiv.org/abs/2610.19822) · [PDF](https://arxiv.org/pdf/2610.19822) |
 | 2026-10-14 | **Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off**<br><sub>Javad Mirzaei, Jeebak Mitra</sub> | [arXiv](https://arxiv.org/abs/2610.19405) · [PDF](https://arxiv.org/pdf/2610.19405) |

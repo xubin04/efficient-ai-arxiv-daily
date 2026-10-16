@@ -4,15 +4,23 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-137 papers · newest submission first
+145 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
+| 2026-10-15 | **Speculative Forcing for Efficient Autoregressive Video Generation**<br><sub>Hyunwook Choi, Seungryong Kim, Dongyoon Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22347) · [PDF](https://arxiv.org/pdf/2610.22347) |
+| 2026-10-15 | **Velox: Spatial Memory Makes World Models Efficient**<br><sub>Qiuhong Shen, Shizun Wang, Xinchao Wang</sub> | [arXiv](https://arxiv.org/abs/2610.22311) · [PDF](https://arxiv.org/pdf/2610.22311) |
+| 2026-10-15 | **ManiFusion: Unlocking the High-Throughput Generation via Superposition in Manifold Space**<br><sub>Minkyu Kim, Baekseung Kim, Junhoo Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21433) · [PDF](https://arxiv.org/pdf/2610.21433) |
+| 2026-10-15 | **FocusOPD: Structure-Guided On-Policy Distillation for Diffusion Models**<br><sub>Xinrui Lin, Shumin Wang, Suqi Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21250) · [PDF](https://arxiv.org/pdf/2610.21250) |
+| 2026-10-15 | **UltraDiff: Transferring High-Fidelity Priors to Compressed Latent Spaces for High-Resolution Image Generation**<br><sub>Jingjing Ren, Haitian Zheng, Haoyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21202) · [PDF](https://arxiv.org/pdf/2610.21202) |
+| 2026-10-15 | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search**<br><sub>Yun Dai, Yuyun Chen, Jiarui Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21129) · [PDF](https://arxiv.org/pdf/2610.21129) |
 | 2026-10-14 | **Speculative Sampling in Interactive Video Generation**<br><sub>Yubo Huang, Yuxuan Zhang, Jiaming Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20556) · [PDF](https://arxiv.org/pdf/2610.20556) |
 | 2026-10-14 | **Generative Representation Learning for Scalable Latent Tokenization**<br><sub>Alan Baade, Kyle Sargent, Vincent Sitzmann et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20533) · [PDF](https://arxiv.org/pdf/2610.20533) |
 | 2026-10-14 | **Are We Overthinking One-Step Generation?**<br><sub>Woobin Park, Jaeyeon Kim, Yilun Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20331) · [PDF](https://arxiv.org/pdf/2610.20331) · [Code](https://github.com/JaeyeonKim01/priming) |
 | 2026-10-14 | **StreamErase: Towards Ultra-Fast Streaming Video Erasing**<br><sub>Zhuobai Dong, Xiaobing Tu, Xiantao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20137) · [PDF](https://arxiv.org/pdf/2610.20137) |
 | 2026-10-14 | **RepForcing: Representation-Space Initialization for Autoregressive Video Distillation**<br><sub>Siming Fu, Zheming Fu, Lianrui Mu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20111) · [PDF](https://arxiv.org/pdf/2610.20111) |
+| 2026-10-14 | **Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion**<br><sub>Jaehyeon Kim, Ziseok Lee, Siyoung Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20669) · [PDF](https://arxiv.org/pdf/2610.20669) |
 | 2026-10-14 | **DeBoneDiT: Depth-Driven Conditional Bridge Diffusion Transformers for Bone Suppression in Chest X-Ray Images**<br><sub>Yifei Sun, Fenglei Fan, Junhao Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19466) · [PDF](https://arxiv.org/pdf/2610.19466) |
 | 2026-10-13 | **Data-free Multistep Diffusion Distillation**<br><sub>Ngoc Duy Tran, Kien Do, Duc Thanh Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19305) · [PDF](https://arxiv.org/pdf/2610.19305) |
 | 2026-10-13 | **Long-horizon Video Generation with Slot Memory Addressed By Region Tokens**<br><sub>Eren Cetin, Julius Erbach, Vukasin Bozic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.19257) · [PDF](https://arxiv.org/pdf/2610.19257) |
