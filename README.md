@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-16 13:54 CST** · **1070 unique papers** · Newest submission: **2026-10-15**
+Last successful scan: **2026-10-18 13:57 CST** · **1070 unique papers** · Newest submission: **2026-10-15**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-10-16 13:54 CST** · **1070 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 88 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 145 |
 
-## Newly indexed · 2026-10-16
+## Newly indexed · 2026-10-18
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
-| 2026-10-15 | **SoftCache: Adaptive Step Size Caching for Diffusion Transformers**<br><sub>Shimon Malnick, Nadav Orenstein, Ohad Fried et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22369) · [PDF](https://arxiv.org/pdf/2610.22369) |
-| 2026-10-15 | **PathFM: Fast Generative Forecasting of Multivariate Trajectories**<br><sub>Jiachen Yao, Xiyuan Zhang, Annan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22358) · [PDF](https://arxiv.org/pdf/2610.22358) |
-| 2026-10-15 | **Speculative Forcing for Efficient Autoregressive Video Generation**<br><sub>Hyunwook Choi, Seungryong Kim, Dongyoon Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22347) · [PDF](https://arxiv.org/pdf/2610.22347) |
-| 2026-10-15 | **Velox: Spatial Memory Makes World Models Efficient**<br><sub>Qiuhong Shen, Shizun Wang, Xinchao Wang</sub> | [arXiv](https://arxiv.org/abs/2610.22311) · [PDF](https://arxiv.org/pdf/2610.22311) |
-| 2026-10-15 | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks**<br><sub>Max Zhu, Bohang Sun, Pietro Lio et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22256) · [PDF](https://arxiv.org/pdf/2610.22256) |
-| 2026-10-15 | **Query-Efficient Rejection Sampling for Parallel Masked Diffusion**<br><sub>Shiyuan Zhang, Xuheng Li, Qiwei Di et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22238) · [PDF](https://arxiv.org/pdf/2610.22238) |
-| 2026-10-15 | **WaveLLM: Wavelet-Domain LLM Entropy Modeling for Lossless Image Compression**<br><sub>Yue Yu, Bowei Kang, Changsheng Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22232) · [PDF](https://arxiv.org/pdf/2610.22232) |
-| 2026-10-15 | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models**<br><sub>Yuqi Xiong, Chunyi Peng, Zhipeng Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22217) · [PDF](https://arxiv.org/pdf/2610.22217) · [Code](https://github.com/NEUIR/SCOPED) |
-| 2026-10-15 | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing**<br><sub>Tianxiang Fei, Jiazheng Kang, Mao Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22196) · [PDF](https://arxiv.org/pdf/2610.22196) |
-| 2026-10-15 | **Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing**<br><sub>Mingjin Zhang, Jiannong Cao, Tao Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22172) · [PDF](https://arxiv.org/pdf/2610.22172) |
-| 2026-10-15 | **DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction**<br><sub>Aozhong Zhang, Selcuk Gurses, Yanxia Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22130) · [PDF](https://arxiv.org/pdf/2610.22130) |
-| 2026-10-15 | **Learning from Unverified Peers via Shared Residual Distillation**<br><sub>Feiyang Chen, Runze Ma, Zichen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22080) · [PDF](https://arxiv.org/pdf/2610.22080) |
-| 2026-10-15 | **Memory as Weights: Internalizing Long-Term History for Streaming Videos**<br><sub>Zhuoming Liu, Jinhong Lin, Lin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22070) · [PDF](https://arxiv.org/pdf/2610.22070) |
-| 2026-10-15 | **Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing**<br><sub>Adam Deng, Shicheng Liu, Yada Zhu</sub> | [arXiv](https://arxiv.org/abs/2610.22026) · [PDF](https://arxiv.org/pdf/2610.22026) |
-| 2026-10-15 | **Bias Mitigation in Audio-Enabled LLMs through Adversarial Training and Distillation Methods**<br><sub>Adnan Al Ali, Jindřich Libovický, Anne Lauscher</sub> | [arXiv](https://arxiv.org/abs/2610.21763) · [PDF](https://arxiv.org/pdf/2610.21763) |
-| 2026-10-15 | **Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference**<br><sub>Jonas Arruda, Jan Hasenauer, Stefan T. Radev</sub> | [arXiv](https://arxiv.org/abs/2610.21657) · [PDF](https://arxiv.org/pdf/2610.21657) |
-| 2026-10-15 | **ReFlow: Replay-Driven Decoupling for Efficient RL Post-Training**<br><sub>Yukun Tian, Junwei Su, Haofeng Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21640) · [PDF](https://arxiv.org/pdf/2610.21640) |
-| 2026-10-15 | **LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models**<br><sub>Zixuan Liu, Nan Xue, Rui Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21594) · [PDF](https://arxiv.org/pdf/2610.21594) |
-| 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
-
-[View all 42 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
