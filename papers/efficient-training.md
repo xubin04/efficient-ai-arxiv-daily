@@ -4,10 +4,13 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-105 papers · newest submission first
+108 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **Kingfisher: Fast Personalized Visual Autoregressive Generation via Scale-Aware Prompt-Conditioned Scale Decomposition**<br><sub>Dinh-Khoi Vo, Akihiro Sugimoto, Minh-Triet Tran et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23238) · [PDF](https://arxiv.org/pdf/2610.23238) |
+| 2026-10-16 | **Local proxies for memory-efficient training**<br><sub>Wu S. Zihan, Brian A. Yuan, Guillaume Bellec</sub> | [arXiv](https://arxiv.org/abs/2610.23145) · [PDF](https://arxiv.org/pdf/2610.23145) |
+| 2026-10-16 | **BaGuaLu-2: Taming Dynamic Memory Fluctuation for Efficient MoE Model Training over 10,000 GPUs**<br><sub>Mingshu Zhai, Minkun Guo, Hongrui Lian et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23064) · [PDF](https://arxiv.org/pdf/2610.23064) |
 | 2026-10-15 | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks**<br><sub>Max Zhu, Bohang Sun, Pietro Lio et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22256) · [PDF](https://arxiv.org/pdf/2610.22256) |
 | 2026-10-15 | **WaveLLM: Wavelet-Domain LLM Entropy Modeling for Lossless Image Compression**<br><sub>Yue Yu, Bowei Kang, Changsheng Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22232) · [PDF](https://arxiv.org/pdf/2610.22232) |
 | 2026-10-15 | **Memory as Weights: Internalizing Long-Term History for Streaming Videos**<br><sub>Zhuoming Liu, Jinhong Lin, Lin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22070) · [PDF](https://arxiv.org/pdf/2610.22070) |
@@ -24,7 +27,7 @@ LoRA/PEFT、显存优化与高效训练
 | 2026-10-12 | **Growing to See: Efficient Pretraining of Self-Supervised Vision Transformers**<br><sub>Amir Mohammad Karimi Mamaghan, Ferdinand Kapl, Andrea Dittadi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16817) · [PDF](https://arxiv.org/pdf/2610.16817) |
 | 2026-10-12 | **StructZO: Structured Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning**<br><sub>Xuanlin Yang, Jia Li, Zhouchen Lin</sub> | [arXiv](https://arxiv.org/abs/2610.16451) · [PDF](https://arxiv.org/pdf/2610.16451) |
 | 2026-10-11 | **Fast and Accurate: Improving Personalized LLM Performance by Semantic Concentration Inspired Workload Split between RAG and Fine-Tuning**<br><sub>Xingke Yang, Sicong Li, Lingfeng Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15921) · [PDF](https://arxiv.org/pdf/2610.15921) |
-| 2026-10-11 | **Engram Injection: A Study of Temporal Validity in Parametric Language-Model Memory**<br><sub>Sam Siavoshian, Omar Ramadan, Amir K. Saeed et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15882) · [PDF](https://arxiv.org/pdf/2610.15882) |
+| 2026-10-11 | **Engram Injection: A Study of Temporal Validity in Parametric Language-Model Memory**<br><sub>Sam Siavoshian, Omar Ramadan, Amin M. E-A. Diab et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15882) · [PDF](https://arxiv.org/pdf/2610.15882) |
 | 2026-10-11 | **When Skills Remain But Access Fails: Factorized Skill Memory for Continual Skill Internalization**<br><sub>Haomiao Qiu, Yining Tang, Hongyi Wan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15492) · [PDF](https://arxiv.org/pdf/2610.15492) |
 | 2026-10-10 | **Beyond Adjacent Layers: Graph-Guided Layer Fusion for Compressing Large Language Models**<br><sub>Muhammad Usama, Yeoreum Jung</sub> | [arXiv](https://arxiv.org/abs/2610.15159) · [PDF](https://arxiv.org/pdf/2610.15159) · [Code](https://github.com/Usama1002/fcm-layer-fusion) |
 | 2026-10-10 | **Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models**<br><sub>S. M. Mahbub Uddin Ahmed</sub> | [arXiv](https://arxiv.org/abs/2610.15029) · [PDF](https://arxiv.org/pdf/2610.15029) |

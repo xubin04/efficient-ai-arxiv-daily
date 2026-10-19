@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-364 papers · newest submission first
+376 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **Blitz: Accelerating the Diffusion Modules of AlphaFold3 and Boltz-2**<br><sub>Vinay Saji Mathew, Soundar Kumara, Gretta Kellogg et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23703) · [PDF](https://arxiv.org/pdf/2610.23703) |
+| 2026-10-16 | **PreciseEdit: Strong Yet Stable Semantic Transport for One-Step Image Editing**<br><sub>Jingyi Wang, Xiao Lu</sub> | [arXiv](https://arxiv.org/abs/2610.23535) · [PDF](https://arxiv.org/pdf/2610.23535) |
+| 2026-10-16 | **When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models**<br><sub>Qizhen Lan, Yiling Ma, Ruiqi Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23469) · [PDF](https://arxiv.org/pdf/2610.23469) |
+| 2026-10-16 | **MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation**<br><sub>Yuhan Sun, Jiaxin Zhao, Yongdong Luo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23234) · [PDF](https://arxiv.org/pdf/2610.23234) |
+| 2026-10-16 | **ReLaDrift: Recurrent Language Generation via Drifting for Test-Time Scaling**<br><sub>Yuki Otsuka, Daisuke Oba, Naoaki Okazaki</sub> | [arXiv](https://arxiv.org/abs/2610.23225) · [PDF](https://arxiv.org/pdf/2610.23225) · [Code](https://github.com/Yuki-Ots/ReLaDrift) |
+| 2026-10-16 | **A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation**<br><sub>Haoyu Chen, Jun Bai, Yang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23185) · [PDF](https://arxiv.org/pdf/2610.23185) |
+| 2026-10-16 | **Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning**<br><sub>Heming Zou, Qi Wang, Yixiu Mao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23181) · [PDF](https://arxiv.org/pdf/2610.23181) |
+| 2026-10-16 | **Local proxies for memory-efficient training**<br><sub>Wu S. Zihan, Brian A. Yuan, Guillaume Bellec</sub> | [arXiv](https://arxiv.org/abs/2610.23145) · [PDF](https://arxiv.org/pdf/2610.23145) |
+| 2026-10-16 | **Sep-Latent: Separator Tokens as Natural Compression Anchors for Implicit Reasoning**<br><sub>Yinlong Xu, Jianfeng Huang, Zhengdong Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22924) · [PDF](https://arxiv.org/pdf/2610.22924) |
+| 2026-10-16 | **COMET: Decoupled Distillation, Routing, and Capacity Control for Task-Agnostic Continual Vision--Language Learning**<br><sub>Seungyoon Woo, Keonhee Park, Gunhee Kim</sub> | [arXiv](https://arxiv.org/abs/2610.22907) · [PDF](https://arxiv.org/pdf/2610.22907) |
+| 2026-10-15 | **FlashControl: One-Step Controllable Generator via Distillation-Friendly Single-Stream Teachers**<br><sub>Ngan Nguyen, Dung Nguyen, Quan Dao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22537) · [PDF](https://arxiv.org/pdf/2610.22537) |
+| 2026-10-15 | **Predicting Privileged Information Effectiveness for On-Policy Self-Distillation**<br><sub>Kaijian Zou, Emiliano Penaloza, MohammadHossein Rezaei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22512) · [PDF](https://arxiv.org/pdf/2610.22512) |
 | 2026-10-15 | **Speculative Forcing for Efficient Autoregressive Video Generation**<br><sub>Hyunwook Choi, Seungryong Kim, Dongyoon Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22347) · [PDF](https://arxiv.org/pdf/2610.22347) |
 | 2026-10-15 | **Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models**<br><sub>Yuqi Xiong, Chunyi Peng, Zhipeng Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22217) · [PDF](https://arxiv.org/pdf/2610.22217) · [Code](https://github.com/NEUIR/SCOPED) |
 | 2026-10-15 | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing**<br><sub>Tianxiang Fei, Jiazheng Kang, Mao Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22196) · [PDF](https://arxiv.org/pdf/2610.22196) |
@@ -61,7 +73,7 @@
 | 2026-10-12 | **Audit Before You Distill: A Controlled Workflow for Reasoning Transfer into Compact Medical Language Models**<br><sub>Tiago Martinelli, João Paulo Papa, Adriano José Pereira</sub> | [arXiv](https://arxiv.org/abs/2610.16713) · [PDF](https://arxiv.org/pdf/2610.16713) |
 | 2026-10-12 | **From a Large-Scale Teacher to Efficient Multimodal Students for Search Relevance Prediction**<br><sub>Tomasz Gniazdowski, Mohammadreza Momenifar, Nadia Vase et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16569) · [PDF](https://arxiv.org/pdf/2610.16569) |
 | 2026-10-12 | **Self-Distillation with Verbal Regularization**<br><sub>Jiazheng Li, Yawei Li, Junru Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16354) · [PDF](https://arxiv.org/pdf/2610.16354) |
-| 2026-10-12 | **A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoonSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
+| 2026-10-12 | **LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoongSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
 | 2026-10-12 | **MFlowHOI: Whole-Body Human-Object Interaction Generation via Part-Aware MeanFlow**<br><sub>Qiang He, Yonghao Zhang, Yinda Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16252) · [PDF](https://arxiv.org/pdf/2610.16252) |
 | 2026-10-12 | **ProMoDD: Dataset Distillation for 3D Human Motion via Prototype-Conditioned Diffusion Models**<br><sub>Yijin Wei, Yawen Zou, Wenqi Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16134) · [PDF](https://arxiv.org/pdf/2610.16134) |
 | 2026-10-11 | **Drift, Then Spread: Learning One-Step Generative Policies for Online Reinforcement Learning**<br><sub>Chunyu Luo, Hongyu Zhao, Guangyi Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.15662) · [PDF](https://arxiv.org/pdf/2610.15662) |

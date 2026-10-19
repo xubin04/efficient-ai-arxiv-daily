@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-150 papers · newest submission first
+156 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs**<br><sub>Jinheng Li, Guosheng Wang, Hongchao Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23503) · [PDF](https://arxiv.org/pdf/2610.23503) · [Code](https://github.com/FlashLabAE/HBFSim) |
+| 2026-10-16 | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference**<br><sub>Zhenxu Tian, Kebin Liu, Zhengwu Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22985) · [PDF](https://arxiv.org/pdf/2610.22985) |
+| 2026-10-16 | **FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning**<br><sub>Ali Sarabadani, Massimo Piccardi, Mehran Abolhasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22906) · [PDF](https://arxiv.org/pdf/2610.22906) |
+| 2026-10-16 | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration**<br><sub>Jiwoo Kim, Gunho Park, Sunwoo Yoo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22877) · [PDF](https://arxiv.org/pdf/2610.22877) |
+| 2026-10-15 | **SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors**<br><sub>Yutong Ke, Yansu Wang, Zeyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22640) · [PDF](https://arxiv.org/pdf/2610.22640) |
+| 2026-10-15 | **MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches**<br><sub>Seungkwan Kang, Hyungseok Ko, Heemin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22579) · [PDF](https://arxiv.org/pdf/2610.22579) |
 | 2026-10-15 | **Velox: Spatial Memory Makes World Models Efficient**<br><sub>Qiuhong Shen, Shizun Wang, Xinchao Wang</sub> | [arXiv](https://arxiv.org/abs/2610.22311) · [PDF](https://arxiv.org/pdf/2610.22311) |
 | 2026-10-15 | **Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing**<br><sub>Mingjin Zhang, Jiannong Cao, Tao Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22172) · [PDF](https://arxiv.org/pdf/2610.22172) |
 | 2026-10-15 | **DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction**<br><sub>Aozhong Zhang, Selcuk Gurses, Yanxia Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22130) · [PDF](https://arxiv.org/pdf/2610.22130) |

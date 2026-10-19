@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-168 papers · newest submission first
+170 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration**<br><sub>Jiwoo Kim, Gunho Park, Sunwoo Yoo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22877) · [PDF](https://arxiv.org/pdf/2610.22877) |
+| 2026-10-15 | **Noise-shaped Sampling and Annealing for Scalable On-the-edge Training of Binary and Ternary AI Models**<br><sub>Zihao Chen, Zhili Xiao, Rui-Jie Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22621) · [PDF](https://arxiv.org/pdf/2610.22621) |
 | 2026-10-15 | **BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks**<br><sub>Max Zhu, Bohang Sun, Pietro Lio et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22256) · [PDF](https://arxiv.org/pdf/2610.22256) |
 | 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
 | 2026-10-15 | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding**<br><sub>Hanbin Bae, Heejin Choi, Joohyung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21436) · [PDF](https://arxiv.org/pdf/2610.21436) |

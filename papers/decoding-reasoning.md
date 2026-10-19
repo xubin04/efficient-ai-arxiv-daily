@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-103 papers · newest submission first
+109 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **DLite: History-free Speculative Decoding for Agentic AI**<br><sub>Jiaming Xu, Hanzhen Wang, Tianlang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23787) · [PDF](https://arxiv.org/pdf/2610.23787) |
+| 2026-10-16 | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers**<br><sub>Srinivasan Iyengar</sub> | [arXiv](https://arxiv.org/abs/2610.23255) · [PDF](https://arxiv.org/pdf/2610.23255) |
+| 2026-10-16 | **ReLaDrift: Recurrent Language Generation via Drifting for Test-Time Scaling**<br><sub>Yuki Otsuka, Daisuke Oba, Naoaki Okazaki</sub> | [arXiv](https://arxiv.org/abs/2610.23225) · [PDF](https://arxiv.org/pdf/2610.23225) · [Code](https://github.com/Yuki-Ots/ReLaDrift) |
+| 2026-10-16 | **Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning**<br><sub>Ming Shen, Tianjun Yao</sub> | [arXiv](https://arxiv.org/abs/2610.23213) · [PDF](https://arxiv.org/pdf/2610.23213) |
+| 2026-10-16 | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration**<br><sub>Jiwoo Kim, Gunho Park, Sunwoo Yoo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22877) · [PDF](https://arxiv.org/pdf/2610.22877) |
+| 2026-10-15 | **On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction**<br><sub>Eliezer Shlomi, Eliron Rahimi, Avi Mendelson et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22543) · [PDF](https://arxiv.org/pdf/2610.22543) |
 | 2026-10-15 | **Query-Efficient Rejection Sampling for Parallel Masked Diffusion**<br><sub>Shiyuan Zhang, Xuheng Li, Qiwei Di et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22238) · [PDF](https://arxiv.org/pdf/2610.22238) |
 | 2026-10-15 | **LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models**<br><sub>Zixuan Liu, Nan Xue, Rui Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21594) · [PDF](https://arxiv.org/pdf/2610.21594) |
 | 2026-10-15 | **HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding**<br><sub>Hanbin Bae, Heejin Choi, Joohyung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21436) · [PDF](https://arxiv.org/pdf/2610.21436) |

@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-152 papers · newest submission first
+158 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models**<br><sub>Eunju Park, Uiwon Hwang</sub> | [arXiv](https://arxiv.org/abs/2610.23324) · [PDF](https://arxiv.org/pdf/2610.23324) · [Code](https://github.com/pej0918/CatchUp) |
+| 2026-10-16 | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference**<br><sub>Zhenxu Tian, Kebin Liu, Zhengwu Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22985) · [PDF](https://arxiv.org/pdf/2610.22985) |
+| 2026-10-16 | **Uncertainty-Aware Budget Allocation for Efficient LLM Tree Search**<br><sub>Jianguo Huang, Zhiyi Lyu, Fuxiang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22858) · [PDF](https://arxiv.org/pdf/2610.22858) |
+| 2026-10-16 | **Prune the Leaky Neurons: Mitigating Private Data Leakage in Fine-Tuned LLMs via Joint-Embedding-Guided Pruning**<br><sub>Mohamed Shaaban, Mohamed Elmahallawy</sub> | [arXiv](https://arxiv.org/abs/2610.22792) · [PDF](https://arxiv.org/pdf/2610.22792) |
+| 2026-10-15 | **MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning**<br><sub>Mengchen Fan, Qizhen Lan, Xi Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22751) · [PDF](https://arxiv.org/pdf/2610.22751) |
+| 2026-10-15 | **Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX**<br><sub>Wesley Kambale, Roland Sankara</sub> | [arXiv](https://arxiv.org/abs/2610.22529) · [PDF](https://arxiv.org/pdf/2610.22529) |
 | 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
 | 2026-10-15 | **Calibration Language Shapes Block-Influence Pruning in Multilingual Language Models**<br><sub>Vedant Pandhare, Piyush Dhoka</sub> | [arXiv](https://arxiv.org/abs/2610.21383) · [PDF](https://arxiv.org/pdf/2610.21383) · [Code](https://github.com/VedantPandhare/Language-Balanced-Depth-Pruning-of-Small-Multilingual-LLMs.git) |
 | 2026-10-15 | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search**<br><sub>Yun Dai, Yuyun Chen, Jiarui Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21129) · [PDF](https://arxiv.org/pdf/2610.21129) |

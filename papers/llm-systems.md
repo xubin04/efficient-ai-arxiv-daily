@@ -4,10 +4,13 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-170 papers · newest submission first
+173 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs**<br><sub>Jinheng Li, Guosheng Wang, Hongchao Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23503) · [PDF](https://arxiv.org/pdf/2610.23503) · [Code](https://github.com/FlashLabAE/HBFSim) |
+| 2026-10-16 | **Efficient CPU-GPU collaborative MoE inference via Adaptive Expert Assignment**<br><sub>Wenhui Lv, Yunming Liao, Hongli Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23006) · [PDF](https://arxiv.org/pdf/2610.23006) |
+| 2026-10-16 | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration**<br><sub>Jiwoo Kim, Gunho Park, Sunwoo Yoo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22877) · [PDF](https://arxiv.org/pdf/2610.22877) |
 | 2026-10-15 | **Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing**<br><sub>Tianxiang Fei, Jiazheng Kang, Mao Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22196) · [PDF](https://arxiv.org/pdf/2610.22196) |
 | 2026-10-15 | **When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill**<br><sub>Muhammad Ibrahim</sub> | [arXiv](https://arxiv.org/abs/2610.21500) · [PDF](https://arxiv.org/pdf/2610.21500) |
 | 2026-10-15 | **PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems**<br><sub>Han Shen, Qifu Tyler Sun, Fanyang Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21390) · [PDF](https://arxiv.org/pdf/2610.21390) |
@@ -26,7 +29,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-10-12 | **Efficient Resource-Shiftable RL Post-training with Generative Rewards**<br><sub>Yanfeng Zhao, Haoyang Li, Sheng Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16866) · [PDF](https://arxiv.org/pdf/2610.16866) |
 | 2026-10-12 | **Prorsa: Unleashing the Potential of Prefill-Decode Disaggregation in Agentic Reinforcement Learning**<br><sub>Chiheng Lou, Xiangwei Deng, Bangjun Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16592) · [PDF](https://arxiv.org/pdf/2610.16592) |
 | 2026-10-12 | **LoopQuant: Accurate and Efficient Post-Training Quantization for Looped Transformers**<br><sub>Zhixiong Zhao, Zukang Xu, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16368) · [PDF](https://arxiv.org/pdf/2610.16368) · [Code](https://github.com/Kishon-zzx/LoopQuant%5D) |
-| 2026-10-12 | **A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoonSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
+| 2026-10-12 | **LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes**<br><sub>LoongSage Team, Bowei Song, Caiwei Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16352) · [PDF](https://arxiv.org/pdf/2610.16352) |
 | 2026-10-11 | **Lightweight Scheduling Policies for Continuously Batched LLM Serving Across GPU Architectures**<br><sub>Ashman Mehra, Akshan Agarwal, Aryeh Carmi</sub> | [arXiv](https://arxiv.org/abs/2610.15899) · [PDF](https://arxiv.org/pdf/2610.15899) |
 | 2026-10-11 | **Native Dual Pools or Shared Paging? Memory Organization for Concurrent Hybrid LLM Serving**<br><sub>Dongwook Kang</sub> | [arXiv](https://arxiv.org/abs/2610.15755) · [PDF](https://arxiv.org/pdf/2610.15755) |
 | 2026-10-11 | **The Price of Precision: A Calibrated Cost Model for Mixed-Precision LLM Serving**<br><sub>Mukund Athmaram, Manoj Rao, Liang Ma</sub> | [arXiv](https://arxiv.org/abs/2610.15629) · [PDF](https://arxiv.org/pdf/2610.15629) |

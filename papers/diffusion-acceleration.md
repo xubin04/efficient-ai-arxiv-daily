@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-88 papers · newest submission first
+91 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-16 | **Blitz: Accelerating the Diffusion Modules of AlphaFold3 and Boltz-2**<br><sub>Vinay Saji Mathew, Soundar Kumara, Gretta Kellogg et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23703) · [PDF](https://arxiv.org/pdf/2610.23703) |
+| 2026-10-16 | **DIFFLET: A Fast Inference Engine for Diffusion Transformer Models on AWS Trainium**<br><sub>Bin Ma, Min Yu, Vijay Kodamalla et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23047) · [PDF](https://arxiv.org/pdf/2610.23047) |
+| 2026-10-16 | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers**<br><sub>Bingxin Xing, Yu Zhang, Jiatong Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22975) · [PDF](https://arxiv.org/pdf/2610.22975) |
 | 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
 | 2026-10-15 | **SoftCache: Adaptive Step Size Caching for Diffusion Transformers**<br><sub>Shimon Malnick, Nadav Orenstein, Ohad Fried et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22369) · [PDF](https://arxiv.org/pdf/2610.22369) |
 | 2026-10-15 | **PathFM: Fast Generative Forecasting of Multivariate Trajectories**<br><sub>Jiachen Yao, Xiyuan Zhang, Annan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22358) · [PDF](https://arxiv.org/pdf/2610.22358) |
