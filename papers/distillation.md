@@ -4,10 +4,24 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-376 papers · newest submission first
+390 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
+| 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
+| 2026-10-19 | **TamedFlow: Trajectory-Aware Distillation\\for Teacher-Assisted Diffusion Sampling**<br><sub>Shuaiqi Cheng, Jiahao Zhang, Boyuan Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26025) · [PDF](https://arxiv.org/pdf/2610.26025) |
+| 2026-10-19 | **Correctness-Dependent Asymmetric Target Distributions for Self-Distillation Policy Optimization**<br><sub>Suwan Yoon, Seongryong Jung, Changhee Lee</sub> | [arXiv](https://arxiv.org/abs/2610.25973) · [PDF](https://arxiv.org/pdf/2610.25973) |
+| 2026-10-19 | **Asynchronous On-Policy Self-Distillation**<br><sub>Xidong Wu, Qi Qi, Yuqiong Ji et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25880) · [PDF](https://arxiv.org/pdf/2610.25880) |
+| 2026-10-19 | **Hihaze: One-Step Diffusion for High-Resolution Real-World Image Dehazing**<br><sub>Zheng Chen, Yuchen Huang, Xiaoyang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25832) · [PDF](https://arxiv.org/pdf/2610.25832) · [Code](https://github.com/zhengchen1999/Hihaze) |
+| 2026-10-19 | **Functional Cross-layer Experts Routing for One-step Diffusion Distillation**<br><sub>Zile Huang, Ser-nam Lim</sub> | [arXiv](https://arxiv.org/abs/2610.25742) · [PDF](https://arxiv.org/pdf/2610.25742) · [Code](https://github.com/toffeecat/demoe-ttt-router) |
+| 2026-10-19 | **LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation**<br><sub>Liang Xu, Shufan Shen, Zhongni Hou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25679) · [PDF](https://arxiv.org/pdf/2610.25679) |
+| 2026-10-19 | **OPDArena: Understanding Learning and Forgetting in On-Policy Distillation**<br><sub>Yuanze Xu, Tianzhu Ye, Hui Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25651) · [PDF](https://arxiv.org/pdf/2610.25651) · [Code](https://github.com/StellarCurtain/OPDArena) |
+| 2026-10-19 | **Think, Compress, Answer: Reinforcement Learning for Multimodal Grounding via Reasoning Compression**<br><sub>Jinbae Seo, Hyeongjun Kwon, Jiyoung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25640) · [PDF](https://arxiv.org/pdf/2610.25640) |
+| 2026-10-18 | **A failure of Imagination: VLMs fail to use visual representations for text, but self-distillation can help**<br><sub>Shashwat Singh, He He, Tal Linzen</sub> | [arXiv](https://arxiv.org/abs/2610.25470) · [PDF](https://arxiv.org/pdf/2610.25470) |
+| 2026-10-17 | **ReTRACE: Feedback-Guided LLM Agent in a Chemistry Harness for Retrosynthesis Planning**<br><sub>Jinxiang Xie, Yijian Zhang, Qingyuan Yi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24744) · [PDF](https://arxiv.org/pdf/2610.24744) |
+| 2026-10-16 | **Distillation, Self-Training, and the Fragility of Learned Chemical Reasoning**<br><sub>Anagha Aneesh, Sebastian Ibarraran, Frank Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24199) · [PDF](https://arxiv.org/pdf/2610.24199) |
+| 2026-10-16 | **SERO: Semantic Prediction for Single-Step Object Removal**<br><sub>Amreen Hasheem Siraj, Alireza Javanmardi, Pragati Jaiswal et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24173) · [PDF](https://arxiv.org/pdf/2610.24173) |
 | 2026-10-16 | **Blitz: Accelerating the Diffusion Modules of AlphaFold3 and Boltz-2**<br><sub>Vinay Saji Mathew, Soundar Kumara, Gretta Kellogg et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23703) · [PDF](https://arxiv.org/pdf/2610.23703) |
 | 2026-10-16 | **PreciseEdit: Strong Yet Stable Semantic Transport for One-Step Image Editing**<br><sub>Jingyi Wang, Xiao Lu</sub> | [arXiv](https://arxiv.org/abs/2610.23535) · [PDF](https://arxiv.org/pdf/2610.23535) |
 | 2026-10-16 | **When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models**<br><sub>Qizhen Lan, Yiling Ma, Ruiqi Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23469) · [PDF](https://arxiv.org/pdf/2610.23469) |

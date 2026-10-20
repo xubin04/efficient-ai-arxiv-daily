@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-156 papers · newest submission first
+168 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **LatComm: Reusable Context Compression for Latent Communication between Large Language Models**<br><sub>Huawei Lin, Jinting Liu, Tan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26840) · [PDF](https://arxiv.org/pdf/2610.26840) |
+| 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
+| 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
+| 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
+| 2026-10-19 | **DeltaTrace: Efficient Signed Attribution for Reasoning Language Models**<br><sub>Chen Liang, Daoping Wu, Donghua Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25877) · [PDF](https://arxiv.org/pdf/2610.25877) |
+| 2026-10-19 | **Think, Compress, Answer: Reinforcement Learning for Multimodal Grounding via Reasoning Compression**<br><sub>Jinbae Seo, Hyeongjun Kwon, Jiyoung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25640) · [PDF](https://arxiv.org/pdf/2610.25640) |
+| 2026-10-18 | **System X: An LLM Decision Model That Replies from Its Own KV Cache**<br><sub>Syed Usama Khalid Bukhari, Syed Safwan Khalid, Muhammad Aamir</sub> | [arXiv](https://arxiv.org/abs/2610.25456) · [PDF](https://arxiv.org/pdf/2610.25456) |
+| 2026-10-18 | **MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers**<br><sub>Sravanth Kodavanti, Manjunath Arveti</sub> | [arXiv](https://arxiv.org/abs/2610.25431) · [PDF](https://arxiv.org/pdf/2610.25431) |
+| 2026-10-18 | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models**<br><sub>Guangzong Si, Dong Wang, Yifan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25005) · [PDF](https://arxiv.org/pdf/2610.25005) |
+| 2026-10-18 | **Certified Sparse Attention via Perturbed Retrieval**<br><sub>Runguo Li</sub> | [arXiv](https://arxiv.org/abs/2610.24991) · [PDF](https://arxiv.org/pdf/2610.24991) |
+| 2026-10-17 | **TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference**<br><sub>Yu Wang, Zhu Wang, Ning Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24499) · [PDF](https://arxiv.org/pdf/2610.24499) |
+| 2026-10-16 | **KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving**<br><sub>Shiyi Ling, Fei Fang, Chen Qian</sub> | [arXiv](https://arxiv.org/abs/2610.24179) · [PDF](https://arxiv.org/pdf/2610.24179) |
 | 2026-10-16 | **HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs**<br><sub>Jinheng Li, Guosheng Wang, Hongchao Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23503) · [PDF](https://arxiv.org/pdf/2610.23503) · [Code](https://github.com/FlashLabAE/HBFSim) |
 | 2026-10-16 | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference**<br><sub>Zhenxu Tian, Kebin Liu, Zhengwu Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22985) · [PDF](https://arxiv.org/pdf/2610.22985) |
 | 2026-10-16 | **FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning**<br><sub>Ali Sarabadani, Massimo Piccardi, Mehran Abolhasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22906) · [PDF](https://arxiv.org/pdf/2610.22906) |

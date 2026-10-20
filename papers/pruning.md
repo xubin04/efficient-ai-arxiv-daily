@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-158 papers · newest submission first
+167 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
+| 2026-10-19 | **SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models**<br><sub>Shenli Zheng, Zhou Fang, Yuan Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26487) · [PDF](https://arxiv.org/pdf/2610.26487) |
+| 2026-10-19 | **How Much Does One Wrong Answer Cost? Error Propagation in Constraint Pruning with Noisy LLM Oracles**<br><sub>Zhengtao Gui, Weining Shen</sub> | [arXiv](https://arxiv.org/abs/2610.25739) · [PDF](https://arxiv.org/pdf/2610.25739) |
+| 2026-10-19 | **LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation**<br><sub>Liang Xu, Shufan Shen, Zhongni Hou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25679) · [PDF](https://arxiv.org/pdf/2610.25679) |
+| 2026-10-18 | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models**<br><sub>Guangzong Si, Dong Wang, Yifan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25005) · [PDF](https://arxiv.org/pdf/2610.25005) |
+| 2026-10-17 | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments**<br><sub>Dimitrios Liakopoulos, Prasoon Sinha, Neeraja J. Yadwadkar</sub> | [arXiv](https://arxiv.org/abs/2610.24861) · [PDF](https://arxiv.org/pdf/2610.24861) |
+| 2026-10-16 | **Hierarchical and Query-Aware Visual Token Pruning for High-Resolution LVLMs**<br><sub>Luther Wei, Ling Zou, Kang-Yang Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24102) · [PDF](https://arxiv.org/pdf/2610.24102) |
 | 2026-10-16 | **CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models**<br><sub>Eunju Park, Uiwon Hwang</sub> | [arXiv](https://arxiv.org/abs/2610.23324) · [PDF](https://arxiv.org/pdf/2610.23324) · [Code](https://github.com/pej0918/CatchUp) |
 | 2026-10-16 | **Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference**<br><sub>Zhenxu Tian, Kebin Liu, Zhengwu Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22985) · [PDF](https://arxiv.org/pdf/2610.22985) |
 | 2026-10-16 | **Uncertainty-Aware Budget Allocation for Efficient LLM Tree Search**<br><sub>Jianguo Huang, Zhiyi Lyu, Fuxiang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22858) · [PDF](https://arxiv.org/pdf/2610.22858) |
@@ -15,6 +22,7 @@
 | 2026-10-15 | **MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning**<br><sub>Mengchen Fan, Qizhen Lan, Xi Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22751) · [PDF](https://arxiv.org/pdf/2610.22751) |
 | 2026-10-15 | **Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX**<br><sub>Wesley Kambale, Roland Sankara</sub> | [arXiv](https://arxiv.org/abs/2610.22529) · [PDF](https://arxiv.org/pdf/2610.22529) |
 | 2026-10-15 | **Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation**<br><sub>SeungJu Cha, Ye-Chan Kim, HyunGee Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22370) · [PDF](https://arxiv.org/pdf/2610.22370) · [Code](https://github.com/SeungJuCha/DaTMe) |
+| 2026-10-15 | **PACE: Pareto-Adaptive Compression for Efficient Native MLLMs**<br><sub>Lei Tian, Chunzheng Zhu, Kai Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24005) · [PDF](https://arxiv.org/pdf/2610.24005) |
 | 2026-10-15 | **Calibration Language Shapes Block-Influence Pruning in Multilingual Language Models**<br><sub>Vedant Pandhare, Piyush Dhoka</sub> | [arXiv](https://arxiv.org/abs/2610.21383) · [PDF](https://arxiv.org/pdf/2610.21383) · [Code](https://github.com/VedantPandhare/Language-Balanced-Depth-Pruning-of-Small-Multilingual-LLMs.git) |
 | 2026-10-15 | **Sparse Attention for Video Generation Acceleration via Growing Sparsity and Reduced Search**<br><sub>Yun Dai, Yuyun Chen, Jiarui Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.21129) · [PDF](https://arxiv.org/pdf/2610.21129) |
 | 2026-10-14 | **STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents**<br><sub>Shuo Wang, Sifan Zhou, Xiaobo Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.20390) · [PDF](https://arxiv.org/pdf/2610.20390) |
@@ -28,6 +36,7 @@
 | 2026-10-13 | **Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too**<br><sub>Mehdi Makni, Natalia Ponomareva, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2610.18516) · [PDF](https://arxiv.org/pdf/2610.18516) |
 | 2026-10-13 | **Readout Scaling Shapes Sparse Feature Recovery**<br><sub>Brian Xiao, Sarah Wilson</sub> | [arXiv](https://arxiv.org/abs/2610.18462) · [PDF](https://arxiv.org/pdf/2610.18462) |
 | 2026-10-13 | **Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs**<br><sub>Peiran Yin, Hao Wu, Zihao Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.18399) · [PDF](https://arxiv.org/pdf/2610.18399) · [Code](https://github.com/EIT-NLP/Bifocal) |
+| 2026-10-13 | **How Much Can We Prune? Exploring the Performance Limits of Visual Token Pruning**<br><sub>Janghoon Cho, Shubhankar Borse, Reza Pourreza et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23974) · [PDF](https://arxiv.org/pdf/2610.23974) |
 | 2026-10-13 | **TwinPrune: Density-Aware Two-Phase Token Pruning for Vision-Language Models**<br><sub>Kai Liu, Anqi Li, Junxian Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.17530) · [PDF](https://arxiv.org/pdf/2610.17530) · [Code](https://github.com/Kai-Liu001/TwinPrune) |
 | 2026-10-12 | **FoveaTree: Information-Density Trees for Query-Guided Visual Token Pruning in Video Large Language Models**<br><sub>Zihan Meng, Weidong Chen, Dexiang Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16744) · [PDF](https://arxiv.org/pdf/2610.16744) |
 | 2026-10-12 | **When 1+1 Backfires: Rethinking Relevance-Diversity Balancing for Sample-Aware Visual Token Reduction**<br><sub>Yihang Huang, Peisong Wen, Chenhao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.16615) · [PDF](https://arxiv.org/pdf/2610.16615) |

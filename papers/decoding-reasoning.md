@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-109 papers · newest submission first
+117 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **CALM: Consistency-Aware Logit Masking in Decoding Space for Mitigating Overthinking of Large Reasoning Models**<br><sub>Shengjing Liu, Feiyang Li, Yuxuan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25908) · [PDF](https://arxiv.org/pdf/2610.25908) |
+| 2026-10-19 | **Think, Compress, Answer: Reinforcement Learning for Multimodal Grounding via Reasoning Compression**<br><sub>Jinbae Seo, Hyeongjun Kwon, Jiyoung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25640) · [PDF](https://arxiv.org/pdf/2610.25640) |
+| 2026-10-18 | **ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference**<br><sub>Mobina Kashaniyan, Ali Jannesari</sub> | [arXiv](https://arxiv.org/abs/2610.25519) · [PDF](https://arxiv.org/pdf/2610.25519) |
+| 2026-10-18 | **Test-Time Scaling of Text-to-Image Flow Matching Models with Noise-Rejuvenated Sequential Monte Carlo**<br><sub>Wenyi Lian, Zheng Zhao, Thomas B. Sch{ö}n</sub> | [arXiv](https://arxiv.org/abs/2610.25479) · [PDF](https://arxiv.org/pdf/2610.25479) · [Code](https://github.com/shermanlian/NR-SMC) |
+| 2026-10-18 | **GeoART: Geometry-Aware Refinement via Test-Time Scaling for Camera-Conditioned Video Diffusion**<br><sub>Liudi Yang, Ziyuan Liu</sub> | [arXiv](https://arxiv.org/abs/2610.25273) · [PDF](https://arxiv.org/pdf/2610.25273) |
+| 2026-10-18 | **BatchParScale: Sparse Batch-Mixing for Sequence Models**<br><sub>Hans Peter Lyngsøe Raaschou-jensen, M. Onurcan Kaya, Desmond Elliott</sub> | [arXiv](https://arxiv.org/abs/2610.25254) · [PDF](https://arxiv.org/pdf/2610.25254) |
+| 2026-10-18 | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding**<br><sub>Annabelle Sujun Tang, Rohan Mahapatra, Christopher Priebe et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25012) · [PDF](https://arxiv.org/pdf/2610.25012) |
+| 2026-10-17 | **FlashMap: Flow Map Speculative Decoding**<br><sub>Jeff Shen, Zhejian Zhou, Ryan Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24365) · [PDF](https://arxiv.org/pdf/2610.24365) · [Code](https://github.com/al-jshen/flashmap) |
 | 2026-10-16 | **DLite: History-free Speculative Decoding for Agentic AI**<br><sub>Jiaming Xu, Hanzhen Wang, Tianlang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23787) · [PDF](https://arxiv.org/pdf/2610.23787) |
 | 2026-10-16 | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers**<br><sub>Srinivasan Iyengar</sub> | [arXiv](https://arxiv.org/abs/2610.23255) · [PDF](https://arxiv.org/pdf/2610.23255) |
 | 2026-10-16 | **ReLaDrift: Recurrent Language Generation via Drifting for Test-Time Scaling**<br><sub>Yuki Otsuka, Daisuke Oba, Naoaki Okazaki</sub> | [arXiv](https://arxiv.org/abs/2610.23225) · [PDF](https://arxiv.org/pdf/2610.23225) · [Code](https://github.com/Yuki-Ots/ReLaDrift) |

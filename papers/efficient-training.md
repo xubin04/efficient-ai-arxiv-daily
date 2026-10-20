@@ -4,10 +4,20 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-108 papers · newest submission first
+118 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
+| 2026-10-19 | **An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs**<br><sub>Minglei Li, Peng Ye, Haonan He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26370) · [PDF](https://arxiv.org/pdf/2610.26370) |
+| 2026-10-19 | **Communication-Efficient Federated Domain Generalization in Edge Networks via Dynamic Prototype Regulation**<br><sub>Yuankun Xia, Hui Wang, Ling Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25810) · [PDF](https://arxiv.org/pdf/2610.25810) |
+| 2026-10-18 | **System X: An LLM Decision Model That Replies from Its Own KV Cache**<br><sub>Syed Usama Khalid Bukhari, Syed Safwan Khalid, Muhammad Aamir</sub> | [arXiv](https://arxiv.org/abs/2610.25456) · [PDF](https://arxiv.org/pdf/2610.25456) |
+| 2026-10-18 | **BatchParScale: Sparse Batch-Mixing for Sequence Models**<br><sub>Hans Peter Lyngsøe Raaschou-jensen, M. Onurcan Kaya, Desmond Elliott</sub> | [arXiv](https://arxiv.org/abs/2610.25254) · [PDF](https://arxiv.org/pdf/2610.25254) |
+| 2026-10-18 | **PACT: NVFP4 Data-Flow LoRA Fine-Tuning on Consumer GPUs**<br><sub>Lei Gao, Hossein Entezari Zarch, Chaoyi Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25048) · [PDF](https://arxiv.org/pdf/2610.25048) |
+| 2026-10-17 | **Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts**<br><sub>Anna Pramod</sub> | [arXiv](https://arxiv.org/abs/2610.24818) · [PDF](https://arxiv.org/pdf/2610.24818) |
+| 2026-10-17 | **First-Order LoRA Training with Phone NPUs**<br><sub>Xu Zheng, Wei Cheng, Zhuomin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24816) · [PDF](https://arxiv.org/pdf/2610.24816) |
+| 2026-10-17 | **AdamPM: Memory-Efficient LLM Optimization via Moment Pooling**<br><sub>Xiaowei Ji, Lishan Xu, Jianing An et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24598) · [PDF](https://arxiv.org/pdf/2610.24598) · [Code](https://github.com/jixiaowei95/AdamPM) |
+| 2026-10-16 | **Cache2LoRA: Understanding and Improving Context Internalization**<br><sub>Yi Fang, Gaurav Srivastava, Zhenyu Bi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24107) · [PDF](https://arxiv.org/pdf/2610.24107) |
 | 2026-10-16 | **Kingfisher: Fast Personalized Visual Autoregressive Generation via Scale-Aware Prompt-Conditioned Scale Decomposition**<br><sub>Dinh-Khoi Vo, Akihiro Sugimoto, Minh-Triet Tran et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23238) · [PDF](https://arxiv.org/pdf/2610.23238) |
 | 2026-10-16 | **Local proxies for memory-efficient training**<br><sub>Wu S. Zihan, Brian A. Yuan, Guillaume Bellec</sub> | [arXiv](https://arxiv.org/abs/2610.23145) · [PDF](https://arxiv.org/pdf/2610.23145) |
 | 2026-10-16 | **BaGuaLu-2: Taming Dynamic Memory Fluctuation for Efficient MoE Model Training over 10,000 GPUs**<br><sub>Mingshu Zhai, Minkun Guo, Hongrui Lian et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23064) · [PDF](https://arxiv.org/pdf/2610.23064) |

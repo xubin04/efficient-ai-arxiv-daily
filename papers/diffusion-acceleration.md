@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-91 papers · newest submission first
+99 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration**<br><sub>Javad Rajabi, Hakki Can Karaimer, David B. Lindell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26837) · [PDF](https://arxiv.org/pdf/2610.26837) |
+| 2026-10-19 | **ReAnchor: Reusing Rejected Verifier States for Diffusion Drafting**<br><sub>Sanghyun Lee, Wonjin Nam, Seungho Jang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26531) · [PDF](https://arxiv.org/pdf/2610.26531) |
+| 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
+| 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
+| 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
+| 2026-10-19 | **LEAP: Accelerating ODE-based Diffusion Sampling with Optimal Linear Leaps**<br><sub>Haowei Zheng, Zhenyu Zhou, Jiawei Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25918) · [PDF](https://arxiv.org/pdf/2610.25918) · [Code](https://github.com/zju-pi/LEAP) |
+| 2026-10-19 | **PoSTCache: From Forecasting to Postdictive Smoothing for Revisable Diffusion Caching**<br><sub>Liwei Lan, Hui Chen, Jungong Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25664) · [PDF](https://arxiv.org/pdf/2610.25664) |
+| 2026-10-18 | **VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse**<br><sub>Sicheng He, Yi Pan, Qiuting Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25043) · [PDF](https://arxiv.org/pdf/2610.25043) |
 | 2026-10-16 | **Blitz: Accelerating the Diffusion Modules of AlphaFold3 and Boltz-2**<br><sub>Vinay Saji Mathew, Soundar Kumara, Gretta Kellogg et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23703) · [PDF](https://arxiv.org/pdf/2610.23703) |
 | 2026-10-16 | **DIFFLET: A Fast Inference Engine for Diffusion Transformer Models on AWS Trainium**<br><sub>Bin Ma, Min Yu, Vijay Kodamalla et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23047) · [PDF](https://arxiv.org/pdf/2610.23047) |
 | 2026-10-16 | **Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers**<br><sub>Bingxin Xing, Yu Zhang, Jiatong Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22975) · [PDF](https://arxiv.org/pdf/2610.22975) |
