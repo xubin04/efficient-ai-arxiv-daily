@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-117 papers · newest submission first
+119 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-19 | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding**<br><sub>Shreyas Kulkarni, Uttam Gurram, Madhav Kanda et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27379) · [PDF](https://arxiv.org/pdf/2610.27379) |
+| 2026-10-19 | **TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation**<br><sub>Akash Gokul, Srijan Bansal, Yingbo Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27290) · [PDF](https://arxiv.org/pdf/2610.27290) |
 | 2026-10-19 | **CALM: Consistency-Aware Logit Masking in Decoding Space for Mitigating Overthinking of Large Reasoning Models**<br><sub>Shengjing Liu, Feiyang Li, Yuxuan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25908) · [PDF](https://arxiv.org/pdf/2610.25908) |
 | 2026-10-19 | **Think, Compress, Answer: Reinforcement Learning for Multimodal Grounding via Reasoning Compression**<br><sub>Jinbae Seo, Hyeongjun Kwon, Jiyoung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25640) · [PDF](https://arxiv.org/pdf/2610.25640) |
 | 2026-10-18 | **ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference**<br><sub>Mobina Kashaniyan, Ali Jannesari</sub> | [arXiv](https://arxiv.org/abs/2610.25519) · [PDF](https://arxiv.org/pdf/2610.25519) |

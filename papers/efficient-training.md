@@ -4,10 +4,15 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-118 papers · newest submission first
+123 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **MuPACE: Learning to Pace Muon for LoRA Fine-Tuning**<br><sub>Jan Kobiolka, Christian Frey, Josif Grabocka</sub> | [arXiv](https://arxiv.org/abs/2610.28072) · [PDF](https://arxiv.org/pdf/2610.28072) |
+| 2026-10-20 | **Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation**<br><sub>Anil Srirangapatna Nagesh, Nitin Gupta, Anuj Taneja et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27993) · [PDF](https://arxiv.org/pdf/2610.27993) |
+| 2026-10-20 | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks**<br><sub>Xinyu Lei, Hong Huang, Jiebin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27699) · [PDF](https://arxiv.org/pdf/2610.27699) |
+| 2026-10-20 | **LoRASpace: A Pool-Wide Shared Substrate for Static and Dynamic Multi-LoRA Composition**<br><sub>Thamirawaran Sathiyalogeswaran, Navindu De Silva, Chamikara Siriwardane et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27444) · [PDF](https://arxiv.org/pdf/2610.27444) · [Code](https://github.com/Thamirawaran/loraspace) |
+| 2026-10-20 | **Scaling Graph Reasoning in Language Models with Learnable Graph Positional Encodings**<br><sub>Javier Porras-Valenzuela, Arush Arora, Alejandro Ribeiro</sub> | [arXiv](https://arxiv.org/abs/2610.27439) · [PDF](https://arxiv.org/pdf/2610.27439) |
 | 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
 | 2026-10-19 | **An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs**<br><sub>Minglei Li, Peng Ye, Haonan He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26370) · [PDF](https://arxiv.org/pdf/2610.26370) |
 | 2026-10-19 | **Communication-Efficient Federated Domain Generalization in Edge Networks via Dynamic Prototype Regulation**<br><sub>Yuankun Xia, Hui Wang, Ling Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25810) · [PDF](https://arxiv.org/pdf/2610.25810) |

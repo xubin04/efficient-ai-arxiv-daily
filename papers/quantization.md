@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-175 papers · newest submission first
+179 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models**<br><sub>Ning Zhang, Shihao Wang, Jinrui Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28500) · [PDF](https://arxiv.org/pdf/2610.28500) · [Code](https://github.com/PolyU-VCLab/BitMTP) |
+| 2026-10-20 | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models**<br><sub>Jiahui Ning, Liang Chen, Yuchen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27913) · [PDF](https://arxiv.org/pdf/2610.27913) · [Code](https://github.com/gaffeyn03/ACE-Compression) |
+| 2026-10-20 | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks**<br><sub>Xinyu Lei, Hong Huang, Jiebin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27699) · [PDF](https://arxiv.org/pdf/2610.27699) |
+| 2026-10-19 | **PerQ: Inverse Generative Modeling for Neural Image Compression via Quantization Error Compensation**<br><sub>Tianhao Peng, Ho Man Kwan, Fan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27374) · [PDF](https://arxiv.org/pdf/2610.27374) |
 | 2026-10-19 | **Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein**<br><sub>Manohar Kaul, Sadbhavana Babar, Aditya Ramesh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26102) · [PDF](https://arxiv.org/pdf/2610.26102) |
 | 2026-10-19 | **MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration**<br><sub>Zijun Zhao, Ruichu Ao, Stef Cuyckens et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26083) · [PDF](https://arxiv.org/pdf/2610.26083) |
 | 2026-10-19 | **LIRQuant: An Efficient Locally Isolated Rotation Quantization Method for Large Language Models**<br><sub>Desheng Xu, Hanglin Li, Tianchen Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25675) · [PDF](https://arxiv.org/pdf/2610.25675) |

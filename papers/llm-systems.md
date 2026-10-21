@@ -4,11 +4,14 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-178 papers · newest submission first
+181 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **Cache Engineering for Agents**<br><sub>Tianyu Fu, Ruoxi Wang, Zihan Min et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28577) · [PDF](https://arxiv.org/pdf/2610.28577) · [Code](https://github.com/thu-nics/AKV) |
+| 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
 | 2026-10-19 | **A Hybrid GPU and Processing-Near-Memory Architecture with Shared DRAM for Efficient Prefill-Decode Disaggregation**<br><sub>Sanghyeok Han, Inseong Choi, Byungkuk Yoon et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26131) · [PDF](https://arxiv.org/pdf/2610.26131) |
+| 2026-10-19 | **3D-MoE: Complementarity-Guided Hardware-Software Co-Design for MoE Decode on 3D-Stacked NMP**<br><sub>Yudong Pan, Lian Liu, Shixin Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26991) · [PDF](https://arxiv.org/pdf/2610.26991) |
 | 2026-10-18 | **From Label Priors to Task Evidence: Efficient Long-Video Frame Selection via Bayesian GRPO**<br><sub>Shuochen Chang, Bingjie Gao, Qingyang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25418) · [PDF](https://arxiv.org/pdf/2610.25418) |
 | 2026-10-17 | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments**<br><sub>Dimitrios Liakopoulos, Prasoon Sinha, Neeraja J. Yadwadkar</sub> | [arXiv](https://arxiv.org/abs/2610.24861) · [PDF](https://arxiv.org/pdf/2610.24861) |
 | 2026-10-16 | **KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving**<br><sub>Shiyi Ling, Fei Fang, Chen Qian</sub> | [arXiv](https://arxiv.org/abs/2610.24179) · [PDF](https://arxiv.org/pdf/2610.24179) |

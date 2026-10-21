@@ -4,15 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-158 papers · newest submission first
+161 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
+| 2026-10-20 | **LaLa-World: Scaling Latent World Models with Natural Language Actions**<br><sub>Junha Song, Geonmo Gu, Jeongeun Park et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27851) · [PDF](https://arxiv.org/pdf/2610.27851) · [Code](https://github.com/junha1125/LaLa-World) |
+| 2026-10-19 | **PRIMFLOW: Learning Trajectory Primitives for Few-Step Distillation**<br><sub>Hongyi Fang, Benjia Zhou</sub> | [arXiv](https://arxiv.org/abs/2610.27146) · [PDF](https://arxiv.org/pdf/2610.27146) |
 | 2026-10-19 | **SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration**<br><sub>Javad Rajabi, Hakki Can Karaimer, David B. Lindell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26837) · [PDF](https://arxiv.org/pdf/2610.26837) |
 | 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
 | 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
 | 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
-| 2026-10-19 | **TamedFlow: Trajectory-Aware Distillation\\for Teacher-Assisted Diffusion Sampling**<br><sub>Shuaiqi Cheng, Jiahao Zhang, Boyuan Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26025) · [PDF](https://arxiv.org/pdf/2610.26025) |
+| 2026-10-19 | **TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling**<br><sub>Shuaiqi Cheng, Jiahao Zhang, Boyuan Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26025) · [PDF](https://arxiv.org/pdf/2610.26025) |
 | 2026-10-19 | **LEAP: Accelerating ODE-based Diffusion Sampling with Optimal Linear Leaps**<br><sub>Haowei Zheng, Zhenyu Zhou, Jiawei Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25918) · [PDF](https://arxiv.org/pdf/2610.25918) · [Code](https://github.com/zju-pi/LEAP) |
 | 2026-10-19 | **PoSTCache: From Forecasting to Postdictive Smoothing for Revisable Diffusion Caching**<br><sub>Liwei Lan, Hui Chen, Jungong Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25664) · [PDF](https://arxiv.org/pdf/2610.25664) |
 | 2026-10-18 | **Meta Inverse Prompting for Video Generative Models**<br><sub>Yerin Jung, Jongheon Jeong</sub> | [arXiv](https://arxiv.org/abs/2610.24965) · [PDF](https://arxiv.org/pdf/2610.24965) · [Code](https://github.com/ueriniuno/MVIP) |

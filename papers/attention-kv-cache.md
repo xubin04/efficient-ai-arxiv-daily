@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-168 papers · newest submission first
+172 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **Cache Engineering for Agents**<br><sub>Tianyu Fu, Ruoxi Wang, Zihan Min et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28577) · [PDF](https://arxiv.org/pdf/2610.28577) · [Code](https://github.com/thu-nics/AKV) |
+| 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
+| 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
+| 2026-10-19 | **Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning**<br><sub>Zerui Chen, Changrui Chen, Fei Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27341) · [PDF](https://arxiv.org/pdf/2610.27341) |
 | 2026-10-19 | **LatComm: Reusable Context Compression for Latent Communication between Large Language Models**<br><sub>Huawei Lin, Jinting Liu, Tan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26840) · [PDF](https://arxiv.org/pdf/2610.26840) |
 | 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
 | 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |

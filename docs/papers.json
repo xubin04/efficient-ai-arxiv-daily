@@ -1,9 +1,9 @@
 {
   "title": "Efficient AI · arXiv Daily",
   "repository": "xubin04/efficient-ai-arxiv-daily",
-  "updated": "2026-10-20 14:04 CST",
-  "scan_date": "2026-10-20",
-  "newest_submission": "2026-10-19",
+  "updated": "2026-10-21 14:04 CST",
+  "scan_date": "2026-10-21",
+  "newest_submission": "2026-10-20",
   "topics": [
     {
       "id": "quantization",
@@ -52,6 +52,654 @@
     }
   ],
   "papers": [
+    {
+      "id": "2610.28586",
+      "versioned_id": "2610.28586v1",
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "authors": [
+        "Shu Zhao",
+        "Tan Yu"
+      ],
+      "published": "2026-10-20T17:40:08Z",
+      "updated": "2026-10-20T17:40:08Z",
+      "abstract": "Agentic on-policy distillation (OPD) trains a student agent on its own trajectories while a teacher scores every token. A natural explanation of where it goes wrong is compounding error: the student's mistakes carry its trajectories beyond the region where the teacher is reliable, so recent methods keep training inside that region, through episode-length curricula, teacher-guided turns, prefix replay, or teacher intervention where the two disagree. We show this explanation is incomplete. From the states where the student departs most from the teacher, the teacher's own takeovers still finish the task, yet the student trained on its token scores keeps running out of turns. We attribute this to the myopia of next-token scoring. The teacher rates each token without seeing where the episode ends, so its scores let through the safe, delaying moves that outcome-based RL would punish with zero reward, a penalty agentic OPD lacks. We call this difference between what the teacher does and what it scores the rollout-scorer gap. We propose Rollout-to-Scorer Distillation (R2S), which repairs the scorer before distillation by mining high-disagreement states from the untrained student, running teacher takeovers from them, keeping the states where enough takeovers pass a reward-free check such as consensus or an LLM judge, and fine-tuning the teacher to give its takeover-informed scores on every assistant token from the divergence turn onward, without the takeover in context. The repaired teacher is frozen as the sole scorer for standard OPD, requiring no task reward during repair or training. Across three environments, two teachers and four students, R2S outperforms three state-of-the-art agentic-OPD methods in all twelve teacher-student-environment cells, by 12.8 success points on average over the best of them in each cell. Project page: https://tree-shu-zhao.github.io/r2s/.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.28586",
+      "pdf_url": "https://arxiv.org/pdf/2610.28586",
+      "code_urls": [],
+      "comment": "17 pages, 5 figures, 13 tables. Project page: https://tree-shu-zhao.github.io/r2s/",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28577",
+      "versioned_id": "2610.28577v1",
+      "title": "Cache Engineering for Agents",
+      "authors": [
+        "Tianyu Fu",
+        "Ruoxi Wang",
+        "Zihan Min",
+        "Zhongqi Ren",
+        "Zhihao Li",
+        "Tengxuan Liu",
+        "Shengxu Mu",
+        "Hanling Zhang",
+        "Yu Wang"
+      ],
+      "published": "2026-10-20T17:32:24Z",
+      "updated": "2026-10-20T17:32:24Z",
+      "abstract": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context. Specifically, agents can proactively use drop to exclude selected cache from future attention and repos to adjust retained keys' position encodings. We formalize these cache operations and identify history dependence as a serving challenge: identical token sequences can yield different cache states under different cache operation sequences, making prefix matching insufficient for correct cache reuse. Thus, we co-design the AKV serving engine. It provides a stateless interface compatible with existing serving APIs, while internally managing stateful cache reuse, eviction, and restoration. Experiments show that a tool-response rolling-drop cache policy improves average benchmark scores by 1.7 points and reduces average cost by 27.7%, compared with conventional threshold-triggered summarization. With AKV, it achieves up to 1.2x the output throughput and a 1.5x speedup in P95 request latency. Recursive self-improvement of cache policies further reduces cost by 7.1% over expert design. Our code is at https://github.com/thu-nics/AKV.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.28577",
+      "pdf_url": "https://arxiv.org/pdf/2610.28577",
+      "code_urls": [
+        "https://github.com/thu-nics/AKV"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28502",
+      "versioned_id": "2610.28502v1",
+      "title": "GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction",
+      "authors": [
+        "Trong-Thang Pham",
+        "Anh Nguyen",
+        "Hien Van Nguyen",
+        "Ngan Le"
+      ],
+      "published": "2026-10-20T16:43:06Z",
+      "updated": "2026-10-20T16:43:06Z",
+      "abstract": "Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can discard relevant details. Although gaze identifies the wearer's focus, the question may require evidence from the surrounding scene. To address these constraints, we propose GazeLens, which combines frame selection with gaze- and question-guided token reduction. First, HOG transitions and image sharpness select frames before visual encoding. For each selected frame, Gaussian pooling then forms gaze-focused and complementary summaries. Because their relevance depends on the question, a lightweight gate blends them into a primary token. Together with a global scene token, this retains both focused and contextual summaries within two tokens per frame. On StreamGaze, GazeLens achieves higher macro and micro accuracy than the evaluated full-grid and token-reduction baselines, with lower input-forward FLOPs than the shared-backbone token-reduction baselines.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.28502",
+      "pdf_url": "https://arxiv.org/pdf/2610.28502",
+      "code_urls": [],
+      "comment": "17 pages, 6 figures",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28500",
+      "versioned_id": "2610.28500v1",
+      "title": "BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models",
+      "authors": [
+        "Ning Zhang",
+        "Shihao Wang",
+        "Jinrui Zhang",
+        "Chaodong Xiao",
+        "Lei Zhang"
+      ],
+      "published": "2026-10-20T16:42:17Z",
+      "updated": "2026-10-20T16:42:17Z",
+      "abstract": "For efficient deployment of large language models (LLMs), methods of ultra-low-bit backbones reduce weight storage, memory traffic, and linear-layer execution cost, while multi-token prediction (MTP) methods reduce sequential decoding steps by predicting multiple future tokens in parallel. Although complementary, the direct combination of these methods cannot accelerate decoding at comparable quality: masked drafting lacks intermediate token input supplied in next-token training, while wider computation and causal key-value (KV) updates can offset the savings from fewer steps. To address these challenges, we propose BitMTP, an algorithm-system co-design framework for efficient MTP on ultra-low-bit LLM backbones. A joint next-token prediction and MTP objective equips a single model with both autoregressive (AR) generation and block-causal drafting. Confidence-only decoding, speculative-only decoding, and hybrid decoding provide different quality-throughput operating points without using separate draft and verifier models. Accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent for continued generation. BitMTP uses this contract to select width-specialized low-bit execution and reuse captured graphs over shared KV storage. On NVIDIA H20, BitMTP with hybrid decoding achieves five-task mean speedups of 2.2x on BitNet b1.58-2B and 2.1-2.4x on 1.7B-4B Bonsai models at comparable task quality. On RTX 3090 and Jetson Orin, it further achieves up to 2.0x in five-task mean throughput and 3.3x on MBPP+, respectively. These results demonstrate that BitMTP accelerates ultra-low-bit LLM generation across backbones, model sizes, and GPU types. The source code is released at https://github.com/PolyU-VCLab/BitMTP",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.28500",
+      "pdf_url": "https://arxiv.org/pdf/2610.28500",
+      "code_urls": [
+        "https://github.com/PolyU-VCLab/BitMTP"
+      ],
+      "comment": "Accepted at NeurIPS 2026. 16 pages, 3 figures. Code: https://github.com/PolyU-VCLab/BitMTP",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28441",
+      "versioned_id": "2610.28441v1",
+      "title": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
+      "authors": [
+        "Sahil Joshi",
+        "Prithvi Dixit",
+        "Aryan Katiyar",
+        "Agniva Chowdhury",
+        "Joseph E. Gonzalez",
+        "Anshumali Shrivastava",
+        "Aditya Desai",
+        "Kumar Krishna Agrawal"
+      ],
+      "published": "2026-10-20T16:02:12Z",
+      "updated": "2026-10-20T16:02:12Z",
+      "abstract": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic retrieval, which captures high-scoring tokens but discards residual attention mass, and sampling, which improves coverage at the cost of higher variance. Hybrid methods combine top-$k$ retrieval with uniform sampling, yet still exhibit a substantial gap from dense attention at aggressive sparsity. We introduce \\emph{Stratified Sparse Attention (SSA)}, a unified framework combining deterministic retrieval with score-guided sampling. SSA deterministically attends to high-scoring tokens while sampling the residual using proxy attention scores and correcting for their inclusion probabilities, thereby recovering attention mass beyond the retrieval set. SSA encompasses top-$k$, top-$p$, and hybrid top-$k$+sampling as special cases. Across RULER, LongBench, LOFT, and AIME, and five models ranging from 3B to 27B parameters, SSA consistently improves over the baselines at matched sparsity. On RULER-HARD with Ministral-3-8B, SSA improves accuracy over the strongest practical baseline from 81.8\\% to 84.2\\% at 32K and from 63.8\\% to 69.3\\% at 128K under $50\\times$ attention sparsity, recovering 94\\% and 85\\% of dense-attention performance, respectively. With optimized CUDA kernels, SSA achieves up to $2.96\\times$ decode speedup over FlashInfer at 1M context, demonstrating that its accuracy gains translate into practical long-context inference acceleration. We open-source our code at https://github.com/skylight-org/SSA-Paper-Code.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.28441",
+      "pdf_url": "https://arxiv.org/pdf/2610.28441",
+      "code_urls": [
+        "https://github.com/skylight-org/SSA-Paper-Code"
+      ],
+      "comment": "26 pages, 5 figures, 13 tables",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28192",
+      "versioned_id": "2610.28192v1",
+      "title": "Offline Makes Online Better: Calibrated Cache Compression for Video Generation",
+      "authors": [
+        "Zhen Wang",
+        "Ning Lai",
+        "Qingtao Yu"
+      ],
+      "published": "2026-10-20T13:33:04Z",
+      "updated": "2026-10-20T13:33:04Z",
+      "abstract": "Token merging is an effective approach to reducing KV-cache memory consumption in autoregressive video generation by clustering temporally redundant tokens and retaining only a small set of representatives. Existing methods, however, typically apply a uniform merging ratio across all attention layers and heads. We observe that different layers and heads exhibit substantially different yet jointly correlated sensitivities to token merging, and that these sensitivity patterns remain consistent across prompts. Based on this observation, we introduce CALM, a Calibrated Allocation for Layer-Head Merging that uses offline calibration to improve online cache compression. Exhaustively evaluating all possible layer-head allocations is prohibitively expensive. To enable efficient calibration, we show that attention-output error strongly correlates with end-to-end video quality and can therefore serve as a lightweight proxy for allocation risk assessment. We evaluate different allocation strategies using this proxy and construct a fixed layer-head risk map offline. Given a cache budget at inference time, CALM uses dynamic programming to determine the best allocation of merging ratios. Experiments across three different autoregressive video models demonstrate that CALM consistently outperforms uniform token merging under the same memory budget, by reducing the LPIPS to original videos by around 21% with higher video-quality scores.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.28192",
+      "pdf_url": "https://arxiv.org/pdf/2610.28192",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.28072",
+      "versioned_id": "2610.28072v1",
+      "title": "MuPACE: Learning to Pace Muon for LoRA Fine-Tuning",
+      "authors": [
+        "Jan Kobiolka",
+        "Christian Frey",
+        "Josif Grabocka"
+      ],
+      "published": "2026-10-20T11:52:36Z",
+      "updated": "2026-10-20T11:52:36Z",
+      "abstract": "Learning rate schedules are typically fixed before training begins, yet when fine-tuning large language models with low-rank adapters (LoRA), the appropriate scale varies substantially with the model, task, and adapter configuration. Practitioners re-tune a schedule for every new problem, yet a tuned schedule still cannot react to the training dynamics it encounters. We instead amortize learning rate selection across LoRA fine-tuning problems. We leave the base optimizer, Muon, untouched, so that its normalized update fixes the direction, and meta-learn only the global step size. Our method MuPACE is a small recurrent policy, meta-trained across a distribution of fine-tuning runs, that conditions on the observed trajectory and emits bounded adjustments to an interpretable analytic schedule. On 64 fine-tuning problems, MuPACE outperforms standard fixed schedules at a strong shared default on 64-78% of problems and is on par with the same schedules with per-task tuned peaks. Meta-trained only on models with up to 16 layers, MuPACE transfers one-shot to unseen tasks on models as deep as 64 layers, such as Qwen3-32B and Qwen3.8-27B, where a single run remains competitive with swept schedules.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.28072",
+      "pdf_url": "https://arxiv.org/pdf/2610.28072",
+      "code_urls": [],
+      "comment": "Under Review",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27993",
+      "versioned_id": "2610.27993v1",
+      "title": "Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation",
+      "authors": [
+        "Anil Srirangapatna Nagesh",
+        "Nitin Gupta",
+        "Anuj Taneja",
+        "Vivek Singh",
+        "Shane Eleniak",
+        "Theo Zhao",
+        "Moulidharan N",
+        "Shashank Keshetty"
+      ],
+      "published": "2026-10-20T10:30:58Z",
+      "updated": "2026-10-20T10:30:58Z",
+      "abstract": "Telecom language models must combine broad networking knowledge with specialist behavior across routing, broadband services, access technologies, and operational diagnostics while remaining practical to deploy as a single model. We present an end-to-end framework that builds source-grounded synthetic training data from structured networking taxonomies and expert graphs, materializes 212,559 routed training records across fourteen networking routes, trains six frozen specialist LoRA teachers over one shared continued-pretrained backbone, and consolidates their behavior into one deployable student adapter using Routed Specialist On-Policy Distillation (RSOD). In RSOD, the committed student generates each trajectory, the route-assigned specialist teacher-forces the exact native token sequence, compact teacher hidden states are reconstructed through the shared frozen output head, and only the student LoRA is updated. A controlled reconstruction validation shows mean absolute logit error of 7.26 x 10^-6 with 100% top-1 agreement between native and reconstructed teacher logits. On four RTX 6000 Ada GPUs, the completed 2,000-step run produced 16,000 trajectories with zero observed student-version or token- ID mismatches. Under the primary route-conditioned evaluation over 2,850 held-out questions, the raw Meta-Llama-3.1-8B-Instruct model scores 12.8661/25 micro (13.0172/25 macro), the combined routed six-teacher system scores 21.7641/25 micro, and the consolidated RSOD student, released as Llama-CalixCLM v1, reaches 21.7112/25 micro (21.8006/25 macro) on the same five dimension LLM-judge rubric. Under a separate neutral deployment-like prompt, the same student reaches 20.0028/25 micro (20.0778/25 macro). The consolidated student remains within 0.0529 micro-score points of the combined routed-teacher system while retaining a numerically validated and auditable train-serve execution path.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27993",
+      "pdf_url": "https://arxiv.org/pdf/2610.27993",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27913",
+      "versioned_id": "2610.27913v1",
+      "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
+      "authors": [
+        "Jiahui Ning",
+        "Liang Chen",
+        "Yuchen Liang",
+        "Yi Zhang",
+        "Fenglei Fan"
+      ],
+      "published": "2026-10-20T09:26:20Z",
+      "updated": "2026-10-20T09:26:20Z",
+      "abstract": "Model compression makes large language models deployable, but today's evaluation tells an incomplete story. Standard practice measures retained task performance and stops there. This misses a critical fact: compression perturbs the distributed knowledge embedded across billions of weights, and task scores alone cannot reveal which underlying abilities survive and which quietly collapse. To solve this question, we introduce ACE-Compression, an ability-centric evaluation framework. Instead of asking only \"does the compressed model still answer correctly?\", we ask \"which of its core abilities remain intact?\" Our framework probes four deployment-facing dimensions: procedural reasoning and constraint execution, knowledge grounding and truthfulness, social cognition and affective understanding, and persona fidelity and stylistic consistency. Across more than 35 compressed checkpoints from six open-weight LLMs-covering quantization and pruning-we find that compression redistributes ability profiles. Coarse, local, and surface-level signals often persist, while fine-grained, long-tail, and context-dependent abilities become fragile. Quantization consistently outperforms pruning in retention, but the practical meaning of that gap depends entirely on which ability an application requires. Based on our findings, deployers can choose compression methods by the ability profile their application needs, not just by a leaderboard average. And algorithm designers gain diagnostic signals to build compression methods that preserve what matters. We believe that ACE-Compression turns compression from a black-box accuracy drop into an interpretable intervention-one we can measure, understand, and ultimately improve.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.27913",
+      "pdf_url": "https://arxiv.org/pdf/2610.27913",
+      "code_urls": [
+        "https://github.com/gaffeyn03/ACE-Compression"
+      ],
+      "comment": "33 pages, 7 figures, including references and appendices. Code: https://github.com/gaffeyn03/ACE-Compression",
+      "journal_ref": "",
+      "topics": [
+        "quantization",
+        "pruning"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27851",
+      "versioned_id": "2610.27851v1",
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "authors": [
+        "Junha Song",
+        "Geonmo Gu",
+        "Jeongeun Park",
+        "Heejeong Nam",
+        "Lucas Maes",
+        "Byeongho Heo",
+        "Dongyoon Han",
+        "Sangdoo Yun"
+      ],
+      "published": "2026-10-20T08:32:14Z",
+      "updated": "2026-10-20T08:32:14Z",
+      "abstract": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data. Two designs make this work. First, we describe both numerical actions and visual changes in language, enabling joint training of a single future predictor across heterogeneous datasets. Second, we build the predictor on a language model, allowing it to interpret language conditions while predicting future latent states. The resulting predictor achieves higher average MPC planning performance than existing LWMs trained separately for each domain or task. Adding image and video data further improves average planning performance and robustness to action phrasing. In a matched comparison with an RAEv2-based video generation model baseline, LaLa-World reaches comparable planning performance with $6\\times$ less training cost and $13.9\\times$ faster planning. Beyond planning, the pretrained LaLa-World serves as an initialization for LaLa-Policy, which jointly predicts actions and future visual representations. LaLa-Policy performs competitively with Cosmos Policy on LIBERO and RoboCasa, with up to $5.5\\times$ faster inference.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27851",
+      "pdf_url": "https://arxiv.org/pdf/2610.27851",
+      "code_urls": [
+        "https://github.com/junha1125/LaLa-World"
+      ],
+      "comment": "Project page: https://june-page.github.io/lala-world/; Code: https://github.com/junha1125/LaLa-World",
+      "journal_ref": "",
+      "topics": [
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27812",
+      "versioned_id": "2610.27812v1",
+      "title": "SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning",
+      "authors": [
+        "Guanchen Li",
+        "Yixing Xu",
+        "Xuanwu Yin",
+        "Dong Li",
+        "Emad Barsoum"
+      ],
+      "published": "2026-10-20T08:05:50Z",
+      "updated": "2026-10-20T08:05:50Z",
+      "abstract": "As large language models (LLMs) grow more powerful, their scale makes them costly to serve. Depth pruning offers a practical route to efficiency by directly reducing memory and latency without hardware-specific support. However, we observe that transformer layers exhibit markedly different task-dependent layer contributions, whereas existing depth-pruning methods ignore this heterogeneity and thus tend to optimize for a narrow domain or benchmark rather than preserve broad capability. This suggests that LLM depth pruning should be formulated as a multi-objective optimization problem rather than a single-score ranking problem. We propose SliMOO, an interpretable multi-objective evolutionary search framework for LLM depth pruning. SliMOO first uses single-layer removal probing to construct a task-layer importance map, which provides an interpretable view of task-shared and task-specific layers and serves as a search prior. It then performs a Pareto-aware evolutionary search for pruning masks, where candidates are generated under the guidance of the task-layer prior, scored by their deviation from the dense model on each task, and retained through NSGA-II environmental selection. Across the Llama-3.1 and Qwen3 model families, SliMOO consistently achieves stronger multi-task trade-offs than rule-based, greedy, and scalarized baselines. For example, on Llama-3.1-70B at 25% sparsity, it improves the math-domain average from 24.33% to 34.40% and the code-domain average from 35.03% to 39.14%. Code will be made available at https://github.com/AMD-AGI/SliMOO.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27812",
+      "pdf_url": "https://arxiv.org/pdf/2610.27812",
+      "code_urls": [
+        "https://github.com/AMD-AGI/SliMOO"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27699",
+      "versioned_id": "2610.27699v1",
+      "title": "E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks",
+      "authors": [
+        "Xinyu Lei",
+        "Hong Huang",
+        "Jiebin Zhang",
+        "Hongyu Li",
+        "Jinlong Song",
+        "Decheng Wu",
+        "Guanghua Yu",
+        "Jianchen Zhu",
+        "Sujian Li"
+      ],
+      "published": "2026-10-20T06:17:09Z",
+      "updated": "2026-10-20T06:17:09Z",
+      "abstract": "Low-bit quantization reduces the memory footprint of large language models, but preserving accuracy with efficient training remains challenging. Scalar quantization encodes weights independently, while explicit-codebook vector quantization introduces costly search during training. We propose E8-QAT, a 2-bit quantization-aware training framework that uses the $E_8$ lattice as an implicit eight-dimensional codebook. It jointly quantizes weight groups through arithmetic projection without storing or searching an explicit codebook during the training forward pass. A 2-bit core encoding and sparse extension preserve the selected lattice points exactly, adding less than 0.1\\% to core index storage. On Qwen3.6-35B-A3B, E8-QAT matches the performance of the full-precision model in terms of the average score across the four tasks. E8-QAT improves over the state-of-the-art baseline by 2.03\\% on IFEval and by 1.51\\% on LiveCodeBench, under the same data, schedule, and bit width. The 2-bit representation reduces peak memory by 80\\% and supports a $4\\times$ larger batch. At each representation's largest feasible batch, E8-QAT reaches $1.97\\times$ the decoding throughput of BF16.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.27699",
+      "pdf_url": "https://arxiv.org/pdf/2610.27699",
+      "code_urls": [],
+      "comment": "17 pages, 6 figures",
+      "journal_ref": "",
+      "topics": [
+        "quantization",
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27583",
+      "versioned_id": "2610.27583v1",
+      "title": "TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining",
+      "authors": [
+        "Jui-Chien Tsou",
+        "Hsuan-Chi Liu",
+        "Wei-Chin Wang",
+        "Yu-Syuan Xu",
+        "Chun-Yi Lee"
+      ],
+      "published": "2026-10-20T03:48:01Z",
+      "updated": "2026-10-20T03:48:01Z",
+      "abstract": "Diffusion large language models (dLLMs) predict multiple token positions per forward pass, yet block-wise decoders serialize generation and repeatedly recompute stable predictions. We attribute this inefficiency to coupling a prediction's readiness for irreversible commitment with its utility as context. We introduce Tentative Context Pipelining (TeCoP), a training-free decoder that decouples these roles through staggered block-parallel pipelining and draft-and-verify. TeCoP reuses stable but uncommitted predictions as provisional cross-block context, with commitment governed by confidence and stability checks. Across four LLaDA and Dream dLLMs on GSM8K, Minerva MATH, and MBPP, TeCoP reduces number of forward evaluations by up to 87% and achieves up to 7.50-fold throughput without KV caching and 11.77-fold with caching over the uncached original decoder. It outperforms Fast-dLLM and DSB in throughput across all 12 model-benchmark settings, with and without caching, while keeping average cached accuracy within one percentage point of the original decoder.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.27583",
+      "pdf_url": "https://arxiv.org/pdf/2610.27583",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27444",
+      "versioned_id": "2610.27444v1",
+      "title": "LoRASpace: A Pool-Wide Shared Substrate for Static and Dynamic Multi-LoRA Composition",
+      "authors": [
+        "Thamirawaran Sathiyalogeswaran",
+        "Navindu De Silva",
+        "Chamikara Siriwardane",
+        "W. K. Alwis",
+        "Jason Mars",
+        "Udaya Sampath K. Perera Miriya Thanthrige",
+        "Ranga Rodrigo"
+      ],
+      "published": "2026-10-20T00:46:19Z",
+      "updated": "2026-10-20T00:46:19Z",
+      "abstract": "Low-rank adaptation (LoRA) attaches small low-rank matrices to a frozen backbone, and public repositories host many LoRAs per backbone, each for a different concept or task. Combining several LoRAs in one generation forces a trade-off. Merging their weights into one update needs a single forward pass, but LoRAs trained for different concepts interfere and quality drops. Running each LoRA in its own forward pass (composite) preserves quality, but inference time grows linearly with the number of active LoRAs. We study a property of LoRA pools overlooked by prior multi-LoRA work. In real LoRA pools, the stacked low-rank factors need far fewer directions than their summed ranks. Using singular value decomposition, we find the minimal subspace that keeps 99% of the factor energy. On three diffusion pools, only 46% to 57% of the summed LoRA ranks is needed, and the subspace grows sub-linearly with pool size. A 48-LoRA sub-pool of LoRA-Hub on FLAN-T5 tasks shows comparable overlap (62%), while the diversity-curated LoRA-Retriever benchmark sits near the no-overlap baseline (96%), so pool composition rather than modality predicts where compression is large. We build on this overlap with LoRASpace, a training-free method that computes the subspace once per pool and reuses it in two inference modes, a static mode at merge cost and a dynamic mode for input-dependent routing. On the diffusion pools, static LoRASpace matches composite quality at merge cost, and dynamic LoRASpace is more than 6x faster than composite with six active LoRAs on a 17-LoRA pool, mainly because it runs one backbone pass instead of six. In an ablation, static variants at the same rank match LoRASpace, so the quality gain does not depend on the pool-wide basis. On the near-orthogonal LoRA-Retriever benchmark, compression is small and gains come from coupling with external retrieval.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27444",
+      "pdf_url": "https://arxiv.org/pdf/2610.27444",
+      "code_urls": [
+        "https://github.com/Thamirawaran/loraspace"
+      ],
+      "comment": "Accepted at NeurIPS 2026. 29 pages, 6 figures, 26 tables. Code: https://github.com/Thamirawaran/loraspace. Project page: https://thamirawaran.github.io/loraspace",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27439",
+      "versioned_id": "2610.27439v1",
+      "title": "Scaling Graph Reasoning in Language Models with Learnable Graph Positional Encodings",
+      "authors": [
+        "Javier Porras-Valenzuela",
+        "Arush Arora",
+        "Alejandro Ribeiro"
+      ],
+      "published": "2026-10-20T00:39:49Z",
+      "updated": "2026-10-20T00:39:49Z",
+      "abstract": "Solving reasoning tasks supported on graphs typically requires providing a Language Reasoning Model (LRM) with a serialized description of the graph. This approach results in the input length growing with the number of edges, which limits the size of the problems that can be solved. Furthermore, even when graphs fit in context, performance sharply decays as the graphs grow. We propose to address this by augmenting LRMs with scalable and permutation equivariant graph positional encodings that modulate attention logits. An additional post-fusion-style module incorporates structural information into hidden states. We compute these positional encodings using a GNN followed by a Graph Transformer. This eliminates the need for serialized adjacencies, reducing the context burden to $O(N)$. We jointly fine-tune the positional encoder and the LRM LoRA adapters using optimal solutions generated by graph-theoretic solvers, resulting in a computationally efficient method. Trained on small graphs, the model exhibits improved size-generalization across graph-theoretic tasks on graphs with up to 1,000 nodes, and produces fewer tokens than a conventional LRM. Additionally, we observe that our model remains robust to node relabelings. Evaluations on graph-theoretic benchmarks also show that performance on small graphs is preserved.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.27439",
+      "pdf_url": "https://arxiv.org/pdf/2610.27439",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27379",
+      "versioned_id": "2610.27379v1",
+      "title": "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+      "authors": [
+        "Shreyas Kulkarni",
+        "Uttam Gurram",
+        "Madhav Kanda",
+        "Krishna Teja Chitty Venkata",
+        "Shichu Chen",
+        "Kartik Balasubramaniam",
+        "Supriyo Chakraborty",
+        "Sambit Sahu"
+      ],
+      "published": "2026-10-19T23:05:16Z",
+      "updated": "2026-10-19T23:05:16Z",
+      "abstract": "Block-diffusion speculative decoding accelerates large language model inference by drafting multiple tokens in parallel. However, one-step drafting in discrete diffusion is limited by token factorization error: each token is predicted from the same masked block, without conditioning on the tokens selected at other positions in that step. This can produce inconsistent drafts and reduce acceptance length. Iterative refinement mitigates this limitation by conditioning later predictions on previously committed tokens, though additional passes increase drafting cost. To address this trade-off between draft fidelity and inference latency, we introduce DStill, a two-stage framework that distills a target-conditioned drafter's own multi-step refinement into one-step drafting. We first train the drafter to complete partially revealed blocks, then use its refinement trajectories to train a student to predict the final completion in one pass. Using a curriculum that gradually transitions from partial to fully masked inputs, we successfully transfer the multi-step refinement capabilities into one step. Across reasoning, math, code benchmarks on three model families DStill improves acceptance length by up to 28% and speedup by up to 25% over one-step DFlash, achieving up to 6.45x speedup over auto-regressive decoding.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27379",
+      "pdf_url": "https://arxiv.org/pdf/2610.27379",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "decoding-reasoning",
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27374",
+      "versioned_id": "2610.27374v1",
+      "title": "PerQ: Inverse Generative Modeling for Neural Image Compression via Quantization Error Compensation",
+      "authors": [
+        "Tianhao Peng",
+        "Ho Man Kwan",
+        "Fan Zhang",
+        "Shan Liu",
+        "Dave Bull"
+      ],
+      "published": "2026-10-19T22:57:59Z",
+      "updated": "2026-10-19T22:57:59Z",
+      "abstract": "Neural image codecs face a fundamental trade-off between pixel fidelity and perceptual quality. Distortion-optimized codecs preserve pixel-wise fidelity but produce blurred reconstructions at low bitrates, whereas generative codecs leverage learned priors to improve perceptual quality but tend to exhibit saturating PSNR at higher bitrates and require separate models for different bitrate targets. We propose PerQ, which reframes perceptual reconstruction as inverse generative modeling with bounded support. Specifically, we define the quantization cell as the set of latents that yield the same transmitted symbols and derive a transport bound showing that reconstructions from this cell remain within a rate-determined radius of the codec output. This motivates performing generative reconstruction within the codec-induced quantization cell, rather than sampling from an unconstrained image prior. PerQ implements this principle by attaching a rate-conditioned flow-matching compensator to a frozen, multi-rate distortion-optimized backbone, enabling perceptual enhancement while preserving the backbone's coding performance. Experiments on Kodak and CLIC2020 show that PerQ achieves perceptual performance comparable to generative codecs such as MS-ILLM in LPIPS and FID, while maintaining competitive PSNR relative to distortion-optimized codecs such as ELIC. A single model checkpoint supports a wide bitrate range with fast decoding, and the compensator provides consistent gains across three different backbones. The implementation is available at https://jasminepp.github.io/PerQ/.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.27374",
+      "pdf_url": "https://arxiv.org/pdf/2610.27374",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27341",
+      "versioned_id": "2610.27341v1",
+      "title": "Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning",
+      "authors": [
+        "Zerui Chen",
+        "Changrui Chen",
+        "Fei Ni",
+        "Jiankang Deng"
+      ],
+      "published": "2026-10-19T22:11:24Z",
+      "updated": "2026-10-19T22:11:24Z",
+      "abstract": "Vision-language models (VLMs) have advanced rapidly in multimodal reasoning, yet they remain limited on tasks requiring fine-grained understanding of small or easily overlooked image regions. Recent thinking with images approaches mitigate this limitation by allowing models to inspect images through operations such as zooming, cropping, or code execution. While effective, their multi-turn interactions with VLMs introduce redundant token computation and slow inference, and separate region inspection from the reasoning step that depends on it. To address these issues, we propose Look Before You Reason (LoRe), an implicit visual thinking framework for efficient visual reasoning within a single-turn VLM interaction. Given an image and a question, LoRe predicts the most relevant image region, aligns it with the corresponding image patch features, and strengthens the associated key-value (KV) cache entries, enabling subsequent decoding to directly exploit the selected visual cues without additional visual inputs or explicit tool calls. We further employ reinforcement learning to guide the VLM toward identifying informative image regions and leveraging them during reasoning. To support fine-grained evaluation of multimodal reasoning, we introduce COCO-ObjQA, a large-scale benchmark for object-centric multimodal reasoning. Experiments on three challenging multimodal benchmarks demonstrate that LoRe consistently improves VLM reasoning performance with low additional inference overhead.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.27341",
+      "pdf_url": "https://arxiv.org/pdf/2610.27341",
+      "code_urls": [],
+      "comment": "Accepted by NeurIPS 2026. Project Page: https://zerchen.github.io/projects/lore.html",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27290",
+      "versioned_id": "2610.27290v1",
+      "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+      "authors": [
+        "Akash Gokul",
+        "Srijan Bansal",
+        "Yingbo Zhou",
+        "Semih Yavuz"
+      ],
+      "published": "2026-10-19T21:06:48Z",
+      "updated": "2026-10-19T21:06:48Z",
+      "abstract": "Test-case generation is critical but remains challenging for language models. Existing test-time scaling methods either isolate candidates or aggregate traces, which do not scale to long-horizon tasks. We present TEX, a collaborative test-time scaling framework based on execution-driven cross-validation. TEX parallelizes agents to generate tests and patches, cross-executing each test against every patch to form a $K \\times K$ feedback matrix. Agents use their matrix slices for refinement, enabling objective validation without verbose trace sharing. On SWT-Bench Verified, TEX achieves 86.4%, establishing a new state-of-the-art and improving +9.0% over single-agent baselines. Moreover, even random selection from TEX outputs (84.4%) surpasses the previous SOTA (84.0%), showing collaborative execution feedback improves solution quality, not just best-case samples. Our results highlight execution-grounded feedback as an effective scaling mechanism for long-horizon agentic tasks.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.27290",
+      "pdf_url": "https://arxiv.org/pdf/2610.27290",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27220",
+      "versioned_id": "2610.27220v1",
+      "title": "Sparse RL Relaxation for LLM Reasoning",
+      "authors": [
+        "Jiabin Fan",
+        "Matthias Lindemann",
+        "Zita Marinho",
+        "André FT Martins",
+        "Lili Mou"
+      ],
+      "published": "2026-10-19T19:50:46Z",
+      "updated": "2026-10-19T19:50:46Z",
+      "abstract": "Recent work has explored continuous representations in place of discrete tokens during Chain-of-Thought (CoT) reasoning, often referred to as soft CoT. This is motivated by the idea that a mixture of token embeddings can represent a superposition of multiple reasoning possibilities within a single step. However, it remains challenging to train large language models to realize this potential. Existing work has explored reinforcement learning (RL)-style training for soft CoT. However, these approaches treat soft tokens as actions in a Markov decision process rather than as differentiable intermediate computation steps. Thus, they do not propagate gradients across the soft tokens and miss out on the signal of how the choice of one soft token affects the next. In this paper, we propose a sparse relaxation method for RL (called SpaRLax), which leverages the differentiability of soft-CoT reasoning over time steps and makes training more stable and effective. We adopt an entmax sparsity method that adaptively determines the degree of softness, which truncates long-tail noise at confident steps while retaining multiple plausible candidates when uncertain. Across nine reasoning benchmarks, our method achieves the highest average performance compared with baseline methods. Further analyses validate the effective use of soft-token superposition in our approach, and also demonstrate the contribution of adaptive sparsity in our approach.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.27220",
+      "pdf_url": "https://arxiv.org/pdf/2610.27220",
+      "code_urls": [],
+      "comment": "19 pages",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "distillation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27146",
+      "versioned_id": "2610.27146v1",
+      "title": "PRIMFLOW: Learning Trajectory Primitives for Few-Step Distillation",
+      "authors": [
+        "Hongyi Fang",
+        "Benjia Zhou"
+      ],
+      "published": "2026-10-19T18:40:26Z",
+      "updated": "2026-10-19T18:40:26Z",
+      "abstract": "Few-step trajectory distillation aims to learn accurate global updates from dense local supervision along a teacher's sampling trajectory. Existing approaches construct within-step dynamics using specific trajectory parameterizations or discrete interval predictions, tying the learned update to a prescribed temporal structure. We propose \\method, which directly learns a continuous trajectory primitive representing cumulative displacement along the teacher trajectory. By supervising finite differences of the primitive with local teacher velocities, \\method learns the accumulated motion directly, while obtaining global updates through endpoint differences. This formulation avoids prescribing a temporal basis or fixed query grid and instead learns the temporal evolution of cumulative displacement from local supervision. We further establish a local-to-global error bound to characterize how local regression errors affect full-interval displacement accuracy, and introduce endpoint absorption to eliminate the auxiliary primitive branch while preserving one-network-evaluation inference. Experiments on large-scale text-to-image generation show that \\method achieves a T-FID of 20.92 and an HPSv2 score of 28.35 at one NFE, improving both metrics over a trajectory-distillation baseline. After endpoint absorption, it retains comparable performance, achieving a T-FID of 20.86 and an HPSv2 score of 28.33.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.27146",
+      "pdf_url": "https://arxiv.org/pdf/2610.27146",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "id": "2610.27123",
+      "versioned_id": "2610.27123v1",
+      "title": "Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models",
+      "authors": [
+        "Jelena Markovic-Voronov",
+        "Petros Prastakos",
+        "Kayhan Behdin",
+        "Jincheng Cao",
+        "Zhipeng Wang",
+        "Shayan Mohajer Hamidi",
+        "Yuanda Xu",
+        "Zhengze Zhou",
+        "Wenhui Zhu",
+        "Rahul Mazumder"
+      ],
+      "published": "2026-10-19T18:24:03Z",
+      "updated": "2026-10-19T18:24:03Z",
+      "abstract": "Mixture-of-Experts (MoE) models reduce computation through sparse expert activation, but deployment still requires storing a large number of expert parameters. We study post-training expert pruning using task-domain calibration data as a subset-selection problem: given a pretrained MoE layer, select a fixed number of experts that best reconstruct its original output. Exact subset search is combinatorial and becomes intractable for modern MoE models with many experts per layer. We develop OptEP, a scalable continuous relaxation that directly optimizes differentiable expert-selection variables, followed by a lightweight reconstruction-based update of the retained expert weights. Across multiple MoE architectures and tasks spanning mathematical reasoning and code generation, our approach improves over the strongest existing expert-pruning baselines, with absolute accuracy gains of up to 15.05% on Qwen3-30B-A3B, 14.55% on Qwen3-235B-A22B, 11.06% on GLM-4.5-Air, and 16.20% on Mixtral-8x7B. The improvements are particularly pronounced under aggressive pruning, demonstrating that reconstruction-driven expert selection and weight adaptation can preserve substantially more of the original model's performance while reducing the number of retained experts.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.27123",
+      "pdf_url": "https://arxiv.org/pdf/2610.27123",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-21"
+    },
     {
       "id": "2610.26840",
       "versioned_id": "2610.26840v1",
@@ -408,13 +1056,12 @@
     },
     {
       "id": "2610.26025",
-      "versioned_id": "2610.26025v1",
-      "title": "TamedFlow: Trajectory-Aware Distillation\\\\for Teacher-Assisted Diffusion Sampling",
+      "versioned_id": "2610.26025v2",
+      "title": "TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling",
       "authors": [
         "Shuaiqi Cheng",
         "Jiahao Zhang",
         "Boyuan Gu",
-        "Siyu You",
         "Yuxi Chen",
         "Haiying Xu",
         "Zexin Lu",
@@ -422,7 +1069,7 @@
         "Xuming Hu"
       ],
       "published": "2026-10-19T08:48:14Z",
-      "updated": "2026-10-19T08:48:14Z",
+      "updated": "2026-10-20T08:02:36Z",
       "abstract": "Diffusion Transformers (DiTs) deliver high-fidelity image and video generation, but inference requires many sequential model evaluations. Two acceleration strategies are increasingly important: model compression makes each evaluation cheaper, while adaptive inference avoids selected teacher computation through reuse, forecasting, or speculative execution. Their combination, however, is brittle: directly applying the evaluated adaptive methods to a compressed student can degrade quality, an observed failure mode we call the \\textbf{Combination Gap}. We link this gap to a mismatch between pointwise distillation and short-horizon execution: a student trained at teacher states need not remain reliable when its own predictions are chained. We propose \\textbf{TamedFlow}, which trains a compressed DiT for this deployed role through cross-architecture feature alignment, a near-identity Velocity Alignment Head, and randomized rollout supervision. At inference, a lightweight Learnable Trajectory Estimator routes completed drafts: accepted drafts bypass the teacher, while rejected drafts roll back and receive one teacher rescue step. Distilling DiT-XL/2 into DiT-B/2, TamedFlow reaches FID $2.58$ at $2.25\\times$ measured speedup over DDIM-50 on ImageNet $256\\times256$. Ablations support trajectory supervision, and routing controls favor LTE over random decisions at nearly matched latency. Evaluations on ImageNet $512\\times512$, MS-COCO, and Latte/FaceForensics extend the empirical scope.",
       "arxiv_categories": [
         "cs.CV",
@@ -495,6 +1142,41 @@
         "visual-generation"
       ],
       "first_seen": "2026-10-20"
+    },
+    {
+      "id": "2610.26991",
+      "versioned_id": "2610.26991v1",
+      "title": "3D-MoE: Complementarity-Guided Hardware-Software Co-Design for MoE Decode on 3D-Stacked NMP",
+      "authors": [
+        "Yudong Pan",
+        "Lian Liu",
+        "Shixin Zhao",
+        "Yintao He",
+        "Kaiyan Chang",
+        "Tianhua Han",
+        "Chenyang Ai",
+        "Haonan Zhu",
+        "Mengdi Wang",
+        "Yinhe Han",
+        "Ying Wang"
+      ],
+      "published": "2026-10-19T07:13:19Z",
+      "updated": "2026-10-19T07:13:19Z",
+      "abstract": "Mixture-of-Experts (MoE) have become a mainstream way to scale Large Language Models (LLMs), because each token activates only a small subset of experts, reducing inference cost. However, MoE decode remains highly memory-bound and exhibits strongly skewed, time-varying expert loads. 3D-stacked DRAM near-memory processing (NMP) provides the bandwidth that decode demands, yet its tiled organization makes load balancing expensive: expert parallelism (EP) preserves locality but suffers from hotspot-induced imbalance, while more distributed strategies weaken locality and increase NoC traffic. To address this locality-balance conflict, we observe that domain-specialized token routing creates offsetting expert-load fluctuations across decode steps, a property we call expert complementarity. Using this insight, we propose 3D-MoE, a hardware--software co-designed system for MoE decode on 3D-stacked NMP. 3D-MoE uses offline, one-time complementarity-guided grouping and locality-aware mapping to establish coarse-grained inter-group balance, handles residual intra-group hotspots through a lightweight Collaborative Memory-Network (CMN) that streams each hot expert's weight tiles once from its host DRAM channel to helper cores over a reconfigured local broadcast path, and uses cost-aware online remapping to remain robust to workload drift. Across MoE models, 3D-MoE achieves an average 4.63$\\times$ MoE-layer speedup over EP and improves end-to-end throughput by 1.58$\\times$--1.86$\\times$ over the strongest NMP baselines, with 2.11\\% additional logic-die area.",
+      "arxiv_categories": [
+        "cs.AR",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.26991",
+      "pdf_url": "https://arxiv.org/pdf/2610.26991",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-21"
     },
     {
       "id": "2610.25908",
@@ -1076,7 +1758,7 @@
     },
     {
       "id": "2610.25043",
-      "versioned_id": "2610.25043v1",
+      "versioned_id": "2610.25043v2",
       "title": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
       "authors": [
         "Sicheng He",
@@ -1094,7 +1776,7 @@
         "Jianwei Yin"
       ],
       "published": "2026-10-18T06:01:43Z",
-      "updated": "2026-10-18T06:01:43Z",
+      "updated": "2026-10-20T06:54:08Z",
       "abstract": "Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, and the next chunk is regenerated from fresh noise. We show that this discarded tail retains transferable denoising progress: action-tail initialization can match or outperform a native 10-step Gaussian baseline using fewer denoising steps. However, the optimal denoising budget varies substantially across samples, indicating that tail reuse should be adapted to the updated environment. Based on this observation, we introduce VLA-Rolling, a lightweight inference framework that reuses action tails through three stages: action-tail inheritance, per-action confidence estimation, and confidence-guided refinement through renoising and denoising budget allocation, while the underlying VLA remains frozen. Across $π_{0.5}$, SmolVLA, X-VLA, and MolmoAct2 on LIBERO, MetaWorld, LIBERO-Plus, and RoboTwin 2.0, VLA-Rolling reduces action-chunk inference cost in all 16 model--benchmark pairs, achieving up to a $1.48\\times$ speedup, while improving success rate in 14 pairs by up to $15.08$ percentage points. These results show that action tails are not merely discarded predictions, but reusable intermediate states that enable more efficient and accurate VLA inference. These results demonstrate that the action tail can support the generation of better actions with fewer denoising steps. Our project is available at https://chenbao123ww.github.io/VLA-Rolling/.",
       "arxiv_categories": [
         "cs.AI",
@@ -1331,6 +2013,39 @@
       "first_seen": "2026-10-20"
     },
     {
+      "id": "2610.26926",
+      "versioned_id": "2610.26926v1",
+      "title": "AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents",
+      "authors": [
+        "Bohan Yu",
+        "Pengfei Cao",
+        "Kai Tian",
+        "Chen Han",
+        "Shi-Yang Li",
+        "Chenxi Zhou",
+        "Junlin Liu",
+        "Cao Liu",
+        "Ke Zeng",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "published": "2026-10-17T14:12:03Z",
+      "updated": "2026-10-17T14:12:03Z",
+      "abstract": "Large language models (LLMs) possess broad factual knowledge and strong reasoning capabilities, but solving complex tasks also requires procedural knowledge about how to act. Existing approaches often represent procedural knowledge through trajectories or bundled skills, limiting flexible reuse across interaction histories. This paper introduces Procedural Atoms, fine-grained and independently applicable units that represent Intent, When, Do, and Avoid guidance. Building on this representation, we propose AtomSD, an Atom-guided Self-Distillation framework in which the learner continually extracts Procedural Atoms from its own successful trajectories and distills them into the evolving policy through Atom-conditioned supervision and task-reward optimization. Comprehensive experiments show that AtomSD consistently outperforms strong reward-based and distillation methods, exceeding the state-of-the-art baseline by up to 9.31 points in average performance. Further analyses demonstrate that the proposed Procedural Atoms provide effective guidance, highlighting the value of atom-level procedural knowledge for policy learning.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.26926",
+      "pdf_url": "https://arxiv.org/pdf/2610.26926",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
       "id": "2610.24598",
       "versioned_id": "2610.24598v1",
       "title": "AdamPM: Memory-Efficient LLM Optimization via Moment Pooling",
@@ -1390,6 +2105,35 @@
         "attention-kv-cache"
       ],
       "first_seen": "2026-10-20"
+    },
+    {
+      "id": "2610.26910",
+      "versioned_id": "2610.26910v1",
+      "title": "Memory Internalization via Test-Time Training for Long-Video Understanding",
+      "authors": [
+        "Haonan Zhao",
+        "Jiaxuan Chen",
+        "Qingyang Liu",
+        "Shuochen Chang",
+        "Siyu Sun",
+        "Jiangtong Li",
+        "Li Niu"
+      ],
+      "published": "2026-10-17T04:06:57Z",
+      "updated": "2026-10-17T04:06:57Z",
+      "abstract": "Long-video understanding often requires answering many questions about a single video whose evidence is distributed across extended temporal contexts. Conventional video-language models repeatedly encode frames or retrieve visual evidence for every question. Parameterized video memory offers a write-once alternative, but existing methods rely primarily on synthesized text and fixed adaptation configurations, leaving open where video knowledge should be written and how visual evidence should shape the memory. We introduce Memory Internalization via Test-Time Training (MIT^3), a per-video adaptation framework that writes each long video into compact, video-specific adaptive parameters for video-free, text-only question answering. Under compact multi-scale supervision, causal tracing measures the causal memory utility of each model layer for video-grounded answering and selects video-specific adaptation locations. Visual memory distillation then trains the text-only memory to reproduce the representation change induced by the relevant video clip, preserving the internal effect of visual evidence beyond textual supervision. Across LVBench, LongVideoBench, and Video-MME, MIT^3 achieves data-efficient video-free question answering with substantially fewer synthesized samples than prior parameterized video-memory methods, demonstrating that effective video internalization depends on both where knowledge is written and how visual evidence is distilled into the model.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.26910",
+      "pdf_url": "https://arxiv.org/pdf/2610.26910",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-21"
     },
     {
       "id": "2610.24365",
@@ -1818,7 +2562,7 @@
     },
     {
       "id": "2610.23234",
-      "versioned_id": "2610.23234v1",
+      "versioned_id": "2610.23234v2",
       "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
       "authors": [
         "Yuhan Sun",
@@ -1832,7 +2576,7 @@
         "Zhongan Bi"
       ],
       "published": "2026-10-16T10:01:52Z",
-      "updated": "2026-10-16T10:01:52Z",
+      "updated": "2026-10-20T08:51:14Z",
       "abstract": "In a hierarchical multi-agent system, a Leader assigns tasks and subagents carry them out. Jointly training the Leader and the subagents is difficult because a final answer gives only indirect feedback to the subagents. An LLM judge can score the performance of the subagents, but these scores depend on the judge's own assessment of the quality of subagents' responses. We present MultiAgent-OPD, which combines on-policy distillation with reinforcement learning to jointly train a shared-parameter Leader-Searcher-Answerer team end to end. We first train a Teacher in a Searcher-Answerer workflow using answer correctness. During team training, the frozen Teacher scores student-generated search and summary tokens to provide local process supervision for the Searchers, while the Leader learns from team success and the Answerer from candidate correctness. Across seven datasets, the trained system reaches 38.68% macro avg@4, exceeding Prompted Critic by 4.06 percentage points and C-MAS + RL, the trained cascaded multiagent system, by 2.61 percentage points. The team also solves more questions within four attempts.",
       "arxiv_categories": [
         "cs.CL"
@@ -1901,7 +2645,7 @@
     },
     {
       "id": "2610.23185",
-      "versioned_id": "2610.23185v1",
+      "versioned_id": "2610.23185v2",
       "title": "A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation",
       "authors": [
         "Haoyu Chen",
@@ -1911,7 +2655,7 @@
         "Wenge Rong"
       ],
       "published": "2026-10-16T09:23:22Z",
-      "updated": "2026-10-16T09:23:22Z",
+      "updated": "2026-10-20T08:35:39Z",
       "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has substantially improved Mixture-of-Experts (MoE) LLMs, but its outcome-level rewards provide only sparse supervision. On-Policy Distillation offers dense token-level feedback, yet requires a stronger compatible teacher, while on-policy self-distillation relies on hand-designed privileged information. We observe that the MoE architecture itself offers a way to resolve this dilemma, as increasing the activation budget per token exposes latent expert capacity and yields a potentially stronger teacher within the model. However, naive expansion degrades performance because newly co-activated experts are not optimized to work together. We therefore propose MoEvolve, a bidirectional distillation framework following a recovery-then-improvement strategy: we first restore the activation-expanded high-$k$ model and further strengthen it by exploiting its additional active capacity, then reverse the direction of distillation to transfer the enhanced capabilities back into the original low-$k$ configuration, retaining its inference-time activation budget. Across diverse MoE models and benchmarks, MoEvolve improves the initial models by up to $22.2$ domain-average points and outperforms same-budget RLVR baselines by up to $6.5$ points. Notably, the final low-$k$ models often surpass their activation-expanded teachers.",
       "arxiv_categories": [
         "cs.LG",
@@ -2022,17 +2766,18 @@
     },
     {
       "id": "2610.23047",
-      "versioned_id": "2610.23047v1",
+      "versioned_id": "2610.23047v2",
       "title": "DIFFLET: A Fast Inference Engine for Diffusion Transformer Models on AWS Trainium",
       "authors": [
         "Bin Ma",
         "Min Yu",
         "Vijay Kodamalla",
-        "Jialin Liu",
+        "Jonny Liu",
+        "Da Li",
         "Dong Li"
       ],
       "published": "2026-10-16T07:25:32Z",
-      "updated": "2026-10-16T07:25:32Z",
+      "updated": "2026-10-20T01:34:15Z",
       "abstract": "On AWS Trainium2, every component of a diffusion model runs as a program compiled ahead of time for fixed shapes, while pipelines differ across models, prompt lengths across requests, and caching decisions across denoising steps. We present Difflet, a serving engine in which five model pipelines share one compilation backend, joint attention is split across cores by attention head, and a host controller decides at each denoising step whether to run the denoiser or reuse its earlier output. A small probe program computes the caching signal on the device and returns one number per step, and a resident model process keeps every program loaded across requests. Across five image and video model families, fused attention accelerates denoiser steps by 1.2-4.3x over the same framework using PyTorch/XLA attention, and at 32.8k visual tokens it is the only attention that compiles. On four of the five models, resident serving is 1.5-3.4x faster than standalone runs that reload weights from a warm file cache for each generation.",
       "arxiv_categories": [
         "cs.DC",
@@ -3185,7 +3930,7 @@
     },
     {
       "id": "2610.21436",
-      "versioned_id": "2610.21436v1",
+      "versioned_id": "2610.21436v2",
       "title": "HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding",
       "authors": [
         "Hanbin Bae",
@@ -3196,8 +3941,8 @@
         "Hoon-Young Cho"
       ],
       "published": "2026-10-15T07:45:49Z",
-      "updated": "2026-10-15T07:45:49Z",
-      "abstract": "Device-cloud speculative decoding reduces server computation, but growing a deep draft tree with a small language model (SLM) requires repeated passes on a mobile neural processing unit (NPU). We present HyCo, which assigns depth to the server model's native multi-token prediction (MTP) head, executed on the device, and alternative branches to one SLM pass. The server returns the hidden state, input embedding, and key-value entries needed by the head instead of executing its sequential steps. Quantization, a restricted vocabulary, and a 1K-token window fit both drafters to the NPU. An ε-threshold rule additionally relaxes exact preservation of the verifier's sampling distribution. In single-client runs with a Galaxy S26 Ultra over LTE/5G, HyCo reduces server GPU time per output token relative to server-side MTP self-speculation by 38.6% on Spec-Bench and 29.2% on 32K-token summarization. With the same acceptance rule, three Spec-Bench runs per system show 9.0 percentage points more saving and 1.9x delivery speed than an SLM-only drafter. HyCo differs from Cloud+MTP by +0.2 judge-score points (paired 95% CI: -0.9 to +1.3); exploratory translation favors SpecEdge-ε. Without relaxation, HyCo exact saves 27.7% and 11.9% on the two datasets.",
+      "updated": "2026-10-19T22:39:59Z",
+      "abstract": "Device-cloud speculative decoding reduces server computation, but growing a deep draft tree with a small language model (SLM) requires repeated passes on a mobile neural processing unit (NPU). We present HyCo, which runs the server model's native multi-token prediction (MTP) head on the device to build a deep chain and uses one SLM pass to add alternative branches. The server returns the hidden state, input embedding, and key-value entries needed by the head instead of executing its sequential steps. Quantization, a restricted vocabulary, and a 1K-token window fit both drafters to the NPU. An ε-threshold rule additionally relaxes exact preservation of the verifier's sampling distribution. In single-client runs with a Galaxy S26 Ultra over LTE/5G, HyCo reduces server GPU time per output token relative to server-side MTP self-speculation by 38.6% on Spec-Bench and 29.2% on 32K-token summarization. With the same acceptance rule, three runs of each system on Spec-Bench show 9.0 percentage points more saving and 1.9x delivery speed than an SLM-only drafter. HyCo differs from Cloud+MTP by +0.2 judge-score points (paired 95% CI: -0.9 to +1.3); exploratory translation favors SpecEdge-ε. Without relaxation, HyCo exact saves 27.7% and 11.9% on the two datasets.",
       "arxiv_categories": [
         "cs.CL",
         "cs.DC",

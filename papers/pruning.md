@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-167 papers · newest submission first
+174 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction**<br><sub>Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28502) · [PDF](https://arxiv.org/pdf/2610.28502) |
+| 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
+| 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
+| 2026-10-20 | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models**<br><sub>Jiahui Ning, Liang Chen, Yuchen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27913) · [PDF](https://arxiv.org/pdf/2610.27913) · [Code](https://github.com/gaffeyn03/ACE-Compression) |
+| 2026-10-20 | **SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning**<br><sub>Guanchen Li, Yixing Xu, Xuanwu Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27812) · [PDF](https://arxiv.org/pdf/2610.27812) · [Code](https://github.com/AMD-AGI/SliMOO) |
+| 2026-10-19 | **Sparse RL Relaxation for LLM Reasoning**<br><sub>Jiabin Fan, Matthias Lindemann, Zita Marinho et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27220) · [PDF](https://arxiv.org/pdf/2610.27220) |
+| 2026-10-19 | **Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models**<br><sub>Jelena Markovic-Voronov, Petros Prastakos, Kayhan Behdin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27123) · [PDF](https://arxiv.org/pdf/2610.27123) |
 | 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
 | 2026-10-19 | **SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models**<br><sub>Shenli Zheng, Zhou Fang, Yuan Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26487) · [PDF](https://arxiv.org/pdf/2610.26487) |
 | 2026-10-19 | **How Much Does One Wrong Answer Cost? Error Propagation in Constraint Pruning with Noisy LLM Oracles**<br><sub>Zhengtao Gui, Weining Shen</sub> | [arXiv](https://arxiv.org/abs/2610.25739) · [PDF](https://arxiv.org/pdf/2610.25739) |

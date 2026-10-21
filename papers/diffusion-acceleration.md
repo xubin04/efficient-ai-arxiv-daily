@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-99 papers · newest submission first
+101 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-20 | **TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining**<br><sub>Jui-Chien Tsou, Hsuan-Chi Liu, Wei-Chin Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27583) · [PDF](https://arxiv.org/pdf/2610.27583) |
+| 2026-10-19 | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding**<br><sub>Shreyas Kulkarni, Uttam Gurram, Madhav Kanda et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27379) · [PDF](https://arxiv.org/pdf/2610.27379) |
 | 2026-10-19 | **SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration**<br><sub>Javad Rajabi, Hakki Can Karaimer, David B. Lindell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26837) · [PDF](https://arxiv.org/pdf/2610.26837) |
 | 2026-10-19 | **ReAnchor: Reusing Rejected Verifier States for Diffusion Drafting**<br><sub>Sanghyun Lee, Wonjin Nam, Seungho Jang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26531) · [PDF](https://arxiv.org/pdf/2610.26531) |
 | 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
