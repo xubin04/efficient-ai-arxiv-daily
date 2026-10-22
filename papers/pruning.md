@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-174 papers · newest submission first
+177 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
+| 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
+| 2026-10-20 | **Building a Nested LADDER for LLM Unstructured Post-Training Pruning**<br><sub>Nicolás Mauricio Cuadrado Ávila, Ivo Gollini Navarrete, Martin Takáč et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28773) · [PDF](https://arxiv.org/pdf/2610.28773) |
 | 2026-10-20 | **GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction**<br><sub>Trong-Thang Pham, Anh Nguyen, Hien Van Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28502) · [PDF](https://arxiv.org/pdf/2610.28502) |
 | 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |

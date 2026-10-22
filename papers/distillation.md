@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-397 papers · newest submission first
+407 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation**<br><sub>Quang Anh Kiet Tran, Nam Anh Tran, Manh Hung Trinh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30067) · [PDF](https://arxiv.org/pdf/2610.30067) · [Code](https://github.com/Nhantran65/GoiBERT.git) |
+| 2026-10-21 | **TraceForge: Distilling with Your Own Thinking**<br><sub>Yan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.29680) · [PDF](https://arxiv.org/pdf/2610.29680) |
+| 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
+| 2026-10-21 | **Seeing through Denoising: Frequency-guided One-step Denoising for Infrared Small Target Detection**<br><sub>Xuelin Qian, Zixuan Wang, Chang Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29361) · [PDF](https://arxiv.org/pdf/2610.29361) |
+| 2026-10-21 | **ER-Chord: Spatially Consistent One-Step Image Editing via Equal-Energy Reliability Redistribution**<br><sub>Peize Li, Hanzhen Zhao, Xingguo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29248) · [PDF](https://arxiv.org/pdf/2610.29248) · [Code](https://github.com/Peizeli1/ER-Chord) |
+| 2026-10-21 | **TeachBack: Learning to Teach via Bidirectional Preference Optimization for On-Policy Self-Distillation**<br><sub>Linfei Ji, Jiayun Li, Haozhao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29167) · [PDF](https://arxiv.org/pdf/2610.29167) |
+| 2026-10-21 | **Value-Rectified Distillation for Flow-based Offline Reinforcement Learning**<br><sub>Ke Jiang, Wen Jiang, Yoshinobu Kawahara et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29075) · [PDF](https://arxiv.org/pdf/2610.29075) |
+| 2026-10-20 | **StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion**<br><sub>Yisi Liu, Nicholas Lee, Gopala K. Anumanchipalli</sub> | [arXiv](https://arxiv.org/abs/2610.28940) · [PDF](https://arxiv.org/pdf/2610.28940) |
+| 2026-10-20 | **D-Skill: Distilling Teacher Knowledge through Agent Skills**<br><sub>Shuo Yuan, Dacheng Li, Joseph E. Gonzalez</sub> | [arXiv](https://arxiv.org/abs/2610.28914) · [PDF](https://arxiv.org/pdf/2610.28914) |
+| 2026-10-20 | **DualHeads: Reward-tilted few-step diffusion made simple**<br><sub>Yuanzhi Zhu, Eleftherios Tsonis, Simo Alami Chehboune et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28858) · [PDF](https://arxiv.org/pdf/2610.28858) |
 | 2026-10-20 | **Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation**<br><sub>Shu Zhao, Tan Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28586) · [PDF](https://arxiv.org/pdf/2610.28586) |
 | 2026-10-20 | **Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation**<br><sub>Anil Srirangapatna Nagesh, Nitin Gupta, Anuj Taneja et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27993) · [PDF](https://arxiv.org/pdf/2610.27993) |
 | 2026-10-19 | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding**<br><sub>Shreyas Kulkarni, Uttam Gurram, Madhav Kanda et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27379) · [PDF](https://arxiv.org/pdf/2610.27379) |

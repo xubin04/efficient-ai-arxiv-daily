@@ -4,10 +4,12 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-123 papers · newest submission first
+125 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models**<br><sub>Yuchuan Weng, Chi Liu, Xin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29052) · [PDF](https://arxiv.org/pdf/2610.29052) |
+| 2026-10-20 | **Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory**<br><sub>Yiqing Shen, Mathias Unberath</sub> | [arXiv](https://arxiv.org/abs/2610.28776) · [PDF](https://arxiv.org/pdf/2610.28776) |
 | 2026-10-20 | **MuPACE: Learning to Pace Muon for LoRA Fine-Tuning**<br><sub>Jan Kobiolka, Christian Frey, Josif Grabocka</sub> | [arXiv](https://arxiv.org/abs/2610.28072) · [PDF](https://arxiv.org/pdf/2610.28072) |
 | 2026-10-20 | **Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation**<br><sub>Anil Srirangapatna Nagesh, Nitin Gupta, Anuj Taneja et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27993) · [PDF](https://arxiv.org/pdf/2610.27993) |
 | 2026-10-20 | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks**<br><sub>Xinyu Lei, Hong Huang, Jiebin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27699) · [PDF](https://arxiv.org/pdf/2610.27699) |

@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-179 papers · newest submission first
+185 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **Efficient Generative Image Compression with Quantized Latents Refinement**<br><sub>Hao Cao, Yinhuan Huang, Wenqi Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29691) · [PDF](https://arxiv.org/pdf/2610.29691) |
+| 2026-10-21 | **Effects of Model Scale and Quantization on Social Bias and Abstention in Question Answering**<br><sub>Kuniko Paxton, Ifeoluwa Wuraola, Dhavalkumar Thakker</sub> | [arXiv](https://arxiv.org/abs/2610.29657) · [PDF](https://arxiv.org/pdf/2610.29657) |
+| 2026-10-21 | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories**<br><sub>Boyuan Zheng, Jing Xiong, Chenwei Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29378) · [PDF](https://arxiv.org/pdf/2610.29378) |
+| 2026-10-21 | **Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement**<br><sub>Jia Deng, Zizhe Wang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29302) · [PDF](https://arxiv.org/pdf/2610.29302) |
+| 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
 | 2026-10-20 | **BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models**<br><sub>Ning Zhang, Shihao Wang, Jinrui Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28500) · [PDF](https://arxiv.org/pdf/2610.28500) · [Code](https://github.com/PolyU-VCLab/BitMTP) |
 | 2026-10-20 | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models**<br><sub>Jiahui Ning, Liang Chen, Yuchen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27913) · [PDF](https://arxiv.org/pdf/2610.27913) · [Code](https://github.com/gaffeyn03/ACE-Compression) |
 | 2026-10-20 | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks**<br><sub>Xinyu Lei, Hong Huang, Jiebin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27699) · [PDF](https://arxiv.org/pdf/2610.27699) |
@@ -16,6 +21,7 @@
 | 2026-10-19 | **MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration**<br><sub>Zijun Zhao, Ruichu Ao, Stef Cuyckens et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26083) · [PDF](https://arxiv.org/pdf/2610.26083) |
 | 2026-10-19 | **LIRQuant: An Efficient Locally Isolated Rotation Quantization Method for Large Language Models**<br><sub>Desheng Xu, Hanglin Li, Tianchen Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25675) · [PDF](https://arxiv.org/pdf/2610.25675) |
 | 2026-10-18 | **Certified Sparse Attention via Perturbed Retrieval**<br><sub>Runguo Li</sub> | [arXiv](https://arxiv.org/abs/2610.24991) · [PDF](https://arxiv.org/pdf/2610.24991) |
+| 2026-10-17 | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation**<br><sub>Zhangdie Yuan</sub> | [arXiv](https://arxiv.org/abs/2610.28671) · [PDF](https://arxiv.org/pdf/2610.28671) |
 | 2026-10-17 | **What Matters for NVFP4 Training? A Comparative Study of Low-Precision Pretraining Recipes**<br><sub>Anjulie Agrusa, Andrei Panferov, Elizabeth Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24343) · [PDF](https://arxiv.org/pdf/2610.24343) |
 | 2026-10-16 | **BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration**<br><sub>Jiwoo Kim, Gunho Park, Sunwoo Yoo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22877) · [PDF](https://arxiv.org/pdf/2610.22877) |
 | 2026-10-15 | **Noise-shaped Sampling and Annealing for Scalable On-the-edge Training of Binary and Ternary AI Models**<br><sub>Zihao Chen, Zhili Xiao, Rui-Jie Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.22621) · [PDF](https://arxiv.org/pdf/2610.22621) |

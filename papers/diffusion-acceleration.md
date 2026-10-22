@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-101 papers · newest submission first
+104 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **SAKURA: Serving Attention Key-Value State Under Rate Adaptation for Private Image Editing on Phones**<br><sub>Shuncheng Jie, Desen Sun, Ri Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29733) · [PDF](https://arxiv.org/pdf/2610.29733) |
+| 2026-10-20 | **DiffResearch: Accelerating Deep Research with Diffusion Language Models**<br><sub>Alan-Barsag Gazzaev, Alexey Gavrilov, Mikhail Mozikov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28909) · [PDF](https://arxiv.org/pdf/2610.28909) |
+| 2026-10-20 | **Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks**<br><sub>Ivan Listopadov, Maksim Nakhodnov, Aibek Alanov</sub> | [arXiv](https://arxiv.org/abs/2610.28889) · [PDF](https://arxiv.org/pdf/2610.28889) |
 | 2026-10-20 | **TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining**<br><sub>Jui-Chien Tsou, Hsuan-Chi Liu, Wei-Chin Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27583) · [PDF](https://arxiv.org/pdf/2610.27583) |
 | 2026-10-19 | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding**<br><sub>Shreyas Kulkarni, Uttam Gurram, Madhav Kanda et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27379) · [PDF](https://arxiv.org/pdf/2610.27379) |
 | 2026-10-19 | **SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration**<br><sub>Javad Rajabi, Hakki Can Karaimer, David B. Lindell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26837) · [PDF](https://arxiv.org/pdf/2610.26837) |

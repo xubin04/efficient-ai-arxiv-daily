@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-172 papers · newest submission first
+177 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference**<br><sub>Junhyeok Park, Jungeun Yoon, Kyungmin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29873) · [PDF](https://arxiv.org/pdf/2610.29873) |
+| 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
+| 2026-10-21 | **RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference**<br><sub>Wang Yuekai</sub> | [arXiv](https://arxiv.org/abs/2610.29544) · [PDF](https://arxiv.org/pdf/2610.29544) |
+| 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-20 | **Cache Engineering for Agents**<br><sub>Tianyu Fu, Ruoxi Wang, Zihan Min et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28577) · [PDF](https://arxiv.org/pdf/2610.28577) · [Code](https://github.com/thu-nics/AKV) |
 | 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
@@ -22,6 +26,7 @@
 | 2026-10-18 | **MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers**<br><sub>Sravanth Kodavanti, Manjunath Arveti</sub> | [arXiv](https://arxiv.org/abs/2610.25431) · [PDF](https://arxiv.org/pdf/2610.25431) |
 | 2026-10-18 | **ReTrace: Visual Backtracking for Efficient Multimodal Large Language Models**<br><sub>Guangzong Si, Dong Wang, Yifan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25005) · [PDF](https://arxiv.org/pdf/2610.25005) |
 | 2026-10-18 | **Certified Sparse Attention via Perturbed Retrieval**<br><sub>Runguo Li</sub> | [arXiv](https://arxiv.org/abs/2610.24991) · [PDF](https://arxiv.org/pdf/2610.24991) |
+| 2026-10-17 | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation**<br><sub>Zhangdie Yuan</sub> | [arXiv](https://arxiv.org/abs/2610.28671) · [PDF](https://arxiv.org/pdf/2610.28671) |
 | 2026-10-17 | **TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference**<br><sub>Yu Wang, Zhu Wang, Ning Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24499) · [PDF](https://arxiv.org/pdf/2610.24499) |
 | 2026-10-16 | **KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving**<br><sub>Shiyi Ling, Fei Fang, Chen Qian</sub> | [arXiv](https://arxiv.org/abs/2610.24179) · [PDF](https://arxiv.org/pdf/2610.24179) |
 | 2026-10-16 | **HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs**<br><sub>Jinheng Li, Guosheng Wang, Hongchao Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23503) · [PDF](https://arxiv.org/pdf/2610.23503) · [Code](https://github.com/FlashLabAE/HBFSim) |

@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-161 papers · newest submission first
+163 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
+| 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
 | 2026-10-20 | **LaLa-World: Scaling Latent World Models with Natural Language Actions**<br><sub>Junha Song, Geonmo Gu, Jeongeun Park et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27851) · [PDF](https://arxiv.org/pdf/2610.27851) · [Code](https://github.com/junha1125/LaLa-World) |
 | 2026-10-19 | **PRIMFLOW: Learning Trajectory Primitives for Few-Step Distillation**<br><sub>Hongyi Fang, Benjia Zhou</sub> | [arXiv](https://arxiv.org/abs/2610.27146) · [PDF](https://arxiv.org/pdf/2610.27146) |

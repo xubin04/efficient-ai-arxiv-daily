@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-119 papers · newest submission first
+123 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
+| 2026-10-21 | **RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding**<br><sub>Mingkang Liu, Weiming Meng, Peipei Jiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29527) · [PDF](https://arxiv.org/pdf/2610.29527) |
+| 2026-10-21 | **Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding**<br><sub>Jungseob Lee, Hogun Seong, Euijun Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29013) · [PDF](https://arxiv.org/pdf/2610.29013) · [Code](https://github.com/js-lee-AI/TargetRegeneration) |
 | 2026-10-19 | **DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding**<br><sub>Shreyas Kulkarni, Uttam Gurram, Madhav Kanda et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27379) · [PDF](https://arxiv.org/pdf/2610.27379) |
 | 2026-10-19 | **TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation**<br><sub>Akash Gokul, Srijan Bansal, Yingbo Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27290) · [PDF](https://arxiv.org/pdf/2610.27290) |
 | 2026-10-19 | **CALM: Consistency-Aware Logit Masking in Decoding Space for Mitigating Overthinking of Large Reasoning Models**<br><sub>Shengjing Liu, Feiyang Li, Yuxuan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25908) · [PDF](https://arxiv.org/pdf/2610.25908) |
@@ -17,6 +20,7 @@
 | 2026-10-18 | **GeoART: Geometry-Aware Refinement via Test-Time Scaling for Camera-Conditioned Video Diffusion**<br><sub>Liudi Yang, Ziyuan Liu</sub> | [arXiv](https://arxiv.org/abs/2610.25273) · [PDF](https://arxiv.org/pdf/2610.25273) |
 | 2026-10-18 | **BatchParScale: Sparse Batch-Mixing for Sequence Models**<br><sub>Hans Peter Lyngsøe Raaschou-jensen, M. Onurcan Kaya, Desmond Elliott</sub> | [arXiv](https://arxiv.org/abs/2610.25254) · [PDF](https://arxiv.org/pdf/2610.25254) |
 | 2026-10-18 | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding**<br><sub>Annabelle Sujun Tang, Rohan Mahapatra, Christopher Priebe et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25012) · [PDF](https://arxiv.org/pdf/2610.25012) |
+| 2026-10-17 | **Accelerating CPU Speculative Decoding via Unified Graph Execution and Transactional KV Isolation**<br><sub>Zhangdie Yuan</sub> | [arXiv](https://arxiv.org/abs/2610.28671) · [PDF](https://arxiv.org/pdf/2610.28671) |
 | 2026-10-17 | **FlashMap: Flow Map Speculative Decoding**<br><sub>Jeff Shen, Zhejian Zhou, Ryan Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.24365) · [PDF](https://arxiv.org/pdf/2610.24365) · [Code](https://github.com/al-jshen/flashmap) |
 | 2026-10-16 | **DLite: History-free Speculative Decoding for Agentic AI**<br><sub>Jiaming Xu, Hanzhen Wang, Tianlang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23787) · [PDF](https://arxiv.org/pdf/2610.23787) |
 | 2026-10-16 | **Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers**<br><sub>Srinivasan Iyengar</sub> | [arXiv](https://arxiv.org/abs/2610.23255) · [PDF](https://arxiv.org/pdf/2610.23255) |
