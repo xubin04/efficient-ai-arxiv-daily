@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-407 papers · newest submission first
+415 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching**<br><sub>Ariel Lapid, Yuval Haitman, Reuven Peretz et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31222) · [PDF](https://arxiv.org/pdf/2610.31222) |
+| 2026-10-22 | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding**<br><sub>Yuannuo Feng, Yubing Ye, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31120) · [PDF](https://arxiv.org/pdf/2610.31120) · [Code](https://github.com/Kissmetothemoon/SetCommit) |
+| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
+| 2026-10-22 | **Reverse-KL Policy Distillation: Statistical Guarantees and Limits**<br><sub>Haolin Liu, Chen-Yu Wei, Julian Zimmert</sub> | [arXiv](https://arxiv.org/abs/2610.30844) · [PDF](https://arxiv.org/pdf/2610.30844) |
+| 2026-10-22 | **GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL**<br><sub>Shijie Li, Yilin Gao, Tieyuan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30796) · [PDF](https://arxiv.org/pdf/2610.30796) · [Code](https://github.com/lilifree/GIFT) |
+| 2026-10-22 | **ParaLin++: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure**<br><sub>Jianrong Lu, Zhiyu Zhu, Hui Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30704) · [PDF](https://arxiv.org/pdf/2610.30704) |
+| 2026-10-21 | **Self-Distilling Future Video Representations for World Action Models**<br><sub>Huiwon Jang, Suhyeok Jang, Hyeonmo Kang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30320) · [PDF](https://arxiv.org/pdf/2610.30320) |
+| 2026-10-21 | **Edit, Don&#x27;t Imitate: Minimal-Edit On-Policy Distillation for Multimodal Reasoning**<br><sub>Wen Ye, Ailin Deng, Zirui Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30231) · [PDF](https://arxiv.org/pdf/2610.30231) |
 | 2026-10-21 | **GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation**<br><sub>Quang Anh Kiet Tran, Nam Anh Tran, Manh Hung Trinh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30067) · [PDF](https://arxiv.org/pdf/2610.30067) · [Code](https://github.com/Nhantran65/GoiBERT.git) |
 | 2026-10-21 | **TraceForge: Distilling with Your Own Thinking**<br><sub>Yan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.29680) · [PDF](https://arxiv.org/pdf/2610.29680) |
 | 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |

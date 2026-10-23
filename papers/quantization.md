@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-185 papers · newest submission first
+191 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Low-Bit N-Gram Embeddings for Language Models**<br><sub>Stephen Chung, Wenyu Du</sub> | [arXiv](https://arxiv.org/abs/2610.31646) · [PDF](https://arxiv.org/pdf/2610.31646) |
+| 2026-10-22 | **SQuAT: Spherical Lattice Vector Quantization-Aware Training**<br><sub>Sebastian Loeschcke, Ivan Koryakovskiy, Tycho F. A. van der Ouderaa et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31412) · [PDF](https://arxiv.org/pdf/2610.31412) |
+| 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |
+| 2026-10-22 | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models**<br><sub>Ofek Avivi, Eliron Rahimi, Avi Mendelson et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31198) · [PDF](https://arxiv.org/pdf/2610.31198) |
+| 2026-10-22 | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models**<br><sub>Jiaqi Chen, Xianglong Yan, Chengzhu Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30779) · [PDF](https://arxiv.org/pdf/2610.30779) · [Code](https://github.com/ThrowBug/ProQuant.git) |
+| 2026-10-21 | **FIGFLEX: A Mixed-Precision FP-INT GEMM Accelerator Co-Designed with Low-Bit LLM Quantization**<br><sub>Faraz Tahmasebi, Haocheng Xu, Andrew Trauger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30480) · [PDF](https://arxiv.org/pdf/2610.30480) |
 | 2026-10-21 | **Efficient Generative Image Compression with Quantized Latents Refinement**<br><sub>Hao Cao, Yinhuan Huang, Wenqi Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29691) · [PDF](https://arxiv.org/pdf/2610.29691) |
 | 2026-10-21 | **Effects of Model Scale and Quantization on Social Bias and Abstention in Question Answering**<br><sub>Kuniko Paxton, Ifeoluwa Wuraola, Dhavalkumar Thakker</sub> | [arXiv](https://arxiv.org/abs/2610.29657) · [PDF](https://arxiv.org/pdf/2610.29657) |
 | 2026-10-21 | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories**<br><sub>Boyuan Zheng, Jing Xiong, Chenwei Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29378) · [PDF](https://arxiv.org/pdf/2610.29378) |

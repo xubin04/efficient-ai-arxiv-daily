@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-22 14:08 CST** · **1212 unique papers** · Newest submission: **2026-10-21**
+Last successful scan: **2026-10-23 14:03 CST** · **1240 unique papers** · Newest submission: **2026-10-22**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -16,42 +16,42 @@ Last successful scan: **2026-10-22 14:08 CST** · **1212 unique papers** · Newe
 
 | Topic | Scope | Papers |
 |:---|:---|---:|
-| [Quantization & Low Precision](#quantization) | 量化、低比特推理与低精度训练 | 185 |
-| [Pruning & Sparsity](#pruning) | 模型剪枝、结构化稀疏与 Token 压缩 | 177 |
-| [Distillation & Few-Step Generation](#distillation) | 知识蒸馏、分布匹配与少步/单步生成 | 407 |
-| [Efficient Training & Fine-Tuning](#efficient-training) | LoRA/PEFT、显存优化与高效训练 | 125 |
-| [Efficient Attention & KV Cache](#attention-kv-cache) | 高效 Attention、长上下文与 KV Cache 压缩 | 177 |
-| [Speculative Decoding & Efficient Reasoning](#decoding-reasoning) | 推测解码、并行解码与推理预算优化 | 123 |
-| [LLM Serving & Systems](#llm-systems) | LLM 推理服务、调度、卸载与分布式系统 | 184 |
-| [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 104 |
-| [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 163 |
+| [Quantization & Low Precision](#quantization) | 量化、低比特推理与低精度训练 | 191 |
+| [Pruning & Sparsity](#pruning) | 模型剪枝、结构化稀疏与 Token 压缩 | 181 |
+| [Distillation & Few-Step Generation](#distillation) | 知识蒸馏、分布匹配与少步/单步生成 | 415 |
+| [Efficient Training & Fine-Tuning](#efficient-training) | LoRA/PEFT、显存优化与高效训练 | 127 |
+| [Efficient Attention & KV Cache](#attention-kv-cache) | 高效 Attention、长上下文与 KV Cache 压缩 | 182 |
+| [Speculative Decoding & Efficient Reasoning](#decoding-reasoning) | 推测解码、并行解码与推理预算优化 | 124 |
+| [LLM Serving & Systems](#llm-systems) | LLM 推理服务、调度、卸载与分布式系统 | 187 |
+| [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 106 |
+| [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 165 |
 
-## Newly indexed · 2026-10-22
+## Newly indexed · 2026-10-23
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
-| 2026-10-21 | **GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation**<br><sub>Quang Anh Kiet Tran, Nam Anh Tran, Manh Hung Trinh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30067) · [PDF](https://arxiv.org/pdf/2610.30067) · [Code](https://github.com/Nhantran65/GoiBERT.git) |
-| 2026-10-21 | **HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference**<br><sub>Junhyeok Park, Jungeun Yoon, Kyungmin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29873) · [PDF](https://arxiv.org/pdf/2610.29873) |
-| 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
-| 2026-10-21 | **SAKURA: Serving Attention Key-Value State Under Rate Adaptation for Private Image Editing on Phones**<br><sub>Shuncheng Jie, Desen Sun, Ri Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29733) · [PDF](https://arxiv.org/pdf/2610.29733) |
-| 2026-10-21 | **Efficient Generative Image Compression with Quantized Latents Refinement**<br><sub>Hao Cao, Yinhuan Huang, Wenqi Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29691) · [PDF](https://arxiv.org/pdf/2610.29691) |
-| 2026-10-21 | **TraceForge: Distilling with Your Own Thinking**<br><sub>Yan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.29680) · [PDF](https://arxiv.org/pdf/2610.29680) |
-| 2026-10-21 | **Effects of Model Scale and Quantization on Social Bias and Abstention in Question Answering**<br><sub>Kuniko Paxton, Ifeoluwa Wuraola, Dhavalkumar Thakker</sub> | [arXiv](https://arxiv.org/abs/2610.29657) · [PDF](https://arxiv.org/pdf/2610.29657) |
-| 2026-10-21 | **RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference**<br><sub>Wang Yuekai</sub> | [arXiv](https://arxiv.org/abs/2610.29544) · [PDF](https://arxiv.org/pdf/2610.29544) |
-| 2026-10-21 | **RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding**<br><sub>Mingkang Liu, Weiming Meng, Peipei Jiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29527) · [PDF](https://arxiv.org/pdf/2610.29527) |
-| 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
-| 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
-| 2026-10-21 | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories**<br><sub>Boyuan Zheng, Jing Xiong, Chenwei Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29378) · [PDF](https://arxiv.org/pdf/2610.29378) |
-| 2026-10-21 | **Seeing through Denoising: Frequency-guided One-step Denoising for Infrared Small Target Detection**<br><sub>Xuelin Qian, Zixuan Wang, Chang Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29361) · [PDF](https://arxiv.org/pdf/2610.29361) |
-| 2026-10-21 | **Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement**<br><sub>Jia Deng, Zizhe Wang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29302) · [PDF](https://arxiv.org/pdf/2610.29302) |
-| 2026-10-21 | **ER-Chord: Spatially Consistent One-Step Image Editing via Equal-Energy Reliability Redistribution**<br><sub>Peize Li, Hanzhen Zhao, Xingguo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29248) · [PDF](https://arxiv.org/pdf/2610.29248) · [Code](https://github.com/Peizeli1/ER-Chord) |
-| 2026-10-21 | **TeachBack: Learning to Teach via Bidirectional Preference Optimization for On-Policy Self-Distillation**<br><sub>Linfei Ji, Jiayun Li, Haozhao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29167) · [PDF](https://arxiv.org/pdf/2610.29167) |
-| 2026-10-21 | **Value-Rectified Distillation for Flow-based Offline Reinforcement Learning**<br><sub>Ke Jiang, Wen Jiang, Yoshinobu Kawahara et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29075) · [PDF](https://arxiv.org/pdf/2610.29075) |
-| 2026-10-21 | **Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models**<br><sub>Yuchuan Weng, Chi Liu, Xin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29052) · [PDF](https://arxiv.org/pdf/2610.29052) |
-| 2026-10-21 | **Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding**<br><sub>Jungseob Lee, Hogun Seong, Euijun Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29013) · [PDF](https://arxiv.org/pdf/2610.29013) · [Code](https://github.com/js-lee-AI/TargetRegeneration) |
-| 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
+| 2026-10-22 | **Low-Bit N-Gram Embeddings for Language Models**<br><sub>Stephen Chung, Wenyu Du</sub> | [arXiv](https://arxiv.org/abs/2610.31646) · [PDF](https://arxiv.org/pdf/2610.31646) |
+| 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
+| 2026-10-22 | **Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation**<br><sub>Bin Hu, Yingbo Xiao</sub> | [arXiv](https://arxiv.org/abs/2610.31433) · [PDF](https://arxiv.org/pdf/2610.31433) |
+| 2026-10-22 | **SQuAT: Spherical Lattice Vector Quantization-Aware Training**<br><sub>Sebastian Loeschcke, Ivan Koryakovskiy, Tycho F. A. van der Ouderaa et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31412) · [PDF](https://arxiv.org/pdf/2610.31412) |
+| 2026-10-22 | **Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language**<br><sub>Mullosharaf K. Arabov, Svetlana S. Khaybullina</sub> | [arXiv](https://arxiv.org/abs/2610.31397) · [PDF](https://arxiv.org/pdf/2610.31397) |
+| 2026-10-22 | **ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding**<br><sub>Liang He, SiYuan Ma, Qishi Zhan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31338) · [PDF](https://arxiv.org/pdf/2610.31338) |
+| 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |
+| 2026-10-22 | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models**<br><sub>Simon Berger, Larissa Kleppel, Ralf Schlüter</sub> | [arXiv](https://arxiv.org/abs/2610.31259) · [PDF](https://arxiv.org/pdf/2610.31259) |
+| 2026-10-22 | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching**<br><sub>Ariel Lapid, Yuval Haitman, Reuven Peretz et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31222) · [PDF](https://arxiv.org/pdf/2610.31222) |
+| 2026-10-22 | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models**<br><sub>Ofek Avivi, Eliron Rahimi, Avi Mendelson et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31198) · [PDF](https://arxiv.org/pdf/2610.31198) |
+| 2026-10-22 | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding**<br><sub>Yuannuo Feng, Yubing Ye, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31120) · [PDF](https://arxiv.org/pdf/2610.31120) · [Code](https://github.com/Kissmetothemoon/SetCommit) |
+| 2026-10-22 | **ResGVC: Residual Coding for High-fidelity Generative Video Compression**<br><sub>Ding Ding, Daowen Li, Ying Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31039) · [PDF](https://arxiv.org/pdf/2610.31039) |
+| 2026-10-22 | **Low-Latency MoE Inference in Space Data Centers: A Wireless-Power-Transfer Perspective**<br><sub>Haotian Zheng, Zhanwei Wang, Kaibin Huang</sub> | [arXiv](https://arxiv.org/abs/2610.30923) · [PDF](https://arxiv.org/pdf/2610.30923) |
+| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
+| 2026-10-22 | **CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation**<br><sub>Lifan Jiang, Yibo Zhao, Senlin cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30854) · [PDF](https://arxiv.org/pdf/2610.30854) |
+| 2026-10-22 | **Reverse-KL Policy Distillation: Statistical Guarantees and Limits**<br><sub>Haolin Liu, Chen-Yu Wei, Julian Zimmert</sub> | [arXiv](https://arxiv.org/abs/2610.30844) · [PDF](https://arxiv.org/pdf/2610.30844) |
+| 2026-10-22 | **Amplifying Latency and Cost of LLM Inference via Rowhammer Attack**<br><sub>Mrityunjay Shukla, Shubham Roy, Biswabandan Panda</sub> | [arXiv](https://arxiv.org/abs/2610.30798) · [PDF](https://arxiv.org/pdf/2610.30798) |
+| 2026-10-22 | **GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL**<br><sub>Shijie Li, Yilin Gao, Tieyuan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30796) · [PDF](https://arxiv.org/pdf/2610.30796) · [Code](https://github.com/lilifree/GIFT) |
+| 2026-10-22 | **Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving**<br><sub>Maharani A. P. Irawan, Kuntai Du, Jiayi Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30791) · [PDF](https://arxiv.org/pdf/2610.30791) |
+| 2026-10-22 | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models**<br><sub>Jiaqi Chen, Xianglong Yan, Chengzhu Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30779) · [PDF](https://arxiv.org/pdf/2610.30779) · [Code](https://github.com/ThrowBug/ProQuant.git) |
 
 [View all 28 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
 
@@ -59,31 +59,35 @@ These papers were first added to this repository today. The initial import inclu
 
 ## Quantization & Low Precision
 
-量化、低比特推理与低精度训练 · **185 papers** · [Full archive](papers/quantization.md)
+量化、低比特推理与低精度训练 · **191 papers** · [Full archive](papers/quantization.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Low-Bit N-Gram Embeddings for Language Models**<br><sub>Stephen Chung, Wenyu Du</sub> | [arXiv](https://arxiv.org/abs/2610.31646) · [PDF](https://arxiv.org/pdf/2610.31646) |
+| 2026-10-22 | **SQuAT: Spherical Lattice Vector Quantization-Aware Training**<br><sub>Sebastian Loeschcke, Ivan Koryakovskiy, Tycho F. A. van der Ouderaa et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31412) · [PDF](https://arxiv.org/pdf/2610.31412) |
+| 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |
+| 2026-10-22 | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models**<br><sub>Ofek Avivi, Eliron Rahimi, Avi Mendelson et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31198) · [PDF](https://arxiv.org/pdf/2610.31198) |
+| 2026-10-22 | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models**<br><sub>Jiaqi Chen, Xianglong Yan, Chengzhu Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30779) · [PDF](https://arxiv.org/pdf/2610.30779) · [Code](https://github.com/ThrowBug/ProQuant.git) |
+| 2026-10-21 | **FIGFLEX: A Mixed-Precision FP-INT GEMM Accelerator Co-Designed with Low-Bit LLM Quantization**<br><sub>Faraz Tahmasebi, Haocheng Xu, Andrew Trauger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30480) · [PDF](https://arxiv.org/pdf/2610.30480) |
 | 2026-10-21 | **Efficient Generative Image Compression with Quantized Latents Refinement**<br><sub>Hao Cao, Yinhuan Huang, Wenqi Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29691) · [PDF](https://arxiv.org/pdf/2610.29691) |
 | 2026-10-21 | **Effects of Model Scale and Quantization on Social Bias and Abstention in Question Answering**<br><sub>Kuniko Paxton, Ifeoluwa Wuraola, Dhavalkumar Thakker</sub> | [arXiv](https://arxiv.org/abs/2610.29657) · [PDF](https://arxiv.org/pdf/2610.29657) |
 | 2026-10-21 | **Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories**<br><sub>Boyuan Zheng, Jing Xiong, Chenwei Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29378) · [PDF](https://arxiv.org/pdf/2610.29378) |
 | 2026-10-21 | **Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement**<br><sub>Jia Deng, Zizhe Wang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29302) · [PDF](https://arxiv.org/pdf/2610.29302) |
 | 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
 | 2026-10-20 | **BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models**<br><sub>Ning Zhang, Shihao Wang, Jinrui Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28500) · [PDF](https://arxiv.org/pdf/2610.28500) · [Code](https://github.com/PolyU-VCLab/BitMTP) |
-| 2026-10-20 | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models**<br><sub>Jiahui Ning, Liang Chen, Yuchen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27913) · [PDF](https://arxiv.org/pdf/2610.27913) · [Code](https://github.com/gaffeyn03/ACE-Compression) |
-| 2026-10-20 | **E8-QAT: Efficient 2-Bit Quantization-Aware Training with Implicit Lattice Codebooks**<br><sub>Xinyu Lei, Hong Huang, Jiebin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27699) · [PDF](https://arxiv.org/pdf/2610.27699) |
-| 2026-10-19 | **PerQ: Inverse Generative Modeling for Neural Image Compression via Quantization Error Compensation**<br><sub>Tianhao Peng, Ho Man Kwan, Fan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27374) · [PDF](https://arxiv.org/pdf/2610.27374) |
-| 2026-10-19 | **Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein**<br><sub>Manohar Kaul, Sadbhavana Babar, Aditya Ramesh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26102) · [PDF](https://arxiv.org/pdf/2610.26102) |
-| 2026-10-19 | **MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration**<br><sub>Zijun Zhao, Ruichu Ao, Stef Cuyckens et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26083) · [PDF](https://arxiv.org/pdf/2610.26083) |
-| 2026-10-19 | **LIRQuant: An Efficient Locally Isolated Rotation Quantization Method for Large Language Models**<br><sub>Desheng Xu, Hanglin Li, Tianchen Song et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25675) · [PDF](https://arxiv.org/pdf/2610.25675) |
 
 <a id="pruning"></a>
 
 ## Pruning & Sparsity
 
-模型剪枝、结构化稀疏与 Token 压缩 · **177 papers** · [Full archive](papers/pruning.md)
+模型剪枝、结构化稀疏与 Token 压缩 · **181 papers** · [Full archive](papers/pruning.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
+| 2026-10-22 | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models**<br><sub>Simon Berger, Larissa Kleppel, Ralf Schlüter</sub> | [arXiv](https://arxiv.org/abs/2610.31259) · [PDF](https://arxiv.org/pdf/2610.31259) |
+| 2026-10-22 | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference**<br><sub>Amirhossein Aghaei, Liangyan Li, Shiyi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30611) · [PDF](https://arxiv.org/pdf/2610.30611) |
+| 2026-10-22 | **Repair Changes Which Layers to Remove: Exact Optima for Depth Pruning of Language Models**<br><sub>Jianchang Su, Dawei Xiang, Yifan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30552) · [PDF](https://arxiv.org/pdf/2610.30552) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
 | 2026-10-20 | **Building a Nested LADDER for LLM Unstructured Post-Training Pruning**<br><sub>Nicolás Mauricio Cuadrado Ávila, Ivo Gollini Navarrete, Martin Takáč et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28773) · [PDF](https://arxiv.org/pdf/2610.28773) |
@@ -92,40 +96,38 @@ These papers were first added to this repository today. The initial import inclu
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
 | 2026-10-20 | **ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models**<br><sub>Jiahui Ning, Liang Chen, Yuchen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27913) · [PDF](https://arxiv.org/pdf/2610.27913) · [Code](https://github.com/gaffeyn03/ACE-Compression) |
 | 2026-10-20 | **SliMOO: Interpretable Multi-Objective Evolutionary Search for LLM Depth Pruning**<br><sub>Guanchen Li, Yixing Xu, Xuanwu Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27812) · [PDF](https://arxiv.org/pdf/2610.27812) · [Code](https://github.com/AMD-AGI/SliMOO) |
-| 2026-10-19 | **Sparse RL Relaxation for LLM Reasoning**<br><sub>Jiabin Fan, Matthias Lindemann, Zita Marinho et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27220) · [PDF](https://arxiv.org/pdf/2610.27220) |
-| 2026-10-19 | **Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models**<br><sub>Jelena Markovic-Voronov, Petros Prastakos, Kayhan Behdin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27123) · [PDF](https://arxiv.org/pdf/2610.27123) |
-| 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
-| 2026-10-19 | **SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models**<br><sub>Shenli Zheng, Zhou Fang, Yuan Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26487) · [PDF](https://arxiv.org/pdf/2610.26487) |
 
 <a id="distillation"></a>
 
 ## Distillation & Few-Step Generation
 
-知识蒸馏、分布匹配与少步/单步生成 · **407 papers** · [Full archive](papers/distillation.md)
+知识蒸馏、分布匹配与少步/单步生成 · **415 papers** · [Full archive](papers/distillation.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching**<br><sub>Ariel Lapid, Yuval Haitman, Reuven Peretz et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31222) · [PDF](https://arxiv.org/pdf/2610.31222) |
+| 2026-10-22 | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding**<br><sub>Yuannuo Feng, Yubing Ye, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31120) · [PDF](https://arxiv.org/pdf/2610.31120) · [Code](https://github.com/Kissmetothemoon/SetCommit) |
+| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
+| 2026-10-22 | **Reverse-KL Policy Distillation: Statistical Guarantees and Limits**<br><sub>Haolin Liu, Chen-Yu Wei, Julian Zimmert</sub> | [arXiv](https://arxiv.org/abs/2610.30844) · [PDF](https://arxiv.org/pdf/2610.30844) |
+| 2026-10-22 | **GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL**<br><sub>Shijie Li, Yilin Gao, Tieyuan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30796) · [PDF](https://arxiv.org/pdf/2610.30796) · [Code](https://github.com/lilifree/GIFT) |
+| 2026-10-22 | **ParaLin++: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure**<br><sub>Jianrong Lu, Zhiyu Zhu, Hui Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30704) · [PDF](https://arxiv.org/pdf/2610.30704) |
+| 2026-10-21 | **Self-Distilling Future Video Representations for World Action Models**<br><sub>Huiwon Jang, Suhyeok Jang, Hyeonmo Kang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30320) · [PDF](https://arxiv.org/pdf/2610.30320) |
+| 2026-10-21 | **Edit, Don&#x27;t Imitate: Minimal-Edit On-Policy Distillation for Multimodal Reasoning**<br><sub>Wen Ye, Ailin Deng, Zirui Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30231) · [PDF](https://arxiv.org/pdf/2610.30231) |
 | 2026-10-21 | **GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation**<br><sub>Quang Anh Kiet Tran, Nam Anh Tran, Manh Hung Trinh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30067) · [PDF](https://arxiv.org/pdf/2610.30067) · [Code](https://github.com/Nhantran65/GoiBERT.git) |
 | 2026-10-21 | **TraceForge: Distilling with Your Own Thinking**<br><sub>Yan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.29680) · [PDF](https://arxiv.org/pdf/2610.29680) |
 | 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
 | 2026-10-21 | **Seeing through Denoising: Frequency-guided One-step Denoising for Infrared Small Target Detection**<br><sub>Xuelin Qian, Zixuan Wang, Chang Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29361) · [PDF](https://arxiv.org/pdf/2610.29361) |
-| 2026-10-21 | **ER-Chord: Spatially Consistent One-Step Image Editing via Equal-Energy Reliability Redistribution**<br><sub>Peize Li, Hanzhen Zhao, Xingguo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29248) · [PDF](https://arxiv.org/pdf/2610.29248) · [Code](https://github.com/Peizeli1/ER-Chord) |
-| 2026-10-21 | **TeachBack: Learning to Teach via Bidirectional Preference Optimization for On-Policy Self-Distillation**<br><sub>Linfei Ji, Jiayun Li, Haozhao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29167) · [PDF](https://arxiv.org/pdf/2610.29167) |
-| 2026-10-21 | **Value-Rectified Distillation for Flow-based Offline Reinforcement Learning**<br><sub>Ke Jiang, Wen Jiang, Yoshinobu Kawahara et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29075) · [PDF](https://arxiv.org/pdf/2610.29075) |
-| 2026-10-20 | **StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion**<br><sub>Yisi Liu, Nicholas Lee, Gopala K. Anumanchipalli</sub> | [arXiv](https://arxiv.org/abs/2610.28940) · [PDF](https://arxiv.org/pdf/2610.28940) |
-| 2026-10-20 | **D-Skill: Distilling Teacher Knowledge through Agent Skills**<br><sub>Shuo Yuan, Dacheng Li, Joseph E. Gonzalez</sub> | [arXiv](https://arxiv.org/abs/2610.28914) · [PDF](https://arxiv.org/pdf/2610.28914) |
-| 2026-10-20 | **DualHeads: Reward-tilted few-step diffusion made simple**<br><sub>Yuanzhi Zhu, Eleftherios Tsonis, Simo Alami Chehboune et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28858) · [PDF](https://arxiv.org/pdf/2610.28858) |
-| 2026-10-20 | **Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation**<br><sub>Shu Zhao, Tan Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28586) · [PDF](https://arxiv.org/pdf/2610.28586) |
-| 2026-10-20 | **Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation**<br><sub>Anil Srirangapatna Nagesh, Nitin Gupta, Anuj Taneja et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27993) · [PDF](https://arxiv.org/pdf/2610.27993) |
 
 <a id="efficient-training"></a>
 
 ## Efficient Training & Fine-Tuning
 
-LoRA/PEFT、显存优化与高效训练 · **125 papers** · [Full archive](papers/efficient-training.md)
+LoRA/PEFT、显存优化与高效训练 · **127 papers** · [Full archive](papers/efficient-training.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language**<br><sub>Mullosharaf K. Arabov, Svetlana S. Khaybullina</sub> | [arXiv](https://arxiv.org/abs/2610.31397) · [PDF](https://arxiv.org/pdf/2610.31397) |
+| 2026-10-21 | **AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining**<br><sub>Houssam Eddine Boukhalfa, Mourad Bouache, Mourad Dahmane</sub> | [arXiv](https://arxiv.org/abs/2610.30344) · [PDF](https://arxiv.org/pdf/2610.30344) |
 | 2026-10-21 | **Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models**<br><sub>Yuchuan Weng, Chi Liu, Xin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29052) · [PDF](https://arxiv.org/pdf/2610.29052) |
 | 2026-10-20 | **Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory**<br><sub>Yiqing Shen, Mathias Unberath</sub> | [arXiv](https://arxiv.org/abs/2610.28776) · [PDF](https://arxiv.org/pdf/2610.28776) |
 | 2026-10-20 | **MuPACE: Learning to Pace Muon for LoRA Fine-Tuning**<br><sub>Jan Kobiolka, Christian Frey, Josif Grabocka</sub> | [arXiv](https://arxiv.org/abs/2610.28072) · [PDF](https://arxiv.org/pdf/2610.28072) |
@@ -136,38 +138,37 @@ LoRA/PEFT、显存优化与高效训练 · **125 papers** · [Full archive](pape
 | 2026-10-19 | **TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning**<br><sub>Liana Patel, Rishabh Ranjan, Ion Stoica et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26754) · [PDF](https://arxiv.org/pdf/2610.26754) · [Code](https://github.com/tokengate-models/TokenGate) |
 | 2026-10-19 | **An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs**<br><sub>Minglei Li, Peng Ye, Haonan He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26370) · [PDF](https://arxiv.org/pdf/2610.26370) |
 | 2026-10-19 | **Communication-Efficient Federated Domain Generalization in Edge Networks via Dynamic Prototype Regulation**<br><sub>Yuankun Xia, Hui Wang, Ling Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25810) · [PDF](https://arxiv.org/pdf/2610.25810) |
-| 2026-10-18 | **System X: An LLM Decision Model That Replies from Its Own KV Cache**<br><sub>Syed Usama Khalid Bukhari, Syed Safwan Khalid, Muhammad Aamir</sub> | [arXiv](https://arxiv.org/abs/2610.25456) · [PDF](https://arxiv.org/pdf/2610.25456) |
-| 2026-10-18 | **BatchParScale: Sparse Batch-Mixing for Sequence Models**<br><sub>Hans Peter Lyngsøe Raaschou-jensen, M. Onurcan Kaya, Desmond Elliott</sub> | [arXiv](https://arxiv.org/abs/2610.25254) · [PDF](https://arxiv.org/pdf/2610.25254) |
 
 <a id="attention-kv-cache"></a>
 
 ## Efficient Attention & KV Cache
 
-高效 Attention、长上下文与 KV Cache 压缩 · **177 papers** · [Full archive](papers/attention-kv-cache.md)
+高效 Attention、长上下文与 KV Cache 压缩 · **182 papers** · [Full archive](papers/attention-kv-cache.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
+| 2026-10-22 | **Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation**<br><sub>Bin Hu, Yingbo Xiao</sub> | [arXiv](https://arxiv.org/abs/2610.31433) · [PDF](https://arxiv.org/pdf/2610.31433) |
+| 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |
+| 2026-10-22 | **Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving**<br><sub>Maharani A. P. Irawan, Kuntai Du, Jiayi Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30791) · [PDF](https://arxiv.org/pdf/2610.30791) |
 | 2026-10-21 | **HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference**<br><sub>Junhyeok Park, Jungeun Yoon, Kyungmin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29873) · [PDF](https://arxiv.org/pdf/2610.29873) |
 | 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
+| 2026-10-21 | **MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs**<br><sub>Minsang Kim, Seungjun Baek</sub> | [arXiv](https://arxiv.org/abs/2610.30206) · [PDF](https://arxiv.org/pdf/2610.30206) |
 | 2026-10-21 | **RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference**<br><sub>Wang Yuekai</sub> | [arXiv](https://arxiv.org/abs/2610.29544) · [PDF](https://arxiv.org/pdf/2610.29544) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-20 | **Cache Engineering for Agents**<br><sub>Tianyu Fu, Ruoxi Wang, Zihan Min et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28577) · [PDF](https://arxiv.org/pdf/2610.28577) · [Code](https://github.com/thu-nics/AKV) |
 | 2026-10-20 | **Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity**<br><sub>Sahil Joshi, Prithvi Dixit, Aryan Katiyar et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28441) · [PDF](https://arxiv.org/pdf/2610.28441) · [Code](https://github.com/skylight-org/SSA-Paper-Code) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
-| 2026-10-19 | **Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning**<br><sub>Zerui Chen, Changrui Chen, Fei Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27341) · [PDF](https://arxiv.org/pdf/2610.27341) |
-| 2026-10-19 | **LatComm: Reusable Context Compression for Latent Communication between Large Language Models**<br><sub>Huawei Lin, Jinting Liu, Tan Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26840) · [PDF](https://arxiv.org/pdf/2610.26840) |
-| 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
-| 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
-| 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
 
 <a id="decoding-reasoning"></a>
 
 ## Speculative Decoding & Efficient Reasoning
 
-推测解码、并行解码与推理预算优化 · **123 papers** · [Full archive](papers/decoding-reasoning.md)
+推测解码、并行解码与推理预算优化 · **124 papers** · [Full archive](papers/decoding-reasoning.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding**<br><sub>Liang He, SiYuan Ma, Qishi Zhan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31338) · [PDF](https://arxiv.org/pdf/2610.31338) |
 | 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
 | 2026-10-21 | **RCSD: Reinforcement and Continual Learning for Domain-Specific Speculative Decoding**<br><sub>Mingkang Liu, Weiming Meng, Peipei Jiao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29527) · [PDF](https://arxiv.org/pdf/2610.29527) |
 | 2026-10-21 | **Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding**<br><sub>Jungseob Lee, Hogun Seong, Euijun Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29013) · [PDF](https://arxiv.org/pdf/2610.29013) · [Code](https://github.com/js-lee-AI/TargetRegeneration) |
@@ -179,16 +180,18 @@ LoRA/PEFT、显存优化与高效训练 · **125 papers** · [Full archive](pape
 | 2026-10-18 | **Test-Time Scaling of Text-to-Image Flow Matching Models with Noise-Rejuvenated Sequential Monte Carlo**<br><sub>Wenyi Lian, Zheng Zhao, Thomas B. Sch{ö}n</sub> | [arXiv](https://arxiv.org/abs/2610.25479) · [PDF](https://arxiv.org/pdf/2610.25479) · [Code](https://github.com/shermanlian/NR-SMC) |
 | 2026-10-18 | **GeoART: Geometry-Aware Refinement via Test-Time Scaling for Camera-Conditioned Video Diffusion**<br><sub>Liudi Yang, Ziyuan Liu</sub> | [arXiv](https://arxiv.org/abs/2610.25273) · [PDF](https://arxiv.org/pdf/2610.25273) |
 | 2026-10-18 | **BatchParScale: Sparse Batch-Mixing for Sequence Models**<br><sub>Hans Peter Lyngsøe Raaschou-jensen, M. Onurcan Kaya, Desmond Elliott</sub> | [arXiv](https://arxiv.org/abs/2610.25254) · [PDF](https://arxiv.org/pdf/2610.25254) |
-| 2026-10-18 | **Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding**<br><sub>Annabelle Sujun Tang, Rohan Mahapatra, Christopher Priebe et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25012) · [PDF](https://arxiv.org/pdf/2610.25012) |
 
 <a id="llm-systems"></a>
 
 ## LLM Serving & Systems
 
-LLM 推理服务、调度、卸载与分布式系统 · **184 papers** · [Full archive](papers/llm-systems.md)
+LLM 推理服务、调度、卸载与分布式系统 · **187 papers** · [Full archive](papers/llm-systems.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Low-Latency MoE Inference in Space Data Centers: A Wireless-Power-Transfer Perspective**<br><sub>Haotian Zheng, Zhanwei Wang, Kaibin Huang</sub> | [arXiv](https://arxiv.org/abs/2610.30923) · [PDF](https://arxiv.org/pdf/2610.30923) |
+| 2026-10-22 | **Amplifying Latency and Cost of LLM Inference via Rowhammer Attack**<br><sub>Mrityunjay Shukla, Shubham Roy, Biswabandan Panda</sub> | [arXiv](https://arxiv.org/abs/2610.30798) · [PDF](https://arxiv.org/pdf/2610.30798) |
+| 2026-10-22 | **Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving**<br><sub>Maharani A. P. Irawan, Kuntai Du, Jiayi Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30791) · [PDF](https://arxiv.org/pdf/2610.30791) |
 | 2026-10-21 | **HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference**<br><sub>Junhyeok Park, Jungeun Yoon, Kyungmin Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29873) · [PDF](https://arxiv.org/pdf/2610.29873) |
 | 2026-10-21 | **UlaCache: Unified Logical Addressing for Sparse LLM Serving**<br><sub>Isaac Zhu, Alan Cao, Hugh Yin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29820) · [PDF](https://arxiv.org/pdf/2610.29820) |
 | 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
@@ -198,18 +201,17 @@ LLM 推理服务、调度、卸载与分布式系统 · **184 papers** · [Full 
 | 2026-10-19 | **3D-MoE: Complementarity-Guided Hardware-Software Co-Design for MoE Decode on 3D-Stacked NMP**<br><sub>Yudong Pan, Lian Liu, Shixin Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26991) · [PDF](https://arxiv.org/pdf/2610.26991) |
 | 2026-10-18 | **From Label Priors to Task Evidence: Efficient Long-Video Frame Selection via Bayesian GRPO**<br><sub>Shuochen Chang, Bingjie Gao, Qingyang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25418) · [PDF](https://arxiv.org/pdf/2610.25418) |
 | 2026-10-17 | **FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments**<br><sub>Dimitrios Liakopoulos, Prasoon Sinha, Neeraja J. Yadwadkar</sub> | [arXiv](https://arxiv.org/abs/2610.24861) · [PDF](https://arxiv.org/pdf/2610.24861) |
-| 2026-10-16 | **KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving**<br><sub>Shiyi Ling, Fei Fang, Chen Qian</sub> | [arXiv](https://arxiv.org/abs/2610.24179) · [PDF](https://arxiv.org/pdf/2610.24179) |
-| 2026-10-16 | **HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs**<br><sub>Jinheng Li, Guosheng Wang, Hongchao Du et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23503) · [PDF](https://arxiv.org/pdf/2610.23503) · [Code](https://github.com/FlashLabAE/HBFSim) |
-| 2026-10-16 | **Efficient CPU-GPU collaborative MoE inference via Adaptive Expert Assignment**<br><sub>Wenhui Lv, Yunming Liao, Hongli Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.23006) · [PDF](https://arxiv.org/pdf/2610.23006) |
 
 <a id="diffusion-acceleration"></a>
 
 ## Diffusion Caching & Acceleration
 
-扩散模型/DiT 的特征缓存、复用与采样加速 · **104 papers** · [Full archive](papers/diffusion-acceleration.md)
+扩散模型/DiT 的特征缓存、复用与采样加速 · **106 papers** · [Full archive](papers/diffusion-acceleration.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation**<br><sub>Lifan Jiang, Yibo Zhao, Senlin cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30854) · [PDF](https://arxiv.org/pdf/2610.30854) |
+| 2026-10-22 | **ParaLin++: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure**<br><sub>Jianrong Lu, Zhiyu Zhu, Hui Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30704) · [PDF](https://arxiv.org/pdf/2610.30704) |
 | 2026-10-21 | **SAKURA: Serving Attention Key-Value State Under Rate Adaptation for Private Image Editing on Phones**<br><sub>Shuncheng Jie, Desen Sun, Ri Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29733) · [PDF](https://arxiv.org/pdf/2610.29733) |
 | 2026-10-20 | **DiffResearch: Accelerating Deep Research with Diffusion Language Models**<br><sub>Alan-Barsag Gazzaev, Alexey Gavrilov, Mikhail Mozikov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28909) · [PDF](https://arxiv.org/pdf/2610.28909) |
 | 2026-10-20 | **Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks**<br><sub>Ivan Listopadov, Maksim Nakhodnov, Aibek Alanov</sub> | [arXiv](https://arxiv.org/abs/2610.28889) · [PDF](https://arxiv.org/pdf/2610.28889) |
@@ -220,17 +222,17 @@ LLM 推理服务、调度、卸载与分布式系统 · **184 papers** · [Full 
 | 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
 | 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
 | 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
-| 2026-10-19 | **LEAP: Accelerating ODE-based Diffusion Sampling with Optimal Linear Leaps**<br><sub>Haowei Zheng, Zhenyu Zhou, Jiawei Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25918) · [PDF](https://arxiv.org/pdf/2610.25918) · [Code](https://github.com/zju-pi/LEAP) |
-| 2026-10-19 | **PoSTCache: From Forecasting to Postdictive Smoothing for Revisable Diffusion Caching**<br><sub>Liwei Lan, Hui Chen, Jungong Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25664) · [PDF](https://arxiv.org/pdf/2610.25664) |
 
 <a id="visual-generation"></a>
 
 ## Efficient Image & Video Generation
 
-图像/视频生成的计算、显存与延迟优化 · **163 papers** · [Full archive](papers/visual-generation.md)
+图像/视频生成的计算、显存与延迟优化 · **165 papers** · [Full archive](papers/visual-generation.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **ResGVC: Residual Coding for High-fidelity Generative Video Compression**<br><sub>Ding Ding, Daowen Li, Ying Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31039) · [PDF](https://arxiv.org/pdf/2610.31039) |
+| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
@@ -241,8 +243,6 @@ LLM 推理服务、调度、卸载与分布式系统 · **184 papers** · [Full 
 | 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
 | 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |
 | 2026-10-19 | **TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling**<br><sub>Shuaiqi Cheng, Jiahao Zhang, Boyuan Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26025) · [PDF](https://arxiv.org/pdf/2610.26025) |
-| 2026-10-19 | **LEAP: Accelerating ODE-based Diffusion Sampling with Optimal Linear Leaps**<br><sub>Haowei Zheng, Zhenyu Zhou, Jiawei Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25918) · [PDF](https://arxiv.org/pdf/2610.25918) · [Code](https://github.com/zju-pi/LEAP) |
-| 2026-10-19 | **PoSTCache: From Forecasting to Postdictive Smoothing for Revisable Diffusion Caching**<br><sub>Liwei Lan, Hui Chen, Jungong Han et al.</sub> | [arXiv](https://arxiv.org/abs/2610.25664) · [PDF](https://arxiv.org/pdf/2610.25664) |
 
 ## How it works
 

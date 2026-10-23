@@ -4,10 +4,12 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-125 papers · newest submission first
+127 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language**<br><sub>Mullosharaf K. Arabov, Svetlana S. Khaybullina</sub> | [arXiv](https://arxiv.org/abs/2610.31397) · [PDF](https://arxiv.org/pdf/2610.31397) |
+| 2026-10-21 | **AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining**<br><sub>Houssam Eddine Boukhalfa, Mourad Bouache, Mourad Dahmane</sub> | [arXiv](https://arxiv.org/abs/2610.30344) · [PDF](https://arxiv.org/pdf/2610.30344) |
 | 2026-10-21 | **Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models**<br><sub>Yuchuan Weng, Chi Liu, Xin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29052) · [PDF](https://arxiv.org/pdf/2610.29052) |
 | 2026-10-20 | **Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory**<br><sub>Yiqing Shen, Mathias Unberath</sub> | [arXiv](https://arxiv.org/abs/2610.28776) · [PDF](https://arxiv.org/pdf/2610.28776) |
 | 2026-10-20 | **MuPACE: Learning to Pace Muon for LoRA Fine-Tuning**<br><sub>Jan Kobiolka, Christian Frey, Josif Grabocka</sub> | [arXiv](https://arxiv.org/abs/2610.28072) · [PDF](https://arxiv.org/pdf/2610.28072) |

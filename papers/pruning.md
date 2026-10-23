@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-177 papers · newest submission first
+181 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
+| 2026-10-22 | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models**<br><sub>Simon Berger, Larissa Kleppel, Ralf Schlüter</sub> | [arXiv](https://arxiv.org/abs/2610.31259) · [PDF](https://arxiv.org/pdf/2610.31259) |
+| 2026-10-22 | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference**<br><sub>Amirhossein Aghaei, Liangyan Li, Shiyi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30611) · [PDF](https://arxiv.org/pdf/2610.30611) |
+| 2026-10-22 | **Repair Changes Which Layers to Remove: Exact Optima for Depth Pruning of Language Models**<br><sub>Jianchang Su, Dawei Xiang, Yifan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30552) · [PDF](https://arxiv.org/pdf/2610.30552) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-20 | **Is 2:4 Sparsity Still Worth It? Semi-Structured Sparsity versus Quantization in LLM Inference**<br><sub>Xiuyi Qin</sub> | [arXiv](https://arxiv.org/abs/2610.28947) · [PDF](https://arxiv.org/pdf/2610.28947) |
 | 2026-10-20 | **Building a Nested LADDER for LLM Unstructured Post-Training Pruning**<br><sub>Nicolás Mauricio Cuadrado Ávila, Ivo Gollini Navarrete, Martin Takáč et al.</sub> | [arXiv](https://arxiv.org/abs/2610.28773) · [PDF](https://arxiv.org/pdf/2610.28773) |
