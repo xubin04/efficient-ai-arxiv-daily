@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-23 14:03 CST** · **1240 unique papers** · Newest submission: **2026-10-22**
+Last successful scan: **2026-10-24 13:56 CST** · **1240 unique papers** · Newest submission: **2026-10-22**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-10-23 14:03 CST** · **1240 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 106 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 165 |
 
-## Newly indexed · 2026-10-23
+## Newly indexed · 2026-10-24
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-10-22 | **Low-Bit N-Gram Embeddings for Language Models**<br><sub>Stephen Chung, Wenyu Du</sub> | [arXiv](https://arxiv.org/abs/2610.31646) · [PDF](https://arxiv.org/pdf/2610.31646) |
-| 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
-| 2026-10-22 | **Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation**<br><sub>Bin Hu, Yingbo Xiao</sub> | [arXiv](https://arxiv.org/abs/2610.31433) · [PDF](https://arxiv.org/pdf/2610.31433) |
-| 2026-10-22 | **SQuAT: Spherical Lattice Vector Quantization-Aware Training**<br><sub>Sebastian Loeschcke, Ivan Koryakovskiy, Tycho F. A. van der Ouderaa et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31412) · [PDF](https://arxiv.org/pdf/2610.31412) |
-| 2026-10-22 | **Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language**<br><sub>Mullosharaf K. Arabov, Svetlana S. Khaybullina</sub> | [arXiv](https://arxiv.org/abs/2610.31397) · [PDF](https://arxiv.org/pdf/2610.31397) |
-| 2026-10-22 | **ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding**<br><sub>Liang He, SiYuan Ma, Qishi Zhan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31338) · [PDF](https://arxiv.org/pdf/2610.31338) |
-| 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |
-| 2026-10-22 | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models**<br><sub>Simon Berger, Larissa Kleppel, Ralf Schlüter</sub> | [arXiv](https://arxiv.org/abs/2610.31259) · [PDF](https://arxiv.org/pdf/2610.31259) |
-| 2026-10-22 | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching**<br><sub>Ariel Lapid, Yuval Haitman, Reuven Peretz et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31222) · [PDF](https://arxiv.org/pdf/2610.31222) |
-| 2026-10-22 | **Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models**<br><sub>Ofek Avivi, Eliron Rahimi, Avi Mendelson et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31198) · [PDF](https://arxiv.org/pdf/2610.31198) |
-| 2026-10-22 | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding**<br><sub>Yuannuo Feng, Yubing Ye, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31120) · [PDF](https://arxiv.org/pdf/2610.31120) · [Code](https://github.com/Kissmetothemoon/SetCommit) |
-| 2026-10-22 | **ResGVC: Residual Coding for High-fidelity Generative Video Compression**<br><sub>Ding Ding, Daowen Li, Ying Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31039) · [PDF](https://arxiv.org/pdf/2610.31039) |
-| 2026-10-22 | **Low-Latency MoE Inference in Space Data Centers: A Wireless-Power-Transfer Perspective**<br><sub>Haotian Zheng, Zhanwei Wang, Kaibin Huang</sub> | [arXiv](https://arxiv.org/abs/2610.30923) · [PDF](https://arxiv.org/pdf/2610.30923) |
-| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
-| 2026-10-22 | **CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation**<br><sub>Lifan Jiang, Yibo Zhao, Senlin cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30854) · [PDF](https://arxiv.org/pdf/2610.30854) |
-| 2026-10-22 | **Reverse-KL Policy Distillation: Statistical Guarantees and Limits**<br><sub>Haolin Liu, Chen-Yu Wei, Julian Zimmert</sub> | [arXiv](https://arxiv.org/abs/2610.30844) · [PDF](https://arxiv.org/pdf/2610.30844) |
-| 2026-10-22 | **Amplifying Latency and Cost of LLM Inference via Rowhammer Attack**<br><sub>Mrityunjay Shukla, Shubham Roy, Biswabandan Panda</sub> | [arXiv](https://arxiv.org/abs/2610.30798) · [PDF](https://arxiv.org/pdf/2610.30798) |
-| 2026-10-22 | **GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL**<br><sub>Shijie Li, Yilin Gao, Tieyuan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30796) · [PDF](https://arxiv.org/pdf/2610.30796) · [Code](https://github.com/lilifree/GIFT) |
-| 2026-10-22 | **Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving**<br><sub>Maharani A. P. Irawan, Kuntai Du, Jiayi Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30791) · [PDF](https://arxiv.org/pdf/2610.30791) |
-| 2026-10-22 | **ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models**<br><sub>Jiaqi Chen, Xianglong Yan, Chengzhu Bao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30779) · [PDF](https://arxiv.org/pdf/2610.30779) · [Code](https://github.com/ThrowBug/ProQuant.git) |
-
-[View all 28 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
