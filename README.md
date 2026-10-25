@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-24 13:56 CST** · **1240 unique papers** · Newest submission: **2026-10-22**
+Last successful scan: **2026-10-25 14:11 CST** · **1240 unique papers** · Newest submission: **2026-10-22**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,7 +26,7 @@ Last successful scan: **2026-10-24 13:56 CST** · **1240 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 106 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 165 |
 
-## Newly indexed · 2026-10-24
+## Newly indexed · 2026-10-25
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
