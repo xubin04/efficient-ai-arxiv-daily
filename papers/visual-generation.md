@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-165 papers · newest submission first
+168 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **Fast and Useful: Adapting Distilled Generators for Visual Learning**<br><sub>Patryk Bartkowiak, Dominik Michels, Sören Pirk et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32512) · [PDF](https://arxiv.org/pdf/2610.32512) |
+| 2026-10-23 | **UniWorld: A Unified World Model for Real-Time Visual World Simulation**<br><sub>Xin Zhang, Yabo Chen, Shuaiwei Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32381) · [PDF](https://arxiv.org/pdf/2610.32381) |
+| 2026-10-23 | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders**<br><sub>Yiran Xiahou, Siliang Qin, Kai Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32059) · [PDF](https://arxiv.org/pdf/2610.32059) · [Code](https://github.com/Eran-Xia/ConceptACP) |
 | 2026-10-22 | **ResGVC: Residual Coding for High-fidelity Generative Video Compression**<br><sub>Ding Ding, Daowen Li, Ying Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31039) · [PDF](https://arxiv.org/pdf/2610.31039) |
 | 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |

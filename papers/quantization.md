@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-191 papers · newest submission first
+194 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents**<br><sub>Stephen Abkin, Aldric Yang, Alex Flesher et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32417) · [PDF](https://arxiv.org/pdf/2610.32417) |
+| 2026-10-23 | **BiLoCo: Binary Low-Rank Corrections for Post-Training Quantization**<br><sub>David Jin, Beshr IslamBouli, Tarushii Goel et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32243) · [PDF](https://arxiv.org/pdf/2610.32243) |
+| 2026-10-23 | **MPQ: A Message-Passing View of Post-Training Quantization**<br><sub>Yanshuo Chen, Chenxi Liu, Reza Shirkavand et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32127) · [PDF](https://arxiv.org/pdf/2610.32127) · [Code](https://github.com/poseidonchan/MPQ) |
 | 2026-10-22 | **Low-Bit N-Gram Embeddings for Language Models**<br><sub>Stephen Chung, Wenyu Du</sub> | [arXiv](https://arxiv.org/abs/2610.31646) · [PDF](https://arxiv.org/pdf/2610.31646) |
 | 2026-10-22 | **SQuAT: Spherical Lattice Vector Quantization-Aware Training**<br><sub>Sebastian Loeschcke, Ivan Koryakovskiy, Tycho F. A. van der Ouderaa et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31412) · [PDF](https://arxiv.org/pdf/2610.31412) |
 | 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |

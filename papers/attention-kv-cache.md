@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-182 papers · newest submission first
+185 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding**<br><sub>Yonghui Niu, Yuhao Ji, Chang Nie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32784) · [PDF](https://arxiv.org/pdf/2610.32784) |
+| 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |
+| 2026-10-22 | **KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving**<br><sub>Avinash Maurya, Jaiaid Mobin, Jie Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31827) · [PDF](https://arxiv.org/pdf/2610.31827) |
 | 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
 | 2026-10-22 | **Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation**<br><sub>Bin Hu, Yingbo Xiao</sub> | [arXiv](https://arxiv.org/abs/2610.31433) · [PDF](https://arxiv.org/pdf/2610.31433) |
 | 2026-10-22 | **Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization**<br><sub>Jiacheng Liu, Yaxin Luo, Xiaohan Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31309) · [PDF](https://arxiv.org/pdf/2610.31309) · [Code](https://github.com/VILA-Lab/optic) |

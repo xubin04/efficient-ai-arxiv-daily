@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "last_success_utc": "2026-10-25T06:11:13.346498+00:00",
-  "last_scan_date": "2026-10-25",
+  "last_success_utc": "2026-10-26T06:18:22.733897+00:00",
+  "last_scan_date": "2026-10-26",
   "last_scan_stats": [
     {
       "topic": "quantization",
-      "api_results": 36,
-      "accepted": 20
+      "api_results": 38,
+      "accepted": 21
     },
     {
       "topic": "pruning",
-      "api_results": 43,
-      "accepted": 20
+      "api_results": 46,
+      "accepted": 21
     },
     {
       "topic": "distillation",
-      "api_results": 97,
-      "accepted": 36
+      "api_results": 106,
+      "accepted": 38
     },
     {
       "topic": "efficient-training",
       "api_results": 49,
-      "accepted": 18
+      "accepted": 17
     },
     {
       "topic": "attention-kv-cache",
-      "api_results": 41,
-      "accepted": 25
+      "api_results": 43,
+      "accepted": 24
     },
     {
       "topic": "decoding-reasoning",
@@ -35,21 +35,617 @@
     },
     {
       "topic": "llm-systems",
-      "api_results": 70,
-      "accepted": 12
+      "api_results": 80,
+      "accepted": 16
     },
     {
       "topic": "diffusion-acceleration",
-      "api_results": 32,
+      "api_results": 37,
       "accepted": 15
     },
     {
       "topic": "visual-generation",
-      "api_results": 49,
-      "accepted": 15
+      "api_results": 50,
+      "accepted": 17
     }
   ],
   "papers": [
+    {
+      "id": "2610.32964",
+      "versioned_id": "2610.32964v1",
+      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+      "authors": [
+        "Bernardo Perrone Ribeiro",
+        "Erkut Akdag",
+        "Egor Bondarev"
+      ],
+      "published": "2026-10-23T17:53:30Z",
+      "updated": "2026-10-23T17:53:30Z",
+      "abstract": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space. Given normal supports, a velocity field is learned through conditional flow matching over frozen patch tokens to transport Gaussian noise toward normal features. Along straight paths, a single recovery step using one evaluation of the optimal field yields the posterior mean of the clean normal token without trajectory integration. The operating time governs how strongly recovery modifies a query token. With no anomalous validation samples available for tuning, a normal-only Jacobian gain-to-noise criterion selects this time from the supports alone. Squared residuals between query tokens and their recovered counterparts yield anomaly signals for both dense localization and image-level detection. Across 1-, 2-, and 4-shot benchmarks on MVTec-AD and VisA, together with sample-shot evaluations on Real-IAD, Flownomaly achieves state-of-the-art performance against recent category-specific methods. In the 1-shot setting, image- and pixel-level AUROC reach 97.8% and 98.0% on MVTec-AD and 95.3% and 98.7% on VisA, with a 2.1-point image-level AUROC improvement over the strongest baseline on VisA. Code is available at https://github.com/b-rbmp/Flownomaly.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32964",
+      "pdf_url": "https://arxiv.org/pdf/2610.32964",
+      "code_urls": [
+        "https://github.com/b-rbmp/Flownomaly"
+      ],
+      "comment": "Accepted to WACV 2027",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32881",
+      "versioned_id": "2610.32881v1",
+      "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+      "authors": [
+        "Nilesh Prasad Pandey",
+        "Jangseon Park",
+        "Jason Kong",
+        "Onat Gungor",
+        "Tajana Rosing"
+      ],
+      "published": "2026-10-23T16:47:29Z",
+      "updated": "2026-10-23T16:47:29Z",
+      "abstract": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-free methods do not explicitly exploit repetition across training epochs. We observe that recent rollouts of the same prompt provide a high-quality, self-updating draft source. Based on this insight, we propose NgramRL, a per-prompt n-gram drafter constructed from bounded recent rollout history. NgramRL requires no auxiliary model, drafter training, or persistent GPU-resident drafter state, while target-model verification preserves the rollout distribution. To hide CPU cache lookup and scheduling, we further introduce an adaptive fan-out prefetcher that predicts likely verification outcomes (j, b), consisting of the accepted draft length j and target-emitted continuation token b. A causal budget allocator concentrates prefetches on high-probability outcomes, while uncovered outcomes fall back to sequential lookup without changing committed tokens. Across two model families and three reasoning and structured-generation workloads, NgramRL commits 3.60-7.77 tokens per target-model forward in the warm-cache regime, up to 1.99x more than SuffixDecoding and 7.0x more than prompt-lookup decoding. On Spider, the prefetcher covers 96.6% of Qwen3-8B outcomes at a candidate budget of 16 and improves measured rollout throughput by 1.38x over synchronous NgramRL, approaching its 1.40x overlap ceiling.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32881",
+      "pdf_url": "https://arxiv.org/pdf/2610.32881",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32784",
+      "versioned_id": "2610.32784v1",
+      "title": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
+      "authors": [
+        "Yonghui Niu",
+        "Yuhao Ji",
+        "Chang Nie",
+        "Jiao Zhang",
+        "Yilong Li",
+        "Junlan Feng",
+        "Ran He",
+        "Caifeng Shan",
+        "Chaoyou Fu"
+      ],
+      "published": "2026-10-23T15:32:41Z",
+      "updated": "2026-10-23T15:32:41Z",
+      "abstract": "The rapid growth of video data has created an urgent need for efficient video understanding systems that can handle long and continuous visual inputs, posing significant challenges for Multimodal Large Language Models (MLLMs) due to severe memory bottlenecks. Moreover, existing compression methods often overlook the explosive accumulation of approximation errors. To address this issue, we propose Video-MemComp, a training-free and sensitivity-aware context management framework for memory-constrained streaming video understanding. Our method theoretically decomposes compression error into orthogonal local approximation error and layer-wise structural sensitivity via a first-order Taylor expansion. To minimize local approximation error, we perform token aggregation in a pre-RoPE safe zone with an attention-conserving logit bias, mitigating geometric distortions caused by RoPE rotations. To manage layer-wise structural sensitivity, we dynamically allocate the KV cache budget based on offline gradient priors and online context entropy, prioritizing high-sensitivity layers. Video-MemComp outperforms or achieves performance comparable to full-cache and state-of-the-art compression methods on benchmarks including MLVU, VideoMME, and EgoSchema. Notably, it improves the overall accuracy of Qwen2.5-VL-3B from 62.3% to 64.1% while reducing the KV cache to an equivalent of 6,000 tokens per layer, saving over 90% of KV memory.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.32784",
+      "pdf_url": "https://arxiv.org/pdf/2610.32784",
+      "code_urls": [],
+      "comment": "Accepted by ACM MM 2026. Project Page: https://hhnk666.github.io/Video-MemComp.github.io",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32768",
+      "versioned_id": "2610.32768v1",
+      "title": "SCDM-HTD: Spectral-Wise Conditional Diffusion Model for Hyperspectral Target Detection",
+      "authors": [
+        "Dunbin Shen",
+        "Wenfeng Kong",
+        "Jianjun Liu",
+        "Xiaorui Ma",
+        "Hongyu Wang"
+      ],
+      "published": "2026-10-23T15:08:07Z",
+      "updated": "2026-10-23T15:08:07Z",
+      "abstract": "Hyperspectral target detection (HTD) aims to locate and recognize objects at a fine-grained scale, playing a pivotal role in remote sensing. Despite significant progress, current HTD methods primarily focus on feature comparison while neglecting distribution learning for background-target separation, which can limit detection robustness in practical applications. This paper addresses this issue by introducing a spectral-wise conditional diffusion model that reformulates HTD as a task of generating a detection map. Specifically, we treat background and target confidence scores as training samples and use the corresponding pixel spectra as guiding conditions to capture the distributional discrepancy between background and target through diffusion and denoising. To enhance practical applicability, we propose a lightweight conditional denoising network based on multilayer perceptron to map noisy confidence scores to their ideal counterparts and adopt a deterministic reverse non-Markov chain to skip sampling steps, thereby accelerating the generation process. Furthermore, we introduce a composite loss to improve background-target separation. This loss integrates constrained energy minimization loss to enhance target saliency and suppress the background by maximizing the target response while minimizing average output energy, alongside binary cross-entropy loss to classify background and target using pixel-wise labels. Experimental results on four benchmark datasets demonstrate the effectiveness of the proposed method, with improvements in both quantitative metrics and qualitative visual effects.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.32768",
+      "pdf_url": "https://arxiv.org/pdf/2610.32768",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32512",
+      "versioned_id": "2610.32512v1",
+      "title": "Fast and Useful: Adapting Distilled Generators for Visual Learning",
+      "authors": [
+        "Patryk Bartkowiak",
+        "Dominik Michels",
+        "Sören Pirk",
+        "Wojciech Pałubicki"
+      ],
+      "published": "2026-10-23T11:37:10Z",
+      "updated": "2026-10-23T11:37:10Z",
+      "abstract": "Distilled text-to-image models generate images quickly, but classifiers trained on those images can perform substantially worse than classifiers trained on images from their slower base models. We adapt released distilled generators to produce better training data while retaining fast generation. We fit a low-rank update to the student's first prediction so that it reaches an intermediate state produced by its unguided base, then disable the update and let the unchanged student finish generation. The base supplies training targets and is absent at inference. Guided targets and shorter jumps give classifiers lower accuracy in our ablations, showing why the state used for supervision matters. Across three generator families, the adapted images train better classifiers than images from the released students. With class-name templates at full ImageNet-1k scale, ResNet-50 top-1 rises from 8.4% to 34.2% for FLUX.2-klein and from 12.7% to 32.1% for SD-Turbo, using two and three denoiser evaluations per image, respectively. Fixed adapters also improve results on additional classes, fine-grained datasets, and other learner architectures and training recipes. Template-based adaptation remains useful against richer-prompt alternatives, while the benefit of combining adaptation with LLM generation prompts depends on the generator. Adapting a single generation step makes fast generators substantially more useful for training visual models.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.32512",
+      "pdf_url": "https://arxiv.org/pdf/2610.32512",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32417",
+      "versioned_id": "2610.32417v1",
+      "title": "Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents",
+      "authors": [
+        "Stephen Abkin",
+        "Aldric Yang",
+        "Alex Flesher",
+        "Nitheesh Kodarapu",
+        "Deepak Panigrahy",
+        "Aakash Tyagi",
+        "David Kebo Houngninou"
+      ],
+      "published": "2026-10-23T09:48:03Z",
+      "updated": "2026-10-23T09:48:03Z",
+      "abstract": "Quantization reduces the memory and energy needed to serve large language models (LLMs) and AI agents for coding and data analysis can now run on locally hosted LLMs. In practice, this benefit is commonly benchmarked per output token. Yet an agent calls its model repeatedly, runs tools, and revises its work, and quantization can change both how much the agent generates and whether it succeeds. Existing energy studies either compare quantized models on single requests or measure agents at one fixed precision, overlooking how a change in precision plays out across a complete agent task. To address this gap, this paper presents the first characterization of the task-level energy trade-offs of model quantization in locally hosted agents. We develop 29 agent tasks with automatic pass/fail checks in six families, ranging from single-answer SQL analytics to multi-step repository bug fixing, and measure CPU and GPU energy per output token and per completed task for 4-bit and 8-bit versions of two open-weight models on bare-metal NVIDIA A100 nodes with llama.cpp. Our findings reveal that 4-bit precision generally saves energy per token, though whether it saves energy per completed task is task dependent and changes with the model and the execution budget (i.e., limits on turns, tokens, and time). We trace this discrepancy to the extra tokens needed to complete a task in full, which translates into using up to 3.5 times as much energy per completed task. These findings offer actionable guidance for developers and operators choosing model precision for agents, showing how tokens per completed task, set against the per-token saving, reveal whether lower precision completes the work with less energy.",
+      "arxiv_categories": [
+        "cs.PF"
+      ],
+      "url": "https://arxiv.org/abs/2610.32417",
+      "pdf_url": "https://arxiv.org/pdf/2610.32417",
+      "code_urls": [],
+      "comment": "26 pages, 7 figures",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32412",
+      "versioned_id": "2610.32412v1",
+      "title": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
+      "authors": [
+        "Shen Liu",
+        "Ze Zhou",
+        "Zhenguo Xu",
+        "Shaopu Wang",
+        "Yike Gao",
+        "Chunlei Wang"
+      ],
+      "published": "2026-10-23T09:38:15Z",
+      "updated": "2026-10-23T09:38:15Z",
+      "abstract": "Recursive large language model (LLM) agents solve long-horizon tasks through decomposition, execution, and environmental feedback. Yet after producing an atomic subtask, they often invoke the same large model again to translate a familiar instruction into an executable action. We observe that high-level planning is task-specific, whereas leaf-level action grounding recurs across tasks and can be checked against environment-admitted actions. We introduce LeafSkill, an external reuse layer that retrieves semantically related grounding experience, binds action templates to current objects and admissible actions, and uses a lightweight 1.7B selector to choose a bound action or defer the unchanged subtask to the original agent. Skills remain outside the model parameters, allowing a frozen selector to use post-training additions. Under lexical and syntactic paraphrases, exact matching retrieves none of the reference actions, while semantic retrieval preserves 96.0% and 97.0% candidate coverage; the frozen selector adopts 97.34% of unseen skill types. On an independent confirmation set of 200 Robotouille tasks, LeafSkill completes 137 tasks versus 121 for ReCAP (68.5% vs. 60.5%, exact McNemar p=.0259). On the 106 tasks completed by both, it reduces Qwen3.5-27B tokens by 14.42% and calls by 14.08%. A separate held-out repeat yields a consistent 9.0-point success gain and 18.98% token reduction. Reusable leaf grounding can thus improve task completion while reducing host-model inference without replacing high-level planning.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32412",
+      "pdf_url": "https://arxiv.org/pdf/2610.32412",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32389",
+      "versioned_id": "2610.32389v1",
+      "title": "KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning",
+      "authors": [
+        "Bangjun Xiao",
+        "Chiheng Lou",
+        "Xiaodong Ji",
+        "Xiangwei Deng",
+        "Yikai Zhao",
+        "Gang Huang",
+        "Hailin Zhang"
+      ],
+      "published": "2026-10-23T09:15:44Z",
+      "updated": "2026-10-23T09:15:44Z",
+      "abstract": "Trajectory transfer from rollout to training affects both learning quality and system efficiency in large language model reinforcement learning (RL). Enforcing batch-wide training requirements can delay the admission of completed trajectories, resulting in higher architectural staleness: the additional parameter-version gap from disaggregated pipelining relative to colocated execution. Beyond admission, misalignment between data access and training consumption causes redundant movement and unnecessary waiting when transferring large trajectory payloads. We present KnitTrans, a system that coordinates the rollout-to-training path through three designs. First, constraint-preserving mini-batch admission allows flexibility in early mini-batch composition, while checking that enough capacity remains to satisfy the remaining quotas. Second, on-demand trajectory data access matches storage units to consumer assignments and overlaps micro-batch data preparation with computation. Third, multimodal encoding deduplication supports reuse across a mini-batch while preserving gradient contributions from all backbone micro-batches. Experiments show up to 93% lower architectural staleness than with train-batch admission, narrowing the learning-quality gap between disaggregated execution and colocated execution. On multimodal workloads, KnitTrans reduces transfer latency by two orders of magnitude and achieves a speedup of up to 5.8 times in transfer plus training over the baseline.",
+      "arxiv_categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32389",
+      "pdf_url": "https://arxiv.org/pdf/2610.32389",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32381",
+      "versioned_id": "2610.32381v1",
+      "title": "UniWorld: A Unified World Model for Real-Time Visual World Simulation",
+      "authors": [
+        "Xin Zhang",
+        "Yabo Chen",
+        "Shuaiwei Wang",
+        "Zixuan Duan",
+        "Haibin Huang",
+        "Feng Xu",
+        "Xuelong Li"
+      ],
+      "published": "2026-10-23T09:09:32Z",
+      "updated": "2026-10-23T09:09:32Z",
+      "abstract": "Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geometry, and keeps the conditioning fixed within each sampling window. Together, these mechanisms ensure exact preservation of latent history while bounding the active depth state by the window size. We evaluate continuous generation, paired history interventions, and long-horizon behavior across diverse scene categories. The same generator supports estimated, native, and on-demand simulator depth, while cached and incremental execution paths produce bitwise-identical outputs. Appearance changes and geometric control branches operate through the same interface without modifying committed history. The measured steady-state DiT execution path achieves real-time generation throughput, demonstrating the efficiency of UniWorld for continuous visual world simulation.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.32381",
+      "pdf_url": "https://arxiv.org/pdf/2610.32381",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32295",
+      "versioned_id": "2610.32295v1",
+      "title": "Lifelong Context Adaptation through Bidirectional Memory-Skill Learning",
+      "authors": [
+        "Tianyi Xu",
+        "Huazheng Wang"
+      ],
+      "published": "2026-10-23T07:53:18Z",
+      "updated": "2026-10-23T07:53:18Z",
+      "abstract": "Lifelong LLM agents must learn from an expanding history of interactions while making each decision within a bounded context window. Memory makes past experience available, but the agent may still need to infer how to solve each new task from the retrieved records. Skills provide reusable procedures, yet may omit the task-specific facts needed to apply them. Because retrieved memory and skills shape the agent's behavior, they also influence the experience available for future learning. We introduce MemCryst, a framework for lifelong context adaptation through bidirectional learning of memory and skills with a frozen language model. Recurring episodes stored in memory support skill creation and revision, and the interactions guided by those skills supply new memory for subsequent learning. Facts retrieved from memory and learned skills jointly form the agent's context, while task outcomes adjust the future retrieval influence of the records actually served without rewriting their content. Across ten settings spanning embodied control, long-document reading, conversation, mathematics, and code, MemCryst leads seven reported comparisons. On ALFWorld, joint serving achieves 63.17% success, compared with 59.83% for memory-only and 50.50% for skill-only serving. Code is available at https://github.com/tianyi0216/Memcryst.git",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32295",
+      "pdf_url": "https://arxiv.org/pdf/2610.32295",
+      "code_urls": [
+        "https://github.com/tianyi0216/Memcryst.git"
+      ],
+      "comment": "42 pages, including references and appendices. 18 figures, 13 tables",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32243",
+      "versioned_id": "2610.32243v1",
+      "title": "BiLoCo: Binary Low-Rank Corrections for Post-Training Quantization",
+      "authors": [
+        "David Jin",
+        "Beshr IslamBouli",
+        "Tarushii Goel",
+        "Han Guo",
+        "Yoon Kim"
+      ],
+      "published": "2026-10-23T06:51:44Z",
+      "updated": "2026-10-23T06:51:44Z",
+      "abstract": "Post-training quantization (PTQ) to FP4 has emerged as a key technique for reducing large language model inference cost, especially on Blackwell GPUs, which offer native FP4 tensor core support. Direct PTQ to FP4, however, still leaves a noticeable accuracy gap. Recent work on SVDQuant mitigates the errors introduced through FP4 quantization for diffusion models by adding high-precision low-rank corrections obtained via SVD. However, this high-precision low-rank correction requires many bits per rank, and it runs on the same tensor cores as the main FP4 GEMM. We introduce BiLoCo, a low-rank correction method whose left and right factors are stored as binary ${\\{\\pm 1\\}}$ sign vectors rather than as BF16 numbers. The signed format uses $16{\\times}$ less storage per rank-one component, and since the correction now consists of additions/subtractions, this can be run on CUDA cores concurrently with the FP4 tensor-core GEMM. On 4B--72B LLMs, BiLoCo matches or improves memory-matched SVDQuant for PTQ. We implement BiLoCo on B300 as a fused single kernel, where the FP4 GEMM runs on tensor cores, the bit-packed correction on the CUDA cores of the same launch, and the two are combined in the GEMM epilogue. With batch size $1$, the fused kernel is at most $11\\%$ slower than the FP4-only GEMM for every rank up to $512$. At rank $128$, it is at most $20\\%$ slower up to batch size $8$.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32243",
+      "pdf_url": "https://arxiv.org/pdf/2610.32243",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32142",
+      "versioned_id": "2610.32142v1",
+      "title": "Rethinking LoRA Initialization for Robust Asymmetric Learning Rates",
+      "authors": [
+        "Disen Liao",
+        "Yaoliang Yu"
+      ],
+      "published": "2026-10-23T04:15:33Z",
+      "updated": "2026-10-23T04:15:33Z",
+      "abstract": "Low-Rank Adaptation (LoRA) is often highly sensitive to learning-rate (LR) choices. Recent empirical studies suggest that, once LRs are carefully tuned, vanilla LoRA can remain competitive with many proposed LoRA variants. This shifts the central practical question from designing ever more variants to reducing the cost and brittleness of LR selection. LoRA+ addresses this issue with asymmetric LRs, using a larger LR for the up-projection matrix $B$ than for the down-projection matrix $A$. However, the ratio $η_B / η_A$ itself becomes an additional hyperparameter: large ratios can improve adaptation, but under the standard LoRA initialization they can also cause unstable training and ratio-dependent performance collapse. We identify the source of this brittleness through a signal--noise decomposition of LoRA dynamics. Under standard \\initA, the update contains an initialization-induced noise term whose magnitude can be affected by the LR for $B$, $η_B$, the initialization scale $β$, and the adapter rank $r$. In practical LLM fine-tuning, this non-vanishing noise can limit the performance gains expected from LoRA+ style asymmetric LRs. To suppress this effect, we propose \\initAA, a simple initialization that scales the variance of $A$ as $σ_A^2 \\propto n^{-2}$ while keeping $B_0=0$. Under matched rank and training time for both initializations, this reduces the initialization-noise energy by an additional factor of $1/n$, stabilizing asymmetric LoRA training while preserving zero initial adapter output. Empirically, \\initAA substantially widens the stable LR region across initialization scales, adapter ranks, and LoRA update multipliers. Across tasks and models, \\initAA reduces best-ratio drift, prevents the high-ratio collapse observed with standard \\initA, and makes the width-based guideline $η_B \\approx n η_A$ a useful starting point for finite pretrained models.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32142",
+      "pdf_url": "https://arxiv.org/pdf/2610.32142",
+      "code_urls": [],
+      "comment": "46 pages, 13 figures, NeurIPS 2026",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32127",
+      "versioned_id": "2610.32127v1",
+      "title": "MPQ: A Message-Passing View of Post-Training Quantization",
+      "authors": [
+        "Yanshuo Chen",
+        "Chenxi Liu",
+        "Reza Shirkavand",
+        "Heng Huang"
+      ],
+      "published": "2026-10-23T03:54:41Z",
+      "updated": "2026-10-23T03:54:41Z",
+      "abstract": "Post-training quantization (PTQ) is a key technique for efficiently deploying large language models, as it compresses weights into low-bit representations without retraining. Existing PTQ solvers, including GPTQ, LDLQ, and block coordinate descent, commit each weight block to a single codeword before its neighbors are considered, leaving near-optimal alternatives unexplored. In this work, we cast row-wise PTQ as posterior inference over discrete codebooks, in which existing solvers correspond to a zero-temperature, hard-decision limit retaining only the top codeword per block. We propose Message-Passing Quantization (MPQ), which preserves soft posterior information across blocks during inference and commits to hard codewords only at the output stage. MPQ first uses vector approximate message passing to compute approximate blockwise posteriors, then refines a hard-decision initialization by exact block coordinate descent. Across 2-bit lattice and 3- and 4-bit scalar quantization on dense language models from Llama, Qwen, and Mistral families, MPQ improves perplexity and zero-shot accuracy over strong hard-decision baselines, and composes favorably with preprocessing techniques such as activation-aware scaling and incoherence processing. Our implementation is available at https://github.com/poseidonchan/MPQ.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32127",
+      "pdf_url": "https://arxiv.org/pdf/2610.32127",
+      "code_urls": [
+        "https://github.com/poseidonchan/MPQ"
+      ],
+      "comment": "NeurIPS 2026",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32059",
+      "versioned_id": "2610.32059v1",
+      "title": "Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders",
+      "authors": [
+        "Yiran Xiahou",
+        "Siliang Qin",
+        "Kai Chen",
+        "Shengzhi Zhang",
+        "Renyang Liu"
+      ],
+      "published": "2026-10-23T01:54:50Z",
+      "updated": "2026-10-23T01:54:50Z",
+      "abstract": "Diffusion-based image generation models produce high-quality images but may generate harmful or policy-violating content, motivating machine unlearning (MU) to selectively remove target concepts while preserving general capabilities. However, existing MU approaches often struggle with the distributed and entangled nature of concept representations, leading to inefficient optimization and imprecise edits when applied through large-scale fine-tuning over full diffusion trajectories. To bridge this gap, we propose Concept Acupuncturist (ConceptACP), a novel MU framework that integrates interpretability-guided analysis with inference-free fine-tuning for efficient and precise concept removal. By establishing mappings between semantic concepts and cross-attention blocks in the U-Net denoiser and localizing the most concept-relevant block for targeted optimization, ConceptACP avoids full diffusion trajectory optimization, thereby improving fine-tuning efficiency. To mitigate concept entanglement, we propose a feature-level correction mechanism based on Sparse Autoencoders (SAEs), where SAE-derived sparse, semantically meaningful feature activations are manipulated to construct targeted correction signals, which are then projected back to the output space of the corresponding block and used as supervision for precise concept removal. Consequently, ConceptACP eliminates the need for external inference-time modules while achieving efficient and fine-grained unlearning. Instantiated on SDXL-Turbo, ConceptACP improves the forgetting success rate by 36.34 percentage points in the standard one-step generation setting on average over the best-performing baseline, while preserving image quality and prompt fidelity, and generalizes effectively across other Stable Diffusion backbones. Our code is available at https://github.com/Eran-Xia/ConceptACP.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32059",
+      "pdf_url": "https://arxiv.org/pdf/2610.32059",
+      "code_urls": [
+        "https://github.com/Eran-Xia/ConceptACP"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32046",
+      "versioned_id": "2610.32046v1",
+      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+      "authors": [
+        "Yepeng Liu",
+        "Shengmai Chen",
+        "Xuandong Zhao",
+        "Chengzhi Liu",
+        "Dawn Song",
+        "Xin Eric Wang",
+        "Yuheng Bu"
+      ],
+      "published": "2026-10-23T01:37:19Z",
+      "updated": "2026-10-23T01:37:19Z",
+      "abstract": "Recent \\emph{test-time training} (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This motivates us to explore an efficient \\emph{test-time adaptation} method for scientific discovery. We introduce \\emph{Test-Time Memory Evolution} (TTME), a plug-and-play test-time adaptation method, as an alternative to TTT. TTME continually updates the external memory by distilling the experience to guide subsequent discovery without updating model weights. To have a clean comparison, we evaluate TTME and TTT under the same discovery framework, replacing only the test-time adaptation method. Our evaluation shows that TTME outperforms TTT on all five mathematical tasks, while reducing computational cost by $82.8$-$84.6\\%$ in FLOPs and $47.7$-$58.4\\%$ in runtime. These results establish TTME as an effective and computationally efficient alternative to TTT in the evaluated discovery settings.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32046",
+      "pdf_url": "https://arxiv.org/pdf/2610.32046",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.32013",
+      "versioned_id": "2610.32013v1",
+      "title": "MAGIC: Margin-gated Contrastive Debiasing with Evidence Restoration for VLM Test-time Robustness Scaling",
+      "authors": [
+        "Shunshun Gu",
+        "Enze Zhang",
+        "Ming Pei",
+        "Hang Zhou",
+        "Xiao Luo"
+      ],
+      "published": "2026-10-23T00:24:44Z",
+      "updated": "2026-10-23T00:24:44Z",
+      "abstract": "This paper studies the problem of test-time robustness scaling for large vision-language models (LVLMs), which aims to mitigate language bias during inference. Existing approaches typically adopt test-time scaling techniques such as contrastive decoding to improve inference performance. Despite the progress, the performance of these approaches is far from satisfactory due to intentional evidence removal during perturbations and redundant inference cost. Towards this end, we propose a novel approach named Margin-gated Contrastive Debiasing with Evidence Restoration (MAGIC). The core of our MAGIC is to evaluate the decision margins of LVLMs to selectively activate textual and visual perturbation branches for efficient debiased inference. In particular, our MAGIC first measures the prediction margins of crucial tokens, and applies a gating function to identify low-confidence responses that are susceptible to language biases. For selected samples, we integrate the token logits from multiple textual and image perturbation branches with the original ones for debiased decision. More importantly, we selectively restore the most informative corrupted views with sharp prediction distributions for ambiguous samples after debiasing, enabling evidence recovery for discriminative decision-making. We further utilize a calibration dataset to actively identify and prune ineffective branches during contrastive debiasing for cost reduction. Extensive experiments on benchmark datasets validate the effectiveness of the proposed MAGIC in comparison with extensive baselines.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32013",
+      "pdf_url": "https://arxiv.org/pdf/2610.32013",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.31918",
+      "versioned_id": "2610.31918v1",
+      "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+      "authors": [
+        "Ya Gao",
+        "Zhengtao Zou",
+        "Pekka Marttinen"
+      ],
+      "published": "2026-10-22T21:10:47Z",
+      "updated": "2026-10-22T21:10:47Z",
+      "abstract": "Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinction is inherently hierarchical: the policy that induces an interaction history need not be the same as the policy that generates the token prefix of the current action. We introduce a hierarchical agent distillation framework that formalizes these two levels of on-policiness and enables explicit control over their pairing, mixture proportions, and training schedule. We study this problem through self-distillation, where a frozen teacher has access to task guidance unavailable to the student, and conduct a three-stage controlled study across three models and four interactive environments. We find that student-induced histories paired with teacher-generated action prefixes generally provide the strongest standalone training signal, whereas following the student at both levels generally performs worst. Nevertheless, fully on-policy data becomes beneficial when incorporated into a mixture with other configurations. Moreover, mixtures with identical teacher/student proportions at each level can yield substantially different performance, showing that how the two levels are paired matters beyond the overall amount of on-policy data. Finally, front-loading fully teacher-generated contexts and delaying fully on-policy contexts improves over a static mixture. These findings provide practical principles for deciding where, how much, and when agent distillation should follow the student.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.31918",
+      "pdf_url": "https://arxiv.org/pdf/2610.31918",
+      "code_urls": [],
+      "comment": "Under review",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.31911",
+      "versioned_id": "2610.31911v1",
+      "title": "LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning",
+      "authors": [
+        "Keqi Deng",
+        "Ruchao Fan",
+        "Jinyu Li"
+      ],
+      "published": "2026-10-22T21:04:07Z",
+      "updated": "2026-10-22T21:04:07Z",
+      "abstract": "As large language models (LLMs) process increasingly long sequences, attention becomes a major computational bottleneck. Sparse attention mostly targets inference, yet many methods still train densely or cannot support sparse training, and their added complexity makes sparsity hard to turn into wall-clock speedups, leaving dense attention widely used in practice. This paper introduces LazyFlash, a forward-dense, backward-sparse attention method built on the observation that attention training is dominated by the backward pass. LazyFlash keeps the forward pass exactly dense, so the trained model remains a standard dense model that existing systems such as vLLM can serve without any change. For the backward pass, LazyFlash proposes a gradient-aware block sparsification design that ranks query blocks by their attention-output gradient norms and skips those contributing negligibly to parameter updates, turning the dense backward into a block-sparse one. A gradient-mass budget adapts the amount of skipped computation to each head and training step, while importance sampling preserves the dense gradient in expectation. These designs are implemented inside the tiled FlashAttention backward kernel, where skipped blocks are never loaded or computed, translating gradient sparsity into real wall-clock acceleration. Experiments on long-context text and speech LLMs show that LazyFlash maintains downstream performance while achieving up to 5.7x attention-backward speedup over FlashAttention and 1.7x end-to-end training speedup.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.31911",
+      "pdf_url": "https://arxiv.org/pdf/2610.31911",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.31880",
+      "versioned_id": "2610.31880v1",
+      "title": "FSVL: Taxonomic Fast-Slow Vision-to-Language Collaborative Framework for Interpretable Confusable Fish Species Identification and Knowledge Generation in the Middle Yangtze River",
+      "authors": [
+        "Meng Liang",
+        "Fucheng Wang",
+        "Lang Zhao",
+        "Jun Chen",
+        "Ziying Li",
+        "Yuxiang Zhao",
+        "Haozhuang Chi",
+        "Wenkai Fang",
+        "Qiong Zhou",
+        "Junlin Yang",
+        "Jinming Wu"
+      ],
+      "published": "2026-10-22T20:22:31Z",
+      "updated": "2026-10-22T20:22:31Z",
+      "abstract": "The Yangtze River Basin is a critical region for freshwater biodiversity conservation. The implementation of the Yangtze River Ten-Year Fishing Ban has increased the importance of effective aquatic biodiversity monitoring and species-level identification. However, fine-grained identification of closely related freshwater fish species remains challenging due to subtle morphological differences. Existing deep learning methods often struggle to balance classification accuracy and inference efficiency, while LLMs may generate unsupported information when producing specialized biological knowledge. To address these challenges, this study proposes FSVL, a fast-slow dual-pathway framework integrating visual recognition with LLM-based Retrieval-Augmented Generation (RAG). A lightweight ResNet50 fast path performs preliminary classification across 51 fish species in the Middle Yangtze River Basin and routes predefined groups of easily confused species to a slow path for refined identification. Guided by taxonomic criteria, the slow path uses YOLOv8n to detect key morphological regions, including the head, dorsal fin, and tail, leveraging morphometric and outline traits to improve discrimination among closely related species. The framework further integrates a retrieval-enhanced Qwen3-14B backend, using soft tokens and Low-Rank Adaptation (LoRA) for parameter-efficient domain knowledge generation. On the evaluated test set of 607 images, the fast classifier achieved 99.67% accuracy, whereas the cascade corrected the two errors, yielding 100.00% overall accuracy; further validation on independent specimens and external conditions remains needed. Across 255 knowledge generation samples, scientific name accuracy rises from 91.37% to 100.00%, genus accuracy from 90.20% to 98.82%, and ROUGE-L from 0.335 to 0.655, supporting intelligent biodiversity monitoring and fisheries management.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.31880",
+      "pdf_url": "https://arxiv.org/pdf/2610.31880",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.31827",
+      "versioned_id": "2610.31827v1",
+      "title": "KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving",
+      "authors": [
+        "Avinash Maurya",
+        "Jaiaid Mobin",
+        "Jie Ye",
+        "M. Mustafa Rafique",
+        "Franck Cappello",
+        "Bogdan Nicolae"
+      ],
+      "published": "2026-10-22T19:05:39Z",
+      "updated": "2026-10-22T19:05:39Z",
+      "abstract": "Long-context LLM serving for agentic, coding, and document workloads reuses prefixes whose key-value (KV) cache outgrows GPU and host memory, putting storage I/O on the critical path of the inference step for retrieving prefixes. A single node-local NVMe absorbs all retrievals, while the parallel file system or cloud file store that nodes already mount carries almost no inference traffic. We cast prefix retrieval as aggregate-bandwidth scheduling across these tiers and present KVStream, a KV cache engine that batches a step's reads, defers writes behind the forward pass, replicates each chunk on every tier, and lets each tier adaptively claim the next unread chunks once it is free. Our performance model shows this routing attains the aggregate-bandwidth bound without prediction or tuning, whereas any static split misses it by a margin that grows as per-tier bandwidths drift or fluctuate. It also predicts that the time-to-first-token (TTFT) gain grows with load, as faster retrieval drains the queue, and disappears when host memory or arrival order keeps reuse in cache. Plugged into LMCache and evaluated on four models, six datasets, and up to 128 GPUs, KVStream retrieves within 5% of the bound, delivers up to 1.49$\\times$ higher offline throughput than LMCache, and lowers mean TTFT by up to 6.1$\\times$ under bursty arrivals.",
+      "arxiv_categories": [
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.31827",
+      "pdf_url": "https://arxiv.org/pdf/2610.31827",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
+      "id": "2610.31818",
+      "versioned_id": "2610.31818v1",
+      "title": "Nested Sparsity for Scalable Pretraining and Continual Learning",
+      "authors": [
+        "Tianzhe Chu",
+        "Druv Pai",
+        "Yi Ma"
+      ],
+      "published": "2026-10-22T18:56:07Z",
+      "updated": "2026-10-22T18:56:07Z",
+      "abstract": "Mixture-of-experts (MoE) transformers, the standard backbone for modern large-scale deep learning, employ conditional computation: only a sparse subset of model weights is used in each forward pass. In MoE transformers, this sparsity arises in the MoE operator, which generalizes the multi-layer perceptron in the classical transformer. In this work, we explore an alternative mechanism for conditional computation that analogously generalizes the attention operator. The sparsity induced by this mechanism naturally nests (i.e., hierarchically composes) with the sparsity induced by the MoE operator. We show that a transformer employing this nested sparsity mechanism, which we call Nestor, performs better than a conventional MoE transformer at equal compute and equal sparsity in language model pretraining. We also show that Nestor is well-suited for continual pretraining: it can be adapted to longer contexts more effectively than conventional MoEs, as well as adapt more efficiently to new domains while forgetting less on old domains. Furthermore, we demonstrate that these benefits persist as model size, dataset size, and context length grow. Our results demonstrate the potential of alternative conditional computation mechanisms for deep neural network architectures. Code and checkpoints are available on GitHub at https://github.com/Ma-Lab-Berkeley/Nestor .",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.31818",
+      "pdf_url": "https://arxiv.org/pdf/2610.31818",
+      "code_urls": [
+        "https://github.com/Ma-Lab-Berkeley/Nestor"
+      ],
+      "comment": "10 pages main body",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-26"
+    },
     {
       "id": "2610.31646",
       "versioned_id": "2610.31646v1",
@@ -843,7 +1439,7 @@
     },
     {
       "id": "2610.29873",
-      "versioned_id": "2610.29873v1",
+      "versioned_id": "2610.29873v2",
       "title": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
       "authors": [
         "Junhyeok Park",
@@ -854,7 +1450,7 @@
         "Kangho Kim"
       ],
       "published": "2026-10-21T15:25:35Z",
-      "updated": "2026-10-21T15:25:35Z",
+      "updated": "2026-10-23T05:45:42Z",
       "abstract": "Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well suited to prefill, but are often underutilized during decode. By contrast, NPUs can utilize their compute resources more effectively during decode. Motivated by this observation, we explore a heterogeneous architecture that integrates GPUs and NPUs, mapping prefill to GPUs and decode to NPUs to achieve high performance and efficiency. However, realizing such heterogeneous integration is challenging because LLM phase disaggregation requires KV cache transfer from prefill to decode (that is, from GPUs to NPUs), which is complicated by differences in inter-device communication mechanisms and KV cache tensor layouts. To address this, we propose HAWK, a transfer mechanism that enables rapid KV cache transfer across heterogeneous devices. HAWK establishes a remote direct memory access (RDMA) path for direct cross-device transfers while handling inter-device tensor layout discrepancies as part of the transfer process. In particular, HAWK allocates tensor-layout-aware RDMA buffers on the NPU side to match the target tensor layout. Leveraging these buffers, HAWK orchestrates data transfer from a conventional contiguous GPU RDMA buffer to the corresponding NPU buffers, allowing transferred tensors to be consumed directly without additional data rearrangement while maintaining transfer efficiency. We implement and evaluate HAWK on a system built with commercially available GPUs and NPUs, demonstrating performance within 7.88% of a GPU-only system under the same SLO constraints while achieving up to 1.26$\\times$ higher power efficiency and 1.72$\\times$ higher cost efficiency.",
       "arxiv_categories": [
         "cs.AR",
@@ -921,6 +1517,7 @@
       "arxiv_categories": [
         "cs.SE",
         "cs.AI",
+        "cs.DC",
         "cs.NI"
       ],
       "url": "https://arxiv.org/abs/2610.29733",
@@ -3086,15 +3683,15 @@
     },
     {
       "id": "2610.25479",
-      "versioned_id": "2610.25479v1",
+      "versioned_id": "2610.25479v2",
       "title": "Test-Time Scaling of Text-to-Image Flow Matching Models with Noise-Rejuvenated Sequential Monte Carlo",
       "authors": [
         "Wenyi Lian",
         "Zheng Zhao",
-        "Thomas B. Sch{ö}n"
+        "Thomas B. Schön"
       ],
       "published": "2026-10-18T19:05:14Z",
-      "updated": "2026-10-18T19:05:14Z",
+      "updated": "2026-10-23T16:46:10Z",
       "abstract": "Test-time scaling of diffusion models with sequential Monte Carlo (SMC) has become a promising strategy for sampling under user-specified rewards, such as human preference scores. However, the standard SMC framework typically relies on stochastic proposals and therefore does not directly transfer to flow matching models, in which inference is governed by deterministic ODEs. In this work, we introduce noise-rejuvenated SMC, an inference-time scaling method tailored for text-to-image flow matching models. Our key idea is to perturb each resampled particle by changing its source noise and constructing a new intermediate state using its current endpoint estimate. This moves the particle to another state that remains representable under the flow-matching interpolation form, enabling particle exploration without converting the sampler to an SDE. We further introduce a look-ahead mechanism to refine resampled particles before weighting. Experiments on Stable Diffusion 3, FLUX.1-dev, and Z-Image demonstrate consistent improvements in reward-guided generation, while ablation studies validate the contributions of noise rejuvenation and look-ahead refinement. Code is available at https://github.com/shermanlian/NR-SMC.",
       "arxiv_categories": [
         "cs.CV"
@@ -3104,7 +3701,7 @@
       "code_urls": [
         "https://github.com/shermanlian/NR-SMC"
       ],
-      "comment": "",
+      "comment": "Accepted to TMLR",
       "journal_ref": "",
       "topics": [
         "decoding-reasoning"

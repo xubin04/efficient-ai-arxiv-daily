@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-181 papers · newest submission first
+184 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents**<br><sub>Shen Liu, Ze Zhou, Zhenguo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32412) · [PDF](https://arxiv.org/pdf/2610.32412) |
+| 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |
+| 2026-10-22 | **Nested Sparsity for Scalable Pretraining and Continual Learning**<br><sub>Tianzhe Chu, Druv Pai, Yi Ma</sub> | [arXiv](https://arxiv.org/abs/2610.31818) · [PDF](https://arxiv.org/pdf/2610.31818) · [Code](https://github.com/Ma-Lab-Berkeley/Nestor) |
 | 2026-10-22 | **Rethinking Sequence Compression with Test-time Regression**<br><sub>Sihan Yang, Jie Huang, Hanxuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31574) · [PDF](https://arxiv.org/pdf/2610.31574) |
 | 2026-10-22 | **A Systematic Comparison of Search Space Complexity and Efficiency for Time-Synchronous End-to-End ASR Models**<br><sub>Simon Berger, Larissa Kleppel, Ralf Schlüter</sub> | [arXiv](https://arxiv.org/abs/2610.31259) · [PDF](https://arxiv.org/pdf/2610.31259) |
 | 2026-10-22 | **Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference**<br><sub>Amirhossein Aghaei, Liangyan Li, Shiyi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30611) · [PDF](https://arxiv.org/pdf/2610.30611) |

@@ -4,10 +4,15 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-187 papers · newest submission first
+192 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning**<br><sub>Bangjun Xiao, Chiheng Lou, Xiaodong Ji et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32389) · [PDF](https://arxiv.org/pdf/2610.32389) |
+| 2026-10-23 | **Lifelong Context Adaptation through Bidirectional Memory-Skill Learning**<br><sub>Tianyi Xu, Huazheng Wang</sub> | [arXiv](https://arxiv.org/abs/2610.32295) · [PDF](https://arxiv.org/pdf/2610.32295) · [Code](https://github.com/tianyi0216/Memcryst.git) |
+| 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |
+| 2026-10-22 | **FSVL: Taxonomic Fast-Slow Vision-to-Language Collaborative Framework for Interpretable Confusable Fish Species Identification and Knowledge Generation in the Middle Yangtze River**<br><sub>Meng Liang, Fucheng Wang, Lang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31880) · [PDF](https://arxiv.org/pdf/2610.31880) |
+| 2026-10-22 | **KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving**<br><sub>Avinash Maurya, Jaiaid Mobin, Jie Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31827) · [PDF](https://arxiv.org/pdf/2610.31827) |
 | 2026-10-22 | **Low-Latency MoE Inference in Space Data Centers: A Wireless-Power-Transfer Perspective**<br><sub>Haotian Zheng, Zhanwei Wang, Kaibin Huang</sub> | [arXiv](https://arxiv.org/abs/2610.30923) · [PDF](https://arxiv.org/pdf/2610.30923) |
 | 2026-10-22 | **Amplifying Latency and Cost of LLM Inference via Rowhammer Attack**<br><sub>Mrityunjay Shukla, Shubham Roy, Biswabandan Panda</sub> | [arXiv](https://arxiv.org/abs/2610.30798) · [PDF](https://arxiv.org/pdf/2610.30798) |
 | 2026-10-22 | **Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving**<br><sub>Maharani A. P. Irawan, Kuntai Du, Jiayi Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30791) · [PDF](https://arxiv.org/pdf/2610.30791) |

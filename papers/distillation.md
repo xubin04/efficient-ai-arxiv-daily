@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-415 papers · newest submission first
+419 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-23 | **Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection**<br><sub>Bernardo Perrone Ribeiro, Erkut Akdag, Egor Bondarev</sub> | [arXiv](https://arxiv.org/abs/2610.32964) · [PDF](https://arxiv.org/pdf/2610.32964) · [Code](https://github.com/b-rbmp/Flownomaly) |
+| 2026-10-23 | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders**<br><sub>Yiran Xiahou, Siliang Qin, Kai Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32059) · [PDF](https://arxiv.org/pdf/2610.32059) · [Code](https://github.com/Eran-Xia/ConceptACP) |
+| 2026-10-23 | **Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?**<br><sub>Yepeng Liu, Shengmai Chen, Xuandong Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32046) · [PDF](https://arxiv.org/pdf/2610.32046) |
+| 2026-10-22 | **Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?**<br><sub>Ya Gao, Zhengtao Zou, Pekka Marttinen</sub> | [arXiv](https://arxiv.org/abs/2610.31918) · [PDF](https://arxiv.org/pdf/2610.31918) |
 | 2026-10-22 | **GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching**<br><sub>Ariel Lapid, Yuval Haitman, Reuven Peretz et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31222) · [PDF](https://arxiv.org/pdf/2610.31222) |
 | 2026-10-22 | **SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding**<br><sub>Yuannuo Feng, Yubing Ye, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31120) · [PDF](https://arxiv.org/pdf/2610.31120) · [Code](https://github.com/Kissmetothemoon/SetCommit) |
 | 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
