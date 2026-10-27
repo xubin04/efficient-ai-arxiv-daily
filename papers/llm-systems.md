@@ -4,10 +4,18 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-192 papers · newest submission first
+200 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation**<br><sub>Yitao Xiao, Xu Zhang, Ye Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35690) · [PDF](https://arxiv.org/pdf/2610.35690) · [Code](https://github.com/CenYangtze/EvoRouter) |
+| 2026-10-26 | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration**<br><sub>Zhengxin Li, Chongzhen Tian, Hui Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35489) · [PDF](https://arxiv.org/pdf/2610.35489) · [Code](https://github.com/yuanhui0325/TP-JSCC) |
+| 2026-10-26 | **MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference**<br><sub>Huaizhi Zhang, Jiacheng Zhu, Xuqi Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34731) · [PDF](https://arxiv.org/pdf/2610.34731) |
+| 2026-10-26 | **Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents**<br><sub>Xinyu Zhang, Weiwei Sun</sub> | [arXiv](https://arxiv.org/abs/2610.34673) · [PDF](https://arxiv.org/pdf/2610.34673) |
+| 2026-10-24 | **ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding**<br><sub>Yuetao Chen, Peng Wang, Hong Xu</sub> | [arXiv](https://arxiv.org/abs/2610.33719) · [PDF](https://arxiv.org/pdf/2610.33719) |
+| 2026-10-24 | **DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving**<br><sub>YuXuan Lin, KeQiang Wu, Kingsum Chow</sub> | [arXiv](https://arxiv.org/abs/2610.33501) · [PDF](https://arxiv.org/pdf/2610.33501) |
+| 2026-10-24 | **COPE: Composable Performance Emulation for Mixture-of-Experts Offloading Policies**<br><sub>Hanming Zhang, Erhu Feng</sub> | [arXiv](https://arxiv.org/abs/2610.33404) · [PDF](https://arxiv.org/pdf/2610.33404) |
+| 2026-10-24 | **Fast Instinct, Slow Reason: A Dual-Speed Agentic Framework for Self-Configuring Multi-Object Tracking in Satellite Video**<br><sub>Fan He, Baining Wu, Yan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33396) · [PDF](https://arxiv.org/pdf/2610.33396) |
 | 2026-10-23 | **KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning**<br><sub>Bangjun Xiao, Chiheng Lou, Xiaodong Ji et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32389) · [PDF](https://arxiv.org/pdf/2610.32389) |
 | 2026-10-23 | **Lifelong Context Adaptation through Bidirectional Memory-Skill Learning**<br><sub>Tianyi Xu, Huazheng Wang</sub> | [arXiv](https://arxiv.org/abs/2610.32295) · [PDF](https://arxiv.org/pdf/2610.32295) · [Code](https://github.com/tianyi0216/Memcryst.git) |
 | 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |

@@ -4,21 +4,29 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-168 papers · newest submission first
+176 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation**<br><sub>Junyi Chen, Haiyu Zhang, Zhoujie Fu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35594) · [PDF](https://arxiv.org/pdf/2610.35594) |
+| 2026-10-26 | **S$^2$-RL: Sample-Set Dual Reinforcement Learning for Generative Semantic Segmentation Dataset Distillation**<br><sub>Haoyu Wang, Fei Zhou, Qingqing Qiu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35491) · [PDF](https://arxiv.org/pdf/2610.35491) |
+| 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |
+| 2026-10-25 | **HobbyLM: A Sparse Mixture-of-Experts Model Family on a Hobby Budget**<br><sub>Harish Santhanalakshmi Ganesan, Hariharan M. S., Prabhurajhan R</sub> | [arXiv](https://arxiv.org/abs/2610.34582) · [PDF](https://arxiv.org/pdf/2610.34582) |
+| 2026-10-25 | **Timing Matters Twice: When to Query and When to Skip in Flow-Matching On-Policy Distillation**<br><sub>Renye Yan, Junyi Zhan, Jikang Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34191) · [PDF](https://arxiv.org/pdf/2610.34191) |
+| 2026-10-25 | **Learning the Autoregressive: Direct Score-Difference Estimation with Amortized Future Credit for Video Distillation**<br><sub>Zixuan Duan, Yabo Chen, Xunzhi Xiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34092) · [PDF](https://arxiv.org/pdf/2610.34092) |
+| 2026-10-24 | **TrackTok: Object-Centric Video Tokenization with Semantically Persistent Tokens**<br><sub>Nhi Pham, Christopher Wewer, Bernt Schiele et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33857) · [PDF](https://arxiv.org/pdf/2610.33857) · [Code](https://github.com/phamleyennhi/tracktok) |
 | 2026-10-23 | **Fast and Useful: Adapting Distilled Generators for Visual Learning**<br><sub>Patryk Bartkowiak, Dominik Michels, Sören Pirk et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32512) · [PDF](https://arxiv.org/pdf/2610.32512) |
 | 2026-10-23 | **UniWorld: A Unified World Model for Real-Time Visual World Simulation**<br><sub>Xin Zhang, Yabo Chen, Shuaiwei Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32381) · [PDF](https://arxiv.org/pdf/2610.32381) |
 | 2026-10-23 | **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders**<br><sub>Yiran Xiahou, Siliang Qin, Kai Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32059) · [PDF](https://arxiv.org/pdf/2610.32059) · [Code](https://github.com/Eran-Xia/ConceptACP) |
 | 2026-10-22 | **ResGVC: Residual Coding for High-fidelity Generative Video Compression**<br><sub>Ding Ding, Daowen Li, Ying Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31039) · [PDF](https://arxiv.org/pdf/2610.31039) |
-| 2026-10-22 | **Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation**<br><sub>Haojun Xu, Jie Huang, Xin Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
+| 2026-10-22 | **Direct Forcing: Single-Stage Training with Representation-Space Supervision for Few-Step Autoregressive Video Generation**<br><sub>Haojun Xu, Jie Huang, Chuyang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30861) · [PDF](https://arxiv.org/pdf/2610.30861) |
 | 2026-10-21 | **Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers**<br><sub>Tianze Xia, Xiaoling Zhou, Ruya Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29441) · [PDF](https://arxiv.org/pdf/2610.29441) |
 | 2026-10-21 | **AdvFidelity: Unifying Preference Alignment and Few-Step Image Generation within Reinforcement Learning**<br><sub>Sicong Kang, Fangao Zeng, Yuhan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.29380) · [PDF](https://arxiv.org/pdf/2610.29380) |
 | 2026-10-20 | **Offline Makes Online Better: Calibrated Cache Compression for Video Generation**<br><sub>Zhen Wang, Ning Lai, Qingtao Yu</sub> | [arXiv](https://arxiv.org/abs/2610.28192) · [PDF](https://arxiv.org/pdf/2610.28192) |
 | 2026-10-20 | **LaLa-World: Scaling Latent World Models with Natural Language Actions**<br><sub>Junha Song, Geonmo Gu, Jeongeun Park et al.</sub> | [arXiv](https://arxiv.org/abs/2610.27851) · [PDF](https://arxiv.org/pdf/2610.27851) · [Code](https://github.com/junha1125/LaLa-World) |
 | 2026-10-19 | **PRIMFLOW: Learning Trajectory Primitives for Few-Step Distillation**<br><sub>Hongyi Fang, Benjia Zhou</sub> | [arXiv](https://arxiv.org/abs/2610.27146) · [PDF](https://arxiv.org/pdf/2610.27146) |
 | 2026-10-19 | **SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration**<br><sub>Javad Rajabi, Hakki Can Karaimer, David B. Lindell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26837) · [PDF](https://arxiv.org/pdf/2610.26837) |
+| 2026-10-19 | **Oddin: Latent Visual Reasoning in Unified Multimodal Models via Self-Distillation from Image Generation**<br><sub>Jaeyong Ko, Hankyeol Kim, Pilsung Kang</sub> | [arXiv](https://arxiv.org/abs/2610.33062) · [PDF](https://arxiv.org/pdf/2610.33062) |
 | 2026-10-19 | **Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion**<br><sub>Yuanyu He, Zhuokun Chen, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26262) · [PDF](https://arxiv.org/pdf/2610.26262) |
 | 2026-10-19 | **RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion**<br><sub>Tiange Xu, Kai Liu, Linghe Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26244) · [PDF](https://arxiv.org/pdf/2610.26244) · [Code](https://github.com/lyraxtg/RECAP) |
 | 2026-10-19 | **TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation**<br><sub>Jia Li, Xurui Peng, Haowei Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.26165) · [PDF](https://arxiv.org/pdf/2610.26165) |

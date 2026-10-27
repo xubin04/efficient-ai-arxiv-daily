@@ -4,10 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-184 papers · newest submission first
+193 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration**<br><sub>Zhengxin Li, Chongzhen Tian, Hui Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35489) · [PDF](https://arxiv.org/pdf/2610.35489) · [Code](https://github.com/yuanhui0325/TP-JSCC) |
+| 2026-10-26 | **Domain-Adapted Latent Diffusion Models for CT-to-PET Image Translation**<br><sub>Yann Bourdé, Lea Bogensperger, Arnela Hadzic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35132) · [PDF](https://arxiv.org/pdf/2610.35132) |
+| 2026-10-26 | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference**<br><sub>Yanzhen Zhou, Zhengyu Han, Qunyou Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34824) · [PDF](https://arxiv.org/pdf/2610.34824) |
+| 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |
+| 2026-10-26 | **Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching**<br><sub>Fei Zuo, Yizhou Huang, Kezhi Wang</sub> | [arXiv](https://arxiv.org/abs/2610.34756) · [PDF](https://arxiv.org/pdf/2610.34756) |
+| 2026-10-25 | **VTC-AUDIT: An Interventional Reliability Audit for Visual-Token Compression under Paired Image Shifts**<br><sub>Isaac, Li</sub> | [arXiv](https://arxiv.org/abs/2610.34545) · [PDF](https://arxiv.org/pdf/2610.34545) · [Code](https://github.com/IsaacLi74/VTC-AUDIT) |
+| 2026-10-25 | **T2D: Target-to-Draft Model Pruning &amp; Adaptation for Efficient Speculative Decoding**<br><sub>Shahriar Kabir Nahin, Xiao Ye, Muhao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34103) · [PDF](https://arxiv.org/pdf/2610.34103) |
+| 2026-10-24 | **Rescuing Your Pruning: Rethinking Visual Token Pruning and Post-Training Recovery in MLLMs**<br><sub>Peiran Yin, Hao Wu, Zihao Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33688) · [PDF](https://arxiv.org/pdf/2610.33688) |
+| 2026-10-23 | **Vision Token Pruning via Query-Vision Interaction Decomposition**<br><sub>Harshithanjani Athi, Sravan Kumar Ankireddy, Jianzhong Charlie Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33215) · [PDF](https://arxiv.org/pdf/2610.33215) |
 | 2026-10-23 | **LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents**<br><sub>Shen Liu, Ze Zhou, Zhenguo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32412) · [PDF](https://arxiv.org/pdf/2610.32412) |
 | 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |
 | 2026-10-22 | **Nested Sparsity for Scalable Pretraining and Continual Learning**<br><sub>Tianzhe Chu, Druv Pai, Yi Ma</sub> | [arXiv](https://arxiv.org/abs/2610.31818) · [PDF](https://arxiv.org/pdf/2610.31818) · [Code](https://github.com/Ma-Lab-Berkeley/Nestor) |

@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-185 papers · newest submission first
+189 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference**<br><sub>Yanzhen Zhou, Zhengyu Han, Qunyou Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34824) · [PDF](https://arxiv.org/pdf/2610.34824) |
+| 2026-10-26 | **MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference**<br><sub>Huaizhi Zhang, Jiacheng Zhu, Xuqi Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34731) · [PDF](https://arxiv.org/pdf/2610.34731) |
+| 2026-10-25 | **Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2610.34436) · [PDF](https://arxiv.org/pdf/2610.34436) |
+| 2026-10-24 | **ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding**<br><sub>Yuetao Chen, Peng Wang, Hong Xu</sub> | [arXiv](https://arxiv.org/abs/2610.33719) · [PDF](https://arxiv.org/pdf/2610.33719) |
 | 2026-10-23 | **Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding**<br><sub>Yonghui Niu, Yuhao Ji, Chang Nie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32784) · [PDF](https://arxiv.org/pdf/2610.32784) |
 | 2026-10-22 | **LazyFlash: Forward-Dense, Backward-Sparse Attention for Accelerated Long-Context Fine-Tuning**<br><sub>Keqi Deng, Ruchao Fan, Jinyu Li</sub> | [arXiv](https://arxiv.org/abs/2610.31911) · [PDF](https://arxiv.org/pdf/2610.31911) |
 | 2026-10-22 | **KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving**<br><sub>Avinash Maurya, Jaiaid Mobin, Jie Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31827) · [PDF](https://arxiv.org/pdf/2610.31827) |

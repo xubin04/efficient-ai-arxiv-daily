@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-129 papers · newest submission first
+133 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **Synthetic Child-Adult Interactions Are Not Developmentally Plausible**<br><sub>Bastian Bunzeck, Francesca Padovani</sub> | [arXiv](https://arxiv.org/abs/2610.35029) · [PDF](https://arxiv.org/pdf/2610.35029) |
+| 2026-10-26 | **RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge**<br><sub>Balamurugan Paramasivam, Sudalai Rajkumar</sub> | [arXiv](https://arxiv.org/abs/2610.34875) · [PDF](https://arxiv.org/pdf/2610.34875) · [Code](https://huggingface.co/CobuildX-AI/RubriX-8B) |
+| 2026-10-26 | **Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching**<br><sub>Fei Zuo, Yizhou Huang, Kezhi Wang</sub> | [arXiv](https://arxiv.org/abs/2610.34756) · [PDF](https://arxiv.org/pdf/2610.34756) |
+| 2026-10-24 | **Task Format as a Factor in Adaptation: A Controlled Comparison of LoRA and Full Fine-Tuning for Prompt-Safety Classification**<br><sub>John Alderete, Srirakshith Betageri, Jennifer Flynn et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33813) · [PDF](https://arxiv.org/pdf/2610.33813) |
 | 2026-10-23 | **Rethinking LoRA Initialization for Robust Asymmetric Learning Rates**<br><sub>Disen Liao, Yaoliang Yu</sub> | [arXiv](https://arxiv.org/abs/2610.32142) · [PDF](https://arxiv.org/pdf/2610.32142) |
 | 2026-10-22 | **FSVL: Taxonomic Fast-Slow Vision-to-Language Collaborative Framework for Interpretable Confusable Fish Species Identification and Knowledge Generation in the Middle Yangtze River**<br><sub>Meng Liang, Fucheng Wang, Lang Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.31880) · [PDF](https://arxiv.org/pdf/2610.31880) |
 | 2026-10-22 | **Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language**<br><sub>Mullosharaf K. Arabov, Svetlana S. Khaybullina</sub> | [arXiv](https://arxiv.org/abs/2610.31397) · [PDF](https://arxiv.org/pdf/2610.31397) |

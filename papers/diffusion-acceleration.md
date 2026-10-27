@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-107 papers · newest submission first
+111 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |
+| 2026-10-25 | **Freeze What Is Settled, Cache What Is Smooth: Spatial Freezing Keeps Step Caching in Its Low-Error Regime**<br><sub>Baiyan Li, Ganxuan Yang</sub> | [arXiv](https://arxiv.org/abs/2610.34177) · [PDF](https://arxiv.org/pdf/2610.34177) |
+| 2026-10-24 | **H-GLow: Accelerating Graph Generation via Hazard-Guided Discrete Flow Matching**<br><sub>Sirine Ayadi, Stephan Günnemann</sub> | [arXiv](https://arxiv.org/abs/2610.33599) · [PDF](https://arxiv.org/pdf/2610.33599) |
+| 2026-10-24 | **UltraFlash: Accelerating Megapixel Visual Synthesis**<br><sub>Phuc Lai, Anh Nguyen, Phong Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33581) · [PDF](https://arxiv.org/pdf/2610.33581) |
 | 2026-10-23 | **SCDM-HTD: Spectral-Wise Conditional Diffusion Model for Hyperspectral Target Detection**<br><sub>Dunbin Shen, Wenfeng Kong, Jianjun Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32768) · [PDF](https://arxiv.org/pdf/2610.32768) |
 | 2026-10-22 | **CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation**<br><sub>Lifan Jiang, Yibo Zhao, Senlin cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30854) · [PDF](https://arxiv.org/pdf/2610.30854) |
 | 2026-10-22 | **ParaLin++: Accelerating Parallel Diffusion Integrator via Intrinsic Partially Linear Structure**<br><sub>Jianrong Lu, Zhiyu Zhu, Hui Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.30704) · [PDF](https://arxiv.org/pdf/2610.30704) |

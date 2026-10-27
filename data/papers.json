@@ -1,55 +1,1157 @@
 {
   "schema_version": 1,
-  "last_success_utc": "2026-10-26T06:18:22.733897+00:00",
-  "last_scan_date": "2026-10-26",
+  "last_success_utc": "2026-10-27T06:20:09.609012+00:00",
+  "last_scan_date": "2026-10-27",
   "last_scan_stats": [
     {
       "topic": "quantization",
-      "api_results": 38,
-      "accepted": 21
+      "api_results": 50,
+      "accepted": 24
     },
     {
       "topic": "pruning",
-      "api_results": 46,
-      "accepted": 21
+      "api_results": 54,
+      "accepted": 28
     },
     {
       "topic": "distillation",
-      "api_results": 106,
-      "accepted": 38
+      "api_results": 138,
+      "accepted": 46
     },
     {
       "topic": "efficient-training",
-      "api_results": 49,
+      "api_results": 55,
       "accepted": 17
     },
     {
       "topic": "attention-kv-cache",
-      "api_results": 43,
-      "accepted": 24
+      "api_results": 50,
+      "accepted": 25
     },
     {
       "topic": "decoding-reasoning",
       "api_results": 29,
-      "accepted": 14
+      "accepted": 12
     },
     {
       "topic": "llm-systems",
-      "api_results": 80,
-      "accepted": 16
+      "api_results": 104,
+      "accepted": 23
     },
     {
       "topic": "diffusion-acceleration",
-      "api_results": 37,
-      "accepted": 15
+      "api_results": 43,
+      "accepted": 18
     },
     {
       "topic": "visual-generation",
-      "api_results": 50,
-      "accepted": 17
+      "api_results": 65,
+      "accepted": 24
     }
   ],
   "papers": [
+    {
+      "id": "2610.35850",
+      "versioned_id": "2610.35850v1",
+      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+      "authors": [
+        "Guowen Zhang",
+        "Liyi Chen",
+        "Xu Hu",
+        "Pengfei Wang",
+        "Jingfan Chen",
+        "Chenhang He",
+        "Lei Zhang"
+      ],
+      "published": "2026-10-26T17:57:09Z",
+      "updated": "2026-10-26T17:57:09Z",
+      "abstract": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality, incurring substantial latency and hindering real-time deployment. Simply reducing the number of denoising steps will collapse the nonlinear multi-step denoising trajectory into coarse updates, substantially degrading action quality. To reduce the denoising steps while enabling real-time action generation, we present an effective world action model with one-step action generation, namely OSWAM, for autonomous driving and embodied control. We argue that it is the absence of structured action priors in random noise initialization that forces direct-policy WAMs to recover coherent action sequences through iterative denoising. Hence, we construct imagination tokens to initialize the diffusion process, providing physical priors and action-conditioned representations. We further introduce privileged information distillation with future conditioning to enhance future-aware action generation. As a result, OSWAM can efficiently and effectively generate high quality actions in just one diffusion step. Our experiments demonstrate that OSWAM achieves comparable or even better results in both autonomous driving and embodied control than direct-policy WAM and Joint-WAM that require tens of steps. It obtains approximately $3\\times$ speedup over direct-policy WAM baselines and supports real-time compiled inference with latency as low as 40ms on an NVIDIA RTX 5090 GPU. The project page is available at https://gwenzhang.github.io/OSWAM/",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2610.35850",
+      "pdf_url": "https://arxiv.org/pdf/2610.35850",
+      "code_urls": [],
+      "comment": "18 pages, 6 figures",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35804",
+      "versioned_id": "2610.35804v1",
+      "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+      "authors": [
+        "Aidar Myrzakhan",
+        "Zhiqiang Shen"
+      ],
+      "published": "2026-10-26T17:35:58Z",
+      "updated": "2026-10-26T17:35:58Z",
+      "abstract": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little useful context, while revealing a less predictable token can help several other positions become predictable sooner. We propose dSpark, a new schedule distillation-based framework for learning when to commit tokens for faster diffusion language generation. To achieve this, we construct unmasking schedules that prioritize tokens whose reveal makes other positions easier to predict, reducing uncertainty earlier in decoding. We then distill these schedules into the model to enable faster parallel sampling, with a KL-divergence regularizer to help preserve generation quality. We extensively evaluate our approach across mathematical reasoning and code generation tasks. On GSM8K, our method achieves remarkable 10.12$\\times$ and 5.12$\\times$ speedups over the various baselines on LLaDA-8B-Instruct and Dream-7B-Instruct, respectively, while maintaining superior task performance. Our code is available at https://github.com/VILA-Lab/dSpark.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.35804",
+      "pdf_url": "https://arxiv.org/pdf/2610.35804",
+      "code_urls": [
+        "https://github.com/VILA-Lab/dSpark"
+      ],
+      "comment": "Code is available at https://github.com/VILA-Lab/dSpark",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35690",
+      "versioned_id": "2610.35690v1",
+      "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+      "authors": [
+        "Yitao Xiao",
+        "Xu Zhang",
+        "Ye Cheng",
+        "Shaoyong Guo",
+        "Yan Sun",
+        "Ziyue Zhu",
+        "Sitao Xie",
+        "Guo Tong",
+        "Haoran Luo"
+      ],
+      "published": "2026-10-26T16:21:00Z",
+      "updated": "2026-10-26T16:21:00Z",
+      "abstract": "Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained supervision for interdependent planning decisions. We propose EvoRouter, a self-evolving multi-agent routing framework driven by insight-guided on-policy distillation. A dedicated expert periodically synthesizes performance-cost feedback from configuration trajectories across tasks into reusable conditional routing insights about capability requirements, returns from resource scaling, and interactions among configuration choices. A privileged teacher combines these evolving insights with current execution feedback to provide dense token-level supervision for the router's own planning trajectories through on-policy distillation. Cost-aware reinforcement learning jointly optimizes task performance and computational cost. Together, these training signals internalize execution insights into the routing policy. The updated policy generates new trajectories that support subsequent insight extraction, forming an execution-driven self-improvement loop. We evaluate EvoRouter on 19 in-domain datasets spanning five domains and two out-of-domain benchmarks. EvoRouter achieves an average in-domain accuracy of 68.69%, outperforming the strongest routing baseline by 7.23 percentage points while reducing inference compute cost by 50.95%. Our code is open-sourced at https://github.com/CenYangtze/EvoRouter.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2610.35690",
+      "pdf_url": "https://arxiv.org/pdf/2610.35690",
+      "code_urls": [
+        "https://github.com/CenYangtze/EvoRouter"
+      ],
+      "comment": "13 pages, 12 figures, 4 tables",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35594",
+      "versioned_id": "2610.35594v1",
+      "title": "Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation",
+      "authors": [
+        "Junyi Chen",
+        "Haiyu Zhang",
+        "Zhoujie Fu",
+        "Tengfei Wang",
+        "Chunchao Guo"
+      ],
+      "published": "2026-10-26T15:20:53Z",
+      "updated": "2026-10-26T15:20:53Z",
+      "abstract": "Few-step distillation is essential for deploying modern video diffusion models. Among existing approaches, Distribution Matching Distillation (DMD) has emerged as a highly promising paradigm by achieving strong output-space fidelity without adversarial training, while remaining flexible across various student architectures. We observe, however, that DMD fundamentally relies on an output-space objective, lacking explicit regularization on the model's internal representations. As the distillation step count aggressively shrinks, this output-only supervision becomes insufficient, causing the distilled student to degrade in both fine-grained spatial structures and coherent temporal dynamics. To address this limitation, we introduce Self Flow Forcing (SF$^2$), which incorporates a predictive representation loss into the DMD framework without altering its output objective. By providing the student and an Exponential Moving Average (EMA) teacher with heterogeneous noise levels, we establish an information asymmetry. This formulation forces the student to predict the teacher's internal representations from a more corrupted input, effectively integrating self-supervised representation alignment into distribution matching. Extensive experiments demonstrate that SF$^2$ effectively mitigates temporal flickering and consistently improves both spatial fidelity and motion quality. Furthermore, the proposed mechanism is architecture-agnostic - seamlessly supporting both bidirectional and causal models - and requires no external feature extractors, introducing minimal computational overhead.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.35594",
+      "pdf_url": "https://arxiv.org/pdf/2610.35594",
+      "code_urls": [],
+      "comment": "Accepted to NeurIPS 2026. Project page: https://sotamak1r.github.io/SF2-web/",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35491",
+      "versioned_id": "2610.35491v1",
+      "title": "S$^2$-RL: Sample-Set Dual Reinforcement Learning for Generative Semantic Segmentation Dataset Distillation",
+      "authors": [
+        "Haoyu Wang",
+        "Fei Zhou",
+        "Qingqing Qiu",
+        "Lei Zhang",
+        "Wei Wei",
+        "Chen Ding"
+      ],
+      "published": "2026-10-26T14:21:31Z",
+      "updated": "2026-10-26T14:21:31Z",
+      "abstract": "While dataset distillation has witnessed significant advances in image classification, its extension to dense prediction tasks such as semantic segmentation is plagued by two core bottlenecks: bi-level optimization-based approaches suffer from prohibitive computational costs stemming from pixel-wise gradient unrolling, whereas proxy-based generative methods merely infuse visual textures into fixed semantic masks derived from real data, thus failing to condense rich semantic knowledge into a compact set of informative, novel scene generations. To address both bottlenecks simultaneously, we propose a novel Sample-Set Reinforcement Learning (S$^2$-RL) framework for generative semantic segmentation dataset distillation (SSDD). Specifically, S$^2$-RL formulates SSDD as a diffusion model based text-to-image generation paradigm, enabling flexible generation of images with informative, novel semantic distributions via a concise text prompt. Furthermore, we fine-tune a diffusion policy via Group Relative Policy Optimization (GRPO), leveraging a sample-set dual reward paradigm: for individual samples, it enforces semantic alignment with input text prompts and intra-class feature diversity; for sample sets, it maximizes inter-sample semantic distribution diversity by solving a contextual multi-armed bandit problem. These design choices enable S$^2$-RL to distill large-scale semantic segmentation datasets into a compact set of generated samples that encapsulate diverse, informative semantic knowledge without the need of pixel-wise gradient unrolling. Extensive experiments on the ADE20K and COCO datasets demonstrate that S$^2$-RL achieves substantial and consistent improvements over state-of-the-art baselines, establishing a new benchmark for SSDD.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.35491",
+      "pdf_url": "https://arxiv.org/pdf/2610.35491",
+      "code_urls": [],
+      "comment": "Accepted at NeurIPS 2026. Project Page: https://00why00.github.io/S2RL/",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35489",
+      "versioned_id": "2610.35489v1",
+      "title": "TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration",
+      "authors": [
+        "Zhengxin Li",
+        "Chongzhen Tian",
+        "Hui Yuan",
+        "Hao Liu",
+        "Sam Kwong"
+      ],
+      "published": "2026-10-26T14:17:36Z",
+      "updated": "2026-10-26T14:17:36Z",
+      "abstract": "Deploying large vision-language models (LVLMs) on resource-constrained embodied agents for 3D visual question answering necessitates cloud-edge collaboration. However, offloading massive visual data to the cloud over bandwidth-limited and noisy channels introduces severe latency and transmission distortion. To address this, we propose TP-JSCC, an efficient token pruning and joint source-channel coding method for LVLMs-based 3D-VQA in Cloud-Edge Collaboration. First, we develop a Local and Global Semantics-based Hybrid Token Pruning (LGS-HTP) module to significantly reduce the visual token count. By decoupling foreground-background tokens and jointly selecting local and global semantics, LGS-HTP effectively reduces redundancy while preserving reasoning-critical tokens. Second, we introduce a lightweight Token Joint Source-Channel Coding (T-JSCC) module to further compress the pruned tokens and ensure their robust transmission over error-prone channels. By employing lightweight cascaded linear layers and Signal-to-Noise Ratio (SNR)-adaptive mechanism, this module adapts to fluctuating channel conditions while maintaining minimal computational overhead. Extensive experiments on ScanQA and SQA3D datasets indicate the exceptional efficiency and robustness of our approach. Specifically, on ScanQA validation set, the LGS-HTP module could achieve 90% pruning ratio while incurring less than a 1% CIDEr loss. Building on this, the T-JSCC further compresses the tokens by 18 times, resulting in an overall 180 times data volume reduction for robust transmission, while saving 90% in computational complexity for LVLM deployment. Our code is available at https://github.com/yuanhui0325/TP-JSCC.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.35489",
+      "pdf_url": "https://arxiv.org/pdf/2610.35489",
+      "code_urls": [
+        "https://github.com/yuanhui0325/TP-JSCC"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35132",
+      "versioned_id": "2610.35132v1",
+      "title": "Domain-Adapted Latent Diffusion Models for CT-to-PET Image Translation",
+      "authors": [
+        "Yann Bourdé",
+        "Lea Bogensperger",
+        "Arnela Hadzic",
+        "Michael Krauthammer"
+      ],
+      "published": "2026-10-26T10:06:09Z",
+      "updated": "2026-10-26T10:06:09Z",
+      "abstract": "Positron Emission Tomography (PET) provides important metabolic information for tumor detection and staging but remains significantly less accessible than Computed Tomography (CT) due to its high cost, infrastructure requirements, and reliance on injected radioactive tracers. CT-to-PET image translation using generative models aims to address this disparity, yet state-of-the-art diffusion-based methods are limited by the scarcity of paired training data. To overcome this, we propose a domain-adapted latent diffusion framework that transfers natural-image priors using a relatively small dataset of 21,930 paired CT/PET slices, incorporating a signed power transform to resolve extreme intensity sparsity in PET data. Compared to CPDM, a state-ofthe-art baseline for CT-to-PET image translation, our approach yields superior performance in pixel-wise reconstruction and localized tumor fidelity, demonstrating effective transfer of natural-image priors to the medical domain. We further provide a systematic analysis of evaluation metric reliability for sparse PET data, showing that standard full-image metrics can be misleading indicators of translated image quality, and propose background-filtered and mask-restricted metrics as more clinically meaningful alternatives.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.35132",
+      "pdf_url": "https://arxiv.org/pdf/2610.35132",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.35029",
+      "versioned_id": "2610.35029v1",
+      "title": "Synthetic Child-Adult Interactions Are Not Developmentally Plausible",
+      "authors": [
+        "Bastian Bunzeck",
+        "Francesca Padovani"
+      ],
+      "published": "2026-10-26T08:40:54Z",
+      "updated": "2026-10-26T08:40:54Z",
+      "abstract": "Synthetic data has become a common resource for training language models, and this trend has spilled over into research on developmentally plausible language modeling. However, it remains unclear whether LM-generated child-adult interactions actually resemble natural ones. We compare the synthetic TinyDialogues dataset to natural dialogue across a broad range of linguistic measures. While synthetic data matches natural data on the lexical level, it drastically underestimates the messy, fragmented nature of spoken interaction. To mitigate this, we propose instruction-tuning with data created from real dialogues, and show in a pilot study that a small model approximates the statistical tendencies of natural data after moderate parameter-efficient fine-tuning.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.35029",
+      "pdf_url": "https://arxiv.org/pdf/2610.35029",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34875",
+      "versioned_id": "2610.34875v1",
+      "title": "RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge",
+      "authors": [
+        "Balamurugan Paramasivam",
+        "Sudalai Rajkumar"
+      ],
+      "published": "2026-10-26T05:45:11Z",
+      "updated": "2026-10-26T05:45:11Z",
+      "abstract": "Rubric-based evaluation asks which level of a rubric a response meets. It is usually done by prompting a large language model (LLM) as a judge, which needs a generative call per judgment and reads every level description, so its cost grows with the rubric. We present RubriX, a rubric judge whose architecture is inspired by contrastive language models (CLM): a LoRA-adapted encoder embeds the input and each level description, and a softmax over scaled cosine similarities gives a probability for every level without text generation. Trained on public rubric data and proprietary synthetic data, RubriX reaches 75.4% exact accuracy on held-out rubrics, against 57.1% for TypeSafe's Jev and 49.8% for a Qwen3-8B judge. On eight human-labelled benchmark sets it is within 6 percentage points of Jev's accuracy on most of them, while Jev keeps a larger lead on two and ranks responses best on average; against the results reported in the G-Eval paper, RubriX outperforms G-Eval with GPT-3.5 on every SummEval dimension and both QAGS subsets. With level embeddings cached, RubriX's latency stays at about 28 ms per judgment as level descriptions grow from 10 to 3,000 tokens, while Jev's (approximate network time subtracted) rises from 44 ms to 211 ms and the Qwen3-8B judge's from 32 ms to 516 ms, making RubriX 7.7x faster than Jev and 18.8x faster than the Qwen3-8B judge at 3,000 tokens per level.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.34875",
+      "pdf_url": "https://arxiv.org/pdf/2610.34875",
+      "code_urls": [
+        "https://huggingface.co/CobuildX-AI/RubriX-8B"
+      ],
+      "comment": "12 pages, 6 figures, 3 tables. Model: https://huggingface.co/CobuildX-AI/RubriX-8B",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34828",
+      "versioned_id": "2610.34828v1",
+      "title": "Transporting Quantiles to Codebook: Scalable Vector Quantization without Codebook Collapse",
+      "authors": [
+        "Yuwei Zeng",
+        "Zekun Shi"
+      ],
+      "published": "2026-10-26T04:22:47Z",
+      "updated": "2026-10-26T04:22:47Z",
+      "abstract": "Effective discrete representation learning with VQ-VAE serves as a fundamental component of modern autoregressive generative models. However, it is widely known to suffer from codebook collapse and inefficient code utilization. To address this issue, we propose FlowVQ, a simple yet effective alternative to standard vector quantization by formulating neural quantization as a joint modeling and clustering process. Specifically, we learn the latent space using a lightweight flow matching model alongside training, corresponding to a probability flow ODE that transports an often fixed well-behaved source distribution while preserving probability mass. Based on this, we define the codebook C_1 by transporting even-quantile partitioned prior codes C_0 from the source space through the learned flow, and obtaining the Voronoi centroids under the induced distribution, leading to a structured discretization. We evaluated on image tokenization and generation, as well as on two tasks requiring high-precision tokenization, demonstrating scalability and improved expressivity of the codebook with full utilization.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.34828",
+      "pdf_url": "https://arxiv.org/pdf/2610.34828",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34824",
+      "versioned_id": "2610.34824v1",
+      "title": "SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference",
+      "authors": [
+        "Yanzhen Zhou",
+        "Zhengyu Han",
+        "Qunyou Liu",
+        "Zheyu Yan",
+        "Weihong Xu",
+        "Cheng Zhuo"
+      ],
+      "published": "2026-10-26T04:13:47Z",
+      "updated": "2026-10-26T04:13:47Z",
+      "abstract": "LLMs on edge devices are constrained by limited memory and bandwidth. Although 1.58-bit ternary weights greatly reduce model storage, long-context inference is increasingly bottlenecked by KV-cache traffic and attention. Existing accelerators also use separate datapaths for ternary linear layers and attention, incurring hardware and execution overhead. We present SPARTA, a sparse ternary LLM accelerator for efficient long-context edge inference. SPARTA integrates: (1) a phase-aware sparse dataflow exploiting heterogeneous sparsity across compute-bound prefill and memory-bound decode; (2) a unified compute fabric mapping ternary SpMM/SpMV and bit-serial attention onto shared processing elements to exploit zero-weight and zero-bit sparsity; and (3) an adaptive two-stage attention engine combining page-level Top-k selection to reduce K-cache accesses with token-level Top-p pruning to reduce V-cache traffic. SPARTA reduces KV traffic by 4.1-4.8x over full attention and 1.3-1.5x over a state-of-the-art sparse-attention scheme, with task-dependent quality loss. Compared with NVIDIA Jetson AGX Orin, SPARTA achieves 3.9x higher generation throughput and 8.3x higher end-to-end energy efficiency on average; versus AMD Ryzen 7 9700X, the gains are 5.0x and 81.7x. It also delivers 1.6-12.0x higher throughput, 2.0-4.2x higher energy efficiency, and 1.3-51.4x higher area efficiency than FIGLUT, TeLLMe, and MCBP.",
+      "arxiv_categories": [
+        "cs.AR",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34824",
+      "pdf_url": "https://arxiv.org/pdf/2610.34824",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34782",
+      "versioned_id": "2610.34782v1",
+      "title": "ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing",
+      "authors": [
+        "Caiyi Sun",
+        "Yujing Sun",
+        "Siu-Ming Yiu"
+      ],
+      "published": "2026-10-26T03:27:40Z",
+      "updated": "2026-10-26T03:27:40Z",
+      "abstract": "Recent generic reference-based image generation models natively support multiple conditions by concatenating all reference image and text tokens into a joint sequence processed by a single Diffusion Transformer (DiT). However, this versatile paradigm comes at an efficiency cost: accommodating multiple references leads to a token explosion, incurring massive $\\mathcal{O}(N^2)$ computational complexity. Most acceleration methods operate inside the DiT, showing limited capability in reducing spatial redundancy and failing to alleviate peak VRAM. While some pre-model token reduction alternatives exist, they inevitably introduce external models. This raises a question: Is it possible to achieve acceleration and memory savings while preserving compatibility with in-model techniques and requiring no additional parameters? In this work, we realize this goal by proposing the early Token reduction via Downsampled self-Probing (ToDoPro). By executing a few denoising steps on spatially $2\\times$ downsampled reference images, this cheap probing stage utilizes the DiT model itself to effectively and efficiently extract reference token importance. Using the probed importance, we apply a hierarchical reduction before the main denoising stage: we completely discard low-importance tokens, substitute mid-importance tokens with their downsampled counterparts to cheaply preserve global context, and keep high-importance tokens. Experiments across three base models and two benchmarks demonstrate that our early reduction accelerates inference significantly and mitigates peak GPU memory. Furthermore, we can improve generation quality by safely filtering out noisy, uninformative reference tokens, enabling the model to concentrate its limited attention capacity on genuinely useful tokens. The code will be released at https://github.com/scy639/ToDoPro",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34782",
+      "pdf_url": "https://arxiv.org/pdf/2610.34782",
+      "code_urls": [
+        "https://github.com/scy639/ToDoPro"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "diffusion-acceleration",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34756",
+      "versioned_id": "2610.34756v1",
+      "title": "Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching",
+      "authors": [
+        "Fei Zuo",
+        "Yizhou Huang",
+        "Kezhi Wang"
+      ],
+      "published": "2026-10-26T02:58:22Z",
+      "updated": "2026-10-26T02:58:22Z",
+      "abstract": "Low-Rank Adaptation (LoRA) has emerged as the dominant paradigm for parameter-efficient fine-tuning of large language models. Standard all-layer LoRA applies adaptation throughout the transformer, despite heterogeneous contributions from its components. In this work, we conduct a systematic mechanistic interpretability analysis to understand how LoRA affects model internals. We observe that LoRA's adaptation effect is highly non-uniform, with significant component-wise and layer-wise sparsity. Most critically, we find that important layers are highly task-dependent, with limited overlap across tasks. Motivated by these insights, we propose Adaptive-LoRA, a calibration-driven method that automatically identifies task-specific layers via frozen-base zero-ablation, enabling efficient layer selection without exhaustive search. Extensive experiments on Qwen2.5-1.5B across 11 diverse reasoning tasks demonstrate that Adaptive-LoRA outperforms full-layer LoRA while using only 30% of layers, achieving a $3.5\\times$ reduction in adapter parameters. This work bridges mechanistic interpretability and practical efficiency, providing both fundamental insights and a principled approach for adaptive fine-tuning.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.34756",
+      "pdf_url": "https://arxiv.org/pdf/2610.34756",
+      "code_urls": [],
+      "comment": "Accepted at NeurIPS 2026 (Main Track). 31 pages, including appendices and the paper checklist",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34731",
+      "versioned_id": "2610.34731v1",
+      "title": "MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference",
+      "authors": [
+        "Huaizhi Zhang",
+        "Jiacheng Zhu",
+        "Xuqi Zhu",
+        "Junkyu Lee",
+        "Klaus McDonald-Maier",
+        "Xiaojun Zhai"
+      ],
+      "published": "2026-10-26T02:30:02Z",
+      "updated": "2026-10-26T02:30:02Z",
+      "abstract": "This paper presents Memory- and Communication-Aware Framework for Long-Context LLM Inference (MCF) that optimizes long-context inference through communication-aware and stage-adaptive KV-cache layout transitions. At the core of MCF is {Memory-Aware Replication and Scheduling} (MARS), a dynamic orchestration mechanism for chunked prefill. MARS exploits early-stage memory headroom by selectively replicating highly reused KV blocks, improving locality and hiding KV propagation latency behind attention computation. As prefill progresses and memory pressure increases, MARS progressively drains redundant replicas and converges the KV cache into a sharded decode-ready layout, avoiding expensive layout conversion at the prefill--decode boundary. For decoding, MCF adopts a query-centric execution model in which KV shards remain stationary while lightweight query tensors are routed across workers. This changes communication from KV-cache-dependent transfer to query-dependent transfer, reducing communication growth with context length. MCF further integrates a hardware-software co-designed execution layer based on an FPGA compute-NIC datapath, enabling metadata-driven KV routing and collective operations directly in the network path. Experiments show that MCF improves TTFT, throughput, and scalability over state-of-the-art distributed inference systems, with larger benefits as context length and cluster size increase.",
+      "arxiv_categories": [
+        "cs.AR"
+      ],
+      "url": "https://arxiv.org/abs/2610.34731",
+      "pdf_url": "https://arxiv.org/pdf/2610.34731",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34717",
+      "versioned_id": "2610.34717v1",
+      "title": "VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware",
+      "authors": [
+        "Borui Xu",
+        "Hongshi Tan",
+        "Wenqi Jiang",
+        "Bingsheng He",
+        "Ming Wu",
+        "Jason Zeng",
+        "Michael Heinrich"
+      ],
+      "published": "2026-10-26T02:07:42Z",
+      "updated": "2026-10-26T02:07:42Z",
+      "abstract": "Vision--language--action (VLA) models increasingly run on edge devices aboard robots, where inference latency constrains closed-loop robot control. However, it remains unclear how to design VLA models, their inference software and edge hardware so that robots can run VLA inference in real time. Most VLA models report only task success, while prior studies cover limited action-generation strategies, divide inference into at most three stages, and lack comparisons of inference optimizations on the same models.benchmarking 18 open VLA models across released and alternative backends on NVIDIA Jetson AGX Thor and AMD Ryzen AI Max+ PRO 395, with a seven-stage inference breakdown. Our study reveals three insights. First, action-generation strategy matters more than model size. It dominates 14 of 19 Jetson configurations, latency varies by $82\\times$ on Jetson and $157\\times$ on AMD, and parameter count explains at most 15% of latency variance. Models that generate long action chunks in a few flow-matching steps keep up with control, whereas token-by-token decoding does not. Second, kernel fusion with 4-bit weights helps most, running $π_{0.5}$ and GR00T N1.7 2.6--2.9$\\times$ faster than PyTorch with \\texttt{torch.compile}, but it exists for only these two models and only on the Jetson. Optimization also moves the time to the stages it shortens least, as CPU preprocessing grows from 12\\% to 39\\% of the GR00T N1.7 call. Third, after optimization, memory bandwidth limits only the stages that process few tokens on the Jetson, such as the denoising steps, whereas software limits all other stages, from unfused kernels to serial preprocessing on the host CPU. Overall, low-latency edge VLAs should use few action-generation iterations, inference software should extend kernel fusion and low-bit weights to more models and platforms, and edge hardware needs high memory bandwidth and a fast host CPU.",
+      "arxiv_categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34717",
+      "pdf_url": "https://arxiv.org/pdf/2610.34717",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34673",
+      "versioned_id": "2610.34673v1",
+      "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents",
+      "authors": [
+        "Xinyu Zhang",
+        "Weiwei Sun"
+      ],
+      "published": "2026-10-26T01:05:20Z",
+      "updated": "2026-10-26T01:05:20Z",
+      "abstract": "Large language model (LLM) agents that serve users across many sessions must choose, for every request, the few stored memories that enter a limited context window. This choice largely decides whether the agent answers correctly, and it runs on every request at Web scale. This selection faces three challenges: a large and growing store, a per-request cost budget, and multi-session questions that need all of their evidence. Many memory systems build notes or graphs with hundreds to thousands of LLM calls per history, and each is designed on its own, so it is unclear which component yields the accuracy. These challenges mirror the properties of recommendation, so we formalize agent memory as budgeted slate recommendation, with the request as the user, stored memories as items and the context window as a slate. The formalization places memory systems in one design space of recommender cascades and factorizes accuracy into the completeness that each stage controls. Guided by it, we propose AgentMemRec, which adapts candidate generation, learning to rank and slate construction from recommender systems and selects memories without any LLM call. On multi-session questions of LongMemEval, AgentMemRec outperforms memory and context-selection methods, including A-Mem, HippoRAG 2, DynamicRAG and T-Mem, by 10 to 31 points of accuracy. It matches an LLM reranker that makes 64 calls per query at 3.2 times lower serving cost, and on LoCoMo it outperforms Mem0 and Zep without any LLM call at write time. The factorization attributes the gains to slates that more often hold all of the evidence, so recommender-system design offers an effective and efficient foundation for the long-term memory of LLM agents.",
+      "arxiv_categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.34673",
+      "pdf_url": "https://arxiv.org/pdf/2610.34673",
+      "code_urls": [],
+      "comment": "12 pages, 3 figures, 8 tables",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34582",
+      "versioned_id": "2610.34582v1",
+      "title": "HobbyLM: A Sparse Mixture-of-Experts Model Family on a Hobby Budget",
+      "authors": [
+        "Harish Santhanalakshmi Ganesan",
+        "Hariharan M. S.",
+        "Prabhurajhan R"
+      ],
+      "published": "2026-10-25T21:26:24Z",
+      "updated": "2026-10-25T21:26:24Z",
+      "abstract": "We describe HobbyLM, a family of small sparse Mixture-of-Experts (MoE) models trained from scratch with a few hundred to a few thousand dollars of rented GPU time. The core is a decoder-only transformer with fine-grained experts, sigmoid routing with auxiliary-loss-free load balancing, grouped-query attention with per-head QK-normalization, and aMuon/AdamW optimizer split. Each of these choices was selected with a single-variable ablation suite at 130M parameters. On this architecture we train a 500M-parameter model (169M active) on 40B FineWeb tokens and post-train it into a chat model, a masked-diffusion language model, a function-calling and computer-use agent, and a single \"omni\" checkpoint that reads text, images, video, sound and speech through frozen encoders and small projectors. We run these models on a laptop CPU with a from-scratch Rust inference engine. Two of the authors then adopted the architecture without architectural changes to build HobbyLM-1B (1.04B total, 305M active parameters), trained on a 100B-token curated mixture with a high-quality anneal. HobbyLM-1B reaches a 47.5 average on seven zero-shot benchmarks, and its builders also release an instruction-tuned model and an on-device macOS computer-use adapter. Finally, we describe HobbyLM-Image, a 333M-parameter flow-matching diffusion transformer that generates 1024x1024 images in a 32x-compressed latent space, together with a dependency-light CPU implementation of the full text-to-image pipeline. We report what worked, what did not, and where the small-scale ceilings lie. We also state for each component which author designed or built it.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34582",
+      "pdf_url": "https://arxiv.org/pdf/2610.34582",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34575",
+      "versioned_id": "2610.34575v1",
+      "title": "Cumulative Marginal Matching for One-Step Diffusion",
+      "authors": [
+        "Paribesh Regmi",
+        "Rui Li"
+      ],
+      "published": "2026-10-25T21:15:57Z",
+      "updated": "2026-10-25T21:15:57Z",
+      "abstract": "The sampling procedures of diffusion and flow-matching models involve hundreds of denoising steps incurring substantial inference time, which has motivated a growing body of work on training schemes for few-step and one-step generation. Existing approaches primarily seek to align the generation trajectory of few-step and base models, yet their training objectives only involve discrepancies at a single point in the trajectory, encouraging only local \\emph{point-level} alignment. While recent methods such as \\emph{Shortcut-CSL} introduce cumulative objective that enforce alignment over the entire trajectory, this is suboptimal as they do not directly enforce alignment between the distributions induced by the two models throughout the generation process. We propose \\emph{Cumulative Marginal Matching} (CMM), a principled objective for few-step generation: by viewing flow-matching as a sequence of intermediate marginal distributions connecting the prior and data distributions, CMM directly optimizes the cumulative discrepancy between the base and few-step marginal distributions over the entire sequence. Specifically, we formulate this discrepancy using the Wasserstein-2 distance. By exploiting the pushforward representation of flow-matching, we transform an intractable cumulative Wasserstein objective into a tractable surrogate that can be optimized using samples from the intermediate marginal, which are readily generated through the conditional interpolation process of flow-matching. Furthermore, we show that the existing \\emph{Shortcut-CSL} objective arises as a first-order approximation of that of the CMM, establishing a theoretical connection between the two objectives. Experiments on standard benchmarks demonstrate improvement in generation quality over \\emph{Shortcut-CSL} and other state-of-the-art one- and few-step baselines under identical training budgets.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.34575",
+      "pdf_url": "https://arxiv.org/pdf/2610.34575",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34563",
+      "versioned_id": "2610.34563v1",
+      "title": "Recursive CLIP: Vision-Language Distillation with Looped Transformer Blocks",
+      "authors": [
+        "Szymon Mazurek",
+        "Alberto Presta",
+        "Michał Byra"
+      ],
+      "published": "2026-10-25T21:07:02Z",
+      "updated": "2026-10-25T21:07:02Z",
+      "abstract": "Contrastive vision-language models such as CLIP typically rely on independently parameterized transformer blocks across depth. We investigate the extent to which these blocks can instead be reused recurrently while preserving the transferable capabilities of CLIP. We study recursive transformer backbones in which a small set of $N$ transformer blocks is applied $M$ times per forward pass. By holding $N \\cdot M$ fixed to the depth of a standard ViT-B, our models preserve computational depth while progressively increasing parameter sharing. We consider two recursive CLIP model families: rCLIP, where only the vision encoder is recursive, and r$^2$CLIP, where recurrence is also introduced in the text encoder. We study these models under both direct contrastive training and through knowledge distillation from a strong ViT-B/16 teacher pretrained on DFN-2B, using the substantially smaller CC3M and CC12M datasets. We evaluate the resulting models on zero-shot classification and cross-modal retrieval, and further study their adaptability through few-shot learning, visual grounding, and concept unlearning. Our results show that CLIP can tolerate substantial recurrent block reuse, although its effect depends on the encoder and downstream task. Recurrence also provides parameter efficiency by construction, since fewer distinct transformer blocks need to be stored and adapted. Our results establish recurrent block reuse as a practical design space for vision-language models and highlight its implications for knowledge transfer, downstream adaptation, and parameter efficiency.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34563",
+      "pdf_url": "https://arxiv.org/pdf/2610.34563",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34545",
+      "versioned_id": "2610.34545v1",
+      "title": "VTC-AUDIT: An Interventional Reliability Audit for Visual-Token Compression under Paired Image Shifts",
+      "authors": [
+        "Isaac",
+        "Li"
+      ],
+      "published": "2026-10-25T20:15:48Z",
+      "updated": "2026-10-25T20:15:48Z",
+      "abstract": "Visual-token compression is usually evaluated by clean accuracy and efficiency, but these averages do not reveal failures that compression introduces under an image shift where the uncompressed model stays correct. We introduce VTC-AUDIT, which estimates this incremental risk only on pairs where the full model is correct on both images and the compressed model is correct on the clean image. The four arms then cross two binary choices: which image selects the retained token positions, and which image supplies the visual features. We audit three open 8-9B vision-language models on four tasks and eight pre-specified shifts. We evaluate two training-free compressors---hard-pruning DivPrune and prune-and-merge ApET---at a matched 25% retained-position budget, producing 708,000 inference records. Reselecting positions on the shifted image, rather than reusing the clean-image positions, raises the failure rate in all six model-compressor settings. The increase is 3.04-9.60 percentage points for DivPrune and 2.05-4.20 percentage points for ApET, with every 95% interval above zero. Repeating the audit on a separately resampled second manifest reproduces all six increases. In a pooled monitor audit across the four benchmarks, support Jaccard instability fails the practical AUROC criterion of 0.65 in all six settings, whereas clean compressed-model uncertainty clears it. Thus, support turnover is a weak ranking signal under the audited benchmark mixture, while clean compressed-model uncertainty is substantially more informative. These results suggest that future visual-token compression evaluations should report conditional reliability alongside clean accuracy and efficiency.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.34545",
+      "pdf_url": "https://arxiv.org/pdf/2610.34545",
+      "code_urls": [
+        "https://github.com/IsaacLi74/VTC-AUDIT"
+      ],
+      "comment": "9 pages, 6 tables. Code and experimental results: https://github.com/IsaacLi74/VTC-AUDIT",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34436",
+      "versioned_id": "2610.34436v1",
+      "title": "Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models",
+      "authors": [
+        "Dezhen Lu",
+        "Runguo Li",
+        "Zixiang Ni"
+      ],
+      "published": "2026-10-25T16:44:33Z",
+      "updated": "2026-10-25T16:44:33Z",
+      "abstract": "A looped language model runs one block of layers $R$ times per token, so its key-value (KV) cache holds $R$ planes per recurrent layer, and self-speculative decoding (draft with a few loops, verify with all $R$) reads them all. We find that prefix keys and values matter late: at equal perturbation size, loops 25-32 are $e^{15.0}$ (Huginn-0125) and $e^{12.8}$ (Raven-Llama) times more sensitive than loops 2-9, and the planes approach the last one geometrically, at 0.88 and 0.81 per loop. Whether the deepest plane alone suffices then depends on how ripe the late planes are: on Raven, storing only it is indistinguishable from a bf16-to-fp32 change; on Huginn, 1% of positions carry 74% of its error. We turn this into RIPE, which stores the deepest plane everywhere except a window of recent positions kept at full depth. On Huginn, a 64-position window removes 89% of the tail positions at 11.9% of the full cache's memory (1024-token context), and any window at least as long as the draft block makes batched verification block-independent by construction. Nine pre-registered GPU batches back these results. Simple models of acceptance, decoding cost and memory, two of them checked on held-out measurements, account for the measured self-speculative speed-ups ($2.09\\times$ with the full cache, $2.58\\times$ with the deepest plane) and decompose the $2.24\\times$ fixed-memory throughput gain of one shared plane.",
+      "arxiv_categories": [
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.34436",
+      "pdf_url": "https://arxiv.org/pdf/2610.34436",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34335",
+      "versioned_id": "2610.34335v1",
+      "title": "CoLink: Global Compression and Knowledge Linking for Multi-Turn Dialogue Modeling",
+      "authors": [
+        "Lian Yan",
+        "Zhenbo Xia",
+        "Haotian Wang",
+        "Chen Tang",
+        "Yi Guan",
+        "Jie Liu",
+        "Jingchi Jiang"
+      ],
+      "published": "2026-10-25T14:51:19Z",
+      "updated": "2026-10-25T14:51:19Z",
+      "abstract": "Extracting salient information from long-horizon dialogue histories remains a significant challenge for Large Language Models (LLMs) due to the restricted context windows and efficient retrieval challenges. Current methods typically rely on history organization or local token-level optimization, suffering from information loss, retrieval redundancy, and myopic attention. Inspired by the view in cognitive science that dialogue constitutes sense-making and memory association, we propose CoLink, a framework that enhances LLMs' global context awareness in domain-specific multi-turn dialogues through information linking and compression. CoLink first clusters historical contexts into topic graphs to establish cross-semantic associations with external knowledge. Guided by the adaptive control of thought, it then retrieves and activates knowledge via synergizing semantic relevance and graph-structural topology. Crucially, to achieve effective compression of history and knowledge, we ground multi-turn dialogues in information theory and derive a principled optimization objective for extracting the core sense-making information. Coupled with a competitive slot mechanism, CoLink condenses the global context into dedicated memory and knowledge slots, efficiently distilling lengthy, redundant inputs into an extremely compact latent representation. Extensive empirical results on both public and our MMD datasets validate CoLink's superiority and generalizability in knowledge linking and sense modeling.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.34335",
+      "pdf_url": "https://arxiv.org/pdf/2610.34335",
+      "code_urls": [],
+      "comment": "7 pages, 15 figures, work in prograss",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34191",
+      "versioned_id": "2610.34191v1",
+      "title": "Timing Matters Twice: When to Query and When to Skip in Flow-Matching On-Policy Distillation",
+      "authors": [
+        "Renye Yan",
+        "Junyi Zhan",
+        "Jikang Cheng",
+        "Wei Peng"
+      ],
+      "published": "2026-10-25T10:00:33Z",
+      "updated": "2026-10-25T10:00:33Z",
+      "abstract": "On-policy distillation (OPD) enables flow-matching models to acquire complementary capabilities from specialized teachers through supervision on student-generated trajectories. However, different evaluation dimensions, such as aesthetics and OCR accuracy, and different tasks, such as image generation and editing, emphasize different aspects of the denoising process, suggesting that their effective supervision may occur at different stages. Existing methods typically select supervision states from predefined timestep distributions, which may overlook these phase-dependent differences and incur unnecessary computational overhead. This motivates two critical timing decisions: when to adaptively query teachers for effective supervision based on the evolving generative process, and when to skip the remaining rollout to avoid redundant computation. In this paper, we introduce PhaseOPD, a phase-aware query-and-skip framework that identifies generative phases online from revisions of predicted-clean latents, using existing student velocity predictions without additional model evaluations. For each task-assigned teacher, PhaseOPD selects a supervision state based on its phase preference and skips the unused rollout suffix once all query decisions are finalized, preserving the single-query velocity-distillation objective. On SD3.5-M, PhaseOPD executes only 5.56 of 16 rollout positions per local batch, reducing training time by 41.3% relative to DanceOPD while improving Aesthetic, GenEval, and OCR scores.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.34191",
+      "pdf_url": "https://arxiv.org/pdf/2610.34191",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34177",
+      "versioned_id": "2610.34177v1",
+      "title": "Freeze What Is Settled, Cache What Is Smooth: Spatial Freezing Keeps Step Caching in Its Low-Error Regime",
+      "authors": [
+        "Baiyan Li",
+        "Ganxuan Yang"
+      ],
+      "published": "2026-10-25T09:13:45Z",
+      "updated": "2026-10-25T09:13:45Z",
+      "abstract": "Instruction-based image editors built on diffusion transformers run tens of denoising steps. Training-free acceleration either reuses features across steps (step caching) or stops computing the regions an edit leaves untouched (region freezing), and the two have been combined before. We ask how a high speed-up target should be split between them. On Qwen-Image-2.1, freezing does more than remove tokens: it lowers the cost of every step, so the step cache can reach the same overall speed-up with a conservative threshold that keeps its error small. A per-step cost model fitted on development runs predicts held-out latency with a median error of 4.0% and reproduces the speed ceilings of the region methods we re-implemented (2.73$\\times$ predicted vs. 2.70$\\times$ measured for RegionE). Driving frozen tokens to the model's one-step $x_0$ estimate beats returning them to the reference image on every development sample, and in 90% of measured cases the composed error stays below the sum of the two individual errors. The resulting method, FreezePlan, keeps five full steps and gives the rest of the budget to TaylorSeer. On a pre-registered test split it runs 5.05$\\times$ faster end to end at 29.8 dB PSNR to the original output, with no significant drop in a VLM judge score; TaylorSeer at 5.02$\\times$ reaches 23.5 dB. The curve extends to 5.99$\\times$ at 28.0 dB. Swapping in the region selectors of prior methods under our schedule lowers median PSNR by only 0.5--0.6 dB, which places the gain in the schedule and budget split rather than in the selector.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "url": "https://arxiv.org/abs/2610.34177",
+      "pdf_url": "https://arxiv.org/pdf/2610.34177",
+      "code_urls": [],
+      "comment": "10 pages, 7 figures",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34103",
+      "versioned_id": "2610.34103v1",
+      "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding",
+      "authors": [
+        "Shahriar Kabir Nahin",
+        "Xiao Ye",
+        "Muhao Chen",
+        "Ben Zhou",
+        "Anshuman Chhabra"
+      ],
+      "published": "2026-10-25T07:00:45Z",
+      "updated": "2026-10-25T07:00:45Z",
+      "abstract": "Speculative decoding significantly accelerates autoregressive text generation in Large Language Models (LLMs), but its efficacy depends largely on two key factors: the distributional alignment between the draft and the target model, and the draft model's latency during inference. However, existing approaches typically utilize independently pretrained small draft models or seek to prune the target model to a manually chosen architecture, thereby failing to explicitly balance the trade-off between draft model alignment and token generation efficiency. To address this gap, we formulate draft model design as an optimization problem and propose T2D, a framework that constructs draft models directly from the target model using latency-aware structured pruning and knowledge distillation. In this manner, T2D obtains draft models that are jointly optimized for both measured inference latency and cross-entropy loss on the target model's responses, resulting in superlative speculative decoding performance. Through extensive experiments on multi-domain speculative decoding benchmarks and across several target model families of differing scale, we demonstrate how T2D prunes up to 92\\% of the target model to obtain highly performant draft models compared to competitive baselines. Moreover, draft models obtained via T2D can also be utilized by other speculative decoding token-alignment and knowledge distillation methods in a plug-and-play fashion, leading to further gains. Our findings underscore the importance of jointly navigating the draft model architecture-alignment frontier to unlock the full potential of speculative decoding for LLMs.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.34103",
+      "pdf_url": "https://arxiv.org/pdf/2610.34103",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "distillation",
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.34092",
+      "versioned_id": "2610.34092v1",
+      "title": "Learning the Autoregressive: Direct Score-Difference Estimation with Amortized Future Credit for Video Distillation",
+      "authors": [
+        "Zixuan Duan",
+        "Yabo Chen",
+        "Xunzhi Xiang",
+        "Xin Zhang",
+        "Haibin Huang",
+        "Yin Chen",
+        "Chi Zhang",
+        "Qi Fan"
+      ],
+      "published": "2026-10-25T06:44:06Z",
+      "updated": "2026-10-25T06:44:06Z",
+      "abstract": "Few-step distillation for autoregressive (AR) video generation commonly first initializes an AR student and then refines it with distribution matching distillation (DMD). This refinement process faces two challenges. First, although initialization already yields a reasonably capable student, DMD obtains the refinement direction indirectly by estimating the full student score before forming the teacher-student correction. Second, detached-history training prevents the generator from assigning credit to a current chunk for its influence on subsequent chunks. We introduce Leta, a few-step distillation framework that addresses these challenges with ScoreDelta and FutureCredit. ScoreDelta directly estimates the teacher-student correction from denoising residuals, while FutureCredit learns an auxiliary cross-chunk update signal from vector-Jacobian products (VJPs) of next-chunk teacher residuals. Leta combines these signals into a joint teacher-guided update field in a single forward pass during generator updates. Teacher evaluations and credit VJPs are used only for estimator training. For ScoreDelta, we establish population equivalence to score-difference estimation and a conditional approximation advantage under limited capacity in a fixed-feature linear model. In our controlled experiments, Leta improves over DMD by 0.9 points on VBench and 0.66 on VideoAlign. This advantage persists at a higher generator update frequency (a generator-to-estimator update ratio of G:E=1:1), where Leta improves over DMD by 1.6 on VBench and 0.35 on VideoAlign. Project page: https://scdzx.github.io/Leta/.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.34092",
+      "pdf_url": "https://arxiv.org/pdf/2610.34092",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33964",
+      "versioned_id": "2610.33964v1",
+      "title": "QECGBERT: A Scalable ECG Foundation Model Based on Self-Supervised Language Learning via VQ-VAE Waveform Tokenization",
+      "authors": [
+        "Aruna Mohan",
+        "Burcu Ozek",
+        "Or Zilbershot",
+        "Fatemeh Afghah"
+      ],
+      "published": "2026-10-25T00:37:53Z",
+      "updated": "2026-10-25T00:37:53Z",
+      "abstract": "AI foundation models play a pivotal role in advancing heart disease diagnosis from electrocardiogram (ECG) data, particularly for rare diseases where the lack of sufficient labeled data hinders supervised learning. However, most self-supervised learning methods treat ECGs as generic sequence or image data without exploiting underlying physiological structure. To address this limitation, we propose QECGBERT, a self-supervised ECG language model that explicitly encodes physiological semantics by tokenizing the P, QRS, T, and isoelectric background waveforms. Vector-quantized variational autoencoder (VQ-VAE) tokenization is applied to each 12-lead ECG, with tokens enriched by continuous waveform features to preserve morphology lost during quantization without increasing sequence length. This design enables compact BERT masked language modeling with short sequences, improving scalability and reducing computational cost relative to long-sequence approaches. QECGBERT applies BERT pre-training to the MIMIC-IV dataset containing over 800,000 unlabeled ECG recordings, and fine-tuning on labeled PTB-XL, CPSC2018, and Chapman--Shaoxing--Ningbo datasets for evaluation. The results demonstrate that QECGBERT achieves comparable or superior performance to published benchmarks, offering a scalable, physiologically aware approach to ECG foundation modeling for cardiac diagnosis.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.33964",
+      "pdf_url": "https://arxiv.org/pdf/2610.33964",
+      "code_urls": [],
+      "comment": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Submitted to IEEE ICASSP 2027",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33857",
+      "versioned_id": "2610.33857v1",
+      "title": "TrackTok: Object-Centric Video Tokenization with Semantically Persistent Tokens",
+      "authors": [
+        "Nhi Pham",
+        "Christopher Wewer",
+        "Bernt Schiele",
+        "Jonas Fischer",
+        "Jan Eric Lenssen"
+      ],
+      "published": "2026-10-24T18:57:47Z",
+      "updated": "2026-10-24T18:57:47Z",
+      "abstract": "We introduce TrackTok, an efficient video tokenization framework that produces object-centric tokens, i.e., tokens that consistently encode the same semantic objects across time, even as it moves, deforms, or undergoes partial occlusion. Conventional patch-based or existing holistic tokenizers produce token identities often tied to fixed image locations. In contrast, our approach learns temporally persistent object-centric representations that bind visual features across frames into stable semantic units. This enables substantially more compact, continuous latent video representations, reducing the number of tokens required for downstream generative modeling with state-of-the-art flow models, while preserving the semantic structure needed for high-quality synthesis. Our tokenizer offers a favorable quality-efficiency trade-off. TrackTok achieves comparable class-conditional generative FVD on UCF-101 dataset at 8 times fewer latent tokens and better latency, and outperforms existing 1D tokenization baselines on frame prediction task on Kinetics-600 across low token budgets. These results suggest that object-aligned and temporally persistent tokenization is a promising direction for scalable video generation, where reducing latent token counts is critical for efficient modeling. Our code for this work is available at https://github.com/phamleyennhi/tracktok.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.33857",
+      "pdf_url": "https://arxiv.org/pdf/2610.33857",
+      "code_urls": [
+        "https://github.com/phamleyennhi/tracktok"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33813",
+      "versioned_id": "2610.33813v1",
+      "title": "Task Format as a Factor in Adaptation: A Controlled Comparison of LoRA and Full Fine-Tuning for Prompt-Safety Classification",
+      "authors": [
+        "John Alderete",
+        "Srirakshith Betageri",
+        "Jennifer Flynn",
+        "Alex Greenhalgh",
+        "Josh Rubin",
+        "Yoshita Varma Annam"
+      ],
+      "published": "2026-10-24T17:24:54Z",
+      "updated": "2026-10-24T17:24:54Z",
+      "abstract": "Fine-tuning a language model for classification involves many design decisions. Comparisons of low-rank adaptation (LoRA) with full fine-tuning are common but often confounded, and task format is rarely studied. We compare both regimes on prompt-safety classification with a matched 400M encoder-decoder pair (Ettin) across three task formats, with up to 15 seeds per cell and pre-specified analyses. At the pre-specified learning rates, full fine-tuning leads LoRA by 2-3 pp in every architecture and format trained on the label alone. On the encoder, the gap closes once both rates are chosen by the same search. Training LoRA to write a reason after its verdict adds 4.0 pp and closes the gap, but a content-free sentence of equal length does not. Trained models score above a prompted 8B in domain but fall behind it on two of three out-of-distribution corpora, trailing by 8-23 pp on adversarial jailbreaks and flagging 27-66% of benign but harmful-looking prompts as unsafe, against the 8B's 2-3%. Together, the results suggest that the adaptation regime matters less than how each model is trained, its learning rate, and training target, and that in-domain accuracy alone is an incomplete guide to robustness.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.33813",
+      "pdf_url": "https://arxiv.org/pdf/2610.33813",
+      "code_urls": [],
+      "comment": "33 pages (14 pages main text, plus references and appendices), 1 figure, 18 tables",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33740",
+      "versioned_id": "2610.33740v1",
+      "title": "A Distribution-Matching Perspective on LLM Training Algorithms",
+      "authors": [
+        "Yanxing Huang",
+        "Bingzhang Yan",
+        "Zihan Tang",
+        "Wenzhe Li",
+        "Peng Li",
+        "Yang Liu"
+      ],
+      "published": "2026-10-24T15:30:39Z",
+      "updated": "2026-10-24T15:30:39Z",
+      "abstract": "In this work, we propose a unified framework for training algorithms across different stages of modern large language model development, based on the perspective of distribution matching. We show that a broad class of language model training algorithms can be interpreted as minimizing a certain divergence between the current model and a target distribution, and that characterizing the properties of this target distribution provides substantial insight into the behavior of the corresponding training algorithms. By analyzing specific forms of the target distribution, we establish that On-Policy Distillation (OPD) enjoys an advantage over classical Knowledge Distillation (KD) when the current model distribution is close to the target distribution, while exhibiting a disadvantage when the two distributions are far apart. Furthermore, when the target distribution itself depends on the model being optimized, we show that the accumulation of estimation variance can induce a deterministic degradation of the target distribution. These results provide a theoretical explanation, at least in part, for the long-term behavior of existing Reinforcement Learning (RL) algorithms. With this intuition we further designed Conditional KL (CKL) regularization for mitigating the degradation of the target distribution. CKL can effectively preserve mode diversity while relaxing the constraint imposed by classical KL regularization on reward improvements. We believe this theoretical perspective can bring some new understanding of language model training algorithms and provide useful guidance for future research.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.33740",
+      "pdf_url": "https://arxiv.org/pdf/2610.33740",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33719",
+      "versioned_id": "2610.33719v1",
+      "title": "ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding",
+      "authors": [
+        "Yuetao Chen",
+        "Peng Wang",
+        "Hong Xu"
+      ],
+      "published": "2026-10-24T15:07:10Z",
+      "updated": "2026-10-24T15:07:10Z",
+      "abstract": "The key-value (KV) cache places growing demands on GPU memory capacity and bandwidth as large language models serve longer contexts and more concurrent requests. Its footprint limits concurrency, while repeated KV reads during attention can make decoding memory-bandwidth bound. Prior lossless KV cache compression methods reduce transfers between devices but restore the uncompressed KV cache in GPU memory before attention. They therefore leave these repeated KV reads unchanged and require additional work and memory for decompression. We present ZipFusion, which enables attention to consume the losslessly compressed KV cache directly. ZipFusion co-designs the compression format and attention kernel to reduce the bytes read from GPU memory during attention. The kernel reconstructs the original values directly in registers using simple bit operations, avoiding a separate decompression pass and easing the memory-bandwidth bound. ZipFusion also reassigns memory freed by compression across layers to store additional KV cache. Its memory manager reserves space for ongoing generation and makes the remaining capacity available to new requests. We implement ZipFusion on top of FlashInfer and integrate it with SGLang. On an NVIDIA H100, ZipFusion achieves about 1.25x speedup over FlashInfer in decode attention. With 8K context, it improves model decode throughput by up to 26.3% over uncompressed SGLang under the same GPU memory budget. At each method's largest supported batch, it also delivers up to 2.76x the throughput of the best-performing lossless KV cache compression baseline.",
+      "arxiv_categories": [
+        "cs.AR",
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.33719",
+      "pdf_url": "https://arxiv.org/pdf/2610.33719",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33688",
+      "versioned_id": "2610.33688v1",
+      "title": "Rescuing Your Pruning: Rethinking Visual Token Pruning and Post-Training Recovery in MLLMs",
+      "authors": [
+        "Peiran Yin",
+        "Hao Wu",
+        "Zihao Yang",
+        "Haozhe Hu",
+        "Xudong Wang",
+        "Xiaoyu Shen"
+      ],
+      "published": "2026-10-24T14:11:58Z",
+      "updated": "2026-10-24T14:11:58Z",
+      "abstract": "Visual token pruning substantially reduces the inference cost of multimodal large language models (MLLMs), yet existing methods are mostly training-free and plug-and-play. They treat the resulting performance drop as an inevitable cost of compression and pursue increasingly complex pruning rules. We rethink this view through two questions: how much of the loss can post-training rescue, and, building on this recovery, how can joint compression push pruning to its limit? We curate a 282K-sample post-training mixture covering general VQA, reasoning, OCR, and grounding, and post-train 36 configurations that drop or merge tokens under a unified protocol. Post-training rescues most of the loss, even for OCR and grounding, and its adaptation gain in closing the gap between the pruned and the dense model grows as the budget tightens. For joint compression, we find that the vision encoder, not the LLM, dominates prefill time in native-resolution MLLMs, so where tokens are removed matters more than how many: keeping 40% of tokens at the encoder runs faster than keeping 10% at the projector. Our best configuration prunes the encoder lightly and the projector aggressively, leaves the LLM intact, and keeps general understanding and reasoning at the dense level. It accelerates the LLM stage by 3.49x but the end-to-end time-to-first-token by only 1.54x, showing that LLM-stage speedups overstate end-to-end gains. We hope these findings offer insights for future research on joint visual token compression. Our data, protocol, and code will be released.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.33688",
+      "pdf_url": "https://arxiv.org/pdf/2610.33688",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33625",
+      "versioned_id": "2610.33625v1",
+      "title": "RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches",
+      "authors": [
+        "Tianqi Chen",
+        "Xunchao Li",
+        "Linchuan Xie",
+        "Guanghua Yu",
+        "Jianchen Zhu",
+        "Peisong Wang",
+        "Jian Cheng"
+      ],
+      "published": "2026-10-24T11:54:55Z",
+      "updated": "2026-10-24T11:54:55Z",
+      "abstract": "Multi-Head Latent Attention (MLA) has been adopted by recent frontier large language models. Instead of per-head keys and values, MLA caches a compressed KV latent that is up-projected into keys and values at decode time, together with a narrow positional key that carries position information into the attention score. Existing KV-cache quantization methods are designed around the keys and values of standard attention and do not account for what MLA actually caches, which costs accuracy at low bit widths. We analyze the MLA cache both in activation distribution and in how quantization error propagates to the attention output, and show that the two cached tensors play different roles: the latent mainly supplies the values, whereas the positional key dominates the attention score. We therefore propose RAQ-MLA (Role-Aware Quantization for Multi-Head Latent Attention Caches), which fits an invertible transform to each cached tensor against the error that tensor delivers to the attention output: attention-weighted value error for the latent and score perturbation for the positional key. Without training, RAQ-MLA quantizes the full MLA cache to about 2.5 bits per element, a 6.5x increase in theoretical KV-cache capacity, while remaining nearly lossless on reasoning and coding tasks across four MLA models.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.33625",
+      "pdf_url": "https://arxiv.org/pdf/2610.33625",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33599",
+      "versioned_id": "2610.33599v1",
+      "title": "H-GLow: Accelerating Graph Generation via Hazard-Guided Discrete Flow Matching",
+      "authors": [
+        "Sirine Ayadi",
+        "Stephan Günnemann"
+      ],
+      "published": "2026-10-24T10:52:19Z",
+      "updated": "2026-10-24T10:52:19Z",
+      "abstract": "Discrete flow matching (DFM) offers a promising approach to graph generation; however, generating high-quality graphs with few steps remains challenging due to the strong dependencies between nodes and edges. Although DFM decouples training from sampling, enabling flexible sampling strategies without retraining, existing graph DFM samplers often rely on task-specific heuristics, substantially expanding the hyperparameter space. Moreover, graph DFM models still require sampling budgets comparable to those of diffusion-based approaches, leaving their potential for accelerating graph generation only partially realized. In this work, we introduce H-Glow, a hazard-guided framework for accelerating graph generation built on the decomposition of Continuous-Time Markov chain (CTMC) generators into hazards and conditional jump distributions. H-Glow leverages these quantities to plan graph edits and dynamically adjust the sampling time to graph activity. H-Glow can be adapted to pretrained graph DFM models, substantially improving the generation quality with fewer steps. We further introduce a novel graph DFM model based on the conditional generator matching framework, which directly predicts hazards and conditional jumps, and show that its training objective decomposes exactly into hazard matching and hazard-weighted jump prediction. Experiments on molecular and synthetic graph benchmarks demonstrate improved generation quality with substantially fewer sampling steps.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.33599",
+      "pdf_url": "https://arxiv.org/pdf/2610.33599",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33581",
+      "versioned_id": "2610.33581v1",
+      "title": "UltraFlash: Accelerating Megapixel Visual Synthesis",
+      "authors": [
+        "Phuc Lai",
+        "Anh Nguyen",
+        "Phong Nguyen",
+        "Anh Tran"
+      ],
+      "published": "2026-10-24T10:19:20Z",
+      "updated": "2026-10-24T10:19:20Z",
+      "abstract": "Megapixel visual synthesis with latent diffusion models requires operating far beyond the resolutions at which these models are typically trained. Cascade refinement is a leading strategy for this setting: it starts from a base image at a native resolution and progressively upsamples it to the target resolution through multiple refinement stages. Each stage typically performs a pixel-space resolution transition followed by latent-space denoising. While prior acceleration efforts mainly focus on reducing denoising cost, we identify a complementary and underexplored bottleneck: the repeated movement of representations through the VAE. We call these operations pixel-space transitions. In cascade pipelines, intermediate latents are often decoded to RGB, resized, and re-encoded before refinement, while final latents are decoded patch by patch with dense overlap to suppress boundary artifacts. We propose UltraFlash, a transition-efficient approach that accelerates these VAE-heavy operations. UltraFlash has two components. Latent Hyperloop replaces intermediate RGB round trips with a learned latent-space shortcut that approximates the decode-resize-encode transformation without repeated VAE decoding and encoding. Sparse Patch-based Decoding accelerates final reconstruction by addressing patch seams caused by inconsistent GroupNorm statistics and reusing cached statistics across patches, enabling sparse VAE decoding with much smaller overlap. Integrated into a state-of-the-art cascade baseline, UltraFlash reduces 4K generation latency by approximately 2x while improving image quality. These results show that optimizing pixel-space transitions can improve both efficiency and fidelity, offering an effective route toward fast, high-quality megapixel visual synthesis.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.33581",
+      "pdf_url": "https://arxiv.org/pdf/2610.33581",
+      "code_urls": [],
+      "comment": "Accepted to NeurIPS 2026",
+      "journal_ref": "",
+      "topics": [
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33501",
+      "versioned_id": "2610.33501v1",
+      "title": "DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving",
+      "authors": [
+        "YuXuan Lin",
+        "KeQiang Wu",
+        "Kingsum Chow"
+      ],
+      "published": "2026-10-24T07:10:20Z",
+      "updated": "2026-10-24T07:10:20Z",
+      "abstract": "Large language model (LLM) serving relies on batching to improve inference throughput, but the key-value (KV) cache grows with sequence length and limits GPU-resident concurrency. CPU offloading can expand KV capacity using host memory, yet existing systems remain largely GPU-gated: CPU-resident requests make progress only when the GPU scheduler exposes suitable overlap opportunities. As a result, host memory and CPU compute cannot act as an independent serving resource, leading to bursty CPU-side progress and inflated tail inter-token latency (ITL) under load. We present DualPace, an LLM serving runtime that turns the host into an independently scheduled decode engine. DualPace separates scheduling authority across two engines: the GPU engine executes prefills and GPU-resident decodes, while an AMX-enabled CPU engine independently batches and advances CPU-resident decodes. The engines are decoupled in scheduling but cooperative in execution: the CPU can execute a complete decode iteration locally or selectively invoke GPU Dense Assist for dense stages, while offline profiles guide hardware-specific batching and routing. Our evaluations show that, in decode-oriented scenarios, DualPace improves serving throughput by 6.9--43.2\\% over NEO, a state-of-the-art open-source CPU-offloading system, and by 11.5--90.6\\% over vLLM, a widely used GPU serving system, while maintaining the same level of latency. DualPace also preserves NEO's P99 time-to-first-token (TTFT) advantage over vLLM while sustaining 7.3--50.5\\% higher request rates than NEO at the same level of P99 ITL.",
+      "arxiv_categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.33501",
+      "pdf_url": "https://arxiv.org/pdf/2610.33501",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33404",
+      "versioned_id": "2610.33404v1",
+      "title": "COPE: Composable Performance Emulation for Mixture-of-Experts Offloading Policies",
+      "authors": [
+        "Hanming Zhang",
+        "Erhu Feng"
+      ],
+      "published": "2026-10-24T02:29:21Z",
+      "updated": "2026-10-24T02:29:21Z",
+      "abstract": "As LLMs scale, mixture-of-experts (MoE) architectures increase model capacity while keeping per-token computation manageable through sparse expert activation. This sparsity also enables memory-efficient deployment by retaining most expert weights in CPU memory and transferring or executing only the routed experts on demand. Existing MoE offloading systems typically target specific model-platform configurations, yet differences in model sparsity, CPU and GPU throughput, VRAM capacity, and host-device bandwidth can change the policy ranking. Because implementing and exhaustively evaluating all candidate policies incurs substantial engineering cost, efficiently selecting the best-performing policy for each model-platform configuration remains a key challenge for practical MoE offloading. We present COPE (Composable Offloading Policy Emulator), which selects the best-performing MoE offloading policy for a target model-platform configuration before runtime integration. COPE comprises two components. Its Policy Matrix factors the design space into two independent axes, expert residency and MoE execution strategy, enabling mechanism reuse across candidate policies and exposing four new candidates. Its Virtual Heterogeneous Machine profiles combined-operator schedules on the target platform and combines these measurements with offline routing traces to estimate candidate performance. Compared with the evaluated baselines, COPE improves fastest-policy selection accuracy by 24%-100% and reduces performance-prediction error by $1.7\\times$ to $6.8\\times$. By identifying the preferred policy before integration, COPE further reduces policy-specific implementation effort by up to 74%.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "url": "https://arxiv.org/abs/2610.33404",
+      "pdf_url": "https://arxiv.org/pdf/2610.33404",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33396",
+      "versioned_id": "2610.33396v1",
+      "title": "Fast Instinct, Slow Reason: A Dual-Speed Agentic Framework for Self-Configuring Multi-Object Tracking in Satellite Video",
+      "authors": [
+        "Fan He",
+        "Baining Wu",
+        "Yan Li",
+        "Xiaoyang Zeng"
+      ],
+      "published": "2026-10-24T02:06:09Z",
+      "updated": "2026-10-24T02:06:09Z",
+      "abstract": "Multi-object tracking in satellite video underpins persistent monitoring, yet offline-tuned trackers lack the onboard intelligence and efficiency to adapt within an observation of tens of seconds. The root is that adaptation still means relabelling and retraining the detector, which cannot run on board in time. Tuning the tracker configuration strongly controls accuracy without touching the network, yet search needs labelled or proxy evaluations, and a language agent costs seconds and tokens per decision. We propose a dual-speed agentic framework pairing a fast instinct compiled offline with a slow reason serving the mission. Its algorithm, Arbitration of Unlabelled Shortlists from Prior Experience, or AUSPEX, learns a covering shortlist and a label-free ranker from labelled source tasks and commits one configuration per sequence. Its system, a Cascaded Onboard Runtime with Verified Uplinked Skills, or CORVUS, cascades reflex, skill, and agent layers, so that a verified skill commits 2.5 s into each observation while a language agent serves natural- language missions. On SatMTB and SatVideoDT with three recent detectors, AUSPEX raises IDF1 by 2.84 to 2.94 points and MOTA by 3.21 to 3.29 points on average without target labels, balances accuracy and labels best among sixteen methods, and loses at most 0.28 IDF1 points at 1.25 tracking passes. CORVUS executes four missions with execution accuracy up to 0.99 and target recall at the perception ceiling, spends no token on the routine decision, runs on Jetson Xavier NX, and hosts fifteen language models from six families without altering any commitment, demonstrating its extensibility and generalization.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.33396",
+      "pdf_url": "https://arxiv.org/pdf/2610.33396",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33379",
+      "versioned_id": "2610.33379v1",
+      "title": "One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting",
+      "authors": [
+        "Yuxiao Chen",
+        "Changxiao Cai"
+      ],
+      "published": "2026-10-24T00:24:46Z",
+      "updated": "2026-10-24T00:24:46Z",
+      "abstract": "Autoregressive (AR) language models generate tokens sequentially, so generating long outputs is costly. Speculative decoding mitigates this by using a lightweight drafter to propose multiple tokens for the target AR model to verify in parallel, while a diffusion-based drafter can produce an entire draft block in one forward pass. In models with AR and diffusion modes, one network both drafts and verifies, but drafting still waits for verification, so the standard schedule needs two sequential model calls per iteration. Existing one-call schedules avoid the wait but incur input size quadratic in the speculative width. Motivated by this efficiency bottleneck, we introduce Packed-SS, a self-speculative decoding schedule that verifies and drafts in a single model call with input size linear in the speculative width, while preserving the target model's distribution. The key idea is to let the diffusion drafter run one call ahead: while verifying the current draft, the model simultaneously constructs the next draft from an older verified prefix and keeps its unresolved suffix for the next iteration. Under a mild monotonicity assumption on the drafter, we further show that Packed-SS requires no more model calls than the standard two-call decoding in the greedy setting. Experiments on Nemotron 3B/8B and SetDLM 1.7B show higher throughput and lower mean wall time than both baselines under greedy decoding.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.33379",
+      "pdf_url": "https://arxiv.org/pdf/2610.33379",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "2610.33215",
+      "versioned_id": "2610.33215v1",
+      "title": "Vision Token Pruning via Query-Vision Interaction Decomposition",
+      "authors": [
+        "Harshithanjani Athi",
+        "Sravan Kumar Ankireddy",
+        "Jianzhong Charlie Zhang",
+        "Hyeji Kim"
+      ],
+      "published": "2026-10-23T19:06:29Z",
+      "updated": "2026-10-23T19:06:29Z",
+      "abstract": "Large vision-language models (VLMs), which process both visual inputs and text queries, incur high inference costs due to the large number of visual tokens, making visual token pruning a natural approach for improving efficiency. Recent work has leveraged query information to guide token selection, often through heuristics derived from attention patterns or token dynamics. However, these approaches do not explicitly exploit the underlying structure of query-vision interactions. We address this gap by observing that the query-vision interaction matrix, naturally induced by the query and key projections already present in transformer attention, is effectively low-rank, with a small number of dominant latent interaction modes capturing query-relevant semantics. Motivated by this observation, we propose Query-Vision Decomposition (QViD), a novel training-free query-aware visual token pruning method that exploits this structure. Extensive experiments on both image and video understanding benchmarks show that QViD consistently improves performance under matched token budgets, with the largest gains appearing under aggressive compression regimes.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.33215",
+      "pdf_url": "https://arxiv.org/pdf/2610.33215",
+      "code_urls": [],
+      "comment": "10 pages for the main paper, 8 figures including supplementary material, accepted at NeurIPS 2026",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-10-27"
+    },
     {
       "id": "2610.32964",
       "versioned_id": "2610.32964v1",
@@ -191,7 +1293,7 @@
     },
     {
       "id": "2610.32417",
-      "versioned_id": "2610.32417v1",
+      "versioned_id": "2610.32417v2",
       "title": "Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents",
       "authors": [
         "Stephen Abkin",
@@ -203,15 +1305,15 @@
         "David Kebo Houngninou"
       ],
       "published": "2026-10-23T09:48:03Z",
-      "updated": "2026-10-23T09:48:03Z",
-      "abstract": "Quantization reduces the memory and energy needed to serve large language models (LLMs) and AI agents for coding and data analysis can now run on locally hosted LLMs. In practice, this benefit is commonly benchmarked per output token. Yet an agent calls its model repeatedly, runs tools, and revises its work, and quantization can change both how much the agent generates and whether it succeeds. Existing energy studies either compare quantized models on single requests or measure agents at one fixed precision, overlooking how a change in precision plays out across a complete agent task. To address this gap, this paper presents the first characterization of the task-level energy trade-offs of model quantization in locally hosted agents. We develop 29 agent tasks with automatic pass/fail checks in six families, ranging from single-answer SQL analytics to multi-step repository bug fixing, and measure CPU and GPU energy per output token and per completed task for 4-bit and 8-bit versions of two open-weight models on bare-metal NVIDIA A100 nodes with llama.cpp. Our findings reveal that 4-bit precision generally saves energy per token, though whether it saves energy per completed task is task dependent and changes with the model and the execution budget (i.e., limits on turns, tokens, and time). We trace this discrepancy to the extra tokens needed to complete a task in full, which translates into using up to 3.5 times as much energy per completed task. These findings offer actionable guidance for developers and operators choosing model precision for agents, showing how tokens per completed task, set against the per-token saving, reveal whether lower precision completes the work with less energy.",
+      "updated": "2026-10-26T03:54:38Z",
+      "abstract": "Quantization reduces the memory and energy needed to serve large language models (LLMs) and AI agents for coding and data analysis can now run on locally hosted LLMs. In practice, this benefit is commonly benchmarked per output token. Yet an agent calls its model repeatedly, runs tools, and revises its work, and quantization can change both how much the agent generates and whether it succeeds. Existing energy studies either compare quantized models on single requests or measure agents at one fixed precision, overlooking how a change in precision plays out across a complete agent task. To address this gap, this paper presents the first characterization of the task-level energy trade-offs of model quantization in locally hosted agents. We develop 29 agent tasks with automatic pass/fail checks in six families, ranging from single-answer SQL analytics to multi-step repository bug fixing, and measure CPU and GPU energy per output token and per completed task for 4-bit and 8-bit versions of two open-weight models on bare-metal NVIDIA A100 nodes with llama$.$cpp. Our findings reveal that 4-bit precision generally saves energy per token, though whether it saves energy per completed task is task dependent and changes with the model and the execution budget (i.e., limits on turns, tokens, and time). We trace this discrepancy to the extra tokens needed to complete a task in full, which translates into using up to 3.5 times as much energy per completed task. These findings offer actionable guidance for developers and operators choosing model precision for agents, showing how tokens per completed task, set against the per-token saving, reveal whether lower precision completes the work with less energy.",
       "arxiv_categories": [
         "cs.PF"
       ],
       "url": "https://arxiv.org/abs/2610.32417",
       "pdf_url": "https://arxiv.org/pdf/2610.32417",
       "code_urls": [],
-      "comment": "26 pages, 7 figures",
+      "comment": "26 pages, 7 figures. Corrected automatic linking of the software name in the abstract; manuscript unchanged",
       "journal_ref": "",
       "topics": [
         "quantization"
@@ -278,7 +1380,7 @@
     },
     {
       "id": "2610.32381",
-      "versioned_id": "2610.32381v1",
+      "versioned_id": "2610.32381v2",
       "title": "UniWorld: A Unified World Model for Real-Time Visual World Simulation",
       "authors": [
         "Xin Zhang",
@@ -290,15 +1392,15 @@
         "Xuelong Li"
       ],
       "published": "2026-10-23T09:09:32Z",
-      "updated": "2026-10-23T09:09:32Z",
-      "abstract": "Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geometry, and keeps the conditioning fixed within each sampling window. Together, these mechanisms ensure exact preservation of latent history while bounding the active depth state by the window size. We evaluate continuous generation, paired history interventions, and long-horizon behavior across diverse scene categories. The same generator supports estimated, native, and on-demand simulator depth, while cached and incremental execution paths produce bitwise-identical outputs. Appearance changes and geometric control branches operate through the same interface without modifying committed history. The measured steady-state DiT execution path achieves real-time generation throughput, demonstrating the efficiency of UniWorld for continuous visual world simulation.",
+      "updated": "2026-10-26T06:24:32Z",
+      "abstract": "Continuous visual world simulation requires coupling evolving scene geometry with temporally persistent appearance. We present UniWorld, a unified framework that integrates depth trajectories and reference appearance within a shared video generation model. The central design maintains visual and geometric histories on a common timeline. Noise-aligned overlapping continuation places generated history at the prescribed sampling noise level and commits only newly generated latents. Rolling depth latent state preserves the corresponding geometric controls, incrementally reads newly available geometry, and keeps the conditioning fixed within each sampling window. Together, these mechanisms ensure exact preservation of latent history while bounding the active depth state by the window size. We evaluate continuous generation, paired history interventions, and long-horizon behavior across diverse scene categories. The same generator supports estimated, native, and on-demand simulator depth, while cached and incremental execution paths produce bitwise-identical outputs. Appearance changes and geometric control branches operate through the same interface without modifying committed history. The measured steady-state DiT execution path achieves real-time generation throughput, demonstrating the efficiency of UniWorld for continuous visual world simulation. Project page: https://zephipage.github.io/UniWorld.",
       "arxiv_categories": [
         "cs.CV"
       ],
       "url": "https://arxiv.org/abs/2610.32381",
       "pdf_url": "https://arxiv.org/pdf/2610.32381",
       "code_urls": [],
-      "comment": "",
+      "comment": "Project page: https://zephipage.github.io/UniWorld",
       "journal_ref": "",
       "topics": [
         "visual-generation"
@@ -1006,20 +2108,22 @@
     },
     {
       "id": "2610.30861",
-      "versioned_id": "2610.30861v1",
-      "title": "Direct Forcing: A Single-Stage Training Recipe for Few-Step Autoregressive Text-to-Video Generation",
+      "versioned_id": "2610.30861v2",
+      "title": "Direct Forcing: Single-Stage Training with Representation-Space Supervision for Few-Step Autoregressive Video Generation",
       "authors": [
         "Haojun Xu",
         "Jie Huang",
+        "Chuyang Zhao",
         "Xin Lu",
         "Mingchen Zhong",
         "Zihao Fan",
+        "Haoyang Huang",
         "Linjiang Huang",
         "Si Liu"
       ],
       "published": "2026-10-22T07:41:41Z",
-      "updated": "2026-10-22T07:41:41Z",
-      "abstract": "Few-step autoregressive video generation enables low-latency streaming, yet prevailing training pipelines separate causal adaptation from distribution matching. Recent representation-based text-to-video methods retain this separation by starting from ODE-initialized checkpoints, even when the target distribution is defined directly by reference videos. We introduce Direct Forcing, a single-stage framework that uses reference videos both as paired examples of how a history continues and as a target population for self-generated rollouts. Causal Continuation Alignment learns paired spatiotemporal correspondence under reference histories, while Rollout Distribution Matching uses maximum mean discrepancy to align the representation distributions of self-generated and reference videos. Together, these complementary signals allow a pretrained video model to learn causal continuation and the target video distribution in a single training stage. Dynamic Gradient Balancing adapts the relative gradient contributions of continuation alignment and distribution matching during training. Starting from bidirectional Wan2.1-1.3B, Direct Forcing learns a four-step autoregressive generator in 250 updates without a separate initialization stage or online diffusion-score supervision, achieving 84.63 VBench Total and 86.01 Quality. Ablation studies further demonstrate the benefits of dynamic gradient balancing and reveal distinct representation preferences: deeper features benefit continuation alignment, whereas intermediate features yield better performance for rollout distribution matching.",
+      "updated": "2026-10-24T18:24:41Z",
+      "abstract": "Few-step autoregressive video generation enables low-latency streaming, yet prevailing training pipelines separate causal adaptation from distribution matching. Recent representation-based text-to-video methods retain this separation by starting with an ODE initialization stage, even when the target distribution is defined directly by reference videos. We introduce \\method, the first single-stage framework that uses reference videos both as paired examples of how a history continues and as a target population for self-generated rollouts. Specifically, Direct Forcing is trained with two complementary signals: (1) Causal Continuation Alignment learns paired spatiotemporal correspondence under reference histories; and (2) Rollout Distribution Matching employs maximum mean discrepancy to align the representation distributions of self-generated and reference videos. To coordinate these signals, we introduce Dynamic Gradient Balancing, which adapts their relative gradient contributions during training. Experiments with Wan2.1-1.3B show that Direct Forcing learns a four-step autoregressive generator in 250 updates without a separate ODE initialization stage or online diffusion-score supervision, achieving 84.63 VBench Total and 86.01 Quality.",
       "arxiv_categories": [
         "cs.CV",
         "cs.AI"
@@ -1069,7 +2173,7 @@
     },
     {
       "id": "2610.30844",
-      "versioned_id": "2610.30844v1",
+      "versioned_id": "2610.30844v2",
       "title": "Reverse-KL Policy Distillation: Statistical Guarantees and Limits",
       "authors": [
         "Haolin Liu",
@@ -1077,7 +2181,7 @@
         "Julian Zimmert"
       ],
       "published": "2026-10-22T07:19:49Z",
-      "updated": "2026-10-22T07:19:49Z",
+      "updated": "2026-10-25T05:16:41Z",
       "abstract": "Reverse Kullback-Leibler (KL) distillation has shown empirical promise for training language models, but its statistical guarantees and limits remain poorly understood. In particular, the effects of two design choices remain unclear: Does access to the teacher's full action distribution provide an advantage over observing only the probability it assigns to the sampled action? Must training trajectories come from the student (online distillation), or can teacher-generated trajectories (offline distillation) suffice? Our work takes a first step toward understanding the theory underlying these questions. We study the sample complexity of online reverse-KL distillation under two feedback models: the teacher reveals either its full action distribution or only the probability of the student-generated action. We establish minimax bounds for the former and show that substantially more data may be required for the latter. In contrast, offline reverse-KL distillation can attain the same minimax rate whether the teacher reveals its full distribution or only its probability of the teacher-generated action. The key distinction is that teacher-generated actions themselves reveal the teacher's preferences, while queries at student-selected actions can leave those preferences unobserved. This highlights an additional statistical challenge for online distillation compared to offline distillation. These statistical guarantees do not follow simply from optimizing standard distillation objectives: our lower bounds show that common online objectives can fail when candidates are evaluated only on past student-generated trajectories. We develop trajectory-loss and importance-ratio truncation techniques together with policy-space learning to achieve optimal online distillation guarantees.",
       "arxiv_categories": [
         "cs.LG"
@@ -1584,13 +2688,13 @@
     },
     {
       "id": "2610.29680",
-      "versioned_id": "2610.29680v2",
+      "versioned_id": "2610.29680v3",
       "title": "TraceForge: Distilling with Your Own Thinking",
       "authors": [
         "Yan Wang"
       ],
       "published": "2026-10-21T12:57:29Z",
-      "updated": "2026-10-22T14:22:58Z",
+      "updated": "2026-10-26T03:59:16Z",
       "abstract": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still entirely routine; the restriction applies to their own outputs alone. Recent work recovers the hidden reasoning by replaying encrypted blocks across models. It somehow works, but it breaks the providers' terms of service, so it is not something a product can be built on long-term. We built the alternative. We take the context and the teacher's answer as input, and generate the reasoning trace ourselves, in the style of the student's own model family. Training is two-stage, supervised and then adversarial: a generator learns to regenerate the family's own reasoning traces from their context and answer, and a critic learns how real a reasoning trace looks. Applied to a teacher's answer, the generator writes one in the family's style. An independent judge rates how likely traces are to be genuine on a scale from 0 to 1: ours average 0.68, real traces 0.66, and traces selected by the critic from four candidates 0.82. These are authenticity scores, not correctness rates. We test the idea on five benchmarks with everything else held fixed. On general tasks the five training corpora are about the same; on coding, the generated reasoning beats Fable 5's own thinking content. With the same 5,000 questions and the same teacher answers, HumanEval+ improves by 3.7 points and MBPP+ by 7.1 at the final checkpoint, and the MBPP+ lead holds at every checkpoint. We suspect that reasoning written in the student's family style is easier for it to learn from.",
       "arxiv_categories": [
         "cs.AI",
@@ -2982,6 +4086,33 @@
         "pruning"
       ],
       "first_seen": "2026-10-20"
+    },
+    {
+      "id": "2610.33062",
+      "versioned_id": "2610.33062v1",
+      "title": "Oddin: Latent Visual Reasoning in Unified Multimodal Models via Self-Distillation from Image Generation",
+      "authors": [
+        "Jaeyong Ko",
+        "Hankyeol Kim",
+        "Pilsung Kang"
+      ],
+      "published": "2026-10-19T14:07:28Z",
+      "updated": "2026-10-19T14:07:28Z",
+      "abstract": "Unified large multimodal models (ULMMs) are able to perform visual reasoning through interleaved text-image generation, but generating explicit intermediate images incurs significant computational overhead. While visual latent reasoning addresses this, most existing methods rely on vision-language models (VLMs) incapable of visual generation. We propose Oddin, a novel framework enabling latent visual reasoning in ULMMs. Oddin replaces intermediate images with compact latent tokens processed entirely by the understanding branch, reserving the generation branch for the final output image. We train the model via offline self-distillation with three objectives, final image generation losses, text distillation losses, and cross-entropy losses for special tokens. Oddin surpasses interleaved generation baselines and closed-source VLMs on average across seven VBVR-Pro visual reasoning tasks. Qualitative analysis reveals that latent tokens attend to relevant regions in an input image, demonstrating that ULMMs can perform complex visual reasoning without generating intermediate images.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.33062",
+      "pdf_url": "https://arxiv.org/pdf/2610.33062",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-10-27"
     },
     {
       "id": "2610.26370",

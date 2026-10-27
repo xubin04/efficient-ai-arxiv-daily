@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-194 papers · newest submission first
+198 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-26 | **Transporting Quantiles to Codebook: Scalable Vector Quantization without Codebook Collapse**<br><sub>Yuwei Zeng, Zekun Shi</sub> | [arXiv](https://arxiv.org/abs/2610.34828) · [PDF](https://arxiv.org/pdf/2610.34828) |
+| 2026-10-26 | **VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware**<br><sub>Borui Xu, Hongshi Tan, Wenqi Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34717) · [PDF](https://arxiv.org/pdf/2610.34717) |
+| 2026-10-25 | **QECGBERT: A Scalable ECG Foundation Model Based on Self-Supervised Language Learning via VQ-VAE Waveform Tokenization**<br><sub>Aruna Mohan, Burcu Ozek, Or Zilbershot et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33964) · [PDF](https://arxiv.org/pdf/2610.33964) |
+| 2026-10-24 | **RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches**<br><sub>Tianqi Chen, Xunchao Li, Linchuan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33625) · [PDF](https://arxiv.org/pdf/2610.33625) |
 | 2026-10-23 | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents**<br><sub>Stephen Abkin, Aldric Yang, Alex Flesher et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32417) · [PDF](https://arxiv.org/pdf/2610.32417) |
 | 2026-10-23 | **BiLoCo: Binary Low-Rank Corrections for Post-Training Quantization**<br><sub>David Jin, Beshr IslamBouli, Tarushii Goel et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32243) · [PDF](https://arxiv.org/pdf/2610.32243) |
 | 2026-10-23 | **MPQ: A Message-Passing View of Post-Training Quantization**<br><sub>Yanshuo Chen, Chenxi Liu, Reza Shirkavand et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32127) · [PDF](https://arxiv.org/pdf/2610.32127) · [Code](https://github.com/poseidonchan/MPQ) |
