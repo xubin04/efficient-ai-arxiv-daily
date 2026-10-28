@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-433 papers · newest submission first
+441 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **ALADDIN: Adversarial Latent Diffusion Distillation for One-Step Identity Swapping**<br><sub>Ivan Shchekotov, Timofei Gritsaev, Viacheslav Pirogov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37503) · [PDF](https://arxiv.org/pdf/2610.37503) |
+| 2026-10-27 | **RPSD: Retrieval-Privileged On-Policy Self-Distillation with Optimal Transport**<br><sub>Dongyue Li, Zebang Cheng, Zhongyi Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37281) · [PDF](https://arxiv.org/pdf/2610.37281) |
+| 2026-10-27 | **What Survives Distillation? A Mechanistic Interpretability Study of GPT-2 and DistilGPT-2**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37157) · [PDF](https://arxiv.org/pdf/2610.37157) |
+| 2026-10-27 | **A First-Step Bias Restores Lost Diversity in Diffusion Model Distillation**<br><sub>Wenwu Tang, Dong Wang, Yun Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37110) · [PDF](https://arxiv.org/pdf/2610.37110) |
+| 2026-10-27 | **HiLo-RD: Cross-Budget Self-Distillation for Masked Diffusion Language Models**<br><sub>Xiang Li, Chengting Yu, Jungang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36901) · [PDF](https://arxiv.org/pdf/2610.36901) |
+| 2026-10-27 | **Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models**<br><sub>Lior Ziv, Mahmood Sharif</sub> | [arXiv](https://arxiv.org/abs/2610.36665) · [PDF](https://arxiv.org/pdf/2610.36665) |
+| 2026-10-27 | **Proposing Better Rollouts for On-Policy Distillation**<br><sub>Sirui Chen, Yunzhe Qi, Haobo Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36477) · [PDF](https://arxiv.org/pdf/2610.36477) |
+| 2026-10-27 | **Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation**<br><sub>Shufan Li, Hanrong Ye, Greg Heinrich et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36466) · [PDF](https://arxiv.org/pdf/2610.36466) |
 | 2026-10-26 | **OSWAM: An Effective World Action Model with One-Step Action Generation**<br><sub>Guowen Zhang, Liyi Chen, Xu Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35850) · [PDF](https://arxiv.org/pdf/2610.35850) |
 | 2026-10-26 | **Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models**<br><sub>Aidar Myrzakhan, Zhiqiang Shen</sub> | [arXiv](https://arxiv.org/abs/2610.35804) · [PDF](https://arxiv.org/pdf/2610.35804) · [Code](https://github.com/VILA-Lab/dSpark) |
 | 2026-10-26 | **EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation**<br><sub>Yitao Xiao, Xu Zhang, Ye Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35690) · [PDF](https://arxiv.org/pdf/2610.35690) · [Code](https://github.com/CenYangtze/EvoRouter) |

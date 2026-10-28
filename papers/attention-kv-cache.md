@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-189 papers · newest submission first
+192 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **Multi-State Linear Attention with Generalized Second-Order Routing**<br><sub>Hee Seung Hwang, Sanghyuk Chun, Xindi Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37645) · [PDF](https://arxiv.org/pdf/2610.37645) |
+| 2026-10-27 | **DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models**<br><sub>Egor Maximov, Aleksei Merkelov, Vasiliy Alekseev et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36950) · [PDF](https://arxiv.org/pdf/2610.36950) |
+| 2026-10-26 | **WAKMan: Workload Aware KVCache Manager**<br><sub>Suhas Kumar Morisetty, Vaibhavi Lokegaonkar, Sachin Mathew Varghese et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36355) · [PDF](https://arxiv.org/pdf/2610.36355) |
 | 2026-10-26 | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference**<br><sub>Yanzhen Zhou, Zhengyu Han, Qunyou Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34824) · [PDF](https://arxiv.org/pdf/2610.34824) |
 | 2026-10-26 | **MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference**<br><sub>Huaizhi Zhang, Jiacheng Zhu, Xuqi Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34731) · [PDF](https://arxiv.org/pdf/2610.34731) |
 | 2026-10-25 | **Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2610.34436) · [PDF](https://arxiv.org/pdf/2610.34436) |

@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-133 papers · newest submission first
+137 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training**<br><sub>Masato Fujitake</sub> | [arXiv](https://arxiv.org/abs/2610.37062) · [PDF](https://arxiv.org/pdf/2610.37062) |
+| 2026-10-27 | **V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models**<br><sub>Miso Choi, Daekeun Kim, Eunji Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37019) · [PDF](https://arxiv.org/pdf/2610.37019) · [Code](https://github.com/miso-choi/V-Lumen) |
+| 2026-10-27 | **Provenance Signatures for Low Rank Adaptations of Image Diffusion Models**<br><sub>Tobias Cheung, Mohan Dantam, Marc Juarez et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36933) · [PDF](https://arxiv.org/pdf/2610.36933) |
+| 2026-10-27 | **CAMR: Compatibility-Aware Memory Replay for Continual Learning in Large Language Models**<br><sub>Jingpu Yang, Tianhao Li, Fengxian Ji et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36734) · [PDF](https://arxiv.org/pdf/2610.36734) |
 | 2026-10-26 | **Synthetic Child-Adult Interactions Are Not Developmentally Plausible**<br><sub>Bastian Bunzeck, Francesca Padovani</sub> | [arXiv](https://arxiv.org/abs/2610.35029) · [PDF](https://arxiv.org/pdf/2610.35029) |
 | 2026-10-26 | **RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge**<br><sub>Balamurugan Paramasivam, Sudalai Rajkumar</sub> | [arXiv](https://arxiv.org/abs/2610.34875) · [PDF](https://arxiv.org/pdf/2610.34875) · [Code](https://huggingface.co/CobuildX-AI/RubriX-8B) |
 | 2026-10-26 | **Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching**<br><sub>Fei Zuo, Yizhou Huang, Kezhi Wang</sub> | [arXiv](https://arxiv.org/abs/2610.34756) · [PDF](https://arxiv.org/pdf/2610.34756) |

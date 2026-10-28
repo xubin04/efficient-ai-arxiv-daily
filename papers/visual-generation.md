@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-176 papers · newest submission first
+180 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **ReferStream: Interactive Subject Injection for Streaming Video Generation**<br><sub>Shuolin Xu, Guanyuan Li, Boyu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37566) · [PDF](https://arxiv.org/pdf/2610.37566) |
+| 2026-10-27 | **A First-Step Bias Restores Lost Diversity in Diffusion Model Distillation**<br><sub>Wenwu Tang, Dong Wang, Yun Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37110) · [PDF](https://arxiv.org/pdf/2610.37110) |
+| 2026-10-27 | **Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models**<br><sub>Lior Ziv, Mahmood Sharif</sub> | [arXiv](https://arxiv.org/abs/2610.36665) · [PDF](https://arxiv.org/pdf/2610.36665) |
+| 2026-10-27 | **Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation**<br><sub>Shufan Li, Hanrong Ye, Greg Heinrich et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36466) · [PDF](https://arxiv.org/pdf/2610.36466) |
 | 2026-10-26 | **Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation**<br><sub>Junyi Chen, Haiyu Zhang, Zhoujie Fu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35594) · [PDF](https://arxiv.org/pdf/2610.35594) |
 | 2026-10-26 | **S$^2$-RL: Sample-Set Dual Reinforcement Learning for Generative Semantic Segmentation Dataset Distillation**<br><sub>Haoyu Wang, Fei Zhou, Qingqing Qiu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35491) · [PDF](https://arxiv.org/pdf/2610.35491) |
 | 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |

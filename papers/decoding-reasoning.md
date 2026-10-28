@@ -4,12 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-129 papers · newest submission first
+130 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
 | 2026-10-25 | **Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2610.34436) · [PDF](https://arxiv.org/pdf/2610.34436) |
 | 2026-10-25 | **T2D: Target-to-Draft Model Pruning &amp; Adaptation for Efficient Speculative Decoding**<br><sub>Shahriar Kabir Nahin, Xiao Ye, Muhao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34103) · [PDF](https://arxiv.org/pdf/2610.34103) |
+| 2026-10-25 | **Distributed LLM Inference via Communication-Efficient Speculative Decoding**<br><sub>Joohyun Shin, Byeonghyeon Park, Keumseo Ryum et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35957) · [PDF](https://arxiv.org/pdf/2610.35957) |
 | 2026-10-24 | **One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting**<br><sub>Yuxiao Chen, Changxiao Cai</sub> | [arXiv](https://arxiv.org/abs/2610.33379) · [PDF](https://arxiv.org/pdf/2610.33379) |
 | 2026-10-23 | **NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding**<br><sub>Nilesh Prasad Pandey, Jangseon Park, Jason Kong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32881) · [PDF](https://arxiv.org/pdf/2610.32881) |
 | 2026-10-23 | **MAGIC: Margin-gated Contrastive Debiasing with Evidence Restoration for VLM Test-time Robustness Scaling**<br><sub>Shunshun Gu, Enze Zhang, Ming Pei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32013) · [PDF](https://arxiv.org/pdf/2610.32013) |

@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-193 papers · newest submission first
+198 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **3D-SceneQ: Empowering 3D LLM With Query-Guided Adaptive Pruning and Multi-Modal Feature Enhancement**<br><sub>Yongqi Shan, Lu Zhang, Jiazuo Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37202) · [PDF](https://arxiv.org/pdf/2610.37202) |
+| 2026-10-27 | **Mechanistic Failure Modes of Weight Pruning in Transformer Language Models**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37126) · [PDF](https://arxiv.org/pdf/2610.37126) |
+| 2026-10-27 | **On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime**<br><sub>Kensuke Sasaki, Issei Sato</sub> | [arXiv](https://arxiv.org/abs/2610.37085) · [PDF](https://arxiv.org/pdf/2610.37085) |
+| 2026-10-27 | **LearnPrunerV2: Learnable Progressive Token Pruning for Vision-Language Models**<br><sub>Rinyoichi Takezoe, Yaqian Li, Weiren Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36986) · [PDF](https://arxiv.org/pdf/2610.36986) |
+| 2026-10-27 | **Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs**<br><sub>Donghyeon Cho, Joowon Kim, Seungho Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36671) · [PDF](https://arxiv.org/pdf/2610.36671) |
 | 2026-10-26 | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration**<br><sub>Zhengxin Li, Chongzhen Tian, Hui Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35489) · [PDF](https://arxiv.org/pdf/2610.35489) · [Code](https://github.com/yuanhui0325/TP-JSCC) |
 | 2026-10-26 | **Domain-Adapted Latent Diffusion Models for CT-to-PET Image Translation**<br><sub>Yann Bourdé, Lea Bogensperger, Arnela Hadzic et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35132) · [PDF](https://arxiv.org/pdf/2610.35132) |
 | 2026-10-26 | **SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference**<br><sub>Yanzhen Zhou, Zhengyu Han, Qunyou Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34824) · [PDF](https://arxiv.org/pdf/2610.34824) |

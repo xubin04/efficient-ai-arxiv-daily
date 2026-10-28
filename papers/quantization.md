@@ -4,12 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-198 papers · newest submission first
+203 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models**<br><sub>Zukang Xu, Zhixiong Zhao, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37336) · [PDF](https://arxiv.org/pdf/2610.37336) · [Code](https://github.com/xzktx003/Cos_VQ) |
+| 2026-10-27 | **Efficient Quantization Training with Stochastic Rounding via Structured Subspace Randomness**<br><sub>Zeyu Wang, Yiheng Duan, Tao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36587) · [PDF](https://arxiv.org/pdf/2610.36587) |
+| 2026-10-26 | **Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation**<br><sub>Yuqi Li, Chuanyue Yan, Neil Rodrigues et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36327) · [PDF](https://arxiv.org/pdf/2610.36327) |
+| 2026-10-26 | **Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs**<br><sub>Tianqi Chen, Xunchao Li, Linchuan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35985) · [PDF](https://arxiv.org/pdf/2610.35985) |
 | 2026-10-26 | **Transporting Quantiles to Codebook: Scalable Vector Quantization without Codebook Collapse**<br><sub>Yuwei Zeng, Zekun Shi</sub> | [arXiv](https://arxiv.org/abs/2610.34828) · [PDF](https://arxiv.org/pdf/2610.34828) |
 | 2026-10-26 | **VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware**<br><sub>Borui Xu, Hongshi Tan, Wenqi Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34717) · [PDF](https://arxiv.org/pdf/2610.34717) |
+| 2026-10-25 | **ResCom: Activation Residual Compensation for Large Language Model Quantization**<br><sub>Ning Yang, Bohan Cui, Zhuowen Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35955) · [PDF](https://arxiv.org/pdf/2610.35955) |
 | 2026-10-25 | **QECGBERT: A Scalable ECG Foundation Model Based on Self-Supervised Language Learning via VQ-VAE Waveform Tokenization**<br><sub>Aruna Mohan, Burcu Ozek, Or Zilbershot et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33964) · [PDF](https://arxiv.org/pdf/2610.33964) |
 | 2026-10-24 | **RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches**<br><sub>Tianqi Chen, Xunchao Li, Linchuan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33625) · [PDF](https://arxiv.org/pdf/2610.33625) |
 | 2026-10-23 | **Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents**<br><sub>Stephen Abkin, Aldric Yang, Alex Flesher et al.</sub> | [arXiv](https://arxiv.org/abs/2610.32417) · [PDF](https://arxiv.org/pdf/2610.32417) |

@@ -4,12 +4,18 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-200 papers · newest submission first
+206 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-27 | **Request-Adaptive Execution for Efficient Hybrid LLM Inference**<br><sub>Fahao Chen, Xuzhe Yan, Qi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37432) · [PDF](https://arxiv.org/pdf/2610.37432) |
+| 2026-10-27 | **TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving**<br><sub>Shuhuai Li, Shengdong Ye, Dongdong Ge et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37230) · [PDF](https://arxiv.org/pdf/2610.37230) |
+| 2026-10-27 | **Is Your LLM Relay Serving What It Claims? A low-cost and high-power test for LLM Relay Auditing**<br><sub>Fangran Miao, Shengjie Niu, Jian Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37086) · [PDF](https://arxiv.org/pdf/2610.37086) |
+| 2026-10-26 | **From Generation to Scoring: Scaling LLM-Based Semantic Labeling at LinkedIn**<br><sub>Jian Sheng, Sriram Vasudevan, Sundara Raman Ramachandran et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36383) · [PDF](https://arxiv.org/pdf/2610.36383) |
+| 2026-10-26 | **Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation**<br><sub>Yuqi Li, Chuanyue Yan, Neil Rodrigues et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36327) · [PDF](https://arxiv.org/pdf/2610.36327) |
 | 2026-10-26 | **EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation**<br><sub>Yitao Xiao, Xu Zhang, Ye Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35690) · [PDF](https://arxiv.org/pdf/2610.35690) · [Code](https://github.com/CenYangtze/EvoRouter) |
 | 2026-10-26 | **TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration**<br><sub>Zhengxin Li, Chongzhen Tian, Hui Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35489) · [PDF](https://arxiv.org/pdf/2610.35489) · [Code](https://github.com/yuanhui0325/TP-JSCC) |
+| 2026-10-26 | **Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs**<br><sub>Tianqi Chen, Xunchao Li, Linchuan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35985) · [PDF](https://arxiv.org/pdf/2610.35985) |
 | 2026-10-26 | **MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference**<br><sub>Huaizhi Zhang, Jiacheng Zhu, Xuqi Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34731) · [PDF](https://arxiv.org/pdf/2610.34731) |
 | 2026-10-26 | **Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents**<br><sub>Xinyu Zhang, Weiwei Sun</sub> | [arXiv](https://arxiv.org/abs/2610.34673) · [PDF](https://arxiv.org/pdf/2610.34673) |
 | 2026-10-24 | **ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding**<br><sub>Yuetao Chen, Peng Wang, Hong Xu</sub> | [arXiv](https://arxiv.org/abs/2610.33719) · [PDF](https://arxiv.org/pdf/2610.33719) |
