@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-28 14:53 CST** · **1333 unique papers** · Newest submission: **2026-10-27**
+Last successful scan: **2026-10-29 15:09 CST** · **1333 unique papers** · Newest submission: **2026-10-27**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-10-28 14:53 CST** · **1333 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 112 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 180 |
 
-## Newly indexed · 2026-10-28
+## Newly indexed · 2026-10-29
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-10-27 | **Multi-State Linear Attention with Generalized Second-Order Routing**<br><sub>Hee Seung Hwang, Sanghyuk Chun, Xindi Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37645) · [PDF](https://arxiv.org/pdf/2610.37645) |
-| 2026-10-27 | **ReferStream: Interactive Subject Injection for Streaming Video Generation**<br><sub>Shuolin Xu, Guanyuan Li, Boyu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37566) · [PDF](https://arxiv.org/pdf/2610.37566) |
-| 2026-10-27 | **ALADDIN: Adversarial Latent Diffusion Distillation for One-Step Identity Swapping**<br><sub>Ivan Shchekotov, Timofei Gritsaev, Viacheslav Pirogov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37503) · [PDF](https://arxiv.org/pdf/2610.37503) |
-| 2026-10-27 | **Request-Adaptive Execution for Efficient Hybrid LLM Inference**<br><sub>Fahao Chen, Xuzhe Yan, Qi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37432) · [PDF](https://arxiv.org/pdf/2610.37432) |
-| 2026-10-27 | **CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models**<br><sub>Zukang Xu, Zhixiong Zhao, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37336) · [PDF](https://arxiv.org/pdf/2610.37336) · [Code](https://github.com/xzktx003/Cos_VQ) |
-| 2026-10-27 | **RPSD: Retrieval-Privileged On-Policy Self-Distillation with Optimal Transport**<br><sub>Dongyue Li, Zebang Cheng, Zhongyi Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37281) · [PDF](https://arxiv.org/pdf/2610.37281) |
-| 2026-10-27 | **TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving**<br><sub>Shuhuai Li, Shengdong Ye, Dongdong Ge et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37230) · [PDF](https://arxiv.org/pdf/2610.37230) |
-| 2026-10-27 | **3D-SceneQ: Empowering 3D LLM With Query-Guided Adaptive Pruning and Multi-Modal Feature Enhancement**<br><sub>Yongqi Shan, Lu Zhang, Jiazuo Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37202) · [PDF](https://arxiv.org/pdf/2610.37202) |
-| 2026-10-27 | **What Survives Distillation? A Mechanistic Interpretability Study of GPT-2 and DistilGPT-2**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37157) · [PDF](https://arxiv.org/pdf/2610.37157) |
-| 2026-10-27 | **Mechanistic Failure Modes of Weight Pruning in Transformer Language Models**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37126) · [PDF](https://arxiv.org/pdf/2610.37126) |
-| 2026-10-27 | **A First-Step Bias Restores Lost Diversity in Diffusion Model Distillation**<br><sub>Wenwu Tang, Dong Wang, Yun Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37110) · [PDF](https://arxiv.org/pdf/2610.37110) |
-| 2026-10-27 | **Is Your LLM Relay Serving What It Claims? A low-cost and high-power test for LLM Relay Auditing**<br><sub>Fangran Miao, Shengjie Niu, Jian Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37086) · [PDF](https://arxiv.org/pdf/2610.37086) |
-| 2026-10-27 | **On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime**<br><sub>Kensuke Sasaki, Issei Sato</sub> | [arXiv](https://arxiv.org/abs/2610.37085) · [PDF](https://arxiv.org/pdf/2610.37085) |
-| 2026-10-27 | **EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training**<br><sub>Masato Fujitake</sub> | [arXiv](https://arxiv.org/abs/2610.37062) · [PDF](https://arxiv.org/pdf/2610.37062) |
-| 2026-10-27 | **V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models**<br><sub>Miso Choi, Daekeun Kim, Eunji Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37019) · [PDF](https://arxiv.org/pdf/2610.37019) · [Code](https://github.com/miso-choi/V-Lumen) |
-| 2026-10-27 | **LearnPrunerV2: Learnable Progressive Token Pruning for Vision-Language Models**<br><sub>Rinyoichi Takezoe, Yaqian Li, Weiren Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36986) · [PDF](https://arxiv.org/pdf/2610.36986) |
-| 2026-10-27 | **DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models**<br><sub>Egor Maximov, Aleksei Merkelov, Vasiliy Alekseev et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36950) · [PDF](https://arxiv.org/pdf/2610.36950) |
-| 2026-10-27 | **Provenance Signatures for Low Rank Adaptations of Image Diffusion Models**<br><sub>Tobias Cheung, Mohan Dantam, Marc Juarez et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36933) · [PDF](https://arxiv.org/pdf/2610.36933) |
-| 2026-10-27 | **HiLo-RD: Cross-Budget Self-Distillation for Masked Diffusion Language Models**<br><sub>Xiang Li, Chengting Yu, Jungang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36901) · [PDF](https://arxiv.org/pdf/2610.36901) |
-| 2026-10-27 | **CAMR: Compatibility-Aware Memory Replay for Continual Learning in Large Language Models**<br><sub>Jingpu Yang, Tianhao Li, Fengxian Ji et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36734) · [PDF](https://arxiv.org/pdf/2610.36734) |
-
-[View all 31 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
