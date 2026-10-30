@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-112 papers · newest submission first
+116 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **UniRA: Unified Representation Alignment and Auto-Encoding for Efficient Diffusion Generation**<br><sub>An Lanji, Dawei Liu, Jin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39948) · [PDF](https://arxiv.org/pdf/2610.39948) |
+| 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |
+| 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
+| 2026-10-28 | **NAGO: Noise-Aware Generative Operator via Flow Matching**<br><sub>Guanyu Chen, Shengze Xu, Pengwei Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38273) · [PDF](https://arxiv.org/pdf/2610.38273) · [Code](https://github.com/cgymmy/NAGO) |
 | 2026-10-27 | **Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs**<br><sub>Donghyeon Cho, Joowon Kim, Seungho Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36671) · [PDF](https://arxiv.org/pdf/2610.36671) |
 | 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |
 | 2026-10-25 | **Freeze What Is Settled, Cache What Is Smooth: Spatial Freezing Keeps Step Caching in Its Low-Error Regime**<br><sub>Baiyan Li, Ganxuan Yang</sub> | [arXiv](https://arxiv.org/abs/2610.34177) · [PDF](https://arxiv.org/pdf/2610.34177) |

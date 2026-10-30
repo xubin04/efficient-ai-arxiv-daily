@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-441 papers · newest submission first
+453 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation**<br><sub>Yifu Luo, Chuang Ma, Zeyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40574) · [PDF](https://arxiv.org/pdf/2610.40574) · [Code](https://github.com/xingzhejun/MTA-OPSD) |
+| 2026-10-29 | **LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation**<br><sub>Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40495) · [PDF](https://arxiv.org/pdf/2610.40495) |
+| 2026-10-29 | **sDMD: Sinkhorn Distribution Matching Distillation**<br><sub>Jaihoon Kim, Lingxiao Li, Soshi Shimada et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39889) · [PDF](https://arxiv.org/pdf/2610.39889) |
+| 2026-10-29 | **Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution**<br><sub>Yue He, Jiahui Hu, Shaman Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39876) · [PDF](https://arxiv.org/pdf/2610.39876) |
+| 2026-10-29 | **Intrinsic Distribution Matching**<br><sub>Deyuan Liu, Yansen Han, Kaiwen Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39633) · [PDF](https://arxiv.org/pdf/2610.39633) · [Code](https://github.com/inclusionAI/IDM) |
+| 2026-10-29 | **ROAD: Modern Adversarial Training for Simple One-Step Distillation at Scale**<br><sub>Xiaoou Li, Shan You, Tao Huang</sub> | [arXiv](https://arxiv.org/abs/2610.39539) · [PDF](https://arxiv.org/pdf/2610.39539) |
+| 2026-10-29 | **Efficient Covariance-Aware Vicinal Latent Diffusion for Continuous Conditional Image Generation**<br><sub>Xin Ding, Shuo Huang, Zhenglong Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39277) · [PDF](https://arxiv.org/pdf/2610.39277) |
+| 2026-10-28 | **Distilling the Shape of Uncertainty: What On-Policy Distillation Learns and How to Predict It**<br><sub>Shiping Yang, Chuanqi Tang, Hossein Hajimirsadeghi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39020) · [PDF](https://arxiv.org/pdf/2610.39020) · [Code](https://github.com/maybenotime/opd-esc) |
+| 2026-10-28 | **Adversarial Self-Distillation**<br><sub>Mohammad Sadegh Akhondzadeh, Soroush H. Zargarbashi, Aleksandar Bojchevski</sub> | [arXiv](https://arxiv.org/abs/2610.38732) · [PDF](https://arxiv.org/pdf/2610.38732) |
+| 2026-10-28 | **SCOPE: Selective Critical-Step On-Policy Self-Distillation for Agentic Reinforcement Learning**<br><sub>Qirui Liu, Wei Cao, Yu Mi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38391) · [PDF](https://arxiv.org/pdf/2610.38391) |
+| 2026-10-28 | **Knowledge-structured and evidence-aware semantic self-distillation for glomerular pathology foundation model**<br><sub>Qiming He, Jing Li, Zihan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38346) · [PDF](https://arxiv.org/pdf/2610.38346) |
+| 2026-10-27 | **Multi-Draft On-Policy Distillation for Diffusion Drafters**<br><sub>Petr Molodyk, Yuchen Zhu, Jaemoo Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37778) · [PDF](https://arxiv.org/pdf/2610.37778) |
 | 2026-10-27 | **ALADDIN: Adversarial Latent Diffusion Distillation for One-Step Identity Swapping**<br><sub>Ivan Shchekotov, Timofei Gritsaev, Viacheslav Pirogov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37503) · [PDF](https://arxiv.org/pdf/2610.37503) |
 | 2026-10-27 | **RPSD: Retrieval-Privileged On-Policy Self-Distillation with Optimal Transport**<br><sub>Dongyue Li, Zebang Cheng, Zhongyi Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37281) · [PDF](https://arxiv.org/pdf/2610.37281) |
 | 2026-10-27 | **What Survives Distillation? A Mechanistic Interpretability Study of GPT-2 and DistilGPT-2**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37157) · [PDF](https://arxiv.org/pdf/2610.37157) |

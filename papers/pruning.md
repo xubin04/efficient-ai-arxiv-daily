@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-198 papers · newest submission first
+203 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
+| 2026-10-29 | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference**<br><sub>Wenjie Huang, Jun Zhang, Hongyaoxing Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39562) · [PDF](https://arxiv.org/pdf/2610.39562) |
+| 2026-10-29 | **Efficient Covariance-Aware Vicinal Latent Diffusion for Continuous Conditional Image Generation**<br><sub>Xin Ding, Shuo Huang, Zhenglong Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39277) · [PDF](https://arxiv.org/pdf/2610.39277) |
+| 2026-10-28 | **Don&#x27;t Ask the LLM: Visual Token Pruning with Spectral Structure and Semantic Relevance**<br><sub>Intaek Shin, Geuntaek Lim, Sungjune Park et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38303) · [PDF](https://arxiv.org/pdf/2610.38303) · [Code](https://github.com/sejong-rcv/ST-Pruner) |
 | 2026-10-27 | **3D-SceneQ: Empowering 3D LLM With Query-Guided Adaptive Pruning and Multi-Modal Feature Enhancement**<br><sub>Yongqi Shan, Lu Zhang, Jiazuo Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37202) · [PDF](https://arxiv.org/pdf/2610.37202) |
 | 2026-10-27 | **Mechanistic Failure Modes of Weight Pruning in Transformer Language Models**<br><sub>Nabeelah Faumi, Deshan Sumanathilaka</sub> | [arXiv](https://arxiv.org/abs/2610.37126) · [PDF](https://arxiv.org/pdf/2610.37126) |
 | 2026-10-27 | **On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime**<br><sub>Kensuke Sasaki, Issei Sato</sub> | [arXiv](https://arxiv.org/abs/2610.37085) · [PDF](https://arxiv.org/pdf/2610.37085) |
@@ -19,6 +23,7 @@
 | 2026-10-26 | **ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing**<br><sub>Caiyi Sun, Yujing Sun, Siu-Ming Yiu</sub> | [arXiv](https://arxiv.org/abs/2610.34782) · [PDF](https://arxiv.org/pdf/2610.34782) · [Code](https://github.com/scy639/ToDoPro) |
 | 2026-10-26 | **Mechanistic Insights into LoRA: Layer Sparsity for Adaptive Fine-Tuning via Path Patching**<br><sub>Fei Zuo, Yizhou Huang, Kezhi Wang</sub> | [arXiv](https://arxiv.org/abs/2610.34756) · [PDF](https://arxiv.org/pdf/2610.34756) |
 | 2026-10-25 | **VTC-AUDIT: An Interventional Reliability Audit for Visual-Token Compression under Paired Image Shifts**<br><sub>Isaac, Li</sub> | [arXiv](https://arxiv.org/abs/2610.34545) · [PDF](https://arxiv.org/pdf/2610.34545) · [Code](https://github.com/IsaacLi74/VTC-AUDIT) |
+| 2026-10-25 | **DuQUAD: A Dual-View Framework with Quality-Aware Evidence Pruning for Multi-Document Question Answering**<br><sub>Yeonjun Choi, Seyeon Jeong, Jong Wook Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37701) · [PDF](https://arxiv.org/pdf/2610.37701) |
 | 2026-10-25 | **T2D: Target-to-Draft Model Pruning &amp; Adaptation for Efficient Speculative Decoding**<br><sub>Shahriar Kabir Nahin, Xiao Ye, Muhao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34103) · [PDF](https://arxiv.org/pdf/2610.34103) |
 | 2026-10-24 | **Rescuing Your Pruning: Rethinking Visual Token Pruning and Post-Training Recovery in MLLMs**<br><sub>Peiran Yin, Hao Wu, Zihao Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33688) · [PDF](https://arxiv.org/pdf/2610.33688) |
 | 2026-10-23 | **Vision Token Pruning via Query-Vision Interaction Decomposition**<br><sub>Harshithanjani Athi, Sravan Kumar Ankireddy, Jianzhong Charlie Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.33215) · [PDF](https://arxiv.org/pdf/2610.33215) |

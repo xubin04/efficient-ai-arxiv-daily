@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-192 papers · newest submission first
+197 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |
+| 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
+| 2026-10-28 | **GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices**<br><sub>Yipin Guo, Arun M George, Siddharth Joshi</sub> | [arXiv](https://arxiv.org/abs/2610.38210) · [PDF](https://arxiv.org/pdf/2610.38210) |
+| 2026-10-27 | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation**<br><sub>Yunqin Zhu, Yao Xie</sub> | [arXiv](https://arxiv.org/abs/2610.37973) · [PDF](https://arxiv.org/pdf/2610.37973) |
+| 2026-10-27 | **FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding**<br><sub>Yuxuan Zhu, David H. Yang, Parisa Shiravani et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37921) · [PDF](https://arxiv.org/pdf/2610.37921) |
 | 2026-10-27 | **Multi-State Linear Attention with Generalized Second-Order Routing**<br><sub>Hee Seung Hwang, Sanghyuk Chun, Xindi Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37645) · [PDF](https://arxiv.org/pdf/2610.37645) |
 | 2026-10-27 | **DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models**<br><sub>Egor Maximov, Aleksei Merkelov, Vasiliy Alekseev et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36950) · [PDF](https://arxiv.org/pdf/2610.36950) |
 | 2026-10-26 | **WAKMan: Workload Aware KVCache Manager**<br><sub>Suhas Kumar Morisetty, Vaibhavi Lokegaonkar, Sachin Mathew Varghese et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36355) · [PDF](https://arxiv.org/pdf/2610.36355) |

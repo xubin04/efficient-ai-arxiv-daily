@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-180 papers · newest submission first
+188 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory**<br><sub>Jinhyeok Choi, JoungBin Lee, Jongmin Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40614) · [PDF](https://arxiv.org/pdf/2610.40614) |
+| 2026-10-29 | **LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation**<br><sub>Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40495) · [PDF](https://arxiv.org/pdf/2610.40495) |
+| 2026-10-29 | **Wizard: Manipulate Any World in Real Time via Agentic Control**<br><sub>Yuzhe Wu, Zijun Lin, Yeying Jin</sub> | [arXiv](https://arxiv.org/abs/2610.40339) · [PDF](https://arxiv.org/pdf/2610.40339) |
+| 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
+| 2026-10-29 | **FlexTry-On: A Time-Efficient Framework for Multi-Scenario Virtual Try-on**<br><sub>Phuong Dam, Quyen Nguyen Duc, Son Hoang Minh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39646) · [PDF](https://arxiv.org/pdf/2610.39646) |
+| 2026-10-29 | **ROAD: Modern Adversarial Training for Simple One-Step Distillation at Scale**<br><sub>Xiaoou Li, Shan You, Tao Huang</sub> | [arXiv](https://arxiv.org/abs/2610.39539) · [PDF](https://arxiv.org/pdf/2610.39539) |
+| 2026-10-29 | **Efficient Covariance-Aware Vicinal Latent Diffusion for Continuous Conditional Image Generation**<br><sub>Xin Ding, Shuo Huang, Zhenglong Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39277) · [PDF](https://arxiv.org/pdf/2610.39277) |
+| 2026-10-29 | **CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation**<br><sub>Huangchao Song, Lingyun Yu, Cong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39160) · [PDF](https://arxiv.org/pdf/2610.39160) |
 | 2026-10-27 | **ReferStream: Interactive Subject Injection for Streaming Video Generation**<br><sub>Shuolin Xu, Guanyuan Li, Boyu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37566) · [PDF](https://arxiv.org/pdf/2610.37566) |
 | 2026-10-27 | **A First-Step Bias Restores Lost Diversity in Diffusion Model Distillation**<br><sub>Wenwu Tang, Dong Wang, Yun Cheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37110) · [PDF](https://arxiv.org/pdf/2610.37110) |
 | 2026-10-27 | **Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models**<br><sub>Lior Ziv, Mahmood Sharif</sub> | [arXiv](https://arxiv.org/abs/2610.36665) · [PDF](https://arxiv.org/pdf/2610.36665) |

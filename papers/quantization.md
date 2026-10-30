@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-203 papers · newest submission first
+210 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **A Unified Hessian-Guided Framework for Post-Training Quantization**<br><sub>Mads Toftrup, Marco Federici, Boris van Breugel et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40345) · [PDF](https://arxiv.org/pdf/2610.40345) |
+| 2026-10-29 | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization**<br><sub>Illia Makarov</sub> | [arXiv](https://arxiv.org/abs/2610.40055) · [PDF](https://arxiv.org/pdf/2610.40055) |
+| 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |
+| 2026-10-29 | **LinQuant: Functional Invariances for Low-Precision Linear Recurrences**<br><sub>Neehal Tumma, Philipp Nazari, Rohan Cherukuri et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39418) · [PDF](https://arxiv.org/pdf/2610.39418) · [Code](https://github.com/ntumm120/LinQuant) |
+| 2026-10-29 | **Accuracy is not compatibility: two Evo 2 checkpoints hinge on one FP8 matrix multiplication**<br><sub>Xun Ding, Ziyuan Qin</sub> | [arXiv](https://arxiv.org/abs/2610.39415) · [PDF](https://arxiv.org/pdf/2610.39415) · [Code](https://github.com/astding/mmaemu) |
+| 2026-10-28 | **The Role of Quantization in Loss Spikes**<br><sub>Zaiqian Chen, Aditya Somasundaram, Sophie Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38277) · [PDF](https://arxiv.org/pdf/2610.38277) |
+| 2026-10-28 | **GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices**<br><sub>Yipin Guo, Arun M George, Siddharth Joshi</sub> | [arXiv](https://arxiv.org/abs/2610.38210) · [PDF](https://arxiv.org/pdf/2610.38210) |
 | 2026-10-27 | **CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models**<br><sub>Zukang Xu, Zhixiong Zhao, Xing Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37336) · [PDF](https://arxiv.org/pdf/2610.37336) · [Code](https://github.com/xzktx003/Cos_VQ) |
 | 2026-10-27 | **Efficient Quantization Training with Stochastic Rounding via Structured Subspace Randomness**<br><sub>Zeyu Wang, Yiheng Duan, Tao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36587) · [PDF](https://arxiv.org/pdf/2610.36587) |
 | 2026-10-26 | **Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation**<br><sub>Yuqi Li, Chuanyue Yan, Neil Rodrigues et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36327) · [PDF](https://arxiv.org/pdf/2610.36327) |

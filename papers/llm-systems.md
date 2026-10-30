@@ -4,10 +4,21 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-206 papers · newest submission first
+217 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading**<br><sub>Zhiyuan Fang, Dingyang Li, Jianfeng Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40305) · [PDF](https://arxiv.org/pdf/2610.40305) |
+| 2026-10-29 | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving**<br><sub>Yishuo Yuan, Shaoyu Yang, Chunrong Fang</sub> | [arXiv](https://arxiv.org/abs/2610.40292) · [PDF](https://arxiv.org/pdf/2610.40292) |
+| 2026-10-29 | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets**<br><sub>Bole Ma, Ayesha Afzal, Jan Eitzinger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40287) · [PDF](https://arxiv.org/pdf/2610.40287) |
+| 2026-10-29 | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone**<br><sub>Zhuoran Li, Chen Gu, Zhuohang Bian et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40000) · [PDF](https://arxiv.org/pdf/2610.40000) |
+| 2026-10-29 | **DWISE: Denoising Workload-Informed Scheduling Engine**<br><sub>Lie Li, Wen Li, Junxiao Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39852) · [PDF](https://arxiv.org/pdf/2610.39852) |
+| 2026-10-29 | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference**<br><sub>Wenjie Huang, Jun Zhang, Hongyaoxing Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39562) · [PDF](https://arxiv.org/pdf/2610.39562) |
+| 2026-10-29 | **Learning to Formulate: Agentic Hardware-Software Co-Design of AI Infrastructure through Progressive Optimization and Verification**<br><sub>Yi Ding, Li Shang</sub> | [arXiv](https://arxiv.org/abs/2610.39380) · [PDF](https://arxiv.org/pdf/2610.39380) |
+| 2026-10-28 | **FlatCake: A Flat KVCache Storage Architecture for LLM Serving**<br><sub>Xin Huang, Teng Ma, Zhuoran Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38355) · [PDF](https://arxiv.org/pdf/2610.38355) |
+| 2026-10-28 | **GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices**<br><sub>Yipin Guo, Arun M George, Siddharth Joshi</sub> | [arXiv](https://arxiv.org/abs/2610.38210) · [PDF](https://arxiv.org/pdf/2610.38210) |
+| 2026-10-27 | **GAUSS: A Workload-Aware Analytical and Monte-Carlo Simulator for LLM Inference Serving**<br><sub>Srikant Bharadwaj, Ankur Mallick, Spyridon Mastorakis et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37989) · [PDF](https://arxiv.org/pdf/2610.37989) |
+| 2026-10-27 | **ConfluxServe: Reconciling Resource Utilization and Parallelism Efficiency across Prefill and Decode in LLM Serving**<br><sub>Wenhao Chen, Hong Zhang</sub> | [arXiv](https://arxiv.org/abs/2610.37810) · [PDF](https://arxiv.org/pdf/2610.37810) |
 | 2026-10-27 | **Request-Adaptive Execution for Efficient Hybrid LLM Inference**<br><sub>Fahao Chen, Xuzhe Yan, Qi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37432) · [PDF](https://arxiv.org/pdf/2610.37432) |
 | 2026-10-27 | **TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving**<br><sub>Shuhuai Li, Shengdong Ye, Dongdong Ge et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37230) · [PDF](https://arxiv.org/pdf/2610.37230) |
 | 2026-10-27 | **Is Your LLM Relay Serving What It Claims? A low-cost and high-power test for LLM Relay Auditing**<br><sub>Fangran Miao, Shengjie Niu, Jian Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37086) · [PDF](https://arxiv.org/pdf/2610.37086) |

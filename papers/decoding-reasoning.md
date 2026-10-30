@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-130 papers · newest submission first
+133 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-29 | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets**<br><sub>Bole Ma, Ayesha Afzal, Jan Eitzinger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40287) · [PDF](https://arxiv.org/pdf/2610.40287) |
+| 2026-10-28 | **TableTune: Measured, Self-Correcting Draft-Length Tables for Dynamic Speculative Decoding**<br><sub>Abhishek Malvankar, Paul Castro, Nick Mitchell et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38968) · [PDF](https://arxiv.org/pdf/2610.38968) |
+| 2026-10-27 | **FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding**<br><sub>Yuxuan Zhu, David H. Yang, Parisa Shiravani et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37921) · [PDF](https://arxiv.org/pdf/2610.37921) |
 | 2026-10-25 | **Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2610.34436) · [PDF](https://arxiv.org/pdf/2610.34436) |
 | 2026-10-25 | **T2D: Target-to-Draft Model Pruning &amp; Adaptation for Efficient Speculative Decoding**<br><sub>Shahriar Kabir Nahin, Xiao Ye, Muhao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.34103) · [PDF](https://arxiv.org/pdf/2610.34103) |
 | 2026-10-25 | **Distributed LLM Inference via Communication-Efficient Speculative Decoding**<br><sub>Joohyun Shin, Byeonghyeon Park, Keumseo Ryum et al.</sub> | [arXiv](https://arxiv.org/abs/2610.35957) · [PDF](https://arxiv.org/pdf/2610.35957) |

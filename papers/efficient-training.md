@@ -4,10 +4,13 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-137 papers · newest submission first
+140 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-28 | **Structure-retained low-rank adapters for weather synthesis**<br><sub>Shunxin Wang, Alexandros Stergiou, Luuk Spreeuwers et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38413) · [PDF](https://arxiv.org/pdf/2610.38413) |
+| 2026-10-27 | **Towards Generalizing Pretrained All-Atom Representations to Unified Binder Design**<br><sub>Maojiang Su, Jiale Chen, Qijie Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37994) · [PDF](https://arxiv.org/pdf/2610.37994) |
+| 2026-10-27 | **Bi-Phase Training: Learning Efficiently From Scratch**<br><sub>Abel Gurung, Joseph Campbell</sub> | [arXiv](https://arxiv.org/abs/2610.37934) · [PDF](https://arxiv.org/pdf/2610.37934) |
 | 2026-10-27 | **EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training**<br><sub>Masato Fujitake</sub> | [arXiv](https://arxiv.org/abs/2610.37062) · [PDF](https://arxiv.org/pdf/2610.37062) |
 | 2026-10-27 | **V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models**<br><sub>Miso Choi, Daekeun Kim, Eunji Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37019) · [PDF](https://arxiv.org/pdf/2610.37019) · [Code](https://github.com/miso-choi/V-Lumen) |
 | 2026-10-27 | **Provenance Signatures for Low Rank Adaptations of Image Diffusion Models**<br><sub>Tobias Cheung, Mohan Dantam, Marc Juarez et al.</sub> | [arXiv](https://arxiv.org/abs/2610.36933) · [PDF](https://arxiv.org/pdf/2610.36933) |
