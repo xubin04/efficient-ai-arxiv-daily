@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-10-30 15:12 CST** · **1377 unique papers** · Newest submission: **2026-10-29**
+Last successful scan: **2026-10-31 15:01 CST** · **1377 unique papers** · Newest submission: **2026-10-29**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-10-30 15:12 CST** · **1377 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 116 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 188 |
 
-## Newly indexed · 2026-10-30
+## Newly indexed · 2026-10-31
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-10-29 | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory**<br><sub>Jinhyeok Choi, JoungBin Lee, Jongmin Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40614) · [PDF](https://arxiv.org/pdf/2610.40614) |
-| 2026-10-29 | **Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation**<br><sub>Yifu Luo, Chuang Ma, Zeyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40574) · [PDF](https://arxiv.org/pdf/2610.40574) · [Code](https://github.com/xingzhejun/MTA-OPSD) |
-| 2026-10-29 | **LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation**<br><sub>Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40495) · [PDF](https://arxiv.org/pdf/2610.40495) |
-| 2026-10-29 | **A Unified Hessian-Guided Framework for Post-Training Quantization**<br><sub>Mads Toftrup, Marco Federici, Boris van Breugel et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40345) · [PDF](https://arxiv.org/pdf/2610.40345) |
-| 2026-10-29 | **Wizard: Manipulate Any World in Real Time via Agentic Control**<br><sub>Yuzhe Wu, Zijun Lin, Yeying Jin</sub> | [arXiv](https://arxiv.org/abs/2610.40339) · [PDF](https://arxiv.org/pdf/2610.40339) |
-| 2026-10-29 | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading**<br><sub>Zhiyuan Fang, Dingyang Li, Jianfeng Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40305) · [PDF](https://arxiv.org/pdf/2610.40305) |
-| 2026-10-29 | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving**<br><sub>Yishuo Yuan, Shaoyu Yang, Chunrong Fang</sub> | [arXiv](https://arxiv.org/abs/2610.40292) · [PDF](https://arxiv.org/pdf/2610.40292) |
-| 2026-10-29 | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets**<br><sub>Bole Ma, Ayesha Afzal, Jan Eitzinger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40287) · [PDF](https://arxiv.org/pdf/2610.40287) |
-| 2026-10-29 | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization**<br><sub>Illia Makarov</sub> | [arXiv](https://arxiv.org/abs/2610.40055) · [PDF](https://arxiv.org/pdf/2610.40055) |
-| 2026-10-29 | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone**<br><sub>Zhuoran Li, Chen Gu, Zhuohang Bian et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40000) · [PDF](https://arxiv.org/pdf/2610.40000) |
-| 2026-10-29 | **UniRA: Unified Representation Alignment and Auto-Encoding for Efficient Diffusion Generation**<br><sub>An Lanji, Dawei Liu, Jin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39948) · [PDF](https://arxiv.org/pdf/2610.39948) |
-| 2026-10-29 | **sDMD: Sinkhorn Distribution Matching Distillation**<br><sub>Jaihoon Kim, Lingxiao Li, Soshi Shimada et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39889) · [PDF](https://arxiv.org/pdf/2610.39889) |
-| 2026-10-29 | **Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution**<br><sub>Yue He, Jiahui Hu, Shaman Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39876) · [PDF](https://arxiv.org/pdf/2610.39876) |
-| 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |
-| 2026-10-29 | **DWISE: Denoising Workload-Informed Scheduling Engine**<br><sub>Lie Li, Wen Li, Junxiao Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39852) · [PDF](https://arxiv.org/pdf/2610.39852) |
-| 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
-| 2026-10-29 | **FlexTry-On: A Time-Efficient Framework for Multi-Scenario Virtual Try-on**<br><sub>Phuong Dam, Quyen Nguyen Duc, Son Hoang Minh et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39646) · [PDF](https://arxiv.org/pdf/2610.39646) |
-| 2026-10-29 | **Intrinsic Distribution Matching**<br><sub>Deyuan Liu, Yansen Han, Kaiwen Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39633) · [PDF](https://arxiv.org/pdf/2610.39633) · [Code](https://github.com/inclusionAI/IDM) |
-| 2026-10-29 | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference**<br><sub>Wenjie Huang, Jun Zhang, Hongyaoxing Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39562) · [PDF](https://arxiv.org/pdf/2610.39562) |
-| 2026-10-29 | **ROAD: Modern Adversarial Training for Simple One-Step Distillation at Scale**<br><sub>Xiaoou Li, Shan You, Tao Huang</sub> | [arXiv](https://arxiv.org/abs/2610.39539) · [PDF](https://arxiv.org/pdf/2610.39539) |
-
-[View all 44 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
