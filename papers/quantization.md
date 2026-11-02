@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-210 papers · newest submission first
+215 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-30 | **Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41825) · [PDF](https://arxiv.org/pdf/2610.41825) |
+| 2026-10-30 | **Trainable Vector Quantization for Large Language Models**<br><sub>Anastasiia Prutianova, Alina Bogdanova, Mikhail Shutov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41822) · [PDF](https://arxiv.org/pdf/2610.41822) |
+| 2026-10-30 | **Understanding the Energy Cost of Quantized Agents on Shared GPUs**<br><sub>Stephen Abkin, Alex Flesher, Aldric Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41672) · [PDF](https://arxiv.org/pdf/2610.41672) |
+| 2026-10-30 | **SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models**<br><sub>Haesung Lee, Insu Han</sub> | [arXiv](https://arxiv.org/abs/2610.41408) · [PDF](https://arxiv.org/pdf/2610.41408) |
+| 2026-10-30 | **Calibration of Large Model Quantization based on HiFloat4 Format**<br><sub>Jing Huang, Yu Cheng, Ziwei Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41112) · [PDF](https://arxiv.org/pdf/2610.41112) |
 | 2026-10-29 | **A Unified Hessian-Guided Framework for Post-Training Quantization**<br><sub>Mads Toftrup, Marco Federici, Boris van Breugel et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40345) · [PDF](https://arxiv.org/pdf/2610.40345) |
 | 2026-10-29 | **One Vector or Many? Clustered Optimal-Transport Steering under Quantization**<br><sub>Illia Makarov</sub> | [arXiv](https://arxiv.org/abs/2610.40055) · [PDF](https://arxiv.org/pdf/2610.40055) |
 | 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |

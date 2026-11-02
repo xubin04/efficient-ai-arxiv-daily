@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-140 papers · newest submission first
+144 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-30 | **Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity**<br><sub>Jean Lucien Randrianantenaina, Hung Nguyen, Nasib Ullah et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41968) · [PDF](https://arxiv.org/pdf/2610.41968) |
+| 2026-10-30 | **Breaking Information Islands in Sparse Tuning via Small-World Connectivity**<br><sub>Xianchao Guan, Zijun Xiong, Yifeng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41665) · [PDF](https://arxiv.org/pdf/2610.41665) · [Code](https://github.com/xianchaoguan/SWIFT) |
+| 2026-10-30 | **BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion**<br><sub>Ruurd J. A. Kuiper, Robert A. Bagheri</sub> | [arXiv](https://arxiv.org/abs/2610.41574) · [PDF](https://arxiv.org/pdf/2610.41574) · [Code](https://github.com/RuurdKuiper/BYOD) |
+| 2026-10-30 | **KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise**<br><sub>Jonas Loos, Oliver Eberle</sub> | [arXiv](https://arxiv.org/abs/2610.41480) · [PDF](https://arxiv.org/pdf/2610.41480) |
 | 2026-10-28 | **Structure-retained low-rank adapters for weather synthesis**<br><sub>Shunxin Wang, Alexandros Stergiou, Luuk Spreeuwers et al.</sub> | [arXiv](https://arxiv.org/abs/2610.38413) · [PDF](https://arxiv.org/pdf/2610.38413) |
 | 2026-10-27 | **Towards Generalizing Pretrained All-Atom Representations to Unified Binder Design**<br><sub>Maojiang Su, Jiale Chen, Qijie Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.37994) · [PDF](https://arxiv.org/pdf/2610.37994) |
 | 2026-10-27 | **Bi-Phase Training: Learning Efficiently From Scratch**<br><sub>Abel Gurung, Joseph Campbell</sub> | [arXiv](https://arxiv.org/abs/2610.37934) · [PDF](https://arxiv.org/pdf/2610.37934) |

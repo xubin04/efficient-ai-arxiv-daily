@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-197 papers · newest submission first
+203 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-30 | **ACCT: Asymmetric Cross-LLM Context Transfer**<br><sub>Yuzhe Liu, Haolin Tian, Tonghan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.42116) · [PDF](https://arxiv.org/pdf/2610.42116) |
+| 2026-10-30 | **Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41825) · [PDF](https://arxiv.org/pdf/2610.41825) |
+| 2026-10-30 | **KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise**<br><sub>Jonas Loos, Oliver Eberle</sub> | [arXiv](https://arxiv.org/abs/2610.41480) · [PDF](https://arxiv.org/pdf/2610.41480) |
+| 2026-10-30 | **In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents**<br><sub>Xuning He, Kai Fan, Runyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41291) · [PDF](https://arxiv.org/pdf/2610.41291) · [Code](https://github.com/RISE-X-Lab/Agentic-Soft-Token) |
+| 2026-10-30 | **ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference**<br><sub>Hung-Chun Lin, Ting-Wei Hsu, Chung-En Ho et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41160) · [PDF](https://arxiv.org/pdf/2610.41160) |
+| 2026-10-29 | **Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms**<br><sub>Michel Fabrice Serret, Laura Grigori</sub> | [arXiv](https://arxiv.org/abs/2610.40943) · [PDF](https://arxiv.org/pdf/2610.40943) |
 | 2026-10-29 | **KV Cache Quantization for Diffusion Language Models**<br><sub>Yan Tai, Yunan Ding, Guangzhao Li et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39853) · [PDF](https://arxiv.org/pdf/2610.39853) |
 | 2026-10-29 | **AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers**<br><sub>Bin Xu, Mo Zhang, Zhengfeiyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39663) · [PDF](https://arxiv.org/pdf/2610.39663) · [Code](https://github.com/InfRec-Cardinal/AB-Attention) |
 | 2026-10-28 | **GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices**<br><sub>Yipin Guo, Arun M George, Siddharth Joshi</sub> | [arXiv](https://arxiv.org/abs/2610.38210) · [PDF](https://arxiv.org/pdf/2610.38210) |

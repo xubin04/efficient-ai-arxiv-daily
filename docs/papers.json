@@ -1,9 +1,9 @@
 {
   "title": "Efficient AI · arXiv Daily",
   "repository": "xubin04/efficient-ai-arxiv-daily",
-  "updated": "2026-11-01 15:36 CST",
-  "scan_date": "2026-11-01",
-  "newest_submission": "2026-10-29",
+  "updated": "2026-11-02 15:43 CST",
+  "scan_date": "2026-11-02",
+  "newest_submission": "2026-10-30",
   "topics": [
     {
       "id": "quantization",
@@ -52,6 +52,880 @@
     }
   ],
   "papers": [
+    {
+      "id": "2610.42148",
+      "versioned_id": "2610.42148v1",
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
+      ],
+      "published": "2026-10-30T17:59:38Z",
+      "updated": "2026-10-30T17:59:38Z",
+      "abstract": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream. Through ForkAttention, Flide navigates request dependencies using GPU-resident indices across both standard attention and recurrent Gated DeltaNet layers, guaranteeing in exact arithmetic that every query branch evaluates identically to an isolated forward pass. By expressing branch topologies directly in GPU-resident metadata, Flide accommodates diverse request mixtures with a compact set of pre-recorded execution graphs while enabling expanding agent histories to resume from checkpoints saved in earlier passes. Extensive evaluations on public hybrid and decision models demonstrate that Flide answers queries up to 9.5 times faster than vLLM and SGLang while staying closest to a float32 reference in total variation distance. By unifying physical execution throughput with mathematical exactness, Flide establishes a principled foundation for scalable, latency-critical decision intelligence in agent systems.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.42148",
+      "pdf_url": "https://arxiv.org/pdf/2610.42148",
+      "code_urls": [],
+      "comment": "20 pages. Project page: https://flide.org",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.42135",
+      "versioned_id": "2610.42135v1",
+      "title": "A Better Critic Matters for Distribution Matching Distillation",
+      "authors": [
+        "Zongze Wu",
+        "Xianbang Wang",
+        "Zhengyang Geng",
+        "Mingdeng Cao",
+        "Zhoutong Zhang",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Ruiming Cao"
+      ],
+      "published": "2026-10-30T17:58:26Z",
+      "updated": "2026-10-30T17:58:26Z",
+      "abstract": "Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate what the critic needs, in capacity and in information, to provide a reliable training signal. On the capacity side, controlled experiments across seven SiT model sizes on ImageNet show that increasing teacher size while keeping a small critic fixed can degrade student quality and cause training collapse. Scaling the critic alongside the teacher, a strategy we call joint scaling, prevents collapse in our experiments and allows the student to benefit from larger teachers. On the information side, rather than forcing the critic to model a step-agnostic mixture of student outputs, we introduce a step-aware critic (STAC) that conditions on the student's generation step to estimate step-specific scores. Together, joint scaling and STAC consistently improve few-step distillation across class-conditional ImageNet generation, text-to-image generation with SDXL and FLUX.2, and text-to-video generation with Wan2.1.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.42135",
+      "pdf_url": "https://arxiv.org/pdf/2610.42135",
+      "code_urls": [],
+      "comment": "35 pages, 16 figures. Project page and code: https://peppaking8.github.io/critic-matters/",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.42128",
+      "versioned_id": "2610.42128v1",
+      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+      "authors": [
+        "Yanran Wu",
+        "Dian Yu",
+        "Chongyang Bai",
+        "Jieyi Zhang",
+        "Rui Liu",
+        "Tianyi Chen",
+        "Shike Mei",
+        "Hang Cui",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Chunwei Liu",
+        "Xi Liu"
+      ],
+      "published": "2026-10-30T17:56:58Z",
+      "updated": "2026-10-30T17:56:58Z",
+      "abstract": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD). Item-space OPD constructs the student's rollout by sorting its document scores into a ranked sequence. A generative teacher takes the resulting ranking list as inputs and provides conditional feedback to directly supervise those scores. Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT. Across four benchmarks, item-space OPD consistently outperforms alternative training objectives. Even at 1.7B parameters, DecisionRank surpasses its 27B generative teacher on TREC DL19--23. At 8B, it outperforms its generative listwise counterpart while running $24.5\\times$ faster on TREC DL and $16.7\\times$ faster on BRIGHT.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.42128",
+      "pdf_url": "https://arxiv.org/pdf/2610.42128",
+      "code_urls": [],
+      "comment": "25 pages, 8 figures",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.42116",
+      "versioned_id": "2610.42116v1",
+      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+      "authors": [
+        "Yuzhe Liu",
+        "Haolin Tian",
+        "Tonghan Wang"
+      ],
+      "published": "2026-10-30T17:50:49Z",
+      "updated": "2026-10-30T17:50:49Z",
+      "abstract": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between models of different scales within the same model family. ACCT transforms the KV cache produced by a source model into sparse KV states that can be directly consumed by a target model, thereby enabling cross-model reuse of context computation and decoupling context computation from downstream inference. ACCT consists of three lightweight components: the Cartographer identifies query-relevant context tokens for each target layer and KV head; the Allocator determines how many context tokens each target layer and KV head retains under a shared total KV budget; and the Compiler transforms selected source KV into sparse target KV. The target model can therefore perform inference using the transferred KV without reprocessing the original context. We evaluate ACCT in two complementary settings comprising five general-capability benchmarks and six highly context-dependent tasks. Experiments show that ACCT matches or exceeds the target model's original inference performance even when reducing the KV cache size by 75%. At a context length of approximately 19K tokens, ACCT's KV conversion achieves a 6.5-21.2 times speedup over target context prefill. These results demonstrate the feasibility of transferring context computation across models under a limited KV budget.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.42116",
+      "pdf_url": "https://arxiv.org/pdf/2610.42116",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.42031",
+      "versioned_id": "2610.42031v1",
+      "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+      "authors": [
+        "Jiahua Xu",
+        "Yijie Fang",
+        "Nannan Wang",
+        "Xunhao Lin",
+        "Li Cao",
+        "Lei Hao",
+        "Mingrui Zhu",
+        "Fei Gao",
+        "Xinbo Gao"
+      ],
+      "published": "2026-10-30T16:56:42Z",
+      "updated": "2026-10-30T16:56:42Z",
+      "abstract": "Autoregressive video generation enables efficient inference through streaming prediction. However, existing methods are typically restricted to fixed sampling steps, limiting the flexibility to balance generation quality and efficiency, while one-step generation suffers from degraded visual quality and error accumulation over long sequences, leading to content drift and generation collapse. To address these issues, we propose Any Forcing, a unified framework for achieving Any-Step Generality and One-Step Stability. Specifically, we introduce a unified adversarial discriminator that jointly performs real-distribution alignment, inter-step consistency alignment, and first-frame quality enhancement, enabling flexible sampling while preserving one-step generation quality. Furthermore, we propose a training-free adaptive long-term memory selection mechanism that selects historical states based on global semantic relevance and local value contribution, while remapping their temporal positions to preserve temporal relationships within the memory cache, thereby enabling stable one-step long-video generation. Experiments demonstrate that Any Forcing achieves high-quality and stable one-step autoregressive video generation, achieving 20.9 FPS and 24.7 FPS for short and long video generation on a single H100 GPU, respectively.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.42031",
+      "pdf_url": "https://arxiv.org/pdf/2610.42031",
+      "code_urls": [],
+      "comment": "Autoregressive video generation",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41968",
+      "versioned_id": "2610.41968v1",
+      "title": "Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity",
+      "authors": [
+        "Jean Lucien Randrianantenaina",
+        "Hung Nguyen",
+        "Nasib Ullah",
+        "Jinbin Zhang",
+        "Nilesh Gupta",
+        "Inderjit S. Dhillon",
+        "Rohit Babbar"
+      ],
+      "published": "2026-10-30T16:17:43Z",
+      "updated": "2026-10-30T16:17:43Z",
+      "abstract": "Weight pruning can reduce the storage and inference cost of large language models (LLMs), but preserving quality at high sparsity levels remains challenging. Existing methods face a quality-cost trade-off in this regime. One-shot pruning is cheap but degrades sharply as sparsity increases, even when followed by post-pruning recovery. A growing line of work instead optimizes the mask directly from the dense model under the end-to-end objective; among these methods, [Lee et al.,2026], the recent state of the art at extreme sparsity, reaches high quality but at the cost of model-sized optimizer state and auxiliary variables. To address this gap, we propose ETAPS, which prunes gradually and adapts sparsely: it tightens a global sparsity constraint in progressive stages while training a sparse delta with a small, fixed budget. Our key observation is that gradual weight removal keeps each pruning step small enough for sparse adaptation to compensate, allowing the adapted model to provide end-to-end gradients that guide the next pruning decision without model-sized optimizer state. Across six models from 125M to 13B parameters, ETAPS achieves lower perplexity than ELSA at every evaluated sparsity from 50% to 90%, with perplexity reductions of up to 42%. ETAPS is also far cheaper: at 90% sparsity, it prunes LLaMA2-7B on a single H200, where ELSA uses four, with $5.0\\times$ smaller total persistent state and 49% fewer GPU-hours. Together, our findings point to a promising direction for achieving high quality in demanding regimes such as extreme sparsity at substantially lower cost.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41968",
+      "pdf_url": "https://arxiv.org/pdf/2610.41968",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "efficient-training"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41949",
+      "versioned_id": "2610.41949v1",
+      "title": "Optimizing Stochastic Policy Geometry for Few-Step Flow Reinforcement Learning",
+      "authors": [
+        "Zhuguanyu Wu",
+        "Congjia Chen",
+        "Ruihao Gong",
+        "Yang Yong",
+        "Shiqiao Gu",
+        "Yi Xu",
+        "Xianglong Liu"
+      ],
+      "published": "2026-10-30T16:05:17Z",
+      "updated": "2026-10-30T16:05:17Z",
+      "abstract": "Few-step flow models generate samples through a handful of large denoising transitions. Applying GRPO to such models requires introducing stochasticity into the denoising transitions, and when a single transition spans a wide range of noise levels, the choice of the resulting stochastic policy becomes a major factor in optimization. Recent constructions constrain the policy to preserve the target flow coefficients, but this constraint admits a family of policies and offers no criterion for choosing among them. We introduce Geo-FSRL (Geometry-Optimized Few-Step Reinforcement Learning), built on a selection principle: at a fixed conditioning state and timestep pair, choose the admissible policy that minimizes the conditional KL divergence induced by any given nonzero velocity-output update. Within a coefficient-preserving family of isotropic Gaussian transitions, this criterion reduces to minimizing a single scalar geometry factor that determines the conditional KL for every velocity-output update. The same factor governs velocity-space Fisher information and conditional transition log-likelihood-ratio variance. We derive the unique closed-form optimizer within this family, shared across all nonzero update magnitudes and directions, with transition coefficients determined by both the source and target noise levels. Because the minimized geometry factor still varies across timesteps, we further adopt gradient-scale matching from prior work and derive closed-form policy-gradient and KL weights that normalize explicit score scales and reference-KL curvature. Geo-FSRL trains on the original few-step schedule and retains the deterministic solver at inference. Our method achieves higher final reward scores than Flow-GRPO and Flow-CPS on both image generation and video generation models under the 4-step setting. Code is available at https://github.com/ModelTC/LightX2V/tree/main/lightx2v_rl",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.41949",
+      "pdf_url": "https://arxiv.org/pdf/2610.41949",
+      "code_urls": [
+        "https://github.com/ModelTC/LightX2V/tree/main/lightx2v_rl"
+      ],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41825",
+      "versioned_id": "2610.41825v1",
+      "title": "Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn",
+      "authors": [
+        "Dezhen Lu",
+        "Runguo Li",
+        "Zixiang Ni",
+        "Yuchen Tang",
+        "Xingquan Kong",
+        "Jiaxing Yang",
+        "Jiarui Guo",
+        "Lingxiang Gao"
+      ],
+      "published": "2026-10-30T14:44:49Z",
+      "updated": "2026-10-30T14:44:49Z",
+      "abstract": "A looped language model applies one block of layers 4 times per token and keeps a key/value (KV) plane for each loop. We study where storage error changes the next-token distribution and how shared-weight error accumulates, using Ouro-1.4B (4 loops) on GSM8K and MATH and Huginn-0125 (32 loops) on GSM8K-derived chains, with dense, simulated quantization. Per unit of error, values carry 94% of the diagonal Fisher mass, but measured KL is dominated by keys with larger quantization errors. Local second-order prediction follows the measured KL of typical sequences, including 136 held-out chains, but misses a few confident rows, and a local second-order factor for shared weights at 32 loops ranges from 1.65 (INT8) to 4.09 (INT4), so it depends on the error direction. A cell-level allocator lowers one-step KL at 25-48% of BF16 bytes, while paired task-accuracy comparisons depend on budget and the 25% gap against K4V2 shrinks to near zero under a post hoc answer-extraction check. A later Ouro-2.6B test retains the key/value split but falsifies measured-cost allocation's advantage over Fisher at 31%; across all 21 ledger registrations, 60 of 176 criteria failed.",
+      "arxiv_categories": [
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.41825",
+      "pdf_url": "https://arxiv.org/pdf/2610.41825",
+      "code_urls": [],
+      "comment": "11 pages of main text (37 pages including appendix), 5 figures, 37 tables",
+      "journal_ref": "",
+      "topics": [
+        "quantization",
+        "distillation",
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41822",
+      "versioned_id": "2610.41822v1",
+      "title": "Trainable Vector Quantization for Large Language Models",
+      "authors": [
+        "Anastasiia Prutianova",
+        "Alina Bogdanova",
+        "Mikhail Shutov",
+        "Dmitrii Poimanov",
+        "Anatoly Gorkov",
+        "Ilia Zharikov"
+      ],
+      "published": "2026-10-30T14:42:40Z",
+      "updated": "2026-10-30T14:42:40Z",
+      "abstract": "Vector Quantization (VQ) is a rapidly evolving technique for compressing Large Language Model (LLM) weights, reducing memory usage, and speeding up inference. However, extreme compression deteriorates model performance, which is challenging to recover due to the discrete nature of VQ parameters. Existing methods employ training-free approaches that are limited to layer-wise reconstruction loss minimization. To address this limitation, we propose TVQ, a novel method that leverages straight-through estimation to enable gradient descent-based optimization of vector-quantized LLMs. By reformulating VQ LLM optimization with trainable latent weights, TVQ enables arbitrary objective minimization. We constitute our approach by applying TVQ in a block-wise knowledge distillation paradigm, which balances quality and training efficiency, and propose several practical solutions to accelerate training. In experiments on modern LLMs, we demonstrate that TVQ is compatible with modern VQ schemes. As a result, TVQ achieves state-of-the-art quality in low-bit post-training quantization settings with a modest training budget and straightforward PyTorch implementation. For instance, TVQ achieves near-lossless 2-bit quantization for LLaMA2-70B with only 1% accuracy drop on popular Question-Answering benchmarks.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.41822",
+      "pdf_url": "https://arxiv.org/pdf/2610.41822",
+      "code_urls": [],
+      "comment": "ECML PKDD 2026, Research Track",
+      "journal_ref": "Machine Learning and Knowledge Discovery in Databases. Research Track. ECML PKDD 2026. Lecture Notes in Computer Science, vol 16944, pp 245-259. Springer, Cham",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41769",
+      "versioned_id": "2610.41769v1",
+      "title": "Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought",
+      "authors": [
+        "Dicong Yu",
+        "Wenhua Wang",
+        "Tian Wang"
+      ],
+      "published": "2026-10-30T14:10:09Z",
+      "updated": "2026-10-30T14:10:09Z",
+      "abstract": "Reasoning distillation is widely used to transfer the reasoning capabilities of large language models to smaller students through teacher-generated supervision. In the black-box setting, however, teachers may expose only final answers and brief solutions, leaving intermediate calculations and validity conditions unavailable and thus limiting the reasoning supervision available for distillation. We propose Stepwise Querying, which elicits step-specific explanations without requiring access to the teacher's internal chain-of-thought (CoT) traces. Independent queries to the same teacher request intermediate derivations, validity checks, and corrections for individual steps, the assembled solutions are then used for standard supervised fine-tuning. Across two teachers, two students, and four mathematics and code benchmarks, our method achieves the highest score in 14 of 16 comparisons with three baselines. We further introduce Stepwise Explanation Information Gain (SEIG), a diagnostic based on the log-ratio of a frozen student's probabilities of correct step completion under stepwise and global explanations. Analyses on GSM8K show that incorrect-answer trajectories can remain useful when they preserve valid intermediate reasoning, while further decomposition yields limited additional gains.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.41769",
+      "pdf_url": "https://arxiv.org/pdf/2610.41769",
+      "code_urls": [],
+      "comment": "15 pages, 7 figures, including appendices",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41672",
+      "versioned_id": "2610.41672v1",
+      "title": "Understanding the Energy Cost of Quantized Agents on Shared GPUs",
+      "authors": [
+        "Stephen Abkin",
+        "Alex Flesher",
+        "Aldric Yang",
+        "Nitheesh Kodarapu",
+        "Deepak Panigrahy",
+        "David Kebo Houngninou"
+      ],
+      "published": "2026-10-30T12:40:51Z",
+      "updated": "2026-10-30T12:40:51Z",
+      "abstract": "Quantization can lower the energy of language-model calls and free memory for serving more agents, but its benefit per completed task remains unclear when agents share a GPU. Measurements of fixed requests or isolated agents leave open how the agents' generated work interact with competition for compute and cache. We present a systematic study of precision and admission limits for two agent models on A100 deployments with 40 or 80 GB of memory, using coding and data-analysis tasks with independently verified outcomes. We replay recorded calls across precisions to isolate execution energy and cap the cache to test the value of freed memory. For both models with four admitted agents where requests fit in the cache, 4-bit weights with 16-bit activations execute the same calls with 10-25% less energy than 8-bit weights and activations. Despite this saving, extra work and fewer completions in live runs raise their energy per verified completion by 49%. Where requests compete for cache on the 40 GB deployment, 4-bit weights cost less, and capping their cache raises energy per verified completion by 34% with 16 agents. These results show how generated work and cache demand change the energy benefit of quantization, providing a practical basis for choosing precision and admission limits together.",
+      "arxiv_categories": [
+        "cs.PF"
+      ],
+      "url": "https://arxiv.org/abs/2610.41672",
+      "pdf_url": "https://arxiv.org/pdf/2610.41672",
+      "code_urls": [],
+      "comment": "16 pages, 8 figures. Alex Flesher and Aldric Yang contributed equally",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41665",
+      "versioned_id": "2610.41665v1",
+      "title": "Breaking Information Islands in Sparse Tuning via Small-World Connectivity",
+      "authors": [
+        "Xianchao Guan",
+        "Zijun Xiong",
+        "Yifeng Wang",
+        "Yubo Cui",
+        "Yaowei Wang",
+        "Guo-Sen Xie",
+        "Xin Li",
+        "Zheng Zhang"
+      ],
+      "published": "2026-10-30T12:35:08Z",
+      "updated": "2026-10-30T12:35:08Z",
+      "abstract": "Sparse tuning is widely used to adapt large language models due to its parameter efficiency. However, its effectiveness depends not only on the number of trainable parameters, but also on the feature-interaction topology of the sparse update's structural support. Limited or uneven connectivity in this support may isolate subsets of feature dimensions, forming information islands that restrict direct task-specific interactions through the trainable update. To address this issue, we propose Small-World Induced Fine-Tuning (SWIFT), a sparse tuning framework inspired by small-world connectivity. SWIFT combines block-diagonal sparse updates for local feature mixing with a fixed deterministic scattering permutation that routes the mixed outputs across feature groups without additional trainable parameters. We further show theoretically that certain random sparse-update models and block-diagonal updates can exhibit information islands, whereas a sufficiently scattering permutation guarantees positive block-level expansion when the trainable block-diagonal factor consists of equal-sized, structurally dense square blocks. Extensive experiments on commonsense reasoning, natural language generation, and image classification demonstrate that SWIFT outperforms the evaluated parameter-efficient fine-tuning (PEFT) baselines on average and can match or surpass full fine-tuning. Implementation is available at https://github.com/xianchaoguan/SWIFT",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41665",
+      "pdf_url": "https://arxiv.org/pdf/2610.41665",
+      "code_urls": [
+        "https://github.com/xianchaoguan/SWIFT"
+      ],
+      "comment": "Accepted at NeurIPS 2026. 23 pages, 6 figures",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41574",
+      "versioned_id": "2610.41574v1",
+      "title": "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
+      "authors": [
+        "Ruurd J. A. Kuiper",
+        "Robert A. Bagheri"
+      ],
+      "published": "2026-10-30T11:04:29Z",
+      "updated": "2026-10-30T11:04:29Z",
+      "abstract": "Unlike autoregressive (AR) models, diffusion language models (DLMs) permit parallel token updates, flexible generation, and bidirectional attention, but leading systems rely on costly pretraining or full-model fine-tuning. We present Build Your Own DLM (BYOD), a generalizable LoRA-only recipe for parameter-efficient AR-to-DLM conversion. Without architecture-specific tuning, BYOD induces diffusion generation in Gemma 2 9B, Llama 3.1 8B, Qwen2.5 7B, and Ministral 8B; to our knowledge, this is the first reported AR-to-DLM conversion of a Mistral model. The adapters comprise 4.1-5.8% of final parameters while every base-model parameter remains frozen; each 25,000-iteration conversion needs at most 102.4M tokens, processed in 3.1-4.0 hours on one Google Colab GPU. All four models generate from fully masked sequences, use bidirectional context in a controlled attention test, and retain substantial parent-model knowledge. BYOD-Gemma is the strongest BYOD conversion on our nine-task evaluation, reaching 50.6% average accuracy compared with 51.9% for LLaDA 8B Instruct in the same harness. Open-generation quality at low network function evaluation (NFE) budgets remains the principal limitation: BYOD perplexity is 8.3-11.1 versus 4.1 for LLaDA and 2.2-3.0 for the AR parents when generating 128 tokens in 64 steps. To enable further experimentation and inspection, we provide a standalone training and evaluation implementation and interactive demos for all four conversions. BYOD thus provides a practical route for extending diffusion generation to other existing model families while identifying the gap that efficient conversion must next close.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.41574",
+      "pdf_url": "https://arxiv.org/pdf/2610.41574",
+      "code_urls": [
+        "https://github.com/RuurdKuiper/BYOD",
+        "https://huggingface.co/spaces/Ruurd/byod-gemma-2-9b"
+      ],
+      "comment": "21 pages, 8 figures. Code: https://github.com/RuurdKuiper/BYOD ; Gemma demo: https://huggingface.co/spaces/Ruurd/byod-gemma-2-9b . Links to all four demos are included in the paper",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41508",
+      "versioned_id": "2610.41508v1",
+      "title": "HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads",
+      "authors": [
+        "Zaifeng Pan",
+        "Lucas Wang",
+        "Xinwei Qiang",
+        "Yanbo Zhou",
+        "Chang Chen",
+        "Zhengding Hu",
+        "Yue Guan",
+        "Yufei Ding"
+      ],
+      "published": "2026-10-30T09:59:44Z",
+      "updated": "2026-10-30T09:59:44Z",
+      "abstract": "Hybrid large language models combine full-attention and recurrent linear layers to reduce inference costs. Prefix caching can further reduce redundant computation across requests, but a recurrent checkpoint cannot recover an earlier state corresponding to a shorter prefix. Existing hybrid prefix caching systems retain checkpoints at selected boundaries to support common reuse patterns in conventional conversations. However, agent workloads modify and revisit earlier contexts, exposing reusable prefixes whose checkpoints were never saved or have already been evicted. A straightforward approach is to retain more checkpoints to reduce recomputation, but their cumulative footprint can displace reusable prefixes from other sessions and cause additional cache misses. To address these problems, we present HiState, a prefix cache management system for hybrid models serving agent workloads. Our key observation is that prefix reuse accesses all matching key-value (KV) entries but only one recurrent checkpoint, regardless of how many checkpoints are retained. This asymmetry allows HiState to retain historical checkpoints on SSD while prioritizing fast memory for KV entries: each hit retrieves only one checkpoint whose size is independent of context length. Within this hierarchy, we propose adaptive interval control to balance checkpoint storage against recomputation, and unified eviction to coordinate checkpoint sparsification with reclamation of stale trajectories. We implement HiState on top of vLLM and evaluate it on two public coding-agent trace datasets and controlled microbenchmarks. On real agent traces, HiState achieves up to 5.73x and 5.44x speedups in p99 TTFT over vLLM-Marconi and SGLang-HiCache, respectively.",
+      "arxiv_categories": [
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.41508",
+      "pdf_url": "https://arxiv.org/pdf/2610.41508",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41487",
+      "versioned_id": "2610.41487v1",
+      "title": "Sparse Text Diffusion under Dual Budgets: Context Connectivity and Expert Activation",
+      "authors": [
+        "Alexandros Christoforos",
+        "Chadbourne Davis",
+        "Paul Raj"
+      ],
+      "published": "2026-10-30T09:43:20Z",
+      "updated": "2026-10-30T09:43:20Z",
+      "abstract": "Long-context diffusion repeatedly pays for both token interaction and feed-forward computation. We formulate these costs as two separate budgets: the edges available to an attention graph and the experts activated for each token. This view connects local, dilated, and global attention with conditional expert computation without assuming that sparsity alone preserves document-level information. We specify normalized masked attention, distinguish denoising depth from sampling iterations, and derive graph and compute bounds. A reported sparse-expert configuration, denoted DualBudget, is analyzed across scientific summarization, multi-hop question answering, dialogue, and sentence-pair prediction. All supplied table measurements are retained. The length study shows gains over the listed baselines through 16K, together with measurable degradation as length increases. Ablations reveal mixed changes across the three reported scores, while the cost record indicates a 20% reduction relative to DiffuSeq under an unspecified timing convention. The analysis separates these observations from unmeasured claims about training speed, absorbing states, global coherence, and deployment memory.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41487",
+      "pdf_url": "https://arxiv.org/pdf/2610.41487",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41480",
+      "versioned_id": "2610.41480v1",
+      "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+      "authors": [
+        "Jonas Loos",
+        "Oliver Eberle"
+      ],
+      "published": "2026-10-30T09:35:33Z",
+      "updated": "2026-10-30T09:35:33Z",
+      "abstract": "Fine-tuning a language model changes how it responds, but where is this fine-tuned behavior instantiated? To better understand this, we evaluate whether the change in model behavior arises only during the generation of the answer tokens where the change manifests, or whether altered processing of previous tokens causes it via the attention mechanism. For this, we patch the KV cache from a LoRA fine-tuned model into the unmodified base model, and vice versa. Our results show that for some behaviors, like responding in German or emergent misalignment, patching the KV cache can indeed transfer them from the fine-tuned to the base model. Correspondingly, patching the KV cache from base to fine-tune can partially or fully remove fine-tuned behavior. Furthermore, we find that the effect of patching grows with how much of the KV cache is patched and concentrates at a few pivotal positions, with system-prompt and chat-template tokens having disproportionate influence.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.41480",
+      "pdf_url": "https://arxiv.org/pdf/2610.41480",
+      "code_urls": [],
+      "comment": "Interpretability as a Science Workshop at NeurIPS 2026. Project page: https://jonasloos.github.io/kv-patching",
+      "journal_ref": "",
+      "topics": [
+        "efficient-training",
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41408",
+      "versioned_id": "2610.41408v1",
+      "title": "SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models",
+      "authors": [
+        "Haesung Lee",
+        "Insu Han"
+      ],
+      "published": "2026-10-30T08:19:50Z",
+      "updated": "2026-10-30T08:19:50Z",
+      "abstract": "Vision-Language-Action (VLA) models enable capable robot behavior, but their large memory footprint limits deployment on resource-constrained robotic platforms. Weight quantization is a natural remedy, yet post-training quantization (PTQ) recipes inherited from large language models degrade when applied to VLAs at ultra-low precision. Existing low-bit PTQ methods often fail to explicitly account for the structure of downstream operations and allocate precision without considering its effect on the policy actions. We introduce SACQ, an ultra- low-bit weight-only vector-codebook quantization framework for VLAs. SACQ combines (1) structure-aware codebook fitting with role-specific quadratic metrics that reflect input statistics and downstream sensitivity; (2) action-aware mixed-bit allocation based on the increase in final-action error as individual layers are compressed; and (3) two-stage post-quantization refinement that reassigns codeword indices with second-order error compensation and calibrates codebooks and row-group scales against the decoded action. Using GR00T N1.7, SACQ achieves 93.85% average success across four LIBERO suites at 1.5 bits per language/action weight while reducing model memory by 4.83x. With INT8 activation quantization and low-precision attention, it retains 93.55% success while running 1.51x faster than BF16. On SimplER, SACQ further achieves 63.76% and 52.27% success under Visual Matching and Variant Aggregation at 2 bits per language/action weight, compared to 58.90% and 53.45% for BF16, respectively.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2610.41408",
+      "pdf_url": "https://arxiv.org/pdf/2610.41408",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41359",
+      "versioned_id": "2610.41359v1",
+      "title": "LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction",
+      "authors": [
+        "Kwan Yan",
+        "Jialun Zhong",
+        "Yanzeng Li"
+      ],
+      "published": "2026-10-30T07:23:27Z",
+      "updated": "2026-10-30T07:23:27Z",
+      "abstract": "Length-aware scheduling reduces request latency in LLM serving by prioritizing shorter requests. However, despite their large model sizes, length predictors can suffer degraded ranking performance under domain and task shifts, and adapting them can require costly retraining. Their prediction overhead can further offset the benefits of scheduling. To improve the generalization and efficiency of length-aware scheduling, we propose \\textbf{LEAP}, a length prediction system with fast online adaptation and asynchronous CPU execution. LEAP reuses the serving model's prefill hidden states, which contain information about the output length, and extracts this signal through a linear readout. To adapt to substantial domain and task shifts, it updates the readout at test time through recursive least squares, using completed requests as supervision without gradient computation or historical-data replay. Prediction and updates run asynchronously on CPU, while prediction and initial batch ordering overlap the remaining GPU prefill. Across the evaluated cross-domain transfers, LEAP retains strong ranking performance, and online adaptation improves Spearman correlation by 64.7\\% under a larger domain shift. Serving experiments show that LEAP reduces average per-token latency by 15.9--40.8\\% compared with the evaluated length predictors, while achieving 1.9\\% higher throughput with $30{,}569\\times$ fewer predictor parameters than the strongest evaluated baseline.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41359",
+      "pdf_url": "https://arxiv.org/pdf/2610.41359",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "llm-systems"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41291",
+      "versioned_id": "2610.41291v1",
+      "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+      "authors": [
+        "Xuning He",
+        "Kai Fan",
+        "Runyu Zhang",
+        "Binghuan Wang",
+        "Yuxiang Zhang",
+        "Xue Jiang",
+        "Yihong Dong"
+      ],
+      "published": "2026-10-30T05:52:25Z",
+      "updated": "2026-10-30T05:52:25Z",
+      "abstract": "Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically train external compressors or context-management agents to rewrite context as shorter hard-token sequences, but such external selection may not align with the LLM's evolving representation and is necessarily lossy. In this paper, we introduce Agentic Soft-Token Compression (ASTC), a training-free compression method using soft tokens within LLM agent for long-horizon tasks. Specifically, ASTC uses the model's native recurrent dynamics to determine the already absorbed information, leveraging the commonly-used hybrid Gated Delta Network (GDN)-attention. It then carries this information forward as agentic soft tokens while retaining exact values as hard tokens. The resulting compact sequence reduces later-layer computation and yields reusable KV caches, extending the savings across the agent's trajectory. Extensive experiments on long-horizon tasks show that ASTC matches or exceeds the uncompressed agent's accuracy with up to 50.68% fewer end-to-end Attention Pairs, while trained compressors require 15.4 to 103.7 times more Attention Pairs per successful task. These findings highlight agentic soft tokens as a model-native way to carry absorbed context forward as the task representation evolves.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "url": "https://arxiv.org/abs/2610.41291",
+      "pdf_url": "https://arxiv.org/pdf/2610.41291",
+      "code_urls": [
+        "https://github.com/RISE-X-Lab/Agentic-Soft-Token"
+      ],
+      "comment": "26 pages, 9 figures, 11 tables. Code: https://github.com/RISE-X-Lab/Agentic-Soft-Token",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41236",
+      "versioned_id": "2610.41236v1",
+      "title": "Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models",
+      "authors": [
+        "Tian Wang",
+        "Yongding Tao",
+        "Yihong Dong",
+        "Xiaoming Wu",
+        "Ying Guo",
+        "Ge Li"
+      ],
+      "published": "2026-10-30T04:21:25Z",
+      "updated": "2026-10-30T04:21:25Z",
+      "abstract": "Sparse MoE mechanism significantly improves the trade-off between model capacity and inference efficiency. However, practical deployment still requires storing all experts, resulting in substantial memory overhead. We show that expert outputs in MoE layers exhibit structured redundancy. Across different models and task categories, the stable rank and entropy effective rank of expert outputs are consistently far below the nominal number of experts, while expert output distributions also exhibit fewer effective modes. Motivated by these observations, we reformulate expert pruning as a structure-preserving expert subset selection problem and efficiently optimize it via a greedy strategy, rather than only independently scoring and ranking individual experts or exhaustively searching over expert combinations. We propose two expert pruning methods under the unified structure-preserving framework: Projection Energy Expert Pruning (PEEP), which preserves the functional subspace by maximizing weighted projection energy, and Distributional Coverage Expert Pruning (DCEP), which preserves the distributional geometry by minimizing weighted coverage error. Both methods incorporate router-derived weights as priors, enabling them to jointly preserve the global structural relationships among experts while accounting for the local importance of individual experts. Experiments on DeepSeek-V2-Lite and Qwen3-30B-A3B demonstrate that, at the expert retention ratios of 75% and 50%, our methods outperform the state-of-the-art baselines on the majority of benchmarks and consistently achieve the best average performance across both general tasks and mathematical reasoning tasks.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41236",
+      "pdf_url": "https://arxiv.org/pdf/2610.41236",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41177",
+      "versioned_id": "2610.41177v1",
+      "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+      "authors": [
+        "Jihao Zhao",
+        "Shuaishuai Zu",
+        "Pengfei Li",
+        "Biao Qin",
+        "Guanghuan Fang",
+        "Ben Feng",
+        "Baochuan Yang"
+      ],
+      "published": "2026-10-30T02:57:43Z",
+      "updated": "2026-10-30T02:57:43Z",
+      "abstract": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on where draft supervision is needed. We present TraceSpec, a framework connecting trajectory evaluation with adaptive draft training. It combines dynamic execution with fixed-prefix replay and introduces TraceSpec-Traj, a corpus of 10,000 training states and 2,500 test states spanning browsing and software engineering. Analysis of five speculative baselines reveals that aggregate acceptance can rise with context length while declining within matched late browsing actions. Workload and phase further distinguish these trends, motivating supervision guided by trajectory conditions. TraceSpec trains on intermediate assistant turns and allocates a fixed prediction budget using state-conditioned estimates of prefix-aware acceptance gaps. Across three target sizes and two temperatures, it improves replay throughput by 12.5% to 22.6% over its DSpark base. Qwen3-4B ablations show that adaptive allocation increases accepted length by 3.3% to 10.0% over fixed full-turn supervision, with additional comparisons substantiating the roles of state conditioning and consecutive-token agreement. The resulting evaluation resources, trajectory findings, and training strategy connect the analysis of agent execution to practical draft improvement.",
+      "arxiv_categories": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.41177",
+      "pdf_url": "https://arxiv.org/pdf/2610.41177",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41160",
+      "versioned_id": "2610.41160v1",
+      "title": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+      "authors": [
+        "Hung-Chun Lin",
+        "Ting-Wei Hsu",
+        "Chung-En Ho",
+        "Ahmed Saeed"
+      ],
+      "published": "2026-10-30T02:35:39Z",
+      "updated": "2026-10-30T02:35:39Z",
+      "abstract": "Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regime, stateless ECMP can perform poorly: hash collisions may overload one spine link while leaving others idle, stretching transfer times by seconds. Yet this same persistence makes coordination practical. Since these flows are long-lived, even lightweight one-to-all coordination can be amortized over their lifetime. We present ARK, a distributed elephant-flow path reservation mechanism. ARK coordinates senders to choose source ports whose hashes map concurrent flows onto distinct spines, without requiring switch changes or receiver-side packet reordering. Packet-level RDMA simulations show that ARK reduces mean and P95 FCT by up to 27.3% and 34.0% under moderate load, and further reduces mean TTFT by up to 12.9%.",
+      "arxiv_categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2610.41160",
+      "pdf_url": "https://arxiv.org/pdf/2610.41160",
+      "code_urls": [],
+      "comment": "7 pages. Published in the Proceedings of the ACM SIGCOMM 2026 Conference (SIGCOMM '26)",
+      "journal_ref": "In Proceedings of the ACM SIGCOMM 2026 Conference (SIGCOMM '26), pp. 2067-2073, 2026",
+      "topics": [
+        "attention-kv-cache",
+        "llm-systems"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41157",
+      "versioned_id": "2610.41157v1",
+      "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
+      "authors": [
+        "Shanglin Yang",
+        "Zhan Shi"
+      ],
+      "published": "2026-10-30T02:31:45Z",
+      "updated": "2026-10-30T02:31:45Z",
+      "abstract": "Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this loop to narrow single-round reflection, introducing full-set error clustering, targeted minibatches, or larger proposer models so the optimizer sees more failure modes per step. Yet every existing evaluation tests these mechanisms exclusively inside lineage-preserving search, where each revision edits a surviving parent, leaving the contribution of parent inheritance confounded with the breadth of per-round feedback. Across 1,750 pre-registered runs spanning nine prompt and program synthesis benchmarks, we separate parent inheritance from feedback disclosure under matched evaluation budgets. We find that greedy parent inheritance drives the vast majority of optimization progress, outperforming seed-reset resampling even when seed-reset proposals receive a clustered summary of all failures in every round or use a larger proposer model. While full-set error clustering and diverse failure selection improve single-step rewrites from the seed and accelerate the opening rounds of search, sequential parent inheritance rapidly closes this gap as solved error modes are retained in the candidate and filtered from subsequent failure lists. Moreover, decomposing token expenditure in GEPA reveals that proposer reflection accounts for only a small fraction of total cost whereas validation and minibatch gating consume nearly the entire budget, showing that greedy parent inheritance over raw failures captures the gains of complex reflective loops at a fraction of their compute.",
+      "arxiv_categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.41157",
+      "pdf_url": "https://arxiv.org/pdf/2610.41157",
+      "code_urls": [
+        "https://github.com/shangliy/lineage-is-memory"
+      ],
+      "comment": "17 pages, 2 figures, 10 tables. Code, pre-registrations, and 1,750 run logs at https://github.com/shangliy/lineage-is-memory",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41112",
+      "versioned_id": "2610.41112v1",
+      "title": "Calibration of Large Model Quantization based on HiFloat4 Format",
+      "authors": [
+        "Jing Huang",
+        "Yu Cheng",
+        "Ziwei Yu",
+        "Lan Zhao",
+        "Sitan Li",
+        "Guangxiu Yao",
+        "Xin Wang",
+        "Yuanyong Luo",
+        "Hengyi Liang",
+        "Ting Li",
+        "Bo Liu",
+        "Hu Liu",
+        "Michael Bi Mi",
+        "Heng Liao"
+      ],
+      "published": "2026-10-30T01:10:51Z",
+      "updated": "2026-10-30T01:10:51Z",
+      "abstract": "Quantization of Large Language Models (LLMs) has be- coming increasingly important for reducing the computa- tional costs and resource requirements for practical deploy- ment.Growinginterestinthisareahasmotivatedthecommu- nity to move beyond 8-bit quantization towards 4-bit preci- sion, leading to the development of customized 4-bit formats such as MXFP4 and NVFP4. Recently, HiFloat4 (HiF4) has emerged as a competitive alternative which adopts a Block Floating-Point(BFP)formatwithathree-levelscalinghierar- chy, thereby achieving a significantly larger dynamic range. While quantization can substantially reduce memory usage and accelerate inference, it frequently introduces accuracy degradation. Calibration is therefore essential for narrowing theperformancegapbetweenlow-precisionquantizedmodels and their full-precision counterparts. Nevertheless, existing calibration methods are mainly designed and validated us- ing integer-precision formats, such as INT4, lacking support for HiF4 due to its hierarchical BFP structure. In this paper, weinvestigatethreecalibrationapproaches,namelyHiGPTQ, HiAutoRound, and HiFlatQuant, to further enhance model quantizationbasedontheHiF4format.Extensiveexperiments demonstratethatallthreeproposedapproachesimproveinfer- ence accuracy compared with direct HiF4 conversion, reduc- ing the gap between HiF4 and BF16 to less than 1% and out- performing the state-of-the-art NVFP4 format across various models and downstream tasks.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.41112",
+      "pdf_url": "https://arxiv.org/pdf/2610.41112",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41104",
+      "versioned_id": "2610.41104v1",
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+      "authors": [
+        "Aryan Das",
+        "Vinay Kumar Verma",
+        "Aakansha Mishra"
+      ],
+      "published": "2026-10-30T00:50:49Z",
+      "updated": "2026-10-30T00:50:49Z",
+      "abstract": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing persistent training memory. We propose Muon with Reused Teacher (Muon-RT), which reuses the teacher-student displacement to eliminate momentum buffers for hidden weight matrices. We show that this displacement encodes an exponentially weighted history of applied updates and smooths temporally uncorrelated noise under a local model. Muon-RT removes its radial component, normalizes it spectrally, and mixes it with the current gradient after Newton-Schulz (NS) orthogonalization. Under explicit regularity and alignment assumptions, we establish linear contraction of an expected objective-gap bound toward a residual error level. With Self-Distillation Fine-Tuning (SDFT) on Qwen2.5-7B-Instruct, Muon-RT improves average accuracy over AdamW by 2.6 points with 42% less persistent memory, and over momentum Muon by 5.4 points with 27% less persistent memory. With Self-Distillation Policy Optimization (SDPO) on Olmo-3-7B-Instruct, it improves average accuracy over AdamW by 2.0 points.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2610.41104",
+      "pdf_url": "https://arxiv.org/pdf/2610.41104",
+      "code_urls": [],
+      "comment": "Under Submission",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.41037",
+      "versioned_id": "2610.41037v1",
+      "title": "WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection",
+      "authors": [
+        "Jiannan Huang",
+        "Jerry Ding",
+        "Li Yu",
+        "Zhenting Li"
+      ],
+      "published": "2026-10-29T22:29:33Z",
+      "updated": "2026-10-29T22:29:33Z",
+      "abstract": "Web overlays, such as cookie consent banners, newsletter prompts, and age gates, obstruct automated web crawlers and degrade downstream document representations. While proprietary multimodal Large Language Models (MLLMs) can accurately identify overlays, their latency and inference cost preclude web-scale ingestion. Conversely, lightweight vision models struggle with full-page renderings characterized by extreme vertical aspect ratios, where standard isotropic resizing collapses critical text features and causes false positives. In this work, we present WebOverlay, a high-throughput vision-only detector trained via distillation from a frontier vision-language teacher. We establish a dynamic tiling strategy that partitions extreme aspect-ratio web renders into aspect-preserving patches with spatial overlap, coupled with an aspect-ratio-aware boundary adjudication mechanism to eliminate boundary artifacts. To eliminate cross-modal latency overheads, our student model relies purely on visual cues, bypassing DOM tree parsing. WebOverlay significantly outperforms DOM-based heuristics and achieves competitive precision and recall against heavy proprietary MLLM baselines while delivering multiple orders of magnitude higher throughput and substantially reduced deployment costs.",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2610.41037",
+      "pdf_url": "https://arxiv.org/pdf/2610.41037",
+      "code_urls": [],
+      "comment": "9 pages, 2 figures, 2 tables",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.40974",
+      "versioned_id": "2610.40974v1",
+      "title": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+      "authors": [
+        "Aryan Chowdhury",
+        "Riza Batista-Navarro"
+      ],
+      "published": "2026-10-29T20:59:31Z",
+      "updated": "2026-10-29T20:59:31Z",
+      "abstract": "Large language models have been shown to memorise and reproduce verbatim sequences from their training data, raising concerns about privacy leakage, intellectual property exposure, and the limits of generalisation. Recent theoretical work suggests that attention heads may contribute to this behaviour by functioning as associative memory mechanisms, with memorisation capacity scaling with the number of heads. At the same time, empirical work has shown that many attention heads are redundant and can be pruned with limited impact on downstream performance. Despite these parallel findings, the effect of pruning redundant heads on memorised-sequence reproduction remains unexplored. In this work, we demonstrate that zeroing out a substantial fraction of attention heads prior to inference can significantly suppress verbatim memorisation while preserving, or even improving, language modelling performance on the benchmark used to identify redundant heads. Evaluating GPT-2-XL(1.5B) on known memorised sequences, we find that pruning 729 task-redundant heads reduces the memorisation count by 91.5%, while improving WikiText-103 perplexity by 0.92. These findings suggest that attention-head redundancy can be exploited to mitigate memorisation at inference time, without retraining or modifying the training data.",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.40974",
+      "pdf_url": "https://arxiv.org/pdf/2610.40974",
+      "code_urls": [],
+      "comment": "7 Pages, 5 Tables, 1 Figure",
+      "journal_ref": "",
+      "topics": [
+        "pruning"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.40943",
+      "versioned_id": "2610.40943v1",
+      "title": "Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms",
+      "authors": [
+        "Michel Fabrice Serret",
+        "Laura Grigori"
+      ],
+      "published": "2026-10-29T20:21:13Z",
+      "updated": "2026-10-29T20:21:13Z",
+      "abstract": "The bottleneck of attention mechanisms, which are the fundamental building block of modern language models, is their quadratic complexity in terms of context size. There has thus been an increasing interest in the compression of the context, also called KV-cache compression. In this article, we consider the problem of compressing the context of attention mechanisms by first formulating it in the Hilbert space associated with its kernel. In this formalism, attention can be represented as the ratio of two linear maps whose interpolant is also the ratio of interpolants, this allows us to consider the interpolation of the linear maps directly. We thus introduce two novel KV-cache compression methods which we call GAIM and Q-DAIM, based on the Generalized Empirical Interpolation Method (GEIM) and the Q-Discrete Empirical Interpolation Method (Q-DEIM), respectively. As the cost of these methods is quadratic in terms of context length, we propose surrogate models based on the Taylor series, the Performer and the Random Fourier Features method which allow the compression to be done in linear time. Finally, we extend this result to the streaming attention setting, providing new methods which allow one to penalize the selection of interpolation nodes based on the previously interpolated context and to update the previous interpolation based on new information. We then provide numerical results on the convergence of the residuals and the output error in future queries and preliminary results on the LongBench-E benchmark showing performance comparable to the state-of-the-art methods. These experiments suggest that the range revealed by our Q-DAIM method could help identify where information is concentrated in the KV cache, thus enabling an efficient compression.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "math.NA"
+      ],
+      "url": "https://arxiv.org/abs/2610.40943",
+      "pdf_url": "https://arxiv.org/pdf/2610.40943",
+      "code_urls": [],
+      "comment": "44 pages, 17 figures, 8 tables",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.40927",
+      "versioned_id": "2610.40927v1",
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "authors": [
+        "Wendi Li",
+        "Huseyin A. Inan",
+        "Wei-Ning Chen",
+        "Yanzhi Chen",
+        "Chetan Bansal",
+        "Saravan Rajmohan",
+        "Sharon Li"
+      ],
+      "published": "2026-10-29T19:55:18Z",
+      "updated": "2026-10-29T19:55:18Z",
+      "abstract": "Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interference. Existing generative world models avoid direct execution, but typically compress environment state into a single prompt, limiting their ability to reliably simulate transitions under partial observability. Instead, we introduce Agentic World Modeling (AWM), which reformulates next-observation prediction as a multi-turn evidence-acquisition task. For each hypothetical action, an agentic simulator adaptively queries the real environment through safe read-only interfaces, reasons over the returned evidence, and uses executable computation to construct the resulting observation without mutating shared state. Integrated with trajectory-level TTS, AWM enables parallel exploration over a single shared environment. Across $τ$-bench, AppWorld, and OfficeBench, AWM outperforms a single-shot simulation baseline by 40.07% on average, and surpasses a trained world-model baseline by 12.36% on average. These results establish interactive, read-grounded simulation as a practical foundation for safe and scalable agentic test-time scaling in shared, non-resettable environments.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2610.40927",
+      "pdf_url": "https://arxiv.org/pdf/2610.40927",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "id": "2610.40914",
+      "versioned_id": "2610.40914v1",
+      "title": "No Channels Left Behind: Understanding Diffusion Acceleration through Residual Gates",
+      "authors": [
+        "Junha Park",
+        "Jaemyung Yu",
+        "Jaehui Hwang",
+        "Jong-Seok Lee",
+        "Dongyoon Han"
+      ],
+      "published": "2026-10-29T19:35:11Z",
+      "updated": "2026-10-29T19:35:11Z",
+      "abstract": "Training acceleration methods for diffusion transformers, such as REPA and dispersive regularization, are commonly explained by additional supervision, spatial-structure priors, or improved feature geometry. We revisit this view and uncover a striking internal change: the AdaLN-Zero residual gate $α$, which directly controls how conditioned updates enter the residual stream, is substantially reorganized by these methods. This observation motivates our hypothesis that acceleration arises, at least in part, from reshaping the residual gating pathway rather than solely from the feature structures explicitly imposed by auxiliary objectives. Supporting this view, accelerated models are markedly more sensitive to perturbations of $α$, and their gate geometry reflects semantic relationships among classes. We further introduce the normalized participation ratio (nPR) to characterize the channel-wise organization of the gates and find that, across REPA teachers, projector architectures, and radial-objective targets, broader gate participation accompanies better generation quality. Guided by this insight, we propose a simple teacher-free radial objective that promotes broader gate participation through feature-norm regularization, without pairwise feature comparisons. On ImageNet $256\\times256$ with SiT-B/2, our method improves FID over dispersive loss while increasing mean gate participation over timesteps and classes, further supporting the link between gate organization and training acceleration. Our results identify residual-gate reorganization as a measurable axis of diffusion training acceleration and suggest a simple direction for further acceleration.",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.40914",
+      "pdf_url": "https://arxiv.org/pdf/2610.40914",
+      "code_urls": [
+        "https://github.com/naver-ai/radialobj"
+      ],
+      "comment": "Code: https://github.com/naver-ai/radialobj",
+      "journal_ref": "",
+      "topics": [
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-11-02"
+    },
     {
       "id": "2610.40614",
       "versioned_id": "2610.40614v1",
@@ -404,7 +1278,7 @@
     },
     {
       "id": "2610.39876",
-      "versioned_id": "2610.39876v1",
+      "versioned_id": "2610.39876v2",
       "title": "Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution",
       "authors": [
         "Yue He",
@@ -431,7 +1305,7 @@
         "Xianming Liu"
       ],
       "published": "2026-10-29T11:52:20Z",
-      "updated": "2026-10-29T11:52:20Z",
+      "updated": "2026-10-30T06:38:50Z",
       "abstract": "We study post-training for dynamically routed mixture-of-experts (MoE) models, focusing on integrating independently optimized specialists while keeping consolidation efficient. Our approach combines calibrated multi-teacher on-policy distillation (C-MOPD), which matches each selected teacher on a local Top-$K$ support with teacher-wise loss normalization and clipping, with an execution path that uses post-capacity bounded-width dispatch, final-route replay, and asynchronous rollout--training overlap. On Turing-20B-A2B, the selected model achieves a four-domain normalized integration score of 0.9988 and retains at least 90.16\\% of the measured specialist gain in every domain. At matched $K=32$, the full calibration objective scores 0.9962, compared with 0.9724 without calibration and 0.9834 without clipping. At a matched 8K response cap, the model exceeds both shared SFT and Qwen3-8B on all four reasoning-enabled mathematics and code benchmarks (unweighted mean: 85.92, versus 80.33 for Qwen3-8B and 74.21 for SFT), and improves over SFT on ten of twelve broader evaluation metrics. In a PPU-based profile, the combined execution configuration reduces consolidation step time from 398.7 to 139.3 seconds, an observed 2.86$\\times$ speedup over serial execution. These results demonstrate strong specialist integration alongside more efficient consolidation, while reflecting the complete training and execution framework rather than any single component.",
       "arxiv_categories": [
         "cs.LG",
@@ -984,7 +1858,7 @@
     },
     {
       "id": "2610.38346",
-      "versioned_id": "2610.38346v1",
+      "versioned_id": "2610.38346v2",
       "title": "Knowledge-structured and evidence-aware semantic self-distillation for glomerular pathology foundation model",
       "authors": [
         "Qiming He",
@@ -1016,7 +1890,7 @@
         "Zhe Wang"
       ],
       "published": "2026-10-28T06:42:47Z",
-      "updated": "2026-10-28T06:42:47Z",
+      "updated": "2026-10-30T02:48:20Z",
       "abstract": "Visual foundation models learn rich pathological morphology but lack explicit concept-level supervision. Vision--language pretraining can provide this supervision but requires costly image--text pairs. Here, we introduce GloSAGE, a semantic self-distillation framework that uses lesion profiles predicted by a pretrained visual teacher to construct structured pathology descriptions. Reliability-guided selection identifies image--text anchors, while Knowledge-Structured Pathology Text Synthesis and Evidence-Guided Negative-pair Construction account for partially observed lesions. Image--text alignment trains projection layers while retaining the frozen visual encoder; an intermediate Semantic Transfer Layer supplies features for downstream tasks. Developed on GloMillion and evaluated across seven glomerulus- and case-level cohorts, GloSAGE supported zero-shot lesion recognition, image--text retrieval, hard-negative discrimination and concept-intervention analyses. It outperformed its source visual model in most lesion-recognition tasks and improved lesion grading, while supporting competitive case-level disease classification, injury grading and baseline renal function estimation. Ablations supported the combined contributions of knowledge-structured text and evidence-guided negatives, and the intermediate transfer layer improved mean lesion-recognition ROC-AUC relative to the complete projection output. A frozen language model conditioned on GloSAGE features generated glomerular descriptions. These findings suggest that teacher-derived lesion profiles can provide annotation-efficient semantic supervision for extending a glomerular visual foundation model.",
       "arxiv_categories": [
         "cs.CV"
@@ -2651,14 +3525,14 @@
     },
     {
       "id": "2610.34575",
-      "versioned_id": "2610.34575v1",
+      "versioned_id": "2610.34575v2",
       "title": "Cumulative Marginal Matching for One-Step Diffusion",
       "authors": [
         "Paribesh Regmi",
         "Rui Li"
       ],
       "published": "2026-10-25T21:15:57Z",
-      "updated": "2026-10-25T21:15:57Z",
+      "updated": "2026-10-30T04:01:27Z",
       "abstract": "The sampling procedures of diffusion and flow-matching models involve hundreds of denoising steps incurring substantial inference time, which has motivated a growing body of work on training schemes for few-step and one-step generation. Existing approaches primarily seek to align the generation trajectory of few-step and base models, yet their training objectives only involve discrepancies at a single point in the trajectory, encouraging only local \\emph{point-level} alignment. While recent methods such as \\emph{Shortcut-CSL} introduce cumulative objective that enforce alignment over the entire trajectory, this is suboptimal as they do not directly enforce alignment between the distributions induced by the two models throughout the generation process. We propose \\emph{Cumulative Marginal Matching} (CMM), a principled objective for few-step generation: by viewing flow-matching as a sequence of intermediate marginal distributions connecting the prior and data distributions, CMM directly optimizes the cumulative discrepancy between the base and few-step marginal distributions over the entire sequence. Specifically, we formulate this discrepancy using the Wasserstein-2 distance. By exploiting the pushforward representation of flow-matching, we transform an intractable cumulative Wasserstein objective into a tractable surrogate that can be optimized using samples from the intermediate marginal, which are readily generated through the conditional interpolation process of flow-matching. Furthermore, we show that the existing \\emph{Shortcut-CSL} objective arises as a first-order approximation of that of the CMM, establishing a theoretical connection between the two objectives. Experiments on standard benchmarks demonstrate improvement in generation quality over \\emph{Shortcut-CSL} and other state-of-the-art one- and few-step baselines under identical training budgets.",
       "arxiv_categories": [
         "cs.LG"

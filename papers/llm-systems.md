@@ -4,10 +4,14 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-217 papers · newest submission first
+221 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-30 | **Flide: Accelerating Decision Inference with Exact State Forking**<br><sub>Bobo Li, Jiajia Song, Hao Fei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42148) · [PDF](https://arxiv.org/pdf/2610.42148) |
+| 2026-10-30 | **HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads**<br><sub>Zaifeng Pan, Lucas Wang, Xinwei Qiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41508) · [PDF](https://arxiv.org/pdf/2610.41508) |
+| 2026-10-30 | **LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction**<br><sub>Kwan Yan, Jialun Zhong, Yanzeng Li</sub> | [arXiv](https://arxiv.org/abs/2610.41359) · [PDF](https://arxiv.org/pdf/2610.41359) |
+| 2026-10-30 | **ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference**<br><sub>Hung-Chun Lin, Ting-Wei Hsu, Chung-En Ho et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41160) · [PDF](https://arxiv.org/pdf/2610.41160) |
 | 2026-10-29 | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading**<br><sub>Zhiyuan Fang, Dingyang Li, Jianfeng Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40305) · [PDF](https://arxiv.org/pdf/2610.40305) |
 | 2026-10-29 | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving**<br><sub>Yishuo Yuan, Shaoyu Yang, Chunrong Fang</sub> | [arXiv](https://arxiv.org/abs/2610.40292) · [PDF](https://arxiv.org/pdf/2610.40292) |
 | 2026-10-29 | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets**<br><sub>Bole Ma, Ayesha Afzal, Jan Eitzinger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40287) · [PDF](https://arxiv.org/pdf/2610.40287) |

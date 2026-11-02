@@ -4,10 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-453 papers · newest submission first
+462 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-10-30 | **A Better Critic Matters for Distribution Matching Distillation**<br><sub>Zongze Wu, Xianbang Wang, Zhengyang Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42135) · [PDF](https://arxiv.org/pdf/2610.42135) |
+| 2026-10-30 | **DecisionRank: On-Policy Distillation for Decision-Model Rerankers**<br><sub>Yanran Wu, Dian Yu, Chongyang Bai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42128) · [PDF](https://arxiv.org/pdf/2610.42128) |
+| 2026-10-30 | **Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation**<br><sub>Jiahua Xu, Yijie Fang, Nannan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42031) · [PDF](https://arxiv.org/pdf/2610.42031) |
+| 2026-10-30 | **Optimizing Stochastic Policy Geometry for Few-Step Flow Reinforcement Learning**<br><sub>Zhuguanyu Wu, Congjia Chen, Ruihao Gong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41949) · [PDF](https://arxiv.org/pdf/2610.41949) · [Code](https://github.com/ModelTC/LightX2V/tree/main/lightx2v_rl) |
+| 2026-10-30 | **Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41825) · [PDF](https://arxiv.org/pdf/2610.41825) |
+| 2026-10-30 | **Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought**<br><sub>Dicong Yu, Wenhua Wang, Tian Wang</sub> | [arXiv](https://arxiv.org/abs/2610.41769) · [PDF](https://arxiv.org/pdf/2610.41769) |
+| 2026-10-30 | **Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization**<br><sub>Shanglin Yang, Zhan Shi</sub> | [arXiv](https://arxiv.org/abs/2610.41157) · [PDF](https://arxiv.org/pdf/2610.41157) · [Code](https://github.com/shangliy/lineage-is-memory) |
+| 2026-10-30 | **MUON-RT Reusing the Teacher&#x27;s Trajectory for Momentum-Free Muon for LLM Self-Distillation**<br><sub>Aryan Das, Vinay Kumar Verma, Aakansha Mishra</sub> | [arXiv](https://arxiv.org/abs/2610.41104) · [PDF](https://arxiv.org/pdf/2610.41104) |
+| 2026-10-29 | **WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection**<br><sub>Jiannan Huang, Jerry Ding, Li Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41037) · [PDF](https://arxiv.org/pdf/2610.41037) |
 | 2026-10-29 | **Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation**<br><sub>Yifu Luo, Chuang Ma, Zeyu Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40574) · [PDF](https://arxiv.org/pdf/2610.40574) · [Code](https://github.com/xingzhejun/MTA-OPSD) |
 | 2026-10-29 | **LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation**<br><sub>Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40495) · [PDF](https://arxiv.org/pdf/2610.40495) |
 | 2026-10-29 | **sDMD: Sinkhorn Distribution Matching Distillation**<br><sub>Jaihoon Kim, Lingxiao Li, Soshi Shimada et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39889) · [PDF](https://arxiv.org/pdf/2610.39889) |
