@@ -4,10 +4,29 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-462 papers · newest submission first
+481 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-02 | **VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing**<br><sub>Yexin Liu, Yunlong Lin, Zehan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03404) · [PDF](https://arxiv.org/pdf/2611.03404) · [Code](https://github.com/LAW1223/VidDub) |
+| 2026-11-02 | **SurgPace: Complexity-Aware Progressive Distillation for Surgical Multimodal Large Language Models**<br><sub>Zhicheng He, Xiaohan Xing, Hongqiu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03125) · [PDF](https://arxiv.org/pdf/2611.03125) · [Code](https://github.com/hezhicheng2002/SurgPace) |
+| 2026-11-02 | **Efficient Hybrid Distillation: Synergizing Score and Adversarial Objectives for One-Step Diffusion**<br><sub>Fei Peng, Junqiang Wu, Haoxian Tan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03017) · [PDF](https://arxiv.org/pdf/2611.03017) · [Code](https://github.com/pf0607/EASD) |
+| 2026-11-02 | **Distilling Literary Sentiment from LLM Annotations into an Ordinal BERT Model**<br><sub>Artem Suslov, Takehiro Hashimoto</sub> | [arXiv](https://arxiv.org/abs/2611.02985) · [PDF](https://arxiv.org/pdf/2611.02985) |
+| 2026-11-02 | **SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding**<br><sub>Tianyu Liu, Jun Zhang, Wenjie Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02846) · [PDF](https://arxiv.org/pdf/2611.02846) |
+| 2026-11-02 | **OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation**<br><sub>Zihao Fan, Xin Lu, Jie Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02803) · [PDF](https://arxiv.org/pdf/2611.02803) |
+| 2026-11-02 | **History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models**<br><sub>Hangyi Kuang, Chengzhi Wang, Yefei He et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02782) · [PDF](https://arxiv.org/pdf/2611.02782) |
+| 2026-11-02 | **Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation**<br><sub>Yiqiao Qiu</sub> | [arXiv](https://arxiv.org/abs/2611.02746) · [PDF](https://arxiv.org/pdf/2611.02746) |
+| 2026-11-02 | **Train the Sampler You Run: Few-Step Masked Diffusion Language Models via Mixture-Likelihood Fine-Tuning**<br><sub>Amin Najafgholizadeh</sub> | [arXiv](https://arxiv.org/abs/2611.02666) · [PDF](https://arxiv.org/pdf/2611.02666) |
+| 2026-11-02 | **Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration**<br><sub>Liangbo Ning, Siyuan Liang, Yi Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02457) · [PDF](https://arxiv.org/pdf/2611.02457) |
+| 2026-11-01 | **Bernoulli On-Policy Distillation: Don&#x27;t Ignore High-Confidence Student Tokens**<br><sub>Mingyu Cao, Yaokai Jin, Shiwei Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02093) · [PDF](https://arxiv.org/pdf/2611.02093) · [Code](https://github.com/duterscmy/Bernoulli-OPD) |
+| 2026-11-01 | **RIFT: Residual-Informed Flow Transfer for One-Step Generative Video Compression**<br><sub>Qizhe Wang, Jiaye Fu, Feng Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01791) · [PDF](https://arxiv.org/pdf/2611.01791) |
+| 2026-11-01 | **Physics-Informed One-Step Generation on Long-short flow maps**<br><sub>Zhiqi Li, Duowen Chen, Jinjin He et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01651) · [PDF](https://arxiv.org/pdf/2611.01651) |
+| 2026-10-31 | **DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving**<br><sub>Ziming Liu, Yizhan Qu, Leichen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01283) · [PDF](https://arxiv.org/pdf/2611.01283) |
+| 2026-10-31 | **Learning What to Ask and What to Believe: Distilling a Variational Bayesian Agent into Language Models**<br><sub>Baichuan Li, Yanling Chang, Alfredo Garcia</sub> | [arXiv](https://arxiv.org/abs/2611.01245) · [PDF](https://arxiv.org/pdf/2611.01245) |
+| 2026-10-31 | **Wave Forcing: Towards Speed-of-Light Streaming Video Generation**<br><sub>Yijie Jin, Yuxuan Liu, Jiajun Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00859) · [PDF](https://arxiv.org/pdf/2611.00859) |
+| 2026-10-31 | **Can Jev Improve Demonstration Retrieval for In-Context Learning?**<br><sub>Rui Song, Yingji Li, Hao Xu</sub> | [arXiv](https://arxiv.org/abs/2611.00737) · [PDF](https://arxiv.org/pdf/2611.00737) |
+| 2026-10-30 | **Compression Technique Interactions in Small Language Models: A Factorial Ablation Study**<br><sub>Bhushit Nema, Siddharth Krishnamurthy, Anjali Kadiyala</sub> | [arXiv](https://arxiv.org/abs/2611.00464) · [PDF](https://arxiv.org/pdf/2611.00464) |
+| 2026-10-30 | **From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory**<br><sub>Changjiang Han, Bowei He, Ye Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00450) · [PDF](https://arxiv.org/pdf/2611.00450) · [Code](https://github.com/SSRand/From-Lookups-to-Lessons) |
 | 2026-10-30 | **A Better Critic Matters for Distribution Matching Distillation**<br><sub>Zongze Wu, Xianbang Wang, Zhengyang Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42135) · [PDF](https://arxiv.org/pdf/2610.42135) |
 | 2026-10-30 | **DecisionRank: On-Policy Distillation for Decision-Model Rerankers**<br><sub>Yanran Wu, Dian Yu, Chongyang Bai et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42128) · [PDF](https://arxiv.org/pdf/2610.42128) |
 | 2026-10-30 | **Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation**<br><sub>Jiahua Xu, Yijie Fang, Nannan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42031) · [PDF](https://arxiv.org/pdf/2610.42031) |

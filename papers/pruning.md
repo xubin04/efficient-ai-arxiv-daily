@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-208 papers · newest submission first
+215 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-02 | **Bagel: A Fast Bayesian Online Changepoint Detection Algorithm for Linear Models via Posterior Merging**<br><sub>Ziyang Yang, Paul Fearnhead, Dan Grose</sub> | [arXiv](https://arxiv.org/abs/2611.03230) · [PDF](https://arxiv.org/pdf/2611.03230) |
+| 2026-11-01 | **SVD-Prune: Spectral Vision Token Pruning under Extreme Compression**<br><sub>Yvon Apedo, Martyna Poreba, Michal Szczepanski et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02284) · [PDF](https://arxiv.org/pdf/2611.02284) · [Code](https://github.com/anoncvlab/svdPrune) |
+| 2026-10-31 | **Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference**<br><sub>Zhichen Zeng, Xichong Zhang, Junpan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01320) · [PDF](https://arxiv.org/pdf/2611.01320) |
+| 2026-10-31 | **Rethinking LLM Pruning via Test-Time Scaling**<br><sub>Mingyang Song, Mao Zheng</sub> | [arXiv](https://arxiv.org/abs/2611.01133) · [PDF](https://arxiv.org/pdf/2611.01133) |
+| 2026-10-30 | **Compression Technique Interactions in Small Language Models: A Factorial Ablation Study**<br><sub>Bhushit Nema, Siddharth Krishnamurthy, Anjali Kadiyala</sub> | [arXiv](https://arxiv.org/abs/2611.00464) · [PDF](https://arxiv.org/pdf/2611.00464) |
+| 2026-10-30 | **SIEVE: Preserving Cross-Image Evidence via Depth-Aware Token Compression**<br><sub>Nitish Shukla, Surgan Jandial, Nhat-Tan Bui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00351) · [PDF](https://arxiv.org/pdf/2611.00351) · [Code](https://github.com/nitishshukla86/SIEVE) |
+| 2026-10-30 | **Quantization of Large Models with Weight Outliers and Sparsity**<br><sub>Leonidas Tsigkounakis, Abraham Jaeger Mountain, Yilang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00286) · [PDF](https://arxiv.org/pdf/2611.00286) |
 | 2026-10-30 | **Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity**<br><sub>Jean Lucien Randrianantenaina, Hung Nguyen, Nasib Ullah et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41968) · [PDF](https://arxiv.org/pdf/2610.41968) |
 | 2026-10-30 | **Sparse Text Diffusion under Dual Budgets: Context Connectivity and Expert Activation**<br><sub>Alexandros Christoforos, Chadbourne Davis, Paul Raj</sub> | [arXiv](https://arxiv.org/abs/2610.41487) · [PDF](https://arxiv.org/pdf/2610.41487) |
 | 2026-10-30 | **In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents**<br><sub>Xuning He, Kai Fan, Runyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41291) · [PDF](https://arxiv.org/pdf/2610.41291) · [Code](https://github.com/RISE-X-Lab/Agentic-Soft-Token) |

@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-203 papers · newest submission first
+215 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-02 | **CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention**<br><sub>Mohammed Dabbah, Izhak Golan, Oren Tropp et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03200) · [PDF](https://arxiv.org/pdf/2611.03200) |
+| 2026-11-02 | **BasisKV: Value Latents for Communication and Key Routing**<br><sub>Lixun Zhang, Zishan Shao, Kangning Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02583) · [PDF](https://arxiv.org/pdf/2611.02583) · [Code](https://github.com/alexz949/BasisKV) |
+| 2026-11-01 | **Fairway: Load-Aware KV Cache Reuse for LLM Prefill Scheduling**<br><sub>Hamidreza Alikhani, Nazmul Takbir, Matin Khajavi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02082) · [PDF](https://arxiv.org/pdf/2611.02082) |
+| 2026-11-01 | **MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment**<br><sub>Davide Vitabile, Alexandro Buffa, Akshay Nambiar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02011) · [PDF](https://arxiv.org/pdf/2611.02011) |
+| 2026-11-01 | **ReWY: Faster Gradient Computation for Delta-Rule Attention Family**<br><sub>Yi Zhang, Zhixin Zhao, Weiwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01940) · [PDF](https://arxiv.org/pdf/2611.01940) · [Code](https://github.com/flashserve/ReWY) |
+| 2026-11-01 | **Who Asks, Who Answers: Linear Attention Builds the Query in Hybrid Language Models**<br><sub>Wenqi Zeng, Chen Feng, YuAng Chen</sub> | [arXiv](https://arxiv.org/abs/2611.01909) · [PDF](https://arxiv.org/pdf/2611.01909) · [Code](https://github.com/yuang-chen/LinearQuery) |
+| 2026-10-31 | **Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference**<br><sub>Zhichen Zeng, Xichong Zhang, Junpan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01320) · [PDF](https://arxiv.org/pdf/2611.01320) |
+| 2026-10-31 | **Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention**<br><sub>Haozhan Tang, Hao Kang, Meng Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01022) · [PDF](https://arxiv.org/pdf/2611.01022) |
+| 2026-10-31 | **BitLLM: Efficient Low-Bit, Conversion-Hiding LLM Decoding on Mobile GPUs**<br><sub>Hangyu Zheng, Zhihao Shu, Kunxiong Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00547) · [PDF](https://arxiv.org/pdf/2611.00547) |
+| 2026-10-30 | **CLiS: Plug-and-Play Attention Acceleration for Video Diffusion on TPUs via Certified Stabilization**<br><sub>Elisa Tsai, Shao-yu Huang, Daniel Mandragona et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00444) · [PDF](https://arxiv.org/pdf/2611.00444) |
+| 2026-10-30 | **TileWeave: Heterogeneous Tiling for Sparse Prefill on Mobile SoCs**<br><sub>Wentao Ni, Hong Cai, Mingu Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00408) · [PDF](https://arxiv.org/pdf/2611.00408) |
+| 2026-10-30 | **Rethinking KV Cache Eviction for Agentic LLM Serving**<br><sub>Jiakun Fan, Han Meng, Yuxuan Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00391) · [PDF](https://arxiv.org/pdf/2611.00391) |
 | 2026-10-30 | **ACCT: Asymmetric Cross-LLM Context Transfer**<br><sub>Yuzhe Liu, Haolin Tian, Tonghan Wang</sub> | [arXiv](https://arxiv.org/abs/2610.42116) · [PDF](https://arxiv.org/pdf/2610.42116) |
 | 2026-10-30 | **Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41825) · [PDF](https://arxiv.org/pdf/2610.41825) |
 | 2026-10-30 | **KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise**<br><sub>Jonas Loos, Oliver Eberle</sub> | [arXiv](https://arxiv.org/abs/2610.41480) · [PDF](https://arxiv.org/pdf/2610.41480) |

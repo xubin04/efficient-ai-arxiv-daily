@@ -4,10 +4,24 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-221 papers · newest submission first
+235 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-02 | **CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention**<br><sub>Mohammed Dabbah, Izhak Golan, Oren Tropp et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03200) · [PDF](https://arxiv.org/pdf/2611.03200) |
+| 2026-11-02 | **Introducing Cluster Efficiency to LLM Serving: Pooling Economical Accelerators over Fast Interconnects**<br><sub>Youhe Jiang, Pavle Glušac, Binhang Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02975) · [PDF](https://arxiv.org/pdf/2611.02975) |
+| 2026-11-02 | **Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute**<br><sub>Mingchuan Ma, Dongqi Cai, Daqian Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02688) · [PDF](https://arxiv.org/pdf/2611.02688) |
+| 2026-11-02 | **When Cache Pressure Becomes a Trap: Metastability in Agent Serving**<br><sub>Chengzhi Lu, Boxi Zhou, Yanying Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02543) · [PDF](https://arxiv.org/pdf/2611.02543) |
+| 2026-11-02 | **Semantic Caches for LLM Web Services Leave Their Error Budget Unspent**<br><sub>Hanshuai Cui, Qianli Ma, Zhiqing Tang</sub> | [arXiv](https://arxiv.org/abs/2611.02498) · [PDF](https://arxiv.org/pdf/2611.02498) |
+| 2026-11-01 | **FactorSpec: Serving Exact Relational Constraints as Speculative Drafts**<br><sub>Jianchang Su, Dawei Xiang, Wei Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.02297) · [PDF](https://arxiv.org/pdf/2611.02297) |
+| 2026-11-01 | **Fairway: Load-Aware KV Cache Reuse for LLM Prefill Scheduling**<br><sub>Hamidreza Alikhani, Nazmul Takbir, Matin Khajavi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02082) · [PDF](https://arxiv.org/pdf/2611.02082) |
+| 2026-10-31 | **TRIAGE: Reliability- and Load-Conditioned Escalation for Two-Tier LLM Serving with a Semantic Evidence Judge**<br><sub>Basavaraj R M, Aryan Bharat Kumar</sub> | [arXiv](https://arxiv.org/abs/2611.01174) · [PDF](https://arxiv.org/pdf/2611.01174) |
+| 2026-10-31 | **Capacity Planning for Resource-Constrained Clinical LLM Serving**<br><sub>Yi Tang, Geoffrey Martin, Yiye Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01152) · [PDF](https://arxiv.org/pdf/2611.01152) |
+| 2026-10-31 | **Scute: Exact Batched Serving for PEFT Adapters Beyond LoRA**<br><sub>Thomas Walker, Richard Baraniuk</sub> | [arXiv](https://arxiv.org/abs/2611.01089) · [PDF](https://arxiv.org/pdf/2611.01089) |
+| 2026-10-31 | **Multi-Turn Semantic Caching for Low-Cost LLM Serving**<br><sub>Baran Atalar, Selly Beyene, Xutong Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01077) · [PDF](https://arxiv.org/pdf/2611.01077) |
+| 2026-10-31 | **Inference First, Training Underneath: Layer-Granular LoRA Co-Serving with LayerLoom**<br><sub>Zongpu Zhang, Yishu Yin, Xuehai Qian</sub> | [arXiv](https://arxiv.org/abs/2611.00652) · [PDF](https://arxiv.org/pdf/2611.00652) |
+| 2026-10-31 | **When Shards Fly: Cross-Tensor In-Flight Conversion for Low-Latency, Low-Memory Weight Updates in Disaggregated RL**<br><sub>Jiayu Xiao, Ye Wang, Zhi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00646) · [PDF](https://arxiv.org/pdf/2611.00646) |
+| 2026-10-30 | **Rethinking KV Cache Eviction for Agentic LLM Serving**<br><sub>Jiakun Fan, Han Meng, Yuxuan Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00391) · [PDF](https://arxiv.org/pdf/2611.00391) |
 | 2026-10-30 | **Flide: Accelerating Decision Inference with Exact State Forking**<br><sub>Bobo Li, Jiajia Song, Hao Fei et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42148) · [PDF](https://arxiv.org/pdf/2610.42148) |
 | 2026-10-30 | **HiState: Hierarchical Prefix Cache Management for Hybrid LLM Serving in Agentic Workloads**<br><sub>Zaifeng Pan, Lucas Wang, Xinwei Qiang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41508) · [PDF](https://arxiv.org/pdf/2610.41508) |
 | 2026-10-30 | **LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction**<br><sub>Kwan Yan, Jialun Zhong, Yanzeng Li</sub> | [arXiv](https://arxiv.org/abs/2610.41359) · [PDF](https://arxiv.org/pdf/2610.41359) |

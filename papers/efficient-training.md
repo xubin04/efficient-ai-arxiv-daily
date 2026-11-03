@@ -4,10 +4,18 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-144 papers · newest submission first
+152 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-01 | **EEG-HealthLLM: Hierarchical Adaptation of Large Language Models for Unified Heterogeneous EEG Health Assessment**<br><sub>Ruidong Ma, Jisheng Dang, Ronghao Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01652) · [PDF](https://arxiv.org/pdf/2611.01652) · [Code](https://github.com/Marui-88/EEG-HealthLLM) |
+| 2026-10-31 | **GESTALT: Fast, Generalizable Histopathology Image Synthesis from Gene Expression with Pretrained Pathology Foundation Models**<br><sub>Felix Ho, Alexandros Graikos, Dimitris Samaras</sub> | [arXiv](https://arxiv.org/abs/2611.01141) · [PDF](https://arxiv.org/pdf/2611.01141) · [Code](https://github.com/trongnhandev1011/Gestalt) |
+| 2026-10-31 | **Scute: Exact Batched Serving for PEFT Adapters Beyond LoRA**<br><sub>Thomas Walker, Richard Baraniuk</sub> | [arXiv](https://arxiv.org/abs/2611.01089) · [PDF](https://arxiv.org/pdf/2611.01089) |
+| 2026-10-31 | **Inference First, Training Underneath: Layer-Granular LoRA Co-Serving with LayerLoom**<br><sub>Zongpu Zhang, Yishu Yin, Xuehai Qian</sub> | [arXiv](https://arxiv.org/abs/2611.00652) · [PDF](https://arxiv.org/pdf/2611.00652) |
+| 2026-10-31 | **From Weeks to Hours: Fast and Principled SFT Data Generation for Reasoning LLMs**<br><sub>Hongyi Henry Jin, Wenhan Yang, Meysam Ghaffari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00554) · [PDF](https://arxiv.org/pdf/2611.00554) |
+| 2026-10-30 | **Compression Technique Interactions in Small Language Models: A Factorial Ablation Study**<br><sub>Bhushit Nema, Siddharth Krishnamurthy, Anjali Kadiyala</sub> | [arXiv](https://arxiv.org/abs/2611.00464) · [PDF](https://arxiv.org/pdf/2611.00464) |
+| 2026-10-30 | **RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation**<br><sub>Sheikh Tahmim Mehdi, Muminul Islam Jami</sub> | [arXiv](https://arxiv.org/abs/2611.00242) · [PDF](https://arxiv.org/pdf/2611.00242) |
+| 2026-10-30 | **CAPER: Circuit-Aware Parameter-Efficient Reasoning in LLMs for Analog Verification**<br><sub>Saion K. Roy</sub> | [arXiv](https://arxiv.org/abs/2611.00187) · [PDF](https://arxiv.org/pdf/2611.00187) |
 | 2026-10-30 | **Prune Gradually, Adapt Sparsely: Efficient Pruning of Large Language Models at Extreme Sparsity**<br><sub>Jean Lucien Randrianantenaina, Hung Nguyen, Nasib Ullah et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41968) · [PDF](https://arxiv.org/pdf/2610.41968) |
 | 2026-10-30 | **Breaking Information Islands in Sparse Tuning via Small-World Connectivity**<br><sub>Xianchao Guan, Zijun Xiong, Yifeng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41665) · [PDF](https://arxiv.org/pdf/2610.41665) · [Code](https://github.com/xianchaoguan/SWIFT) |
 | 2026-10-30 | **BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion**<br><sub>Ruurd J. A. Kuiper, Robert A. Bagheri</sub> | [arXiv](https://arxiv.org/abs/2610.41574) · [PDF](https://arxiv.org/pdf/2610.41574) · [Code](https://github.com/RuurdKuiper/BYOD) |

@@ -4,10 +4,27 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-215 papers · newest submission first
+232 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-02 | **PlantVLM-Edge: Quantized Vision-Language Models for On-Device Crop Health Diagnosis**<br><sub>Gaurab Wagle, Bishal Adhikari, Jiajia Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03557) · [PDF](https://arxiv.org/pdf/2611.03557) |
+| 2026-11-02 | **SHq: Learnable Grids for LLM Weight Quantization**<br><sub>Michael Helcig, Earl Killian, Dan Alistarh</sub> | [arXiv](https://arxiv.org/abs/2611.02966) · [PDF](https://arxiv.org/pdf/2611.02966) |
+| 2026-11-02 | **Beyond Accuracy: How Quantization Affects Coding Agents**<br><sub>Areej Mehboob, Muhammad Ali Shafique, Muhammad Usman Qadeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02368) · [PDF](https://arxiv.org/pdf/2611.02368) |
+| 2026-11-01 | **MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment**<br><sub>Davide Vitabile, Alexandro Buffa, Akshay Nambiar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02011) · [PDF](https://arxiv.org/pdf/2611.02011) |
+| 2026-11-01 | **MatMoE: Matryoshka Mixture-of-Experts with Dynamic Mixed-Precision Quantization for Efficient Inference**<br><sub>Renjie Wei, Haochen Huang, Chuyu Qiu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01704) · [PDF](https://arxiv.org/pdf/2611.01704) |
+| 2026-11-01 | **Sensitivity Inflation from Cross-Record Precision Routing in Private Quantized Fine-Tuning**<br><sub>Annan Zhang, Shengjie Song, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01411) · [PDF](https://arxiv.org/pdf/2611.01411) |
+| 2026-10-31 | **Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention**<br><sub>Haozhan Tang, Hao Kang, Meng Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01022) · [PDF](https://arxiv.org/pdf/2611.01022) |
+| 2026-10-31 | **Elastic Precision: Software-Hardware Co-Design of a Mixed-Precision Architecture for Long-Context LLM Inference**<br><sub>Boyang Chen, Xiao Wu, Haoran Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00915) · [PDF](https://arxiv.org/pdf/2611.00915) |
+| 2026-10-31 | **Running a 20B Video Diffusion Transformer on Consumer Hardware: A Deployment and Measurement Report for MiniMax H3 on Apple Silicon**<br><sub>Luke Shi, Steven Shi</sub> | [arXiv](https://arxiv.org/abs/2611.00843) · [PDF](https://arxiv.org/pdf/2611.00843) |
+| 2026-10-31 | **Density-Aware Calibration for Resource-Efficient Medical Vision-Language Models**<br><sub>Tien-Dat Dam, Huu-Thuan Huynh, Minh-Triet Tran et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00684) · [PDF](https://arxiv.org/pdf/2611.00684) |
+| 2026-10-31 | **GateTrim: Adaptive-Rank Quantization for Large Language Models**<br><sub>Hongwei Ren, Jincheng Ren, Yuchuan Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00654) · [PDF](https://arxiv.org/pdf/2611.00654) |
+| 2026-10-31 | **When Shards Fly: Cross-Tensor In-Flight Conversion for Low-Latency, Low-Memory Weight Updates in Disaggregated RL**<br><sub>Jiayu Xiao, Ye Wang, Zhi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00646) · [PDF](https://arxiv.org/pdf/2611.00646) |
+| 2026-10-31 | **TopoQuant: Topological Framework to Characterize Behavioral Shifts in Quantized Large Language Models**<br><sub>Baha Rababah, Shahzeb Qamar, Lorenz Sparrenberg et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00631) · [PDF](https://arxiv.org/pdf/2611.00631) |
+| 2026-10-31 | **BitLLM: Efficient Low-Bit, Conversion-Hiding LLM Decoding on Mobile GPUs**<br><sub>Hangyu Zheng, Zhihao Shu, Kunxiong Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00547) · [PDF](https://arxiv.org/pdf/2611.00547) |
+| 2026-10-30 | **Compression Technique Interactions in Small Language Models: A Factorial Ablation Study**<br><sub>Bhushit Nema, Siddharth Krishnamurthy, Anjali Kadiyala</sub> | [arXiv](https://arxiv.org/abs/2611.00464) · [PDF](https://arxiv.org/pdf/2611.00464) |
+| 2026-10-30 | **MXCode: Vector Quantization for MX-Native Inference at Scale**<br><sub>Gaurav Kolhe, Cansu Demirkiran, Shubhi Tyagi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00403) · [PDF](https://arxiv.org/pdf/2611.00403) |
+| 2026-10-30 | **Quantization of Large Models with Weight Outliers and Sparsity**<br><sub>Leonidas Tsigkounakis, Abraham Jaeger Mountain, Yilang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00286) · [PDF](https://arxiv.org/pdf/2611.00286) |
 | 2026-10-30 | **Where KV-Cache Error Lives in Looped Language Models: A Diagnostic Study of Ouro and Huginn**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41825) · [PDF](https://arxiv.org/pdf/2610.41825) |
 | 2026-10-30 | **Trainable Vector Quantization for Large Language Models**<br><sub>Anastasiia Prutianova, Alina Bogdanova, Mikhail Shutov et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41822) · [PDF](https://arxiv.org/pdf/2610.41822) |
 | 2026-10-30 | **Understanding the Energy Cost of Quantized Agents on Shared GPUs**<br><sub>Stephen Abkin, Alex Flesher, Aldric Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.41672) · [PDF](https://arxiv.org/pdf/2610.41672) |
