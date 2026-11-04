@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-232 papers · newest submission first
+239 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
+| 2026-11-03 | **Beyond Compression Ratio: High-Throughput KV Compression for Disaggregated LLM Serving**<br><sub>Junhong Wu, Zedong Liu, Xinyang Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04382) · [PDF](https://arxiv.org/pdf/2611.04382) |
+| 2026-11-03 | **Twice as Fast, Until It Isn&#x27;t: Quantized Serving of Mid-Size Open LLMs**<br><sub>Smit Kadvani, Kriti Faujdar, Spurthi Tallam</sub> | [arXiv](https://arxiv.org/abs/2611.04380) · [PDF](https://arxiv.org/pdf/2611.04380) |
+| 2026-11-03 | **Aligning Training and Rollout Policies for End-to-End FP4 RL on Mixture-of-Experts LLMs**<br><sub>Hei Yi Mak, Hoang Le, Mehran Taghian Jazi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04376) · [PDF](https://arxiv.org/pdf/2611.04376) |
+| 2026-11-03 | **FP4Quant: Efficient 4-Bit Communication Compression for Model-Parallel LLM Training**<br><sub>Man Liu, Xingchen Liu, Hairui Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04323) · [PDF](https://arxiv.org/pdf/2611.04323) |
+| 2026-11-03 | **What Does 4-Bit Microscaling Cost a Wearable Activity Recognizer?**<br><sub>Megan Healy, Hossein Valavi</sub> | [arXiv](https://arxiv.org/abs/2611.04185) · [PDF](https://arxiv.org/pdf/2611.04185) |
+| 2026-11-02 | **EpiLoRA: Fusing Many LoRA Adapters into Low-Precision GEMMs for Serving and RL**<br><sub>Hieu Tran, Hong Yu</sub> | [arXiv](https://arxiv.org/abs/2611.03899) · [PDF](https://arxiv.org/pdf/2611.03899) |
 | 2026-11-02 | **PlantVLM-Edge: Quantized Vision-Language Models for On-Device Crop Health Diagnosis**<br><sub>Gaurab Wagle, Bishal Adhikari, Jiajia Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03557) · [PDF](https://arxiv.org/pdf/2611.03557) |
 | 2026-11-02 | **SHq: Learnable Grids for LLM Weight Quantization**<br><sub>Michael Helcig, Earl Killian, Dan Alistarh</sub> | [arXiv](https://arxiv.org/abs/2611.02966) · [PDF](https://arxiv.org/pdf/2611.02966) |
 | 2026-11-02 | **Beyond Accuracy: How Quantization Affects Coding Agents**<br><sub>Areej Mehboob, Muhammad Ali Shafique, Muhammad Usman Qadeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02368) · [PDF](https://arxiv.org/pdf/2611.02368) |
@@ -16,7 +23,7 @@
 | 2026-11-01 | **Sensitivity Inflation from Cross-Record Precision Routing in Private Quantized Fine-Tuning**<br><sub>Annan Zhang, Shengjie Song, Wenshuai Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01411) · [PDF](https://arxiv.org/pdf/2611.01411) |
 | 2026-10-31 | **Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention**<br><sub>Haozhan Tang, Hao Kang, Meng Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01022) · [PDF](https://arxiv.org/pdf/2611.01022) |
 | 2026-10-31 | **Elastic Precision: Software-Hardware Co-Design of a Mixed-Precision Architecture for Long-Context LLM Inference**<br><sub>Boyang Chen, Xiao Wu, Haoran Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00915) · [PDF](https://arxiv.org/pdf/2611.00915) |
-| 2026-10-31 | **Running a 20B Video Diffusion Transformer on Consumer Hardware: A Deployment and Measurement Report for MiniMax H3 on Apple Silicon**<br><sub>Luke Shi, Steven Shi</sub> | [arXiv](https://arxiv.org/abs/2611.00843) · [PDF](https://arxiv.org/pdf/2611.00843) |
+| 2026-10-31 | **Running a 20B Video Diffusion Transformer on Consumer Hardware: A Deployment and Measurement Report for MiniMax H3 on Apple Silicon**<br><sub>Zhenzhou, Shi, Yizhe et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00843) · [PDF](https://arxiv.org/pdf/2611.00843) |
 | 2026-10-31 | **Density-Aware Calibration for Resource-Efficient Medical Vision-Language Models**<br><sub>Tien-Dat Dam, Huu-Thuan Huynh, Minh-Triet Tran et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00684) · [PDF](https://arxiv.org/pdf/2611.00684) |
 | 2026-10-31 | **GateTrim: Adaptive-Rank Quantization for Large Language Models**<br><sub>Hongwei Ren, Jincheng Ren, Yuchuan Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00654) · [PDF](https://arxiv.org/pdf/2611.00654) |
 | 2026-10-31 | **When Shards Fly: Cross-Tensor In-Flight Conversion for Low-Latency, Low-Memory Weight Updates in Disaggregated RL**<br><sub>Jiayu Xiao, Ye Wang, Zhi Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00646) · [PDF](https://arxiv.org/pdf/2611.00646) |

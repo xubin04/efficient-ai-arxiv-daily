@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-481 papers · newest submission first
+486 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting**<br><sub>Raz Marshanski, Liran Nochumsohn, Mayank Jauhari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04760) · [PDF](https://arxiv.org/pdf/2611.04760) |
+| 2026-11-03 | **CogniLife: Continuous Cognitive Distillation for Deployed Multi-Expert Agent Marketplaces**<br><sub>Xuwei Tan, Jingchun Huang, Ming Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04483) · [PDF](https://arxiv.org/pdf/2611.04483) |
+| 2026-11-03 | **Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware**<br><sub>Yeonseok Lee</sub> | [arXiv](https://arxiv.org/abs/2611.04392) · [PDF](https://arxiv.org/pdf/2611.04392) · [Code](https://github.com/ylee-sling/Aero-VPA) |
+| 2026-11-03 | **StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models**<br><sub>Chenru Wang, Xuanyang Zhang, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04386) · [PDF](https://arxiv.org/pdf/2611.04386) |
+| 2026-11-03 | **Bidirectional Centered Score Matching for Discrete Diffusion Distillation**<br><sub>Peng Tu, Baoyou Chen, Haoyuan Xia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04279) · [PDF](https://arxiv.org/pdf/2611.04279) |
 | 2026-11-02 | **VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing**<br><sub>Yexin Liu, Yunlong Lin, Zehan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03404) · [PDF](https://arxiv.org/pdf/2611.03404) · [Code](https://github.com/LAW1223/VidDub) |
 | 2026-11-02 | **SurgPace: Complexity-Aware Progressive Distillation for Surgical Multimodal Large Language Models**<br><sub>Zhicheng He, Xiaohan Xing, Hongqiu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03125) · [PDF](https://arxiv.org/pdf/2611.03125) · [Code](https://github.com/hezhicheng2002/SurgPace) |
 | 2026-11-02 | **Efficient Hybrid Distillation: Synergizing Score and Adversarial Objectives for One-Step Diffusion**<br><sub>Fei Peng, Junqiang Wu, Haoxian Tan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03017) · [PDF](https://arxiv.org/pdf/2611.03017) · [Code](https://github.com/pf0607/EASD) |

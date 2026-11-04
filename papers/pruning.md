@@ -4,10 +4,11 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-215 papers · newest submission first
+216 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **BtsPruner: Role-Aware Visual Token Pruning for Large Vision-Language Models**<br><sub>Zihao Qi, Zhibo Zhang, Miaoxin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04537) · [PDF](https://arxiv.org/pdf/2611.04537) |
 | 2026-11-02 | **Bagel: A Fast Bayesian Online Changepoint Detection Algorithm for Linear Models via Posterior Merging**<br><sub>Ziyang Yang, Paul Fearnhead, Dan Grose</sub> | [arXiv](https://arxiv.org/abs/2611.03230) · [PDF](https://arxiv.org/pdf/2611.03230) |
 | 2026-11-01 | **SVD-Prune: Spectral Vision Token Pruning under Extreme Compression**<br><sub>Yvon Apedo, Martyna Poreba, Michal Szczepanski et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02284) · [PDF](https://arxiv.org/pdf/2611.02284) · [Code](https://github.com/anoncvlab/svdPrune) |
 | 2026-10-31 | **Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference**<br><sub>Zhichen Zeng, Xichong Zhang, Junpan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01320) · [PDF](https://arxiv.org/pdf/2611.01320) |

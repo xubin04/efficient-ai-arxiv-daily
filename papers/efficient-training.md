@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-152 papers · newest submission first
+156 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
+| 2026-11-03 | **Shrinkage prior for implicit generative models**<br><sub>Shreya Sinha-Roy, Christian P. Robert, Ritabrata Dutta</sub> | [arXiv](https://arxiv.org/abs/2611.05241) · [PDF](https://arxiv.org/pdf/2611.05241) |
+| 2026-11-03 | **Coarse Semantic Blocks for Efficient Training-Free Sparse Attention**<br><sub>Sosuke Kobayashi, Shoichiro Yamaguchi, Seiya Tokui</sub> | [arXiv](https://arxiv.org/abs/2611.04313) · [PDF](https://arxiv.org/pdf/2611.04313) |
+| 2026-11-02 | **EpiLoRA: Fusing Many LoRA Adapters into Low-Precision GEMMs for Serving and RL**<br><sub>Hieu Tran, Hong Yu</sub> | [arXiv](https://arxiv.org/abs/2611.03899) · [PDF](https://arxiv.org/pdf/2611.03899) |
 | 2026-11-01 | **EEG-HealthLLM: Hierarchical Adaptation of Large Language Models for Unified Heterogeneous EEG Health Assessment**<br><sub>Ruidong Ma, Jisheng Dang, Ronghao Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01652) · [PDF](https://arxiv.org/pdf/2611.01652) · [Code](https://github.com/Marui-88/EEG-HealthLLM) |
 | 2026-10-31 | **GESTALT: Fast, Generalizable Histopathology Image Synthesis from Gene Expression with Pretrained Pathology Foundation Models**<br><sub>Felix Ho, Alexandros Graikos, Dimitris Samaras</sub> | [arXiv](https://arxiv.org/abs/2611.01141) · [PDF](https://arxiv.org/pdf/2611.01141) · [Code](https://github.com/trongnhandev1011/Gestalt) |
 | 2026-10-31 | **Scute: Exact Batched Serving for PEFT Adapters Beyond LoRA**<br><sub>Thomas Walker, Richard Baraniuk</sub> | [arXiv](https://arxiv.org/abs/2611.01089) · [PDF](https://arxiv.org/pdf/2611.01089) |

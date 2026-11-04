@@ -4,17 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-199 papers · newest submission first
+201 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models**<br><sub>Chenru Wang, Xuanyang Zhang, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04386) · [PDF](https://arxiv.org/pdf/2611.04386) |
+| 2026-11-02 | **Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models**<br><sub>Siqiao Huang, Partha Kaushik, Michael Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04028) · [PDF](https://arxiv.org/pdf/2611.04028) |
 | 2026-11-02 | **OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation**<br><sub>Zihao Fan, Xin Lu, Jie Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02803) · [PDF](https://arxiv.org/pdf/2611.02803) |
 | 2026-11-01 | **Z-Cache: Accelerating Diffusion Transformers via Self-Reflection**<br><sub>Zegang Cheng, Zhikai Wang, Jiacheng Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01846) · [PDF](https://arxiv.org/pdf/2611.01846) |
 | 2026-11-01 | **RIFT: Residual-Informed Flow Transfer for One-Step Generative Video Compression**<br><sub>Qizhe Wang, Jiaye Fu, Feng Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01791) · [PDF](https://arxiv.org/pdf/2611.01791) |
 | 2026-11-01 | **IMPACT: Image-Conditioned Motion with Physics-Aware Collision and Trajectory Guidance for Video Generation**<br><sub>Shiwei Yang, Yunlong Yu, Zhao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01372) · [PDF](https://arxiv.org/pdf/2611.01372) |
 | 2026-10-31 | **DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving**<br><sub>Ziming Liu, Yizhan Qu, Leichen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01283) · [PDF](https://arxiv.org/pdf/2611.01283) |
 | 2026-10-31 | **Wave Forcing: Towards Speed-of-Light Streaming Video Generation**<br><sub>Yijie Jin, Yuxuan Liu, Jiajun Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00859) · [PDF](https://arxiv.org/pdf/2611.00859) |
-| 2026-10-31 | **Running a 20B Video Diffusion Transformer on Consumer Hardware: A Deployment and Measurement Report for MiniMax H3 on Apple Silicon**<br><sub>Luke Shi, Steven Shi</sub> | [arXiv](https://arxiv.org/abs/2611.00843) · [PDF](https://arxiv.org/pdf/2611.00843) |
+| 2026-10-31 | **Running a 20B Video Diffusion Transformer on Consumer Hardware: A Deployment and Measurement Report for MiniMax H3 on Apple Silicon**<br><sub>Zhenzhou, Shi, Yizhe et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00843) · [PDF](https://arxiv.org/pdf/2611.00843) |
 | 2026-10-30 | **CLiS: Plug-and-Play Attention Acceleration for Video Diffusion on TPUs via Certified Stabilization**<br><sub>Elisa Tsai, Shao-yu Huang, Daniel Mandragona et al.</sub> | [arXiv](https://arxiv.org/abs/2611.00444) · [PDF](https://arxiv.org/pdf/2611.00444) |
 | 2026-10-30 | **A Better Critic Matters for Distribution Matching Distillation**<br><sub>Zongze Wu, Xianbang Wang, Zhengyang Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42135) · [PDF](https://arxiv.org/pdf/2610.42135) |
 | 2026-10-30 | **Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation**<br><sub>Jiahua Xu, Yijie Fang, Nannan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2610.42031) · [PDF](https://arxiv.org/pdf/2610.42031) |

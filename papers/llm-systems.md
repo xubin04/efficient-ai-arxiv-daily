@@ -4,10 +4,24 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-235 papers · newest submission first
+249 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
+| 2026-11-03 | **What Sets the Serving Speed of Looped Language Models? Measurements and Optimizations Graded by Exactness**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05150) · [PDF](https://arxiv.org/pdf/2611.05150) |
+| 2026-11-03 | **Workload-Static Optical Circuit Switching For Scalable LLM Inference Decode**<br><sub>Maximilian Thürmer, Nicolas Scotto di Perto, Eloise Stein et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05104) · [PDF](https://arxiv.org/pdf/2611.05104) |
+| 2026-11-03 | **Asymptotic Optimality of $cμ$-Rule for LLM Inference Scheduling under Memory Constraint**<br><sub>Zhenghao Li, Shengbo Wang, Nian Si</sub> | [arXiv](https://arxiv.org/abs/2611.04807) · [PDF](https://arxiv.org/pdf/2611.04807) |
+| 2026-11-03 | **Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests**<br><sub>Hongseung Yu, In Gim, Kyunghan Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04794) · [PDF](https://arxiv.org/pdf/2611.04794) |
+| 2026-11-03 | **TactiNavi: Serving and Revising an LLM Game Coach with Explicit Strategy Conditions**<br><sub>Qi Liu, Xiaoyang Yuan, Zhuomeng Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04772) · [PDF](https://arxiv.org/pdf/2611.04772) |
+| 2026-11-03 | **LeanSparse: Memory-Efficient Serving for Native Sparse-Attention LLMs**<br><sub>Zaifeng Pan, Chris Wu, Xinwei Qiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04671) · [PDF](https://arxiv.org/pdf/2611.04671) |
+| 2026-11-03 | **Beyond Compression Ratio: High-Throughput KV Compression for Disaggregated LLM Serving**<br><sub>Junhong Wu, Zedong Liu, Xinyang Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04382) · [PDF](https://arxiv.org/pdf/2611.04382) |
+| 2026-11-03 | **Twice as Fast, Until It Isn&#x27;t: Quantized Serving of Mid-Size Open LLMs**<br><sub>Smit Kadvani, Kriti Faujdar, Spurthi Tallam</sub> | [arXiv](https://arxiv.org/abs/2611.04380) · [PDF](https://arxiv.org/pdf/2611.04380) |
+| 2026-11-03 | **UMLoad: Fast On-Demand Model Loading on Unified Memory Architecture**<br><sub>Zimeng Wang, Jinrong Yang, Rong Chen</sub> | [arXiv](https://arxiv.org/abs/2611.04253) · [PDF](https://arxiv.org/pdf/2611.04253) |
+| 2026-11-03 | **Navigating Runtime Dynamism in Semantic Query Serving**<br><sub>Hengrui Zhang, Xupeng Miao</sub> | [arXiv](https://arxiv.org/abs/2611.04248) · [PDF](https://arxiv.org/pdf/2611.04248) |
+| 2026-11-02 | **ROCm InferaSim: Cut LLM Serving Trial Costs and Deploy the Best Configuration**<br><sub>Anshu Raina, Yao Fu, Zhang Jiejing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04032) · [PDF](https://arxiv.org/pdf/2611.04032) |
+| 2026-11-02 | **EpiLoRA: Fusing Many LoRA Adapters into Low-Precision GEMMs for Serving and RL**<br><sub>Hieu Tran, Hong Yu</sub> | [arXiv](https://arxiv.org/abs/2611.03899) · [PDF](https://arxiv.org/pdf/2611.03899) |
+| 2026-11-02 | **Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention**<br><sub>Serdarcan Dilbaz, Arjun Krishna, Kiran Kamble et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03768) · [PDF](https://arxiv.org/pdf/2611.03768) · [Code](https://github.com/ArjunKrishnak/dsa-multi-layer-indexer) |
 | 2026-11-02 | **CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention**<br><sub>Mohammed Dabbah, Izhak Golan, Oren Tropp et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03200) · [PDF](https://arxiv.org/pdf/2611.03200) |
 | 2026-11-02 | **Introducing Cluster Efficiency to LLM Serving: Pooling Economical Accelerators over Fast Interconnects**<br><sub>Youhe Jiang, Pavle Glušac, Binhang Yuan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02975) · [PDF](https://arxiv.org/pdf/2611.02975) |
 | 2026-11-02 | **Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute**<br><sub>Mingchuan Ma, Dongqi Cai, Daqian Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02688) · [PDF](https://arxiv.org/pdf/2611.02688) |
@@ -29,7 +43,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-10-29 | **Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading**<br><sub>Zhiyuan Fang, Dingyang Li, Jianfeng Zhong et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40305) · [PDF](https://arxiv.org/pdf/2610.40305) |
 | 2026-10-29 | **DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving**<br><sub>Yishuo Yuan, Shaoyu Yang, Chunrong Fang</sub> | [arXiv](https://arxiv.org/abs/2610.40292) · [PDF](https://arxiv.org/pdf/2610.40292) |
 | 2026-10-29 | **Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets**<br><sub>Bole Ma, Ayesha Afzal, Jan Eitzinger et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40287) · [PDF](https://arxiv.org/pdf/2610.40287) |
-| 2026-10-29 | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone**<br><sub>Zhuoran Li, Chen Gu, Zhuohang Bian et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40000) · [PDF](https://arxiv.org/pdf/2610.40000) |
+| 2026-10-29 | **NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone**<br><sub>Zhuoran Li, Zhuohang Bian, Yibo Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2610.40000) · [PDF](https://arxiv.org/pdf/2610.40000) |
 | 2026-10-29 | **DWISE: Denoising Workload-Informed Scheduling Engine**<br><sub>Lie Li, Wen Li, Junxiao Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39852) · [PDF](https://arxiv.org/pdf/2610.39852) |
 | 2026-10-29 | **Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference**<br><sub>Wenjie Huang, Jun Zhang, Hongyaoxing Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2610.39562) · [PDF](https://arxiv.org/pdf/2610.39562) |
 | 2026-10-29 | **Learning to Formulate: Agentic Hardware-Software Co-Design of AI Infrastructure through Progressive Optimization and Verification**<br><sub>Yi Ding, Li Shang</sub> | [arXiv](https://arxiv.org/abs/2610.39380) · [PDF](https://arxiv.org/pdf/2610.39380) |

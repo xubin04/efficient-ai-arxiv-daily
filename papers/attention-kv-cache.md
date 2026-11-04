@@ -4,15 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-215 papers · newest submission first
+221 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
+| 2026-11-03 | **Asymptotic Optimality of $cμ$-Rule for LLM Inference Scheduling under Memory Constraint**<br><sub>Zhenghao Li, Shengbo Wang, Nian Si</sub> | [arXiv](https://arxiv.org/abs/2611.04807) · [PDF](https://arxiv.org/pdf/2611.04807) |
+| 2026-11-03 | **LeanSparse: Memory-Efficient Serving for Native Sparse-Attention LLMs**<br><sub>Zaifeng Pan, Chris Wu, Xinwei Qiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04671) · [PDF](https://arxiv.org/pdf/2611.04671) |
+| 2026-11-03 | **Beyond Compression Ratio: High-Throughput KV Compression for Disaggregated LLM Serving**<br><sub>Junhong Wu, Zedong Liu, Xinyang Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04382) · [PDF](https://arxiv.org/pdf/2611.04382) |
+| 2026-11-03 | **Coarse Semantic Blocks for Efficient Training-Free Sparse Attention**<br><sub>Sosuke Kobayashi, Shoichiro Yamaguchi, Seiya Tokui</sub> | [arXiv](https://arxiv.org/abs/2611.04313) · [PDF](https://arxiv.org/pdf/2611.04313) |
+| 2026-11-02 | **Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention**<br><sub>Serdarcan Dilbaz, Arjun Krishna, Kiran Kamble et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03768) · [PDF](https://arxiv.org/pdf/2611.03768) · [Code](https://github.com/ArjunKrishnak/dsa-multi-layer-indexer) |
 | 2026-11-02 | **CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention**<br><sub>Mohammed Dabbah, Izhak Golan, Oren Tropp et al.</sub> | [arXiv](https://arxiv.org/abs/2611.03200) · [PDF](https://arxiv.org/pdf/2611.03200) |
 | 2026-11-02 | **BasisKV: Value Latents for Communication and Key Routing**<br><sub>Lixun Zhang, Zishan Shao, Kangning Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02583) · [PDF](https://arxiv.org/pdf/2611.02583) · [Code](https://github.com/alexz949/BasisKV) |
 | 2026-11-01 | **Fairway: Load-Aware KV Cache Reuse for LLM Prefill Scheduling**<br><sub>Hamidreza Alikhani, Nazmul Takbir, Matin Khajavi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02082) · [PDF](https://arxiv.org/pdf/2611.02082) |
 | 2026-11-01 | **MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment**<br><sub>Davide Vitabile, Alexandro Buffa, Akshay Nambiar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02011) · [PDF](https://arxiv.org/pdf/2611.02011) |
-| 2026-11-01 | **ReWY: Faster Gradient Computation for Delta-Rule Attention Family**<br><sub>Yi Zhang, Zhixin Zhao, Weiwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01940) · [PDF](https://arxiv.org/pdf/2611.01940) · [Code](https://github.com/flashserve/ReWY) |
+| 2026-11-01 | **ReWY: Faster Backpropagation for Delta-Rule Attention - From 7 to 3 Matrix Multiplications**<br><sub>Yi Zhang, Zhixin Zhao, Weiwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01940) · [PDF](https://arxiv.org/pdf/2611.01940) · [Code](https://github.com/flashserve/ReWY) |
 | 2026-11-01 | **Who Asks, Who Answers: Linear Attention Builds the Query in Hybrid Language Models**<br><sub>Wenqi Zeng, Chen Feng, YuAng Chen</sub> | [arXiv](https://arxiv.org/abs/2611.01909) · [PDF](https://arxiv.org/pdf/2611.01909) · [Code](https://github.com/yuang-chen/LinearQuery) |
 | 2026-10-31 | **Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference**<br><sub>Zhichen Zeng, Xichong Zhang, Junpan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01320) · [PDF](https://arxiv.org/pdf/2611.01320) |
 | 2026-10-31 | **Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention**<br><sub>Haozhan Tang, Hao Kang, Meng Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.01022) · [PDF](https://arxiv.org/pdf/2611.01022) |
