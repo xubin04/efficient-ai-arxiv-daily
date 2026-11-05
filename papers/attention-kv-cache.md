@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-221 papers · newest submission first
+228 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **Tools Need Not Speak in Text: Latent Context Compression for Agents**<br><sub>Yuetong Liu, Zhehao Zhou, Yitong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06500) · [PDF](https://arxiv.org/pdf/2611.06500) · [Code](https://github.com/THU-Agent/Coca-cola) |
+| 2026-11-04 | **SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory**<br><sub>Jizhe Zhang, Ang Li, Chenheng Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06445) · [PDF](https://arxiv.org/pdf/2611.06445) |
+| 2026-11-04 | **Does Context Compression Preserve Refusal Alignment?**<br><sub>Anthony Nguyen, Wenjun Lin</sub> | [arXiv](https://arxiv.org/abs/2611.06380) · [PDF](https://arxiv.org/pdf/2611.06380) |
+| 2026-11-04 | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation**<br><sub>Jiacheng Lu, Haoyi Zhu, Sipei Yi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06377) · [PDF](https://arxiv.org/pdf/2611.06377) · [Code](https://github.com/jiacheng-lu03/NanoKV) |
+| 2026-11-04 | **Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining**<br><sub>João Eduardo Batista, Emil Vatai, Mohamed Wahib</sub> | [arXiv](https://arxiv.org/abs/2611.06133) · [PDF](https://arxiv.org/pdf/2611.06133) |
+| 2026-11-04 | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion**<br><sub>Yanjin Li, Bingbing Qiu, Qiang Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05917) · [PDF](https://arxiv.org/pdf/2611.05917) |
+| 2026-11-03 | **Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation**<br><sub>Rohan Agarwal, Robin Andeer, Alex Armbruster et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05642) · [PDF](https://arxiv.org/pdf/2611.05642) |
 | 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
 | 2026-11-03 | **Asymptotic Optimality of $cμ$-Rule for LLM Inference Scheduling under Memory Constraint**<br><sub>Zhenghao Li, Shengbo Wang, Nian Si</sub> | [arXiv](https://arxiv.org/abs/2611.04807) · [PDF](https://arxiv.org/pdf/2611.04807) |
 | 2026-11-03 | **LeanSparse: Memory-Efficient Serving for Native Sparse-Attention LLMs**<br><sub>Zaifeng Pan, Chris Wu, Xinwei Qiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04671) · [PDF](https://arxiv.org/pdf/2611.04671) |

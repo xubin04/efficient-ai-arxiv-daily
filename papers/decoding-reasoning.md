@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-144 papers · newest submission first
+150 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding**<br><sub>Baoyou Chen, Ruiqiao Mei, Guancong Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06425) · [PDF](https://arxiv.org/pdf/2611.06425) · [Code](https://github.com/fudan-generative-vision/D3D) |
+| 2026-11-04 | **Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation**<br><sub>Jinhyung Bae</sub> | [arXiv](https://arxiv.org/abs/2611.06372) · [PDF](https://arxiv.org/pdf/2611.06372) · [Code](https://github.com/nepersoned/priors-not-policies) |
+| 2026-11-04 | **Split-KV: Efficient Context Parallelism for Training Diffusion Drafters**<br><sub>Geng Zhang, Fangzhao Zhang, Cong Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05926) · [PDF](https://arxiv.org/pdf/2611.05926) · [Code](https://github.com/zxgx/verl) |
+| 2026-11-04 | **RECAP: Context-Aware Prediction Recycling with Request-Local and Persistent Memories for Multimodal Speculative Decoding**<br><sub>Hengjie Zhu, Dayan Wu, Xinze Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05894) · [PDF](https://arxiv.org/pdf/2611.05894) · [Code](https://github.com/Senmo996/RECAP-official-code) |
+| 2026-11-03 | **Give the Drafter a Second Chance to Guess: Parallel Reconsideration for Speculative Decoding**<br><sub>Hoang Anh Duy Le, Huibing Dong, Alireza Khadem et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05724) · [PDF](https://arxiv.org/pdf/2611.05724) |
+| 2026-11-03 | **Hybrid Spark: Adaptive Speculative Decoding That Lets the Content Choose the Drafter**<br><sub>Ekagra Ranjan, Bharat Venkitesh</sub> | [arXiv](https://arxiv.org/abs/2611.05611) · [PDF](https://arxiv.org/pdf/2611.05611) |
 | 2026-11-03 | **PATTS: Parallel-Aware Test-Time Scaling for Thought-Image Generation in Multimodal Discrete Diffusion LLMs**<br><sub>Yasong Dai, Zeeshan Hayder, David Ahmedt-Aristizabal et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04948) · [PDF](https://arxiv.org/pdf/2611.04948) · [Code](https://github.com/Ringo-Star/PATTS.git) |
 | 2026-11-03 | **ReSI-Math: Exploring Recoverable Capability Frontiers for Efficient Reasoning Improvement**<br><sub>Yao Cui, Zhen Yang, Yuandong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04787) · [PDF](https://arxiv.org/pdf/2611.04787) |
 | 2026-11-03 | **PACT: Certifying What Is Written in Parallel Decoding of Diffusion Language Models**<br><sub>Yanchao Li, Yusu Zhang, Jiaqing Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04152) · [PDF](https://arxiv.org/pdf/2611.04152) · [Code](https://github.com/LiZaiyuan0619/PACT) |

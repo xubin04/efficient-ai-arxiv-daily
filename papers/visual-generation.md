@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-201 papers · newest submission first
+209 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation**<br><sub>Yihong Luo, Tianyu Pang, Tianyang Hu</sub> | [arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [Code](https://github.com/Luo-Yihong/VA-TDM) |
+| 2026-11-04 | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation**<br><sub>Jiacheng Lu, Haoyi Zhu, Sipei Yi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06377) · [PDF](https://arxiv.org/pdf/2611.06377) · [Code](https://github.com/jiacheng-lu03/NanoKV) |
+| 2026-11-04 | **NextGAN: Towards Simple and Scalable GAN Training for Image and Video Generation**<br><sub>Xinhao Lou, Dongye Xie, Peng Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06270) · [PDF](https://arxiv.org/pdf/2611.06270) · [Code](https://github.com/LINs-lab/NextGAN.git) |
+| 2026-11-04 | **Learning Noise Optimization for Reward Alignment in Few-Step Generative Models**<br><sub>Hongeun Kim, Jeongsol Kim, Jong Chul Ye</sub> | [arXiv](https://arxiv.org/abs/2611.06255) · [PDF](https://arxiv.org/pdf/2611.06255) |
+| 2026-11-04 | **Phantom: Temporal Caching for Diffusion Models**<br><sub>Yuzhe Fu, Cong Guo, Zishan Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06019) · [PDF](https://arxiv.org/pdf/2611.06019) |
+| 2026-11-04 | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion**<br><sub>Yanjin Li, Bingbing Qiu, Qiang Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05917) · [PDF](https://arxiv.org/pdf/2611.05917) |
+| 2026-11-03 | **Decompose the Distillation: Interpretable Single-Pass Guidance for Diffusion Models**<br><sub>Wuyang Zhang, Xiaolin Xu</sub> | [arXiv](https://arxiv.org/abs/2611.05755) · [PDF](https://arxiv.org/pdf/2611.05755) |
+| 2026-11-03 | **Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation**<br><sub>Rohan Agarwal, Robin Andeer, Alex Armbruster et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05642) · [PDF](https://arxiv.org/pdf/2611.05642) |
 | 2026-11-03 | **StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models**<br><sub>Chenru Wang, Xuanyang Zhang, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04386) · [PDF](https://arxiv.org/pdf/2611.04386) |
 | 2026-11-02 | **Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models**<br><sub>Siqiao Huang, Partha Kaushik, Michael Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04028) · [PDF](https://arxiv.org/pdf/2611.04028) |
 | 2026-11-02 | **OmniOPD: Stable On-Policy Distillation for Joint Audio-Video Generation**<br><sub>Zihao Fan, Xin Lu, Jie Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02803) · [PDF](https://arxiv.org/pdf/2611.02803) |

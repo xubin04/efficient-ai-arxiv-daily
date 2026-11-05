@@ -4,10 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-486 papers · newest submission first
+497 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation**<br><sub>Yihong Luo, Tianyu Pang, Tianyang Hu</sub> | [arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [Code](https://github.com/Luo-Yihong/VA-TDM) |
+| 2026-11-04 | **EvoOPD: Evolving Privileged Information Strategies for Black-Box On-Policy Distillation**<br><sub>Ximo Zhu, Ruiqi Liu, Yi Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06542) · [PDF](https://arxiv.org/pdf/2611.06542) |
+| 2026-11-04 | **Unaligned Image Guided Denoising via Cross-modal Conditional Flow Matching**<br><sub>Runmin Zhang, Linshan Li, Si-Yuan Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06422) · [PDF](https://arxiv.org/pdf/2611.06422) |
+| 2026-11-04 | **Ruby-OPD: Enhancing Pronunciation Controllability and Accuracy for Flow-Matching Text-to-Speech via On-Policy Distillation**<br><sub>Rui Hu, Xiaolong Lin, Zhenpeng Zhan</sub> | [arXiv](https://arxiv.org/abs/2611.06403) · [PDF](https://arxiv.org/pdf/2611.06403) |
+| 2026-11-04 | **Consistency Learning and Distillation for One-Step MIMO-OFDM Channel Estimation**<br><sub>Fredrik Nguyen, Qiwen Wang</sub> | [arXiv](https://arxiv.org/abs/2611.06271) · [PDF](https://arxiv.org/pdf/2611.06271) |
+| 2026-11-04 | **NextGAN: Towards Simple and Scalable GAN Training for Image and Video Generation**<br><sub>Xinhao Lou, Dongye Xie, Peng Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06270) · [PDF](https://arxiv.org/pdf/2611.06270) · [Code](https://github.com/LINs-lab/NextGAN.git) |
+| 2026-11-04 | **Learning Noise Optimization for Reward Alignment in Few-Step Generative Models**<br><sub>Hongeun Kim, Jeongsol Kim, Jong Chul Ye</sub> | [arXiv](https://arxiv.org/abs/2611.06255) · [PDF](https://arxiv.org/pdf/2611.06255) |
+| 2026-11-04 | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion**<br><sub>Yanjin Li, Bingbing Qiu, Qiang Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05917) · [PDF](https://arxiv.org/pdf/2611.05917) |
+| 2026-11-04 | **Learning When Human Decisions Matter: Executor-Relative Consultation Value for LLM Agents**<br><sub>Shuli Jiang, Khushbu Pahwa, Yuting Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05814) · [PDF](https://arxiv.org/pdf/2611.05814) |
+| 2026-11-03 | **Decompose the Distillation: Interpretable Single-Pass Guidance for Diffusion Models**<br><sub>Wuyang Zhang, Xiaolin Xu</sub> | [arXiv](https://arxiv.org/abs/2611.05755) · [PDF](https://arxiv.org/pdf/2611.05755) |
+| 2026-11-03 | **Route to Remember: Adaptive Memory Selection for LLM Agents**<br><sub>Zeyu Fang, Jun Yin, Yongsheng Mei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05636) · [PDF](https://arxiv.org/pdf/2611.05636) |
 | 2026-11-03 | **Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting**<br><sub>Raz Marshanski, Liran Nochumsohn, Mayank Jauhari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04760) · [PDF](https://arxiv.org/pdf/2611.04760) |
 | 2026-11-03 | **CogniLife: Continuous Cognitive Distillation for Deployed Multi-Expert Agent Marketplaces**<br><sub>Xuwei Tan, Jingchun Huang, Ming Cai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04483) · [PDF](https://arxiv.org/pdf/2611.04483) |
 | 2026-11-03 | **Aero-VPA: Few-Step Flow-Matching Control over Non-Reconstructive JEPA Latents for Agile Flight on Edge Hardware**<br><sub>Yeonseok Lee</sub> | [arXiv](https://arxiv.org/abs/2611.04392) · [PDF](https://arxiv.org/pdf/2611.04392) · [Code](https://github.com/ylee-sling/Aero-VPA) |

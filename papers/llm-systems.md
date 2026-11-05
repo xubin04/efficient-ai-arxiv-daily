@@ -4,10 +4,13 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-249 papers · newest submission first
+252 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **ServerBench: How can your coding agents design specialized LLM serving systems?**<br><sub>Xinrui Zhong, Zhiming Wang, Yongqi Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06841) · [PDF](https://arxiv.org/pdf/2611.06841) |
+| 2026-11-04 | **SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving**<br><sub>Erfan Baghaei Potraghloo, Saeid Shokoufa, Seyedarmin Azizi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06147) · [PDF](https://arxiv.org/pdf/2611.06147) |
+| 2026-11-04 | **A Controlled Experimental Evaluation of Configuration and Cache Architecture in LLM Serving Engines**<br><sub>Muhammad Faizan Anwar, Sina Keshvadi</sub> | [arXiv](https://arxiv.org/abs/2611.05991) · [PDF](https://arxiv.org/pdf/2611.05991) · [Code](https://github.com/FaizanAnwar01/llm-serving-config-eval) |
 | 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
 | 2026-11-03 | **What Sets the Serving Speed of Looped Language Models? Measurements and Optimizations Graded by Exactness**<br><sub>Dezhen Lu, Runguo Li, Zixiang Ni et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05150) · [PDF](https://arxiv.org/pdf/2611.05150) |
 | 2026-11-03 | **Workload-Static Optical Circuit Switching For Scalable LLM Inference Decode**<br><sub>Maximilian Thürmer, Nicolas Scotto di Perto, Eloise Stein et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05104) · [PDF](https://arxiv.org/pdf/2611.05104) |

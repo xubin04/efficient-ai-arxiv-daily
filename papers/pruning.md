@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-216 papers · newest submission first
+221 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **Tools Need Not Speak in Text: Latent Context Compression for Agents**<br><sub>Yuetong Liu, Zhehao Zhou, Yitong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06500) · [PDF](https://arxiv.org/pdf/2611.06500) · [Code](https://github.com/THU-Agent/Coca-cola) |
+| 2026-11-04 | **RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models**<br><sub>Dongjin Lee, Eunju Lee, Jinhee Jang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06047) · [PDF](https://arxiv.org/pdf/2611.06047) |
+| 2026-11-04 | **Phantom: Temporal Caching for Diffusion Models**<br><sub>Yuzhe Fu, Cong Guo, Zishan Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06019) · [PDF](https://arxiv.org/pdf/2611.06019) |
+| 2026-11-04 | **Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models**<br><sub>Donggeun Kim</sub> | [arXiv](https://arxiv.org/abs/2611.05927) · [PDF](https://arxiv.org/pdf/2611.05927) · [Code](https://github.com/nota-github/MAEP) |
+| 2026-11-04 | **DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion**<br><sub>Yanjin Li, Bingbing Qiu, Qiang Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05917) · [PDF](https://arxiv.org/pdf/2611.05917) |
 | 2026-11-03 | **BtsPruner: Role-Aware Visual Token Pruning for Large Vision-Language Models**<br><sub>Zihao Qi, Zhibo Zhang, Miaoxin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.04537) · [PDF](https://arxiv.org/pdf/2611.04537) |
 | 2026-11-02 | **Bagel: A Fast Bayesian Online Changepoint Detection Algorithm for Linear Models via Posterior Merging**<br><sub>Ziyang Yang, Paul Fearnhead, Dan Grose</sub> | [arXiv](https://arxiv.org/abs/2611.03230) · [PDF](https://arxiv.org/pdf/2611.03230) |
 | 2026-11-01 | **SVD-Prune: Spectral Vision Token Pruning under Extreme Compression**<br><sub>Yvon Apedo, Martyna Poreba, Michal Szczepanski et al.</sub> | [arXiv](https://arxiv.org/abs/2611.02284) · [PDF](https://arxiv.org/pdf/2611.02284) · [Code](https://github.com/anoncvlab/svdPrune) |

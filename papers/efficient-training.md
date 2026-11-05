@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-156 papers · newest submission first
+160 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-04 | **The Behavioral Rate of Fine-Tuning: Compression as a Measure of Useful Information**<br><sub>Joey David, Paul Caillon, Alexandre Allauzen</sub> | [arXiv](https://arxiv.org/abs/2611.06598) · [PDF](https://arxiv.org/pdf/2611.06598) |
+| 2026-11-04 | **AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment**<br><sub>Pragyan Phukan</sub> | [arXiv](https://arxiv.org/abs/2611.06170) · [PDF](https://arxiv.org/pdf/2611.06170) |
+| 2026-11-04 | **CARE-FL: Federated Fine-Tuning of Multimodal LLMs in Resource-Constrained Edge Networks**<br><sub>Tianqi Zong, Baosheng Li, Nuocheng Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06169) · [PDF](https://arxiv.org/pdf/2611.06169) |
+| 2026-11-04 | **UniCompress: From Multi-LoRA Experts to One Compact Model for Edge Intelligence**<br><sub>Mingkang Liu, Peipei Jiao, Weiming Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06075) · [PDF](https://arxiv.org/pdf/2611.06075) |
 | 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |
 | 2026-11-03 | **Shrinkage prior for implicit generative models**<br><sub>Shreya Sinha-Roy, Christian P. Robert, Ritabrata Dutta</sub> | [arXiv](https://arxiv.org/abs/2611.05241) · [PDF](https://arxiv.org/pdf/2611.05241) |
 | 2026-11-03 | **Coarse Semantic Blocks for Efficient Training-Free Sparse Attention**<br><sub>Sosuke Kobayashi, Shoichiro Yamaguchi, Seiya Tokui</sub> | [arXiv](https://arxiv.org/abs/2611.04313) · [PDF](https://arxiv.org/pdf/2611.04313) |
