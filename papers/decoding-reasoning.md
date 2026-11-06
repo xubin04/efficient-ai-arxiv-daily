@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-150 papers · newest submission first
+155 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **Measured Coupling for Parallel Decoding in Diffusion Language Models**<br><sub>Tal Oved, Lior Wolf</sub> | [arXiv](https://arxiv.org/abs/2611.08307) · [PDF](https://arxiv.org/pdf/2611.08307) |
+| 2026-11-05 | **Masked diffusion as random sequential adsorption: an exactly solvable model for parallel decoding**<br><sub>Adrian Baule</sub> | [arXiv](https://arxiv.org/abs/2611.07845) · [PDF](https://arxiv.org/pdf/2611.07845) |
+| 2026-11-05 | **FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving**<br><sub>Xuan Wang, Zhuanhao Wu, Tingzhu Fang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07542) · [PDF](https://arxiv.org/pdf/2611.07542) · [Code](https://github.com/vllm-project/vllm-ascend/tree/releases/v0.30.0) |
+| 2026-11-05 | **Latency-Aware Adaptive Best-of-$N$**<br><sub>Alon Jacobson, Qian Xie, Peter I. Frazier</sub> | [arXiv](https://arxiv.org/abs/2611.07453) · [PDF](https://arxiv.org/pdf/2611.07453) |
+| 2026-11-05 | **Test-Time Self-Play: Scaling without a Verifier**<br><sub>Akira Yoshiyama, Akmal Ashirmatov, Jonas Hübotter et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07367) · [PDF](https://arxiv.org/pdf/2611.07367) |
 | 2026-11-04 | **D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding**<br><sub>Baoyou Chen, Ruiqiao Mei, Guancong Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06425) · [PDF](https://arxiv.org/pdf/2611.06425) · [Code](https://github.com/fudan-generative-vision/D3D) |
 | 2026-11-04 | **Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation**<br><sub>Jinhyung Bae</sub> | [arXiv](https://arxiv.org/abs/2611.06372) · [PDF](https://arxiv.org/pdf/2611.06372) · [Code](https://github.com/nepersoned/priors-not-policies) |
 | 2026-11-04 | **Split-KV: Efficient Context Parallelism for Training Diffusion Drafters**<br><sub>Geng Zhang, Fangzhao Zhang, Cong Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.05926) · [PDF](https://arxiv.org/pdf/2611.05926) · [Code](https://github.com/zxgx/verl) |

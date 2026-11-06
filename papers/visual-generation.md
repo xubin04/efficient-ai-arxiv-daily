@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-209 papers · newest submission first
+213 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **FisherDistill: Diffusion Distribution Distillation via Closed-Form Fisher Critics**<br><sub>Mahesh Bhosale, Yuanhao Zhai, Siwei Lyu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07604) · [PDF](https://arxiv.org/pdf/2611.07604) |
+| 2026-11-05 | **Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation**<br><sub>Zijie Meng, Xixin Cao</sub> | [arXiv](https://arxiv.org/abs/2611.07566) · [PDF](https://arxiv.org/pdf/2611.07566) · [Code](https://github.com/YMlinfeng/AGAVE) |
+| 2026-11-05 | **Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion**<br><sub>Jia Li, Xurui Peng, Xing Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07551) · [PDF](https://arxiv.org/pdf/2611.07551) |
+| 2026-11-05 | **OptIMerge: Optimization-Based Merging of Diffusion Models**<br><sub>Viraj Shah, Ashwini Pokle, Peyman Milanfar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07543) · [PDF](https://arxiv.org/pdf/2611.07543) |
 | 2026-11-04 | **VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation**<br><sub>Yihong Luo, Tianyu Pang, Tianyang Hu</sub> | [arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [Code](https://github.com/Luo-Yihong/VA-TDM) |
 | 2026-11-04 | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation**<br><sub>Jiacheng Lu, Haoyi Zhu, Sipei Yi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06377) · [PDF](https://arxiv.org/pdf/2611.06377) · [Code](https://github.com/jiacheng-lu03/NanoKV) |
 | 2026-11-04 | **NextGAN: Towards Simple and Scalable GAN Training for Image and Video Generation**<br><sub>Xinhao Lou, Dongye Xie, Peng Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06270) · [PDF](https://arxiv.org/pdf/2611.06270) · [Code](https://github.com/LINs-lab/NextGAN.git) |

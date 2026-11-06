@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-497 papers · newest submission first
+509 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning**<br><sub>Haitao Lin, Minsi Ren, Yang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08240) · [PDF](https://arxiv.org/pdf/2611.08240) |
+| 2026-11-05 | **Learning Dynamics of On-Policy Distillation**<br><sub>Guan Zhe Hong, Sumeet Ramesh Motwani, Liang Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08016) · [PDF](https://arxiv.org/pdf/2611.08016) |
+| 2026-11-05 | **Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs**<br><sub>Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani</sub> | [arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) |
+| 2026-11-05 | **Flux as a Codec: Zero-Shot Lossy Compression with Flux**<br><sub>Fuma Kimishima, Jinjia Zhou</sub> | [arXiv](https://arxiv.org/abs/2611.07929) · [PDF](https://arxiv.org/pdf/2611.07929) |
+| 2026-11-05 | **EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure**<br><sub>Kwan Yun, Minhyeok Bang, Colette Suhjung Koo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07909) · [PDF](https://arxiv.org/pdf/2611.07909) |
+| 2026-11-05 | **Reinforcing What the Student Has Learned: Teacher-Guided On-Policy Distillation**<br><sub>Bozhen Fang, Linhao Zhong, Xuehao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07722) · [PDF](https://arxiv.org/pdf/2611.07722) · [Code](https://github.com/aim-uofa/sd-opd) |
+| 2026-11-05 | **FisherDistill: Diffusion Distribution Distillation via Closed-Form Fisher Critics**<br><sub>Mahesh Bhosale, Yuanhao Zhai, Siwei Lyu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07604) · [PDF](https://arxiv.org/pdf/2611.07604) |
+| 2026-11-05 | **Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation**<br><sub>Zijie Meng, Xixin Cao</sub> | [arXiv](https://arxiv.org/abs/2611.07566) · [PDF](https://arxiv.org/pdf/2611.07566) · [Code](https://github.com/YMlinfeng/AGAVE) |
+| 2026-11-05 | **Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion**<br><sub>Jia Li, Xurui Peng, Xing Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07551) · [PDF](https://arxiv.org/pdf/2611.07551) |
+| 2026-11-05 | **CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning with Causal Transition On-Policy Self-Distillation**<br><sub>Ying Li, Yongle Cheng, Jing Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07541) · [PDF](https://arxiv.org/pdf/2611.07541) |
+| 2026-11-04 | **Depth or Description? When a One-Step Latent Score Replaces Lookahead in Proactive Information Acquisition**<br><sub>Biswa Sengupta</sub> | [arXiv](https://arxiv.org/abs/2611.07155) · [PDF](https://arxiv.org/pdf/2611.07155) |
+| 2026-11-04 | **SD-LoRA: Training-Time Structural Distillation into LoRA for Few-Shot Vision-Language Adaptation**<br><sub>Mohammed Rahman Sherif Khan Mohammad, Ardhendu Behera, Sandip Pradhan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07063) · [PDF](https://arxiv.org/pdf/2611.07063) · [Code](https://github.com/MR-Sherif/SD-LoRA.git) |
 | 2026-11-04 | **VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation**<br><sub>Yihong Luo, Tianyu Pang, Tianyang Hu</sub> | [arXiv](https://arxiv.org/abs/2611.06796) · [PDF](https://arxiv.org/pdf/2611.06796) · [Code](https://github.com/Luo-Yihong/VA-TDM) |
 | 2026-11-04 | **EvoOPD: Evolving Privileged Information Strategies for Black-Box On-Policy Distillation**<br><sub>Ximo Zhu, Ruiqi Liu, Yi Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06542) · [PDF](https://arxiv.org/pdf/2611.06542) |
 | 2026-11-04 | **Unaligned Image Guided Denoising via Cross-modal Conditional Flow Matching**<br><sub>Runmin Zhang, Linshan Li, Si-Yuan Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06422) · [PDF](https://arxiv.org/pdf/2611.06422) |

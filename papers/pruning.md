@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-221 papers · newest submission first
+227 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models**<br><sub>Mohammed Hassan, Zhenyang Chen, Zheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08413) · [PDF](https://arxiv.org/pdf/2611.08413) |
+| 2026-11-05 | **AutoCompress: Automated Hardware-Guided Model Compression**<br><sub>Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) |
+| 2026-11-05 | **When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale**<br><sub>Gautam Gupta, Dikshant Kukreja, Unique Kumar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07891) · [PDF](https://arxiv.org/pdf/2611.07891) |
+| 2026-11-05 | **SKIM: Pruning Large Language Model Agents via Selective Knowledge Informed Masking**<br><sub>Moonseok Choi, Jongwon Jeong, Minki Kang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07558) · [PDF](https://arxiv.org/pdf/2611.07558) |
+| 2026-11-05 | **Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion**<br><sub>Jia Li, Xurui Peng, Xing Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07551) · [PDF](https://arxiv.org/pdf/2611.07551) |
+| 2026-11-05 | **TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference**<br><sub>Hanzhi Zhang, Qiao Zhang, Qinglei Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07256) · [PDF](https://arxiv.org/pdf/2611.07256) · [Code](https://github.com/HanzhiZhang-Ulrica/TriAttention) |
 | 2026-11-04 | **Tools Need Not Speak in Text: Latent Context Compression for Agents**<br><sub>Yuetong Liu, Zhehao Zhou, Yitong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06500) · [PDF](https://arxiv.org/pdf/2611.06500) · [Code](https://github.com/THU-Agent/Coca-cola) |
 | 2026-11-04 | **RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models**<br><sub>Dongjin Lee, Eunju Lee, Jinhee Jang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06047) · [PDF](https://arxiv.org/pdf/2611.06047) |
 | 2026-11-04 | **Phantom: Temporal Caching for Diffusion Models**<br><sub>Yuzhe Fu, Cong Guo, Zishan Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06019) · [PDF](https://arxiv.org/pdf/2611.06019) |

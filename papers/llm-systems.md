@@ -4,11 +4,18 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-252 papers · newest submission first
+259 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
+| 2026-11-05 | **Should You Split Decode? Disaggregation Across Future Models and Accelerators**<br><sub>Ramyad Hadidi</sub> | [arXiv](https://arxiv.org/abs/2611.08299) · [PDF](https://arxiv.org/pdf/2611.08299) |
+| 2026-11-05 | **AutoCompress: Automated Hardware-Guided Model Compression**<br><sub>Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) |
+| 2026-11-05 | **ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference**<br><sub>Bokun Wang, Hung-Yueh Chiang, Diana Marculescu</sub> | [arXiv](https://arxiv.org/abs/2611.07570) · [PDF](https://arxiv.org/pdf/2611.07570) |
+| 2026-11-05 | **FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving**<br><sub>Xuan Wang, Zhuanhao Wu, Tingzhu Fang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07542) · [PDF](https://arxiv.org/pdf/2611.07542) · [Code](https://github.com/vllm-project/vllm-ascend/tree/releases/v0.30.0) |
+| 2026-11-05 | **Latency-Aware Adaptive Best-of-$N$**<br><sub>Alon Jacobson, Qian Xie, Peter I. Frazier</sub> | [arXiv](https://arxiv.org/abs/2611.07453) · [PDF](https://arxiv.org/pdf/2611.07453) |
 | 2026-11-04 | **ServerBench: How can your coding agents design specialized LLM serving systems?**<br><sub>Xinrui Zhong, Zhiming Wang, Yongqi Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06841) · [PDF](https://arxiv.org/pdf/2611.06841) |
+| 2026-11-04 | **Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism**<br><sub>Jia Wei, Ziyi Qiu, Yi Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06984) · [PDF](https://arxiv.org/pdf/2611.06984) |
 | 2026-11-04 | **SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving**<br><sub>Erfan Baghaei Potraghloo, Saeid Shokoufa, Seyedarmin Azizi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06147) · [PDF](https://arxiv.org/pdf/2611.06147) |
 | 2026-11-04 | **A Controlled Experimental Evaluation of Configuration and Cache Architecture in LLM Serving Engines**<br><sub>Muhammad Faizan Anwar, Sina Keshvadi</sub> | [arXiv](https://arxiv.org/abs/2611.05991) · [PDF](https://arxiv.org/pdf/2611.05991) · [Code](https://github.com/FaizanAnwar01/llm-serving-config-eval) |
 | 2026-11-03 | **LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers**<br><sub>Minsoo Cheong, Sungjoo Yoo</sub> | [arXiv](https://arxiv.org/abs/2611.05304) · [PDF](https://arxiv.org/pdf/2611.05304) |

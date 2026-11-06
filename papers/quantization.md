@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-243 papers · newest submission first
+251 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
+| 2026-11-05 | **ProQuant: Progressive Quantization-aware Training for Edge MLLMs**<br><sub>Yufei Xue, Yushi Huang, Jiawei Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08216) · [PDF](https://arxiv.org/pdf/2611.08216) · [Code](https://github.com/yufeixue-ai/ProQuant/) |
+| 2026-11-05 | **Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs**<br><sub>Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani</sub> | [arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) |
+| 2026-11-05 | **When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale**<br><sub>Gautam Gupta, Dikshant Kukreja, Unique Kumar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07891) · [PDF](https://arxiv.org/pdf/2611.07891) |
+| 2026-11-05 | **TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs**<br><sub>Chongyu Qu, Ritchie Zhao, Yufan He et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07593) · [PDF](https://arxiv.org/pdf/2611.07593) |
+| 2026-11-05 | **ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference**<br><sub>Bokun Wang, Hung-Yueh Chiang, Diana Marculescu</sub> | [arXiv](https://arxiv.org/abs/2611.07570) · [PDF](https://arxiv.org/pdf/2611.07570) |
+| 2026-11-05 | **TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference**<br><sub>Hanzhi Zhang, Qiao Zhang, Qinglei Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07256) · [PDF](https://arxiv.org/pdf/2611.07256) · [Code](https://github.com/HanzhiZhang-Ulrica/TriAttention) |
+| 2026-11-04 | **TileQuant: Tile as the Precision-Allocation Unit for LLM Mixed-Precision Post-Training Quantization**<br><sub>Hanzhi Zhang, Qiao Zhang, Qinglei Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07217) · [PDF](https://arxiv.org/pdf/2611.07217) · [Code](https://github.com/HanzhiZhang-Ulrica/TileQuant) |
 | 2026-11-04 | **NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation**<br><sub>Jiacheng Lu, Haoyi Zhu, Sipei Yi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06377) · [PDF](https://arxiv.org/pdf/2611.06377) · [Code](https://github.com/jiacheng-lu03/NanoKV) |
 | 2026-11-04 | **UniCompress: From Multi-LoRA Experts to One Compact Model for Edge Intelligence**<br><sub>Mingkang Liu, Peipei Jiao, Weiming Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06075) · [PDF](https://arxiv.org/pdf/2611.06075) |
 | 2026-11-04 | **Phantom: Temporal Caching for Diffusion Models**<br><sub>Yuzhe Fu, Cong Guo, Zishan Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06019) · [PDF](https://arxiv.org/pdf/2611.06019) |

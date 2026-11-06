@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-228 papers · newest submission first
+234 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
+| 2026-11-05 | **Beyond K/V Caches: Cross-Model State Handoff in Hybrid Linear-Attention LLMs**<br><sub>Jiacheng Cai, Tao Zhang, Siqi Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08133) · [PDF](https://arxiv.org/pdf/2611.08133) |
+| 2026-11-05 | **QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents**<br><sub>Yingjie Tan, Haiquan Qiu, Quanming Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07976) · [PDF](https://arxiv.org/pdf/2611.07976) |
+| 2026-11-05 | **TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs**<br><sub>Chongyu Qu, Ritchie Zhao, Yufan He et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07593) · [PDF](https://arxiv.org/pdf/2611.07593) |
+| 2026-11-05 | **FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving**<br><sub>Xuan Wang, Zhuanhao Wu, Tingzhu Fang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07542) · [PDF](https://arxiv.org/pdf/2611.07542) · [Code](https://github.com/vllm-project/vllm-ascend/tree/releases/v0.30.0) |
+| 2026-11-05 | **TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference**<br><sub>Hanzhi Zhang, Qiao Zhang, Qinglei Cao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07256) · [PDF](https://arxiv.org/pdf/2611.07256) · [Code](https://github.com/HanzhiZhang-Ulrica/TriAttention) |
 | 2026-11-04 | **Tools Need Not Speak in Text: Latent Context Compression for Agents**<br><sub>Yuetong Liu, Zhehao Zhou, Yitong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06500) · [PDF](https://arxiv.org/pdf/2611.06500) · [Code](https://github.com/THU-Agent/Coca-cola) |
 | 2026-11-04 | **SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory**<br><sub>Jizhe Zhang, Ang Li, Chenheng Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.06445) · [PDF](https://arxiv.org/pdf/2611.06445) |
 | 2026-11-04 | **Does Context Compression Preserve Refusal Alignment?**<br><sub>Anthony Nguyen, Wenjun Lin</sub> | [arXiv](https://arxiv.org/abs/2611.06380) · [PDF](https://arxiv.org/pdf/2611.06380) |
