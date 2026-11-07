@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-06 15:57 CST** · **1576 unique papers** · Newest submission: **2026-11-05**
+Last successful scan: **2026-11-07 15:14 CST** · **1576 unique papers** · Newest submission: **2026-11-05**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-11-06 15:57 CST** · **1576 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 126 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 213 |
 
-## Newly indexed · 2026-11-06
+## Newly indexed · 2026-11-07
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-11-05 | **Towards interpreting any residual stream direction by scaling activation inversion**<br><sub>Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08465) · [PDF](https://arxiv.org/pdf/2611.08465) |
-| 2026-11-05 | **T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models**<br><sub>Mohammed Hassan, Zhenyang Chen, Zheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08413) · [PDF](https://arxiv.org/pdf/2611.08413) |
-| 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
-| 2026-11-05 | **Measured Coupling for Parallel Decoding in Diffusion Language Models**<br><sub>Tal Oved, Lior Wolf</sub> | [arXiv](https://arxiv.org/abs/2611.08307) · [PDF](https://arxiv.org/pdf/2611.08307) |
-| 2026-11-05 | **Should You Split Decode? Disaggregation Across Future Models and Accelerators**<br><sub>Ramyad Hadidi</sub> | [arXiv](https://arxiv.org/abs/2611.08299) · [PDF](https://arxiv.org/pdf/2611.08299) |
-| 2026-11-05 | **AutoCompress: Automated Hardware-Guided Model Compression**<br><sub>Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) |
-| 2026-11-05 | **FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning**<br><sub>Haitao Lin, Minsi Ren, Yang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08240) · [PDF](https://arxiv.org/pdf/2611.08240) |
-| 2026-11-05 | **ProQuant: Progressive Quantization-aware Training for Edge MLLMs**<br><sub>Yufei Xue, Yushi Huang, Jiawei Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08216) · [PDF](https://arxiv.org/pdf/2611.08216) · [Code](https://github.com/yufeixue-ai/ProQuant/) |
-| 2026-11-05 | **Beyond K/V Caches: Cross-Model State Handoff in Hybrid Linear-Attention LLMs**<br><sub>Jiacheng Cai, Tao Zhang, Siqi Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08133) · [PDF](https://arxiv.org/pdf/2611.08133) |
-| 2026-11-05 | **Learning Dynamics of On-Policy Distillation**<br><sub>Guan Zhe Hong, Sumeet Ramesh Motwani, Liang Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08016) · [PDF](https://arxiv.org/pdf/2611.08016) |
-| 2026-11-05 | **Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs**<br><sub>Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani</sub> | [arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) |
-| 2026-11-05 | **QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents**<br><sub>Yingjie Tan, Haiquan Qiu, Quanming Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07976) · [PDF](https://arxiv.org/pdf/2611.07976) |
-| 2026-11-05 | **Flux as a Codec: Zero-Shot Lossy Compression with Flux**<br><sub>Fuma Kimishima, Jinjia Zhou</sub> | [arXiv](https://arxiv.org/abs/2611.07929) · [PDF](https://arxiv.org/pdf/2611.07929) |
-| 2026-11-05 | **EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure**<br><sub>Kwan Yun, Minhyeok Bang, Colette Suhjung Koo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07909) · [PDF](https://arxiv.org/pdf/2611.07909) |
-| 2026-11-05 | **When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale**<br><sub>Gautam Gupta, Dikshant Kukreja, Unique Kumar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07891) · [PDF](https://arxiv.org/pdf/2611.07891) |
-| 2026-11-05 | **Masked diffusion as random sequential adsorption: an exactly solvable model for parallel decoding**<br><sub>Adrian Baule</sub> | [arXiv](https://arxiv.org/abs/2611.07845) · [PDF](https://arxiv.org/pdf/2611.07845) |
-| 2026-11-05 | **Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval**<br><sub>Dohoon Kim, Junho Park, Hyunwoong Bae et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07820) · [PDF](https://arxiv.org/pdf/2611.07820) · [Code](https://github.com/dohoonkim-ai/axis-lora) |
-| 2026-11-05 | **Reinforcing What the Student Has Learned: Teacher-Guided On-Policy Distillation**<br><sub>Bozhen Fang, Linhao Zhong, Xuehao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07722) · [PDF](https://arxiv.org/pdf/2611.07722) · [Code](https://github.com/aim-uofa/sd-opd) |
-| 2026-11-05 | **Embedding-Space Fingerprinting of LoRA Fine-Tunes: Recovering the Training-Data Domain from the Model Artifact Alone**<br><sub>Shivesh Rane</sub> | [arXiv](https://arxiv.org/abs/2611.07610) · [PDF](https://arxiv.org/pdf/2611.07610) |
-| 2026-11-05 | **FisherDistill: Diffusion Distribution Distillation via Closed-Form Fisher Critics**<br><sub>Mahesh Bhosale, Yuanhao Zhai, Siwei Lyu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07604) · [PDF](https://arxiv.org/pdf/2611.07604) |
-
-[View all 37 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
