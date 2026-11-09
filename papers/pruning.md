@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-227 papers · newest submission first
+231 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **DUET: Dual-Sparse Inference for Block Diffusion Language Models**<br><sub>Siyuan Yan, Shen Gu, Xiaoxing Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09239) · [PDF](https://arxiv.org/pdf/2611.09239) |
+| 2026-11-06 | **Cross-Layer TopK: Dynamically Allocating Sparsity Across Layers in Transcoders**<br><sub>Anyuan Zhuo, Shaohua Zhang, Tianle Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09233) · [PDF](https://arxiv.org/pdf/2611.09233) · [Code](https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT) |
+| 2026-11-06 | **UniExit: A Unified Latency-Aware Early-Exit Runtime for Heterogeneous Edge AI**<br><sub>Yuhang Guan, Huanle Zhang, Xiaomin Ouyang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09159) · [PDF](https://arxiv.org/pdf/2611.09159) |
+| 2026-11-06 | **GeoJeV: Unified Spatial Probability for Training-Free Efficient Evidence Acquisition in Ultra-High-Resolution Remote Sensing**<br><sub>Xinyi Niu, Lingfeng Chen, Jiehua Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08879) · [PDF](https://arxiv.org/pdf/2611.08879) |
 | 2026-11-05 | **T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models**<br><sub>Mohammed Hassan, Zhenyang Chen, Zheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08413) · [PDF](https://arxiv.org/pdf/2611.08413) |
 | 2026-11-05 | **AutoCompress: Automated Hardware-Guided Model Compression**<br><sub>Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) |
 | 2026-11-05 | **When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale**<br><sub>Gautam Gupta, Dikshant Kukreja, Unique Kumar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07891) · [PDF](https://arxiv.org/pdf/2611.07891) |

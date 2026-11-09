@@ -4,10 +4,11 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-155 papers · newest submission first
+156 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-05 | **ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding**<br><sub>Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08669) · [PDF](https://arxiv.org/pdf/2611.08669) |
 | 2026-11-05 | **Measured Coupling for Parallel Decoding in Diffusion Language Models**<br><sub>Tal Oved, Lior Wolf</sub> | [arXiv](https://arxiv.org/abs/2611.08307) · [PDF](https://arxiv.org/pdf/2611.08307) |
 | 2026-11-05 | **Masked diffusion as random sequential adsorption: an exactly solvable model for parallel decoding**<br><sub>Adrian Baule</sub> | [arXiv](https://arxiv.org/abs/2611.07845) · [PDF](https://arxiv.org/pdf/2611.07845) |
 | 2026-11-05 | **FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving**<br><sub>Xuan Wang, Zhuanhao Wu, Tingzhu Fang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07542) · [PDF](https://arxiv.org/pdf/2611.07542) · [Code](https://github.com/vllm-project/vllm-ascend/tree/releases/v0.30.0) |

@@ -4,10 +4,12 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-213 papers · newest submission first
+215 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control**<br><sub>Sangjoon Yu, Seungeun Lee, JoonHeyok Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09074) · [PDF](https://arxiv.org/pdf/2611.09074) |
+| 2026-11-05 | **InstaGen: Group-Shared Importance Sampling for Fast Video Generation**<br><sub>Kislay Aditya Oj, Kumar Krishna Agrawal, Sri Surya Varma Datla et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08610) · [PDF](https://arxiv.org/pdf/2611.08610) |
 | 2026-11-05 | **FisherDistill: Diffusion Distribution Distillation via Closed-Form Fisher Critics**<br><sub>Mahesh Bhosale, Yuanhao Zhai, Siwei Lyu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07604) · [PDF](https://arxiv.org/pdf/2611.07604) |
 | 2026-11-05 | **Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation**<br><sub>Zijie Meng, Xixin Cao</sub> | [arXiv](https://arxiv.org/abs/2611.07566) · [PDF](https://arxiv.org/pdf/2611.07566) · [Code](https://github.com/YMlinfeng/AGAVE) |
 | 2026-11-05 | **Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion**<br><sub>Jia Li, Xurui Peng, Xing Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07551) · [PDF](https://arxiv.org/pdf/2611.07551) |

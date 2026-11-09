@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-251 papers · newest submission first
+256 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
+| 2026-11-06 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding**<br><sub>Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09722) · [PDF](https://arxiv.org/pdf/2611.09722) · [Code](https://github.com/FutureMLS-Lab/FOSCAR) |
+| 2026-11-06 | **MINE: Entropy-coded Memory-efficient Inference for Large Language Models**<br><sub>Emil Schätzle, Markus Püschel</sub> | [arXiv](https://arxiv.org/abs/2611.09424) · [PDF](https://arxiv.org/pdf/2611.09424) |
+| 2026-11-06 | **ResQAdam: Residual-Preserving Adaptive Optimization for Memory-Efficient Quantization Aware Training**<br><sub>Liqun Ma, Shengkun Tang, Liangyu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08924) · [PDF](https://arxiv.org/pdf/2611.08924) |
+| 2026-11-05 | **ResServe: Accurate and Efficient FP4 LLM Inference with Residue Compensation**<br><sub>Shuo Rong, Ruibo Fan, Jiawen Wen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08713) · [PDF](https://arxiv.org/pdf/2611.08713) · [Code](https://github.com/ShawRong/resserve) |
 | 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
 | 2026-11-05 | **ProQuant: Progressive Quantization-aware Training for Edge MLLMs**<br><sub>Yufei Xue, Yushi Huang, Jiawei Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08216) · [PDF](https://arxiv.org/pdf/2611.08216) · [Code](https://github.com/yufeixue-ai/ProQuant/) |
 | 2026-11-05 | **Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs**<br><sub>Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani</sub> | [arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) |

@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-509 papers · newest submission first
+512 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control**<br><sub>Sangjoon Yu, Seungeun Lee, JoonHeyok Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09074) · [PDF](https://arxiv.org/pdf/2611.09074) |
+| 2026-11-06 | **Failure Profiling and Reachable Trajectory Selection for Reasoning Distillation**<br><sub>Yijun Zhu, Jianxin Wang, Chengchao Shen</sub> | [arXiv](https://arxiv.org/abs/2611.09042) · [PDF](https://arxiv.org/pdf/2611.09042) · [Code](https://github.com/visresearch/FPRT) |
+| 2026-11-05 | **ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding**<br><sub>Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08669) · [PDF](https://arxiv.org/pdf/2611.08669) |
 | 2026-11-05 | **FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning**<br><sub>Haitao Lin, Minsi Ren, Yang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08240) · [PDF](https://arxiv.org/pdf/2611.08240) |
 | 2026-11-05 | **Learning Dynamics of On-Policy Distillation**<br><sub>Guan Zhe Hong, Sumeet Ramesh Motwani, Liang Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08016) · [PDF](https://arxiv.org/pdf/2611.08016) |
 | 2026-11-05 | **Compression Through a Context Lens: Evaluating Adaptation, Quantization, and Distillation in Arabic Legal LLMs**<br><sub>Md. Rafiul Biswas, George Mikros, Wajdi Zaghouani</sub> | [arXiv](https://arxiv.org/abs/2611.07988) · [PDF](https://arxiv.org/pdf/2611.07988) |

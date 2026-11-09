@@ -4,10 +4,18 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-259 papers · newest submission first
+267 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
+| 2026-11-06 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding**<br><sub>Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09722) · [PDF](https://arxiv.org/pdf/2611.09722) · [Code](https://github.com/FutureMLS-Lab/FOSCAR) |
+| 2026-11-06 | **Intent-Aware Caching for Efficient LLM Serving**<br><sub>Kazi Hasan Ibn Arif, JinYi Yoon, Dimitrios S. Nikolopoulos et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09715) · [PDF](https://arxiv.org/pdf/2611.09715) · [Code](https://github.com/hasanar1f/intent-aware-caching) |
+| 2026-11-06 | **Nebula: Distributed Position-Independent Caching for LLM Serving**<br><sub>Yifei Liu, Junbin Pan, Junhao Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09474) · [PDF](https://arxiv.org/pdf/2611.09474) |
+| 2026-11-06 | **MINE: Entropy-coded Memory-efficient Inference for Large Language Models**<br><sub>Emil Schätzle, Markus Püschel</sub> | [arXiv](https://arxiv.org/abs/2611.09424) · [PDF](https://arxiv.org/pdf/2611.09424) |
+| 2026-11-06 | **TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows**<br><sub>Sangbu Yun, Jung Gyu Min, Jin Hyun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09254) · [PDF](https://arxiv.org/pdf/2611.09254) |
+| 2026-11-06 | **Inside the Trap: A Renewal Law for Prefix-Cache Collapse in LLM Agent Serving**<br><sub>Akshat Valse, Ali Jannesari</sub> | [arXiv](https://arxiv.org/abs/2611.08902) · [PDF](https://arxiv.org/pdf/2611.08902) |
+| 2026-11-05 | **Enabling Retraining-Free Accurate Inference in Analog Compute in Memory Accelerators**<br><sub>George Karfakis, Puneet Gupta</sub> | [arXiv](https://arxiv.org/abs/2611.08693) · [PDF](https://arxiv.org/pdf/2611.08693) |
 | 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
 | 2026-11-05 | **Should You Split Decode? Disaggregation Across Future Models and Accelerators**<br><sub>Ramyad Hadidi</sub> | [arXiv](https://arxiv.org/abs/2611.08299) · [PDF](https://arxiv.org/pdf/2611.08299) |
 | 2026-11-05 | **AutoCompress: Automated Hardware-Guided Model Compression**<br><sub>Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08290) · [PDF](https://arxiv.org/pdf/2611.08290) |

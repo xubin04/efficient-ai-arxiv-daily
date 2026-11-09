@@ -4,10 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-234 papers · newest submission first
+243 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
+| 2026-11-06 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding**<br><sub>Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09722) · [PDF](https://arxiv.org/pdf/2611.09722) · [Code](https://github.com/FutureMLS-Lab/FOSCAR) |
+| 2026-11-06 | **Attend at the Right Resolution: Head-Adaptive Sparse Attention via Query-Key Interaction Structure**<br><sub>Wajih Hassan Raza, Ahsan Bilal, Yidan Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09700) · [PDF](https://arxiv.org/pdf/2611.09700) |
+| 2026-11-06 | **Transformer-FSQ: Discrete Latents for Extreme KV-Cache Compression**<br><sub>Andras Szecsenyi, Thomas L. Lee, Vaisakh Shaj et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09598) · [PDF](https://arxiv.org/pdf/2611.09598) |
+| 2026-11-06 | **Nebula: Distributed Position-Independent Caching for LLM Serving**<br><sub>Yifei Liu, Junbin Pan, Junhao Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09474) · [PDF](https://arxiv.org/pdf/2611.09474) |
+| 2026-11-06 | **DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation**<br><sub>Weikang Wang, Haiyang Liu, Xin Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09109) · [PDF](https://arxiv.org/pdf/2611.09109) · [Code](https://github.com/Lenovo-ICI/DARIC) |
+| 2026-11-05 | **AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling**<br><sub>Doniyorkhon Obidov, Honggang Yu, Xiaolong Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08752) · [PDF](https://arxiv.org/pdf/2611.08752) |
+| 2026-11-05 | **InstaGen: Group-Shared Importance Sampling for Fast Video Generation**<br><sub>Kislay Aditya Oj, Kumar Krishna Agrawal, Sri Surya Varma Datla et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08610) · [PDF](https://arxiv.org/pdf/2611.08610) |
+| 2026-11-05 | **Just CaloCHILL: fast hadronic shower generation in a learned latent space**<br><sub>Henry Day-Hall, Frank Gaede, Gregor Kasieczka et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08606) · [PDF](https://arxiv.org/pdf/2611.08606) · [Code](https://github.com/FLC-QU-hep/CaloCHILL) |
 | 2026-11-05 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**<br><sub>Jake Hyun, Ziyu Zhao, Jae-sun Seo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08363) · [PDF](https://arxiv.org/pdf/2611.08363) |
 | 2026-11-05 | **Beyond K/V Caches: Cross-Model State Handoff in Hybrid Linear-Attention LLMs**<br><sub>Jiacheng Cai, Tao Zhang, Siqi Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08133) · [PDF](https://arxiv.org/pdf/2611.08133) |
 | 2026-11-05 | **QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents**<br><sub>Yingjie Tan, Haiquan Qiu, Quanming Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07976) · [PDF](https://arxiv.org/pdf/2611.07976) |

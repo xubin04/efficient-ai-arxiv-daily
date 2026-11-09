@@ -4,16 +4,20 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-167 papers · newest submission first
+171 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-06 | **Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters**<br><sub>Constantinos Karouzos, Nikolaos Aletras</sub> | [arXiv](https://arxiv.org/abs/2611.09634) · [PDF](https://arxiv.org/pdf/2611.09634) |
+| 2026-11-06 | **Know What You Need: Efficient Activation Checkpointing**<br><sub>Danyal Ahmed, Edouard Oyallon</sub> | [arXiv](https://arxiv.org/abs/2611.09614) · [PDF](https://arxiv.org/pdf/2611.09614) |
+| 2026-11-06 | **From LoRA to Language: Recovering Skill Documents from Adapters**<br><sub>Saranya Dintakurthy Swadha, Pavan C Shekar, Arpit Jain et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09454) · [PDF](https://arxiv.org/pdf/2611.09454) |
+| 2026-11-06 | **ResQAdam: Residual-Preserving Adaptive Optimization for Memory-Efficient Quantization Aware Training**<br><sub>Liqun Ma, Shengkun Tang, Liangyu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08924) · [PDF](https://arxiv.org/pdf/2611.08924) |
 | 2026-11-05 | **Towards interpreting any residual stream direction by scaling activation inversion**<br><sub>Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08465) · [PDF](https://arxiv.org/pdf/2611.08465) |
 | 2026-11-05 | **Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval**<br><sub>Dohoon Kim, Junho Park, Hyunwoong Bae et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07820) · [PDF](https://arxiv.org/pdf/2611.07820) · [Code](https://github.com/dohoonkim-ai/axis-lora) |
 | 2026-11-05 | **Embedding-Space Fingerprinting of LoRA Fine-Tunes: Recovering the Training-Data Domain from the Model Artifact Alone**<br><sub>Shivesh Rane</sub> | [arXiv](https://arxiv.org/abs/2611.07610) · [PDF](https://arxiv.org/pdf/2611.07610) |
 | 2026-11-05 | **Align Before Aggregation: Basis-Consistent Federated LoRA under Heterogeneous Ranks**<br><sub>Pengpeng Qiao, Yang Cao, Lingling Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07598) · [PDF](https://arxiv.org/pdf/2611.07598) |
 | 2026-11-05 | **OptIMerge: Optimization-Based Merging of Diffusion Models**<br><sub>Viraj Shah, Ashwini Pokle, Peyman Milanfar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07543) · [PDF](https://arxiv.org/pdf/2611.07543) |
-| 2026-11-04 | **DMuon: Scaling Matrix Optimizers in Data Parallelism with Topology-Aware Matrix Ownership and Communication**<br><sub>Starrick Liu, Ruizhi Chengze, Lufang Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07084) · [PDF](https://arxiv.org/pdf/2611.07084) · [Code](https://github.com/X-Square-Robot/dmuon) |
+| 2026-11-04 | **DMuon-2: Scaling Matrix Optimizers in Data Parallelism with Topology-Aware Matrix Ownership and Communication**<br><sub>Starrick Liu, Ruizhi Chengze, Lufang Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07084) · [PDF](https://arxiv.org/pdf/2611.07084) · [Code](https://github.com/X-Square-Robot/dmuon) |
 | 2026-11-04 | **SD-LoRA: Training-Time Structural Distillation into LoRA for Few-Shot Vision-Language Adaptation**<br><sub>Mohammed Rahman Sherif Khan Mohammad, Ardhendu Behera, Sandip Pradhan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07063) · [PDF](https://arxiv.org/pdf/2611.07063) · [Code](https://github.com/MR-Sherif/SD-LoRA.git) |
 | 2026-11-04 | **The Behavioral Rate of Fine-Tuning: Compression as a Measure of Useful Information**<br><sub>Joey David, Paul Caillon, Alexandre Allauzen</sub> | [arXiv](https://arxiv.org/abs/2611.06598) · [PDF](https://arxiv.org/pdf/2611.06598) |
 | 2026-11-04 | **AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment**<br><sub>Pragyan Phukan</sub> | [arXiv](https://arxiv.org/abs/2611.06170) · [PDF](https://arxiv.org/pdf/2611.06170) |
