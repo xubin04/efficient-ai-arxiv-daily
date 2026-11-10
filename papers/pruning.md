@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-231 papers · newest submission first
+239 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **Prune, Don&#x27;t Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks**<br><sub>Tomas Rasymas, Povilas Kvedaras</sub> | [arXiv](https://arxiv.org/abs/2611.12240) · [PDF](https://arxiv.org/pdf/2611.12240) |
+| 2026-11-08 | **Language model capabilities fail in a shared, predictable order under compression and perturbation**<br><sub>Zhixiang Wang, Ulas Bagci</sub> | [arXiv](https://arxiv.org/abs/2611.11695) · [PDF](https://arxiv.org/pdf/2611.11695) · [Code](https://github.com/ZhixiangWang-CN/damage-order-artifacts) |
+| 2026-11-08 | **Decomposing Earth Embeddings with Sparse Autoencoders**<br><sub>Vitus Benson, Fanny Yang, Markus Reichstein</sub> | [arXiv](https://arxiv.org/abs/2611.11398) · [PDF](https://arxiv.org/pdf/2611.11398) · [Code](https://github.com/EarthyScience/geosae) |
+| 2026-11-08 | **D3Tree: Learning to Prune Block-Diffusion Draft Trees for Efficient Verification**<br><sub>Hong Nie, Zhangchi Gao, Jun Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11371) · [PDF](https://arxiv.org/pdf/2611.11371) |
+| 2026-11-08 | **SGA-Sparse: Training Native SwiGLU Gates for Activation-Sparse and Low-Bit LLMs**<br><sub>Ruokai Yin, Steven Li</sub> | [arXiv](https://arxiv.org/abs/2611.11223) · [PDF](https://arxiv.org/pdf/2611.11223) |
+| 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving**<br><sub>Danyal Aftab, Anas Zafar, Assadig Abakr et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11013) · [PDF](https://arxiv.org/pdf/2611.11013) |
+| 2026-11-07 | **ESTRA: Enabling Extreme Attention Sparsity for Training-Free Video Diffusion Acceleration**<br><sub>Enhuai Liu, Yunke Wang, Yutong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10448) · [PDF](https://arxiv.org/pdf/2611.10448) |
+| 2026-11-07 | **Pruning DNA Sequence**<br><sub>Faias Satter, Shaker Islam, Aminul Islam</sub> | [arXiv](https://arxiv.org/abs/2611.10386) · [PDF](https://arxiv.org/pdf/2611.10386) · [Code](https://github.com/FaiasPromit/pruning-dna-sequence) |
 | 2026-11-06 | **DUET: Dual-Sparse Inference for Block Diffusion Language Models**<br><sub>Siyuan Yan, Shen Gu, Xiaoxing Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09239) · [PDF](https://arxiv.org/pdf/2611.09239) |
 | 2026-11-06 | **Cross-Layer TopK: Dynamically Allocating Sparsity Across Layers in Transcoders**<br><sub>Anyuan Zhuo, Shaohua Zhang, Tianle Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09233) · [PDF](https://arxiv.org/pdf/2611.09233) · [Code](https://huggingface.co/ByteDance-Seed/Cross-Layer-TopK-CLT) |
 | 2026-11-06 | **UniExit: A Unified Latency-Aware Early-Exit Runtime for Heterogeneous Edge AI**<br><sub>Yuhang Guan, Huanle Zhang, Xiaomin Ouyang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09159) · [PDF](https://arxiv.org/pdf/2611.09159) |

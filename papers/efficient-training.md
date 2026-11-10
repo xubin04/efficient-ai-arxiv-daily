@@ -4,10 +4,15 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-171 papers · newest submission first
+176 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **VeilTune: Secure Fine-Tuning of Private LoRA Adapters on Public Pretrained Language Models**<br><sub>Huiyu Xie, Tanping Zhou, Tao Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11817) · [PDF](https://arxiv.org/pdf/2611.11817) |
+| 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving**<br><sub>Danyal Aftab, Anas Zafar, Assadig Abakr et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11013) · [PDF](https://arxiv.org/pdf/2611.11013) |
+| 2026-11-07 | **Bayesian Low-Rank Posteriors for Scalable Membership Inference**<br><sub>Khanh Nguyen, Antonio Emanuele Cinà, Andrey Barsky et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10455) · [PDF](https://arxiv.org/pdf/2611.10455) |
+| 2026-11-07 | **Reproducible LoRA Inference Through Deterministic Split-K Reduction**<br><sub>Dhayaneshwar Balusamy, Ankur Mohan</sub> | [arXiv](https://arxiv.org/abs/2611.10334) · [PDF](https://arxiv.org/pdf/2611.10334) |
+| 2026-11-06 | **FedLoVA: Value-Only Aggregation for Federated LoRA Fine-Tuning of Large Language Models**<br><sub>Ensieh Khazaei, Baturalp Buyukates, Dimitrios Hatzinakos</sub> | [arXiv](https://arxiv.org/abs/2611.10248) · [PDF](https://arxiv.org/pdf/2611.10248) · [Code](https://github.com/EnsiehKhazaei/FedLoVA) |
 | 2026-11-06 | **Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters**<br><sub>Constantinos Karouzos, Nikolaos Aletras</sub> | [arXiv](https://arxiv.org/abs/2611.09634) · [PDF](https://arxiv.org/pdf/2611.09634) |
 | 2026-11-06 | **Know What You Need: Efficient Activation Checkpointing**<br><sub>Danyal Ahmed, Edouard Oyallon</sub> | [arXiv](https://arxiv.org/abs/2611.09614) · [PDF](https://arxiv.org/pdf/2611.09614) |
 | 2026-11-06 | **From LoRA to Language: Recovering Skill Documents from Adapters**<br><sub>Saranya Dintakurthy Swadha, Pavan C Shekar, Arpit Jain et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09454) · [PDF](https://arxiv.org/pdf/2611.09454) |

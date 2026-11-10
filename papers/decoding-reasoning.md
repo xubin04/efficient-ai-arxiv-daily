@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-156 papers · newest submission first
+163 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **DForkTree: Accelerating Speculative Decoding with Fork-Aware Block Diffusion Draft Trees**<br><sub>Zhicheng Zheng, Cheng Zhang, Chenkai Tang</sub> | [arXiv](https://arxiv.org/abs/2611.12356) · [PDF](https://arxiv.org/pdf/2611.12356) · [Code](https://github.com/Perseus037/DForkTree) |
+| 2026-11-09 | **Depth as a Candidate Source: Portfolio Allocation for Recurrent Test-Time Scaling in Large Language Models**<br><sub>Chaoyuan Hao, Wentao Yue, Yanyan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12293) · [PDF](https://arxiv.org/pdf/2611.12293) |
+| 2026-11-08 | **ODSA: Orchestrated Discovery and Self-Aggregation**<br><sub>Macardle Meng, Haomin Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.11621) · [PDF](https://arxiv.org/pdf/2611.11621) |
+| 2026-11-08 | **D3Tree: Learning to Prune Block-Diffusion Draft Trees for Efficient Verification**<br><sub>Hong Nie, Zhangchi Gao, Jun Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11371) · [PDF](https://arxiv.org/pdf/2611.11371) |
+| 2026-11-07 | **Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding**<br><sub>Yan-Cheng Li, Chun-Yi Lee</sub> | [arXiv](https://arxiv.org/abs/2611.10634) · [PDF](https://arxiv.org/pdf/2611.10634) |
+| 2026-11-07 | **Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking**<br><sub>Bowen Zuo, Yue Yu, Dongruo Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10486) · [PDF](https://arxiv.org/pdf/2611.10486) |
+| 2026-11-06 | **WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation**<br><sub>Haoming Wang, Yongjian Fu, Ju Ren et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10151) · [PDF](https://arxiv.org/pdf/2611.10151) |
 | 2026-11-05 | **ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding**<br><sub>Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08669) · [PDF](https://arxiv.org/pdf/2611.08669) |
 | 2026-11-05 | **Measured Coupling for Parallel Decoding in Diffusion Language Models**<br><sub>Tal Oved, Lior Wolf</sub> | [arXiv](https://arxiv.org/abs/2611.08307) · [PDF](https://arxiv.org/pdf/2611.08307) |
 | 2026-11-05 | **Masked diffusion as random sequential adsorption: an exactly solvable model for parallel decoding**<br><sub>Adrian Baule</sub> | [arXiv](https://arxiv.org/abs/2611.07845) · [PDF](https://arxiv.org/pdf/2611.07845) |

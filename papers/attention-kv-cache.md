@@ -4,11 +4,23 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-243 papers · newest submission first
+255 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) |
+| 2026-11-09 | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers**<br><sub>Povilas Kvedaras, Tomas Rasymas</sub> | [arXiv](https://arxiv.org/abs/2611.12062) · [PDF](https://arxiv.org/pdf/2611.12062) |
+| 2026-11-09 | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation**<br><sub>Payman Behnam, Debopam Sanyal, Pranav Ponnusamy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11761) · [PDF](https://arxiv.org/pdf/2611.11761) |
+| 2026-11-08 | **Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation**<br><sub>Weizhong Huang, Huaijia Kou, Tianyu Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11452) · [PDF](https://arxiv.org/pdf/2611.11452) |
+| 2026-11-08 | **Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference**<br><sub>Devanshu Jha, Gaurav Kumar, Agniva Chowdhury et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11319) · [PDF](https://arxiv.org/pdf/2611.11319) · [Code](https://github.com/epsilon-prime/verifiedKV) |
+| 2026-11-07 | **Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation**<br><sub>Xiaobei Yan, Tianwei Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.10756) · [PDF](https://arxiv.org/pdf/2611.10756) |
+| 2026-11-07 | **Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding**<br><sub>Yan-Cheng Li, Chun-Yi Lee</sub> | [arXiv](https://arxiv.org/abs/2611.10634) · [PDF](https://arxiv.org/pdf/2611.10634) |
+| 2026-11-07 | **OneReel: Efficient Multi-Scene Video Generation with Scene-Structured Attention**<br><sub>Wei Zhang, Yuchen Wang, Tianrui Feng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10594) · [PDF](https://arxiv.org/pdf/2611.10594) |
+| 2026-11-07 | **ESTRA: Enabling Extreme Attention Sparsity for Training-Free Video Diffusion Acceleration**<br><sub>Enhuai Liu, Yunke Wang, Yutong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10448) · [PDF](https://arxiv.org/pdf/2611.10448) |
+| 2026-11-06 | **PACE: Keeping the Right Tokens in the KV Cache Is Not Enough for Long-Horizon LLM Agents**<br><sub>Suman Chatterjee</sub> | [arXiv](https://arxiv.org/abs/2611.10240) · [PDF](https://arxiv.org/pdf/2611.10240) |
+| 2026-11-06 | **AutoEMatic: Runtime-Adaptive Mixed-Precision LLM Inference via Automatic Exponent-Mantissa Refinement**<br><sub>Akshat Ramachandran, Reena Elangovan, Rangharajan Venkatesan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10165) · [PDF](https://arxiv.org/pdf/2611.10165) |
 | 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
+| 2026-11-06 | **Coordinated Mixed-Precision KV Cache Quantization for Efficient LLM-based Multi-agent Systems**<br><sub>Weizhong Huang, Jinchao Zhang, Xiawu Zheng</sub> | [arXiv](https://arxiv.org/abs/2611.10096) · [PDF](https://arxiv.org/pdf/2611.10096) |
 | 2026-11-06 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding**<br><sub>Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09722) · [PDF](https://arxiv.org/pdf/2611.09722) · [Code](https://github.com/FutureMLS-Lab/FOSCAR) |
 | 2026-11-06 | **Attend at the Right Resolution: Head-Adaptive Sparse Attention via Query-Key Interaction Structure**<br><sub>Wajih Hassan Raza, Ahsan Bilal, Yidan Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09700) · [PDF](https://arxiv.org/pdf/2611.09700) |
 | 2026-11-06 | **Transformer-FSQ: Discrete Latents for Extreme KV-Cache Compression**<br><sub>Andras Szecsenyi, Thomas L. Lee, Vaisakh Shaj et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09598) · [PDF](https://arxiv.org/pdf/2611.09598) |

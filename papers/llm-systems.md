@@ -4,10 +4,22 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-267 papers · newest submission first
+279 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) |
+| 2026-11-09 | **RecoGEM: A Serving System for Production-Scale Generative Recommendation**<br><sub>Xiangrui Yang, Yunfeng Zhao, Jiawei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12296) · [PDF](https://arxiv.org/pdf/2611.12296) |
+| 2026-11-09 | **Prune, Don&#x27;t Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks**<br><sub>Tomas Rasymas, Povilas Kvedaras</sub> | [arXiv](https://arxiv.org/abs/2611.12240) · [PDF](https://arxiv.org/pdf/2611.12240) |
+| 2026-11-09 | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation**<br><sub>Payman Behnam, Debopam Sanyal, Pranav Ponnusamy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11761) · [PDF](https://arxiv.org/pdf/2611.11761) |
+| 2026-11-08 | **Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference**<br><sub>Devanshu Jha, Gaurav Kumar, Agniva Chowdhury et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11319) · [PDF](https://arxiv.org/pdf/2611.11319) · [Code](https://github.com/epsilon-prime/verifiedKV) |
+| 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving**<br><sub>Danyal Aftab, Anas Zafar, Assadig Abakr et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11013) · [PDF](https://arxiv.org/pdf/2611.11013) |
+| 2026-11-07 | **Inference for Reasoning Models: Practical Lessons from Evaluation and Serving**<br><sub>Luv Verma</sub> | [arXiv](https://arxiv.org/abs/2611.10845) · [PDF](https://arxiv.org/pdf/2611.10845) |
+| 2026-11-07 | **Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation**<br><sub>Xiaobei Yan, Tianwei Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.10756) · [PDF](https://arxiv.org/pdf/2611.10756) |
+| 2026-11-07 | **Detent: Batch-Invariant LLM Serving and RL Rollouts at Near-Stock Speed**<br><sub>Peixu Xin, Runchuan Feng, Jiazhen Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10611) · [PDF](https://arxiv.org/pdf/2611.10611) |
+| 2026-11-07 | **Efficient LLM Adaptation with Forward-Only Passes**<br><sub>Baichuan Huang, Ananth Balashankar, Amir Aminifar</sub> | [arXiv](https://arxiv.org/abs/2611.10610) · [PDF](https://arxiv.org/pdf/2611.10610) |
+| 2026-11-07 | **Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse**<br><sub>Shilong Pan, Zhiliang Tian, Weiguo Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10418) · [PDF](https://arxiv.org/pdf/2611.10418) |
+| 2026-11-06 | **PACE: Keeping the Right Tokens in the KV Cache Is Not Enough for Long-Horizon LLM Agents**<br><sub>Suman Chatterjee</sub> | [arXiv](https://arxiv.org/abs/2611.10240) · [PDF](https://arxiv.org/pdf/2611.10240) |
 | 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
 | 2026-11-06 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding**<br><sub>Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09722) · [PDF](https://arxiv.org/pdf/2611.09722) · [Code](https://github.com/FutureMLS-Lab/FOSCAR) |
 | 2026-11-06 | **Intent-Aware Caching for Efficient LLM Serving**<br><sub>Kazi Hasan Ibn Arif, JinYi Yoon, Dimitrios S. Nikolopoulos et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09715) · [PDF](https://arxiv.org/pdf/2611.09715) · [Code](https://github.com/hasanar1f/intent-aware-caching) |

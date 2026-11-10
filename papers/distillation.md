@@ -4,10 +4,23 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-512 papers · newest submission first
+525 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks**<br><sub>Tingcheng Bian, Kangye Gong, Jinchang Luo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12799) · [PDF](https://arxiv.org/pdf/2611.12799) |
+| 2026-11-09 | **VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation**<br><sub>Yongxuan Lv, Zhen Fang, Lichen Man et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12286) · [PDF](https://arxiv.org/pdf/2611.12286) |
+| 2026-11-09 | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training**<br><sub>Kairui Wen, Sheng Ye, Yong-Jin Liu</sub> | [arXiv](https://arxiv.org/abs/2611.12042) · [PDF](https://arxiv.org/pdf/2611.12042) |
+| 2026-11-09 | **Speculative Self-Distillation enables Efficient Knowledge Internalization**<br><sub>Shayan Talaei, Agam Bhatia, Arshia Soltani Moakhar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12016) · [PDF](https://arxiv.org/pdf/2611.12016) · [Code](https://github.com/ShayanTalaei/SpeculativeSelfDistillation) |
+| 2026-11-09 | **Disagreement-Aware Distribution Matching Distillation for Few-Step Diffusion Models**<br><sub>Zikai Zhou, Zhengpeng Xie, Shitong Shao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11898) · [PDF](https://arxiv.org/pdf/2611.11898) |
+| 2026-11-09 | **Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy&#x27;s Misreading**<br><sub>Ali-Adeeb Abbas, Esmaeil Seraj</sub> | [arXiv](https://arxiv.org/abs/2611.11894) · [PDF](https://arxiv.org/pdf/2611.11894) · [Code](https://github.com/adeeb10abbas/weightsmith) |
+| 2026-11-09 | **How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens**<br><sub>Yong Hwi Song, Keon Myung Lee</sub> | [arXiv](https://arxiv.org/abs/2611.11887) · [PDF](https://arxiv.org/pdf/2611.11887) · [Code](https://github.com/thddydgnl/nearest-of-m-world-models) |
+| 2026-11-08 | **Perturbing Inputs Improves Pretraining Distillation**<br><sub>Ziyang Cai, Yihe Dong, Dimitris Papailiopoulos et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11598) · [PDF](https://arxiv.org/pdf/2611.11598) |
+| 2026-11-08 | **How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?**<br><sub>Cong Yu, Ziting Wang, Songlin Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11450) · [PDF](https://arxiv.org/pdf/2611.11450) · [Code](https://github.com/benyucong/train-inference-mismatch-opd) |
+| 2026-11-08 | **Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS**<br><sub>Jaeho Lee, Han-Lim Choi</sub> | [arXiv](https://arxiv.org/abs/2611.11179) · [PDF](https://arxiv.org/pdf/2611.11179) · [Code](https://github.com/16jhlee/FSU) |
+| 2026-11-07 | **Horizon-Scalable Q-Learning**<br><sub>Haoran Xu, Pragya Srivastava, Xinjie Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10987) · [PDF](https://arxiv.org/pdf/2611.10987) |
+| 2026-11-07 | **CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs**<br><sub>Trong Khiem Tran, Minh Long Bui, Phi Le Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10945) · [PDF](https://arxiv.org/pdf/2611.10945) |
+| 2026-11-07 | **Tiny Evidence Region Localization with Selective Contrastive On-Policy Self-Distillation**<br><sub>Yujuan Pang, Wenhao Xu, Yinglei Teng</sub> | [arXiv](https://arxiv.org/abs/2611.10734) · [PDF](https://arxiv.org/pdf/2611.10734) |
 | 2026-11-06 | **Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control**<br><sub>Sangjoon Yu, Seungeun Lee, JoonHeyok Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09074) · [PDF](https://arxiv.org/pdf/2611.09074) |
 | 2026-11-06 | **Failure Profiling and Reachable Trajectory Selection for Reasoning Distillation**<br><sub>Yijun Zhu, Jianxin Wang, Chengchao Shen</sub> | [arXiv](https://arxiv.org/abs/2611.09042) · [PDF](https://arxiv.org/pdf/2611.09042) · [Code](https://github.com/visresearch/FPRT) |
 | 2026-11-05 | **ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding**<br><sub>Selim Aktas, Yusuf Erdem Erdem, Ahmed Zeer et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08669) · [PDF](https://arxiv.org/pdf/2611.08669) |

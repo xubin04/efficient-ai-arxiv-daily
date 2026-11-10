@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-215 papers · newest submission first
+225 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-09 | **Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos**<br><sub>Hai Zhang, Siqi Liang, Yanjun Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12087) · [PDF](https://arxiv.org/pdf/2611.12087) |
+| 2026-11-09 | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training**<br><sub>Kairui Wen, Sheng Ye, Yong-Jin Liu</sub> | [arXiv](https://arxiv.org/abs/2611.12042) · [PDF](https://arxiv.org/pdf/2611.12042) |
+| 2026-11-08 | **ForeAct: Geometry-Guided Action Learning from World Representations**<br><sub>Wei Lu, Jiaxi Zhang, Yunheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11500) · [PDF](https://arxiv.org/pdf/2611.11500) |
+| 2026-11-08 | **Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation**<br><sub>Weizhong Huang, Huaijia Kou, Tianyu Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11452) · [PDF](https://arxiv.org/pdf/2611.11452) |
+| 2026-11-08 | **MG-Cache: Multi-Granularity Caching for Accelerating Diffusion Transformer Inference**<br><sub>Zesen Chen, Youxuan Xu, Shigang Li</sub> | [arXiv](https://arxiv.org/abs/2611.11365) · [PDF](https://arxiv.org/pdf/2611.11365) |
+| 2026-11-08 | **Source-Anchored Visual Autoregression for Extreme Image Compression**<br><sub>Bingxin Wang, Yuan Lan, Yang Xiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11200) · [PDF](https://arxiv.org/pdf/2611.11200) |
+| 2026-11-07 | **REDiff-AD: No Training and No Target Masks for Industrial Anomaly Image Generation via Diversity-Driven In-Context MMDiT**<br><sub>Chih-Yu Tsai, Chih-Heng Chang, Jian-Jiun Ding</sub> | [arXiv](https://arxiv.org/abs/2611.10875) · [PDF](https://arxiv.org/pdf/2611.10875) · [Code](https://github.com/efdefe4-droid/REDiff-AD) |
+| 2026-11-07 | **MGE: A Membership Guided Data Extraction Attack against Diffusion Models**<br><sub>Yuchang Mei, Longqiang Wang, Haoyang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10678) · [PDF](https://arxiv.org/pdf/2611.10678) |
+| 2026-11-07 | **OneReel: Efficient Multi-Scene Video Generation with Scene-Structured Attention**<br><sub>Wei Zhang, Yuchen Wang, Tianrui Feng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10594) · [PDF](https://arxiv.org/pdf/2611.10594) |
+| 2026-11-07 | **ESTRA: Enabling Extreme Attention Sparsity for Training-Free Video Diffusion Acceleration**<br><sub>Enhuai Liu, Yunke Wang, Yutong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10448) · [PDF](https://arxiv.org/pdf/2611.10448) |
 | 2026-11-06 | **Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control**<br><sub>Sangjoon Yu, Seungeun Lee, JoonHeyok Shin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09074) · [PDF](https://arxiv.org/pdf/2611.09074) |
 | 2026-11-05 | **InstaGen: Group-Shared Importance Sampling for Fast Video Generation**<br><sub>Kislay Aditya Oj, Kumar Krishna Agrawal, Sri Surya Varma Datla et al.</sub> | [arXiv](https://arxiv.org/abs/2611.08610) · [PDF](https://arxiv.org/pdf/2611.08610) |
 | 2026-11-05 | **FisherDistill: Diffusion Distribution Distillation via Closed-Form Fisher Critics**<br><sub>Mahesh Bhosale, Yuanhao Zhai, Siwei Lyu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.07604) · [PDF](https://arxiv.org/pdf/2611.07604) |
