@@ -4,13 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-225 papers · newest submission first
+229 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-10 | **Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization**<br><sub>Shuting Yang, Shuxin Li, Linyan Dai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14254) · [PDF](https://arxiv.org/pdf/2611.14254) · [Code](https://github.com/Lvxan/SEAL) |
+| 2026-11-10 | **Few-Step Streaming Video Generation via Condition Shifting**<br><sub>Deyuan Liu, Jungang Li, Kaiwen Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14033) · [PDF](https://arxiv.org/pdf/2611.14033) |
+| 2026-11-10 | **When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression**<br><sub>Zifu Zhang, Yuqiao Li, Ding Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13620) · [PDF](https://arxiv.org/pdf/2611.13620) |
 | 2026-11-09 | **Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos**<br><sub>Hai Zhang, Siqi Liang, Yanjun Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12087) · [PDF](https://arxiv.org/pdf/2611.12087) |
 | 2026-11-09 | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training**<br><sub>Kairui Wen, Sheng Ye, Yong-Jin Liu</sub> | [arXiv](https://arxiv.org/abs/2611.12042) · [PDF](https://arxiv.org/pdf/2611.12042) |
 | 2026-11-08 | **ForeAct: Geometry-Guided Action Learning from World Representations**<br><sub>Wei Lu, Jiaxi Zhang, Yunheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11500) · [PDF](https://arxiv.org/pdf/2611.11500) |
+| 2026-11-08 | **G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation**<br><sub>Xu Huang, Ye Huang, Xiaotong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13004) · [PDF](https://arxiv.org/pdf/2611.13004) |
 | 2026-11-08 | **Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation**<br><sub>Weizhong Huang, Huaijia Kou, Tianyu Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11452) · [PDF](https://arxiv.org/pdf/2611.11452) |
 | 2026-11-08 | **MG-Cache: Multi-Granularity Caching for Accelerating Diffusion Transformer Inference**<br><sub>Zesen Chen, Youxuan Xu, Shigang Li</sub> | [arXiv](https://arxiv.org/abs/2611.11365) · [PDF](https://arxiv.org/pdf/2611.11365) |
 | 2026-11-08 | **Source-Anchored Visual Autoregression for Extreme Image Compression**<br><sub>Bingxin Wang, Yuan Lan, Yang Xiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11200) · [PDF](https://arxiv.org/pdf/2611.11200) |

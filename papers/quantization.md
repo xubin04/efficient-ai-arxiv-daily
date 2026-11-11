@@ -4,13 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-264 papers · newest submission first
+267 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-10 | **Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models**<br><sub>Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri</sub> | [arXiv](https://arxiv.org/abs/2611.14413) · [PDF](https://arxiv.org/pdf/2611.14413) |
+| 2026-11-10 | **Closing the BF16-FP16 Convergence Speed Gap in RL Post-Training with Stochastic Rounding**<br><sub>Mahdi Nazemi, Oleg Rybakov, Tijmen Blankevoort et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13545) · [PDF](https://arxiv.org/pdf/2611.13545) |
 | 2026-11-09 | **How Far Does Second-Order Linear Response Predict Quantization Mismatch? Pre-Registered Measurements on Five Language Models**<br><sub>Dezhen Lu, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2611.12634) · [PDF](https://arxiv.org/pdf/2611.12634) |
 | 2026-11-09 | **AutoQS: Automated Quantization Strategy Design with Large Language Models**<br><sub>Zhen Liu, Zhiqin Yang, Yonggang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11975) · [PDF](https://arxiv.org/pdf/2611.11975) |
 | 2026-11-08 | **Language model capabilities fail in a shared, predictable order under compression and perturbation**<br><sub>Zhixiang Wang, Ulas Bagci</sub> | [arXiv](https://arxiv.org/abs/2611.11695) · [PDF](https://arxiv.org/pdf/2611.11695) · [Code](https://github.com/ZhixiangWang-CN/damage-order-artifacts) |
+| 2026-11-08 | **G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation**<br><sub>Xu Huang, Ye Huang, Xiaotong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13004) · [PDF](https://arxiv.org/pdf/2611.13004) |
 | 2026-11-08 | **SGA-Sparse: Training Native SwiGLU Gates for Activation-Sparse and Low-Bit LLMs**<br><sub>Ruokai Yin, Steven Li</sub> | [arXiv](https://arxiv.org/abs/2611.11223) · [PDF](https://arxiv.org/pdf/2611.11223) |
 | 2026-11-08 | **When Calibration Data Matter in Sub-4-Bit Language Model Quantization**<br><sub>Yehong Jiang, Yen-Kuang Chen, Xinmin Tian</sub> | [arXiv](https://arxiv.org/abs/2611.11079) · [PDF](https://arxiv.org/pdf/2611.11079) |
 | 2026-11-07 | **MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations**<br><sub>Lorenz K. Muller, Philippe Bich, Chiara Boretti et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10649) · [PDF](https://arxiv.org/pdf/2611.10649) |

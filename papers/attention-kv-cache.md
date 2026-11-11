@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-255 papers · newest submission first
+260 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-10 | **SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving**<br><sub>Haolin Jiang, Weihang Li, Zhongzhu Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14246) · [PDF](https://arxiv.org/pdf/2611.14246) |
+| 2026-11-10 | **Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study**<br><sub>Zhikun Tao, Fangyong Jin, Junping Zhao</sub> | [arXiv](https://arxiv.org/abs/2611.14051) · [PDF](https://arxiv.org/pdf/2611.14051) |
+| 2026-11-10 | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling**<br><sub>Haoyi Wu, Yunkai Dang, Wanyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13578) · [PDF](https://arxiv.org/pdf/2611.13578) |
+| 2026-11-09 | **Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders**<br><sub>Jiaqi Leng, Minshen Zhang, Zhaofeng Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13378) · [PDF](https://arxiv.org/pdf/2611.13378) |
+| 2026-11-09 | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding**<br><sub>Susav Shrestha, Brad Settlemyer, Narasimha Reddy</sub> | [arXiv](https://arxiv.org/abs/2611.13293) · [PDF](https://arxiv.org/pdf/2611.13293) |
 | 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) |
 | 2026-11-09 | **Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers**<br><sub>Povilas Kvedaras, Tomas Rasymas</sub> | [arXiv](https://arxiv.org/abs/2611.12062) · [PDF](https://arxiv.org/pdf/2611.12062) |
 | 2026-11-09 | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation**<br><sub>Payman Behnam, Debopam Sanyal, Pranav Ponnusamy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11761) · [PDF](https://arxiv.org/pdf/2611.11761) |

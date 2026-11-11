@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-525 papers · newest submission first
+534 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-10 | **ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**<br><sub>Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14492) · [PDF](https://arxiv.org/pdf/2611.14492) |
+| 2026-11-10 | **Don&#x27;t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents**<br><sub>Yukyeong Lee, Yumin Choi, Jinheon Baek et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14320) · [PDF](https://arxiv.org/pdf/2611.14320) · [Code](https://github.com/yukyeongleee/wikitrace) |
+| 2026-11-10 | **Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos**<br><sub>Yuanhe Tian, Yan Song</sub> | [arXiv](https://arxiv.org/abs/2611.14113) · [PDF](https://arxiv.org/pdf/2611.14113) |
+| 2026-11-10 | **Few-Step Streaming Video Generation via Condition Shifting**<br><sub>Deyuan Liu, Jungang Li, Kaiwen Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14033) · [PDF](https://arxiv.org/pdf/2611.14033) |
+| 2026-11-10 | **Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation**<br><sub>Lirui Luo, Kelong Mao, Xinwei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14009) · [PDF](https://arxiv.org/pdf/2611.14009) |
+| 2026-11-10 | **Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models**<br><sub>Ruize Zheng, Xuyang Liu, Siyu Ren et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13855) · [PDF](https://arxiv.org/pdf/2611.13855) |
+| 2026-11-10 | **Bootstrapped On-Policy Distillation**<br><sub>Yue Wu, Xueyu Zhou, Yangrong Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13680) · [PDF](https://arxiv.org/pdf/2611.13680) |
+| 2026-11-10 | **OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation**<br><sub>Senhao Liu, Yuheng Zhang, Chunyu Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13675) · [PDF](https://arxiv.org/pdf/2611.13675) · [Code](https://github.com/brighterr/OpticalRAG) |
 | 2026-11-09 | **Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks**<br><sub>Tingcheng Bian, Kangye Gong, Jinchang Luo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12799) · [PDF](https://arxiv.org/pdf/2611.12799) |
 | 2026-11-09 | **VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation**<br><sub>Yongxuan Lv, Zhen Fang, Lichen Man et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12286) · [PDF](https://arxiv.org/pdf/2611.12286) |
 | 2026-11-09 | **Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training**<br><sub>Kairui Wen, Sheng Ye, Yong-Jin Liu</sub> | [arXiv](https://arxiv.org/abs/2611.12042) · [PDF](https://arxiv.org/pdf/2611.12042) |
@@ -18,6 +26,7 @@
 | 2026-11-08 | **Perturbing Inputs Improves Pretraining Distillation**<br><sub>Ziyang Cai, Yihe Dong, Dimitris Papailiopoulos et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11598) · [PDF](https://arxiv.org/pdf/2611.11598) |
 | 2026-11-08 | **How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?**<br><sub>Cong Yu, Ziting Wang, Songlin Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11450) · [PDF](https://arxiv.org/pdf/2611.11450) · [Code](https://github.com/benyucong/train-inference-mismatch-opd) |
 | 2026-11-08 | **Guidance at Pure Noise Erodes Speaker Similarity in Few-Step Token-Conditioned Flow-Matching TTS**<br><sub>Jaeho Lee, Han-Lim Choi</sub> | [arXiv](https://arxiv.org/abs/2611.11179) · [PDF](https://arxiv.org/pdf/2611.11179) · [Code](https://github.com/16jhlee/FSU) |
+| 2026-11-08 | **Trajectory-Regularized Distribution Distillation for One-Step Generation**<br><sub>An Zhao, Yixiang Zhou, Zejian Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12978) · [PDF](https://arxiv.org/pdf/2611.12978) |
 | 2026-11-07 | **Horizon-Scalable Q-Learning**<br><sub>Haoran Xu, Pragya Srivastava, Xinjie Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10987) · [PDF](https://arxiv.org/pdf/2611.10987) |
 | 2026-11-07 | **CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs**<br><sub>Trong Khiem Tran, Minh Long Bui, Phi Le Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10945) · [PDF](https://arxiv.org/pdf/2611.10945) |
 | 2026-11-07 | **Tiny Evidence Region Localization with Selective Contrastive On-Policy Self-Distillation**<br><sub>Yujuan Pang, Wenhao Xu, Yinglei Teng</sub> | [arXiv](https://arxiv.org/abs/2611.10734) · [PDF](https://arxiv.org/pdf/2611.10734) |
