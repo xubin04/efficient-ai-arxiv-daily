@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-11 15:46 CST** · **1690 unique papers** · Newest submission: **2026-11-10**
+Last successful scan: **2026-11-12 16:23 CST** · **1690 unique papers** · Newest submission: **2026-11-10**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-11-11 15:46 CST** · **1690 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 134 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 229 |
 
-## Newly indexed · 2026-11-11
+## Newly indexed · 2026-11-12
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-11-10 | **ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**<br><sub>Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14492) · [PDF](https://arxiv.org/pdf/2611.14492) |
-| 2026-11-10 | **Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models**<br><sub>Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri</sub> | [arXiv](https://arxiv.org/abs/2611.14413) · [PDF](https://arxiv.org/pdf/2611.14413) |
-| 2026-11-10 | **REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding**<br><sub>Yu Tian</sub> | [arXiv](https://arxiv.org/abs/2611.14399) · [PDF](https://arxiv.org/pdf/2611.14399) · [Code](https://github.com/King-ty/speculators/tree/real-loss) |
-| 2026-11-10 | **Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models**<br><sub>Amir Mann, Jonathan Fhima, Shaked Brody et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14387) · [PDF](https://arxiv.org/pdf/2611.14387) |
-| 2026-11-10 | **Don&#x27;t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents**<br><sub>Yukyeong Lee, Yumin Choi, Jinheon Baek et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14320) · [PDF](https://arxiv.org/pdf/2611.14320) · [Code](https://github.com/yukyeongleee/wikitrace) |
-| 2026-11-10 | **Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization**<br><sub>Shuting Yang, Shuxin Li, Linyan Dai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14254) · [PDF](https://arxiv.org/pdf/2611.14254) · [Code](https://github.com/Lvxan/SEAL) |
-| 2026-11-10 | **SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving**<br><sub>Haolin Jiang, Weihang Li, Zhongzhu Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14246) · [PDF](https://arxiv.org/pdf/2611.14246) |
-| 2026-11-10 | **Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos**<br><sub>Yuanhe Tian, Yan Song</sub> | [arXiv](https://arxiv.org/abs/2611.14113) · [PDF](https://arxiv.org/pdf/2611.14113) |
-| 2026-11-10 | **Sckwoky at SHROOM-Visions: Character-Level Hallucination-Span Detection in Image-Conditioned VLMs via Dual-Prompted LoRA Decoders**<br><sub>Mikhail Kulakov, Ruslan Solikhov, Ivan Bondarenko</sub> | [arXiv](https://arxiv.org/abs/2611.14100) · [PDF](https://arxiv.org/pdf/2611.14100) |
-| 2026-11-10 | **Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study**<br><sub>Zhikun Tao, Fangyong Jin, Junping Zhao</sub> | [arXiv](https://arxiv.org/abs/2611.14051) · [PDF](https://arxiv.org/pdf/2611.14051) |
-| 2026-11-10 | **Few-Step Streaming Video Generation via Condition Shifting**<br><sub>Deyuan Liu, Jungang Li, Kaiwen Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14033) · [PDF](https://arxiv.org/pdf/2611.14033) |
-| 2026-11-10 | **Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation**<br><sub>Lirui Luo, Kelong Mao, Xinwei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14009) · [PDF](https://arxiv.org/pdf/2611.14009) |
-| 2026-11-10 | **Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models**<br><sub>Ruize Zheng, Xuyang Liu, Siyu Ren et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13855) · [PDF](https://arxiv.org/pdf/2611.13855) |
-| 2026-11-10 | **Scaling Shapley Energy Attribution to Large LLM Batches**<br><sub>Qi Luo, Ziwen Wang, Kunlin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13802) · [PDF](https://arxiv.org/pdf/2611.13802) |
-| 2026-11-10 | **Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling**<br><sub>Ziwen Wang, Qi Luo, Kunlin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13762) · [PDF](https://arxiv.org/pdf/2611.13762) |
-| 2026-11-10 | **Bootstrapped On-Policy Distillation**<br><sub>Yue Wu, Xueyu Zhou, Yangrong Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13680) · [PDF](https://arxiv.org/pdf/2611.13680) |
-| 2026-11-10 | **OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation**<br><sub>Senhao Liu, Yuheng Zhang, Chunyu Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13675) · [PDF](https://arxiv.org/pdf/2611.13675) · [Code](https://github.com/brighterr/OpticalRAG) |
-| 2026-11-10 | **When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression**<br><sub>Zifu Zhang, Yuqiao Li, Ding Ding et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13620) · [PDF](https://arxiv.org/pdf/2611.13620) |
-| 2026-11-10 | **POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling**<br><sub>Haoyi Wu, Yunkai Dang, Wanyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13578) · [PDF](https://arxiv.org/pdf/2611.13578) |
-| 2026-11-10 | **Closing the BF16-FP16 Convergence Speed Gap in RL Post-Training with Stochastic Rounding**<br><sub>Mahdi Nazemi, Oleg Rybakov, Tijmen Blankevoort et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13545) · [PDF](https://arxiv.org/pdf/2611.13545) |
-
-[View all 29 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 

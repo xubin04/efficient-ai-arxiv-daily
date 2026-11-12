@@ -1,52 +1,52 @@
 {
   "schema_version": 1,
-  "last_success_utc": "2026-11-11T07:46:44.702563+00:00",
-  "last_scan_date": "2026-11-11",
+  "last_success_utc": "2026-11-12T08:23:15.133107+00:00",
+  "last_scan_date": "2026-11-12",
   "last_scan_stats": [
     {
       "topic": "quantization",
-      "api_results": 51,
-      "accepted": 29
-    },
-    {
-      "topic": "pruning",
-      "api_results": 45,
+      "api_results": 46,
       "accepted": 25
     },
     {
+      "topic": "pruning",
+      "api_results": 37,
+      "accepted": 20
+    },
+    {
       "topic": "distillation",
-      "api_results": 106,
-      "accepted": 49
-    },
-    {
-      "topic": "efficient-training",
-      "api_results": 64,
-      "accepted": 23
-    },
-    {
-      "topic": "attention-kv-cache",
-      "api_results": 56,
-      "accepted": 42
-    },
-    {
-      "topic": "decoding-reasoning",
-      "api_results": 33,
-      "accepted": 23
-    },
-    {
-      "topic": "llm-systems",
-      "api_results": 106,
+      "api_results": 88,
       "accepted": 44
     },
     {
+      "topic": "efficient-training",
+      "api_results": 54,
+      "accepted": 20
+    },
+    {
+      "topic": "attention-kv-cache",
+      "api_results": 50,
+      "accepted": 37
+    },
+    {
+      "topic": "decoding-reasoning",
+      "api_results": 26,
+      "accepted": 17
+    },
+    {
+      "topic": "llm-systems",
+      "api_results": 87,
+      "accepted": 36
+    },
+    {
       "topic": "diffusion-acceleration",
-      "api_results": 29,
-      "accepted": 11
+      "api_results": 23,
+      "accepted": 8
     },
     {
       "topic": "visual-generation",
-      "api_results": 63,
-      "accepted": 28
+      "api_results": 50,
+      "accepted": 24
     }
   ],
   "papers": [
