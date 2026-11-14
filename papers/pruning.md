@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-240 papers · newest submission first
+243 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
+| 2026-11-12 | **Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization**<br><sub>Ziqing Wen, Xiaohui Song, Jiahuan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16317) · [PDF](https://arxiv.org/pdf/2611.16317) |
+| 2026-11-11 | **DiFiT: Distribution-Fidelity-guided Visual Token Pruning for Multimodal Large Language Models**<br><sub>Jingyuan Zhang, Nihao Niu, Xinyang Lv et al.</sub> | [arXiv](https://arxiv.org/abs/2611.15069) · [PDF](https://arxiv.org/pdf/2611.15069) |
 | 2026-11-09 | **F3-AGI v4.0: Bioenergetically-Gated Active Inference, Metaplastic Preconditioning, and Residual Program Synthesis for Sample-Efficient Abstract Reasoning**<br><sub>Henrique Oliveira</sub> | [arXiv](https://arxiv.org/abs/2611.13325) · [PDF](https://arxiv.org/pdf/2611.13325) · [Code](https://github.com/henrique-polybee/f3-agi-v4) |
 | 2026-11-09 | **Prune, Don&#x27;t Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks**<br><sub>Tomas Rasymas, Povilas Kvedaras</sub> | [arXiv](https://arxiv.org/abs/2611.12240) · [PDF](https://arxiv.org/pdf/2611.12240) |
 | 2026-11-08 | **Language model capabilities fail in a shared, predictable order under compression and perturbation**<br><sub>Zhixiang Wang, Ulas Bagci</sub> | [arXiv](https://arxiv.org/abs/2611.11695) · [PDF](https://arxiv.org/pdf/2611.11695) · [Code](https://github.com/ZhixiangWang-CN/damage-order-artifacts) |

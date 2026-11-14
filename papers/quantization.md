@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-267 papers · newest submission first
+274 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-12 | **Lara Mini Base: Language Diversity as a Resource, Not a Trade-off**<br><sub>Translated, Maria Pia Adinolfi, Isabelle Andrieu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16956) · [PDF](https://arxiv.org/pdf/2611.16956) · [Code](https://huggingface.co/translated/Lara-4-Mini-Base) |
+| 2026-11-12 | **STEALTH: Steganographic Text Encoding Agnostic to Low-Level Tensor Hardware**<br><sub>William Fleshman</sub> | [arXiv](https://arxiv.org/abs/2611.16928) · [PDF](https://arxiv.org/pdf/2611.16928) |
+| 2026-11-12 | **SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation**<br><sub>Jaehun Gim, Jaewoo Kim, Gyuwan Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16502) · [PDF](https://arxiv.org/pdf/2611.16502) · [Code](https://github.com/HYU-ARK-Lab/SignRot) |
+| 2026-11-12 | **One Model, Two Precisions: Does Disagreement Between Quantized Copies Tell You When a Small Model Is Wrong?**<br><sub>Mohammed Nayeem Khan, Allan Kevin T</sub> | [arXiv](https://arxiv.org/abs/2611.16478) · [PDF](https://arxiv.org/pdf/2611.16478) |
+| 2026-11-12 | **SoScale: Second-Order Scale Search for FP4 Quantization**<br><sub>Pengxiang Zhao, Xing Li, Hui-Ling Zhen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16426) · [PDF](https://arxiv.org/pdf/2611.16426) |
+| 2026-11-11 | **TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models**<br><sub>Ke Li, Zishan Shao, Yiran Chen</sub> | [arXiv](https://arxiv.org/abs/2611.15569) · [PDF](https://arxiv.org/pdf/2611.15569) · [Code](https://github.com/AK-DREAM/TraceKV) |
+| 2026-11-11 | **TQIR: Trellis Quantization with Integer Reconstruction for Bandwidth-Efficient Edge LLM Acceleration**<br><sub>Kuang-Ting Huang, Tian-Sheuan Chang</sub> | [arXiv](https://arxiv.org/abs/2611.15231) · [PDF](https://arxiv.org/pdf/2611.15231) |
 | 2026-11-10 | **Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models**<br><sub>Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri</sub> | [arXiv](https://arxiv.org/abs/2611.14413) · [PDF](https://arxiv.org/pdf/2611.14413) |
 | 2026-11-10 | **Closing the BF16-FP16 Convergence Speed Gap in RL Post-Training with Stochastic Rounding**<br><sub>Mahdi Nazemi, Oleg Rybakov, Tijmen Blankevoort et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13545) · [PDF](https://arxiv.org/pdf/2611.13545) |
 | 2026-11-09 | **How Far Does Second-Order Linear Response Predict Quantization Mismatch? Pre-Registered Measurements on Five Language Models**<br><sub>Dezhen Lu, Zixiang Ni</sub> | [arXiv](https://arxiv.org/abs/2611.12634) · [PDF](https://arxiv.org/pdf/2611.12634) |
@@ -16,7 +23,7 @@
 | 2026-11-08 | **G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation**<br><sub>Xu Huang, Ye Huang, Xiaotong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13004) · [PDF](https://arxiv.org/pdf/2611.13004) |
 | 2026-11-08 | **SGA-Sparse: Training Native SwiGLU Gates for Activation-Sparse and Low-Bit LLMs**<br><sub>Ruokai Yin, Steven Li</sub> | [arXiv](https://arxiv.org/abs/2611.11223) · [PDF](https://arxiv.org/pdf/2611.11223) |
 | 2026-11-08 | **When Calibration Data Matter in Sub-4-Bit Language Model Quantization**<br><sub>Yehong Jiang, Yen-Kuang Chen, Xinmin Tian</sub> | [arXiv](https://arxiv.org/abs/2611.11079) · [PDF](https://arxiv.org/pdf/2611.11079) |
-| 2026-11-07 | **MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations**<br><sub>Lorenz K. Muller, Philippe Bich, Chiara Boretti et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10649) · [PDF](https://arxiv.org/pdf/2611.10649) |
+| 2026-11-07 | **MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations**<br><sub>Lorenz K. Muller, Philippe Bich, Chiara Boretti et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10649) · [PDF](https://arxiv.org/pdf/2611.10649) · [Code](https://github.com/huawei-csl/MACaQ) |
 | 2026-11-06 | **AutoEMatic: Runtime-Adaptive Mixed-Precision LLM Inference via Automatic Exponent-Mantissa Refinement**<br><sub>Akshat Ramachandran, Reena Elangovan, Rangharajan Venkatesan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.10165) · [PDF](https://arxiv.org/pdf/2611.10165) |
 | 2026-11-06 | **BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design**<br><sub>Dayou Du, Woon Yee Ng, Guangming Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.09825) · [PDF](https://arxiv.org/pdf/2611.09825) · [Code](https://github.com/OpenBitSys/BitDecoding-FP4) |
 | 2026-11-06 | **Coordinated Mixed-Precision KV Cache Quantization for Efficient LLM-based Multi-agent Systems**<br><sub>Weizhong Huang, Jinchao Zhang, Xiawu Zheng</sub> | [arXiv](https://arxiv.org/abs/2611.10096) · [PDF](https://arxiv.org/pdf/2611.10096) |

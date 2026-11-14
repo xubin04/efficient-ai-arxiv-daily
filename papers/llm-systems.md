@@ -4,10 +4,15 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-287 papers · newest submission first
+293 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-12 | **Broadcast, Don&#x27;t Replicate: Eliminating Weight HBM in Datacenter LLM Serving**<br><sub>Hannah Atmer, Yuan Yao, Thiemo Voigt et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17097) · [PDF](https://arxiv.org/pdf/2611.17097) |
+| 2026-11-12 | **Discovering Effective Agent Memory Designs through Program Evolution**<br><sub>Xinheng Ding, Seyyed Saeid Cheshmi, Ziyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17068) · [PDF](https://arxiv.org/pdf/2611.17068) · [Code](https://github.com/ash-ding/MAPE) |
+| 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
+| 2026-11-12 | **Fast Serverless LLM Cold Starts by Sharing and Prewarming Startup Work**<br><sub>Hongjin Kim, Igjae Kim, Kwanghoon Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16180) · [PDF](https://arxiv.org/pdf/2611.16180) |
+| 2026-11-11 | **Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading**<br><sub>Pierre-Luc Bacon, Diego Calanzone, Jean-Maxime Larouche</sub> | [arXiv](https://arxiv.org/abs/2611.15842) · [PDF](https://arxiv.org/pdf/2611.15842) · [Code](https://github.com/carbonforgeAI/moe-expert-eviction) |
 | 2026-11-10 | **SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving**<br><sub>Haolin Jiang, Weihang Li, Zhongzhu Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14246) · [PDF](https://arxiv.org/pdf/2611.14246) |
 | 2026-11-10 | **Scaling Shapley Energy Attribution to Large LLM Batches**<br><sub>Qi Luo, Ziwen Wang, Kunlin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13802) · [PDF](https://arxiv.org/pdf/2611.13802) |
 | 2026-11-10 | **Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling**<br><sub>Ziwen Wang, Qi Luo, Kunlin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13762) · [PDF](https://arxiv.org/pdf/2611.13762) |
@@ -16,7 +21,8 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-11-09 | **Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders**<br><sub>Jiaqi Leng, Minshen Zhang, Zhaofeng Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13378) · [PDF](https://arxiv.org/pdf/2611.13378) |
 | 2026-11-09 | **Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding**<br><sub>Susav Shrestha, Brad Settlemyer, Narasimha Reddy</sub> | [arXiv](https://arxiv.org/abs/2611.13293) · [PDF](https://arxiv.org/pdf/2611.13293) |
 | 2026-11-09 | **SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving**<br><sub>Haoran Qiu, Rohan Mahapatra, Rodrigo Fonseca et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13176) · [PDF](https://arxiv.org/pdf/2611.13176) |
-| 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) |
+| 2026-11-09 | **Inference Validation for Regulated AI: A Governed Decision Pipeline for LLM Serving**<br><sub>Dev Akre, Roman Bobalo, Manoj Dobbali</sub> | [arXiv](https://arxiv.org/abs/2611.12737) · [PDF](https://arxiv.org/pdf/2611.12737) |
+| 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) · [Code](https://github.com/mit-han-lab/EvolvingInfra) |
 | 2026-11-09 | **RecoGEM: A Serving System for Production-Scale Generative Recommendation**<br><sub>Xiangrui Yang, Yunfeng Zhao, Jiawei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12296) · [PDF](https://arxiv.org/pdf/2611.12296) |
 | 2026-11-09 | **Prune, Don&#x27;t Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks**<br><sub>Tomas Rasymas, Povilas Kvedaras</sub> | [arXiv](https://arxiv.org/abs/2611.12240) · [PDF](https://arxiv.org/pdf/2611.12240) |
 | 2026-11-09 | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation**<br><sub>Payman Behnam, Debopam Sanyal, Pranav Ponnusamy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11761) · [PDF](https://arxiv.org/pdf/2611.11761) |

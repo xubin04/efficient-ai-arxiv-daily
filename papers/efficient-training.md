@@ -4,10 +4,16 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-177 papers · newest submission first
+183 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-12 | **Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models**<br><sub>Tanzeel Abbas, Ahmad Kamran Malik, Nafees Qamar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17128) · [PDF](https://arxiv.org/pdf/2611.17128) |
+| 2026-11-12 | **Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling**<br><sub>Amirmohammad Mohammadi, Rupak Khadka, Kathleen A. Grant et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17105) · [PDF](https://arxiv.org/pdf/2611.17105) · [Code](https://github.com/Advanced-Vision-and-Learning-Lab/ALD_VLM) |
+| 2026-11-12 | **Factored One-sided Adam-Moment for Practical and Scalable SOAP**<br><sub>Jaemyung Yu, Byeongho Heo, Sangdoo Yun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16905) · [PDF](https://arxiv.org/pdf/2611.16905) · [Code](https://github.com/naver-ai/foam) |
+| 2026-11-12 | **TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention**<br><sub>Hung Nguyen, Quang Qui-Vinh Nguyen, Khoi Nguyen</sub> | [arXiv](https://arxiv.org/abs/2611.16897) · [PDF](https://arxiv.org/pdf/2611.16897) |
+| 2026-11-12 | **Sustainable Federated Fine-Tuning with LoRA: Environmental Impact and Performance Footprint**<br><sub>Pedro Augusto Londe Ribeiro, Rodrigo Moreira, Larissa Ferreira Rodrigues Moreira et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16856) · [PDF](https://arxiv.org/pdf/2611.16856) |
+| 2026-11-12 | **SS-HSDP: Efficient and Flexible Sharded Data Parallelism via Runtime-Update Decoupling**<br><sub>Chendong Xiang, Pengle Zhang, Jinliang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16467) · [PDF](https://arxiv.org/pdf/2611.16467) |
 | 2026-11-10 | **Sckwoky at SHROOM-Visions: Character-Level Hallucination-Span Detection in Image-Conditioned VLMs via Dual-Prompted LoRA Decoders**<br><sub>Mikhail Kulakov, Ruslan Solikhov, Ivan Bondarenko</sub> | [arXiv](https://arxiv.org/abs/2611.14100) · [PDF](https://arxiv.org/pdf/2611.14100) |
 | 2026-11-09 | **VeilTune: Secure Fine-Tuning of Private LoRA Adapters on Public Pretrained Language Models**<br><sub>Huiyu Xie, Tanping Zhou, Tao Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11817) · [PDF](https://arxiv.org/pdf/2611.11817) |
 | 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving**<br><sub>Danyal Aftab, Anas Zafar, Assadig Abakr et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11013) · [PDF](https://arxiv.org/pdf/2611.11013) |

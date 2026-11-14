@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-534 papers · newest submission first
+544 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-12 | **eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation**<br><sub>Tong Zhao, Xianfang Zeng, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17194) · [PDF](https://arxiv.org/pdf/2611.17194) · [Code](https://github.com/Westlake-AGI-Lab/eDMD) |
+| 2026-11-12 | **Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception**<br><sub>Tangzheng Lian, Hang Zhang, Guanyu Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16402) · [PDF](https://arxiv.org/pdf/2611.16402) · [Code](https://github.com/Supltz/BlinkOPD) |
+| 2026-11-12 | **From Large Language Models to Efficient System One Models via Adaptive Computation**<br><sub>Minh-Anh Nguyen</sub> | [arXiv](https://arxiv.org/abs/2611.16321) · [PDF](https://arxiv.org/pdf/2611.16321) |
+| 2026-11-12 | **What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation**<br><sub>Jinze Tao, Yuxiao Han, Kangkang Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16246) · [PDF](https://arxiv.org/pdf/2611.16246) |
+| 2026-11-12 | **Disentangled Embedding Optimization for Diffusion-Based Dataset Distillation**<br><sub>Hongcheng Li, Yucan Zhou, Yibin Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16224) · [PDF](https://arxiv.org/pdf/2611.16224) |
+| 2026-11-12 | **Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation**<br><sub>Zixu Wang, Yu Zhao, Xing Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16206) · [PDF](https://arxiv.org/pdf/2611.16206) · [Code](https://github.com/Camel-Prince/OPSD4MAS) |
+| 2026-11-11 | **Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents**<br><sub>Yan Lin, Jingyu Sun, Yifei Qian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.15766) · [PDF](https://arxiv.org/pdf/2611.15766) |
+| 2026-11-11 | **WaveFlow-UIE: A Single-Pipeline Wavelet-Domain Flow Model for Efficient Underwater Image Restoration**<br><sub>Abdulaziz Alfaraj, Mohammed Al Naser, Hassan Al Nasser et al.</sub> | [arXiv](https://arxiv.org/abs/2611.15457) · [PDF](https://arxiv.org/pdf/2611.15457) |
+| 2026-11-11 | **Escaping the Curse of Dimensionality in One-Step Flow-Based Generative Models**<br><sub>Konstantin Yakovlev</sub> | [arXiv](https://arxiv.org/abs/2611.15447) · [PDF](https://arxiv.org/pdf/2611.15447) |
+| 2026-11-11 | **Effective Teacher Support for Reasoning Distillation**<br><sub>Lavinia Ghita, Dhruv Desai</sub> | [arXiv](https://arxiv.org/abs/2611.14850) · [PDF](https://arxiv.org/pdf/2611.14850) |
 | 2026-11-10 | **ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows**<br><sub>Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14492) · [PDF](https://arxiv.org/pdf/2611.14492) |
 | 2026-11-10 | **Don&#x27;t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents**<br><sub>Yukyeong Lee, Yumin Choi, Jinheon Baek et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14320) · [PDF](https://arxiv.org/pdf/2611.14320) · [Code](https://github.com/yukyeongleee/wikitrace) |
 | 2026-11-10 | **Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos**<br><sub>Yuanhe Tian, Yan Song</sub> | [arXiv](https://arxiv.org/abs/2611.14113) · [PDF](https://arxiv.org/pdf/2611.14113) |
