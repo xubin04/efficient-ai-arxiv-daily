@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-14 15:37 CST** · **1724 unique papers** · Newest submission: **2026-11-12**
+Last successful scan: **2026-11-15 15:53 CST** · **1724 unique papers** · Newest submission: **2026-11-12**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-11-14 15:37 CST** · **1724 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 135 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 229 |
 
-## Newly indexed · 2026-11-14
+## Newly indexed · 2026-11-15
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-11-12 | **eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation**<br><sub>Tong Zhao, Xianfang Zeng, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17194) · [PDF](https://arxiv.org/pdf/2611.17194) · [Code](https://github.com/Westlake-AGI-Lab/eDMD) |
-| 2026-11-12 | **Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models**<br><sub>Tanzeel Abbas, Ahmad Kamran Malik, Nafees Qamar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17128) · [PDF](https://arxiv.org/pdf/2611.17128) |
-| 2026-11-12 | **Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling**<br><sub>Amirmohammad Mohammadi, Rupak Khadka, Kathleen A. Grant et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17105) · [PDF](https://arxiv.org/pdf/2611.17105) · [Code](https://github.com/Advanced-Vision-and-Learning-Lab/ALD_VLM) |
-| 2026-11-12 | **Broadcast, Don&#x27;t Replicate: Eliminating Weight HBM in Datacenter LLM Serving**<br><sub>Hannah Atmer, Yuan Yao, Thiemo Voigt et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17097) · [PDF](https://arxiv.org/pdf/2611.17097) |
-| 2026-11-12 | **Discovering Effective Agent Memory Designs through Program Evolution**<br><sub>Xinheng Ding, Seyyed Saeid Cheshmi, Ziyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17068) · [PDF](https://arxiv.org/pdf/2611.17068) · [Code](https://github.com/ash-ding/MAPE) |
-| 2026-11-12 | **Lara Mini Base: Language Diversity as a Resource, Not a Trade-off**<br><sub>Translated, Maria Pia Adinolfi, Isabelle Andrieu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16956) · [PDF](https://arxiv.org/pdf/2611.16956) · [Code](https://huggingface.co/translated/Lara-4-Mini-Base) |
-| 2026-11-12 | **STEALTH: Steganographic Text Encoding Agnostic to Low-Level Tensor Hardware**<br><sub>William Fleshman</sub> | [arXiv](https://arxiv.org/abs/2611.16928) · [PDF](https://arxiv.org/pdf/2611.16928) |
-| 2026-11-12 | **Factored One-sided Adam-Moment for Practical and Scalable SOAP**<br><sub>Jaemyung Yu, Byeongho Heo, Sangdoo Yun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16905) · [PDF](https://arxiv.org/pdf/2611.16905) · [Code](https://github.com/naver-ai/foam) |
-| 2026-11-12 | **TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention**<br><sub>Hung Nguyen, Quang Qui-Vinh Nguyen, Khoi Nguyen</sub> | [arXiv](https://arxiv.org/abs/2611.16897) · [PDF](https://arxiv.org/pdf/2611.16897) |
-| 2026-11-12 | **Sustainable Federated Fine-Tuning with LoRA: Environmental Impact and Performance Footprint**<br><sub>Pedro Augusto Londe Ribeiro, Rodrigo Moreira, Larissa Ferreira Rodrigues Moreira et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16856) · [PDF](https://arxiv.org/pdf/2611.16856) |
-| 2026-11-12 | **Towards Green Text Generation: Memory-Based Speculative Decoding**<br><sub>Antal van den Bosch</sub> | [arXiv](https://arxiv.org/abs/2611.16714) · [PDF](https://arxiv.org/pdf/2611.16714) · [Code](https://github.com/antalvdb/olifant-speculative) |
-| 2026-11-12 | **SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation**<br><sub>Jaehun Gim, Jaewoo Kim, Gyuwan Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16502) · [PDF](https://arxiv.org/pdf/2611.16502) · [Code](https://github.com/HYU-ARK-Lab/SignRot) |
-| 2026-11-12 | **One Model, Two Precisions: Does Disagreement Between Quantized Copies Tell You When a Small Model Is Wrong?**<br><sub>Mohammed Nayeem Khan, Allan Kevin T</sub> | [arXiv](https://arxiv.org/abs/2611.16478) · [PDF](https://arxiv.org/pdf/2611.16478) |
-| 2026-11-12 | **SS-HSDP: Efficient and Flexible Sharded Data Parallelism via Runtime-Update Decoupling**<br><sub>Chendong Xiang, Pengle Zhang, Jinliang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16467) · [PDF](https://arxiv.org/pdf/2611.16467) |
-| 2026-11-12 | **SoScale: Second-Order Scale Search for FP4 Quantization**<br><sub>Pengxiang Zhao, Xing Li, Hui-Ling Zhen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16426) · [PDF](https://arxiv.org/pdf/2611.16426) |
-| 2026-11-12 | **Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception**<br><sub>Tangzheng Lian, Hang Zhang, Guanyu Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16402) · [PDF](https://arxiv.org/pdf/2611.16402) · [Code](https://github.com/Supltz/BlinkOPD) |
-| 2026-11-12 | **Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression**<br><sub>Sikui Zhang, Haowei Liu, Ziyun Gan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16384) · [PDF](https://arxiv.org/pdf/2611.16384) · [Code](https://github.com/scar-on/CoMem) |
-| 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
-| 2026-11-12 | **From Large Language Models to Efficient System One Models via Adaptive Computation**<br><sub>Minh-Anh Nguyen</sub> | [arXiv](https://arxiv.org/abs/2611.16321) · [PDF](https://arxiv.org/pdf/2611.16321) |
-| 2026-11-12 | **Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization**<br><sub>Ziqing Wen, Xiaohui Song, Jiahuan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16317) · [PDF](https://arxiv.org/pdf/2611.16317) |
-
-[View all 34 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
