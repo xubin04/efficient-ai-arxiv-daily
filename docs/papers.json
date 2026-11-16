@@ -1,9 +1,9 @@
 {
   "title": "Efficient AI · arXiv Daily",
   "repository": "xubin04/efficient-ai-arxiv-daily",
-  "updated": "2026-11-15 15:53 CST",
-  "scan_date": "2026-11-15",
-  "newest_submission": "2026-11-12",
+  "updated": "2026-11-16 16:01 CST",
+  "scan_date": "2026-11-16",
+  "newest_submission": "2026-11-13",
   "topics": [
     {
       "id": "quantization",
@@ -52,6 +52,324 @@
     }
   ],
   "papers": [
+    {
+      "id": "2611.18482",
+      "versioned_id": "2611.18482v1",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "authors": [
+        "Sicheng Feng",
+        "Zigeng Chen",
+        "Song Wang",
+        "Gongfan Fang",
+        "Xinchao Wang"
+      ],
+      "published": "2026-11-13T17:54:28Z",
+      "updated": "2026-11-13T17:54:28Z",
+      "abstract": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input. We find that acceptance rates decrease from 46% in the lowest visual-dependence quartile to 22% in the highest, with this disparity persisting after multimodal training. Motivated by this observation, we propose MMFlash, a simple and effective framework that adaptively upweights visually dependent tokens that the drafter predicts poorly. For long video inputs, MMFlash further employs sparse attention to reduce redundant attention computation and improve drafting quality. Across various multimodal benchmarks, MMFlash achieves lossless decoding speedups of up to $3.58\\times$, outperforming EAGLE-3 and DFlash by up to 195.4% and 17.1%, respectively.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.18482",
+      "pdf_url": "https://arxiv.org/pdf/2611.18482",
+      "code_urls": [],
+      "comment": "Work in process, website: \\url{https://fscdc.github.io/MMFlash/}",
+      "journal_ref": "",
+      "topics": [
+        "attention-kv-cache",
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.18243",
+      "versioned_id": "2611.18243v1",
+      "title": "D2ToF: One-Step Diffusion for Depth Super-Resolution from Lightweight Single-Photon LiDAR Waveforms",
+      "authors": [
+        "Pallabjyoti Deka",
+        "Lewis Wilson",
+        "Stephen McLaughlin",
+        "Jonathan Leach",
+        "Abderrahim Halimi"
+      ],
+      "published": "2026-11-13T14:39:59Z",
+      "updated": "2026-11-13T14:39:59Z",
+      "abstract": "Single-photon LiDAR (SPL) sensors offer exceptional temporal resolution and single-photon sensitivity for depth imaging. However, cost-effective SPL arrays typically suffer from extremely low spatial resolutions (e.g. $8\\times 8$ pixels), limiting their real-world utility. In this paper, we propose a novel, one-step super-resolution framework, D2ToF, Distilled Diffusion for Time-of-Flight, that bridges the gap between high-fidelity generative modeling and real-time execution. Our approach uses an amortized variational distillation strategy that allows for a measurement-based data consistency term to be incorporated directly into the one-step training objective. This encourages that the synthesized high-resolution depth maps are consistent with the captured low-resolution Time-of-Flight (ToF) histograms. To overcome the severe ill-posedness of upsampling extremely degraded inputs, we introduce a multimodal guidance strategy. By leveraging a foundational monocular depth model to extract structural priors from a high-resolution reflectivity image, our network is guided by a rich triad of the ToF histogram, reflectivity map, and relative depth estimate. Experimental results outperform evaluated baselines, achieving $16\\times$ spatial super-resolution (from $8\\times 8 \\times 100$ histograms to $128\\times 128$ depth maps) at an accelerated inference speed of approximately $83$ milliseconds.",
+      "arxiv_categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.18243",
+      "pdf_url": "https://arxiv.org/pdf/2611.18243",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "diffusion-acceleration"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17930",
+      "versioned_id": "2611.17930v1",
+      "title": "Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs",
+      "authors": [
+        "Xuecheng Wu",
+        "Aichen Feng",
+        "Jinyan Chen",
+        "Qingjie Zhao",
+        "Julien Lai"
+      ],
+      "published": "2026-11-13T09:09:46Z",
+      "updated": "2026-11-13T09:09:46Z",
+      "abstract": "Attention is essential for modeling spatio-temporal dependencies in video diffusion transformers, but its quadratic cost makes it a major inference bottleneck. Its high sparsity offers an opportunity to accelerate generation by focusing computation on important interactions. However, accuracy and execution favor different granularities: each query attends to its own key tokens, whereas GPU kernels work on tiles. We present Token2Tile, a training-free sparse attention operator that combines per-query scoring and a per-query residual with tile execution. An online low-rank space, computed directly from queries and keys to preserve attention logits, makes clustering, scoring, and residual approximation efficient. Token2Tile unites query-specific selections to allocate exact work across query clusters, then packs the selected keys into GPU tiles. On MiniMax-H3 and Wan2.1-14B, Token2Tile delivers 1.48-1.54x end-to-end speedup over dense FlashAttention-3 with VBench scores within 0.5 points of dense. At comparable speeds on H3, it improves PSNR over SOL and SubBlock by 5.5-6.8 dB; on Wan, it exceeds SOL by 4.6-4.8 dB while running faster.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.17930",
+      "pdf_url": "https://arxiv.org/pdf/2611.17930",
+      "code_urls": [],
+      "comment": "21 pages, 14 figures, 23 tables",
+      "journal_ref": "",
+      "topics": [
+        "pruning",
+        "attention-kv-cache",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17908",
+      "versioned_id": "2611.17908v1",
+      "title": "DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing",
+      "authors": [
+        "Kuai Yu",
+        "Wen Li",
+        "Shengwen Liang",
+        "Jie Zhang",
+        "Ying Wang",
+        "Huawei Li",
+        "Xin Yao",
+        "Renhai Chen",
+        "Gong Zhang"
+      ],
+      "published": "2026-11-13T08:50:07Z",
+      "updated": "2026-11-13T08:50:07Z",
+      "abstract": "Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential. Traditional codecs offer inadequate rate-distortion performance, motivating the exploration of diffusion codecs. Diffusion codecs face two limitations: (1) At the algorithm level, diffusion decoders preserve perceptual quality under extreme compression, but require substantial computation. (2) At the architecture level, in NPU-centered devices, neural codecs occupy the NPU, interfering with other AI applications. Meanwhile, the complex codec pipeline incurs long I/O paths, leading to additional overhead and energy cost. To address these issues, we propose DiffusionSSD, a cross-level near-data processing framework for extreme visual data compression on edge devices, using an algorithm-architecture co-design method. Specifically, (1) at algorithm level, we present Dual-stage Diffusion, a lightweight solution tailored for diffusion codecs that employs patchification and single-step diffusion, reducing computation cost while preserving perceptual quality; (2) at architecture level, we introduce a Cross-level Near Data Processing architecture that integrates the proposed computational universal flash storage (cUFS) and LPDDR-PIM, enabling codecs to be entirely offloaded to data side while reducing visual-data movement and avoiding SoC redesign; (3) at system level, combining both the algorithm and the underlying architecture, we propose a Patch-Workload co-aware scheduling scheme to enable more efficient system-level execution. Experiments show that Dual-stage Diffusion maintains comparable perceptual quality while reducing computation cost by up to 92.7%. Compared with NPU+DRAM and near-data-processing design such as SmartSSD, cUFS+PIM improves coding throughput by 2.32 times and 2.91 times on average, respectively.",
+      "arxiv_categories": [
+        "cs.AR",
+        "cs.CV",
+        "eess.IV"
+      ],
+      "url": "https://arxiv.org/abs/2611.17908",
+      "pdf_url": "https://arxiv.org/pdf/2611.17908",
+      "code_urls": [],
+      "comment": "15 pages, 19 figures",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17868",
+      "versioned_id": "2611.17868v1",
+      "title": "Speed-Variation Distillation for Generative Modeling",
+      "authors": [
+        "Sukit Seripanitkarn",
+        "Phonphrm Thawatdamrongkit",
+        "Supasorn Suwajanakorn"
+      ],
+      "published": "2026-11-13T07:59:37Z",
+      "updated": "2026-11-13T07:59:37Z",
+      "abstract": "While diffusion models excel at image generation, their denoising trajectories pass through corrupted intermediate states far from the image manifold. We ask whether generation can instead proceed through recognizable images throughout the entire trajectory. We introduce a generative framework built around a variation-reducing degradation process that contracts diverse images toward a shared prototype while preserving recognizable intermediate states. Because such manifold traversal lacks a simple analytical form, we construct the trajectories using generative-prior-based image morphing. We then distill the reverse process into a diversification operator that transforms the prototype into increasingly varied samples. To resolve the one-to-many ambiguity of the reverse process, we associate each trajectory with its initial noise latent and apply perturbations to improve robustness against accumulated errors. At inference, every step yields a recognizable image, allowing early termination and enabling a controllable speed--variation trade-off.",
+      "arxiv_categories": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2611.17868",
+      "pdf_url": "https://arxiv.org/pdf/2611.17868",
+      "code_urls": [],
+      "comment": "CDEL-ECCVW 2026 proceedings. Project page: https://speed-variance-modeling.github.io",
+      "journal_ref": "",
+      "topics": [
+        "distillation",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17785",
+      "versioned_id": "2611.17785v1",
+      "title": "CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation",
+      "authors": [
+        "Md Omar Faruque",
+        "Jingang Jin",
+        "João Paulo C. de Lima",
+        "Shouzhi Fang",
+        "William C. Tegge",
+        "Peipei Zhou",
+        "Qinru Qiu",
+        "Alex K. Jones"
+      ],
+      "published": "2026-11-13T05:58:32Z",
+      "updated": "2026-11-13T05:58:32Z",
+      "abstract": "Edge AI increasingly relies on specialized accelerators for low-latency inference under tight resource and energy constraints, yet their efficiency remains limited by data movement. Prior work, CHARM, mitigates this overhead by overlapping data movement with computation. We observe that in-memory computing can further supplement tensor processing as a parallel accelerator while eliminating certain data movements entirely. We present CHARMING, a heterogeneous edge AI architecture that uses accuracy- and quantization-aware partitioning to distribute and concurrently execute inference workloads across tensor processing and in-memory computation. CHARMING partitions attention heads between an AIE array and an in-DRAM compute unit, balancing execution according to model architecture, sequence length, and precision while selecting heads to minimize accuracy degradation. CHARMING also integrates quantization into the AIE projection stage to further reduce data movement. We validate CHARMING end-to-end in hardware on AMD Versal VCK5000 and Alveo U200 platforms and evaluate LLM and video-generation models across multiple precisions using measured hardware results and simulation of the latest in-memory compute hardware. CHARMING improves prefill performance by up to 23.6 percent and decode performance by up to 44 percent over AIE-only acceleration. With int4 x int4 fixed-point in-memory computation, CHARMING reduces per-layer energy by up to 7.6 percent and improves energy-delay product by up to 24.7 percent, while maintaining accuracy similar to a 32-bit floating-point baseline.",
+      "arxiv_categories": [
+        "cs.AR"
+      ],
+      "url": "https://arxiv.org/abs/2611.17785",
+      "pdf_url": "https://arxiv.org/pdf/2611.17785",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization",
+        "visual-generation"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17772",
+      "versioned_id": "2611.17772v1",
+      "title": "Antidistillation is Cheap: Lightweight Distillation-Resistance via Stylistic Corruption",
+      "authors": [
+        "Anh Tu Ngo",
+        "Anupam Chattopadhyay"
+      ],
+      "published": "2026-11-13T05:32:26Z",
+      "updated": "2026-11-13T05:32:26Z",
+      "abstract": "Knowledge distillation (KD) is a highly effective paradigm for transferring capabilities from large language models (LLMs) to smaller, more specialized student models. In commercial deployment where frontier models are restricted behind black-box APIs, sequence-level distillation remains a potent vector for competitors to clone proprietary capabilities at a fraction of the development cost. Existing defenses mostly rely on surrogate models to manipulate next-token sampling, which increases computational overhead and real-time inference latency. In this work, we propose a lightweight defense that dynamically injects style-steering vectors into the teacher model's activations upon malicious queries. This framework offers exceptional flexibility, allowing hosts to customize target defensive styles and dynamically blend them to maximize stylistic variance. Crucially, this inference-time intervention preserves semantic utility and fluency during malicious queries, misleading adversaries into believing that they are extracting pristine teacher outputs, while standard consumers continue to receive original, unmodified responses. Our experiments demonstrate that this framework successfully disrupts student learning, achieving substantial anti-distillation performance while incurring negligible overhead and preserving text naturalness. Our code is available at https://anonymous.4open.science/r/distill-resist-38C6/.",
+      "arxiv_categories": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.17772",
+      "pdf_url": "https://arxiv.org/pdf/2611.17772",
+      "code_urls": [],
+      "comment": "Accepted to Findings of EACL 2027",
+      "journal_ref": "",
+      "topics": [
+        "distillation"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17610",
+      "versioned_id": "2611.17610v1",
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "authors": [
+        "Seyed Mahmoud Sajjadi Mohammadabadi"
+      ],
+      "published": "2026-11-13T00:18:25Z",
+      "updated": "2026-11-13T00:18:25Z",
+      "abstract": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overall and near zero when omitting the largest contributing study. When evaluated against baselines matched on sample count (Category B) or resource budget (Category C), multi-agent systems average -0.042 in accuracy, and multilevel random effects modeling on the log odds scale remains negative across sensitivity checks. Multi-agent accuracy equals or falls below the baseline in 74% of these comparable contrasts, and study means are nonpositive in almost all evaluated studies. Across studies reporting both baselines, moving from a greedy pass to a sampled baseline shifts accuracy differences by -0.038 on average. Because communication adds no information when agents share identical evidence, positive returns require partitioned evidence, external verification, or error diversity across models. We provide a reviewer checklist and accounting utilities.",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2611.17610",
+      "pdf_url": "https://arxiv.org/pdf/2611.17610",
+      "code_urls": [
+        "https://github.com/mahmoudsajjadi/pace"
+      ],
+      "comment": "43 pages, 11 figures, 13 tables. PACE Reviewer Checklist, evaluation utilities (pace CLI), and reproduction data at https://github.com/mahmoudsajjadi/pace",
+      "journal_ref": "",
+      "topics": [
+        "decoding-reasoning"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17605",
+      "versioned_id": "2611.17605v1",
+      "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
+      "authors": [
+        "Aditi Patodiya"
+      ],
+      "published": "2026-11-13T00:04:34Z",
+      "updated": "2026-11-13T00:04:34Z",
+      "abstract": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBook Air M2 and priced each in energy per solved task on 542 EvalPlus tasks. The result is a selection guide indexed by Ollama's listed file size, with an evidence label on each pick. At 1 and 2 GB it picks the q4_K_M files of the 1.5B and 3B models, both on the correctness and energy frontier under every accounting. At 3 GB as listed, the larger-model rule picks 7B-q2_K, the only measured 7B file that fits, and there it does not pay. That file brings no significant gain in solves over the 2 GB pick, 3B-q4_K_M, and the 90% CI limits any 3B-q4_K_M deficit to 2.4 points. Yet 7B-q2_K needs 2.03 times the energy per solved task on CPU, GPU and memory rails, or 1.66 to 1.81 times on whole-system power. On HumanEval+, five alternating session pairs give a ratio of 1.925 against 1.956 in the main grid. At 8 GB, 7B-q6_K buys a significant gain over the 2 GB pick at a higher energy price. From 1.5B up, q4_K_M trails the highest precision measured at its size by less than 3 points (90% CI). We release per-task results, power logs and the analysis script.",
+      "arxiv_categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.17605",
+      "pdf_url": "https://arxiv.org/pdf/2611.17605",
+      "code_urls": [],
+      "comment": "9 pages, 2 figures, 3 tables. Submitted to GREENS 2027 (11th International Workshop on Green and Sustainable Software, co-located with ICSE 2027). Reproducibility package: https://doi.org/10.5281/zenodo.24016482",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17526",
+      "versioned_id": "2611.17526v1",
+      "title": "User-Schedulable Approximations for Quantized Tensor Programs",
+      "authors": [
+        "Alex Reinking"
+      ],
+      "published": "2026-11-12T21:25:11Z",
+      "updated": "2026-11-12T21:25:11Z",
+      "abstract": "Quantization lets language models run on edge devices, but it sharply increases the number of tensor kernels a library must maintain: every weight format must be paired with every activation format on every instruction set and GPU, with an encoder and a decoder that agree on the stored bytes. In GGML, the tensor library used by llama.cpp, these kernels are written by hand, and only 8 of the 54 weight-activation pairs it runs on our Arm CPU have a tiled matrix-multiplication kernel. We extend Halide's separation of algorithm and schedule to the representation of values. Each approximation is a codec, an encoder paired with a decoder, composed from reusable units: quantizers, integer representations, bit packers and layouts. A new directive, approximate_by, applies a codec to one stage of a program and returns the encoder and decoder as ordinary stages that Halide can schedule, so both decoders fuse into the register tiles of a matrix product. Optional contracts, such as a round-trip law, are checked by property tests; the law exposed an inconsistent block sum in GGML's q8_1. One algorithm and one schedule library generate 347 kernels for 31 of GGML's and KleidiAI's formats on Arm CPUs and Apple GPUs, covering 38 weight-activation pairs for which GGML has no kernel, in 3.7x less code than GGML and KleidiAI. On an Apple M3 Max, our kernels reach at least 95% of the speed of GGML's format-specific kernels in 91.0% of the cases that have one, with a median speedup of 1.13x, and are faster still where GGML falls back to blocked dot products. Counting Apple's BLAS library, which is usually faster for larger f32 products, we still reach that threshold in 86.9% of CPU cases. A port to x86 with Intel's AMX adds 793 lines of code and matches GGML in 83.5% of its cases.",
+      "arxiv_categories": [
+        "cs.PL",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "url": "https://arxiv.org/abs/2611.17526",
+      "pdf_url": "https://arxiv.org/pdf/2611.17526",
+      "code_urls": [],
+      "comment": "52 pages (20-page body plus appendices), 5 figures, 22 tables",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "2611.17501",
+      "versioned_id": "2611.17501v1",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "authors": [
+        "Yavuz Yetim",
+        "Bor-Yiing Su",
+        "Zhe Wang",
+        "Arthur Liu",
+        "Pranav Sharma",
+        "Ying Wang",
+        "Randy Shuai",
+        "Luke Pfister",
+        "Ruichao Xiao",
+        "Bill Zhao",
+        "Zihao Liu",
+        "Liyuan Li",
+        "Jiangyuan Li",
+        "Gaoxiang Liu",
+        "Nathan Yan",
+        "Geonhwa Jeong",
+        "Jatin Chhugani",
+        "Elias Ellison",
+        "Uladzimir Pashkevich"
+      ],
+      "published": "2026-11-12T20:46:31Z",
+      "updated": "2026-11-12T20:46:31Z",
+      "abstract": "Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced accuracy drops of 1% or more, production-grade R&R models enforce a stringent launch bar: model quality must remain within a 0.01% Normalized Entropy (NE) margin relative to the baseline, which commonly uses FP16 or FP32. This tight constraint has historically hindered the adoption of aggressive quantization in this domain. In this paper, we present an empirical evaluation of both MXFP8 and the 6-bit MXFP6 format for industrial-scale R&R inference on the AMD MI350X architecture. To the best of our knowledge, this is the first paper, across R&R and LLM domains, that reports significant speedups from native MXFP6 GEMMs, which quantize both weights and activations and compute directly on 6-bit elements, without sacrificing model quality. We demonstrate that we can selectively apply this 6-bit format to maximize overall QPS gain without breaching the strict NE parity threshold. We further show that MXFP8 is a viable alternative to row-wise FP8: the two formats have nearly the same accuracy on our models, so the faster kernel can be chosen for each GEMM shape. On two production ads ranking models, our implementation shows measured GEMM kernel speedups over FP16 of 1.33--1.55x for MXFP8 and 1.73--1.99x for MXFP6 across all supported linear layers, and up to 2.90x for MXFP6 on individual layers, alongside end-to-end (E2E) inference throughput gains from selective MXFP6 of 1.5--5.3% for Model A and 7.6--14.3% for Model B over their FP8 configurations.",
+      "arxiv_categories": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.17501",
+      "pdf_url": "https://arxiv.org/pdf/2611.17501",
+      "code_urls": [],
+      "comment": "",
+      "journal_ref": "",
+      "topics": [
+        "quantization"
+      ],
+      "first_seen": "2026-11-16"
+    },
     {
       "id": "2611.17194",
       "versioned_id": "2611.17194v1",
@@ -1778,7 +2096,7 @@
     },
     {
       "id": "2611.13442",
-      "versioned_id": "2611.13442v1",
+      "versioned_id": "2611.13442v2",
       "title": "ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding",
       "authors": [
         "Jaeyong Song",
@@ -1789,7 +2107,7 @@
         "Shobhit Kanaujia"
       ],
       "published": "2026-11-10T01:37:38Z",
-      "updated": "2026-11-10T01:37:38Z",
+      "updated": "2026-11-13T01:33:53Z",
       "abstract": "Parallel drafters accelerate LLM decoding by proposing a whole block of draft tokens in a single forward pass, making them attractive for LLM serving. Recent systems optimize goodput (i.e., accepted tokens per second) because rejected drafts steal compute from other requests. However, these systems control only how many tokens are verified, so every request still drafts a full block. At high serving load, we find that drafting consumes up to 40% of step time, of which a majority is discarded because it is never verified. Yet, draft-length control from autoregressive drafters does not carry over, because a parallel drafter commits to its length before its single pass. Moreover, draft and verification lengths are coupled across the batch, so they must be selected jointly for every request while keeping the decision computationally cheap at every step. In this paper, we propose work-conserving speculation (WCS), a design that jointly allocates draft and verification budgets per request in LLM serving, and present ForeSpark as its prototype. ForeSpark realizes WCS with (i) a context-aware pre-draft estimator that predicts acceptance for every candidate length from the target model's context features, (ii) a lightweight joint draft-verify scheduler that selects both lengths through a global sort, and (iii) a post-draft budget distribution that spends verification on the most promising tokens. Implemented on vLLM, ForeSpark improves throughput by up to 1.77x over the state-of-the-art DSpark and by 2.49x over autoregressive decoding at a matched per-request generation rate, without changing the output distribution. It also tolerates higher load, sustaining up to 1.51x the request rate of DSpark under latency service level objectives (SLOs).",
       "arxiv_categories": [
         "cs.DC",
@@ -1798,8 +2116,10 @@
       ],
       "url": "https://arxiv.org/abs/2611.13442",
       "pdf_url": "https://arxiv.org/pdf/2611.13442",
-      "code_urls": [],
-      "comment": "21 pages",
+      "code_urls": [
+        "https://github.com/facebookresearch/ForeSpark"
+      ],
+      "comment": "23 pages, Code available at https://github.com/facebookresearch/ForeSpark",
       "journal_ref": "",
       "topics": [
         "decoding-reasoning",
@@ -1969,7 +2289,7 @@
     },
     {
       "id": "2611.12799",
-      "versioned_id": "2611.12799v1",
+      "versioned_id": "2611.12799v2",
       "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
       "authors": [
         "Tingcheng Bian",
@@ -1983,7 +2303,7 @@
         "Hui Li"
       ],
       "published": "2026-11-09T18:07:42Z",
-      "updated": "2026-11-09T18:07:42Z",
+      "updated": "2026-11-13T03:18:14Z",
       "abstract": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier checkpoints from the same run had already solved, and the union of problems solved across checkpoints far exceeds any single one. The discarded checkpoints thus form a teacher pool obtained at no additional training cost, which on-policy distillation (OPD) can mine to recover the lost coverage. Mining this pool raises two challenges: i) which checkpoint to distill from, as no checkpoint dominates the others and complementarity to the student is problem-specific; ii) where to trust it, as even a well-chosen teacher is only locally superior, so indiscriminate distillation overwrites behavior the student has already mastered. We propose Agentic-OPD, which treats the best-validation checkpoint as the student and all saved checkpoints as frozen teacher candidates, using the student's evolving capability gaps to guide both teacher selection and supervision filtering: the HCN policy (Highest Coverage Next) dynamically selects teachers by weighted coverage of the student's unsolved problems, while the LAD module (Locality-Aware Distillation) confines transfer to failed student rollouts on problems where the teacher performs better. Across five agentic task domains and 24 benchmarks and task subsets, Agentic-OPD improves over its initialization checkpoint by up to 7.4 points, with a 4B student surpassing the latest frontier models GPT-5.6 and DeepSeek-V4.1 on deep search. Agentic-OPD recasts a finished RL run as a reusable pool of policies and establishes post-RL capability recovery as a stage orthogonal to improvements in the RL algorithm itself.",
       "arxiv_categories": [
         "cs.LG",

@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-544 papers · newest submission first
+548 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-13 | **D2ToF: One-Step Diffusion for Depth Super-Resolution from Lightweight Single-Photon LiDAR Waveforms**<br><sub>Pallabjyoti Deka, Lewis Wilson, Stephen McLaughlin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18243) · [PDF](https://arxiv.org/pdf/2611.18243) |
+| 2026-11-13 | **DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing**<br><sub>Kuai Yu, Wen Li, Shengwen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17908) · [PDF](https://arxiv.org/pdf/2611.17908) |
+| 2026-11-13 | **Speed-Variation Distillation for Generative Modeling**<br><sub>Sukit Seripanitkarn, Phonphrm Thawatdamrongkit, Supasorn Suwajanakorn</sub> | [arXiv](https://arxiv.org/abs/2611.17868) · [PDF](https://arxiv.org/pdf/2611.17868) |
+| 2026-11-13 | **Antidistillation is Cheap: Lightweight Distillation-Resistance via Stylistic Corruption**<br><sub>Anh Tu Ngo, Anupam Chattopadhyay</sub> | [arXiv](https://arxiv.org/abs/2611.17772) · [PDF](https://arxiv.org/pdf/2611.17772) |
 | 2026-11-12 | **eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation**<br><sub>Tong Zhao, Xianfang Zeng, Yucheng Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17194) · [PDF](https://arxiv.org/pdf/2611.17194) · [Code](https://github.com/Westlake-AGI-Lab/eDMD) |
 | 2026-11-12 | **Teach with Blinks: Breaking Linguistic Momentum in On-Policy Distillation for Fine-Grained Multimodal Perception**<br><sub>Tangzheng Lian, Hang Zhang, Guanyu Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16402) · [PDF](https://arxiv.org/pdf/2611.16402) · [Code](https://github.com/Supltz/BlinkOPD) |
 | 2026-11-12 | **From Large Language Models to Efficient System One Models via Adaptive Computation**<br><sub>Minh-Anh Nguyen</sub> | [arXiv](https://arxiv.org/abs/2611.16321) · [PDF](https://arxiv.org/pdf/2611.16321) |

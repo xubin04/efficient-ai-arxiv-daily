@@ -4,14 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-167 papers · newest submission first
+169 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-13 | **MMFlash: Faster Speculative Decoding for Vision-Language Models**<br><sub>Sicheng Feng, Zigeng Chen, Song Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18482) · [PDF](https://arxiv.org/pdf/2611.18482) |
+| 2026-11-13 | **More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs**<br><sub>Seyed Mahmoud Sajjadi Mohammadabadi</sub> | [arXiv](https://arxiv.org/abs/2611.17610) · [PDF](https://arxiv.org/pdf/2611.17610) · [Code](https://github.com/mahmoudsajjadi/pace) |
 | 2026-11-12 | **Towards Green Text Generation: Memory-Based Speculative Decoding**<br><sub>Antal van den Bosch</sub> | [arXiv](https://arxiv.org/abs/2611.16714) · [PDF](https://arxiv.org/pdf/2611.16714) · [Code](https://github.com/antalvdb/olifant-speculative) |
 | 2026-11-11 | **Early Signals, Strong Decisions: Prefix-Guided Sampling for Parallel Test-Time Scaling**<br><sub>Jie Ren, Jonathan Rosenfeld, Neil Thompson</sub> | [arXiv](https://arxiv.org/abs/2611.14965) · [PDF](https://arxiv.org/pdf/2611.14965) |
 | 2026-11-10 | **REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding**<br><sub>Yu Tian</sub> | [arXiv](https://arxiv.org/abs/2611.14399) · [PDF](https://arxiv.org/pdf/2611.14399) · [Code](https://github.com/King-ty/speculators/tree/real-loss) |
-| 2026-11-10 | **ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding**<br><sub>Jaeyong Song, Daniel Wang, Pratyush Patel et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13442) · [PDF](https://arxiv.org/pdf/2611.13442) |
+| 2026-11-10 | **ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding**<br><sub>Jaeyong Song, Daniel Wang, Pratyush Patel et al.</sub> | [arXiv](https://arxiv.org/abs/2611.13442) · [PDF](https://arxiv.org/pdf/2611.13442) · [Code](https://github.com/facebookresearch/ForeSpark) |
 | 2026-11-09 | **DForkTree: Accelerating Speculative Decoding with Fork-Aware Block Diffusion Draft Trees**<br><sub>Zhicheng Zheng, Cheng Zhang, Chenkai Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12356) · [PDF](https://arxiv.org/pdf/2611.12356) · [Code](https://github.com/Perseus037/DForkTree) |
 | 2026-11-09 | **Depth as a Candidate Source: Portfolio Allocation for Recurrent Test-Time Scaling in Large Language Models**<br><sub>Chaoyuan Hao, Wentao Yue, Yanyan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12293) · [PDF](https://arxiv.org/pdf/2611.12293) |
 | 2026-11-08 | **ODSA: Orchestrated Discovery and Self-Aggregation**<br><sub>Macardle Meng, Haomin Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.11621) · [PDF](https://arxiv.org/pdf/2611.11621) |

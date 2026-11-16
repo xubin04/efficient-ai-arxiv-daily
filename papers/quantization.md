@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-274 papers · newest submission first
+278 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-13 | **CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation**<br><sub>Md Omar Faruque, Jingang Jin, João Paulo C. de Lima et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17785) · [PDF](https://arxiv.org/pdf/2611.17785) |
+| 2026-11-13 | **Choosing Quantized Code LLMs by File Size and Energy per Solved Task**<br><sub>Aditi Patodiya</sub> | [arXiv](https://arxiv.org/abs/2611.17605) · [PDF](https://arxiv.org/pdf/2611.17605) |
+| 2026-11-12 | **User-Schedulable Approximations for Quantized Tensor Programs**<br><sub>Alex Reinking</sub> | [arXiv](https://arxiv.org/abs/2611.17526) · [PDF](https://arxiv.org/pdf/2611.17526) |
+| 2026-11-12 | **Advancing Quantization for R&amp;R Models with Microscaling Formats**<br><sub>Yavuz Yetim, Bor-Yiing Su, Zhe Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17501) · [PDF](https://arxiv.org/pdf/2611.17501) |
 | 2026-11-12 | **Lara Mini Base: Language Diversity as a Resource, Not a Trade-off**<br><sub>Translated, Maria Pia Adinolfi, Isabelle Andrieu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16956) · [PDF](https://arxiv.org/pdf/2611.16956) · [Code](https://huggingface.co/translated/Lara-4-Mini-Base) |
 | 2026-11-12 | **STEALTH: Steganographic Text Encoding Agnostic to Low-Level Tensor Hardware**<br><sub>William Fleshman</sub> | [arXiv](https://arxiv.org/abs/2611.16928) · [PDF](https://arxiv.org/pdf/2611.16928) |
 | 2026-11-12 | **SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation**<br><sub>Jaehun Gim, Jaewoo Kim, Gyuwan Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16502) · [PDF](https://arxiv.org/pdf/2611.16502) · [Code](https://github.com/HYU-ARK-Lab/SignRot) |
