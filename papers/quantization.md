@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-278 papers · newest submission first
+283 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression**<br><sub>Ofir Gordon, Lior Dikstein, Paul Balanca et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21216) · [PDF](https://arxiv.org/pdf/2611.21216) |
+| 2026-11-16 | **JointQ: Joint Scale-and-Integer Quantization for Large Language Models**<br><sub>Keiji Kimura, Yuma Ichikawa</sub> | [arXiv](https://arxiv.org/abs/2611.20384) · [PDF](https://arxiv.org/pdf/2611.20384) · [Code](https://github.com/FujitsuResearch/OneCompression) |
+| 2026-11-15 | **Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health Assistant for Low-Connectivity Environments**<br><sub>Okenla AbdulQahhar Abimbola, Maurice Abraham John, Adepoju Jeremiah Moyondafoluwa et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20012) · [PDF](https://arxiv.org/pdf/2611.20012) |
+| 2026-11-13 | **NVFP4-MLA: Unified FP4 KV-Cache Storage and Attention Computation for Multi-Head Latent Attention**<br><sub>Chao Ni, Qi Zhang, Xiao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18972) · [PDF](https://arxiv.org/pdf/2611.18972) |
 | 2026-11-13 | **CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation**<br><sub>Md Omar Faruque, Jingang Jin, João Paulo C. de Lima et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17785) · [PDF](https://arxiv.org/pdf/2611.17785) |
 | 2026-11-13 | **Choosing Quantized Code LLMs by File Size and Energy per Solved Task**<br><sub>Aditi Patodiya</sub> | [arXiv](https://arxiv.org/abs/2611.17605) · [PDF](https://arxiv.org/pdf/2611.17605) |
 | 2026-11-12 | **User-Schedulable Approximations for Quantized Tensor Programs**<br><sub>Alex Reinking</sub> | [arXiv](https://arxiv.org/abs/2611.17526) · [PDF](https://arxiv.org/pdf/2611.17526) |
@@ -17,6 +21,7 @@
 | 2026-11-12 | **SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation**<br><sub>Jaehun Gim, Jaewoo Kim, Gyuwan Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16502) · [PDF](https://arxiv.org/pdf/2611.16502) · [Code](https://github.com/HYU-ARK-Lab/SignRot) |
 | 2026-11-12 | **One Model, Two Precisions: Does Disagreement Between Quantized Copies Tell You When a Small Model Is Wrong?**<br><sub>Mohammed Nayeem Khan, Allan Kevin T</sub> | [arXiv](https://arxiv.org/abs/2611.16478) · [PDF](https://arxiv.org/pdf/2611.16478) |
 | 2026-11-12 | **SoScale: Second-Order Scale Search for FP4 Quantization**<br><sub>Pengxiang Zhao, Xing Li, Hui-Ling Zhen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16426) · [PDF](https://arxiv.org/pdf/2611.16426) |
+| 2026-11-12 | **Gradient-Guided Hardware-Native MIXFP4**<br><sub>Jian-Jia Chen, Brian J. Chan, Wen-Hung Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18769) · [PDF](https://arxiv.org/pdf/2611.18769) · [Code](https://github.com/brian030128/flipquant) |
 | 2026-11-11 | **TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models**<br><sub>Ke Li, Zishan Shao, Yiran Chen</sub> | [arXiv](https://arxiv.org/abs/2611.15569) · [PDF](https://arxiv.org/pdf/2611.15569) · [Code](https://github.com/AK-DREAM/TraceKV) |
 | 2026-11-11 | **TQIR: Trellis Quantization with Integer Reconstruction for Bandwidth-Efficient Edge LLM Acceleration**<br><sub>Kuang-Ting Huang, Tian-Sheuan Chang</sub> | [arXiv](https://arxiv.org/abs/2611.15231) · [PDF](https://arxiv.org/pdf/2611.15231) |
 | 2026-11-10 | **Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models**<br><sub>Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri</sub> | [arXiv](https://arxiv.org/abs/2611.14413) · [PDF](https://arxiv.org/pdf/2611.14413) |

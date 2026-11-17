@@ -4,10 +4,19 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-293 papers · newest submission first
+303 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD**<br><sub>Haoran Shang, Weifeng Zhang, Mengzhu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21274) · [PDF](https://arxiv.org/pdf/2611.21274) |
+| 2026-11-16 | **A Matter of Stages: Energy-Latency Trade-offs in Multimodal LLM Serving**<br><sub>Yifan Sun, Jiantong Jiang, Zhexiang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21165) · [PDF](https://arxiv.org/pdf/2611.21165) |
+| 2026-11-16 | **Instant Weight-Space Consolidation for Long-Term Memory in LLMs**<br><sub>Manan Suri, Dinesh Manocha</sub> | [arXiv](https://arxiv.org/abs/2611.20759) · [PDF](https://arxiv.org/pdf/2611.20759) |
+| 2026-11-15 | **CECAR: Cache &amp; Expert Co-Aware Routing Accelerates On-Device Inference of MoE LLMs**<br><sub>Byeongju Kim, Hoonki Lee, Byungjun Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20119) · [PDF](https://arxiv.org/pdf/2611.20119) · [Code](https://github.com/hoonki2002/CECAR) |
+| 2026-11-15 | **Making Preemption Productive in Long-Output LLM Serving**<br><sub>Ziji Shi, Xinyi Wan, Chaoyi Ruan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20106) · [PDF](https://arxiv.org/pdf/2611.20106) |
+| 2026-11-15 | **EfficientSkill: Learning Skills for Token-Efficient Multi-Turn Agents**<br><sub>Deep Shah, Sanket Badhe, Nehal Kathrotia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19823) · [PDF](https://arxiv.org/pdf/2611.19823) |
+| 2026-11-15 | **Multi-Branch Transformer**<br><sub>Gaotang Li, Lingjie Chen, Chunyuan Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19800) · [PDF](https://arxiv.org/pdf/2611.19800) |
+| 2026-11-13 | **NVFP4-MLA: Unified FP4 KV-Cache Storage and Attention Computation for Multi-Head Latent Attention**<br><sub>Chao Ni, Qi Zhang, Xiao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18972) · [PDF](https://arxiv.org/pdf/2611.18972) |
+| 2026-11-13 | **Exstill: The Most Efficient Single-Chip Processor for the Next Token**<br><sub>Valavan Manohararajah, Vithursan Thangarasa</sub> | [arXiv](https://arxiv.org/abs/2611.18859) · [PDF](https://arxiv.org/pdf/2611.18859) |
 | 2026-11-12 | **Broadcast, Don&#x27;t Replicate: Eliminating Weight HBM in Datacenter LLM Serving**<br><sub>Hannah Atmer, Yuan Yao, Thiemo Voigt et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17097) · [PDF](https://arxiv.org/pdf/2611.17097) |
 | 2026-11-12 | **Discovering Effective Agent Memory Designs through Program Evolution**<br><sub>Xinheng Ding, Seyyed Saeid Cheshmi, Ziyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17068) · [PDF](https://arxiv.org/pdf/2611.17068) · [Code](https://github.com/ash-ding/MAPE) |
 | 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
@@ -25,6 +34,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-11-09 | **Evolving Infra: Agent-Adaptive LLM Serving at Scale**<br><sub>Hao Kang, Weili Xu, Ziyang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12304) · [PDF](https://arxiv.org/pdf/2611.12304) · [Code](https://github.com/mit-han-lab/EvolvingInfra) |
 | 2026-11-09 | **RecoGEM: A Serving System for Production-Scale Generative Recommendation**<br><sub>Xiangrui Yang, Yunfeng Zhao, Jiawei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.12296) · [PDF](https://arxiv.org/pdf/2611.12296) |
 | 2026-11-09 | **Prune, Don&#x27;t Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks**<br><sub>Tomas Rasymas, Povilas Kvedaras</sub> | [arXiv](https://arxiv.org/abs/2611.12240) · [PDF](https://arxiv.org/pdf/2611.12240) |
+| 2026-11-09 | **Acting by Intent, Reacting by Sight: Visual Conditioned Reflexes for Real-Time VLM Agents**<br><sub>Qiancheng Zhou, Wenhua Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.18723) · [PDF](https://arxiv.org/pdf/2611.18723) |
 | 2026-11-09 | **BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation**<br><sub>Payman Behnam, Debopam Sanyal, Pranav Ponnusamy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11761) · [PDF](https://arxiv.org/pdf/2611.11761) |
 | 2026-11-08 | **Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference**<br><sub>Devanshu Jha, Gaurav Kumar, Agniva Chowdhury et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11319) · [PDF](https://arxiv.org/pdf/2611.11319) · [Code](https://github.com/epsilon-prime/verifiedKV) |
 | 2026-11-07 | **Slim Foundation Models for Latency-Critical Recommendation Serving**<br><sub>Danyal Aftab, Anas Zafar, Assadig Abakr et al.</sub> | [arXiv](https://arxiv.org/abs/2611.11013) · [PDF](https://arxiv.org/pdf/2611.11013) |

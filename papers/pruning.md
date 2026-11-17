@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-244 papers · newest submission first
+254 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **Representational Change Under Self-Consuming Training: A Sparse Autoencoder Analysis**<br><sub>Suchit Gupte, Zhongteng Cai, Xueru Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21348) · [PDF](https://arxiv.org/pdf/2611.21348) |
+| 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |
+| 2026-11-16 | **RoShift: Lazy Shift and Weight-aware Rotation for Activation Sparsity in LLM Inference**<br><sub>Geunsoo Song, Jiwon Seo, Hoeseok Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20549) · [PDF](https://arxiv.org/pdf/2611.20549) · [Code](https://github.com/hulahula3247/RoShift) |
+| 2026-11-16 | **How Reliable Is Visual Token Selection? Rethinking Pruning in Multimodal LLMs**<br><sub>Chaehee Song, Seokil Ham, KiHyun Seol et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20505) · [PDF](https://arxiv.org/pdf/2611.20505) |
+| 2026-11-15 | **PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation**<br><sub>Jianwen Wu, Meiling Wang, Junkang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20307) · [PDF](https://arxiv.org/pdf/2611.20307) |
+| 2026-11-15 | **Glance, then Select: Evidence-Tempered Visual Token Selection for Extremely Compressed Multimodal LLMs**<br><sub>Yuxuan Wang, Guangxiang Zhao, Yuxuan Tian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20006) · [PDF](https://arxiv.org/pdf/2611.20006) |
+| 2026-11-15 | **Interactive Structured Environment Scaling for Large Language Model Agentic Reasoning**<br><sub>Peng Yu, Luoyi Fu, Xinbing Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19871) · [PDF](https://arxiv.org/pdf/2611.19871) |
+| 2026-11-15 | **EfficientSkill: Learning Skills for Token-Efficient Multi-Turn Agents**<br><sub>Deep Shah, Sanket Badhe, Nehal Kathrotia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19823) · [PDF](https://arxiv.org/pdf/2611.19823) |
+| 2026-11-14 | **SMELL: Sparsity-aware Memory Efficient Federated Fine-tuning for Long-context LLMs**<br><sub>Yin Xu, Yongbo Yang, He Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19349) · [PDF](https://arxiv.org/pdf/2611.19349) |
+| 2026-11-14 | **dit.xpu : Taming DiT Sparse Inference on Mobile SoCs**<br><sub>Jiayu Chen, Jinye Hu, Maoliang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19261) · [PDF](https://arxiv.org/pdf/2611.19261) · [Code](https://github.com/IF-LAB-PKU/dit.xpu) |
 | 2026-11-13 | **Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs**<br><sub>Xuecheng Wu, Aichen Feng, Jinyan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17930) · [PDF](https://arxiv.org/pdf/2611.17930) |
 | 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
 | 2026-11-12 | **Wanda-Guided Sparse Perturbations for Efficient Zeroth-Order Optimization**<br><sub>Ziqing Wen, Xiaohui Song, Jiahuan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16317) · [PDF](https://arxiv.org/pdf/2611.16317) |

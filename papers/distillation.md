@@ -4,10 +4,25 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-548 papers · newest submission first
+563 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **The Limits of Closed-Form Couplings for Few-Step Generation**<br><sub>Tobias Höppe, Stefan Bauer, Qiang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21119) · [PDF](https://arxiv.org/pdf/2611.21119) |
+| 2026-11-16 | **Conflict-Aware Multi-Teacher On-Policy Distillation in Aligned Action Spaces for Cross-Game Generalization**<br><sub>Jing Yi, Cehao Yang, Hualei Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21094) · [PDF](https://arxiv.org/pdf/2611.21094) |
+| 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
+| 2026-11-16 | **An Efficient Training Paradigm for Image Restoration via Improved Fréchet Loss**<br><sub>Shanyuan Jie, Wu Shi, Xinqi Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20805) · [PDF](https://arxiv.org/pdf/2611.20805) |
+| 2026-11-16 | **Fast at the Frontier, Wrong at the Fallback: A Commit-Level Analysis of Threshold Decoding in Diffusion Language Models**<br><sub>Roman Makarov, Zhe Xu, Jian Kang</sub> | [arXiv](https://arxiv.org/abs/2611.20693) · [PDF](https://arxiv.org/pdf/2611.20693) · [Code](https://github.com/rmakarovv/fast-at-the-frontier) |
+| 2026-11-16 | **LEAF-OPD: Learning to Forget from Privileged Contexts via On-Policy Distillation**<br><sub>Zirui Pang, Zhijie Deng, Yuancheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20674) · [PDF](https://arxiv.org/pdf/2611.20674) |
+| 2026-11-15 | **FastGRN: Few-Step Generative Refinement Networks**<br><sub>Haoyang Hu, Masataka Seo, Liang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20021) · [PDF](https://arxiv.org/pdf/2611.20021) |
+| 2026-11-15 | **Glance, then Select: Evidence-Tempered Visual Token Selection for Extremely Compressed Multimodal LLMs**<br><sub>Yuxuan Wang, Guangxiang Zhao, Yuxuan Tian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20006) · [PDF](https://arxiv.org/pdf/2611.20006) |
+| 2026-11-14 | **Program Distillation: Transferring LLM Capability from System 2 to System 0**<br><sub>Pujun Zheng, Wanying Ren, Guoxiu He</sub> | [arXiv](https://arxiv.org/abs/2611.19461) · [PDF](https://arxiv.org/pdf/2611.19461) |
+| 2026-11-14 | **Do Pretraining Optimizer Gains Transfer to KL Distillation?**<br><sub>Lavinia Ghita, Dhruv Desai</sub> | [arXiv](https://arxiv.org/abs/2611.19419) · [PDF](https://arxiv.org/pdf/2611.19419) |
+| 2026-11-14 | **Staged Semantic Distillation: Preserving Free-Form Semantics in a Low-Compute Non-LLM Surrogate of a Staged LLM Agent**<br><sub>Zhiyang Niu, Huayuan Shen, Chuanjie Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19299) · [PDF](https://arxiv.org/pdf/2611.19299) |
+| 2026-11-14 | **Agentic On-Policy Distillation Implicitly Reshapes LLMs&#x27; ReAct Patterns**<br><sub>Deyang Kong, Zhaoyi Li, Sijian Ren et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19244) · [PDF](https://arxiv.org/pdf/2611.19244) |
+| 2026-11-14 | **On-policy distillation as a Backdoor Propagation Channel**<br><sub>Zane Fu, Yanzhao Zheng, Ziting Qin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19207) · [PDF](https://arxiv.org/pdf/2611.19207) |
+| 2026-11-13 | **Simplify, Agree, Distill: Label-Free Self-Distillation with Stepping Stones**<br><sub>Dingyang Chen, Jinfeng Xiao, Zhenyu Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18916) · [PDF](https://arxiv.org/pdf/2611.18916) |
+| 2026-11-13 | **Exstill: The Most Efficient Single-Chip Processor for the Next Token**<br><sub>Valavan Manohararajah, Vithursan Thangarasa</sub> | [arXiv](https://arxiv.org/abs/2611.18859) · [PDF](https://arxiv.org/pdf/2611.18859) |
 | 2026-11-13 | **D2ToF: One-Step Diffusion for Depth Super-Resolution from Lightweight Single-Photon LiDAR Waveforms**<br><sub>Pallabjyoti Deka, Lewis Wilson, Stephen McLaughlin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18243) · [PDF](https://arxiv.org/pdf/2611.18243) |
 | 2026-11-13 | **DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing**<br><sub>Kuai Yu, Wen Li, Shengwen Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17908) · [PDF](https://arxiv.org/pdf/2611.17908) |
 | 2026-11-13 | **Speed-Variation Distillation for Generative Modeling**<br><sub>Sukit Seripanitkarn, Phonphrm Thawatdamrongkit, Supasorn Suwajanakorn</sub> | [arXiv](https://arxiv.org/abs/2611.17868) · [PDF](https://arxiv.org/pdf/2611.17868) |

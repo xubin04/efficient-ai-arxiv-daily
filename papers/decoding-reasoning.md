@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-169 papers · newest submission first
+176 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **Nemotron 3.5 Bolt E4B 4GB: An Open and Efficient Small Language Model for Fast Conversational Agents**<br><sub>NVIDIA, :, Adi Margolin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20771) · [PDF](https://arxiv.org/pdf/2611.20771) |
+| 2026-11-16 | **ToolGraph as a Q-Function for Test-Time Scaling of Tool-Use Agents**<br><sub>Ke Shen, Ankita Bhaumik, Li Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20569) · [PDF](https://arxiv.org/pdf/2611.20569) |
+| 2026-11-15 | **PlanDiv: Test-Time Scaling with Latent Plans for Vision-Language-Action Models**<br><sub>Hanbo Zhang, Lianlei Shan, Liuhaichen Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20010) · [PDF](https://arxiv.org/pdf/2611.20010) |
+| 2026-11-15 | **LoopSkim: Lossless Multi-Depth Speculative Decoding for Looped Language Models**<br><sub>Muhan Xiao, Shijian Li</sub> | [arXiv](https://arxiv.org/abs/2611.19896) · [PDF](https://arxiv.org/pdf/2611.19896) |
+| 2026-11-14 | **LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers**<br><sub>Siqi Zhu, Suozhi Huang, Yi Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19649) · [PDF](https://arxiv.org/pdf/2611.19649) |
+| 2026-11-13 | **SpecRelay: Amortize or Avoid the Round Trip in Edge-Cloud Speculative Decoding**<br><sub>Jai Jain, Chihyo Ahn, Yong Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18963) · [PDF](https://arxiv.org/pdf/2611.18963) |
+| 2026-11-13 | **Exstill: The Most Efficient Single-Chip Processor for the Next Token**<br><sub>Valavan Manohararajah, Vithursan Thangarasa</sub> | [arXiv](https://arxiv.org/abs/2611.18859) · [PDF](https://arxiv.org/pdf/2611.18859) |
 | 2026-11-13 | **MMFlash: Faster Speculative Decoding for Vision-Language Models**<br><sub>Sicheng Feng, Zigeng Chen, Song Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18482) · [PDF](https://arxiv.org/pdf/2611.18482) |
 | 2026-11-13 | **More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs**<br><sub>Seyed Mahmoud Sajjadi Mohammadabadi</sub> | [arXiv](https://arxiv.org/abs/2611.17610) · [PDF](https://arxiv.org/pdf/2611.17610) · [Code](https://github.com/mahmoudsajjadi/pace) |
 | 2026-11-12 | **Towards Green Text Generation: Memory-Based Speculative Decoding**<br><sub>Antal van den Bosch</sub> | [arXiv](https://arxiv.org/abs/2611.16714) · [PDF](https://arxiv.org/pdf/2611.16714) · [Code](https://github.com/antalvdb/olifant-speculative) |

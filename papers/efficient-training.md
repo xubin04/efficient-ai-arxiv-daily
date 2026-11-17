@@ -4,10 +4,19 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-183 papers · newest submission first
+192 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **MORE: Merge Once, Route Early for Training-Free Multi-Subject Composition from Large LoRA Pools**<br><sub>Tian Xia</sub> | [arXiv](https://arxiv.org/abs/2611.21077) · [PDF](https://arxiv.org/pdf/2611.21077) |
+| 2026-11-16 | **EDITORS Know Your Style! Editing LoRA Subspaces for Stylistic Attribution and Imitation**<br><sub>Zixuan Wang, Gregory Kang Ruey Lau, Xiao Tian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20846) · [PDF](https://arxiv.org/pdf/2611.20846) |
+| 2026-11-16 | **An Efficient Training Paradigm for Image Restoration via Improved Fréchet Loss**<br><sub>Shanyuan Jie, Wu Shi, Xinqi Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20805) · [PDF](https://arxiv.org/pdf/2611.20805) |
+| 2026-11-15 | **Protecting Safety during Reasoning Training with Low-Rank Fisher Regularisation**<br><sub>Neel Rajani, Ivan Titov</sub> | [arXiv](https://arxiv.org/abs/2611.20288) · [PDF](https://arxiv.org/pdf/2611.20288) |
+| 2026-11-14 | **SMELL: Sparsity-aware Memory Efficient Federated Fine-tuning for Long-context LLMs**<br><sub>Yin Xu, Yongbo Yang, He Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19349) · [PDF](https://arxiv.org/pdf/2611.19349) |
+| 2026-11-14 | **Can an Agent Rethink What It Knows? Selective Scene Memory Updates in a Changing World**<br><sub>Zhekai Ren, Jiaming Wu</sub> | [arXiv](https://arxiv.org/abs/2611.19227) · [PDF](https://arxiv.org/pdf/2611.19227) |
+| 2026-11-14 | **Incremental Learning of Vision-Language Models via Task Subspace Projection and Dynamic LoRA**<br><sub>Hao Fu, Qian Feng, Hanbin Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19213) · [PDF](https://arxiv.org/pdf/2611.19213) · [Code](https://github.com/FerdinandZJU/TSP-DLoRA) |
+| 2026-11-14 | **MarineSparkLM-4B: A Lightweight Language Model for Marine and Offshore Engineering Built by Parameter-Efficient Adaptation**<br><sub>Cheng Siong Chin</sub> | [arXiv](https://arxiv.org/abs/2611.19151) · [PDF](https://arxiv.org/pdf/2611.19151) |
+| 2026-11-13 | **CARET: Clinical Assertion-Aware Residual Calibration for Medical Image-Text Alignment**<br><sub>Yifan Jin, Tao Liu</sub> | [arXiv](https://arxiv.org/abs/2611.18811) · [PDF](https://arxiv.org/pdf/2611.18811) |
 | 2026-11-12 | **Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models**<br><sub>Tanzeel Abbas, Ahmad Kamran Malik, Nafees Qamar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17128) · [PDF](https://arxiv.org/pdf/2611.17128) |
 | 2026-11-12 | **Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling**<br><sub>Amirmohammad Mohammadi, Rupak Khadka, Kathleen A. Grant et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17105) · [PDF](https://arxiv.org/pdf/2611.17105) · [Code](https://github.com/Advanced-Vision-and-Learning-Lab/ALD_VLM) |
 | 2026-11-12 | **Factored One-sided Adam-Moment for Practical and Scalable SOAP**<br><sub>Jaemyung Yu, Byeongho Heo, Sangdoo Yun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16905) · [PDF](https://arxiv.org/pdf/2611.16905) · [Code](https://github.com/naver-ai/foam) |

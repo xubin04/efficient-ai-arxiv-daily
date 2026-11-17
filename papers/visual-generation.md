@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-232 papers · newest submission first
+240 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
+| 2026-11-16 | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design**<br><sub>Majun Zhang, Yuan Guo, Decheng Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21029) · [PDF](https://arxiv.org/pdf/2611.21029) |
+| 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |
+| 2026-11-16 | **Counterfactual Feature Steering for Adjacency-Preserving Identity Unlearning**<br><sub>FNU Shivam, Layth Sliman, Ramana Reddy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20637) · [PDF](https://arxiv.org/pdf/2611.20637) |
+| 2026-11-15 | **PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation**<br><sub>Jianwen Wu, Meiling Wang, Junkang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20307) · [PDF](https://arxiv.org/pdf/2611.20307) |
+| 2026-11-15 | **FastGRN: Few-Step Generative Refinement Networks**<br><sub>Haoyang Hu, Masataka Seo, Liang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20021) · [PDF](https://arxiv.org/pdf/2611.20021) |
+| 2026-11-14 | **dit.xpu : Taming DiT Sparse Inference on Mobile SoCs**<br><sub>Jiayu Chen, Jinye Hu, Maoliang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19261) · [PDF](https://arxiv.org/pdf/2611.19261) · [Code](https://github.com/IF-LAB-PKU/dit.xpu) |
+| 2026-11-13 | **Role-Separated Diffusion Transformers: Global Rule Isolation and Deterministic Sampling Manifold Compression**<br><sub>Zhiguang Liu, Yi Shang</sub> | [arXiv](https://arxiv.org/abs/2611.19009) · [PDF](https://arxiv.org/pdf/2611.19009) · [Code](https://github.com/lz7fd/RoSeDiT) |
 | 2026-11-13 | **Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs**<br><sub>Xuecheng Wu, Aichen Feng, Jinyan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17930) · [PDF](https://arxiv.org/pdf/2611.17930) |
 | 2026-11-13 | **Speed-Variation Distillation for Generative Modeling**<br><sub>Sukit Seripanitkarn, Phonphrm Thawatdamrongkit, Supasorn Suwajanakorn</sub> | [arXiv](https://arxiv.org/abs/2611.17868) · [PDF](https://arxiv.org/pdf/2611.17868) |
 | 2026-11-13 | **CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation**<br><sub>Md Omar Faruque, Jingang Jin, João Paulo C. de Lima et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17785) · [PDF](https://arxiv.org/pdf/2611.17785) |

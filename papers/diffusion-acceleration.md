@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-136 papers · newest submission first
+139 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
+| 2026-11-15 | **TileCache: Serving Multi-Round Diffusion Image Editing with Compressed Activation Caches**<br><sub>Yuyang Tian, Desen Sun, Shuncheng Jie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20246) · [PDF](https://arxiv.org/pdf/2611.20246) |
+| 2026-11-15 | **Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model**<br><sub>Abhinav Gupta, Nissan Pow</sub> | [arXiv](https://arxiv.org/abs/2611.19709) · [PDF](https://arxiv.org/pdf/2611.19709) · [Code](https://github.com/gabhinav001/cache-or-denoise-less) |
 | 2026-11-13 | **D2ToF: One-Step Diffusion for Depth Super-Resolution from Lightweight Single-Photon LiDAR Waveforms**<br><sub>Pallabjyoti Deka, Lewis Wilson, Stephen McLaughlin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18243) · [PDF](https://arxiv.org/pdf/2611.18243) |
 | 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
 | 2026-11-10 | **Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models**<br><sub>Amir Mann, Jonathan Fhima, Shaked Brody et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14387) · [PDF](https://arxiv.org/pdf/2611.14387) |

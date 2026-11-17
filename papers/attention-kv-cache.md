@@ -4,10 +4,22 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-265 papers · newest submission first
+277 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-16 | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD**<br><sub>Haoran Shang, Weifeng Zhang, Mengzhu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21274) · [PDF](https://arxiv.org/pdf/2611.21274) |
+| 2026-11-16 | **MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression**<br><sub>Ofir Gordon, Lior Dikstein, Paul Balanca et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21216) · [PDF](https://arxiv.org/pdf/2611.21216) |
+| 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
+| 2026-11-16 | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design**<br><sub>Majun Zhang, Yuan Guo, Decheng Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21029) · [PDF](https://arxiv.org/pdf/2611.21029) |
+| 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |
+| 2026-11-15 | **PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation**<br><sub>Jianwen Wu, Meiling Wang, Junkang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20307) · [PDF](https://arxiv.org/pdf/2611.20307) |
+| 2026-11-15 | **Multi-Branch Transformer**<br><sub>Gaotang Li, Lingjie Chen, Chunyuan Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19800) · [PDF](https://arxiv.org/pdf/2611.19800) |
+| 2026-11-14 | **Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic**<br><sub>Aritra Bagchi, Bin Gao, James Spall et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19279) · [PDF](https://arxiv.org/pdf/2611.19279) |
+| 2026-11-14 | **dit.xpu : Taming DiT Sparse Inference on Mobile SoCs**<br><sub>Jiayu Chen, Jinye Hu, Maoliang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19261) · [PDF](https://arxiv.org/pdf/2611.19261) · [Code](https://github.com/IF-LAB-PKU/dit.xpu) |
+| 2026-11-13 | **Bilateral Log-Linear Attention**<br><sub>Kazi Ashik Islam, Guojing Cong</sub> | [arXiv](https://arxiv.org/abs/2611.18974) · [PDF](https://arxiv.org/pdf/2611.18974) |
+| 2026-11-13 | **NVFP4-MLA: Unified FP4 KV-Cache Storage and Attention Computation for Multi-Head Latent Attention**<br><sub>Chao Ni, Qi Zhang, Xiao Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18972) · [PDF](https://arxiv.org/pdf/2611.18972) |
+| 2026-11-13 | **Exstill: The Most Efficient Single-Chip Processor for the Next Token**<br><sub>Valavan Manohararajah, Vithursan Thangarasa</sub> | [arXiv](https://arxiv.org/abs/2611.18859) · [PDF](https://arxiv.org/pdf/2611.18859) |
 | 2026-11-13 | **MMFlash: Faster Speculative Decoding for Vision-Language Models**<br><sub>Sicheng Feng, Zigeng Chen, Song Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.18482) · [PDF](https://arxiv.org/pdf/2611.18482) |
 | 2026-11-13 | **Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs**<br><sub>Xuecheng Wu, Aichen Feng, Jinyan Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17930) · [PDF](https://arxiv.org/pdf/2611.17930) |
 | 2026-11-12 | **Towards Green Text Generation: Memory-Based Speculative Decoding**<br><sub>Antal van den Bosch</sub> | [arXiv](https://arxiv.org/abs/2611.16714) · [PDF](https://arxiv.org/pdf/2611.16714) · [Code](https://github.com/antalvdb/olifant-speculative) |
