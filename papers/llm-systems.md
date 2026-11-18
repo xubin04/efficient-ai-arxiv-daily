@@ -4,10 +4,20 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-303 papers · newest submission first
+313 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models**<br><sub>Rui Ning, Om Chabra, Hari Balakrishnan</sub> | [arXiv](https://arxiv.org/abs/2611.23228) · [PDF](https://arxiv.org/pdf/2611.23228) |
+| 2026-11-17 | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering**<br><sub>Qitong Wang, Jihui Jin, Divya Kothandaraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23085) · [PDF](https://arxiv.org/pdf/2611.23085) |
+| 2026-11-17 | **LoopZip: Visual Token Compression for Efficient Looped Vision-Language Models**<br><sub>Weizhong Huang, Zhicheng Liu, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22728) · [PDF](https://arxiv.org/pdf/2611.22728) |
+| 2026-11-17 | **Semantic-Guided Geometric Decoding for Token-Efficient Visual Grounding**<br><sub>Zhaojie Chen, Junyan Yang, Le Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22577) · [PDF](https://arxiv.org/pdf/2611.22577) |
+| 2026-11-17 | **BQ-LoRA: Binary-Quantized Low-Rank Adapters as Implicit Regularizers for Parameter-Efficient Fine-Tuning**<br><sub>Juyoung Park, Heejun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.22334) · [PDF](https://arxiv.org/pdf/2611.22334) |
+| 2026-11-17 | **SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding**<br><sub>Selin Yildirim, Ali Zeyrek, Deming Chen</sub> | [arXiv](https://arxiv.org/abs/2611.22296) · [PDF](https://arxiv.org/pdf/2611.22296) |
+| 2026-11-17 | **XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools**<br><sub>Yijun Sun, Xudong Liao, Zhuobin Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22280) · [PDF](https://arxiv.org/pdf/2611.22280) |
+| 2026-11-17 | **From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block**<br><sub>Yuji Yamamoto, Satoshi Matsuura</sub> | [arXiv](https://arxiv.org/abs/2611.22243) · [PDF](https://arxiv.org/pdf/2611.22243) |
+| 2026-11-17 | **Communicate the Change: Efficient Expert Parallelism via Activation Compression**<br><sub>Fengyuan Liu, Jay Gala, Siva Reddy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22215) · [PDF](https://arxiv.org/pdf/2611.22215) |
+| 2026-11-16 | **KVUse: Reusable-KV User Memory for Efficient LLM Recommenders**<br><sub>Xin Guo, Qiang Zhang, Xiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21920) · [PDF](https://arxiv.org/pdf/2611.21920) |
 | 2026-11-16 | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD**<br><sub>Haoran Shang, Weifeng Zhang, Mengzhu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21274) · [PDF](https://arxiv.org/pdf/2611.21274) |
 | 2026-11-16 | **A Matter of Stages: Energy-Latency Trade-offs in Multimodal LLM Serving**<br><sub>Yifan Sun, Jiantong Jiang, Zhexiang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21165) · [PDF](https://arxiv.org/pdf/2611.21165) |
 | 2026-11-16 | **Instant Weight-Space Consolidation for Long-Term Memory in LLMs**<br><sub>Manan Suri, Dinesh Manocha</sub> | [arXiv](https://arxiv.org/abs/2611.20759) · [PDF](https://arxiv.org/pdf/2611.20759) |

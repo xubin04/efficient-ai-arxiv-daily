@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-139 papers · newest submission first
+143 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
+| 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
+| 2026-11-17 | **RISA: Recoverable Sparse Attention for Block-Diffusion Language Models**<br><sub>Xinrui Zhong, Fanjiang Ye, Yuke Wang</sub> | [arXiv](https://arxiv.org/abs/2611.22191) · [PDF](https://arxiv.org/pdf/2611.22191) |
+| 2026-11-17 | **BATMoS: Budget-Aware Guidance Allocation for Efficient Video Diffusion**<br><sub>Zhixu Du, Kuo Yang, Jingwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22028) · [PDF](https://arxiv.org/pdf/2611.22028) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
 | 2026-11-15 | **TileCache: Serving Multi-Round Diffusion Image Editing with Compressed Activation Caches**<br><sub>Yuyang Tian, Desen Sun, Shuncheng Jie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20246) · [PDF](https://arxiv.org/pdf/2611.20246) |
 | 2026-11-15 | **Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model**<br><sub>Abhinav Gupta, Nissan Pow</sub> | [arXiv](https://arxiv.org/abs/2611.19709) · [PDF](https://arxiv.org/pdf/2611.19709) · [Code](https://github.com/gabhinav001/cache-or-denoise-less) |

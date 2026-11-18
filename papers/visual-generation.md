@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-240 papers · newest submission first
+247 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
+| 2026-11-17 | **TextSphere: Efficient Text-to-Image Generation via Shared Hyperspherical Alignment and Uniformity**<br><sub>Yixia Zhang, Girish A. Koushik, Xilu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23155) · [PDF](https://arxiv.org/pdf/2611.23155) |
+| 2026-11-17 | **Code World Model 2.0: Towards Infinite Controllable Video Generation**<br><sub>Ruoyu Wang, Hao Zhong, Yanming Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22925) · [PDF](https://arxiv.org/pdf/2611.22925) |
+| 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
+| 2026-11-17 | **Fast and Strong Image Protection against Diffusion Personalization**<br><sub>Jiwon Park, Jihye Kang, Namhyuk Ahn</sub> | [arXiv](https://arxiv.org/abs/2611.22494) · [PDF](https://arxiv.org/pdf/2611.22494) |
+| 2026-11-17 | **BATMoS: Budget-Aware Guidance Allocation for Efficient Video Diffusion**<br><sub>Zhixu Du, Kuo Yang, Jingwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22028) · [PDF](https://arxiv.org/pdf/2611.22028) |
+| 2026-11-16 | **AR-WAM: efficient streaming world-action modeling for autonomous driving**<br><sub>Baiting Luo, Shatadal Mishra, Ahmadreza Moradipari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21851) · [PDF](https://arxiv.org/pdf/2611.21851) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
 | 2026-11-16 | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design**<br><sub>Majun Zhang, Yuan Guo, Decheng Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21029) · [PDF](https://arxiv.org/pdf/2611.21029) |
 | 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |

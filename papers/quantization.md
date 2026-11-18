@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-283 papers · newest submission first
+291 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **HADVQ: Hessian Aware Directional Vector Quantization**<br><sub>Daniil Li, Mars Davletshin, Vadim Klyzhenko et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22721) · [PDF](https://arxiv.org/pdf/2611.22721) |
+| 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
+| 2026-11-17 | **BQ-LoRA: Binary-Quantized Low-Rank Adapters as Implicit Regularizers for Parameter-Efficient Fine-Tuning**<br><sub>Juyoung Park, Heejun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.22334) · [PDF](https://arxiv.org/pdf/2611.22334) |
+| 2026-11-17 | **Communicate the Change: Efficient Expert Parallelism via Activation Compression**<br><sub>Fengyuan Liu, Jay Gala, Siva Reddy et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22215) · [PDF](https://arxiv.org/pdf/2611.22215) |
+| 2026-11-17 | **TempQuant: Learning Adaptive Temperatures for Quantized Language Models**<br><sub>Mukund Athmaram, Liang Ma, Manoj Rao</sub> | [arXiv](https://arxiv.org/abs/2611.22128) · [PDF](https://arxiv.org/pdf/2611.22128) |
+| 2026-11-17 | **Computed Permutation Trellis Coding: Near-Optimal Quantization from Two Multiplications and a 64-Byte Table**<br><sub>Muhammed Fatih Balın</sub> | [arXiv](https://arxiv.org/abs/2611.22019) · [PDF](https://arxiv.org/pdf/2611.22019) |
+| 2026-11-16 | **Beyond Bitwidth: Deployment-Constrained Mixed-Precision Quantization for Multilingual LLM Inference on NVIDIA Blackwell**<br><sub>Hyojung Han</sub> | [arXiv](https://arxiv.org/abs/2611.21974) · [PDF](https://arxiv.org/pdf/2611.21974) |
+| 2026-11-16 | **Watermark Evidence under Open-Weight LLM Modification: Exact Bounds for Low-Rank Output Watermarks**<br><sub>Prashant Shekhar, Dumindu Samaraweera, Caroline Howard</sub> | [arXiv](https://arxiv.org/abs/2611.21702) · [PDF](https://arxiv.org/pdf/2611.21702) |
 | 2026-11-16 | **MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression**<br><sub>Ofir Gordon, Lior Dikstein, Paul Balanca et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21216) · [PDF](https://arxiv.org/pdf/2611.21216) |
 | 2026-11-16 | **JointQ: Joint Scale-and-Integer Quantization for Large Language Models**<br><sub>Keiji Kimura, Yuma Ichikawa</sub> | [arXiv](https://arxiv.org/abs/2611.20384) · [PDF](https://arxiv.org/pdf/2611.20384) · [Code](https://github.com/FujitsuResearch/OneCompression) |
 | 2026-11-15 | **Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health Assistant for Low-Connectivity Environments**<br><sub>Okenla AbdulQahhar Abimbola, Maurice Abraham John, Adepoju Jeremiah Moyondafoluwa et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20012) · [PDF](https://arxiv.org/pdf/2611.20012) |

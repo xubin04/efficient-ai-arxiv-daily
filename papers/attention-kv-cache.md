@@ -4,10 +4,18 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-277 papers · newest submission first
+285 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
+| 2026-11-17 | **The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale**<br><sub>Fırat Öncel, Cem Subakan, Mirco Ravanelli et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22947) · [PDF](https://arxiv.org/pdf/2611.22947) · [Code](https://github.com/firatoncel/KernelRealityCheckNeurIPS2026) |
+| 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
+| 2026-11-17 | **XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools**<br><sub>Yijun Sun, Xudong Liao, Zhuobin Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22280) · [PDF](https://arxiv.org/pdf/2611.22280) |
+| 2026-11-17 | **From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block**<br><sub>Yuji Yamamoto, Satoshi Matsuura</sub> | [arXiv](https://arxiv.org/abs/2611.22243) · [PDF](https://arxiv.org/pdf/2611.22243) |
+| 2026-11-17 | **TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training**<br><sub>Niloofar Gholipour, Marcos Assuncao, Timothy Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22206) · [PDF](https://arxiv.org/pdf/2611.22206) |
+| 2026-11-17 | **RISA: Recoverable Sparse Attention for Block-Diffusion Language Models**<br><sub>Xinrui Zhong, Fanjiang Ye, Yuke Wang</sub> | [arXiv](https://arxiv.org/abs/2611.22191) · [PDF](https://arxiv.org/pdf/2611.22191) |
+| 2026-11-16 | **KVUse: Reusable-KV User Memory for Efficient LLM Recommenders**<br><sub>Xin Guo, Qiang Zhang, Xiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21920) · [PDF](https://arxiv.org/pdf/2611.21920) |
 | 2026-11-16 | **SURMA: Efficient Fine-Grained Communication Offload for SuperPOD**<br><sub>Haoran Shang, Weifeng Zhang, Mengzhu Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21274) · [PDF](https://arxiv.org/pdf/2611.21274) |
 | 2026-11-16 | **MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression**<br><sub>Ofir Gordon, Lior Dikstein, Paul Balanca et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21216) · [PDF](https://arxiv.org/pdf/2611.21216) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |

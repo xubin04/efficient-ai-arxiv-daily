@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-563 papers · newest submission first
+568 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching**<br><sub>Giannis Daras, Marios Papachristou, Adam Klivans et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23229) · [PDF](https://arxiv.org/pdf/2611.23229) |
+| 2026-11-17 | **M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation**<br><sub>Nguyen Quang Trung, Hoang Phan, Shuo Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23034) · [PDF](https://arxiv.org/pdf/2611.23034) |
+| 2026-11-17 | **The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale**<br><sub>Fırat Öncel, Cem Subakan, Mirco Ravanelli et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22947) · [PDF](https://arxiv.org/pdf/2611.22947) · [Code](https://github.com/firatoncel/KernelRealityCheckNeurIPS2026) |
+| 2026-11-17 | **SilverSpoon-KD: A General-Purpose Toolkit for Knowledge Distillation**<br><sub>Xaver R. Davey, David Broman</sub> | [arXiv](https://arxiv.org/abs/2611.22842) · [PDF](https://arxiv.org/pdf/2611.22842) · [Code](https://github.com/silverspoon-dev/silverspoon-kd) |
+| 2026-11-16 | **KVUse: Reusable-KV User Memory for Efficient LLM Recommenders**<br><sub>Xin Guo, Qiang Zhang, Xiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21920) · [PDF](https://arxiv.org/pdf/2611.21920) |
 | 2026-11-16 | **The Limits of Closed-Form Couplings for Few-Step Generation**<br><sub>Tobias Höppe, Stefan Bauer, Qiang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21119) · [PDF](https://arxiv.org/pdf/2611.21119) |
 | 2026-11-16 | **Conflict-Aware Multi-Teacher On-Policy Distillation in Aligned Action Spaces for Cross-Game Generalization**<br><sub>Jing Yi, Cehao Yang, Hualei Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21094) · [PDF](https://arxiv.org/pdf/2611.21094) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |

@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-176 papers · newest submission first
+179 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding**<br><sub>Selin Yildirim, Ali Zeyrek, Deming Chen</sub> | [arXiv](https://arxiv.org/abs/2611.22296) · [PDF](https://arxiv.org/pdf/2611.22296) |
+| 2026-11-16 | **VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding**<br><sub>Xin Guo, Arushi Rai, Xiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21839) · [PDF](https://arxiv.org/pdf/2611.21839) |
+| 2026-11-16 | **Sketch, Don&#x27;t Paint: Allocating Test-Time Compute in Generative Visual Reasoning**<br><sub>Sheng Lu, Guangpin Tao, Tong Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21812) · [PDF](https://arxiv.org/pdf/2611.21812) |
 | 2026-11-16 | **Nemotron 3.5 Bolt E4B 4GB: An Open and Efficient Small Language Model for Fast Conversational Agents**<br><sub>NVIDIA, :, Adi Margolin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20771) · [PDF](https://arxiv.org/pdf/2611.20771) |
 | 2026-11-16 | **ToolGraph as a Q-Function for Test-Time Scaling of Tool-Use Agents**<br><sub>Ke Shen, Ankita Bhaumik, Li Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20569) · [PDF](https://arxiv.org/pdf/2611.20569) |
 | 2026-11-15 | **PlanDiv: Test-Time Scaling with Latent Plans for Vision-Language-Action Models**<br><sub>Hanbo Zhang, Lianlei Shan, Liuhaichen Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20010) · [PDF](https://arxiv.org/pdf/2611.20010) |

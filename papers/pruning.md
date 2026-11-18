@@ -4,11 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-254 papers · newest submission first
+260 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-17 | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering**<br><sub>Qitong Wang, Jihui Jin, Divya Kothandaraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23085) · [PDF](https://arxiv.org/pdf/2611.23085) |
+| 2026-11-17 | **LoopPrune: Recurrent Pruning for Looped Diffusion Transformers**<br><sub>Weizhong Huang, Huaijia Kou, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22757) · [PDF](https://arxiv.org/pdf/2611.22757) |
+| 2026-11-17 | **LoopZip: Visual Token Compression for Efficient Looped Vision-Language Models**<br><sub>Weizhong Huang, Zhicheng Liu, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22728) · [PDF](https://arxiv.org/pdf/2611.22728) |
+| 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
+| 2026-11-17 | **The Fragility of Reasoning-Importance Attribution for Pruning Language Models**<br><sub>Himanshu Mishra</sub> | [arXiv](https://arxiv.org/abs/2611.22234) · [PDF](https://arxiv.org/pdf/2611.22234) |
 | 2026-11-16 | **Representational Change Under Self-Consuming Training: A Sparse Autoencoder Analysis**<br><sub>Suchit Gupte, Zhongteng Cai, Xueru Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21348) · [PDF](https://arxiv.org/pdf/2611.21348) |
+| 2026-11-16 | **Watermark Evidence under Open-Weight LLM Modification: Exact Bounds for Low-Rank Output Watermarks**<br><sub>Prashant Shekhar, Dumindu Samaraweera, Caroline Howard</sub> | [arXiv](https://arxiv.org/abs/2611.21702) · [PDF](https://arxiv.org/pdf/2611.21702) |
 | 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |
 | 2026-11-16 | **RoShift: Lazy Shift and Weight-aware Rotation for Activation Sparsity in LLM Inference**<br><sub>Geunsoo Song, Jiwon Seo, Hoeseok Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20549) · [PDF](https://arxiv.org/pdf/2611.20549) · [Code](https://github.com/hulahula3247/RoShift) |
 | 2026-11-16 | **How Reliable Is Visual Token Selection? Rethinking Pruning in Multimodal LLMs**<br><sub>Chaehee Song, Seokil Ham, KiHyun Seol et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20505) · [PDF](https://arxiv.org/pdf/2611.20505) |
