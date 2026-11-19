@@ -4,10 +4,11 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-200 papers · newest submission first
+201 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning**<br><sub>Andrei Kostin, José Ángel Diaz-Garcia, Karel Gutiérrez-Batista</sub> | [arXiv](https://arxiv.org/abs/2611.24049) · [PDF](https://arxiv.org/pdf/2611.24049) |
 | 2026-11-17 | **Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU**<br><sub>Mehmet Altan Toksöz</sub> | [arXiv](https://arxiv.org/abs/2611.23205) · [PDF](https://arxiv.org/pdf/2611.23205) |
 | 2026-11-17 | **MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study**<br><sub>Nikit Srivastava, Joel Dag, René Speck et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23158) · [PDF](https://arxiv.org/pdf/2611.23158) |
 | 2026-11-17 | **Efficient Self-Supervised Adaptation of 3D Abdominal Vision-Language Model for Institution-Specific HCC Classification via Full Fine-Tuning and PEFT**<br><sub>Febryan Putra Kartika, Cheng-Yu Ma, Ying-Jia Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22504) · [PDF](https://arxiv.org/pdf/2611.22504) |

@@ -4,10 +4,14 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-313 papers · newest submission first
+318 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **eFAIR: Fair LLM Serving under Hourly Electricity Commitments**<br><sub>You Peng, Youhe Jiang, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24119) · [PDF](https://arxiv.org/pdf/2611.24119) |
+| 2026-11-18 | **LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices**<br><sub>Zihao Wang, Ye Tian, Tajana Rosing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24085) · [PDF](https://arxiv.org/pdf/2611.24085) · [Code](https://github.com/gdfwj/LEDGE) |
+| 2026-11-18 | **HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic**<br><sub>Zhiheng Chen, Yu-An Chou, Yifan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23878) · [PDF](https://arxiv.org/pdf/2611.23878) |
+| 2026-11-17 | **Towards Fair Resource Sharing in Agentic LLM Serving**<br><sub>Sehyeon Lee, Yuchen Xia, Zhaoyang Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23558) · [PDF](https://arxiv.org/pdf/2611.23558) |
 | 2026-11-17 | **Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models**<br><sub>Rui Ning, Om Chabra, Hari Balakrishnan</sub> | [arXiv](https://arxiv.org/abs/2611.23228) · [PDF](https://arxiv.org/pdf/2611.23228) |
 | 2026-11-17 | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering**<br><sub>Qitong Wang, Jihui Jin, Divya Kothandaraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23085) · [PDF](https://arxiv.org/pdf/2611.23085) |
 | 2026-11-17 | **LoopZip: Visual Token Compression for Efficient Looped Vision-Language Models**<br><sub>Weizhong Huang, Zhicheng Liu, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22728) · [PDF](https://arxiv.org/pdf/2611.22728) |
@@ -30,6 +34,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-11-12 | **Broadcast, Don&#x27;t Replicate: Eliminating Weight HBM in Datacenter LLM Serving**<br><sub>Hannah Atmer, Yuan Yao, Thiemo Voigt et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17097) · [PDF](https://arxiv.org/pdf/2611.17097) |
 | 2026-11-12 | **Discovering Effective Agent Memory Designs through Program Evolution**<br><sub>Xinheng Ding, Seyyed Saeid Cheshmi, Ziyang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.17068) · [PDF](https://arxiv.org/pdf/2611.17068) · [Code](https://github.com/ash-ding/MAPE) |
 | 2026-11-12 | **DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models**<br><sub>Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16345) · [PDF](https://arxiv.org/pdf/2611.16345) |
+| 2026-11-12 | **Local Coordination for Efficient Small-Model RL on TPUs**<br><sub>Loki Chen, Gregory B. Rehm, Yang Song et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16301) · [PDF](https://arxiv.org/pdf/2611.16301) |
 | 2026-11-12 | **Fast Serverless LLM Cold Starts by Sharing and Prewarming Startup Work**<br><sub>Hongjin Kim, Igjae Kim, Kwanghoon Choi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.16180) · [PDF](https://arxiv.org/pdf/2611.16180) |
 | 2026-11-11 | **Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading**<br><sub>Pierre-Luc Bacon, Diego Calanzone, Jean-Maxime Larouche</sub> | [arXiv](https://arxiv.org/abs/2611.15842) · [PDF](https://arxiv.org/pdf/2611.15842) · [Code](https://github.com/carbonforgeAI/moe-expert-eviction) |
 | 2026-11-10 | **SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving**<br><sub>Haolin Jiang, Weihang Li, Zhongzhu Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.14246) · [PDF](https://arxiv.org/pdf/2611.14246) |

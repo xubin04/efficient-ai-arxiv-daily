@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-568 papers · newest submission first
+571 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **ProxySearch: Decoupled Inference-Time Scaling for Diffusion Models via Asymmetric Noise-Rank Transfer**<br><sub>Seungwook Kim, Jongmin Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23929) · [PDF](https://arxiv.org/pdf/2611.23929) |
+| 2026-11-18 | **Communicative On-Policy Distillation: Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks**<br><sub>Lirui Luo, Kelong Mao, Xinwei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23673) · [PDF](https://arxiv.org/pdf/2611.23673) |
+| 2026-11-17 | **Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives**<br><sub>Hubert Strauss, Liam Fowl, Noam Razin</sub> | [arXiv](https://arxiv.org/abs/2611.23397) · [PDF](https://arxiv.org/pdf/2611.23397) · [Code](https://github.com/princeton-pli/opd-objectives-analysis) |
 | 2026-11-17 | **Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching**<br><sub>Giannis Daras, Marios Papachristou, Adam Klivans et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23229) · [PDF](https://arxiv.org/pdf/2611.23229) |
 | 2026-11-17 | **M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation**<br><sub>Nguyen Quang Trung, Hoang Phan, Shuo Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23034) · [PDF](https://arxiv.org/pdf/2611.23034) |
 | 2026-11-17 | **The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale**<br><sub>Fırat Öncel, Cem Subakan, Mirco Ravanelli et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22947) · [PDF](https://arxiv.org/pdf/2611.22947) · [Code](https://github.com/firatoncel/KernelRealityCheckNeurIPS2026) |

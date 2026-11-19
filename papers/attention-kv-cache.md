@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-285 papers · newest submission first
+288 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **Every Query Routes Itself: Accelerating Video Diffusion Transformers with Per-Query Routed Sparse Attention**<br><sub>Zhen Huang, Shuwei Li, Ruizhe Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24479) · [PDF](https://arxiv.org/pdf/2611.24479) |
+| 2026-11-18 | **Spark-H3: Adaptive Block Sparse Attention for Video Diffusion Models**<br><sub>Zecheng Tang, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24256) · [PDF](https://arxiv.org/pdf/2611.24256) |
+| 2026-11-17 | **Safe to Omit, Worth Omitting? Keeping the Answer and Cutting Latency When an LLM Agent Skips Another&#x27;s Message**<br><sub>Xinyang Li, Chih-Hsuan Yang, Xiaolong Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23570) · [PDF](https://arxiv.org/pdf/2611.23570) · [Code](https://github.com/Piedpiperrr/safe-to-omit) |
 | 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
 | 2026-11-17 | **The Kernel Reality Check: Benchmarking and Distilling Efficient Attention at Scale**<br><sub>Fırat Öncel, Cem Subakan, Mirco Ravanelli et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22947) · [PDF](https://arxiv.org/pdf/2611.22947) · [Code](https://github.com/firatoncel/KernelRealityCheckNeurIPS2026) |
 | 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |

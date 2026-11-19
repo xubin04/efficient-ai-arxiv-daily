@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-291 papers · newest submission first
+295 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |
+| 2026-11-18 | **Compression Effects on Low-Resource Multilingual Translation**<br><sub>Abbas Sani</sub> | [arXiv](https://arxiv.org/abs/2611.24043) · [PDF](https://arxiv.org/pdf/2611.24043) · [Code](https://github.com/avvas200/efficient-multilingual-nmt-pilot%60) |
+| 2026-11-18 | **MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models**<br><sub>Dongkeun Lee, Wonjun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23695) · [PDF](https://arxiv.org/pdf/2611.23695) · [Code](https://github.com/sco-edge/MoMoVL) |
+| 2026-11-17 | **QDA: Closed-Loop LLM Quantization Design with Agents**<br><sub>Xingyang Li, Tianlang Zhao, Song Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23388) · [PDF](https://arxiv.org/pdf/2611.23388) |
 | 2026-11-17 | **HADVQ: Hessian Aware Directional Vector Quantization**<br><sub>Daniil Li, Mars Davletshin, Vadim Klyzhenko et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22721) · [PDF](https://arxiv.org/pdf/2611.22721) |
 | 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
 | 2026-11-17 | **BQ-LoRA: Binary-Quantized Low-Rank Adapters as Implicit Regularizers for Parameter-Efficient Fine-Tuning**<br><sub>Juyoung Park, Heejun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.22334) · [PDF](https://arxiv.org/pdf/2611.22334) |

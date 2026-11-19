@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-260 papers · newest submission first
+264 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **Diffusion Models are Provably Efficient Priors for Sparse Recovery**<br><sub>Ivan Lee, Xingyu Xu, Yuejie Chi</sub> | [arXiv](https://arxiv.org/abs/2611.24602) · [PDF](https://arxiv.org/pdf/2611.24602) |
+| 2026-11-18 | **Let a Small Model Read First: Faster Prefill for Long Interleaved Image-Text Inputs**<br><sub>Xiaolin Lin, Kai-Chiang Wu, Bing Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24431) · [PDF](https://arxiv.org/pdf/2611.24431) |
+| 2026-11-18 | **Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity**<br><sub>Vikash Kumar</sub> | [arXiv](https://arxiv.org/abs/2611.23905) · [PDF](https://arxiv.org/pdf/2611.23905) |
+| 2026-11-18 | **MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models**<br><sub>Dongkeun Lee, Wonjun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23695) · [PDF](https://arxiv.org/pdf/2611.23695) · [Code](https://github.com/sco-edge/MoMoVL) |
 | 2026-11-17 | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering**<br><sub>Qitong Wang, Jihui Jin, Divya Kothandaraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23085) · [PDF](https://arxiv.org/pdf/2611.23085) |
 | 2026-11-17 | **LoopPrune: Recurrent Pruning for Looped Diffusion Transformers**<br><sub>Weizhong Huang, Huaijia Kou, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22757) · [PDF](https://arxiv.org/pdf/2611.22757) |
 | 2026-11-17 | **LoopZip: Visual Token Compression for Efficient Looped Vision-Language Models**<br><sub>Weizhong Huang, Zhicheng Liu, Yan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22728) · [PDF](https://arxiv.org/pdf/2611.22728) |

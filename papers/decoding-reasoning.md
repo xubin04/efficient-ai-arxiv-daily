@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-179 papers · newest submission first
+182 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-18 | **Test-Time Symmetrization: Scaling Laws for Model-Agnostic Learning under Structure**<br><sub>Behrooz Tahmasebi, Melanie Weber</sub> | [arXiv](https://arxiv.org/abs/2611.24032) · [PDF](https://arxiv.org/pdf/2611.24032) |
+| 2026-11-18 | **NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding**<br><sub>Alagappan Valliappan, Ankit More, Dheevatsa Mudigere et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23835) · [PDF](https://arxiv.org/pdf/2611.23835) |
+| 2026-11-17 | **FACT: Fixed-Budget Allocation and Cross-Step Training for Speculative Decoding**<br><sub>Hadi Fares, Mayssa Hajj Hassan, Ali Salman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23463) · [PDF](https://arxiv.org/pdf/2611.23463) · [Code](https://github.com/mrfares11/specdec) |
 | 2026-11-17 | **SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding**<br><sub>Selin Yildirim, Ali Zeyrek, Deming Chen</sub> | [arXiv](https://arxiv.org/abs/2611.22296) · [PDF](https://arxiv.org/pdf/2611.22296) |
 | 2026-11-16 | **VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding**<br><sub>Xin Guo, Arushi Rai, Xiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21839) · [PDF](https://arxiv.org/pdf/2611.21839) |
 | 2026-11-16 | **Sketch, Don&#x27;t Paint: Allocating Test-Time Compute in Generative Visual Reasoning**<br><sub>Sheng Lu, Guangpin Tao, Tong Lu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21812) · [PDF](https://arxiv.org/pdf/2611.21812) |
