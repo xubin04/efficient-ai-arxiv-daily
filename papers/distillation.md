@@ -4,10 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-571 papers · newest submission first
+582 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
+| 2026-11-19 | **GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers**<br><sub>Sahibzada Allahyar, Julia White, Dhruv Atreja et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26509) · [PDF](https://arxiv.org/pdf/2611.26509) |
+| 2026-11-19 | **Fast Self-Supervised Generative CT Denoising via Few-Step Sampling**<br><sub>Xingyi Yao, Zhengtao Ma, Zhennong Chen</sub> | [arXiv](https://arxiv.org/abs/2611.26370) · [PDF](https://arxiv.org/pdf/2611.26370) |
+| 2026-11-19 | **Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency**<br><sub>Zhihao Hu, Jianqi Ma, Jun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26040) · [PDF](https://arxiv.org/pdf/2611.26040) |
+| 2026-11-19 | **Reinforcing Few-Step Diffusion Models via Shadow Posterior Matching**<br><sub>Jingqiao Xiu, Yicong Li</sub> | [arXiv](https://arxiv.org/abs/2611.25998) · [PDF](https://arxiv.org/pdf/2611.25998) · [Code](https://github.com/shadow-posterior/code) |
+| 2026-11-19 | **TrajCal: Trajectory-Calibrated Time Schedules for Few-Step Flow Sampling**<br><sub>Junchi Zhang, Zihan Gu, Jiangcan Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25847) · [PDF](https://arxiv.org/pdf/2611.25847) |
+| 2026-11-19 | **Efficient Latent Reasoning for Vision-Language Model via Dynamics-Aware Quantization and Distillation**<br><sub>Yanjing Li, Sheng Xu, Baochang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25670) · [PDF](https://arxiv.org/pdf/2611.25670) |
+| 2026-11-19 | **AesDistill: Distilling Generative Aesthetics for Image Color Enhancement**<br><sub>Chuanzhi Xu, Chengkun Yue, Huiqi Liang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25635) · [PDF](https://arxiv.org/pdf/2611.25635) |
+| 2026-11-19 | **TwoPass: Draft-Guided Few-Step Video Prediction for Robotic Manipulation**<br><sub>Yijun Liu, Shijia Ge, Tongtong Feng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25553) · [PDF](https://arxiv.org/pdf/2611.25553) · [Code](https://github.com/PlantPotatoOnMoon/TwoPass) |
+| 2026-11-19 | **HOPD: Historical On-Policy Distillation for SAR MLLM Continual Learning**<br><sub>Yuxuan Li, Derrick Goh Xin Deik, Zheng-Peng Duan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25391) · [PDF](https://arxiv.org/pdf/2611.25391) · [Code](https://github.com/zcablii/HOPD) |
+| 2026-11-18 | **VisAlloc: Allocating Visual Supervision for On-Policy Self-Distillation**<br><sub>Haoran Xu, Tian Chen, Yuhe Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25069) · [PDF](https://arxiv.org/pdf/2611.25069) · [Code](https://github.com/Kaelyn01/VisAlloc) |
 | 2026-11-18 | **ProxySearch: Decoupled Inference-Time Scaling for Diffusion Models via Asymmetric Noise-Rank Transfer**<br><sub>Seungwook Kim, Jongmin Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23929) · [PDF](https://arxiv.org/pdf/2611.23929) |
 | 2026-11-18 | **Communicative On-Policy Distillation: Distilling Black-Box Teacher Capabilities through Communication for Long-Horizon Tasks**<br><sub>Lirui Luo, Kelong Mao, Xinwei Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23673) · [PDF](https://arxiv.org/pdf/2611.23673) |
 | 2026-11-17 | **Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives**<br><sub>Hubert Strauss, Liam Fowl, Noam Razin</sub> | [arXiv](https://arxiv.org/abs/2611.23397) · [PDF](https://arxiv.org/pdf/2611.23397) · [Code](https://github.com/princeton-pli/opd-objectives-analysis) |

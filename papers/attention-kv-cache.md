@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-288 papers · newest submission first
+299 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue**<br><sub>Rishabh Ravi, Tony Hong, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26435) · [PDF](https://arxiv.org/pdf/2611.26435) |
+| 2026-11-19 | **HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs**<br><sub>Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure</sub> | [arXiv](https://arxiv.org/abs/2611.26363) · [PDF](https://arxiv.org/pdf/2611.26363) · [Code](https://github.com/ambroise-b/hisa) |
+| 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
+| 2026-11-19 | **AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling**<br><sub>Zechun Zhou, Zhiyong Zheng, Xiaomin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26106) · [PDF](https://arxiv.org/pdf/2611.26106) |
+| 2026-11-19 | **FrontierReplay: Split-Free Exact Prefix Caching for Hybrid Language Models**<br><sub>Zekun Wang, Yizhuo Wang</sub> | [arXiv](https://arxiv.org/abs/2611.26020) · [PDF](https://arxiv.org/pdf/2611.26020) |
+| 2026-11-19 | **DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention**<br><sub>Emre Uğur, Jiawen Qi, Qinyu Chen</sub> | [arXiv](https://arxiv.org/abs/2611.25938) · [PDF](https://arxiv.org/pdf/2611.25938) |
+| 2026-11-19 | **Thinking in Streams: Proactive Spatial Reasoning with Vision-Language Models**<br><sub>Junyoung Hong, Minsu Kim, Jaehyun Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25865) · [PDF](https://arxiv.org/pdf/2611.25865) |
+| 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
+| 2026-11-19 | **RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression**<br><sub>Payman Behnam, Elaheh Sobhani, Saad Amin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25433) · [PDF](https://arxiv.org/pdf/2611.25433) |
+| 2026-11-18 | **TripleKV: Predict, Prefetch, Protect -- KV Cache Management for AI Agents**<br><sub>Shashwat Jaiswal, Chloe Alverti, Mengmei Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25112) · [PDF](https://arxiv.org/pdf/2611.25112) |
 | 2026-11-18 | **Every Query Routes Itself: Accelerating Video Diffusion Transformers with Per-Query Routed Sparse Attention**<br><sub>Zhen Huang, Shuwei Li, Ruizhe Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24479) · [PDF](https://arxiv.org/pdf/2611.24479) |
 | 2026-11-18 | **Spark-H3: Adaptive Block Sparse Attention for Video Diffusion Models**<br><sub>Zecheng Tang, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24256) · [PDF](https://arxiv.org/pdf/2611.24256) |
 | 2026-11-17 | **Safe to Omit, Worth Omitting? Keeping the Answer and Cutting Latency When an LLM Agent Skips Another&#x27;s Message**<br><sub>Xinyang Li, Chih-Hsuan Yang, Xiaolong Ma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23570) · [PDF](https://arxiv.org/pdf/2611.23570) · [Code](https://github.com/Piedpiperrr/safe-to-omit) |
@@ -24,6 +34,7 @@
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
 | 2026-11-16 | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design**<br><sub>Majun Zhang, Yuan Guo, Decheng Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21029) · [PDF](https://arxiv.org/pdf/2611.21029) |
 | 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |
+| 2026-11-16 | **Global Importance Estimation for KV Cache Eviction**<br><sub>Seojin Kim, Noseong Park</sub> | [arXiv](https://arxiv.org/abs/2611.24969) · [PDF](https://arxiv.org/pdf/2611.24969) |
 | 2026-11-15 | **PoCoAttn: Position-Content Collaborative Sparse Attention for Fast and High-Fidelity Video Generation**<br><sub>Jianwen Wu, Meiling Wang, Junkang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20307) · [PDF](https://arxiv.org/pdf/2611.20307) |
 | 2026-11-15 | **Multi-Branch Transformer**<br><sub>Gaotang Li, Lingjie Chen, Chunyuan Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19800) · [PDF](https://arxiv.org/pdf/2611.19800) |
 | 2026-11-14 | **Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic**<br><sub>Aritra Bagchi, Bin Gao, James Spall et al.</sub> | [arXiv](https://arxiv.org/abs/2611.19279) · [PDF](https://arxiv.org/pdf/2611.19279) |

@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-264 papers · newest submission first
+270 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs**<br><sub>Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure</sub> | [arXiv](https://arxiv.org/abs/2611.26363) · [PDF](https://arxiv.org/pdf/2611.26363) · [Code](https://github.com/ambroise-b/hisa) |
+| 2026-11-19 | **What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest**<br><sub>Lingkai Bu, Qian Gao</sub> | [arXiv](https://arxiv.org/abs/2611.25814) · [PDF](https://arxiv.org/pdf/2611.25814) |
+| 2026-11-19 | **VR-SparseQuant: Accurate FP4 Quantization with 2:4 Sparsity on Vera Rubin**<br><sub>Samir Khaki, Wei-Chen Wang, Song Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25717) · [PDF](https://arxiv.org/pdf/2611.25717) |
+| 2026-11-19 | **VidToC: Rethinking Video Token Compression for Multimodal Large Language Models**<br><sub>Zihan Xiao, Boshen Xu, Pei Fu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25574) · [PDF](https://arxiv.org/pdf/2611.25574) |
+| 2026-11-19 | **Query-Aware vs. Query-Agnostic Training-Free Video Token Pruning in Multimodal LLMs**<br><sub>Divya Kothandaraman, Timo Kumkel, Jaclyn Pytlarz</sub> | [arXiv](https://arxiv.org/abs/2611.25537) · [PDF](https://arxiv.org/pdf/2611.25537) |
+| 2026-11-19 | **RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression**<br><sub>Payman Behnam, Elaheh Sobhani, Saad Amin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25433) · [PDF](https://arxiv.org/pdf/2611.25433) |
 | 2026-11-18 | **Diffusion Models are Provably Efficient Priors for Sparse Recovery**<br><sub>Ivan Lee, Xingyu Xu, Yuejie Chi</sub> | [arXiv](https://arxiv.org/abs/2611.24602) · [PDF](https://arxiv.org/pdf/2611.24602) |
 | 2026-11-18 | **Let a Small Model Read First: Faster Prefill for Long Interleaved Image-Text Inputs**<br><sub>Xiaolin Lin, Kai-Chiang Wu, Bing Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24431) · [PDF](https://arxiv.org/pdf/2611.24431) |
 | 2026-11-18 | **Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity**<br><sub>Vikash Kumar</sub> | [arXiv](https://arxiv.org/abs/2611.23905) · [PDF](https://arxiv.org/pdf/2611.23905) |

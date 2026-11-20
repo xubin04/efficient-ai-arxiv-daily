@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-252 papers · newest submission first
+259 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
+| 2026-11-19 | **Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware**<br><sub>Víctor Rodrigo González, Pablo M. Olmos, Ignacio Peis et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26437) · [PDF](https://arxiv.org/pdf/2611.26437) · [Code](https://github.com/deeplearningcafe/asuka-fm) |
+| 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
+| 2026-11-19 | **StreamEgo: Streaming Exocentric-to-Egocentric Video Generation**<br><sub>Tianyi Xu, Boyang Lyu, Yunkai Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26165) · [PDF](https://arxiv.org/pdf/2611.26165) |
+| 2026-11-19 | **Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency**<br><sub>Zhihao Hu, Jianqi Ma, Jun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26040) · [PDF](https://arxiv.org/pdf/2611.26040) |
+| 2026-11-19 | **TrajCal: Trajectory-Calibrated Time Schedules for Few-Step Flow Sampling**<br><sub>Junchi Zhang, Zihan Gu, Jiangcan Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25847) · [PDF](https://arxiv.org/pdf/2611.25847) |
+| 2026-11-19 | **FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash**<br><sub>Yuseon Choi, Sanghyeon Park, Eunjong Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25580) · [PDF](https://arxiv.org/pdf/2611.25580) |
 | 2026-11-18 | **Every Query Routes Itself: Accelerating Video Diffusion Transformers with Per-Query Routed Sparse Attention**<br><sub>Zhen Huang, Shuwei Li, Ruizhe Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24479) · [PDF](https://arxiv.org/pdf/2611.24479) |
 | 2026-11-18 | **Spark-H3: Adaptive Block Sparse Attention for Video Diffusion Models**<br><sub>Zecheng Tang, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24256) · [PDF](https://arxiv.org/pdf/2611.24256) |
 | 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |

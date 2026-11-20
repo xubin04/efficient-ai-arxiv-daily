@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-295 papers · newest submission first
+301 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
+| 2026-11-19 | **AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling**<br><sub>Zechun Zhou, Zhiyong Zheng, Xiaomin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26106) · [PDF](https://arxiv.org/pdf/2611.26106) |
+| 2026-11-19 | **VR-SparseQuant: Accurate FP4 Quantization with 2:4 Sparsity on Vera Rubin**<br><sub>Samir Khaki, Wei-Chen Wang, Song Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25717) · [PDF](https://arxiv.org/pdf/2611.25717) |
+| 2026-11-19 | **Efficient Latent Reasoning for Vision-Language Model via Dynamics-Aware Quantization and Distillation**<br><sub>Yanjing Li, Sheng Xu, Baochang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25670) · [PDF](https://arxiv.org/pdf/2611.25670) |
+| 2026-11-19 | **Splice-Core: Low-Order-Bit-Splicing GEMM for Highly Energy-Efficient AI Inference Accelerators**<br><sub>Prabhu Vellaisamy, Hsien-Fu Hung, Andrew Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25617) · [PDF](https://arxiv.org/pdf/2611.25617) |
+| 2026-11-19 | **Fold the Loop: Decoding-Time KV Memory for Looped Vision-Language Models**<br><sub>Kun Zhou, Wenmian Yang, Zhensheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25369) · [PDF](https://arxiv.org/pdf/2611.25369) |
 | 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |
 | 2026-11-18 | **Compression Effects on Low-Resource Multilingual Translation**<br><sub>Abbas Sani</sub> | [arXiv](https://arxiv.org/abs/2611.24043) · [PDF](https://arxiv.org/pdf/2611.24043) · [Code](https://github.com/avvas200/efficient-multilingual-nmt-pilot%60) |
 | 2026-11-18 | **MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models**<br><sub>Dongkeun Lee, Wonjun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23695) · [PDF](https://arxiv.org/pdf/2611.23695) · [Code](https://github.com/sco-edge/MoMoVL) |

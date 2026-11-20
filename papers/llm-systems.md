@@ -4,10 +4,18 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-318 papers · newest submission first
+326 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming**<br><sub>Jinbin Luo, Xiaozhe Yao, Shang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26619) · [PDF](https://arxiv.org/pdf/2611.26619) |
+| 2026-11-19 | **Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models**<br><sub>Chang Yang, Yao Xuan, Wendan Yan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26531) · [PDF](https://arxiv.org/pdf/2611.26531) |
+| 2026-11-19 | **Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue**<br><sub>Rishabh Ravi, Tony Hong, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26435) · [PDF](https://arxiv.org/pdf/2611.26435) |
+| 2026-11-19 | **ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models**<br><sub>Jiawei Xing, Li Wang, Xiangtao Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26117) · [PDF](https://arxiv.org/pdf/2611.26117) |
+| 2026-11-19 | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation**<br><sub>Zhixiong Hu, Meng Li, Maggie Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26096) · [PDF](https://arxiv.org/pdf/2611.26096) |
+| 2026-11-19 | **DriftGuard: Online Memory-Drift Detection via Causal Attribution for LLM Agents**<br><sub>Licheng Pan, Yuzhou Chen, Zhixuan Chu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25583) · [PDF](https://arxiv.org/pdf/2611.25583) |
+| 2026-11-19 | **RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression**<br><sub>Payman Behnam, Elaheh Sobhani, Saad Amin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25433) · [PDF](https://arxiv.org/pdf/2611.25433) |
+| 2026-11-18 | **TripleKV: Predict, Prefetch, Protect -- KV Cache Management for AI Agents**<br><sub>Shashwat Jaiswal, Chloe Alverti, Mengmei Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25112) · [PDF](https://arxiv.org/pdf/2611.25112) |
 | 2026-11-18 | **eFAIR: Fair LLM Serving under Hourly Electricity Commitments**<br><sub>You Peng, Youhe Jiang, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24119) · [PDF](https://arxiv.org/pdf/2611.24119) |
 | 2026-11-18 | **LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices**<br><sub>Zihao Wang, Ye Tian, Tajana Rosing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24085) · [PDF](https://arxiv.org/pdf/2611.24085) · [Code](https://github.com/gdfwj/LEDGE) |
 | 2026-11-18 | **HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic**<br><sub>Zhiheng Chen, Yu-An Chou, Yifan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23878) · [PDF](https://arxiv.org/pdf/2611.23878) |

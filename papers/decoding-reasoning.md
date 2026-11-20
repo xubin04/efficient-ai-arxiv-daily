@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-182 papers · newest submission first
+187 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-19 | **Generalist Meets Specialists: An Evolving Multimodal Agent with Persistent Tool Orchestration for Traffic Scenario Understanding**<br><sub>Linjia Kang, Binhan Jiang, Juan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25868) · [PDF](https://arxiv.org/pdf/2611.25868) |
+| 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
+| 2026-11-19 | **Raptor: Rejection-aware Adaptive Tree based on Speculative Decoding**<br><sub>Qishu Hu, Haozhao Wang, Zicong Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25436) · [PDF](https://arxiv.org/pdf/2611.25436) |
+| 2026-11-18 | **ScaleDiag: Diagnosing the Limits of Test-Time Scaling in GUI Grounding**<br><sub>Chen Liu, Zhen Fang, Xin Yu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25297) · [PDF](https://arxiv.org/pdf/2611.25297) · [Code](https://github.com/YenanLiu/ScaleDiag) |
+| 2026-11-18 | **A Verifier from the Past: Test-Time Compute for Time Series Foundation Models**<br><sub>Arjun Choudhry, Aditya Narayanan, Raghav Mallampalli et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25171) · [PDF](https://arxiv.org/pdf/2611.25171) |
 | 2026-11-18 | **Test-Time Symmetrization: Scaling Laws for Model-Agnostic Learning under Structure**<br><sub>Behrooz Tahmasebi, Melanie Weber</sub> | [arXiv](https://arxiv.org/abs/2611.24032) · [PDF](https://arxiv.org/pdf/2611.24032) |
 | 2026-11-18 | **NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding**<br><sub>Alagappan Valliappan, Ankit More, Dheevatsa Mudigere et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23835) · [PDF](https://arxiv.org/pdf/2611.23835) |
 | 2026-11-17 | **FACT: Fixed-Budget Allocation and Cross-Step Training for Speculative Decoding**<br><sub>Hadi Fares, Mayssa Hajj Hassan, Ali Salman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23463) · [PDF](https://arxiv.org/pdf/2611.23463) · [Code](https://github.com/mrfares11/specdec) |
