@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-20 16:36 CST** · **1894 unique papers** · Newest submission: **2026-11-19**
+Last successful scan: **2026-11-21 16:19 CST** · **1894 unique papers** · Newest submission: **2026-11-19**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-11-20 16:36 CST** · **1894 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 151 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 259 |
 
-## Newly indexed · 2026-11-20
+## Newly indexed · 2026-11-21
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
-| 2026-11-19 | **TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming**<br><sub>Jinbin Luo, Xiaozhe Yao, Shang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26619) · [PDF](https://arxiv.org/pdf/2611.26619) |
-| 2026-11-19 | **Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models**<br><sub>Chang Yang, Yao Xuan, Wendan Yan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26531) · [PDF](https://arxiv.org/pdf/2611.26531) |
-| 2026-11-19 | **GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers**<br><sub>Sahibzada Allahyar, Julia White, Dhruv Atreja et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26509) · [PDF](https://arxiv.org/pdf/2611.26509) |
-| 2026-11-19 | **Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware**<br><sub>Víctor Rodrigo González, Pablo M. Olmos, Ignacio Peis et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26437) · [PDF](https://arxiv.org/pdf/2611.26437) · [Code](https://github.com/deeplearningcafe/asuka-fm) |
-| 2026-11-19 | **Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue**<br><sub>Rishabh Ravi, Tony Hong, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26435) · [PDF](https://arxiv.org/pdf/2611.26435) |
-| 2026-11-19 | **Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling**<br><sub>Yuchen Zhou, Lili Zheng, Yuxin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26407) · [PDF](https://arxiv.org/pdf/2611.26407) |
-| 2026-11-19 | **Fast Self-Supervised Generative CT Denoising via Few-Step Sampling**<br><sub>Xingyi Yao, Zhengtao Ma, Zhennong Chen</sub> | [arXiv](https://arxiv.org/abs/2611.26370) · [PDF](https://arxiv.org/pdf/2611.26370) |
-| 2026-11-19 | **HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs**<br><sub>Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure</sub> | [arXiv](https://arxiv.org/abs/2611.26363) · [PDF](https://arxiv.org/pdf/2611.26363) · [Code](https://github.com/ambroise-b/hisa) |
-| 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
-| 2026-11-19 | **StreamEgo: Streaming Exocentric-to-Egocentric Video Generation**<br><sub>Tianyi Xu, Boyang Lyu, Yunkai Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26165) · [PDF](https://arxiv.org/pdf/2611.26165) |
-| 2026-11-19 | **ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models**<br><sub>Jiawei Xing, Li Wang, Xiangtao Meng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26117) · [PDF](https://arxiv.org/pdf/2611.26117) |
-| 2026-11-19 | **AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling**<br><sub>Zechun Zhou, Zhiyong Zheng, Xiaomin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26106) · [PDF](https://arxiv.org/pdf/2611.26106) |
-| 2026-11-19 | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation**<br><sub>Zhixiong Hu, Meng Li, Maggie Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26096) · [PDF](https://arxiv.org/pdf/2611.26096) |
-| 2026-11-19 | **Streaming-AAA: Streaming AAA Game Video Generation at High Resolution, High Frame Rate, and Low Latency**<br><sub>Zhihao Hu, Jianqi Ma, Jun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26040) · [PDF](https://arxiv.org/pdf/2611.26040) |
-| 2026-11-19 | **FrontierReplay: Split-Free Exact Prefix Caching for Hybrid Language Models**<br><sub>Zekun Wang, Yizhuo Wang</sub> | [arXiv](https://arxiv.org/abs/2611.26020) · [PDF](https://arxiv.org/pdf/2611.26020) |
-| 2026-11-19 | **Reinforcing Few-Step Diffusion Models via Shadow Posterior Matching**<br><sub>Jingqiao Xiu, Yicong Li</sub> | [arXiv](https://arxiv.org/abs/2611.25998) · [PDF](https://arxiv.org/pdf/2611.25998) · [Code](https://github.com/shadow-posterior/code) |
-| 2026-11-19 | **DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention**<br><sub>Emre Uğur, Jiawen Qi, Qinyu Chen</sub> | [arXiv](https://arxiv.org/abs/2611.25938) · [PDF](https://arxiv.org/pdf/2611.25938) |
-| 2026-11-19 | **Generalist Meets Specialists: An Evolving Multimodal Agent with Persistent Tool Orchestration for Traffic Scenario Understanding**<br><sub>Linjia Kang, Binhan Jiang, Juan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25868) · [PDF](https://arxiv.org/pdf/2611.25868) |
-| 2026-11-19 | **Thinking in Streams: Proactive Spatial Reasoning with Vision-Language Models**<br><sub>Junyoung Hong, Minsu Kim, Jaehyun Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25865) · [PDF](https://arxiv.org/pdf/2611.25865) |
-
-[View all 44 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
