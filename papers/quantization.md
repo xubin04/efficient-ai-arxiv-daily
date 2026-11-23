@@ -4,16 +4,26 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-301 papers · newest submission first
+311 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
+| 2026-11-20 | **Exploring the Potential of Ultra-Low-Bit Inference on LLM Accelerators**<br><sub>Hao Wang, Yang Shi, Jiageng Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27561) · [PDF](https://arxiv.org/pdf/2611.27561) |
+| 2026-11-20 | **Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization**<br><sub>Ramneek Agnihotri, Yingte Xu, Hans Vath</sub> | [arXiv](https://arxiv.org/abs/2611.27424) · [PDF](https://arxiv.org/pdf/2611.27424) · [Code](https://github.com/LucianoXu/QuantBeyoundEfficiency) |
+| 2026-11-20 | **Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition**<br><sub>Manh Tuan Ha, Xuan Bao Viet Tran, Vo Minh Dat Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27208) · [PDF](https://arxiv.org/pdf/2611.27208) |
+| 2026-11-20 | **The Vulnerability Window: Decision Instability in Quantized Reward Models**<br><sub>Omkar Shewale, Deepak Kumar, Divakar Kumar Yadav</sub> | [arXiv](https://arxiv.org/abs/2611.27155) · [PDF](https://arxiv.org/pdf/2611.27155) |
+| 2026-11-20 | **PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations**<br><sub>Faraz Tahmasebi, Michael Pellauer, Hyoukjun Kwon et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27092) · [PDF](https://arxiv.org/pdf/2611.27092) |
+| 2026-11-20 | **A Continuous Relaxation of Quantization-Aware Training**<br><sub>Kartikeya Bhardwaj, Mohammed Almousa, Chaitanya Mullapudi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27056) · [PDF](https://arxiv.org/pdf/2611.27056) |
+| 2026-11-20 | **MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs**<br><sub>Vinnam Kim, Seong Hoon Seo, Junhan Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26976) · [PDF](https://arxiv.org/pdf/2611.26976) |
+| 2026-11-19 | **CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache**<br><sub>Junyi Luo, Xinting Jiang, Ruichen Qi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26857) · [PDF](https://arxiv.org/pdf/2611.26857) |
 | 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
 | 2026-11-19 | **AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling**<br><sub>Zechun Zhou, Zhiyong Zheng, Xiaomin Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26106) · [PDF](https://arxiv.org/pdf/2611.26106) |
 | 2026-11-19 | **VR-SparseQuant: Accurate FP4 Quantization with 2:4 Sparsity on Vera Rubin**<br><sub>Samir Khaki, Wei-Chen Wang, Song Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25717) · [PDF](https://arxiv.org/pdf/2611.25717) |
 | 2026-11-19 | **Efficient Latent Reasoning for Vision-Language Model via Dynamics-Aware Quantization and Distillation**<br><sub>Yanjing Li, Sheng Xu, Baochang Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25670) · [PDF](https://arxiv.org/pdf/2611.25670) |
 | 2026-11-19 | **Splice-Core: Low-Order-Bit-Splicing GEMM for Highly Energy-Efficient AI Inference Accelerators**<br><sub>Prabhu Vellaisamy, Hsien-Fu Hung, Andrew Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25617) · [PDF](https://arxiv.org/pdf/2611.25617) |
 | 2026-11-19 | **Fold the Loop: Decoding-Time KV Memory for Looped Vision-Language Models**<br><sub>Kun Zhou, Wenmian Yang, Zhensheng Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25369) · [PDF](https://arxiv.org/pdf/2611.25369) |
+| 2026-11-18 | **BitPrefill: W1.58A4 Tensor-Core Acceleration for Compute-Bound LLM Prefill**<br><sub>Fang Chen, Xuming Chen, Sanmukh Kuppannagari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26657) · [PDF](https://arxiv.org/pdf/2611.26657) |
 | 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |
 | 2026-11-18 | **Compression Effects on Low-Resource Multilingual Translation**<br><sub>Abbas Sani</sub> | [arXiv](https://arxiv.org/abs/2611.24043) · [PDF](https://arxiv.org/pdf/2611.24043) · [Code](https://github.com/avvas200/efficient-multilingual-nmt-pilot%60) |
 | 2026-11-18 | **MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models**<br><sub>Dongkeun Lee, Wonjun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23695) · [PDF](https://arxiv.org/pdf/2611.23695) · [Code](https://github.com/sco-edge/MoMoVL) |

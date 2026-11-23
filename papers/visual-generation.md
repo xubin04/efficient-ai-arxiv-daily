@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-259 papers · newest submission first
+262 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models**<br><sub>Nan Tang, Han-Tao Zhang, Jing-Cheng Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27645) · [PDF](https://arxiv.org/pdf/2611.27645) |
+| 2026-11-20 | **PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation**<br><sub>Junyi He, Xu Peng, Chengming Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27266) · [PDF](https://arxiv.org/pdf/2611.27266) |
+| 2026-11-19 | **A High-Compression Transformer VAE for Efficient and Controllable 3D Medical Image Generation with Diffusion Transformers**<br><sub>Bo Liu, Bingliang Zhang, Yubo Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26907) · [PDF](https://arxiv.org/pdf/2611.26907) · [Code](https://github.com/OncoMMAI/brainmri-vit-vae3d) |
 | 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
 | 2026-11-19 | **Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware**<br><sub>Víctor Rodrigo González, Pablo M. Olmos, Ignacio Peis et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26437) · [PDF](https://arxiv.org/pdf/2611.26437) · [Code](https://github.com/deeplearningcafe/asuka-fm) |
 | 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |

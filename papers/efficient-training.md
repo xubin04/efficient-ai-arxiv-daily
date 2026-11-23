@@ -4,10 +4,14 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-202 papers · newest submission first
+206 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models**<br><sub>Nan Tang, Han-Tao Zhang, Jing-Cheng Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27645) · [PDF](https://arxiv.org/pdf/2611.27645) |
+| 2026-11-20 | **Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition**<br><sub>Manh Tuan Ha, Xuan Bao Viet Tran, Vo Minh Dat Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27208) · [PDF](https://arxiv.org/pdf/2611.27208) |
+| 2026-11-20 | **Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation**<br><sub>Yalin Yang, Xiao Huang, Yanan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27089) · [PDF](https://arxiv.org/pdf/2611.27089) |
+| 2026-11-19 | **Rethinking Full-Weight LoRA with Domain and Task Adapter Scaling for Question Answering over Portuguese Well Drilling Reports**<br><sub>Luan B. Guerra, Diogo M. Paes, Marcelo N. Grimberg et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26833) · [PDF](https://arxiv.org/pdf/2611.26833) |
 | 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
 | 2026-11-18 | **A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning**<br><sub>Andrei Kostin, José Ángel Diaz-Garcia, Karel Gutiérrez-Batista</sub> | [arXiv](https://arxiv.org/abs/2611.24049) · [PDF](https://arxiv.org/pdf/2611.24049) |
 | 2026-11-17 | **Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU**<br><sub>Mehmet Altan Toksöz</sub> | [arXiv](https://arxiv.org/abs/2611.23205) · [PDF](https://arxiv.org/pdf/2611.23205) |

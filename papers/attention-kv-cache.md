@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-299 papers · newest submission first
+306 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **MemOnce: A Scalable Memory Architecture for Large Language Models**<br><sub>Chang Nie, Chaoyou Fu, Songlin Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27973) · [PDF](https://arxiv.org/pdf/2611.27973) |
+| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
+| 2026-11-20 | **Do Language Models Know Which Words Steer Their Reasoning?**<br><sub>Yanbei Jiang, Chao Lei, Jey Han Lau et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27317) · [PDF](https://arxiv.org/pdf/2611.27317) |
+| 2026-11-20 | **Contexture: Runtime Context Eviction for High-Throughput Agent Serving**<br><sub>Colin Hong, Bryan Shan, Wei Siong Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26980) · [PDF](https://arxiv.org/pdf/2611.26980) |
+| 2026-11-20 | **Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs**<br><sub>Soheil Zibakhsh, Pedram Aghazadeh, Farinaz Koushanfar</sub> | [arXiv](https://arxiv.org/abs/2611.26975) · [PDF](https://arxiv.org/pdf/2611.26975) |
+| 2026-11-19 | **Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs**<br><sub>Qiang Zhou, Jianing Deng, Siyan Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26902) · [PDF](https://arxiv.org/pdf/2611.26902) |
+| 2026-11-19 | **CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache**<br><sub>Junyi Luo, Xinting Jiang, Ruichen Qi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26857) · [PDF](https://arxiv.org/pdf/2611.26857) |
 | 2026-11-19 | **Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue**<br><sub>Rishabh Ravi, Tony Hong, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26435) · [PDF](https://arxiv.org/pdf/2611.26435) |
 | 2026-11-19 | **HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs**<br><sub>Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure</sub> | [arXiv](https://arxiv.org/abs/2611.26363) · [PDF](https://arxiv.org/pdf/2611.26363) · [Code](https://github.com/ambroise-b/hisa) |
 | 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |

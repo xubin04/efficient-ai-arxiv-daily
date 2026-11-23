@@ -4,10 +4,13 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-326 papers · newest submission first
+329 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **Isonomy: Isolating Every Request from Timing Side Channels at Nearly Full-Sharing Throughput in Multi-Instance LLM Prefill**<br><sub>Bowen Sun, Chaowei Xiao</sub> | [arXiv](https://arxiv.org/abs/2611.27596) · [PDF](https://arxiv.org/pdf/2611.27596) |
+| 2026-11-20 | **Efficient Natural Language to Temporal Logic Translation for Real-Time Physical AI**<br><sub>Oliver Schön, Adrien Banse, John Lygeros et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27489) · [PDF](https://arxiv.org/pdf/2611.27489) |
+| 2026-11-20 | **Contexture: Runtime Context Eviction for High-Throughput Agent Serving**<br><sub>Colin Hong, Bryan Shan, Wei Siong Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26980) · [PDF](https://arxiv.org/pdf/2611.26980) |
 | 2026-11-19 | **TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming**<br><sub>Jinbin Luo, Xiaozhe Yao, Shang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26619) · [PDF](https://arxiv.org/pdf/2611.26619) |
 | 2026-11-19 | **Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models**<br><sub>Chang Yang, Yao Xuan, Wendan Yan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26531) · [PDF](https://arxiv.org/pdf/2611.26531) |
 | 2026-11-19 | **Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue**<br><sub>Rishabh Ravi, Tony Hong, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26435) · [PDF](https://arxiv.org/pdf/2611.26435) |

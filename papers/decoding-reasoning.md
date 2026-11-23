@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-187 papers · newest submission first
+190 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **Speculative Decoding Is Less Speculative Than You Think**<br><sub>Guanning Zeng, Andrea Zanette</sub> | [arXiv](https://arxiv.org/abs/2611.27891) · [PDF](https://arxiv.org/pdf/2611.27891) |
+| 2026-11-20 | **FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference**<br><sub>Hao Ding, Zheng Shi, Dongxue Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27701) · [PDF](https://arxiv.org/pdf/2611.27701) |
+| 2026-11-20 | **Reasoning in Fewer Tokens: Concept-Normalized Multilingual Scratchpads and Reversible Model-Adaptive Reasoning Codes**<br><sub>Rabimba Karanjai, Suryabhan Singh Hada, Hemanth Hegadehalli Madhavarao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27326) · [PDF](https://arxiv.org/pdf/2611.27326) |
 | 2026-11-19 | **Generalist Meets Specialists: An Evolving Multimodal Agent with Persistent Tool Orchestration for Traffic Scenario Understanding**<br><sub>Linjia Kang, Binhan Jiang, Juan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25868) · [PDF](https://arxiv.org/pdf/2611.25868) |
 | 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
 | 2026-11-19 | **Raptor: Rejection-aware Adaptive Tree based on Speculative Decoding**<br><sub>Qishu Hu, Haozhao Wang, Zicong Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25436) · [PDF](https://arxiv.org/pdf/2611.25436) |

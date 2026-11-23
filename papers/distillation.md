@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-582 papers · newest submission first
+586 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
+| 2026-11-20 | **PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation**<br><sub>Junyi He, Xu Peng, Chengming Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27266) · [PDF](https://arxiv.org/pdf/2611.27266) |
+| 2026-11-20 | **When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation**<br><sub>Xinnan Zhang, Zeyi Liao, Siliang Zeng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27125) · [PDF](https://arxiv.org/pdf/2611.27125) |
+| 2026-11-20 | **Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation**<br><sub>Jingchen Sun, Jiaxing Zhang, Qingqiao Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26954) · [PDF](https://arxiv.org/pdf/2611.26954) |
 | 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
 | 2026-11-19 | **GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers**<br><sub>Sahibzada Allahyar, Julia White, Dhruv Atreja et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26509) · [PDF](https://arxiv.org/pdf/2611.26509) |
 | 2026-11-19 | **Fast Self-Supervised Generative CT Denoising via Few-Step Sampling**<br><sub>Xingyi Yao, Zhengtao Ma, Zhennong Chen</sub> | [arXiv](https://arxiv.org/abs/2611.26370) · [PDF](https://arxiv.org/pdf/2611.26370) |

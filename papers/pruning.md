@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-270 papers · newest submission first
+274 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
+| 2026-11-20 | **Dynamic Token Merging for Efficient Vision-Language Models**<br><sub>Chris Gu, Marco Andono Sie, Nathan Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27064) · [PDF](https://arxiv.org/pdf/2611.27064) |
+| 2026-11-20 | **Mind the Delta: Early Pruning of RTL Variants for Agentic Hardware Optimization**<br><sub>Siyang Cai, Cangyuan Li, Haoyu Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27035) · [PDF](https://arxiv.org/pdf/2611.27035) |
+| 2026-11-20 | **Tokenize Moments, Not Frames: Tokenizer-Aware Budget Allocation for Training-Free Video LLM Acceleration**<br><sub>Zirui Zhao, Kai Liu, Linghe Kong</sub> | [arXiv](https://arxiv.org/abs/2611.26933) · [PDF](https://arxiv.org/pdf/2611.26933) · [Code](https://github.com/zhkandsrz/ESSENCE) |
 | 2026-11-19 | **HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs**<br><sub>Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure</sub> | [arXiv](https://arxiv.org/abs/2611.26363) · [PDF](https://arxiv.org/pdf/2611.26363) · [Code](https://github.com/ambroise-b/hisa) |
 | 2026-11-19 | **What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest**<br><sub>Lingkai Bu, Qian Gao</sub> | [arXiv](https://arxiv.org/abs/2611.25814) · [PDF](https://arxiv.org/pdf/2611.25814) |
 | 2026-11-19 | **VR-SparseQuant: Accurate FP4 Quantization with 2:4 Sparsity on Vera Rubin**<br><sub>Samir Khaki, Wei-Chen Wang, Song Han et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25717) · [PDF](https://arxiv.org/pdf/2611.25717) |
