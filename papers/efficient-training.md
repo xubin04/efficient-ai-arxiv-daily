@@ -4,10 +4,17 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-206 papers · newest submission first
+213 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
+| 2026-11-23 | **Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**<br><sub>Jesper Derehag</sub> | [arXiv](https://arxiv.org/abs/2611.30825) · [PDF](https://arxiv.org/pdf/2611.30825) |
+| 2026-11-23 | **LiveMirror: Real-Time Diffusion Virtual Try-On on a Consumer GPU and Its Self-Supervised Adaptation to Indian Ethnic Wear**<br><sub>Jigyansha Jeevan Rout, Sukanta Kumar Sabut</sub> | [arXiv](https://arxiv.org/abs/2611.30461) · [PDF](https://arxiv.org/pdf/2611.30461) |
+| 2026-11-23 | **Sparse Hodge Preference Optimization: Fine-Tuning Language Models toward Alignment beyond Transitive Preferences**<br><sub>Yiming Liu, Jianwei Ma, Zhongwei Xing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30135) · [PDF](https://arxiv.org/pdf/2611.30135) |
+| 2026-11-23 | **Parameter-Efficient Vocabulary Expansion via Cross-Lingual Embedding Alignment**<br><sub>Andrew Ivan Soegeng, Muhammad Reza Qorib, Weishi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30123) · [PDF](https://arxiv.org/pdf/2611.30123) |
+| 2026-11-21 | **Unlearning Model Identity: Ablating LoRA Weights from Question-Based Identity Tuning**<br><sub>Ming Cheung</sub> | [arXiv](https://arxiv.org/abs/2611.28650) · [PDF](https://arxiv.org/pdf/2611.28650) |
+| 2026-11-20 | **Video-as-Weights: Compiling a Video Once into Parametric and Token Memory**<br><sub>Wentao Zhang, Ian Miao, Chen Qu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28221) · [PDF](https://arxiv.org/pdf/2611.28221) |
 | 2026-11-20 | **Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models**<br><sub>Nan Tang, Han-Tao Zhang, Jing-Cheng Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27645) · [PDF](https://arxiv.org/pdf/2611.27645) |
 | 2026-11-20 | **Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition**<br><sub>Manh Tuan Ha, Xuan Bao Viet Tran, Vo Minh Dat Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27208) · [PDF](https://arxiv.org/pdf/2611.27208) |
 | 2026-11-20 | **Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation**<br><sub>Yalin Yang, Xiao Huang, Yanan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27089) · [PDF](https://arxiv.org/pdf/2611.27089) |

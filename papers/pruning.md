@@ -4,10 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-274 papers · newest submission first
+286 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**<br><sub>Seongchan Kim, Soowon Son, Sangoh Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31240) · [PDF](https://arxiv.org/pdf/2611.31240) |
+| 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
+| 2026-11-23 | **Uncovering the Tells: Efficient Black-Box Audits for LLM Data Contamination**<br><sub>Dominik Bernard Lau, Filip Pawlicki, Jan Dubiński et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30639) · [PDF](https://arxiv.org/pdf/2611.30639) |
+| 2026-11-23 | **EdgeALM: An Efficient and Unified Edge Accelerator for Large Audio Language Models via Full-Stack Hardware-Software Co-Design and Agent-Driven Recursive Optimization**<br><sub>Chenglin Yang, Feifan Xu, Xingyuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30216) · [PDF](https://arxiv.org/pdf/2611.30216) |
+| 2026-11-23 | **PCC: Pivotal Channel Compensation for Layer Pruning of Large Language Models**<br><sub>Xiangqian Wang, Yucheng Zhang, Zhaohong Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30183) · [PDF](https://arxiv.org/pdf/2611.30183) |
+| 2026-11-22 | **Grammar Sparsity Sets How Transformers Learn Random Languages**<br><sub>Edgar Andres Hernandez Moreno, Francesco Cagnetta</sub> | [arXiv](https://arxiv.org/abs/2611.29692) · [PDF](https://arxiv.org/pdf/2611.29692) |
+| 2026-11-22 | **CAR: Reducing Decoder Output Shift in Visual Token Pruning via Coverage Selection and Attention Reallocation**<br><sub>Xixi Jiang, Pingcheng Dong, Chen Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29489) · [PDF](https://arxiv.org/pdf/2611.29489) |
+| 2026-11-22 | **FP-Prune: Rethinking Visual Token Pruning from an Information Gain Perspective**<br><sub>Haozhe Zhao, Junxiang Zhang, Junxin Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29327) · [PDF](https://arxiv.org/pdf/2611.29327) |
+| 2026-11-22 | **RVLM: Fewer Tokens, Better Resolution Scaling, Fine-Grained Spatial Grounding**<br><sub>Savya Khosla, Chris Dongjoo Kim, Alex Schwing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29146) · [PDF](https://arxiv.org/pdf/2611.29146) |
+| 2026-11-21 | **DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving**<br><sub>Nurlan Nazaraliyev, Elaheh Sadredini, Nael Abu-Ghazaleh</sub> | [arXiv](https://arxiv.org/abs/2611.28522) · [PDF](https://arxiv.org/pdf/2611.28522) · [Code](https://github.com/nnurlan008/DisSparse) |
+| 2026-11-20 | **Video-as-Weights: Compiling a Video Once into Parametric and Token Memory**<br><sub>Wentao Zhang, Ian Miao, Chen Qu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28221) · [PDF](https://arxiv.org/pdf/2611.28221) |
 | 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
 | 2026-11-20 | **Dynamic Token Merging for Efficient Vision-Language Models**<br><sub>Chris Gu, Marco Andono Sie, Nathan Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27064) · [PDF](https://arxiv.org/pdf/2611.27064) |
 | 2026-11-20 | **Mind the Delta: Early Pruning of RTL Variants for Agentic Hardware Optimization**<br><sub>Siyang Cai, Cangyuan Li, Haoyu Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27035) · [PDF](https://arxiv.org/pdf/2611.27035) |
@@ -20,6 +31,7 @@
 | 2026-11-19 | **RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression**<br><sub>Payman Behnam, Elaheh Sobhani, Saad Amin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25433) · [PDF](https://arxiv.org/pdf/2611.25433) |
 | 2026-11-18 | **Diffusion Models are Provably Efficient Priors for Sparse Recovery**<br><sub>Ivan Lee, Xingyu Xu, Yuejie Chi</sub> | [arXiv](https://arxiv.org/abs/2611.24602) · [PDF](https://arxiv.org/pdf/2611.24602) |
 | 2026-11-18 | **Let a Small Model Read First: Faster Prefill for Long Interleaved Image-Text Inputs**<br><sub>Xiaolin Lin, Kai-Chiang Wu, Bing Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24431) · [PDF](https://arxiv.org/pdf/2611.24431) |
+| 2026-11-18 | **ReMiC: Representation-Driven Token Pruning for 3D VLMs via Minimax Hierarchical Clustering**<br><sub>Bangfeng Yan, Chaoning Zhang, Yuanhao Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28124) · [PDF](https://arxiv.org/pdf/2611.28124) |
 | 2026-11-18 | **Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity**<br><sub>Vikash Kumar</sub> | [arXiv](https://arxiv.org/abs/2611.23905) · [PDF](https://arxiv.org/pdf/2611.23905) |
 | 2026-11-18 | **MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models**<br><sub>Dongkeun Lee, Wonjun Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23695) · [PDF](https://arxiv.org/pdf/2611.23695) · [Code](https://github.com/sco-edge/MoMoVL) |
 | 2026-11-17 | **Transfer Once, Ask Locally: Compact Audio-Visual Memory for On-Device Question Answering**<br><sub>Qitong Wang, Jihui Jin, Divya Kothandaraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23085) · [PDF](https://arxiv.org/pdf/2611.23085) |

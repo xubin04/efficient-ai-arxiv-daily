@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-190 papers · newest submission first
+196 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **Self-Upgrading Embodied Agents**<br><sub>Jiajun Fan, Neil He, Qinglong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31117) · [PDF](https://arxiv.org/pdf/2611.31117) |
+| 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
+| 2026-11-23 | **Quantizing Diffusion LLMs under Parallel Decoding: Commitment Risk and the Parallelism Tax**<br><sub>Huan Xu, Maosen Zhao, Pengtao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30587) · [PDF](https://arxiv.org/pdf/2611.30587) |
+| 2026-11-23 | **CGSpec: Consistency-Guided Speculative Decoding with Overlap-Aware Verification Scheduling for Edge-Cloud Inference**<br><sub>Yuanbing Ouyang, Xiaoli Liu, Shirong Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30455) · [PDF](https://arxiv.org/pdf/2611.30455) |
+| 2026-11-23 | **PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency**<br><sub>Runguo Li, Dezhen Lu</sub> | [arXiv](https://arxiv.org/abs/2611.30205) · [PDF](https://arxiv.org/pdf/2611.30205) |
+| 2026-11-21 | **T2ISpec: Benchmarking Speculative Decoding for Text-to-Image Generation**<br><sub>Yifan Zhang, Shatong Zhu, Hui Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29029) · [PDF](https://arxiv.org/pdf/2611.29029) |
 | 2026-11-20 | **Speculative Decoding Is Less Speculative Than You Think**<br><sub>Guanning Zeng, Andrea Zanette</sub> | [arXiv](https://arxiv.org/abs/2611.27891) · [PDF](https://arxiv.org/pdf/2611.27891) |
 | 2026-11-20 | **FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference**<br><sub>Hao Ding, Zheng Shi, Dongxue Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27701) · [PDF](https://arxiv.org/pdf/2611.27701) |
 | 2026-11-20 | **Reasoning in Fewer Tokens: Concept-Normalized Multilingual Scratchpads and Reversible Model-Adaptive Reasoning Codes**<br><sub>Rabimba Karanjai, Suryabhan Singh Hada, Hemanth Hegadehalli Madhavarao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27326) · [PDF](https://arxiv.org/pdf/2611.27326) |

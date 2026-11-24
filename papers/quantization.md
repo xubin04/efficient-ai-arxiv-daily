@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-311 papers · newest submission first
+318 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression**<br><sub>Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi</sub> | [arXiv](https://arxiv.org/abs/2611.31089) · [PDF](https://arxiv.org/pdf/2611.31089) |
+| 2026-11-23 | **Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models**<br><sub>Tianqi Li, Xin He, Xue Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30195) · [PDF](https://arxiv.org/pdf/2611.30195) |
+| 2026-11-22 | **Estimating Silenced Tokens in Quantized LLMs**<br><sub>Giuseppe Pappalardo</sub> | [arXiv](https://arxiv.org/abs/2611.29536) · [PDF](https://arxiv.org/pdf/2611.29536) |
+| 2026-11-22 | **Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs**<br><sub>Feng Cheng, Cong Guo, Junyao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29497) · [PDF](https://arxiv.org/pdf/2611.29497) |
+| 2026-11-22 | **BQDNA: Multi-Head Binary Spherical Quantization for Genomic Sequence Modeling**<br><sub>Xudong Wang, Siwei Cheng, Haozhe Hu</sub> | [arXiv](https://arxiv.org/abs/2611.29395) · [PDF](https://arxiv.org/pdf/2611.29395) · [Code](https://github.com/Sophie10001b/BQDNA) |
+| 2026-11-21 | **SANA-Robot: Efficient World Action Model with Hybrid Memory**<br><sub>Yuyang Zhao, Zekai Li, Yicheng Pan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28943) · [PDF](https://arxiv.org/pdf/2611.28943) |
+| 2026-11-20 | **Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models**<br><sub>Smit Anand</sub> | [arXiv](https://arxiv.org/abs/2611.28318) · [PDF](https://arxiv.org/pdf/2611.28318) |
 | 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
 | 2026-11-20 | **Exploring the Potential of Ultra-Low-Bit Inference on LLM Accelerators**<br><sub>Hao Wang, Yang Shi, Jiageng Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27561) · [PDF](https://arxiv.org/pdf/2611.27561) |
 | 2026-11-20 | **Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization**<br><sub>Ramneek Agnihotri, Yingte Xu, Hans Vath</sub> | [arXiv](https://arxiv.org/abs/2611.27424) · [PDF](https://arxiv.org/pdf/2611.27424) · [Code](https://github.com/LucianoXu/QuantBeyoundEfficiency) |

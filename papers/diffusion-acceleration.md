@@ -4,22 +4,31 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-151 papers · newest submission first
+160 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
+| 2026-11-23 | **CHIP: Contrastive Hardware-Image Projection. Can OpenAI CLIP Reconstruct Images from the CPU Computational Footprint?**<br><sub>Debayan Sengupta, Darsh Asher, Kaushal Mhapsekar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30269) · [PDF](https://arxiv.org/pdf/2611.30269) |
+| 2026-11-22 | **OnCache: Learning Dynamic Caching Schedules for Efficient Diffusion Inference**<br><sub>Zhikang Xie, Xichen Ye, Yifan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29480) · [PDF](https://arxiv.org/pdf/2611.29480) |
+| 2026-11-21 | **RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling**<br><sub>Patrick Pynadath, Nicolas Perez-Nieves, Bobak Shahriari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29066) · [PDF](https://arxiv.org/pdf/2611.29066) |
+| 2026-11-21 | **T2ISpec: Benchmarking Speculative Decoding for Text-to-Image Generation**<br><sub>Yifan Zhang, Shatong Zhu, Hui Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29029) · [PDF](https://arxiv.org/pdf/2611.29029) |
+| 2026-11-20 | **Plan Big, Paint Small: Semantic-Aware Computation Allocation for Efficient Autoregressive Video Generation**<br><sub>Yixuan Luo, Yanjing Li</sub> | [arXiv](https://arxiv.org/abs/2611.28402) · [PDF](https://arxiv.org/pdf/2611.28402) |
 | 2026-11-19 | **Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling**<br><sub>Yuchen Zhou, Lili Zheng, Yuxin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26407) · [PDF](https://arxiv.org/pdf/2611.26407) |
 | 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
 | 2026-11-19 | **D3-Cache: Accelerating Diffusion Models with Dynamic Mode Decomposition**<br><sub>Yanbo Li, An Xiang, Xiaoxin Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25689) · [PDF](https://arxiv.org/pdf/2611.25689) |
 | 2026-11-19 | **TRAC: Efficient Diffusion Language Models for Machine Translation via Length-Aware Decoding**<br><sub>Tianyuan Li, Xihan Yang, Chenglong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25643) · [PDF](https://arxiv.org/pdf/2611.25643) |
 | 2026-11-19 | **FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash**<br><sub>Yuseon Choi, Sanghyeon Park, Eunjong Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25580) · [PDF](https://arxiv.org/pdf/2611.25580) |
+| 2026-11-19 | **Choose What Returns: Object-Aware KV Memory for Selective Recall in Interactive Video Generation**<br><sub>Hyunwook Kang, Junoh Park, Hyunggyu Lim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28137) · [PDF](https://arxiv.org/pdf/2611.28137) |
 | 2026-11-18 | **CalibCache: Cache-to-Full Feature Dynamics Calibration for Diffusion Transformers**<br><sub>Mingyu Liang, Dingkun Xu, Jingwei Xu</sub> | [arXiv](https://arxiv.org/abs/2611.25296) · [PDF](https://arxiv.org/pdf/2611.25296) |
 | 2026-11-18 | **Every Query Routes Itself: Accelerating Video Diffusion Transformers with Per-Query Routed Sparse Attention**<br><sub>Zhen Huang, Shuwei Li, Ruizhe Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24479) · [PDF](https://arxiv.org/pdf/2611.24479) |
 | 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |
+| 2026-11-18 | **NOVA: Normalization-Aware Output-Guided Attention Acceleration for Video Diffusion Transformers**<br><sub>Wenxuan Miao, Haosong Liu, Aiyue Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28115) · [PDF](https://arxiv.org/pdf/2611.28115) |
 | 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
 | 2026-11-17 | **PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation**<br><sub>Siyuan Wang, Haoran Li, Yi Yue et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22717) · [PDF](https://arxiv.org/pdf/2611.22717) |
 | 2026-11-17 | **RISA: Recoverable Sparse Attention for Block-Diffusion Language Models**<br><sub>Xinrui Zhong, Fanjiang Ye, Yuke Wang</sub> | [arXiv](https://arxiv.org/abs/2611.22191) · [PDF](https://arxiv.org/pdf/2611.22191) |
 | 2026-11-17 | **BATMoS: Budget-Aware Guidance Allocation for Efficient Video Diffusion**<br><sub>Zhixu Du, Kuo Yang, Jingwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22028) · [PDF](https://arxiv.org/pdf/2611.22028) |
+| 2026-11-16 | **UbiEnlight: User-Perception-Aware Real-Time Low-Light Video Enhancement on Mobile Devices and Smartglasses**<br><sub>Minfan Wang, Sicong Liu, Teng Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28085) · [PDF](https://arxiv.org/pdf/2611.28085) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
 | 2026-11-15 | **TileCache: Serving Multi-Round Diffusion Image Editing with Compressed Activation Caches**<br><sub>Yuyang Tian, Desen Sun, Shuncheng Jie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20246) · [PDF](https://arxiv.org/pdf/2611.20246) |
 | 2026-11-15 | **Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model**<br><sub>Abhinav Gupta, Nissan Pow</sub> | [arXiv](https://arxiv.org/abs/2611.19709) · [PDF](https://arxiv.org/pdf/2611.19709) · [Code](https://github.com/gabhinav001/cache-or-denoise-less) |

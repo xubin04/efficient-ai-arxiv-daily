@@ -4,11 +4,29 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-262 papers · newest submission first
+282 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
+| 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
+| 2026-11-23 | **SPROUT: Predicting Objective-Grounded Prompt Utility for Efficient Text-to-Image Preference Tuning**<br><sub>Kangping Hu, Akshay Mehra, Stephen Mussmann</sub> | [arXiv](https://arxiv.org/abs/2611.31163) · [PDF](https://arxiv.org/pdf/2611.31163) · [Code](https://github.com/ADDAPT-ML/SPROUT) |
+| 2026-11-23 | **DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers**<br><sub>Lernie Li, Yuanliu Liu, Pengfei Xiong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30844) · [PDF](https://arxiv.org/pdf/2611.30844) |
+| 2026-11-23 | **Same Seed, Different Picture? Deciding Early at Low Resolution for Seed-Faithful Few-Step Flow Sampling**<br><sub>Huiran Duan, Weilun Feng, Yuqi Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30728) · [PDF](https://arxiv.org/pdf/2611.30728) |
+| 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
+| 2026-11-23 | **What Remains After Concept Erasure? Sparse Autoencoder Probes for Auditing Diffusion Models**<br><sub>Zhuan Shi, Lu Wei, Yuta Nakashima et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30117) · [PDF](https://arxiv.org/pdf/2611.30117) |
+| 2026-11-22 | **Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation**<br><sub>Yiyu Li, Fei Wei, Yong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29618) · [PDF](https://arxiv.org/pdf/2611.29618) |
+| 2026-11-22 | **OnCache: Learning Dynamic Caching Schedules for Efficient Diffusion Inference**<br><sub>Zhikang Xie, Xichen Ye, Yifan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29480) · [PDF](https://arxiv.org/pdf/2611.29480) |
+| 2026-11-22 | **Seeing Through Preferences: Recovering Hidden Local Preference Neighborhoods for Text-to-Image Alignment**<br><sub>Pulkit Bansal, Vivek Srivastava, Shirish Karande</sub> | [arXiv](https://arxiv.org/abs/2611.29436) · [PDF](https://arxiv.org/pdf/2611.29436) |
+| 2026-11-22 | **HorizonFlow: Few-Step Video Distillation in 600 Iterations**<br><sub>Xianglong Guo, Haobo Xu, Zanyi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29431) · [PDF](https://arxiv.org/pdf/2611.29431) · [Code](https://github.com/XIANGLONGGUO/HorizonFlow-repo) |
+| 2026-11-22 | **PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**<br><sub>Zeyu Ren, Jie Ni, Rui Qian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29389) · [PDF](https://arxiv.org/pdf/2611.29389) |
+| 2026-11-21 | **T2ISpec: Benchmarking Speculative Decoding for Text-to-Image Generation**<br><sub>Yifan Zhang, Shatong Zhu, Hui Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29029) · [PDF](https://arxiv.org/pdf/2611.29029) |
+| 2026-11-21 | **SANA-Robot: Efficient World Action Model with Hybrid Memory**<br><sub>Yuyang Zhao, Zekai Li, Yicheng Pan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28943) · [PDF](https://arxiv.org/pdf/2611.28943) |
+| 2026-11-20 | **Plan Big, Paint Small: Semantic-Aware Computation Allocation for Efficient Autoregressive Video Generation**<br><sub>Yixuan Luo, Yanjing Li</sub> | [arXiv](https://arxiv.org/abs/2611.28402) · [PDF](https://arxiv.org/pdf/2611.28402) |
+| 2026-11-20 | **Scalable Beckmann Maps Improve One-step Generation**<br><sub>Ulrik Unneberg, Shiyi Wang, Lee Cheuk-Kit et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28286) · [PDF](https://arxiv.org/pdf/2611.28286) |
+| 2026-11-20 | **DeFlowCritic: Dense Latent Reward Alignment for Text-to-Image Flow Matching Models**<br><sub>Zeeshan Khan, Xin Yu, Shizhe Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28265) · [PDF](https://arxiv.org/pdf/2611.28265) |
 | 2026-11-20 | **Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models**<br><sub>Nan Tang, Han-Tao Zhang, Jing-Cheng Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27645) · [PDF](https://arxiv.org/pdf/2611.27645) |
+| 2026-11-20 | **GenPA: Image Generators as Efficient Robot Policies**<br><sub>Zian Deng, Tianyi Zhang, Zilong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27446) · [PDF](https://arxiv.org/pdf/2611.27446) |
 | 2026-11-20 | **PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation**<br><sub>Junyi He, Xu Peng, Chengming Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27266) · [PDF](https://arxiv.org/pdf/2611.27266) |
 | 2026-11-19 | **A High-Compression Transformer VAE for Efficient and Controllable 3D Medical Image Generation with Diffusion Transformers**<br><sub>Bo Liu, Bingliang Zhang, Yubo Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26907) · [PDF](https://arxiv.org/pdf/2611.26907) · [Code](https://github.com/OncoMMAI/brainmri-vit-vae3d) |
 | 2026-11-19 | **Posterior Matching Distillation**<br><sub>Hidir Yesiltepe, Julius Berner, Arash Vahdat et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26629) · [PDF](https://arxiv.org/pdf/2611.26629) |
@@ -21,6 +39,7 @@
 | 2026-11-18 | **Every Query Routes Itself: Accelerating Video Diffusion Transformers with Per-Query Routed Sparse Attention**<br><sub>Zhen Huang, Shuwei Li, Ruizhe Yao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24479) · [PDF](https://arxiv.org/pdf/2611.24479) |
 | 2026-11-18 | **Spark-H3: Adaptive Block Sparse Attention for Video Diffusion Models**<br><sub>Zecheng Tang, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24256) · [PDF](https://arxiv.org/pdf/2611.24256) |
 | 2026-11-18 | **Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**<br><sub>Robin Geens, Simon Haepers, Jonas Crols et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24234) · [PDF](https://arxiv.org/pdf/2611.24234) |
+| 2026-11-18 | **NOVA: Normalization-Aware Output-Guided Attention Acceleration for Video Diffusion Transformers**<br><sub>Wenxuan Miao, Haosong Liu, Aiyue Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28115) · [PDF](https://arxiv.org/pdf/2611.28115) |
 | 2026-11-18 | **ProxySearch: Decoupled Inference-Time Scaling for Diffusion Models via Asymmetric Noise-Rank Transfer**<br><sub>Seungwook Kim, Jongmin Lee</sub> | [arXiv](https://arxiv.org/abs/2611.23929) · [PDF](https://arxiv.org/pdf/2611.23929) |
 | 2026-11-17 | **FastFrames: Video Generation at Interactive Latency**<br><sub>Gene Chou, Guandao Yang, Fujun Luan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23226) · [PDF](https://arxiv.org/pdf/2611.23226) |
 | 2026-11-17 | **TextSphere: Efficient Text-to-Image Generation via Shared Hyperspherical Alignment and Uniformity**<br><sub>Yixia Zhang, Girish A. Koushik, Xilu Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23155) · [PDF](https://arxiv.org/pdf/2611.23155) |
@@ -30,6 +49,7 @@
 | 2026-11-17 | **Fast and Strong Image Protection against Diffusion Personalization**<br><sub>Jiwon Park, Jihye Kang, Namhyuk Ahn</sub> | [arXiv](https://arxiv.org/abs/2611.22494) · [PDF](https://arxiv.org/pdf/2611.22494) |
 | 2026-11-17 | **BATMoS: Budget-Aware Guidance Allocation for Efficient Video Diffusion**<br><sub>Zhixu Du, Kuo Yang, Jingwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.22028) · [PDF](https://arxiv.org/pdf/2611.22028) |
 | 2026-11-16 | **AR-WAM: efficient streaming world-action modeling for autonomous driving**<br><sub>Baiting Luo, Shatadal Mishra, Ahmadreza Moradipari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21851) · [PDF](https://arxiv.org/pdf/2611.21851) |
+| 2026-11-16 | **UbiEnlight: User-Perception-Aware Real-Time Low-Light Video Enhancement on Mobile Devices and Smartglasses**<br><sub>Minfan Wang, Sicong Liu, Teng Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28085) · [PDF](https://arxiv.org/pdf/2611.28085) |
 | 2026-11-16 | **ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching**<br><sub>Hao Tan, Jinghui Qin, Xuming Hu</sub> | [arXiv](https://arxiv.org/abs/2611.21038) · [PDF](https://arxiv.org/pdf/2611.21038) |
 | 2026-11-16 | **Sparse Attention for Visual Generation: Toward Algorithm-System Co-Design**<br><sub>Majun Zhang, Yuan Guo, Decheng Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.21029) · [PDF](https://arxiv.org/pdf/2611.21029) |
 | 2026-11-16 | **QASK-Edit: Adaptive Sparse Attention Across Queries and Key Sources for Efficient Video Editing**<br><sub>Hengrui Liu, Wenbo Xu, Ziqi Sheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.20704) · [PDF](https://arxiv.org/pdf/2611.20704) |

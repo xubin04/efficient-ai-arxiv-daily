@@ -4,10 +4,22 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-329 papers · newest submission first
+341 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
+| 2026-11-23 | **ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy**<br><sub>Hyunsu Ye, Hyunmin Choi, Jaehong Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30417) · [PDF](https://arxiv.org/pdf/2611.30417) |
+| 2026-11-23 | **EdgeALM: An Efficient and Unified Edge Accelerator for Large Audio Language Models via Full-Stack Hardware-Software Co-Design and Agent-Driven Recursive Optimization**<br><sub>Chenglin Yang, Feifan Xu, Xingyuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30216) · [PDF](https://arxiv.org/pdf/2611.30216) |
+| 2026-11-22 | **Exact on Paper: Which LLM Serving Shortcuts Flip Graded Answers, Measured Against the Noise of Reordering the Same Requests**<br><sub>Sharven Rane</sub> | [arXiv](https://arxiv.org/abs/2611.29663) · [PDF](https://arxiv.org/pdf/2611.29663) |
+| 2026-11-22 | **Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs**<br><sub>Feng Cheng, Cong Guo, Junyao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29497) · [PDF](https://arxiv.org/pdf/2611.29497) |
+| 2026-11-22 | **When Does Decomposition Help? Empirical Study on Workload-Architecture Affinity in LLM Inference Serving**<br><sub>Jihui Yang, Wentai Wu, Jiahua Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29104) · [PDF](https://arxiv.org/pdf/2611.29104) |
+| 2026-11-21 | **Analytical Modeling and Optimal GPU Provisioning for Disaggregated LLM Inference**<br><sub>Akshat Pandey, Dominic Cheng, Sidharth Sharma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28760) · [PDF](https://arxiv.org/pdf/2611.28760) |
+| 2026-11-21 | **HiPerfCC-KVCache: Accelerating Confidential LLM Serving with Hierarchical KV Caching**<br><sub>Haoxuan Xu, Shaoyu Wang, Minghao Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28702) · [PDF](https://arxiv.org/pdf/2611.28702) |
+| 2026-11-21 | **The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates**<br><sub>Haoyuan Zheng, Dongting Li, Hancheng Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28671) · [PDF](https://arxiv.org/pdf/2611.28671) · [Code](https://github.com/MAS-Sys-Bench/MAS-Sys) |
+| 2026-11-21 | **IndexerStage: Staging Indexer-K across Memory Tiers for Sparse-Attention LLM Serving**<br><sub>Xin Zhang, Weifeng Zhang, Xianyan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28625) · [PDF](https://arxiv.org/pdf/2611.28625) |
+| 2026-11-21 | **DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving**<br><sub>Nurlan Nazaraliyev, Elaheh Sadredini, Nael Abu-Ghazaleh</sub> | [arXiv](https://arxiv.org/abs/2611.28522) · [PDF](https://arxiv.org/pdf/2611.28522) · [Code](https://github.com/nnurlan008/DisSparse) |
+| 2026-11-21 | **Shoonya: Zero-Socket In-Process Small Language Models for Graph Databases with Schema-Epoch KV Caching, Live Catalog Logit Masking, and Verifier-Advantage Distillation**<br><sub>Madhulatha Mandarapu, Sandeep Kunkunuru</sub> | [arXiv](https://arxiv.org/abs/2611.28502) · [PDF](https://arxiv.org/pdf/2611.28502) · [Code](https://huggingface.co/VaidhyaMegha/Shoonya) |
 | 2026-11-20 | **Isonomy: Isolating Every Request from Timing Side Channels at Nearly Full-Sharing Throughput in Multi-Instance LLM Prefill**<br><sub>Bowen Sun, Chaowei Xiao</sub> | [arXiv](https://arxiv.org/abs/2611.27596) · [PDF](https://arxiv.org/pdf/2611.27596) |
 | 2026-11-20 | **Efficient Natural Language to Temporal Logic Translation for Real-Time Physical AI**<br><sub>Oliver Schön, Adrien Banse, John Lygeros et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27489) · [PDF](https://arxiv.org/pdf/2611.27489) |
 | 2026-11-20 | **Contexture: Runtime Context Eviction for High-Throughput Agent Serving**<br><sub>Colin Hong, Bryan Shan, Wei Siong Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26980) · [PDF](https://arxiv.org/pdf/2611.26980) |
@@ -18,7 +30,7 @@ LLM 推理服务、调度、卸载与分布式系统
 | 2026-11-19 | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation**<br><sub>Zhixiong Hu, Meng Li, Maggie Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26096) · [PDF](https://arxiv.org/pdf/2611.26096) |
 | 2026-11-19 | **DriftGuard: Online Memory-Drift Detection via Causal Attribution for LLM Agents**<br><sub>Licheng Pan, Yuzhou Chen, Zhixuan Chu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25583) · [PDF](https://arxiv.org/pdf/2611.25583) |
 | 2026-11-19 | **RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression**<br><sub>Payman Behnam, Elaheh Sobhani, Saad Amin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25433) · [PDF](https://arxiv.org/pdf/2611.25433) |
-| 2026-11-18 | **TripleKV: Predict, Prefetch, Protect -- KV Cache Management for AI Agents**<br><sub>Shashwat Jaiswal, Chloe Alverti, Mengmei Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25112) · [PDF](https://arxiv.org/pdf/2611.25112) |
+| 2026-11-18 | **TripleKV: Predict, Prefetch, Protect - KV Cache Management for AI Agents**<br><sub>Shashwat Jaiswal, Chloe Alverti, Mengmei Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25112) · [PDF](https://arxiv.org/pdf/2611.25112) |
 | 2026-11-18 | **eFAIR: Fair LLM Serving under Hourly Electricity Commitments**<br><sub>You Peng, Youhe Jiang, Chen Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24119) · [PDF](https://arxiv.org/pdf/2611.24119) |
 | 2026-11-18 | **LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices**<br><sub>Zihao Wang, Ye Tian, Tajana Rosing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.24085) · [PDF](https://arxiv.org/pdf/2611.24085) · [Code](https://github.com/gdfwj/LEDGE) |
 | 2026-11-18 | **HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic**<br><sub>Zhiheng Chen, Yu-An Chou, Yifan Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.23878) · [PDF](https://arxiv.org/pdf/2611.23878) |
