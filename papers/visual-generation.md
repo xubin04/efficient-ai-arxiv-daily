@@ -4,10 +4,19 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-282 papers · newest submission first
+291 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction**<br><sub>Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33141) · [PDF](https://arxiv.org/pdf/2611.33141) |
+| 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
+| 2026-11-24 | **Residual Guidance for Real-Time Interactive Video Generation**<br><sub>NaHyeon Park, Kyeong-Hwan Moon, Youjin Jeon et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32820) · [PDF](https://arxiv.org/pdf/2611.32820) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **The Old Scene Lives in the Cache: Diagnosing and Shedding Stale History in Streaming Video Generation**<br><sub>Hao Zhou, Ziyang Xu, Chenhan Jin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32116) · [PDF](https://arxiv.org/pdf/2611.32116) |
+| 2026-11-24 | **DexOPD: Dual-Extrapolation On-Policy Distillation for Diffusion Models**<br><sub>Yunchao Ke, Yanzhe Hu, Yi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31969) · [PDF](https://arxiv.org/pdf/2611.31969) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-23 | **PromptSMC: Enabling Particle Exploration in Flow Matching via LLM-Based Prompt Rejuvenation**<br><sub>Wenyi Lian, Zheng Zhao, Thomas B. Schön</sub> | [arXiv](https://arxiv.org/abs/2611.31471) · [PDF](https://arxiv.org/pdf/2611.31471) · [Code](https://github.com/shermanlian/PromptSMC) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
 | 2026-11-23 | **SPROUT: Predicting Objective-Grounded Prompt Utility for Efficient Text-to-Image Preference Tuning**<br><sub>Kangping Hu, Akshay Mehra, Stephen Mussmann</sub> | [arXiv](https://arxiv.org/abs/2611.31163) · [PDF](https://arxiv.org/pdf/2611.31163) · [Code](https://github.com/ADDAPT-ML/SPROUT) |

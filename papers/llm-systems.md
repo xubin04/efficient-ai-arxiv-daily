@@ -4,10 +4,21 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-341 papers · newest submission first
+352 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
+| 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
+| 2026-11-24 | **Leto: Utility-Centric Agent Memory**<br><sub>Shuguang Chen, Salman Paracha</sub> | [arXiv](https://arxiv.org/abs/2611.33005) · [PDF](https://arxiv.org/pdf/2611.33005) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
+| 2026-11-24 | **RePrism: Joint Request and Representation Scheduling for LLM Agent Serving**<br><sub>Xijiang Shen, Aoli Zhu, Yanbo Tan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32545) · [PDF](https://arxiv.org/pdf/2611.32545) |
+| 2026-11-24 | **ViDM: Efficient and Order-Robust Parallel Visual Decision Making**<br><sub>Xudong Tan, Peng Ye, Chenyu Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32461) · [PDF](https://arxiv.org/pdf/2611.32461) |
+| 2026-11-24 | **Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference**<br><sub>Naoto Sugiura, Hiroki Matsutani</sub> | [arXiv](https://arxiv.org/abs/2611.32295) · [PDF](https://arxiv.org/pdf/2611.32295) |
+| 2026-11-24 | **Generalized Tensor Parallelism: Powering Trillion-Parameter LLM Training at 10+ EFLOP/s**<br><sub>Shiqing Fan, Deepak Narayanan, Jimmy Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32057) · [PDF](https://arxiv.org/pdf/2611.32057) · [Code](https://github.com/NVIDIA/Megatron-LM) |
+| 2026-11-24 | **GreenDynaMix: Thermal-Aware Dynamic Mixed-Precision MoE LLM Inference Systems**<br><sub>Han-Yi Lin, Kieran Griperay, Qiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31737) · [PDF](https://arxiv.org/pdf/2611.31737) |
+| 2026-11-23 | **Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding**<br><sub>Huy Huu Nguyen, Xin Huang</sub> | [arXiv](https://arxiv.org/abs/2611.31638) · [PDF](https://arxiv.org/pdf/2611.31638) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
 | 2026-11-23 | **ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy**<br><sub>Hyunsu Ye, Hyunmin Choi, Jaehong Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30417) · [PDF](https://arxiv.org/pdf/2611.30417) |
 | 2026-11-23 | **EdgeALM: An Efficient and Unified Edge Accelerator for Large Audio Language Models via Full-Stack Hardware-Software Co-Design and Agent-Driven Recursive Optimization**<br><sub>Chenglin Yang, Feifan Xu, Xingyuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30216) · [PDF](https://arxiv.org/pdf/2611.30216) |

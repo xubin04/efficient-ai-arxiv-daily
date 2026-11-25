@@ -4,10 +4,21 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-607 papers · newest submission first
+618 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
+| 2026-11-24 | **HazeFlux: Few-Step Generative Priors for Real-World Image Dehazing**<br><sub>Yunong Liu, Danna Xue, Javier Vazquez-Corral</sub> | [arXiv](https://arxiv.org/abs/2611.32632) · [PDF](https://arxiv.org/pdf/2611.32632) |
+| 2026-11-24 | **STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation**<br><sub>Yi Zou, Zhuang Yan, Yudong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32472) · [PDF](https://arxiv.org/pdf/2611.32472) |
+| 2026-11-24 | **Describe, Don&#x27;t Ask: Caption-Driven On-Policy Distillation for Fine-Grained Visual Perception**<br><sub>Haozhan Shen, Liangbo He, Jun Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32463) · [PDF](https://arxiv.org/pdf/2611.32463) |
+| 2026-11-24 | **The Teacher Is Already Inside: Self-Distilling Looped Language Models Beyond Their Last Loop**<br><sub>Linghua Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.32452) · [PDF](https://arxiv.org/pdf/2611.32452) |
+| 2026-11-24 | **VC-OPD: Learning to See What Matters via Visual Cue On-Policy Self-Distillation**<br><sub>Qinxuan Wang, Zheyu Zhang, Yijing Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32292) · [PDF](https://arxiv.org/pdf/2611.32292) |
+| 2026-11-24 | **Rethinking Reasoning Effort Training in Large Language Models: On-Policy Distillation or Reinforcement Learning?**<br><sub>Tianliang Lv, Hao Li, Xinchao Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32131) · [PDF](https://arxiv.org/pdf/2611.32131) |
+| 2026-11-24 | **HuluOPD: Unifying Heterogeneous Medical Specialists into One Lightweight Model with Unlabeled Prompts**<br><sub>Yuncheng Zhang, Songtao Jiang, Yitian Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32021) · [PDF](https://arxiv.org/pdf/2611.32021) |
+| 2026-11-24 | **DexOPD: Dual-Extrapolation On-Policy Distillation for Diffusion Models**<br><sub>Yunchao Ke, Yanzhe Hu, Yi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31969) · [PDF](https://arxiv.org/pdf/2611.31969) |
+| 2026-11-24 | **Contrastive On-Policy Self-Distillation for LLM Unlearning**<br><sub>Fangzhou Lin, Shuo Xing, Xin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31932) · [PDF](https://arxiv.org/pdf/2611.31932) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
 | 2026-11-23 | **Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching**<br><sub>Yihong Luo</sub> | [arXiv](https://arxiv.org/abs/2611.30986) · [PDF](https://arxiv.org/pdf/2611.30986) · [Code](https://github.com/Luo-Yihong/iTDM) |

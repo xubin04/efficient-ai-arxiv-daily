@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-323 papers · newest submission first
+330 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Eliciting the Recall Capacity of Linear Attention**<br><sub>Johan Lindqvist, Antonio Orvieto</sub> | [arXiv](https://arxiv.org/abs/2611.32969) · [PDF](https://arxiv.org/pdf/2611.32969) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Factorized Context Attention: From Emulated to Native Grid Probing**<br><sub>Mohamed Eltahir, Manar Eyad, Yara Alzahrani et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32423) · [PDF](https://arxiv.org/pdf/2611.32423) · [Code](https://github.com/mohammad2012191/FCA) |
+| 2026-11-24 | **Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference**<br><sub>Naoto Sugiura, Hiroki Matsutani</sub> | [arXiv](https://arxiv.org/abs/2611.32295) · [PDF](https://arxiv.org/pdf/2611.32295) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-24 | **ET: Efficient Transfer from Softmax to Hybrid Attention**<br><sub>Guangfu Guo, Xiaoqian Lu, Linsey Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31770) · [PDF](https://arxiv.org/pdf/2611.31770) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
 | 2026-11-23 | **Near-Far Attention: Region-Aware Sparse Retrieval for Long-Context LLM Decoding**<br><sub>YuanShuo Wang, Jianchao Tan, Lei Gong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30554) · [PDF](https://arxiv.org/pdf/2611.30554) |

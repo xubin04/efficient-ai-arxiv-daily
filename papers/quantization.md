@@ -4,10 +4,24 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-318 papers · newest submission first
+332 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
+| 2026-11-24 | **Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?**<br><sub>Steffen Urban</sub> | [arXiv](https://arxiv.org/abs/2611.33031) · [PDF](https://arxiv.org/pdf/2611.33031) · [Code](https://github.com/urbste/weight-space-programming-ptq) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **MXFP4 for LLM Inference: Complementary Post-Training Quantization Techniques and Their Interactions**<br><sub>Natalia Frumkin, Alireza Khodamoradi, Kristof Denolf et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32873) · [PDF](https://arxiv.org/pdf/2611.32873) |
+| 2026-11-24 | **Measurement Artifacts in Trustworthiness Evaluations of Quantized Small Language Models**<br><sub>Tanzeel Abbas, Tehseen Zia, David Windridge</sub> | [arXiv](https://arxiv.org/abs/2611.32848) · [PDF](https://arxiv.org/pdf/2611.32848) |
+| 2026-11-24 | **ReQOR: Operator-Discrepancy Subspace Repair for Quantization-Conditioned Backdoors in Large Language Models**<br><sub>Wonjune Seo, Minkyung Park, Saerom Park</sub> | [arXiv](https://arxiv.org/abs/2611.32755) · [PDF](https://arxiv.org/pdf/2611.32755) |
+| 2026-11-24 | **HiCal: Offline Calibration for Hierarchical Scale Encoding in Accurate HiF4 Quantization**<br><sub>Zhiyuan Zhang, Yanzhao Li, Hui Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32624) · [PDF](https://arxiv.org/pdf/2611.32624) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **Bit-Flip Attacks on Quantized Neural Networks without Knowledge of Model Parameters**<br><sub>Mahmoud Abumandour, Srinija Ramichetty, Guru Venkataramani et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32128) · [PDF](https://arxiv.org/pdf/2611.32128) |
+| 2026-11-24 | **Rethinking Post-Training Quantization for Large Vision-Language Models**<br><sub>Minchan Kang, Kyeonghye Park, Seoyoung Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32096) · [PDF](https://arxiv.org/pdf/2611.32096) · [Code](https://github.com/kmc3661/RRQ) |
+| 2026-11-24 | **DeCo-Attention: Decompose to Compensate for Low-Precision Attention**<br><sub>Yuhang He, Harrison Zhang, Fanrong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32035) · [PDF](https://arxiv.org/pdf/2611.32035) |
+| 2026-11-24 | **Native Block-Quantized Matrix Multiplication and Explicit K/V Residency with Dual-View Access for LLM Inference on RISC-V Vector Processors**<br><sub>Weiying Wang, Yuanyang Xiang, Zhiwei Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.31937) · [PDF](https://arxiv.org/pdf/2611.31937) |
+| 2026-11-24 | **GreenDynaMix: Thermal-Aware Dynamic Mixed-Precision MoE LLM Inference Systems**<br><sub>Han-Yi Lin, Kieran Griperay, Qiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31737) · [PDF](https://arxiv.org/pdf/2611.31737) |
+| 2026-11-23 | **Your Codec, Your Generator: Idempotent Generative Compression without Retraining**<br><sub>Raz Haim, Assaf Shocher</sub> | [arXiv](https://arxiv.org/abs/2611.31520) · [PDF](https://arxiv.org/pdf/2611.31520) |
 | 2026-11-23 | **Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression**<br><sub>Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi</sub> | [arXiv](https://arxiv.org/abs/2611.31089) · [PDF](https://arxiv.org/pdf/2611.31089) |
 | 2026-11-23 | **Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models**<br><sub>Tianqi Li, Xin He, Xue Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30195) · [PDF](https://arxiv.org/pdf/2611.30195) |
 | 2026-11-22 | **Estimating Silenced Tokens in Quantized LLMs**<br><sub>Giuseppe Pappalardo</sub> | [arXiv](https://arxiv.org/abs/2611.29536) · [PDF](https://arxiv.org/pdf/2611.29536) |

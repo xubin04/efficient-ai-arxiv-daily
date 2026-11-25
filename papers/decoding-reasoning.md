@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=decoding-reasoning)
 
-196 papers · newest submission first
+201 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
+| 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
+| 2026-11-24 | **Pando: Noise-Coupled Parallel Draft Trees for Efficient Edge Speculative Decoding**<br><sub>Joren Dumoulin, Hyoukjun Kwon, Subhankar Pal et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32269) · [PDF](https://arxiv.org/pdf/2611.32269) |
+| 2026-11-24 | **How Much Dependency Can a Marginal Rule See? Total Correlation in Diffusion LM Parallel Decoding**<br><sub>Dovud Asadov, Rustambek Urokov, Qobiljon Toshnazarov et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31990) · [PDF](https://arxiv.org/pdf/2611.31990) · [Code](https://github.com/DovudAsadov/dllm-total-correlation) |
+| 2026-11-23 | **Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding**<br><sub>Huy Huu Nguyen, Xin Huang</sub> | [arXiv](https://arxiv.org/abs/2611.31638) · [PDF](https://arxiv.org/pdf/2611.31638) |
 | 2026-11-23 | **Self-Upgrading Embodied Agents**<br><sub>Jiajun Fan, Neil He, Qinglong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31117) · [PDF](https://arxiv.org/pdf/2611.31117) |
 | 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
 | 2026-11-23 | **Quantizing Diffusion LLMs under Parallel Decoding: Commitment Risk and the Parallelism Tax**<br><sub>Huan Xu, Maosen Zhao, Pengtao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30587) · [PDF](https://arxiv.org/pdf/2611.30587) |

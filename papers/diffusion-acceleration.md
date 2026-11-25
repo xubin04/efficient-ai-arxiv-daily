@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-160 papers · newest submission first
+164 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Every Edit Its Own Budget: Per-Instruction Token Freezing for Training-Free Acceleration of Multi-Edit Image Editing**<br><sub>Jyotirmoy Nath, Neeraj Kumar, Brejesh Lall</sub> | [arXiv](https://arxiv.org/abs/2611.32407) · [PDF](https://arxiv.org/pdf/2611.32407) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **CHIP: Contrastive Hardware-Image Projection. Can OpenAI CLIP Reconstruct Images from the CPU Computational Footprint?**<br><sub>Debayan Sengupta, Darsh Asher, Kaushal Mhapsekar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30269) · [PDF](https://arxiv.org/pdf/2611.30269) |
 | 2026-11-22 | **OnCache: Learning Dynamic Caching Schedules for Efficient Diffusion Inference**<br><sub>Zhikang Xie, Xichen Ye, Yifan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29480) · [PDF](https://arxiv.org/pdf/2611.29480) |

@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-24 18:59 CST** · **2000 unique papers** · Newest submission: **2026-11-23**
+Last successful scan: **2026-11-25 17:53 CST** · **2050 unique papers** · Newest submission: **2026-11-24**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -16,116 +16,121 @@ Last successful scan: **2026-11-24 18:59 CST** · **2000 unique papers** · Newe
 
 | Topic | Scope | Papers |
 |:---|:---|---:|
-| [Quantization & Low Precision](#quantization) | 量化、低比特推理与低精度训练 | 318 |
-| [Pruning & Sparsity](#pruning) | 模型剪枝、结构化稀疏与 Token 压缩 | 286 |
-| [Distillation & Few-Step Generation](#distillation) | 知识蒸馏、分布匹配与少步/单步生成 | 607 |
-| [Efficient Training & Fine-Tuning](#efficient-training) | LoRA/PEFT、显存优化与高效训练 | 213 |
-| [Efficient Attention & KV Cache](#attention-kv-cache) | 高效 Attention、长上下文与 KV Cache 压缩 | 323 |
-| [Speculative Decoding & Efficient Reasoning](#decoding-reasoning) | 推测解码、并行解码与推理预算优化 | 196 |
-| [LLM Serving & Systems](#llm-systems) | LLM 推理服务、调度、卸载与分布式系统 | 341 |
-| [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 160 |
-| [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 282 |
+| [Quantization & Low Precision](#quantization) | 量化、低比特推理与低精度训练 | 332 |
+| [Pruning & Sparsity](#pruning) | 模型剪枝、结构化稀疏与 Token 压缩 | 293 |
+| [Distillation & Few-Step Generation](#distillation) | 知识蒸馏、分布匹配与少步/单步生成 | 618 |
+| [Efficient Training & Fine-Tuning](#efficient-training) | LoRA/PEFT、显存优化与高效训练 | 218 |
+| [Efficient Attention & KV Cache](#attention-kv-cache) | 高效 Attention、长上下文与 KV Cache 压缩 | 330 |
+| [Speculative Decoding & Efficient Reasoning](#decoding-reasoning) | 推测解码、并行解码与推理预算优化 | 201 |
+| [LLM Serving & Systems](#llm-systems) | LLM 推理服务、调度、卸载与分布式系统 | 352 |
+| [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 164 |
+| [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 291 |
 
-## Newly indexed · 2026-11-24
+## Newly indexed · 2026-11-25
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
-| 2026-11-23 | **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**<br><sub>Seongchan Kim, Soowon Son, Sangoh Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31240) · [PDF](https://arxiv.org/pdf/2611.31240) |
-| 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
-| 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
-| 2026-11-23 | **SPROUT: Predicting Objective-Grounded Prompt Utility for Efficient Text-to-Image Preference Tuning**<br><sub>Kangping Hu, Akshay Mehra, Stephen Mussmann</sub> | [arXiv](https://arxiv.org/abs/2611.31163) · [PDF](https://arxiv.org/pdf/2611.31163) · [Code](https://github.com/ADDAPT-ML/SPROUT) |
-| 2026-11-23 | **Self-Upgrading Embodied Agents**<br><sub>Jiajun Fan, Neil He, Qinglong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31117) · [PDF](https://arxiv.org/pdf/2611.31117) |
-| 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
-| 2026-11-23 | **Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression**<br><sub>Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi</sub> | [arXiv](https://arxiv.org/abs/2611.31089) · [PDF](https://arxiv.org/pdf/2611.31089) |
-| 2026-11-23 | **Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching**<br><sub>Yihong Luo</sub> | [arXiv](https://arxiv.org/abs/2611.30986) · [PDF](https://arxiv.org/pdf/2611.30986) · [Code](https://github.com/Luo-Yihong/iTDM) |
-| 2026-11-23 | **DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers**<br><sub>Lernie Li, Yuanliu Liu, Pengfei Xiong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30844) · [PDF](https://arxiv.org/pdf/2611.30844) |
-| 2026-11-23 | **Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**<br><sub>Jesper Derehag</sub> | [arXiv](https://arxiv.org/abs/2611.30825) · [PDF](https://arxiv.org/pdf/2611.30825) |
-| 2026-11-23 | **Same Seed, Different Picture? Deciding Early at Low Resolution for Seed-Faithful Few-Step Flow Sampling**<br><sub>Huiran Duan, Weilun Feng, Yuqi Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30728) · [PDF](https://arxiv.org/pdf/2611.30728) |
-| 2026-11-23 | **LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation**<br><sub>Yuxuan Jiang, Zehua Chen, Yusheng Dai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30714) · [PDF](https://arxiv.org/pdf/2611.30714) |
-| 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
-| 2026-11-23 | **Uncovering the Tells: Efficient Black-Box Audits for LLM Data Contamination**<br><sub>Dominik Bernard Lau, Filip Pawlicki, Jan Dubiński et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30639) · [PDF](https://arxiv.org/pdf/2611.30639) |
-| 2026-11-23 | **Quantizing Diffusion LLMs under Parallel Decoding: Commitment Risk and the Parallelism Tax**<br><sub>Huan Xu, Maosen Zhao, Pengtao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30587) · [PDF](https://arxiv.org/pdf/2611.30587) |
-| 2026-11-23 | **Near-Far Attention: Region-Aware Sparse Retrieval for Long-Context LLM Decoding**<br><sub>YuanShuo Wang, Jianchao Tan, Lei Gong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30554) · [PDF](https://arxiv.org/pdf/2611.30554) |
-| 2026-11-23 | **LiveMirror: Real-Time Diffusion Virtual Try-On on a Consumer GPU and Its Self-Supervised Adaptation to Indian Ethnic Wear**<br><sub>Jigyansha Jeevan Rout, Sukanta Kumar Sabut</sub> | [arXiv](https://arxiv.org/abs/2611.30461) · [PDF](https://arxiv.org/pdf/2611.30461) |
-| 2026-11-23 | **CGSpec: Consistency-Guided Speculative Decoding with Overlap-Aware Verification Scheduling for Edge-Cloud Inference**<br><sub>Yuanbing Ouyang, Xiaoli Liu, Shirong Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30455) · [PDF](https://arxiv.org/pdf/2611.30455) |
-| 2026-11-23 | **ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy**<br><sub>Hyunsu Ye, Hyunmin Choi, Jaehong Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30417) · [PDF](https://arxiv.org/pdf/2611.30417) |
-| 2026-11-23 | **Learning Teacher Output Preferences from Final Responses for Reasoning Distillation**<br><sub>Hongli Shen, Shaopeng Fu, Qinbo Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30338) · [PDF](https://arxiv.org/pdf/2611.30338) |
+| 2026-11-24 | **iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction**<br><sub>Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33141) · [PDF](https://arxiv.org/pdf/2611.33141) |
+| 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
+| 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
+| 2026-11-24 | **Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?**<br><sub>Steffen Urban</sub> | [arXiv](https://arxiv.org/abs/2611.33031) · [PDF](https://arxiv.org/pdf/2611.33031) · [Code](https://github.com/urbste/weight-space-programming-ptq) |
+| 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
+| 2026-11-24 | **Leto: Utility-Centric Agent Memory**<br><sub>Shuguang Chen, Salman Paracha</sub> | [arXiv](https://arxiv.org/abs/2611.33005) · [PDF](https://arxiv.org/pdf/2611.33005) |
+| 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
+| 2026-11-24 | **Eliciting the Recall Capacity of Linear Attention**<br><sub>Johan Lindqvist, Antonio Orvieto</sub> | [arXiv](https://arxiv.org/abs/2611.32969) · [PDF](https://arxiv.org/pdf/2611.32969) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **Efficient Video Retrieval Augmented Generation via Token Allocation**<br><sub>Ayush Barik, Fan Lai, Francis Y. Yan</sub> | [arXiv](https://arxiv.org/abs/2611.32938) · [PDF](https://arxiv.org/pdf/2611.32938) |
+| 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
+| 2026-11-24 | **MXFP4 for LLM Inference: Complementary Post-Training Quantization Techniques and Their Interactions**<br><sub>Natalia Frumkin, Alireza Khodamoradi, Kristof Denolf et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32873) · [PDF](https://arxiv.org/pdf/2611.32873) |
+| 2026-11-24 | **Measurement Artifacts in Trustworthiness Evaluations of Quantized Small Language Models**<br><sub>Tanzeel Abbas, Tehseen Zia, David Windridge</sub> | [arXiv](https://arxiv.org/abs/2611.32848) · [PDF](https://arxiv.org/pdf/2611.32848) |
+| 2026-11-24 | **Residual Guidance for Real-Time Interactive Video Generation**<br><sub>NaHyeon Park, Kyeong-Hwan Moon, Youjin Jeon et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32820) · [PDF](https://arxiv.org/pdf/2611.32820) |
+| 2026-11-24 | **Scaling Laws of Ensemble Uncertainty in Language Models**<br><sub>Siamak Ravanbakhsh, David Nitchi, Khang Ngo</sub> | [arXiv](https://arxiv.org/abs/2611.32801) · [PDF](https://arxiv.org/pdf/2611.32801) |
+| 2026-11-24 | **ReQOR: Operator-Discrepancy Subspace Repair for Quantization-Conditioned Backdoors in Large Language Models**<br><sub>Wonjune Seo, Minkyung Park, Saerom Park</sub> | [arXiv](https://arxiv.org/abs/2611.32755) · [PDF](https://arxiv.org/pdf/2611.32755) |
+| 2026-11-24 | **HazeFlux: Few-Step Generative Priors for Real-World Image Dehazing**<br><sub>Yunong Liu, Danna Xue, Javier Vazquez-Corral</sub> | [arXiv](https://arxiv.org/abs/2611.32632) · [PDF](https://arxiv.org/pdf/2611.32632) |
+| 2026-11-24 | **HiCal: Offline Calibration for Hierarchical Scale Encoding in Accurate HiF4 Quantization**<br><sub>Zhiyuan Zhang, Yanzhao Li, Hui Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32624) · [PDF](https://arxiv.org/pdf/2611.32624) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **RePrism: Joint Request and Representation Scheduling for LLM Agent Serving**<br><sub>Xijiang Shen, Aoli Zhu, Yanbo Tan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32545) · [PDF](https://arxiv.org/pdf/2611.32545) |
 
-[View all 76 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+[View all 50 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
 
 <a id="quantization"></a>
 
 ## Quantization & Low Precision
 
-量化、低比特推理与低精度训练 · **318 papers** · [Full archive](papers/quantization.md)
+量化、低比特推理与低精度训练 · **332 papers** · [Full archive](papers/quantization.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
-| 2026-11-23 | **Orthogonally Mixed Sign Coding with Progressive Residual Refinement for Transformer Weight Compression**<br><sub>Anindya Roy Chowdhury, Atanu Barai, Nandakishore Santhi</sub> | [arXiv](https://arxiv.org/abs/2611.31089) · [PDF](https://arxiv.org/pdf/2611.31089) |
-| 2026-11-23 | **Quantization for Action, Execution for Deployment: Joint Precision and Execution Selection for World Action Models**<br><sub>Tianqi Li, Xin He, Xue Geng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30195) · [PDF](https://arxiv.org/pdf/2611.30195) |
-| 2026-11-22 | **Estimating Silenced Tokens in Quantized LLMs**<br><sub>Giuseppe Pappalardo</sub> | [arXiv](https://arxiv.org/abs/2611.29536) · [PDF](https://arxiv.org/pdf/2611.29536) |
-| 2026-11-22 | **Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs**<br><sub>Feng Cheng, Cong Guo, Junyao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29497) · [PDF](https://arxiv.org/pdf/2611.29497) |
-| 2026-11-22 | **BQDNA: Multi-Head Binary Spherical Quantization for Genomic Sequence Modeling**<br><sub>Xudong Wang, Siwei Cheng, Haozhe Hu</sub> | [arXiv](https://arxiv.org/abs/2611.29395) · [PDF](https://arxiv.org/pdf/2611.29395) · [Code](https://github.com/Sophie10001b/BQDNA) |
-| 2026-11-21 | **SANA-Robot: Efficient World Action Model with Hybrid Memory**<br><sub>Yuyang Zhao, Zekai Li, Yicheng Pan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28943) · [PDF](https://arxiv.org/pdf/2611.28943) |
-| 2026-11-20 | **Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models**<br><sub>Smit Anand</sub> | [arXiv](https://arxiv.org/abs/2611.28318) · [PDF](https://arxiv.org/pdf/2611.28318) |
-| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
-| 2026-11-20 | **Exploring the Potential of Ultra-Low-Bit Inference on LLM Accelerators**<br><sub>Hao Wang, Yang Shi, Jiageng Shi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27561) · [PDF](https://arxiv.org/pdf/2611.27561) |
-| 2026-11-20 | **Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization**<br><sub>Ramneek Agnihotri, Yingte Xu, Hans Vath</sub> | [arXiv](https://arxiv.org/abs/2611.27424) · [PDF](https://arxiv.org/pdf/2611.27424) · [Code](https://github.com/LucianoXu/QuantBeyoundEfficiency) |
-| 2026-11-20 | **Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition**<br><sub>Manh Tuan Ha, Xuan Bao Viet Tran, Vo Minh Dat Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27208) · [PDF](https://arxiv.org/pdf/2611.27208) |
-| 2026-11-20 | **The Vulnerability Window: Decision Instability in Quantized Reward Models**<br><sub>Omkar Shewale, Deepak Kumar, Divakar Kumar Yadav</sub> | [arXiv](https://arxiv.org/abs/2611.27155) · [PDF](https://arxiv.org/pdf/2611.27155) |
+| 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
+| 2026-11-24 | **Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?**<br><sub>Steffen Urban</sub> | [arXiv](https://arxiv.org/abs/2611.33031) · [PDF](https://arxiv.org/pdf/2611.33031) · [Code](https://github.com/urbste/weight-space-programming-ptq) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **MXFP4 for LLM Inference: Complementary Post-Training Quantization Techniques and Their Interactions**<br><sub>Natalia Frumkin, Alireza Khodamoradi, Kristof Denolf et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32873) · [PDF](https://arxiv.org/pdf/2611.32873) |
+| 2026-11-24 | **Measurement Artifacts in Trustworthiness Evaluations of Quantized Small Language Models**<br><sub>Tanzeel Abbas, Tehseen Zia, David Windridge</sub> | [arXiv](https://arxiv.org/abs/2611.32848) · [PDF](https://arxiv.org/pdf/2611.32848) |
+| 2026-11-24 | **ReQOR: Operator-Discrepancy Subspace Repair for Quantization-Conditioned Backdoors in Large Language Models**<br><sub>Wonjune Seo, Minkyung Park, Saerom Park</sub> | [arXiv](https://arxiv.org/abs/2611.32755) · [PDF](https://arxiv.org/pdf/2611.32755) |
+| 2026-11-24 | **HiCal: Offline Calibration for Hierarchical Scale Encoding in Accurate HiF4 Quantization**<br><sub>Zhiyuan Zhang, Yanzhao Li, Hui Dong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32624) · [PDF](https://arxiv.org/pdf/2611.32624) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **Bit-Flip Attacks on Quantized Neural Networks without Knowledge of Model Parameters**<br><sub>Mahmoud Abumandour, Srinija Ramichetty, Guru Venkataramani et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32128) · [PDF](https://arxiv.org/pdf/2611.32128) |
+| 2026-11-24 | **Rethinking Post-Training Quantization for Large Vision-Language Models**<br><sub>Minchan Kang, Kyeonghye Park, Seoyoung Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32096) · [PDF](https://arxiv.org/pdf/2611.32096) · [Code](https://github.com/kmc3661/RRQ) |
+| 2026-11-24 | **DeCo-Attention: Decompose to Compensate for Low-Precision Attention**<br><sub>Yuhang He, Harrison Zhang, Fanrong Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32035) · [PDF](https://arxiv.org/pdf/2611.32035) |
+| 2026-11-24 | **Native Block-Quantized Matrix Multiplication and Explicit K/V Residency with Dual-View Access for LLM Inference on RISC-V Vector Processors**<br><sub>Weiying Wang, Yuanyang Xiang, Zhiwei Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.31937) · [PDF](https://arxiv.org/pdf/2611.31937) |
 
 <a id="pruning"></a>
 
 ## Pruning & Sparsity
 
-模型剪枝、结构化稀疏与 Token 压缩 · **286 papers** · [Full archive](papers/pruning.md)
+模型剪枝、结构化稀疏与 Token 压缩 · **293 papers** · [Full archive](papers/pruning.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Efficient Video Retrieval Augmented Generation via Token Allocation**<br><sub>Ayush Barik, Fan Lai, Francis Y. Yan</sub> | [arXiv](https://arxiv.org/abs/2611.32938) · [PDF](https://arxiv.org/pdf/2611.32938) |
+| 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Pando: Noise-Coupled Parallel Draft Trees for Efficient Edge Speculative Decoding**<br><sub>Joren Dumoulin, Hyoukjun Kwon, Subhankar Pal et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32269) · [PDF](https://arxiv.org/pdf/2611.32269) |
+| 2026-11-24 | **LIBRA: Runtime Co-Tuning of Batch Size and Parallelism for Time-Efficient LLM Training**<br><sub>Shengkai Lyu, Hairui Zhao, Daran Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32008) · [PDF](https://arxiv.org/pdf/2611.32008) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-24 | **FN-Prune: Training-Free Expert Pruning with Finite RMSNorm Perturbations**<br><sub>Zeyan Li, Jianfeng Xu</sub> | [arXiv](https://arxiv.org/abs/2611.31747) · [PDF](https://arxiv.org/pdf/2611.31747) |
 | 2026-11-23 | **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**<br><sub>Seongchan Kim, Soowon Son, Sangoh Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31240) · [PDF](https://arxiv.org/pdf/2611.31240) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **Uncovering the Tells: Efficient Black-Box Audits for LLM Data Contamination**<br><sub>Dominik Bernard Lau, Filip Pawlicki, Jan Dubiński et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30639) · [PDF](https://arxiv.org/pdf/2611.30639) |
 | 2026-11-23 | **EdgeALM: An Efficient and Unified Edge Accelerator for Large Audio Language Models via Full-Stack Hardware-Software Co-Design and Agent-Driven Recursive Optimization**<br><sub>Chenglin Yang, Feifan Xu, Xingyuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30216) · [PDF](https://arxiv.org/pdf/2611.30216) |
 | 2026-11-23 | **PCC: Pivotal Channel Compensation for Layer Pruning of Large Language Models**<br><sub>Xiangqian Wang, Yucheng Zhang, Zhaohong Jia et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30183) · [PDF](https://arxiv.org/pdf/2611.30183) |
-| 2026-11-22 | **Grammar Sparsity Sets How Transformers Learn Random Languages**<br><sub>Edgar Andres Hernandez Moreno, Francesco Cagnetta</sub> | [arXiv](https://arxiv.org/abs/2611.29692) · [PDF](https://arxiv.org/pdf/2611.29692) |
-| 2026-11-22 | **CAR: Reducing Decoder Output Shift in Visual Token Pruning via Coverage Selection and Attention Reallocation**<br><sub>Xixi Jiang, Pingcheng Dong, Chen Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29489) · [PDF](https://arxiv.org/pdf/2611.29489) |
-| 2026-11-22 | **FP-Prune: Rethinking Visual Token Pruning from an Information Gain Perspective**<br><sub>Haozhe Zhao, Junxiang Zhang, Junxin Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29327) · [PDF](https://arxiv.org/pdf/2611.29327) |
-| 2026-11-22 | **RVLM: Fewer Tokens, Better Resolution Scaling, Fine-Grained Spatial Grounding**<br><sub>Savya Khosla, Chris Dongjoo Kim, Alex Schwing et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29146) · [PDF](https://arxiv.org/pdf/2611.29146) |
-| 2026-11-21 | **DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving**<br><sub>Nurlan Nazaraliyev, Elaheh Sadredini, Nael Abu-Ghazaleh</sub> | [arXiv](https://arxiv.org/abs/2611.28522) · [PDF](https://arxiv.org/pdf/2611.28522) · [Code](https://github.com/nnurlan008/DisSparse) |
-| 2026-11-20 | **Video-as-Weights: Compiling a Video Once into Parametric and Token Memory**<br><sub>Wentao Zhang, Ian Miao, Chen Qu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28221) · [PDF](https://arxiv.org/pdf/2611.28221) |
-| 2026-11-20 | **QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers**<br><sub>Zunhai Su, Keyu Fan, Ruishan Guo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27901) · [PDF](https://arxiv.org/pdf/2611.27901) |
 
 <a id="distillation"></a>
 
 ## Distillation & Few-Step Generation
 
-知识蒸馏、分布匹配与少步/单步生成 · **607 papers** · [Full archive](papers/distillation.md)
+知识蒸馏、分布匹配与少步/单步生成 · **618 papers** · [Full archive](papers/distillation.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
+| 2026-11-24 | **HazeFlux: Few-Step Generative Priors for Real-World Image Dehazing**<br><sub>Yunong Liu, Danna Xue, Javier Vazquez-Corral</sub> | [arXiv](https://arxiv.org/abs/2611.32632) · [PDF](https://arxiv.org/pdf/2611.32632) |
+| 2026-11-24 | **STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation**<br><sub>Yi Zou, Zhuang Yan, Yudong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32472) · [PDF](https://arxiv.org/pdf/2611.32472) |
+| 2026-11-24 | **Describe, Don&#x27;t Ask: Caption-Driven On-Policy Distillation for Fine-Grained Visual Perception**<br><sub>Haozhan Shen, Liangbo He, Jun Lan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32463) · [PDF](https://arxiv.org/pdf/2611.32463) |
+| 2026-11-24 | **The Teacher Is Already Inside: Self-Distilling Looped Language Models Beyond Their Last Loop**<br><sub>Linghua Zhang</sub> | [arXiv](https://arxiv.org/abs/2611.32452) · [PDF](https://arxiv.org/pdf/2611.32452) |
+| 2026-11-24 | **VC-OPD: Learning to See What Matters via Visual Cue On-Policy Self-Distillation**<br><sub>Qinxuan Wang, Zheyu Zhang, Yijing Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32292) · [PDF](https://arxiv.org/pdf/2611.32292) |
+| 2026-11-24 | **Rethinking Reasoning Effort Training in Large Language Models: On-Policy Distillation or Reinforcement Learning?**<br><sub>Tianliang Lv, Hao Li, Xinchao Xu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32131) · [PDF](https://arxiv.org/pdf/2611.32131) |
+| 2026-11-24 | **HuluOPD: Unifying Heterogeneous Medical Specialists into One Lightweight Model with Unlabeled Prompts**<br><sub>Yuncheng Zhang, Songtao Jiang, Yitian Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32021) · [PDF](https://arxiv.org/pdf/2611.32021) |
+| 2026-11-24 | **DexOPD: Dual-Extrapolation On-Policy Distillation for Diffusion Models**<br><sub>Yunchao Ke, Yanzhe Hu, Yi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31969) · [PDF](https://arxiv.org/pdf/2611.31969) |
+| 2026-11-24 | **Contrastive On-Policy Self-Distillation for LLM Unlearning**<br><sub>Fangzhou Lin, Shuo Xing, Xin Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31932) · [PDF](https://arxiv.org/pdf/2611.31932) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
-| 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
-| 2026-11-23 | **Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching**<br><sub>Yihong Luo</sub> | [arXiv](https://arxiv.org/abs/2611.30986) · [PDF](https://arxiv.org/pdf/2611.30986) · [Code](https://github.com/Luo-Yihong/iTDM) |
-| 2026-11-23 | **Same Seed, Different Picture? Deciding Early at Low Resolution for Seed-Faithful Few-Step Flow Sampling**<br><sub>Huiran Duan, Weilun Feng, Yuqi Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30728) · [PDF](https://arxiv.org/pdf/2611.30728) |
-| 2026-11-23 | **LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation**<br><sub>Yuxuan Jiang, Zehua Chen, Yusheng Dai et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30714) · [PDF](https://arxiv.org/pdf/2611.30714) |
-| 2026-11-23 | **Learning Teacher Output Preferences from Final Responses for Reasoning Distillation**<br><sub>Hongli Shen, Shaopeng Fu, Qinbo Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30338) · [PDF](https://arxiv.org/pdf/2611.30338) |
-| 2026-11-23 | **Verifiable On-Policy Distillation**<br><sub>Juntong Shi, Stefano Ermon, Jure Leskovec et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30325) · [PDF](https://arxiv.org/pdf/2611.30325) · [Code](https://github.com/juntongshi48/VOPD) |
-| 2026-11-23 | **Preserve to Compress: Beyond Low-Dimensional Latents in One-Step Diffusion Codec**<br><sub>Chuqin Zhou, Xiaoyue Ling, Yuhang Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30154) · [PDF](https://arxiv.org/pdf/2611.30154) |
-| 2026-11-22 | **Reasoning Beyond Imitation: Observation Conditioned Distillation for Video LLMs**<br><sub>Junzhou Chen, Jindong Wang, Gang Zhou</sub> | [arXiv](https://arxiv.org/abs/2611.29728) · [PDF](https://arxiv.org/pdf/2611.29728) |
-| 2026-11-22 | **Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation**<br><sub>Yiyu Li, Fei Wei, Yong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29618) · [PDF](https://arxiv.org/pdf/2611.29618) |
-| 2026-11-22 | **Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato**<br><sub>Mingxiao Li, Xuantuo Huang, Encheng Su et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29547) · [PDF](https://arxiv.org/pdf/2611.29547) |
-| 2026-11-22 | **HorizonFlow: Few-Step Video Distillation in 600 Iterations**<br><sub>Xianglong Guo, Haobo Xu, Zanyi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29431) · [PDF](https://arxiv.org/pdf/2611.29431) · [Code](https://github.com/XIANGLONGGUO/HorizonFlow-repo) |
 
 <a id="efficient-training"></a>
 
 ## Efficient Training & Fine-Tuning
 
-LoRA/PEFT、显存优化与高效训练 · **213 papers** · [Full archive](papers/efficient-training.md)
+LoRA/PEFT、显存优化与高效训练 · **218 papers** · [Full archive](papers/efficient-training.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
+| 2026-11-24 | **Scaling Laws of Ensemble Uncertainty in Language Models**<br><sub>Siamak Ravanbakhsh, David Nitchi, Khang Ngo</sub> | [arXiv](https://arxiv.org/abs/2611.32801) · [PDF](https://arxiv.org/pdf/2611.32801) |
+| 2026-11-24 | **Improving Character Identity Consistency in Diffusion-Based Visual Story Generation through Identity Memory and Automatic Reranking**<br><sub>Maria-Emilia Grigore, Stelian Spînu</sub> | [arXiv](https://arxiv.org/abs/2611.32383) · [PDF](https://arxiv.org/pdf/2611.32383) · [Code](https://github.com/MerryWex/character-consistency-visual-storytelling) |
+| 2026-11-24 | **LIBRA: Runtime Co-Tuning of Batch Size and Parallelism for Time-Efficient LLM Training**<br><sub>Shengkai Lyu, Hairui Zhao, Daran Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32008) · [PDF](https://arxiv.org/pdf/2611.32008) |
+| 2026-11-24 | **ET: Efficient Transfer from Softmax to Hybrid Attention**<br><sub>Guangfu Guo, Xiaoqian Lu, Linsey Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31770) · [PDF](https://arxiv.org/pdf/2611.31770) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
 | 2026-11-23 | **Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**<br><sub>Jesper Derehag</sub> | [arXiv](https://arxiv.org/abs/2611.30825) · [PDF](https://arxiv.org/pdf/2611.30825) |
 | 2026-11-23 | **LiveMirror: Real-Time Diffusion Virtual Try-On on a Consumer GPU and Its Self-Supervised Adaptation to Indian Ethnic Wear**<br><sub>Jigyansha Jeevan Rout, Sukanta Kumar Sabut</sub> | [arXiv](https://arxiv.org/abs/2611.30461) · [PDF](https://arxiv.org/pdf/2611.30461) |
@@ -133,41 +138,41 @@ LoRA/PEFT、显存优化与高效训练 · **213 papers** · [Full archive](pape
 | 2026-11-23 | **Parameter-Efficient Vocabulary Expansion via Cross-Lingual Embedding Alignment**<br><sub>Andrew Ivan Soegeng, Muhammad Reza Qorib, Weishi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30123) · [PDF](https://arxiv.org/pdf/2611.30123) |
 | 2026-11-21 | **Unlearning Model Identity: Ablating LoRA Weights from Question-Based Identity Tuning**<br><sub>Ming Cheung</sub> | [arXiv](https://arxiv.org/abs/2611.28650) · [PDF](https://arxiv.org/pdf/2611.28650) |
 | 2026-11-20 | **Video-as-Weights: Compiling a Video Once into Parametric and Token Memory**<br><sub>Wentao Zhang, Ian Miao, Chen Qu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28221) · [PDF](https://arxiv.org/pdf/2611.28221) |
-| 2026-11-20 | **Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models**<br><sub>Nan Tang, Han-Tao Zhang, Jing-Cheng Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27645) · [PDF](https://arxiv.org/pdf/2611.27645) |
-| 2026-11-20 | **Parameter-Efficient Adaptation of Qwen3-VL for Handwritten Mathematical Expression Recognition**<br><sub>Manh Tuan Ha, Xuan Bao Viet Tran, Vo Minh Dat Nguyen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27208) · [PDF](https://arxiv.org/pdf/2611.27208) |
-| 2026-11-20 | **Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation**<br><sub>Yalin Yang, Xiao Huang, Yanan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27089) · [PDF](https://arxiv.org/pdf/2611.27089) |
-| 2026-11-19 | **Rethinking Full-Weight LoRA with Domain and Task Adapter Scaling for Question Answering over Portuguese Well Drilling Reports**<br><sub>Luan B. Guerra, Diogo M. Paes, Marcelo N. Grimberg et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26833) · [PDF](https://arxiv.org/pdf/2611.26833) |
-| 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
 
 <a id="attention-kv-cache"></a>
 
 ## Efficient Attention & KV Cache
 
-高效 Attention、长上下文与 KV Cache 压缩 · **323 papers** · [Full archive](papers/attention-kv-cache.md)
+高效 Attention、长上下文与 KV Cache 压缩 · **330 papers** · [Full archive](papers/attention-kv-cache.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Eliciting the Recall Capacity of Linear Attention**<br><sub>Johan Lindqvist, Antonio Orvieto</sub> | [arXiv](https://arxiv.org/abs/2611.32969) · [PDF](https://arxiv.org/pdf/2611.32969) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Factorized Context Attention: From Emulated to Native Grid Probing**<br><sub>Mohamed Eltahir, Manar Eyad, Yara Alzahrani et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32423) · [PDF](https://arxiv.org/pdf/2611.32423) · [Code](https://github.com/mohammad2012191/FCA) |
+| 2026-11-24 | **Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference**<br><sub>Naoto Sugiura, Hiroki Matsutani</sub> | [arXiv](https://arxiv.org/abs/2611.32295) · [PDF](https://arxiv.org/pdf/2611.32295) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-24 | **ET: Efficient Transfer from Softmax to Hybrid Attention**<br><sub>Guangfu Guo, Xiaoqian Lu, Linsey Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31770) · [PDF](https://arxiv.org/pdf/2611.31770) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
 | 2026-11-23 | **Near-Far Attention: Region-Aware Sparse Retrieval for Long-Context LLM Decoding**<br><sub>YuanShuo Wang, Jianchao Tan, Lei Gong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30554) · [PDF](https://arxiv.org/pdf/2611.30554) |
 | 2026-11-23 | **ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy**<br><sub>Hyunsu Ye, Hyunmin Choi, Jaehong Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30417) · [PDF](https://arxiv.org/pdf/2611.30417) |
 | 2026-11-23 | **When Does Optical Context Compression Pay Off? A Decode-Aware Cost Analysis of Reasoning VLMs**<br><sub>Ziqing Ge</sub> | [arXiv](https://arxiv.org/abs/2611.30130) · [PDF](https://arxiv.org/pdf/2611.30130) |
-| 2026-11-22 | **Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs**<br><sub>Feng Cheng, Cong Guo, Junyao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29497) · [PDF](https://arxiv.org/pdf/2611.29497) |
-| 2026-11-22 | **HGDNA: Overlapping k-mer Tokenization for Efficient Autoregressive Genomic Language Models**<br><sub>Xudong Wang, Siwei Cheng, Haozhe Hu</sub> | [arXiv](https://arxiv.org/abs/2611.29400) · [PDF](https://arxiv.org/pdf/2611.29400) · [Code](https://github.com/Sophie10001b/HGDNA) |
-| 2026-11-22 | **QASparse: Query-Adaptive Sparse Attention with Tailored Budgets and Tokens**<br><sub>Zhiyuan Chen, Zihao Yang, Quanjiang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29280) · [PDF](https://arxiv.org/pdf/2611.29280) |
-| 2026-11-21 | **RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling**<br><sub>Patrick Pynadath, Nicolas Perez-Nieves, Bobak Shahriari et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29066) · [PDF](https://arxiv.org/pdf/2611.29066) |
-| 2026-11-21 | **SANA-Robot: Efficient World Action Model with Hybrid Memory**<br><sub>Yuyang Zhao, Zekai Li, Yicheng Pan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28943) · [PDF](https://arxiv.org/pdf/2611.28943) |
-| 2026-11-21 | **IndexerStage: Staging Indexer-K across Memory Tiers for Sparse-Attention LLM Serving**<br><sub>Xin Zhang, Weifeng Zhang, Xianyan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28625) · [PDF](https://arxiv.org/pdf/2611.28625) |
-| 2026-11-21 | **DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving**<br><sub>Nurlan Nazaraliyev, Elaheh Sadredini, Nael Abu-Ghazaleh</sub> | [arXiv](https://arxiv.org/abs/2611.28522) · [PDF](https://arxiv.org/pdf/2611.28522) · [Code](https://github.com/nnurlan008/DisSparse) |
 
 <a id="decoding-reasoning"></a>
 
 ## Speculative Decoding & Efficient Reasoning
 
-推测解码、并行解码与推理预算优化 · **196 papers** · [Full archive](papers/decoding-reasoning.md)
+推测解码、并行解码与推理预算优化 · **201 papers** · [Full archive](papers/decoding-reasoning.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
+| 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
+| 2026-11-24 | **Pando: Noise-Coupled Parallel Draft Trees for Efficient Edge Speculative Decoding**<br><sub>Joren Dumoulin, Hyoukjun Kwon, Subhankar Pal et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32269) · [PDF](https://arxiv.org/pdf/2611.32269) |
+| 2026-11-24 | **How Much Dependency Can a Marginal Rule See? Total Correlation in Diffusion LM Parallel Decoding**<br><sub>Dovud Asadov, Rustambek Urokov, Qobiljon Toshnazarov et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31990) · [PDF](https://arxiv.org/pdf/2611.31990) · [Code](https://github.com/DovudAsadov/dllm-total-correlation) |
+| 2026-11-23 | **Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding**<br><sub>Huy Huu Nguyen, Xin Huang</sub> | [arXiv](https://arxiv.org/abs/2611.31638) · [PDF](https://arxiv.org/pdf/2611.31638) |
 | 2026-11-23 | **Self-Upgrading Embodied Agents**<br><sub>Jiajun Fan, Neil He, Qinglong Zheng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31117) · [PDF](https://arxiv.org/pdf/2611.31117) |
 | 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
 | 2026-11-23 | **Quantizing Diffusion LLMs under Parallel Decoding: Commitment Risk and the Parallelism Tax**<br><sub>Huan Xu, Maosen Zhao, Pengtao Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30587) · [PDF](https://arxiv.org/pdf/2611.30587) |
@@ -175,41 +180,40 @@ LoRA/PEFT、显存优化与高效训练 · **213 papers** · [Full archive](pape
 | 2026-11-23 | **PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency**<br><sub>Runguo Li, Dezhen Lu</sub> | [arXiv](https://arxiv.org/abs/2611.30205) · [PDF](https://arxiv.org/pdf/2611.30205) |
 | 2026-11-21 | **T2ISpec: Benchmarking Speculative Decoding for Text-to-Image Generation**<br><sub>Yifan Zhang, Shatong Zhu, Hui Shen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29029) · [PDF](https://arxiv.org/pdf/2611.29029) |
 | 2026-11-20 | **Speculative Decoding Is Less Speculative Than You Think**<br><sub>Guanning Zeng, Andrea Zanette</sub> | [arXiv](https://arxiv.org/abs/2611.27891) · [PDF](https://arxiv.org/pdf/2611.27891) |
-| 2026-11-20 | **FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference**<br><sub>Hao Ding, Zheng Shi, Dongxue Zhao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27701) · [PDF](https://arxiv.org/pdf/2611.27701) |
-| 2026-11-20 | **Reasoning in Fewer Tokens: Concept-Normalized Multilingual Scratchpads and Reversible Model-Adaptive Reasoning Codes**<br><sub>Rabimba Karanjai, Suryabhan Singh Hada, Hemanth Hegadehalli Madhavarao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.27326) · [PDF](https://arxiv.org/pdf/2611.27326) |
-| 2026-11-19 | **Generalist Meets Specialists: An Evolving Multimodal Agent with Persistent Tool Orchestration for Traffic Scenario Understanding**<br><sub>Linjia Kang, Binhan Jiang, Juan Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25868) · [PDF](https://arxiv.org/pdf/2611.25868) |
-| 2026-11-19 | **Efficient and Robust Drafting with Multi-Token Prediction**<br><sub>Filippo Galgani, Ziwei Ji, Omri Homburger et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25813) · [PDF](https://arxiv.org/pdf/2611.25813) |
-| 2026-11-19 | **Raptor: Rejection-aware Adaptive Tree based on Speculative Decoding**<br><sub>Qishu Hu, Haozhao Wang, Zicong Hong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25436) · [PDF](https://arxiv.org/pdf/2611.25436) |
 
 <a id="llm-systems"></a>
 
 ## LLM Serving & Systems
 
-LLM 推理服务、调度、卸载与分布式系统 · **341 papers** · [Full archive](papers/llm-systems.md)
+LLM 推理服务、调度、卸载与分布式系统 · **352 papers** · [Full archive](papers/llm-systems.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
+| 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
+| 2026-11-24 | **Leto: Utility-Centric Agent Memory**<br><sub>Shuguang Chen, Salman Paracha</sub> | [arXiv](https://arxiv.org/abs/2611.33005) · [PDF](https://arxiv.org/pdf/2611.33005) |
+| 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
+| 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
+| 2026-11-24 | **RePrism: Joint Request and Representation Scheduling for LLM Agent Serving**<br><sub>Xijiang Shen, Aoli Zhu, Yanbo Tan et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32545) · [PDF](https://arxiv.org/pdf/2611.32545) |
+| 2026-11-24 | **ViDM: Efficient and Order-Robust Parallel Visual Decision Making**<br><sub>Xudong Tan, Peng Ye, Chenyu Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32461) · [PDF](https://arxiv.org/pdf/2611.32461) |
+| 2026-11-24 | **Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference**<br><sub>Naoto Sugiura, Hiroki Matsutani</sub> | [arXiv](https://arxiv.org/abs/2611.32295) · [PDF](https://arxiv.org/pdf/2611.32295) |
+| 2026-11-24 | **Generalized Tensor Parallelism: Powering Trillion-Parameter LLM Training at 10+ EFLOP/s**<br><sub>Shiqing Fan, Deepak Narayanan, Jimmy Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32057) · [PDF](https://arxiv.org/pdf/2611.32057) · [Code](https://github.com/NVIDIA/Megatron-LM) |
+| 2026-11-24 | **GreenDynaMix: Thermal-Aware Dynamic Mixed-Precision MoE LLM Inference Systems**<br><sub>Han-Yi Lin, Kieran Griperay, Qiang Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31737) · [PDF](https://arxiv.org/pdf/2611.31737) |
+| 2026-11-23 | **Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding**<br><sub>Huy Huu Nguyen, Xin Huang</sub> | [arXiv](https://arxiv.org/abs/2611.31638) · [PDF](https://arxiv.org/pdf/2611.31638) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
-| 2026-11-23 | **ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy**<br><sub>Hyunsu Ye, Hyunmin Choi, Jaehong Cho et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30417) · [PDF](https://arxiv.org/pdf/2611.30417) |
-| 2026-11-23 | **EdgeALM: An Efficient and Unified Edge Accelerator for Large Audio Language Models via Full-Stack Hardware-Software Co-Design and Agent-Driven Recursive Optimization**<br><sub>Chenglin Yang, Feifan Xu, Xingyuan Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30216) · [PDF](https://arxiv.org/pdf/2611.30216) |
-| 2026-11-22 | **Exact on Paper: Which LLM Serving Shortcuts Flip Graded Answers, Measured Against the Noise of Reordering the Same Requests**<br><sub>Sharven Rane</sub> | [arXiv](https://arxiv.org/abs/2611.29663) · [PDF](https://arxiv.org/pdf/2611.29663) |
-| 2026-11-22 | **Gossamer: A Utility-Driven Architecture for Constant-Budget KV Cache Compression in Reasoning LLMs**<br><sub>Feng Cheng, Cong Guo, Junyao Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29497) · [PDF](https://arxiv.org/pdf/2611.29497) |
-| 2026-11-22 | **When Does Decomposition Help? Empirical Study on Workload-Architecture Affinity in LLM Inference Serving**<br><sub>Jihui Yang, Wentai Wu, Jiahua Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29104) · [PDF](https://arxiv.org/pdf/2611.29104) |
-| 2026-11-21 | **Analytical Modeling and Optimal GPU Provisioning for Disaggregated LLM Inference**<br><sub>Akshat Pandey, Dominic Cheng, Sidharth Sharma et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28760) · [PDF](https://arxiv.org/pdf/2611.28760) |
-| 2026-11-21 | **HiPerfCC-KVCache: Accelerating Confidential LLM Serving with Hierarchical KV Caching**<br><sub>Haoxuan Xu, Shaoyu Wang, Minghao Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28702) · [PDF](https://arxiv.org/pdf/2611.28702) |
-| 2026-11-21 | **The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates**<br><sub>Haoyuan Zheng, Dongting Li, Hancheng Ye et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28671) · [PDF](https://arxiv.org/pdf/2611.28671) · [Code](https://github.com/MAS-Sys-Bench/MAS-Sys) |
-| 2026-11-21 | **IndexerStage: Staging Indexer-K across Memory Tiers for Sparse-Attention LLM Serving**<br><sub>Xin Zhang, Weifeng Zhang, Xianyan Xie et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28625) · [PDF](https://arxiv.org/pdf/2611.28625) |
-| 2026-11-21 | **DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving**<br><sub>Nurlan Nazaraliyev, Elaheh Sadredini, Nael Abu-Ghazaleh</sub> | [arXiv](https://arxiv.org/abs/2611.28522) · [PDF](https://arxiv.org/pdf/2611.28522) · [Code](https://github.com/nnurlan008/DisSparse) |
-| 2026-11-21 | **Shoonya: Zero-Socket In-Process Small Language Models for Graph Databases with Schema-Epoch KV Caching, Live Catalog Logit Masking, and Verifier-Advantage Distillation**<br><sub>Madhulatha Mandarapu, Sandeep Kunkunuru</sub> | [arXiv](https://arxiv.org/abs/2611.28502) · [PDF](https://arxiv.org/pdf/2611.28502) · [Code](https://huggingface.co/VaidhyaMegha/Shoonya) |
 
 <a id="diffusion-acceleration"></a>
 
 ## Diffusion Caching & Acceleration
 
-扩散模型/DiT 的特征缓存、复用与采样加速 · **160 papers** · [Full archive](papers/diffusion-acceleration.md)
+扩散模型/DiT 的特征缓存、复用与采样加速 · **164 papers** · [Full archive](papers/diffusion-acceleration.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Every Edit Its Own Budget: Per-Instruction Token Freezing for Training-Free Acceleration of Multi-Edit Image Editing**<br><sub>Jyotirmoy Nath, Neeraj Kumar, Brejesh Lall</sub> | [arXiv](https://arxiv.org/abs/2611.32407) · [PDF](https://arxiv.org/pdf/2611.32407) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **CHIP: Contrastive Hardware-Image Projection. Can OpenAI CLIP Reconstruct Images from the CPU Computational Footprint?**<br><sub>Debayan Sengupta, Darsh Asher, Kaushal Mhapsekar et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30269) · [PDF](https://arxiv.org/pdf/2611.30269) |
 | 2026-11-22 | **OnCache: Learning Dynamic Caching Schedules for Efficient Diffusion Inference**<br><sub>Zhikang Xie, Xichen Ye, Yifan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29480) · [PDF](https://arxiv.org/pdf/2611.29480) |
@@ -218,31 +222,27 @@ LLM 推理服务、调度、卸载与分布式系统 · **341 papers** · [Full 
 | 2026-11-20 | **Plan Big, Paint Small: Semantic-Aware Computation Allocation for Efficient Autoregressive Video Generation**<br><sub>Yixuan Luo, Yanjing Li</sub> | [arXiv](https://arxiv.org/abs/2611.28402) · [PDF](https://arxiv.org/pdf/2611.28402) |
 | 2026-11-19 | **Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling**<br><sub>Yuchen Zhou, Lili Zheng, Yuxin Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.26407) · [PDF](https://arxiv.org/pdf/2611.26407) |
 | 2026-11-19 | **Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers**<br><sub>Ryan Lucas, Petros Prastakos, Rahul Mazumder</sub> | [arXiv](https://arxiv.org/abs/2611.26334) · [PDF](https://arxiv.org/pdf/2611.26334) |
-| 2026-11-19 | **D3-Cache: Accelerating Diffusion Models with Dynamic Mode Decomposition**<br><sub>Yanbo Li, An Xiang, Xiaoxin Hu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25689) · [PDF](https://arxiv.org/pdf/2611.25689) |
-| 2026-11-19 | **TRAC: Efficient Diffusion Language Models for Machine Translation via Length-Aware Decoding**<br><sub>Tianyuan Li, Xihan Yang, Chenglong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25643) · [PDF](https://arxiv.org/pdf/2611.25643) |
-| 2026-11-19 | **FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash**<br><sub>Yuseon Choi, Sanghyeon Park, Eunjong Lee et al.</sub> | [arXiv](https://arxiv.org/abs/2611.25580) · [PDF](https://arxiv.org/pdf/2611.25580) |
-| 2026-11-19 | **Choose What Returns: Object-Aware KV Memory for Selective Recall in Interactive Video Generation**<br><sub>Hyunwook Kang, Junoh Park, Hyunggyu Lim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.28137) · [PDF](https://arxiv.org/pdf/2611.28137) |
 
 <a id="visual-generation"></a>
 
 ## Efficient Image & Video Generation
 
-图像/视频生成的计算、显存与延迟优化 · **282 papers** · [Full archive](papers/visual-generation.md)
+图像/视频生成的计算、显存与延迟优化 · **291 papers** · [Full archive](papers/visual-generation.md)
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction**<br><sub>Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33141) · [PDF](https://arxiv.org/pdf/2611.33141) |
+| 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
+| 2026-11-24 | **Residual Guidance for Real-Time Interactive Video Generation**<br><sub>NaHyeon Park, Kyeong-Hwan Moon, Youjin Jeon et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32820) · [PDF](https://arxiv.org/pdf/2611.32820) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
+| 2026-11-24 | **The Old Scene Lives in the Cache: Diagnosing and Shedding Stale History in Streaming Video Generation**<br><sub>Hao Zhou, Ziyang Xu, Chenhan Jin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32116) · [PDF](https://arxiv.org/pdf/2611.32116) |
+| 2026-11-24 | **DexOPD: Dual-Extrapolation On-Policy Distillation for Diffusion Models**<br><sub>Yunchao Ke, Yanzhe Hu, Yi Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31969) · [PDF](https://arxiv.org/pdf/2611.31969) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-23 | **PromptSMC: Enabling Particle Exploration in Flow Matching via LLM-Based Prompt Rejuvenation**<br><sub>Wenyi Lian, Zheng Zhao, Thomas B. Schön</sub> | [arXiv](https://arxiv.org/abs/2611.31471) · [PDF](https://arxiv.org/pdf/2611.31471) · [Code](https://github.com/shermanlian/PromptSMC) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **Analyzing and Improving FlowMap Distillation of Autoregressive Video Models**<br><sub>Yong-Hyun Park, Guande He, Joon Hyeok Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31164) · [PDF](https://arxiv.org/pdf/2611.31164) |
 | 2026-11-23 | **SPROUT: Predicting Objective-Grounded Prompt Utility for Efficient Text-to-Image Preference Tuning**<br><sub>Kangping Hu, Akshay Mehra, Stephen Mussmann</sub> | [arXiv](https://arxiv.org/abs/2611.31163) · [PDF](https://arxiv.org/pdf/2611.31163) · [Code](https://github.com/ADDAPT-ML/SPROUT) |
-| 2026-11-23 | **DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers**<br><sub>Lernie Li, Yuanliu Liu, Pengfei Xiong et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30844) · [PDF](https://arxiv.org/pdf/2611.30844) |
-| 2026-11-23 | **Same Seed, Different Picture? Deciding Early at Low Resolution for Seed-Faithful Few-Step Flow Sampling**<br><sub>Huiran Duan, Weilun Feng, Yuqi Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30728) · [PDF](https://arxiv.org/pdf/2611.30728) |
-| 2026-11-23 | **Speculate in the Right Order: Efficient Self-Speculative Decoding for Autoregressive Image Generation**<br><sub>Yihan Chen, Jintao Zhang, Jun Zhu</sub> | [arXiv](https://arxiv.org/abs/2611.30704) · [PDF](https://arxiv.org/pdf/2611.30704) |
-| 2026-11-23 | **What Remains After Concept Erasure? Sparse Autoencoder Probes for Auditing Diffusion Models**<br><sub>Zhuan Shi, Lu Wei, Yuta Nakashima et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30117) · [PDF](https://arxiv.org/pdf/2611.30117) |
-| 2026-11-22 | **Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation**<br><sub>Yiyu Li, Fei Wei, Yong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29618) · [PDF](https://arxiv.org/pdf/2611.29618) |
-| 2026-11-22 | **OnCache: Learning Dynamic Caching Schedules for Efficient Diffusion Inference**<br><sub>Zhikang Xie, Xichen Ye, Yifan Wu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29480) · [PDF](https://arxiv.org/pdf/2611.29480) |
-| 2026-11-22 | **Seeing Through Preferences: Recovering Hidden Local Preference Neighborhoods for Text-to-Image Alignment**<br><sub>Pulkit Bansal, Vivek Srivastava, Shirish Karande</sub> | [arXiv](https://arxiv.org/abs/2611.29436) · [PDF](https://arxiv.org/pdf/2611.29436) |
-| 2026-11-22 | **HorizonFlow: Few-Step Video Distillation in 600 Iterations**<br><sub>Xianglong Guo, Haobo Xu, Zanyi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29431) · [PDF](https://arxiv.org/pdf/2611.29431) · [Code](https://github.com/XIANGLONGGUO/HorizonFlow-repo) |
-| 2026-11-22 | **PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**<br><sub>Zeyu Ren, Jie Ni, Rui Qian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29389) · [PDF](https://arxiv.org/pdf/2611.29389) |
 
 ## How it works
 

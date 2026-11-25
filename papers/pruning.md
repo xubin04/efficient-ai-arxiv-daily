@@ -4,10 +4,17 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-286 papers · newest submission first
+293 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **Efficient Video Retrieval Augmented Generation via Token Allocation**<br><sub>Ayush Barik, Fan Lai, Francis Y. Yan</sub> | [arXiv](https://arxiv.org/abs/2611.32938) · [PDF](https://arxiv.org/pdf/2611.32938) |
+| 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
+| 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
+| 2026-11-24 | **Pando: Noise-Coupled Parallel Draft Trees for Efficient Edge Speculative Decoding**<br><sub>Joren Dumoulin, Hyoukjun Kwon, Subhankar Pal et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32269) · [PDF](https://arxiv.org/pdf/2611.32269) |
+| 2026-11-24 | **LIBRA: Runtime Co-Tuning of Batch Size and Parallelism for Time-Efficient LLM Training**<br><sub>Shengkai Lyu, Hairui Zhao, Daran Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32008) · [PDF](https://arxiv.org/pdf/2611.32008) |
+| 2026-11-24 | **Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion**<br><sub>Jian Yang, Zhizhuo Kou, Qiyuan Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31892) · [PDF](https://arxiv.org/pdf/2611.31892) |
+| 2026-11-24 | **FN-Prune: Training-Free Expert Pruning with Finite RMSNorm Perturbations**<br><sub>Zeyan Li, Jianfeng Xu</sub> | [arXiv](https://arxiv.org/abs/2611.31747) · [PDF](https://arxiv.org/pdf/2611.31747) |
 | 2026-11-23 | **Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action**<br><sub>Seongchan Kim, Soowon Son, Sangoh Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31240) · [PDF](https://arxiv.org/pdf/2611.31240) |
 | 2026-11-23 | **On-Policy Codec Distillation for Efficient All-in-One Video Generation**<br><sub>Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31184) · [PDF](https://arxiv.org/pdf/2611.31184) |
 | 2026-11-23 | **Uncovering the Tells: Efficient Black-Box Audits for LLM Data Contamination**<br><sub>Dominik Bernard Lau, Filip Pawlicki, Jan Dubiński et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30639) · [PDF](https://arxiv.org/pdf/2611.30639) |

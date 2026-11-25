@@ -4,10 +4,15 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-213 papers · newest submission first
+218 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
+| 2026-11-24 | **Scaling Laws of Ensemble Uncertainty in Language Models**<br><sub>Siamak Ravanbakhsh, David Nitchi, Khang Ngo</sub> | [arXiv](https://arxiv.org/abs/2611.32801) · [PDF](https://arxiv.org/pdf/2611.32801) |
+| 2026-11-24 | **Improving Character Identity Consistency in Diffusion-Based Visual Story Generation through Identity Memory and Automatic Reranking**<br><sub>Maria-Emilia Grigore, Stelian Spînu</sub> | [arXiv](https://arxiv.org/abs/2611.32383) · [PDF](https://arxiv.org/pdf/2611.32383) · [Code](https://github.com/MerryWex/character-consistency-visual-storytelling) |
+| 2026-11-24 | **LIBRA: Runtime Co-Tuning of Batch Size and Parallelism for Time-Efficient LLM Training**<br><sub>Shengkai Lyu, Hairui Zhao, Daran Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32008) · [PDF](https://arxiv.org/pdf/2611.32008) |
+| 2026-11-24 | **ET: Efficient Transfer from Softmax to Hybrid Attention**<br><sub>Guangfu Guo, Xiaoqian Lu, Linsey Pang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31770) · [PDF](https://arxiv.org/pdf/2611.31770) |
 | 2026-11-23 | **LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents**<br><sub>Tianyi Huang, Samuel Xu, Ivy Gu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.31105) · [PDF](https://arxiv.org/pdf/2611.31105) |
 | 2026-11-23 | **Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**<br><sub>Jesper Derehag</sub> | [arXiv](https://arxiv.org/abs/2611.30825) · [PDF](https://arxiv.org/pdf/2611.30825) |
 | 2026-11-23 | **LiveMirror: Real-Time Diffusion Virtual Try-On on a Consumer GPU and Its Self-Supervised Adaptation to Indian Ethnic Wear**<br><sub>Jigyansha Jeevan Rout, Sukanta Kumar Sabut</sub> | [arXiv](https://arxiv.org/abs/2611.30461) · [PDF](https://arxiv.org/pdf/2611.30461) |
