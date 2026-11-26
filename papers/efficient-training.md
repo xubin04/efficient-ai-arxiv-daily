@@ -4,10 +4,11 @@ LoRA/PEFT、显存优化与高效训练
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=efficient-training)
 
-218 papers · newest submission first
+219 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **Looped Models are Fast Multi-Token Predictors**<br><sub>Ayhan Suleymanzade, Sean McLeish, Sehoon Kim et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33896) · [PDF](https://arxiv.org/pdf/2611.33896) |
 | 2026-11-24 | **LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training**<br><sub>Hanzhen Wang, Jiaming Xu, Guohao Dai</sub> | [arXiv](https://arxiv.org/abs/2611.33004) · [PDF](https://arxiv.org/pdf/2611.33004) |
 | 2026-11-24 | **Scaling Laws of Ensemble Uncertainty in Language Models**<br><sub>Siamak Ravanbakhsh, David Nitchi, Khang Ngo</sub> | [arXiv](https://arxiv.org/abs/2611.32801) · [PDF](https://arxiv.org/pdf/2611.32801) |
 | 2026-11-24 | **Improving Character Identity Consistency in Diffusion-Based Visual Story Generation through Identity Memory and Automatic Reranking**<br><sub>Maria-Emilia Grigore, Stelian Spînu</sub> | [arXiv](https://arxiv.org/abs/2611.32383) · [PDF](https://arxiv.org/pdf/2611.32383) · [Code](https://github.com/MerryWex/character-consistency-visual-storytelling) |

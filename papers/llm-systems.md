@@ -4,10 +4,13 @@ LLM 推理服务、调度、卸载与分布式系统
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=llm-systems)
 
-352 papers · newest submission first
+355 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **PipeAxes: Decoupling Compute and Communication Granularities for Pipeline-Parallel LLM Serving**<br><sub>Xiaoqiang Guo, Yifan Lin, Yang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34615) · [PDF](https://arxiv.org/pdf/2611.34615) |
+| 2026-11-25 | **Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries**<br><sub>Lin Yao</sub> | [arXiv](https://arxiv.org/abs/2611.34612) · [PDF](https://arxiv.org/pdf/2611.34612) |
+| 2026-11-24 | **RankCast: Phase-Aware Rank Balancing in MoE Serving**<br><sub>Kaidi Fu, Xu-Hao Lu, Pingwei Sun et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33542) · [PDF](https://arxiv.org/pdf/2611.33542) |
 | 2026-11-24 | **Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions**<br><sub>Yuxing Liu, Wei Zuo, Walid Krichene et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33111) · [PDF](https://arxiv.org/pdf/2611.33111) |
 | 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
 | 2026-11-24 | **Leto: Utility-Centric Agent Memory**<br><sub>Shuguang Chen, Salman Paracha</sub> | [arXiv](https://arxiv.org/abs/2611.33005) · [PDF](https://arxiv.org/pdf/2611.33005) |

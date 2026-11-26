@@ -4,10 +4,20 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=visual-generation)
 
-291 papers · newest submission first
+301 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies**<br><sub>Yipengjing Sun, Chenyang Wang, Boyao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34940) · [PDF](https://arxiv.org/pdf/2611.34940) |
+| 2026-11-25 | **LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE**<br><sub>Jiachen An, Sijie Zhao, Le Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34912) · [PDF](https://arxiv.org/pdf/2611.34912) · [Code](https://github.com/MeiGen-AI/LiveVAE) |
+| 2026-11-25 | **Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation**<br><sub>Shaoteng Liu, Shuai Yang, Wei Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34907) · [PDF](https://arxiv.org/pdf/2611.34907) |
+| 2026-11-25 | **Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics**<br><sub>Chengzhi Zhao, Juelin Li, Zhennan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34644) · [PDF](https://arxiv.org/pdf/2611.34644) |
+| 2026-11-25 | **TORE: Token-Wise Taylor Order Selection via Decomposed Residual Error Estimation for Diffusion Acceleration**<br><sub>Lei Tang, Baoquan Zhang, Yakun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34261) · [PDF](https://arxiv.org/pdf/2611.34261) |
+| 2026-11-25 | **SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation**<br><sub>Zesong Yang, Weikai Chen, Liyuan Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34064) · [PDF](https://arxiv.org/pdf/2611.34064) |
+| 2026-11-25 | **FasterGRN: Reducing the Refinement Redundancy for Accelerating Generative Refinement Networks**<br><sub>Ziqian Zhang, Pengcheng Wang, Yulong Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33982) · [PDF](https://arxiv.org/pdf/2611.33982) |
+| 2026-11-25 | **DriftWAM: Faster World-Action Models via Action-Aware Video Drifting**<br><sub>Minyang Li, Siyu Xu, Yunke Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33797) · [PDF](https://arxiv.org/pdf/2611.33797) |
+| 2026-11-25 | **ScanAR: Parallel Row-Scan Decoding for Efficient Image Generation in Unified Autoregressive Models**<br><sub>Jingen Qu, Xi Chen, Yingbo Tang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33761) · [PDF](https://arxiv.org/pdf/2611.33761) |
+| 2026-11-24 | **JetDiffusion: Pushing the Speed Limits of Video Generation with NVFP4 Sparse Attention**<br><sub>Yulun Wu, Zihan Min, Minshen Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33268) · [PDF](https://arxiv.org/pdf/2611.33268) |
 | 2026-11-24 | **iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction**<br><sub>Vansh Kapoor, Max Sobol Mark, Sreyas Venkataraman et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33141) · [PDF](https://arxiv.org/pdf/2611.33141) |
 | 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
 | 2026-11-24 | **Residual Guidance for Real-Time Interactive Video Generation**<br><sub>NaHyeon Park, Kyeong-Hwan Moon, Youjin Jeon et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32820) · [PDF](https://arxiv.org/pdf/2611.32820) |

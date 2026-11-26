@@ -4,10 +4,16 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=pruning)
 
-293 papers · newest submission first
+299 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator**<br><sub>Xiang Li, Hongyu Zhou, Ya-Li Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34750) · [PDF](https://arxiv.org/pdf/2611.34750) |
+| 2026-11-25 | **A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity**<br><sub>Yifan Wang, Zetao Guo, You Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34630) · [PDF](https://arxiv.org/pdf/2611.34630) |
+| 2026-11-25 | **PURA: Video Token Pruning via Unified Spatiotemporal Redundancy Assessment**<br><sub>Yuyao Sun, Hongli Yuan, Shuang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34521) · [PDF](https://arxiv.org/pdf/2611.34521) |
+| 2026-11-25 | **SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation**<br><sub>Zesong Yang, Weikai Chen, Liyuan Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34064) · [PDF](https://arxiv.org/pdf/2611.34064) |
+| 2026-11-24 | **Scalpel and Brush: Pruning and Targeted Weight Editing of a Small Language Model by a Single LLM Agent**<br><sub>Sergei Koltcov, Vera Ignatenko, Anton Surkov et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33426) · [PDF](https://arxiv.org/pdf/2611.33426) |
+| 2026-11-24 | **JetDiffusion: Pushing the Speed Limits of Video Generation with NVFP4 Sparse Attention**<br><sub>Yulun Wu, Zihan Min, Minshen Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33268) · [PDF](https://arxiv.org/pdf/2611.33268) |
 | 2026-11-24 | **Efficient Video Retrieval Augmented Generation via Token Allocation**<br><sub>Ayush Barik, Fan Lai, Francis Y. Yan</sub> | [arXiv](https://arxiv.org/abs/2611.32938) · [PDF](https://arxiv.org/pdf/2611.32938) |
 | 2026-11-24 | **Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets**<br><sub>Truong-Thanh Le, Hoang-Loc La, Amir Taherkordi et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32881) · [PDF](https://arxiv.org/pdf/2611.32881) |
 | 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |

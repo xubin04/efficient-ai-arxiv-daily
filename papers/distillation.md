@@ -4,10 +4,24 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=distillation)
 
-618 papers · newest submission first
+632 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies**<br><sub>Yipengjing Sun, Chenyang Wang, Boyao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34940) · [PDF](https://arxiv.org/pdf/2611.34940) |
+| 2026-11-25 | **LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE**<br><sub>Jiachen An, Sijie Zhao, Le Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34912) · [PDF](https://arxiv.org/pdf/2611.34912) · [Code](https://github.com/MeiGen-AI/LiveVAE) |
+| 2026-11-25 | **SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator**<br><sub>Xiang Li, Hongyu Zhou, Ya-Li Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34750) · [PDF](https://arxiv.org/pdf/2611.34750) |
+| 2026-11-25 | **Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing**<br><sub>Yichang Luo, Hourun Zhu, Shixiong Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34700) · [PDF](https://arxiv.org/pdf/2611.34700) · [Code](https://github.com/YeeCharm/GeOPD) |
+| 2026-11-25 | **WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation**<br><sub>Tianxiang Jiang, Sheng Xia, Yilin Long et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34292) · [PDF](https://arxiv.org/pdf/2611.34292) |
+| 2026-11-25 | **OceanFix: Reference-Guided Diffusion for Sparse-View Underwater 3D Reconstruction**<br><sub>Gen Li, Maoxin Chen, Yao Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34155) · [PDF](https://arxiv.org/pdf/2611.34155) |
+| 2026-11-25 | **Spe3DUp: Faithful Trajectory Distillation for Fast Image-to-3D Generation**<br><sub>Liangchao Xu, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34141) · [PDF](https://arxiv.org/pdf/2611.34141) |
+| 2026-11-25 | **Understanding Diffusion Acceleration: Methods, Trade-Offs, and Open Questions**<br><sub>Xiaofeng Mao, Fu-yun Wang, Le Zhuo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34056) · [PDF](https://arxiv.org/pdf/2611.34056) |
+| 2026-11-25 | **InstructTTS-OPD: On-Policy Distillation for Multi-Objective Instruction-Following TTS**<br><sub>Haitao Li, Tian Tan, Yuguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33937) · [PDF](https://arxiv.org/pdf/2611.33937) |
+| 2026-11-25 | **X-Matte: VAE-Free Pixel-Space Flow Matching for Single-Step Image Matting**<br><sub>Zanyi Wang, Jiaang Li, Dengyang Jiang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33874) · [PDF](https://arxiv.org/pdf/2611.33874) |
+| 2026-11-25 | **Hybrid Reinforcement Learning for One-step Degraded Infrared and Visible Image Fusion**<br><sub>Hongwei Yu, Daoqing Zha, Jiawei Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33857) · [PDF](https://arxiv.org/pdf/2611.33857) |
+| 2026-11-25 | **DriftWAM: Faster World-Action Models via Action-Aware Video Drifting**<br><sub>Minyang Li, Siyu Xu, Yunke Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33797) · [PDF](https://arxiv.org/pdf/2611.33797) |
+| 2026-11-25 | **Rethinking Knowledge Distillation for Diffusion Language Models**<br><sub>Yuxuan Sun, Yuanjian Xu, Jianing Hao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33670) · [PDF](https://arxiv.org/pdf/2611.33670) |
+| 2026-11-24 | **JetDiffusion: Pushing the Speed Limits of Video Generation with NVFP4 Sparse Attention**<br><sub>Yulun Wu, Zihan Min, Minshen Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33268) · [PDF](https://arxiv.org/pdf/2611.33268) |
 | 2026-11-24 | **RePix-VFI: Re-rendering Observed Pixels for Video Frame Interpolation with Generative Priors from One-Step Diffusion**<br><sub>Dayeon Kim, Jeonghyeok Do, Munchurl Kim</sub> | [arXiv](https://arxiv.org/abs/2611.33016) · [PDF](https://arxiv.org/pdf/2611.33016) |
 | 2026-11-24 | **HazeFlux: Few-Step Generative Priors for Real-World Image Dehazing**<br><sub>Yunong Liu, Danna Xue, Javier Vazquez-Corral</sub> | [arXiv](https://arxiv.org/abs/2611.32632) · [PDF](https://arxiv.org/pdf/2611.32632) |
 | 2026-11-24 | **STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation**<br><sub>Yi Zou, Zhuang Yan, Yudong Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32472) · [PDF](https://arxiv.org/pdf/2611.32472) |
@@ -29,7 +43,7 @@
 | 2026-11-23 | **Preserve to Compress: Beyond Low-Dimensional Latents in One-Step Diffusion Codec**<br><sub>Chuqin Zhou, Xiaoyue Ling, Yuhang Wei et al.</sub> | [arXiv](https://arxiv.org/abs/2611.30154) · [PDF](https://arxiv.org/pdf/2611.30154) |
 | 2026-11-22 | **Reasoning Beyond Imitation: Observation Conditioned Distillation for Video LLMs**<br><sub>Junzhou Chen, Jindong Wang, Gang Zhou</sub> | [arXiv](https://arxiv.org/abs/2611.29728) · [PDF](https://arxiv.org/pdf/2611.29728) |
 | 2026-11-22 | **Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation**<br><sub>Yiyu Li, Fei Wei, Yong Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29618) · [PDF](https://arxiv.org/pdf/2611.29618) |
-| 2026-11-22 | **Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato**<br><sub>Mingxiao Li, Xuantuo Huang, Encheng Su et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29547) · [PDF](https://arxiv.org/pdf/2611.29547) |
+| 2026-11-22 | **Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generators**<br><sub>Mingxiao Li, Xuantuo Huang, Encheng Su et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29547) · [PDF](https://arxiv.org/pdf/2611.29547) |
 | 2026-11-22 | **HorizonFlow: Few-Step Video Distillation in 600 Iterations**<br><sub>Xianglong Guo, Haobo Xu, Zanyi Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29431) · [PDF](https://arxiv.org/pdf/2611.29431) · [Code](https://github.com/XIANGLONGGUO/HorizonFlow-repo) |
 | 2026-11-22 | **PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**<br><sub>Zeyu Ren, Jie Ni, Rui Qian et al.</sub> | [arXiv](https://arxiv.org/abs/2611.29389) · [PDF](https://arxiv.org/pdf/2611.29389) |
 | 2026-11-21 | **Legal Is Not Good: A Pre-Registered Benchmark of Low-Cost Language and Decision Models on a New Strategy Game**<br><sub>Federico Lucca</sub> | [arXiv](https://arxiv.org/abs/2611.28713) · [PDF](https://arxiv.org/pdf/2611.28713) · [Code](https://github.com/federicolucca/hexfolk) |

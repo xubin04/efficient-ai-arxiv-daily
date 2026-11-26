@@ -4,10 +4,13 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=quantization)
 
-332 papers · newest submission first
+335 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity**<br><sub>Yifan Wang, Zetao Guo, You Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34630) · [PDF](https://arxiv.org/pdf/2611.34630) |
+| 2026-11-25 | **Any-Rate: Half-Bit Multi-Precision LLM Quantization with Coded Bit-Planes**<br><sub>Hoonki Lee, Haechan Shin, Hyuntaek Jung et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34402) · [PDF](https://arxiv.org/pdf/2611.34402) · [Code](https://github.com/hoonki2002/Any-Rate) |
+| 2026-11-24 | **JetDiffusion: Pushing the Speed Limits of Video Generation with NVFP4 Sparse Attention**<br><sub>Yulun Wu, Zihan Min, Minshen Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33268) · [PDF](https://arxiv.org/pdf/2611.33268) |
 | 2026-11-24 | **Shifter Quantization: Compact Representations for Native Integer Computation**<br><sub>Yufeng Huang</sub> | [arXiv](https://arxiv.org/abs/2611.33080) · [PDF](https://arxiv.org/pdf/2611.33080) |
 | 2026-11-24 | **Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?**<br><sub>Steffen Urban</sub> | [arXiv](https://arxiv.org/abs/2611.33031) · [PDF](https://arxiv.org/pdf/2611.33031) · [Code](https://github.com/urbste/weight-space-programming-ptq) |
 | 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |

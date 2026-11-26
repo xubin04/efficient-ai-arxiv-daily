@@ -4,10 +4,15 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=attention-kv-cache)
 
-330 papers · newest submission first
+335 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE**<br><sub>Jiachen An, Sijie Zhao, Le Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34912) · [PDF](https://arxiv.org/pdf/2611.34912) · [Code](https://github.com/MeiGen-AI/LiveVAE) |
+| 2026-11-25 | **VAPOR: Improving Multimodal Reasoning with Sparse Visual Updates**<br><sub>Mingyu Su, Wei Wu, Erle Zhu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33751) · [PDF](https://arxiv.org/pdf/2611.33751) · [Code](https://github.com/Su-my/VAPOR) |
+| 2026-11-25 | **L2C2: Enhancing Large-scale Chiplets for Agent Long-Context LLM Inference with Sparse and Distributed Attention**<br><sub>Kangbo Bai, Zhonghua Mu, Hongze Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33691) · [PDF](https://arxiv.org/pdf/2611.33691) |
+| 2026-11-25 | **State Space Attention: Learning Context-Dependent Memory Retention**<br><sub>Ege Çakar, Cengiz Pehlevan</sub> | [arXiv](https://arxiv.org/abs/2611.33625) · [PDF](https://arxiv.org/pdf/2611.33625) · [Code](https://github.com/Ege-Cakar/State-Space-Attention) |
+| 2026-11-24 | **JetDiffusion: Pushing the Speed Limits of Video Generation with NVFP4 Sparse Attention**<br><sub>Yulun Wu, Zihan Min, Minshen Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33268) · [PDF](https://arxiv.org/pdf/2611.33268) |
 | 2026-11-24 | **Eliciting the Recall Capacity of Linear Attention**<br><sub>Johan Lindqvist, Antonio Orvieto</sub> | [arXiv](https://arxiv.org/abs/2611.32969) · [PDF](https://arxiv.org/pdf/2611.32969) |
 | 2026-11-24 | **LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving**<br><sub>Wentao Zhu, Ziao Sheng, Peng Deng et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32954) · [PDF](https://arxiv.org/pdf/2611.32954) |
 | 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |

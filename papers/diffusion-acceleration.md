@@ -4,10 +4,14 @@
 
 [← Home](../README.md) · [Search online](https://xubin04.github.io/efficient-ai-arxiv-daily/?topic=diffusion-acceleration)
 
-164 papers · newest submission first
+168 papers · newest submission first
 
 | Published | Paper & authors | Links |
 |:---|:---|:---|
+| 2026-11-25 | **LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE**<br><sub>Jiachen An, Sijie Zhao, Le Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34912) · [PDF](https://arxiv.org/pdf/2611.34912) · [Code](https://github.com/MeiGen-AI/LiveVAE) |
+| 2026-11-25 | **TORE: Token-Wise Taylor Order Selection via Decomposed Residual Error Estimation for Diffusion Acceleration**<br><sub>Lei Tang, Baoquan Zhang, Yakun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34261) · [PDF](https://arxiv.org/pdf/2611.34261) |
+| 2026-11-25 | **Understanding Diffusion Acceleration: Methods, Trade-Offs, and Open Questions**<br><sub>Xiaofeng Mao, Fu-yun Wang, Le Zhuo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34056) · [PDF](https://arxiv.org/pdf/2611.34056) |
+| 2026-11-25 | **FasterGRN: Reducing the Refinement Redundancy for Accelerating Generative Refinement Networks**<br><sub>Ziqian Zhang, Pengcheng Wang, Yulong Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33982) · [PDF](https://arxiv.org/pdf/2611.33982) |
 | 2026-11-24 | **Sol$^{3}$: Accelerating Video Diffusion for Free via Hierarchical Sparse Attention Routing**<br><sub>Guoxin Fan, Weilun Feng, Chuanguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32562) · [PDF](https://arxiv.org/pdf/2611.32562) · [Code](https://github.com/FofGofx/sol3) |
 | 2026-11-24 | **Every Edit Its Own Budget: Per-Instruction Token Freezing for Training-Free Acceleration of Multi-Edit Image Editing**<br><sub>Jyotirmoy Nath, Neeraj Kumar, Brejesh Lall</sub> | [arXiv](https://arxiv.org/abs/2611.32407) · [PDF](https://arxiv.org/pdf/2611.32407) |
 | 2026-11-24 | **LRQ-Cache: Compressing Feature Caches in Video Diffusion via Low-Rank Approximation and Quantization**<br><sub>Ruizhe Yao, Zhen Huang, Songpan Gao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.32345) · [PDF](https://arxiv.org/pdf/2611.32345) |
