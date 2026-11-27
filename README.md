@@ -8,7 +8,7 @@
 
 **[Browse & search papers ↗](https://xubin04.github.io/efficient-ai-arxiv-daily/)** · [Atom feed](https://xubin04.github.io/efficient-ai-arxiv-daily/feed.xml) · [Search configuration](config.json) · [All paper metadata](data/papers.json)
 
-Last successful scan: **2026-11-26 17:35 CST** · **2082 unique papers** · Newest submission: **2026-11-25**
+Last successful scan: **2026-11-27 17:42 CST** · **2082 unique papers** · Newest submission: **2026-11-25**
 
 > Dates below are original arXiv submission dates. The scan time is shown separately. A paper can belong to multiple topics; topic counts overlap.
 
@@ -26,34 +26,11 @@ Last successful scan: **2026-11-26 17:35 CST** · **2082 unique papers** · Newe
 | [Diffusion Caching & Acceleration](#diffusion-acceleration) | 扩散模型/DiT 的特征缓存、复用与采样加速 | 168 |
 | [Efficient Image & Video Generation](#visual-generation) | 图像/视频生成的计算、显存与延迟优化 | 301 |
 
-## Newly indexed · 2026-11-26
+## Newly indexed · 2026-11-27
 
 These papers were first added to this repository today. The initial import includes older papers within the backfill window.
 
-| Published | Paper & authors | Links |
-|:---|:---|:---|
-| 2026-11-25 | **LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies**<br><sub>Yipengjing Sun, Chenyang Wang, Boyao Zhou et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34940) · [PDF](https://arxiv.org/pdf/2611.34940) |
-| 2026-11-25 | **LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE**<br><sub>Jiachen An, Sijie Zhao, Le Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34912) · [PDF](https://arxiv.org/pdf/2611.34912) · [Code](https://github.com/MeiGen-AI/LiveVAE) |
-| 2026-11-25 | **Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation**<br><sub>Shaoteng Liu, Shuai Yang, Wei Huang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34907) · [PDF](https://arxiv.org/pdf/2611.34907) |
-| 2026-11-25 | **SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator**<br><sub>Xiang Li, Hongyu Zhou, Ya-Li Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34750) · [PDF](https://arxiv.org/pdf/2611.34750) |
-| 2026-11-25 | **Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing**<br><sub>Yichang Luo, Hourun Zhu, Shixiong Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34700) · [PDF](https://arxiv.org/pdf/2611.34700) · [Code](https://github.com/YeeCharm/GeOPD) |
-| 2026-11-25 | **Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics**<br><sub>Chengzhi Zhao, Juelin Li, Zhennan Wang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34644) · [PDF](https://arxiv.org/pdf/2611.34644) |
-| 2026-11-25 | **A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity**<br><sub>Yifan Wang, Zetao Guo, You Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34630) · [PDF](https://arxiv.org/pdf/2611.34630) |
-| 2026-11-25 | **PipeAxes: Decoupling Compute and Communication Granularities for Pipeline-Parallel LLM Serving**<br><sub>Xiaoqiang Guo, Yifan Lin, Yang Liu et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34615) · [PDF](https://arxiv.org/pdf/2611.34615) |
-| 2026-11-25 | **Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries**<br><sub>Lin Yao</sub> | [arXiv](https://arxiv.org/abs/2611.34612) · [PDF](https://arxiv.org/pdf/2611.34612) |
-| 2026-11-25 | **PURA: Video Token Pruning via Unified Spatiotemporal Redundancy Assessment**<br><sub>Yuyao Sun, Hongli Yuan, Shuang Li et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34521) · [PDF](https://arxiv.org/pdf/2611.34521) |
-| 2026-11-25 | **Any-Rate: Half-Bit Multi-Precision LLM Quantization with Coded Bit-Planes**<br><sub>Hoonki Lee, Haechan Shin, Hyuntaek Jung et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34402) · [PDF](https://arxiv.org/pdf/2611.34402) · [Code](https://github.com/hoonki2002/Any-Rate) |
-| 2026-11-25 | **WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation**<br><sub>Tianxiang Jiang, Sheng Xia, Yilin Long et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34292) · [PDF](https://arxiv.org/pdf/2611.34292) |
-| 2026-11-25 | **TORE: Token-Wise Taylor Order Selection via Decomposed Residual Error Estimation for Diffusion Acceleration**<br><sub>Lei Tang, Baoquan Zhang, Yakun Zhang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34261) · [PDF](https://arxiv.org/pdf/2611.34261) |
-| 2026-11-25 | **OceanFix: Reference-Guided Diffusion for Sparse-View Underwater 3D Reconstruction**<br><sub>Gen Li, Maoxin Chen, Yao Xiao et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34155) · [PDF](https://arxiv.org/pdf/2611.34155) |
-| 2026-11-25 | **Spe3DUp: Faithful Trajectory Distillation for Fast Image-to-3D Generation**<br><sub>Liangchao Xu, Jiaye Fu, Youtian Lin et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34141) · [PDF](https://arxiv.org/pdf/2611.34141) |
-| 2026-11-25 | **SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation**<br><sub>Zesong Yang, Weikai Chen, Liyuan Cui et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34064) · [PDF](https://arxiv.org/pdf/2611.34064) |
-| 2026-11-25 | **Understanding Diffusion Acceleration: Methods, Trade-Offs, and Open Questions**<br><sub>Xiaofeng Mao, Fu-yun Wang, Le Zhuo et al.</sub> | [arXiv](https://arxiv.org/abs/2611.34056) · [PDF](https://arxiv.org/pdf/2611.34056) |
-| 2026-11-25 | **Asymmetric Speculative Decoding: Unlocking In-Context Learning in Draft Models**<br><sub>Guang Huang, Zeyi Wen</sub> | [arXiv](https://arxiv.org/abs/2611.34010) · [PDF](https://arxiv.org/pdf/2611.34010) |
-| 2026-11-25 | **FasterGRN: Reducing the Refinement Redundancy for Accelerating Generative Refinement Networks**<br><sub>Ziqian Zhang, Pengcheng Wang, Yulong Chen et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33982) · [PDF](https://arxiv.org/pdf/2611.33982) |
-| 2026-11-25 | **InstructTTS-OPD: On-Policy Distillation for Multi-Objective Instruction-Following TTS**<br><sub>Haitao Li, Tian Tan, Yuguang Yang et al.</sub> | [arXiv](https://arxiv.org/abs/2611.33937) · [PDF](https://arxiv.org/pdf/2611.33937) |
-
-[View all 32 newly indexed papers](https://xubin04.github.io/efficient-ai-arxiv-daily/?new=1).
+No newly indexed papers in this scan.
 
 <a id="quantization"></a>
 
